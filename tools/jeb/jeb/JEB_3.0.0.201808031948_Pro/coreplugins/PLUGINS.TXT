@@ -1,0 +1,9 @@
+JEB Decompiler (c) PNF Software, Inc. 
+https://www.pnfsoftware.com
+
+This directory contains additional analysis modules for JEB.
+
+JEB plugins can be written in Java or Python.
+
+-> Visit https://www.pnfsoftware.com/jeb/plugins to download free and open-source plugins.
+-> Visit https://www.pnfsoftware.com/jeb/manual/dev/introducing-jeb-extensions/ to get started on writing your own plugins!

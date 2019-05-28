@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="PNF Software">
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb2/manual/dev/5-development-tips/index.html">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        
+
+	<title>Part 5: Development Tips - JEB Decompiler</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.pnfsoftware.com/jeb2">JEB Decompiler</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../index.html">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Using JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../actions/index.html">Common Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../views/index.html">Common Views</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../decompiling/index.html">Decompiling</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../debugging/index.html">Debugging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../native/index.html">Native Code Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../misc/index.html">Miscellaneous</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developing with JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../introducing-jeb-extensions/index.html">Introducing JEB Extensions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-client-scripts/index.html">Writing Client Scripts</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Writing Parsers (Tutorial Series)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../1-getting-started-with-parsers/index.html">Part 1: Getting Started with Parsers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../2-creating-simple-parser/index.html">Part 2: Creating a Simple Parser</a>
+</li>
+
+        
+            
+<li >
+    <a href="../3-documents-delegation/index.html">Part 3: Documents and Delegation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../4-tables-trees/index.html">Part 4: Tables and Trees</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="index.html">Part 5: Development Tips</a>
+</li>
+
+        
+            
+<li >
+    <a href="../6-releasing-plugin/index.html">Part 6: Releasing a Plugin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../7-unit-interactivity/index.html">Part 7: Interactivity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../8-more-interactivity/index.html">Part 8: More on Interactivity</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../writing-engines-plugins/index.html">Writing Engines Plugins</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-front-ends/index.html">Writing Front-Ends</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../other-resources/index.html">Additional Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../settings/index.html">Settings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../client-configuration/index.html">Client Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../engines-configuration/index.html">Engines Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../floating/index.html">Floating Controller</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../faq/index.html">FAQ</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../4-tables-trees/index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../6-releasing-plugin/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#development-tips">Development Tips</a></li>
+        
+            <li><a href="#logging">Logging</a></li>
+        
+            <li><a href="#debugging">Debugging</a></li>
+        
+            <li><a href="#launching-several-instances">Launching several instances</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><em>JEB Plugin Development Tutorial part 5/8</em></p>
+<h1 id="development-tips">Development Tips<a class="headerlink" href="#development-tips" title="Permanent link">&para;</a></h1>
+<p>This tutorial aggregates a collection of tips that can help you during plugin development.</p>
+<h2 id="logging">Logging<a class="headerlink" href="#logging" title="Permanent link">&para;</a></h2>
+<h3 id="creating-loggers">Creating Loggers<a class="headerlink" href="#creating-loggers" title="Permanent link">&para;</a></h3>
+<p>Creating a new <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/util/logging/ILogger.html">logger</a> with the JEB API is simple:</p>
+<pre><code class="java">private static final ILogger logger = GlobalLog.getLogger(MyClass.class);
+</code></pre>
+
+<p>It is good practice to create one logger per class. Loggers can be customized one by one, or globally via the <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/util/logging/GlobalLog.html">GlobalLog</a> factory.</p>
+<h3 id="using-loggers">Using Loggers<a class="headerlink" href="#using-loggers" title="Permanent link">&para;</a></h3>
+<p>There are several level of logs (error, warning, info, ...) and the logger methods use 2 parameters:</p>
+<ul>
+<li>the message to display</li>
+<li>the parameters of the message, as it is done for String.format() method.</li>
+</ul>
+<pre><code class="java">logger.info(&quot;Hello %s&quot;, &quot;World&quot;);
+</code></pre>
+
+<h3 id="enabling-debug-and-trace-levels">Enabling Debug and Trace levels<a class="headerlink" href="#enabling-debug-and-trace-levels" title="Permanent link">&para;</a></h3>
+<p>By default, debug and trace logs are not displayed. You can activate them by ticking the Development mode in the Options menu:</p>
+<p><a href="../img/Plugin5-03.png"><img alt="" src="../img/Plugin5-03.png" /></a></p>
+<h3 id="logging-destinations">Logging destinations<a class="headerlink" href="#logging-destinations" title="Permanent link">&para;</a></h3>
+<p>By default, JEB sends log data to the Logger view in the RCP client. Additional sinks canbe added, such as buffers or output streams. For instance, if you would like to collect all logs to a file named <code>jeb-test-output.log</code> in your TEMP folder, your plugin could execute the following:</p>
+<pre><code class="java">String foldername = System.getProperty(&quot;java.io.tmpdir&quot;);
+File folder = foldername != null ? new File(foldername): TestData.getTestDataRoot();
+File file = new File(folder, &quot;jeb-test-output.log&quot;);
+GlobalLog.addDestinationStream(new PrintStream(file));
+</code></pre>
+
+<blockquote>
+<p>Be careful, <code>GlobalLog</code> is a global factory object, that impacts the entire application.</p>
+</blockquote>
+<h2 id="debugging">Debugging<a class="headerlink" href="#debugging" title="Permanent link">&para;</a></h2>
+<p>If you are familiar with Eclipse and development tools in general, you know how useful proper debugging facility are: the program can be stopped and paused, current variables can be examined, etc. It is especially handy when troubleshooting a corner-case problem in your plugin.</p>
+<p>JEB can be debugged using a method called <em>remote debugging</em>. What you need to do is:</p>
+<ul>
+<li>Configure JEB to listen for debug connections</li>
+<li>Connect Eclipse to JEB</li>
+</ul>
+<h3 id="debugging-setup-step-by-step">Debugging setup: step-by-step<a class="headerlink" href="#debugging-setup-step-by-step" title="Permanent link">&para;</a></h3>
+<p>Start JEB using the following command-line from your JEB base directory:</p>
+<ul>
+<li>On Windows/Linux: <code>java -Xdebug -Xrunjdwp:transport=dt_socket,address=8001,server=y,suspend=y -jar bin/plugins/org.eclipse.equinox.launcher_XXXXXXXXXXXX.jar</code></li>
+<li>On macOS: <code>java -XstartOnFirstThread -Xdebug -Xrunjdwp:transport=dt_socket,address=8001,server=y,suspend=y -jar bin/plugins/org.eclipse.equinox.launcher_XXXXXXXXXXXX.jar</code></li>
+</ul>
+<blockquote>
+<p>Don't forget to replace <code>XXXXXXXXXXXX</code> by your current Equinox package version.</p>
+</blockquote>
+<p>JEB is not started yet: it is waiting for a debugger connection on port 8001</p>
+<p>Go to Eclipse:</p>
+<ul>
+<li>Select <em>Run, Debug Configuration...</em></li>
+<li>Create a new entry in <em>Remote Java Application</em> and change the port to 8001 (keep the host as <em>localhost</em>)</li>
+<li>Select Debug</li>
+</ul>
+<p><a href="../img/Plugin5-04.png"><img alt="" src="../img/Plugin5-04.png" /></a></p>
+<p>JEB should be launched and you may be able to stop when putting breakpoints in code.</p>
+<p>In practice, the true entry-point of a plugin is its no-argument constructor. You may decide to place a breakpoint there. You may also choose to stop in the <code>canIdentify()</code> method, which is appropriate for <em>processor plugins</em> such as this sample JavaScript parser.</p>
+<h2 id="launching-several-instances">Launching several instances<a class="headerlink" href="#launching-several-instances" title="Permanent link">&para;</a></h2>
+<p>JEB provides a fully customizable workspace area. Panels can be adjusted, stacked, minimized, expanded, etc. That data is persisted into a workspace folder.</p>
+<p><a href="../img/Plugin5-01.png"><img alt="" src="../img/Plugin5-01.png" /></a></p>
+<p>You may have a need to to launch several instances of JEB, for instance because you have long processing on a first instance, and would like to continue investigating another task. If you try to launch a second instance, you are likely to see this error message:</p>
+<p><a href="../img/Plugin5-02.png"><img alt="" src="../img/Plugin5-02.png" /></a></p>
+<p>This indicates a workspace conflict.</p>
+<p>It is possible to launch a second (or more) instances of the JEB client by appending the <code>-data @none</code> parameters to the command line. Here, @none indicates that no workspace data shall be used or saved. (You may decide to persist that secondary workspace by providing a folder instead of @none.)</p>
+<p>If you wish to modify your startup scripts to never record workspace layout data, and therefore have the ability to conveniently start as many instances of JEB as you'd like, here are the modifications to do:</p>
+<p>On Linux/Mac OS:</p>
+<pre><code>$JAVA -jar $SCRIPTDIR/bin/cl/jeb.jar $@
+to 
+$JAVA -data @none -jar $SCRIPTDIR/bin/cl/jeb.jar $@
+</code></pre>
+
+<p>On Windows:</p>
+<pre><code>%JAVA% -jar &quot;%~dp0bin\cl\jeb.jar&quot; %*
+to
+%JAVA% -data @none -jar &quot;%~dp0bin\cl\jeb.jar&quot; %*
+</code></pre>
+
+<p><strong>Next: <a href="../6-releasing-plugin/index.html">Part 6</a></strong></p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>JEB &copy; <a href="https://www.pnfsoftware.com">PNF Software, Inc.</a> 2015, 2016 - Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

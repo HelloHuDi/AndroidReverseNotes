@@ -1,0 +1,4 @@
+JEB Decompiler (c) PNF Software, Inc. 
+https://www.pnfsoftware.com
+
+This directory contains native type libraries for JEB.

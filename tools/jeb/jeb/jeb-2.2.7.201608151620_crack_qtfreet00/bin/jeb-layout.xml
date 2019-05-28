@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<JEBLayout timestamp="1477283454380" version="1">
+  <Window bindingContextIds="org.eclipse.ui.contexts.dialogAndWindow" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.trimmedwindow.0" encodedTags="topLevel" height="720" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/program/jeb.png" label="JEB2" onTop="false" selectedElementId="jeb2.rcpclient.perspectiveStack.0" toBeRendered="true" visible="true" width="1280" x="388" y="101">
+    <PerspectiveStack contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.perspectiveStack.0" onTop="false" selectedElementId="jeb2.rcpclient.perspective.0" toBeRendered="true" visible="true">
+      <Perspective contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.perspective.0" label="Default Layout" onTop="false" selectedElementId="jeb2.rcpclient.partsashcontainer.0" toBeRendered="true" visible="true">
+        <PartSashContainer containerData="10000" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.partsashcontainer.0" horizontal="true" onTop="false" selectedElementId="jeb2.rcpclient.partstack.0" toBeRendered="true" visible="true">
+          <PartStack containerData="1800" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.partstack.0" encodedTags="active" onTop="false" selectedElementId="jeb2.rcpclient.part.projectTree" toBeRendered="true" visible="true">
+            <Part closeable="true" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.parts.ProjectTreePart" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.part.projectTree" encodedTags="active" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/hierarchy_co.gif" label="Project Explorer" onTop="false" toBeRendered="true" toolbarElementId="jeb2.rcpclient.toolbar.0" tooltip="This view lists the artifacts, units and sub-units that are part of your project" visible="true"/>
+          </PartStack>
+          <PartSashContainer containerData="8200" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.partsashcontainer.1" horizontal="false" onTop="false" toBeRendered="true" visible="true">
+            <PartSashContainer containerData="7200" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.partsashcontainer.2" encodedTags="NoAutoCollapse" horizontal="true" onTop="false" toBeRendered="true" visible="true">
+              <PartStack containerData="10000" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.partstack.2" encodedTags="NoAutoCollapse" onTop="false" toBeRendered="true" visible="true"/>
+            </PartSashContainer>
+            <PartStack containerData="2800" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.partstack.1" onTop="false" selectedElementId="jeb2.rcpclient.part.logger" toBeRendered="true" visible="true">
+              <Part closeable="true" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.parts.GlobalLoggerPart" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.part.logger" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/console_view.gif" label="Logger" onTop="false" toBeRendered="true" visible="true"/>
+              <Part closeable="true" contributionURI="bundleclass://com.pnfsoftware.jeb.rcpclient/com.pnfsoftware.jeb.rcpclient.parts.ConsolePart" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.part.console" iconURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient/icons/eclipse/writeout_co.gif" label="Console" onTop="false" toBeRendered="true" visible="true"/>
+            </PartStack>
+            <Part closeable="false" contributorURI="platform:/plugin/com.pnfsoftware.jeb.rcpclient" elementId="jeb2.rcpclient.part.popupmenu.action" label="action menu" onTop="false" toBeRendered="false" visible="false"/>
+          </PartSashContainer>
+        </PartSashContainer>
+      </Perspective>
+    </PerspectiveStack>
+  </Window>
+</JEBLayout>

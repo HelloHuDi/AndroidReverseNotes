@@ -1,0 +1,145 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.pde.build;singleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: e4Build
+Require-Bundle: org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)
+ ",org.eclipse.ant.core;bundle-version="[3.1.100,4.0.0)",org.eclipse.u
+ pdate.configurator;bundle-version="[3.1.0,4.0.0)",org.eclipse.osgi;bu
+ ndle-version="[3.3.0,4.0.0)",org.eclipse.equinox.p2.jarprocessor;bund
+ le-version="[1.0.1,2.0.0)",org.eclipse.equinox.p2.publisher;bundle-ve
+ rsion="1.1.0",org.eclipse.equinox.p2.repository.tools;bundle-version=
+ "[2.0.0,3.0.0)";resolution:=optional,org.eclipse.equinox.p2.director.
+ app;bundle-version="1.0.200",org.eclipse.equinox.p2.publisher.eclipse
+ ;bundle-version="1.0.0"
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/pde/ec
+ lipse.pde.build.git;path="org.eclipse.pde.build";tag="I20150521-1400"
+ ;commitId=7c4571d68769b1c504071e65ed1d3ce7a30ea3e8
+Bundle-Vendor: %providerName
+Import-Package: com.ibm.icu.util,org.eclipse.equinox.frameworkadmin;ve
+ rsion="[2.0.0,3.0.0)",org.eclipse.equinox.internal.p2.core.helpers,or
+ g.eclipse.equinox.internal.p2.engine,org.eclipse.equinox.internal.p2.
+ engine.phases,org.eclipse.equinox.internal.p2.metadata,org.eclipse.eq
+ uinox.internal.p2.metadata.expression,org.eclipse.equinox.internal.p2
+ .updatesite;resolution:=optional,org.eclipse.equinox.internal.provisi
+ onal.frameworkadmin,org.eclipse.equinox.p2.core;version="[2.0.0,3.0.0
+ )",org.eclipse.equinox.p2.engine;version="[2.0.0,3.0.0)",org.eclipse.
+ equinox.p2.metadata;version="[2.0.0,3.0.0)",org.eclipse.equinox.p2.me
+ tadata.expression;version="[2.0.0,3.0.0)",org.eclipse.equinox.p2.quer
+ y;version="[2.0.0,3.0.0)",org.eclipse.equinox.p2.repository;version="
+ [2.0.0,3.0.0)",org.eclipse.equinox.p2.repository.artifact;version="[2
+ .0.0,3.0.0)",org.eclipse.equinox.p2.repository.artifact.spi;version="
+ [2.0.0,3.0.0)",org.eclipse.equinox.p2.repository.metadata;version="[2
+ .0.0,3.0.0)",org.eclipse.equinox.simpleconfigurator.manipulator;versi
+ on="[2.0.0,3.0.0)"
+Export-Package: org.eclipse.pde.build,org.eclipse.pde.internal.build;x
+ -friends:="org.eclipse.pde.core,org.eclipse.pde.ui,org.eclipse.pde.la
+ unching",org.eclipse.pde.internal.build.ant;x-internal:=true,org.ecli
+ pse.pde.internal.build.builder;x-internal:=true,org.eclipse.pde.inter
+ nal.build.fetch;x-internal:=true,org.eclipse.pde.internal.build.packa
+ ger;x-friends:="org.eclipse.pde.core",org.eclipse.pde.internal.build.
+ properties;x-internal:=true,org.eclipse.pde.internal.build.publisher.
+ compatibility;x-internal:=true,org.eclipse.pde.internal.build.site;x-
+ friends:="org.eclipse.pde.core,org.eclipse.pde.ui",org.eclipse.pde.in
+ ternal.build.site.compatibility;x-internal:=true
+Bundle-Name: %pluginName
+Bundle-Version: 3.9.100.v20150521-1524
+Bundle-ClassPath: pdebuild.jar
+Bundle-Localization: plugin
+Bundle-Activator: org.eclipse.pde.internal.build.BuildActivator
+Created-By: Apache Maven 3.1.1
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+
+Name: plugin.xml
+SHA-256-Digest: 51lxMpB7xdR98azbWS0dSW/ihGnp9A/Emw4Djq7ZLaE=
+
+Name: data/21/fragment/fragment.xml
+SHA-256-Digest: x6/s+72BfvzUQnh8PbMYqEr1F7FEu2VoNrPNe/AO59c=
+
+Name: about_files/LICENSE-2.0.txt
+SHA-256-Digest: z8d0m5b2O9McPEK1xHG/dWgUBT6EfBDz6wA0F7xSPTA=
+
+Name: scripts/build.xml
+SHA-256-Digest: /BgSfmIFySHoviokkNsvAo+LkcVHFradERNyYl7mrr4=
+
+Name: scripts/genericTargets.xml
+SHA-256-Digest: ASBPaJFFNmrhe88NQUTYtUjbtwhog60CfpnJz7HBWwQ=
+
+Name: .options
+SHA-256-Digest: 0GJsrgQN/Xa2xqSzy7mdH1o5KXFpWkGak/i/iYnKtrI=
+
+Name: templates/headless-build/customAssembly.xml
+SHA-256-Digest: SOxoDqU7hcC1u/3ut74Vsglh340QJWjbL715szg2SOg=
+
+Name: data/21/plugin/plugin.xml
+SHA-256-Digest: y3PlV2lHJ+rXBm4PLLLg+BsQpovoyP+jAbBdchUBJik=
+
+Name: plugin.properties
+SHA-256-Digest: c3ProxVnFv6vyZVLCSM1RjsN+vS3GF+wliA9Sg4tt6Y=
+
+Name: templates/headless-build/customTargets.xml
+SHA-256-Digest: L+HsY0a8XFvhbkv6So/hUevG+0jVLvKIas+lZTwYw0g=
+
+Name: data/30/fragment/META-INF/MANIFEST.MF
+SHA-256-Digest: REI0l8DeMweECk9EEFCUeJ1XGLWMJRprzOfaU8BGbcA=
+
+Name: templates/headless-build/build.properties
+SHA-256-Digest: kWChU+r56rwnnk/SW0cvd6dJ9tuI/PUWMoS6NuITPcc=
+
+Name: about.html
+SHA-256-Digest: x8abtkbM56gg+BJDJTz7h1XxginXstsbxc0Ash3ZDPY=
+
+Name: scripts/productBuild/allElements.xml
+SHA-256-Digest: TlCbN/sMg7RGNEMqD0xavXI4KWJwCzt5/AveapBev3w=
+
+Name: templates/packager/packager.properties
+SHA-256-Digest: QhQpH2vIuzJBWC2AM58nuCmi2NP0tPMbQ5EsrtUuLN0=
+
+Name: data/30/plugin/META-INF/MANIFEST.MF
+SHA-256-Digest: 7AlqyoY2iy8wLstUDcfaOF0YyI0xUQOOc/hty55ajC4=
+
+Name: scripts/package.xml
+SHA-256-Digest: iDHwbL0ip+OHpv0CAN5iCsm4D16WFYp30Wa4Z3wETEA=
+
+Name: .api_description
+SHA-256-Digest: xYBCKug/CmVco4x9pr/UnD4kAwMPBeI2Wc2chsMrg04=
+
+Name: data/env.properties
+SHA-256-Digest: VU/kJ4/9OrOHtz1ijfBp1ZeC2eOdM8SzpifNjWSQBqM=
+
+Name: scripts/productBuild/productBuild.xml
+SHA-256-Digest: VtGIdx4+zqA/oO6qZQSb1PYUK0LCA5H/jn4OtFg/Crs=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: bSW1YGboX6I6p7wDw5s2jZAEdH4VEWk6/bIPMlpzOuk=
+
+Name: templates/headless-build/allElements.xml
+SHA-256-Digest: wuKLZzu9Y8eTTGotCY+mKvNT/UO0S2pF9h02s4lPSnM=
+
+Name: templates/packager/customTargets.xml
+SHA-256-Digest: 9tSQw0cJ9KQKYXFvXJteblNzyuCU/NooF9PKNeGKm2s=
+
+Name: templates/packager/packaging.properties
+SHA-256-Digest: ZbRfA8BDI1G1rktT75fa81dlGEbDwod4DKKJEPDOtpE=
+
+Name: data/30/fragment/fragment.xml
+SHA-256-Digest: 5dI2xQIjlZj9SgQhcx4dpqPx46cDC29OioTGtJ+3gt4=
+
+Name: templates/plugins/customBuildCallbacks.xml
+SHA-256-Digest: 52wIhV8f0A9M7l8agu8jdlCXYQwbXQj3VB75xYHC5DE=
+
+Name: data/30/plugin/plugin.xml
+SHA-256-Digest: nSZdb7v85tBzOacQFiN3fJEQ9K6YfSn+hyLrH2thlX0=
+
+Name: templates/features/customBuildCallbacks.xml
+SHA-256-Digest: t+Q/015nu/XZaF+Gw/jwewDY3ex81QwfOkr+diCXL3g=
+
+Name: lib/pdebuild-ant.jar
+SHA-256-Digest: +DCusLqldfpGFVROJpJ5n3aTC75yCQbqdGYClI6mfNc=
+
+Name: pdebuild.jar
+SHA-256-Digest: YW8MuUtZFQgvFWcOihNG+uWUnKr3OB076lvQNkw69GM=
+

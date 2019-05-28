@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="PNF Software">
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb2/manual/floating/index.html">
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+
+	<title>Floating Controller - JEB Decompiler</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.pnfsoftware.com/jeb2">JEB Decompiler</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../index.html">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Using JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../actions/index.html">Common Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../views/index.html">Common Views</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../decompiling/index.html">Decompiling</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../debugging/index.html">Debugging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../native/index.html">Native Code Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../misc/index.html">Miscellaneous</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developing with JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../dev/introducing-jeb-extensions/index.html">Introducing JEB Extensions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-client-scripts/index.html">Writing Client Scripts</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Writing Parsers (Tutorial Series)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../dev/1-getting-started-with-parsers/index.html">Part 1: Getting Started with Parsers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/2-creating-simple-parser/index.html">Part 2: Creating a Simple Parser</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/3-documents-delegation/index.html">Part 3: Documents and Delegation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/4-tables-trees/index.html">Part 4: Tables and Trees</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/5-development-tips/index.html">Part 5: Development Tips</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/6-releasing-plugin/index.html">Part 6: Releasing a Plugin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/7-unit-interactivity/index.html">Part 7: Interactivity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/8-more-interactivity/index.html">Part 8: More on Interactivity</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-engines-plugins/index.html">Writing Engines Plugins</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-front-ends/index.html">Writing Front-Ends</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/other-resources/index.html">Additional Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../settings/index.html">Settings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../client-configuration/index.html">Client Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../engines-configuration/index.html">Engines Configuration</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="index.html">Floating Controller</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../faq/index.html">FAQ</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../engines-configuration/index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../faq/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#floating-controllers">Floating Controllers</a></li>
+        
+            <li><a href="#concept">Concept</a></li>
+        
+            <li><a href="#initial-execution">Initial Execution</a></li>
+        
+            <li><a href="#controller-settings">Controller Settings</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="floating-controllers">Floating Controllers<a class="headerlink" href="#floating-controllers" title="Permanent link">&para;</a></h1>
+<h2 id="concept">Concept<a class="headerlink" href="#concept" title="Permanent link">&para;</a></h2>
+<p>Floating builds provide more flexibility than individual builds, and can be distributed to many users within an organization. A floating build licensed for N seats will allow N JEB clients to connect to it concurrently. When a client leaves, its seat is vacated, allowing another client to connect to the Controller.</p>
+<p>Currently, only the <a href="../jeb2/buy">Pro Floating version</a> of JEB2 supports floating licenses.</p>
+<p><a href="../img/jeb-controller-diagram.png"><img alt="" src="../img/jeb-controller-diagram.png" /></a></p>
+<p>When starting, as well as during its execution, JEB will regularly probe the Controller to determine whether or not it is allowed to run. This check is based on the number of seats available in your licensed build: eg, a floating license for 5 seats allows 5 different users to run JEB concurrently.</p>
+<p>In order to start the Controller, use the <code>--controller</code> flag along with the <code>-c</code> flag. Example on a Linux machine:</p>
+<pre><code>$ jeb_linux.sh -c --controller
+</code></pre>
+<p>In order to start JEB, proceed as usual, for instance on Windows:</p>
+<pre><code>$ jeb_wincon.bat
+</code></pre>
+<p>Technical notes:</p>
+<ul>
+<li>The JEB client as well as the Controller are the same binary file: there is no separate package for the Controller.</li>
+<li>The '--controller' flag is not available if the build is not a floating one.</li>
+<li>The Controller must be started before the clients.</li>
+<li>JEB instances regularly contact the Controller. Therefore, the Controller should always be reachable by running instances of JEB. In order to minimize potential problems due to network latency, it is recommended to run JEB and the Controller within the same local network.</li>
+<li>By default, the Controller listens on all interfaces, on port 23477. This can be changed by setting the '.ControllerInterface' and '.ControllerPort' flags in the configuration file (as explained later in this document).</li>
+<li>The protocol used for communication between a Controller and JEB instances is HTTP, therefore eliminating potential firewall blocking issues.</li>
+<li>JEB instances and the Controller may be run in different environments (as in the example above: Controller on Linux, JEB on Windows, etc.)</li>
+<li>The controller property '.ControllerMessage' is used to provide messages, visible by clients on the Controller portal.</li>
+</ul>
+<h2 id="initial-execution">Initial Execution<a class="headerlink" href="#initial-execution" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>Note</strong>: starting with JEB version 2.2.10, the floating controller no longer requires a support package to run. Whether the machine that will run the controller is connected to the internet or not, simply run the startup script with <code>-c --controller</code>, and follow the initial installation steps. Then, proceed with section <a href="#controller-settings">Controller Settings</a>.</p>
+</blockquote>
+<h3 id="on-a-machine-connected-to-the-internet">On a machine connected to the Internet<a class="headerlink" href="#on-a-machine-connected-to-the-internet" title="Permanent link">&para;</a></h3>
+<p>If the machine executing the controller is connected to the Internet, the following will happen:</p>
+<ul>
+<li>The support package will be downloaded automatically</li>
+<li>Just follow the prompt: input your password, accept the EULA, generate a license key</li>
+</ul>
+<p>Sample log output:</p>
+<pre><code>C:\jeb&gt;jeb_wincon.bat -c --controller
+Downloading jeb2-sp-win64-v2.zip...
+Reading 36675855 bytes: 9&gt;&gt;&gt;&gt;8&gt;&gt;&gt;&gt;7&gt;&gt;&gt;&gt;6&gt;&gt;&gt;&gt;5&gt;&gt;&gt;&gt;4&gt;&gt;&gt;&gt;3&gt;&gt;&gt;&gt;2&gt;&gt;&gt;&gt;1&gt;&gt;&gt;&gt;0
+Copying file...
+Success
+JEB decryption password: ***************
+...
+...
+&lt;EULA&gt;
+
+Governing Law, Jurisdiction and Costs
+This Agreement shall be governed, construed, and enforced in accordance with the laws of the State of California, without regard to its conflict of laws rules.
+
+Severability
+If any provision of this Agreement shall be held to be invalid or unenforceable, the remainder of this Agreement shall remain in full force and effect. To the extent any express or implied restrictions are not permitted by applicable laws, these express or implied restrictions shall remain in force and effect to the maximum extent permitted by such applicable laws.
+Write &quot;yes&quot; to agree, then press enter: yes
+Hello Nicolas Falliere. Set up your JEB controller by generating a license key. This one-time operation will only take a few seconds.
+Please visit https://www.pnfsoftware.com/genlk, and use the following &quot;license data&quot; blob to generate a key
+License data: .............................................
+Input your license key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Mode: Controller for floating clients
+Note: X client(s) may simultaneously connect to this controller instance
+Listening on 0.0.0.0/0.0.0.0:23477...
+</code></pre>
+
+<h3 id="on-a-machine-not-connected-to-the-internet">On a machine NOT connected to the Internet<a class="headerlink" href="#on-a-machine-not-connected-to-the-internet" title="Permanent link">&para;</a></h3>
+<p>If the machine executing the controller is not connected to the Internet, the following will happen:</p>
+<ul>
+<li>The support package cannot be downloaded</li>
+<li>If you are running JEB version 2.2.9 or below, the installation will fail; if you are running JEB 2.2.10 or above, the support package is no longer required (see note above), and you may proceed</li>
+</ul>
+<p>Sample log output when the download fails: (JEB 2.2.9-)</p>
+<pre><code>C:\jeb&gt;jeb_wincon.bat -c --controller
+Downloading jeb2-sp-win64-v2.zip...
+A network error occurred
+Download error.
+If this system is offline, please visit https://www.pnfsoftware.com/jeb2/downloads to manually retrieve the support package.
+The support package was not dropped
+</code></pre>
+
+<p>You will have to download a support package manually, and drop it in your <code>bin/</code> folder. Instructions and download links can be found here: https://www.pnfsoftware.com/jeb2/downloads </p>
+<h2 id="controller-settings">Controller Settings<a class="headerlink" href="#controller-settings" title="Permanent link">&para;</a></h2>
+<p>After the first step is completed successfully, executing the controller should display something like the following:</p>
+<pre><code>C:\jeb&gt;jeb_wincon.bat -c --controller
+Mode: Controller for floating clients
+Note: X client(s) may simultaneously connect to this controller instance
+Listening on 0.0.0.0/0.0.0.0:23477...
+</code></pre>
+
+<p>As can be seen, by default, the controller is listening on port 23477 on all interfaces. This can be changed by editing the file <code>bin/jeb-client.cfg</code> and adding two entries named <code>.ControllerInterface</code> and <code>.ControllerPort</code>.</p>
+<p>For example, if you wish to listen exclusively on localhost, port 30000:</p>
+<pre><code>.ControllerInterface = localhost
+.ControllerPort = 35000
+</code></pre>
+
+<h3 id="updating-the-controller">Updating the Controller<a class="headerlink" href="#updating-the-controller" title="Permanent link">&para;</a></h3>
+<p>There is no auto-update feature in the controller. The update procedure is:</p>
+<ul>
+<li>Check your registered email address for a JEB update email (<em>"JEB xxx is available..."</em>)</li>
+<li>Download the software archive</li>
+<li>Copy the archive to the root of your JEB folder and rename the file to <code>update.zip</code></li>
+<li>Create a text file named <code>update.pwd</code></li>
+<li>Store the email-provided password inside this file</li>
+<li>Start your controller as normal (eg, <code>... -c --controller</code>); the update will be installed automatically</li>
+</ul></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>JEB &copy; <a href="https://www.pnfsoftware.com">PNF Software, Inc.</a> 2015, 2016 - Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

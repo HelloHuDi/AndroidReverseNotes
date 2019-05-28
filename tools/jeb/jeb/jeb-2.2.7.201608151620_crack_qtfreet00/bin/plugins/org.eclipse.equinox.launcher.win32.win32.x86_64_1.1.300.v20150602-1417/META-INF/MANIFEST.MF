@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.eclipse.equinox.launcher.win32.win32.x86_64;s
+ ingleton:=true
+Archiver-Version: Plexus Archiver
+Built-By: e4Build
+Bundle-ManifestVersion: 2
+Eclipse-PlatformFilter: (& (osgi.ws=win32) (osgi.os=win32) (osgi.arch=
+ x86_64))
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/equino
+ x/rt.equinox.framework.git;path="bundles/org.eclipse.equinox.launcher
+ .win32.win32.x86_64";tag="I20150602-2000";commitId=24ff68f1d9768103b6
+ 069aae968370b51a99b200
+Bundle-Vendor: %providerName
+Fragment-Host: org.eclipse.equinox.launcher;bundle-version="[1.0.0,1.4
+ .0)"
+Bundle-Name: %pluginName
+Bundle-Version: 1.1.300.v20150602-1417
+Bundle-Localization: launcher.win32.win32.x86_64
+Created-By: Apache Maven 3.1.1
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+
+Name: about.html
+SHA-256-Digest: VPMitIIkEm99NLfkFf/bqCv7gqDh+SdCqyIrbu4QETQ=
+
+Name: launcher.win32.win32.x86_64.properties
+SHA-256-Digest: i/685Id7EfNAo6CFxgoS5ibdLonAEDvXBkSMUMW5/xU=
+
+Name: eclipse_1611.dll
+SHA-256-Digest: SPxbkb/sz+w72ifu+lmQTp18DDJEvsZB8ZuBcRjKc+0=
+

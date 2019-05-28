@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="PNF Software">
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb2/manual/dev/3-documents-delegation/index.html">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        
+
+	<title>Part 3: Documents and Delegation - JEB Decompiler</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.pnfsoftware.com/jeb2">JEB Decompiler</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../index.html">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Using JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../actions/index.html">Common Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../views/index.html">Common Views</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../decompiling/index.html">Decompiling</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../debugging/index.html">Debugging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../native/index.html">Native Code Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../misc/index.html">Miscellaneous</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developing with JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../introducing-jeb-extensions/index.html">Introducing JEB Extensions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-client-scripts/index.html">Writing Client Scripts</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Writing Parsers (Tutorial Series)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../1-getting-started-with-parsers/index.html">Part 1: Getting Started with Parsers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../2-creating-simple-parser/index.html">Part 2: Creating a Simple Parser</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="index.html">Part 3: Documents and Delegation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../4-tables-trees/index.html">Part 4: Tables and Trees</a>
+</li>
+
+        
+            
+<li >
+    <a href="../5-development-tips/index.html">Part 5: Development Tips</a>
+</li>
+
+        
+            
+<li >
+    <a href="../6-releasing-plugin/index.html">Part 6: Releasing a Plugin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../7-unit-interactivity/index.html">Part 7: Interactivity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../8-more-interactivity/index.html">Part 8: More on Interactivity</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../writing-engines-plugins/index.html">Writing Engines Plugins</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-front-ends/index.html">Writing Front-Ends</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../other-resources/index.html">Additional Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../settings/index.html">Settings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../client-configuration/index.html">Client Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../engines-configuration/index.html">Engines Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../floating/index.html">Floating Controller</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../faq/index.html">FAQ</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../2-creating-simple-parser/index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../4-tables-trees/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#documents-and-delegation">Documents and Delegation</a></li>
+        
+            <li><a href="#process-the-input">Process the input</a></li>
+        
+            <li><a href="#add-a-document-per-function">Add a Document per function</a></li>
+        
+            <li><a href="#delegate-to-another-unit">Delegate to another Unit</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><em>JEB Plugin Development Tutorial part 3/8</em></p>
+<h1 id="documents-and-delegation">Documents and Delegation<a class="headerlink" href="#documents-and-delegation" title="Permanent link">&para;</a></h1>
+<p>The source code for part 3 of this sample plugin is located on GitHub:</p>
+<ul>
+<li>Clone <a href="https://github.com/pnfsoftware/jeb2-plugindemo-js">this repo</a>: <code>git clone https://github.com/pnfsoftware/jeb2-plugindemo-js.git</code></li>
+<li>Switch to the <em>tutorial3</em> branch: <code>git checkout tutorial3</code></li>
+</ul>
+<h2 id="process-the-input">Process the input<a class="headerlink" href="#process-the-input" title="Permanent link">&para;</a></h2>
+<p>In the previous part, we built a single document that displays the whole JavaScript file.</p>
+<p>Imagine we have large functions that we would like to split using the following simple rule: <strong>one function per document</strong>.</p>
+<p>Let's detail the flow of execution around <code>IUnit</code>:</p>
+<ul>
+<li>When opening a new file, all the <code>IPlugin.canIdentify</code> methods are called.</li>
+<li>If identified, the method <code>IPlugin.prepare</code> is called, which will create a new unit.</li>
+<li>When opening the unit, if the unit was not previously processed, the method <code>IUnit.process</code> method will be called.</li>
+<li>At last, <code>IUnit.getFormatter</code> is used to display the result of processing.</li>
+</ul>
+<p>The <code>process</code> method is where the heavy-lifting of your parser should be located. If you need to pre-process data, you may call the process method in <code>IUnitIdentifier.prepare</code>. Since we don't need it for now, we won't do it.</p>
+<p>So let's start with implementing <code>process()</code>. First, we need to extract the JavaScript and split this test block into two functions. For the sake of this tutorial, we will use <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino">Mozilla Rhino</a> to deal with JavaScript lexing and parsing. You can download it <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Projects/Rhino/Download_Rhino">here</a>.</p>
+<p>First, add <strong>rhino-*.jar</strong> to your eclipse project (you can attach the javadoc to this .jar, the process is like adding javadoc to jeb.jar).
+Then, use the following snippet to extract the Functions from Javascript:</p>
+<pre><code class="java">private static final ILogger logger = GlobalLog.getLogger(SampleUnit.class);
+
+private AstRoot root = null;
+private List&lt;FunctionNode&gt; functions = new ArrayList&lt;FunctionNode&gt;();
+
+@Override
+public boolean process() {
+    // parse the javascript
+    IRFactory factory = new IRFactory();
+    try {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(getInput().getStream()));
+        reader.readLine(); // ignore first line with #Javascript
+        root = factory.parse(reader, null, 0);
+    }
+    catch(IOException e) {
+        logger.catching(e);
+        return false;
+    }
+
+    // save functions
+    List&lt;AstNode&gt; statements = root.getStatements();
+    for(AstNode statement: statements) {
+        if(statement.getType() == Token.FUNCTION) {
+            functions.add((FunctionNode)statement);
+        }
+    }
+
+    // done
+    setProcessed(true);
+    return true;
+}
+</code></pre>
+
+<p>As you can see here, <code>process()</code> is only extracting data: <em>FunctionNode</em> objects are saved in the functions list.</p>
+<p>Note: JEB2 provides global logging facility that you can use anytime to send messages in the <em>Logger</em> panel. Do not hesitate to use it to investigate your code. We also recommend you enable the <em>Development Mode</em> in the <em>Options</em> panel: this will allow logging of debug and trace messages.</p>
+<pre><code class="java">import com.pnfsoftware.jeb.util.logging.GlobalLog;
+import com.pnfsoftware.jeb.util.logging.ILogger;
+
+public class Xxx {
+    private static final ILogger logger = GlobalLog.getLogger(Xxx.class);
+    ...
+</code></pre>
+
+<h2 id="add-a-document-per-function">Add a Document per function<a class="headerlink" href="#add-a-document-per-function" title="Permanent link">&para;</a></h2>
+<p>Now, let's modify the <code>getFormatter</code> method to change rendering, adding as many tabs (documents) as defined functions.</p>
+<pre><code class="java">@Override
+public IUnitFormatter getFormatter() {
+    UnitFormatterAdapter adapter = new UnitFormatterAdapter(new AbstractUnitRepresentation(&quot;javascript raw code&quot;, true) {
+        @Override
+        public IGenericDocument getDocument() {
+                return new AsciiDocument(getInput());
+        }
+    });
+    if(functions != null) {
+        for(final FunctionNode function: functions) {
+            adapter.addDocumentPresentation(new AbstractUnitRepresentation(function.getName()) {
+                @Override
+                public IGenericDocument getDocument() {
+                    return new AsciiDocument(new BytesInput(function.toSource().getBytes()));
+                }
+            });
+        }
+    }
+    return adapter;
+}
+</code></pre>
+
+<p>We called the method <code>UnitFormatterAdapter.addDocumentPresentation</code> to add more documents.</p>
+<blockquote>
+<p>Note: since <code>AsciiDocument</code> requires an <code>IInput</code> as entry, we used the most appropriate implementation:</p>
+</blockquote>
+<p><a href="../img/Plugin3-01.png"><img alt="" src="../img/Plugin3-01.png" /></a></p>
+<p>Now, start JEB.</p>
+<blockquote>
+<p>Note: You will probably see this exception: <code>java.lang.NoClassDefFoundError: org/mozilla/javascript/IRFactory</code>. Remember that js.jar was not added to JEB classpath. Add it to your plugin classpath (in the <em>Options</em> panel - refer to Part 1 of this tutorial).</p>
+</blockquote>
+<p>If all works well, you shall to see two additional tabs:</p>
+<p><a href="../img/Plugin3-02.png"><img alt="" src="../img/Plugin3-02.png" /></a></p>
+<h2 id="delegate-to-another-unit">Delegate to another Unit<a class="headerlink" href="#delegate-to-another-unit" title="Permanent link">&para;</a></h2>
+<p>These new documents are great but what if we have lots of functions? We will have lots of tabs and it will become unreadable. One solution would be to add these FunctionNodes as children unit of the test.js unit node. We can delegate the creation of those units to the unit processor.</p>
+<p>Here is a short explanation of delegation: assume have a zip file containing pdf, apk, js... You do not want to write a single parser that manages all those file types. A better approach is to have a Zip parser that will delegate parsing of its contents. That puts the Unit Processor in charge of finding the best Unit that match the file type: DEX Unit, Pdf Unit... and even our new Javascript Unit.</p>
+<blockquote>
+<p>More on delegation <a href="https://docs.google.com/document/d/1f9-gXVNhRixKUr02YzB4dttVJIqZefsms-EOVmazLjU/pub">here</a>. </p>
+</blockquote>
+<p>So how to do it? You need to slightly modify process():</p>
+<pre><code class="java">// save functions
+List&lt;AstNode&gt; statements = root.getStatements();
+for(AstNode statement: statements) {
+        if(statement.getType() == Token.FUNCTION) {
+            FunctionNode function = (FunctionNode)statement;
+            functions.add(function);
+            IUnit jsUnit = getUnitProcessor().process(function.getName(), new BytesInput(function.toSource().getBytes()), this);
+            if(jsUnit != null) {
+                addChildUnit(jsUnit);
+            }
+        }
+}
+</code></pre>
+
+<p>You should be able to see a generic binary output for <em>a</em> and <em>b</em>.</p>
+<h3 id="exercice">Exercice<a class="headerlink" href="#exercice" title="Permanent link">&para;</a></h3>
+<p>Build a simple JavascriptPlugin that takes advantage of the delegation. The solution lies in branch <em>tutorial3</em> of this sample plugin repository.</p>
+<p>Do not forget to register the parser plugin's classname in the options panel. You should obtain something like this:</p>
+<p><a href="../img/Plugin3-03.png"><img alt="" src="../img/Plugin3-03.png" /></a></p>
+<p><strong>Next: <a href="../4-tables-trees/index.html">Part 4</a></strong></p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>JEB &copy; <a href="https://www.pnfsoftware.com">PNF Software, Inc.</a> 2015, 2016 - Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,29 @@
+JEB2 Decompiler
+PNF Software, Inc. 
+https://www.pnfsoftware.com
+
+> SCRIPTS
+
+This directory contains scripts for JEB2 clients.
+
+The official UI desktop client allows Python script execution via the Jython
+package. (Note: scripts should not be confused with plugins, although they use
+similar APIs.)
+
+In order to run scripts, a Jython package is required.
+
+Setting up Jython:
+- Download a stand-alone Jython package from http://www.jython.org/downloads.html
+  We recommend either version 2.5 (fastest) or version 2.7 (latest)
+- Drop the downloaded 'jython-standalone-???.jar' file in the scripts/
+  sub-directory located in your JEB installation directory
+- Make sure that the client property '.ScriptsFolder' refers to that directory
+  (it is the case by default; use 'Edit/Options, Advanced...' to verify this)
+
+How to use:
+- Scripts can be executed via the 'File/Scripts/Execute...' menu command
+- Note that JEB2 scripts significantly differ from JEB1 scripts. Refer to the
+  JEB2 developer portal for tutorials and APIs documentation:
+  https://www.pnfsoftware.com/jeb2/devportal
+- Scripts should not be used for heavy-lifting operations. They are meant to
+  execute small tasks within a the context of a JEB2 client. 

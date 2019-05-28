@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component name="org.eclipse.pde.build_3.9.100.v20150521-1524" version="1.2">
+    <plugin id="org.eclipse.pde.build_3.9.100.v20150521-1524"/>
+    <package name="org.eclipse.pde.build" visibility="1">
+        <type name="Constants" restrictions="1"/>
+        <type name="IAntScript" restrictions="1"/>
+    </package>
+</component>

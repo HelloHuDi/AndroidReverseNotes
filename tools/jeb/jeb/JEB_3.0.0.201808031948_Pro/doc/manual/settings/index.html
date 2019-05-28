@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="PNF Software">
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb2/manual/settings/index.html">
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+
+	<title>Settings - JEB Decompiler</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.pnfsoftware.com/jeb2">JEB Decompiler</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../index.html">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Using JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../actions/index.html">Common Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../views/index.html">Common Views</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../decompiling/index.html">Decompiling</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../debugging/index.html">Debugging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../native/index.html">Native Code Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../misc/index.html">Miscellaneous</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developing with JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../dev/introducing-jeb-extensions/index.html">Introducing JEB Extensions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-client-scripts/index.html">Writing Client Scripts</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Writing Parsers (Tutorial Series)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../dev/1-getting-started-with-parsers/index.html">Part 1: Getting Started with Parsers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/2-creating-simple-parser/index.html">Part 2: Creating a Simple Parser</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/3-documents-delegation/index.html">Part 3: Documents and Delegation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/4-tables-trees/index.html">Part 4: Tables and Trees</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/5-development-tips/index.html">Part 5: Development Tips</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/6-releasing-plugin/index.html">Part 6: Releasing a Plugin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/7-unit-interactivity/index.html">Part 7: Interactivity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/8-more-interactivity/index.html">Part 8: More on Interactivity</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-engines-plugins/index.html">Writing Engines Plugins</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-front-ends/index.html">Writing Front-Ends</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/other-resources/index.html">Additional Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="index.html">Settings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../client-configuration/index.html">Client Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../engines-configuration/index.html">Engines Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../floating/index.html">Floating Controller</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../faq/index.html">FAQ</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../dev/other-resources/index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../client-configuration/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#settings">Settings</a></li>
+        
+            <li><a href="#styles-and-fonts">Styles and Fonts</a></li>
+        
+            <li><a href="#locale">Locale</a></li>
+        
+            <li><a href="#layouts">Layouts</a></li>
+        
+            <li><a href="#simple-options">Simple Options</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="settings">Settings<a class="headerlink" href="#settings" title="Permanent link">&para;</a></h1>
+<p>This section describes settings and additional configuration panels offered by the RCP client.</p>
+<h2 id="styles-and-fonts">Styles and Fonts<a class="headerlink" href="#styles-and-fonts" title="Permanent link">&para;</a></h2>
+<p>The <em>Edit</em> menu (or the <em>Application</em> menu on Mac) allows users to customize the styles of <em>interactive item</em> as well as the code font used by most JEB views.</p>
+<p>Make sure to select a fixed font. JEB tries its best to select the most appropriate font on your system; if that fails, and you wish to select a font manually, we recommend <em>Consolas</em> on Windows, <em>Menlo/Monaco</em> on Mac, or <em>DejaVu Sans Mono</em> on Linux.</p>
+<blockquote>
+<p><strong>Unicode</strong>: JEB supports Unicode. While the aforementioned fonts have good support for a variery of common non-ASCII planes (CJK, Russian, etc.), you might need to use a different fonts to properly examine strings written in exotic locales.</p>
+</blockquote>
+<p><a href="../img/jeb-panel-style.png"><img alt="" src="../img/jeb-panel-style.png" /></a></p>
+<h2 id="locale">Locale<a class="headerlink" href="#locale" title="Permanent link">&para;</a></h2>
+<p>The RCP client front-end is available in English as well as 10 additional languages. Select your preferred language via the <em>Edit</em> menu:</p>
+<p><a href="../img/jeb-menu-locale.png"><img alt="" src="../img/jeb-menu-locale.png" /></a></p>
+<blockquote>
+<p><strong>Note</strong>: the back-end components (modules and plugins) are not localized at the moment. Localization is for front-end components only.</p>
+</blockquote>
+<p>English is the main UI language. Other languages have either full or partial support:</p>
+<table>
+<thead>
+<tr>
+<th>Language</th>
+<th>Support as of JEB 2.3.0</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>English</td>
+<td>default</td>
+</tr>
+<tr>
+<td>French</td>
+<td>full</td>
+</tr>
+<tr>
+<td>Chinese</td>
+<td>full</td>
+</tr>
+<tr>
+<td>Japanese</td>
+<td>full</td>
+</tr>
+<tr>
+<td>Korean</td>
+<td>full</td>
+</tr>
+<tr>
+<td>Russian</td>
+<td>full</td>
+</tr>
+<tr>
+<td>German</td>
+<td>partial</td>
+</tr>
+<tr>
+<td>Italian</td>
+<td>partial</td>
+</tr>
+<tr>
+<td>Portuguese</td>
+<td>partial</td>
+</tr>
+<tr>
+<td>Spanish</td>
+<td>partial</td>
+</tr>
+<tr>
+<td>Turkish</td>
+<td>partial</td>
+</tr>
+</tbody>
+</table>
+<h2 id="layouts">Layouts<a class="headerlink" href="#layouts" title="Permanent link">&para;</a></h2>
+<p>Users can (and should!) customize their workspace. It is very common for instance to have a separate view displaying a code hierarchy when analyzing binary code.</p>
+<p>However, users are not limited to a single layout for their workspace:</p>
+<ul>
+<li>Use the <em>Window, New Layout...</em> entry to duplicate the current layout and customize it.</li>
+<li>You may switch layouts at any time via <em>Window, Change Layout &gt; ...</em>.</li>
+</ul>
+<p>The current layout name is always displayed in the right-hand most of the status bar, at the bottom of the main program window.</p>
+<p><a href="../img/jeb-menu-layout.png"><img alt="" src="../img/jeb-menu-layout.png" /></a></p>
+<h2 id="simple-options">Simple Options<a class="headerlink" href="#simple-options" title="Permanent link">&para;</a></h2>
+<p>Simple options are accessible via the <em>Edit</em> or Application menu. Two panels, <em>General</em> and <em>Development</em>, offer a partial view of JEB's configuration files, described in upcoming sections. </p>
+<h3 id="general-options">General options<a class="headerlink" href="#general-options" title="Permanent link">&para;</a></h3>
+<ul>
+<li>Set-up your <em>packaged plugins</em> directory. Packaged plugins are third-party Jar modules that add functionality to JEB: they can be parsers, disassemblers, decompilers, debuggers, code analyzers, etc. <strong>Third-party plugins can be loaded on Pro builds only.</strong></li>
+<li>Customize your auto-update options. Proxy (http and socks) are supported.</li>
+</ul>
+<p><a href="../img/jeb-options-simple-general.png"><img alt="" src="../img/jeb-options-simple-general.png" /></a></p>
+<h3 id="development-options">Development options<a class="headerlink" href="#development-options" title="Permanent link">&para;</a></h3>
+<ul>
+<li>The <em>Development mode</em> enables verbose logging for increased insight into the program.</li>
+<li>The plugin classpath and classname widgets allow setting up non-packaged Java plugins, which makes developing them easier.</li>
+</ul>
+<p><a href="../img/jeb-options-simple-development.png"><img alt="" src="../img/jeb-options-simple-development.png" /></a></p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>JEB &copy; <a href="https://www.pnfsoftware.com">PNF Software, Inc.</a> 2015, 2016 - Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

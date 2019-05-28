@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="PNF Software">
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb2/manual/actions/index.html">
+        <link rel="shortcut icon" href="../../favicon.png">
+        
+
+	<title>Common Actions - JEB Decompiler</title>
+
+        <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.pnfsoftware.com/jeb2">JEB Decompiler</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../index.html">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Using JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="index.html">Common Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../views/index.html">Common Views</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../decompiling/index.html">Decompiling</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../debugging/index.html">Debugging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../native/index.html">Native Code Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../misc/index.html">Miscellaneous</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developing with JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../dev/introducing-jeb-extensions/index.html">Introducing JEB Extensions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-client-scripts/index.html">Writing Client Scripts</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Writing Parsers (Tutorial Series)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../dev/1-getting-started-with-parsers/index.html">Part 1: Getting Started with Parsers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/2-creating-simple-parser/index.html">Part 2: Creating a Simple Parser</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/3-documents-delegation/index.html">Part 3: Documents and Delegation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/4-tables-trees/index.html">Part 4: Tables and Trees</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/5-development-tips/index.html">Part 5: Development Tips</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/6-releasing-plugin/index.html">Part 6: Releasing a Plugin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/7-unit-interactivity/index.html">Part 7: Interactivity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../dev/8-more-interactivity/index.html">Part 8: More on Interactivity</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-engines-plugins/index.html">Writing Engines Plugins</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/writing-front-ends/index.html">Writing Front-Ends</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../dev/other-resources/index.html">Additional Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../settings/index.html">Settings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../client-configuration/index.html">Client Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../engines-configuration/index.html">Engines Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../floating/index.html">Floating Controller</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../faq/index.html">FAQ</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../views/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#common-actions">Common Actions</a></li>
+        
+            <li><a href="#renaming">Renaming</a></li>
+        
+            <li><a href="#commenting">Commenting</a></li>
+        
+            <li><a href="#navigating">Navigating</a></li>
+        
+            <li><a href="#cross-references">Cross-references</a></li>
+        
+            <li><a href="#type-hierarchies">Type Hierarchies</a></li>
+        
+            <li><a href="#restructuring">Restructuring</a></li>
+        
+            <li><a href="#object-overrides">Object Overrides</a></li>
+        
+            <li><a href="#rebasing-constants">Rebasing Constants</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="common-actions">Common Actions<a class="headerlink" href="#common-actions" title="Permanent link">&para;</a></h1>
+<p>One principal intended use for JEB is the analysis of binary code. This section focuses on the basics of <strong>code analysis and refactoring</strong>, such as:</p>
+<ul>
+<li>renaming items such as methods or fields</li>
+<li>changing the code structure by moving items to packages </li>
+<li>commenting</li>
+<li>navigating a code base via cross-references</li>
+<li>viewing type hierarchies</li>
+<li>etc.</li>
+</ul>
+<p>In the RCP client, many interactions can be achieved via the <em>Action</em> and <em>Navigation</em> menus. Those actions are implemented by most JEB analysis modules that perform code disassembly.</p>
+<p><a href="../img/jeb-menu-actions-basic.png"><img alt="" src="../img/jeb-menu-actions-basic.png" /></a></p>
+<blockquote>
+<p><strong>Note</strong>: Other action groups such as <a href="../native/index.html"><em>Native code actions</em></a> and <a href="../debugging/index.html"><em>Debugging actions</em></a> are detailed in later sections.</p>
+<p><strong>Note</strong>: The examples in this section are based on the analysis of <a href="https://www.pnfsoftware.com/other/raasta.apk">Raasta.apk</a> using the Android DEX parser. <strong>Keep in mind that features and behaviors of <em>Actions</em> depend on the module implementing and performing them.</strong></p>
+</blockquote>
+<h2 id="renaming">Renaming<a class="headerlink" href="#renaming" title="Permanent link">&para;</a></h2>
+<p>An important requirement for analysts is the ability to rename code items such as types, methods and routines, fields and data items, packages, etc. consistently across a code base.</p>
+<ul>
+<li>Position the caret on the item to be renamed</li>
+<li>Hit the <em>N</em> key or select <em>Action, Rename</em></li>
+<li>Enter the new name and press Enter</li>
+</ul>
+<blockquote>
+<p><strong>Tip:</strong> Within the Rename dialog box, press Ctrl+Space to bring up your renaming history.</p>
+</blockquote>
+<p><a href="../img/jeb-action-rename.png"><img alt="" src="../img/jeb-action-rename.png" /></a></p>
+<h2 id="commenting">Commenting<a class="headerlink" href="#commenting" title="Permanent link">&para;</a></h2>
+<p>Anywhere in the code, press the <em>/</em> (slash) key to add a comment. Comments are attached to addresses or items.  </p>
+<p><a href="../img/jeb-action-comment.png"><img alt="" src="../img/jeb-action-comment.png" /></a></p>
+<h2 id="navigating">Navigating<a class="headerlink" href="#navigating" title="Permanent link">&para;</a></h2>
+<p>Pressing the <em>Enter</em> key on an item or double-clicking it will bring the caret to the definition of the item.</p>
+<p>You can navigate back and forth using the traditional <em>Alt + Arrow Left</em> (or <em>Escape</em>) and <em>Alt + Arrow Right</em> key combos, or via the Navigation menu.</p>
+<p><a href="../img/jeb-menu-nav.png"><img alt="" src="../img/jeb-menu-nav.png" /></a></p>
+<p>The <em>Next Item</em> and <em>Previous Item</em> command allow you to jump to the similar item after or before the currently selected item. </p>
+<h2 id="cross-references">Cross-references<a class="headerlink" href="#cross-references" title="Permanent link">&para;</a></h2>
+<p>Cross-references on an item allow the examination of items referencing it. Press the <em>X</em> key to visualize them.</p>
+<p>You can jump to a cross-reference by double-clicking it.</p>
+<p><a href="../img/jeb-action-xrefs.png"><img alt="" src="../img/jeb-action-xrefs.png" /></a></p>
+<h2 id="type-hierarchies">Type Hierarchies<a class="headerlink" href="#type-hierarchies" title="Permanent link">&para;</a></h2>
+<p>Use the <em>T</em> key on a type item (such as a class or an interface) to visualize its ancestors and children. Double-click on a type item to jump to the item definition.</p>
+<p><a href="../img/jeb-action-typehier.png"><img alt="" src="../img/jeb-action-typehier.png" /></a></p>
+<h2 id="restructuring">Restructuring<a class="headerlink" href="#restructuring" title="Permanent link">&para;</a></h2>
+<p>The <em>Create Package</em> and <em>Move to Package</em> actions offer powerful refactoring possibilities, especially useful in the case of large obfuscated binary files.</p>
+<p>If the module supports it, users are able to:</p>
+<ul>
+<li>Create artifical packages (aka, namespaces) using the <em>K</em> key.</li>
+<li>Move items, such as types, to existing or artificial packages using the <em>L</em> key.</li>
+</ul>
+<p>The following screenshot is an example where the class <code>AppHelp</code> was moved from the <code>com.pnfsoftware.raasta</code> package to a newly created package named <code>com.abc</code>.</p>
+<p><a href="../img/jeb-action-packages.png"><img alt="" src="../img/jeb-action-packages.png" /></a></p>
+<blockquote>
+<p><strong>Want to learn more?</strong> Have a look at <a href="https://www.youtube.com/watch?v=xDRf8aG3ynk">our YouTube demo video</a> that demonstrates advanced refactoring and automatic restructuring of a heavily obfuscated Android malware application.</p>
+</blockquote>
+<h2 id="object-overrides">Object Overrides<a class="headerlink" href="#object-overrides" title="Permanent link">&para;</a></h2>
+<p>The <em>O</em> key allows the examination of overrides, such as virtual method redefinitions in the case of object-oriented bytecode files.</p>
+<blockquote>
+<p><strong>Note</strong>: As said above, keep in mind that plugins are allowed to attach the semantic they want to a given action. For instance, in the case of a document analysis plugin, the <em>Overrides</em> action may or may not be relevant. If it existed, it would certainly have a different meaning than "method overrides".</p>
+</blockquote>
+<h2 id="rebasing-constants">Rebasing Constants<a class="headerlink" href="#rebasing-constants" title="Permanent link">&para;</a></h2>
+<p>This feature allows the selection of the radix used to render immediate constant integers. Press the <em>B</em> key repeatedly to cycle through the bases offered by the plugin.</p>
+<p>Typically, bases 8, 10, 16 are offered. Some plugins may offer additional bases such as base 2, or non-conventional representation modes, such as character-based immediate rendering.</p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>JEB &copy; <a href="https://www.pnfsoftware.com">PNF Software, Inc.</a> 2015, 2016 - Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../js/jquery-1.10.2.min.js"></script>
+        <script src="../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../js/highlight.pack.js"></script>
+        <script>var base_url = '..';</script>
+        <script data-main="../mkdocs/js/search.js" src="../mkdocs/js/require.js"></script>
+        <script src="../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

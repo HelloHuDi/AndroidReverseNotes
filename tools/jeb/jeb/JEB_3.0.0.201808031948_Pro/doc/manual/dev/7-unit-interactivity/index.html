@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="PNF Software">
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb2/manual/dev/7-unit-interactivity/index.html">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        
+
+	<title>Part 7: Interactivity - JEB Decompiler</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.pnfsoftware.com/jeb2">JEB Decompiler</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../index.html">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Using JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../actions/index.html">Common Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../views/index.html">Common Views</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../decompiling/index.html">Decompiling</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../debugging/index.html">Debugging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../native/index.html">Native Code Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../misc/index.html">Miscellaneous</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developing with JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../introducing-jeb-extensions/index.html">Introducing JEB Extensions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-client-scripts/index.html">Writing Client Scripts</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Writing Parsers (Tutorial Series)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../1-getting-started-with-parsers/index.html">Part 1: Getting Started with Parsers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../2-creating-simple-parser/index.html">Part 2: Creating a Simple Parser</a>
+</li>
+
+        
+            
+<li >
+    <a href="../3-documents-delegation/index.html">Part 3: Documents and Delegation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../4-tables-trees/index.html">Part 4: Tables and Trees</a>
+</li>
+
+        
+            
+<li >
+    <a href="../5-development-tips/index.html">Part 5: Development Tips</a>
+</li>
+
+        
+            
+<li >
+    <a href="../6-releasing-plugin/index.html">Part 6: Releasing a Plugin</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="index.html">Part 7: Interactivity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../8-more-interactivity/index.html">Part 8: More on Interactivity</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../writing-engines-plugins/index.html">Writing Engines Plugins</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-front-ends/index.html">Writing Front-Ends</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../other-resources/index.html">Additional Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../settings/index.html">Settings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../client-configuration/index.html">Client Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../engines-configuration/index.html">Engines Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../floating/index.html">Floating Controller</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../faq/index.html">FAQ</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../6-releasing-plugin/index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../8-more-interactivity/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#unit-interactivity">Unit Interactivity</a></li>
+        
+            <li><a href="#syntax-highlighting">Syntax Highlighting</a></li>
+        
+            <li><a href="#notifications">Notifications</a></li>
+        
+            <li><a href="#addressing">Addressing</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><em>JEB Plugin Development Tutorial part 7/8</em></p>
+<h1 id="unit-interactivity">Unit Interactivity<a class="headerlink" href="#unit-interactivity" title="Permanent link">&para;</a></h1>
+<p>The source code for part 7 of this sample plugin is located on GitHub:</p>
+<ul>
+<li>Clone <a href="https://github.com/pnfsoftware/jeb2-plugindemo-js">this repo</a>: <code>git clone https://github.com/pnfsoftware/jeb2-plugindemo-js.git</code></li>
+<li>Switch to the <em>tutorial7</em> branch: <code>git checkout tutorial7</code></li>
+</ul>
+<h2 id="syntax-highlighting">Syntax Highlighting<a class="headerlink" href="#syntax-highlighting" title="Permanent link">&para;</a></h2>
+<p>Let's dive deeper and implement the first thing we want to get from an editor: syntax highlighting. This will allow us to uncover more corners of the JEB API.</p>
+<p>We will need to add item highlights on some parts of the text. Remember our sample, we will use only a single part:</p>
+<pre><code class="javascript">function a() {
+  alert(&quot;a called&quot;);
+}
+</code></pre>
+
+<p>A standard editor highlights keywords: they are specific words (reserved, most of the time) that are related to a language. In JavaScript, they are "function", "var", "if", "else"... Other interesting artifacts that could be highlighted are strings. In this tutorial, we will highlight functions, variables and strings surrounded by double-quotes.</p>
+<p>We want to modify only the display, not interact with the model (eg, renaming, formatting), so we will only look at <em>ITextDocument</em>. It has two important features:</p>
+<ul>
+<li>it builds <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/output/text/ITextDocumentPart.html">ITextDocumentPart</a></li>
+<li>it has a <em>coordinate to/from address</em> conversion system. We will see this later.</li>
+</ul>
+<p>Let's concentrate on the <em>ITextDocumentPart</em>. The interface defines two methods:</p>
+<ul>
+<li>one returns a list of <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/output/text/ILine.html">ILine</a> objects: the part is split into lines.</li>
+<li>the other one returns a list of <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/output/text/IAnchor.html">IAnchor</a> objects. Anchors act the same as chapters for a book: an anchor indicates the beginning of a new section. If you don't need it, you can use a single anchor for the entire document.</li>
+</ul>
+<p>Remember that a part represents a part of the document (for buffered document) or can include the whole document. So the list of lines can be all the lines or just the lines of a part. We won't treat buffered document in this tutorial to keep things simple.</p>
+<p>Once again, let's check only the most important object, <em>ILine</em>. It contains:</p>
+<ul>
+<li>a <em>CharSequence</em>: the text line</li>
+<li>a List of <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/output/text/ITextItem.html">ITextItem</a>. As said in the API: A text item is used to identify a particular sequence of characters. This looks like what we were looking for.</li>
+</ul>
+<p>We will need to add <em>ITextItem</em> to our current model. The <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/output/text/impl/TextItem.html">TextItem</a> default implementation can be used. It takes as argument:</p>
+<ul>
+<li>the start offset of the keyword</li>
+<li>the length of the keyword</li>
+<li>an <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/output/ItemClassIdentifiers.html">ItemClassIdentifiers</a> identifier to apply a specific semantic and eventually, style, to your element. You can configure the display of these styles in the <em>Edit, Fonts and Style...</em> panel.</li>
+</ul>
+<blockquote>
+<p><strong>Assignment 1</strong>: Clone the sample code and checkout the <code>tutorial7</code> branch. It already displays functions using a special ItemClassIdentifiers. Try to do the same for the <em>var</em> keyword and string constants.</p>
+</blockquote>
+<p><a href="../img/Plugin7-01.png"><img alt="" src="../img/Plugin7-01.png" /></a></p>
+<h2 id="notifications">Notifications<a class="headerlink" href="#notifications" title="Permanent link">&para;</a></h2>
+<p>JEB is a security-oriented product: its aim is to help you analyze malicious code and pin-point potential areas of interest. <em>Notifications</em> can be used to show areas that are noteworthy; styles can be attached to notifications to highlight their corresponding elements on rendering. Notifications are global to a unit, they should be generated whe the processor plugin <code>process()</code>-es the input.</p>
+<p>For the sake of this tutorial, we want to highlight the usage of function "alert" because it can block the UI unreasonably.</p>
+<p>The <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/units/AbstractUnit.html">AbstractUnit</a> interface exposes the following method:</p>
+<pre><code>public addtNotifications(IUnitNotification unit);
+</code></pre>
+
+<p>We will use the default implementation: <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/units/UnitNotification.html">UnitNotification</a>.</p>
+<p>In the <code>process()</code> method of your JavaScript plugin, add the following snippet:</p>
+<pre><code>root.visit(new NodeVisitor() {
+    @Override
+    public boolean visit(AstNode node) {
+        switch(node.getType()) {
+        case Token.EXPR_VOID:
+        case Token.EXPR_RESULT:
+            break;
+        case Token.CALL:
+            visitTarget(((FunctionCall)node).getTarget());
+            break;
+        default:
+            break;
+        }
+    return true;
+    }
+
+    private void visitTarget(AstNode target) {
+        if(target.getType() == Token.NAME) {
+            if(((Name)target).getIdentifier().equals(&quot;alert&quot;)) {
+                // Add notification
+                addNotification(new UnitNotification(NotificationType.POTENTIALLY_HARMFUL,
+                        String.format(&quot;alert is detected at position %d&quot;, target.getAbsolutePosition())));
+            }
+        }
+    }
+});
+</code></pre>
+
+<p>The <code>visit()</code> method recursively process all the elements. When we have a JavaScript function call, we check the name and add a notification if the function is "alert".</p>
+<p>Now, you should see something new in the UI:</p>
+<p><a href="../img/Plugin7-02.png"><img alt="" src="../img/Plugin7-02.png" /></a></p>
+<p>If you want to see all notifications as soon as the file is opened in JEB, you will need to slightly modify your code. Since the <code>process()</code> method is only called on opening an IUnit, the best is to call it directly after IUnit creation:</p>
+<pre><code class="java">public IUnit prepare(String name, IInput input, IUnitProcessor unitProcessor, IUnitCreator parent) {
+    IUnit sampleUnit = new SampleUnit(name, input, unitProcessor, parent, pdm);
+    sampleUnit.process(); // forces children calculation
+    return sampleUnit;
+}
+</code></pre>
+
+<p>Always be careful to add this line somewhere in the process() method to indicate that the processing should not be done once again:</p>
+<pre><code class="java">setProcessed(true);
+</code></pre>
+
+<p>Now, we see something interesting on the screenshot: there is an address column that is blank. <code>IUnitNotification</code> defines an address binding which can be used to jump to the related section. Let's see how to use it.</p>
+<h2 id="addressing">Addressing<a class="headerlink" href="#addressing" title="Permanent link">&para;</a></h2>
+<p>To be able to jump to a correct <em>Address</em>, we need to define a binding from Unit addressing (address) to a position in a Document (coordinates).</p>
+<p>ITextDocument uses <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/output/text/ICoordinates.html">ICoordinates</a>: it contains the anchor id, a line number relative to the anchor, and the position (column offset) in the line.</p>
+<p>Addresses, however, are user-defined (in this context, the user is the plugin developer): it is up to user to define them and their granularity. For instance, you can choose to support addresses:</p>
+<ul>
+<li>at function level/ element level. For example: "function a", "function a / statement 1"</li>
+<li>at byte level. For example, using absolute byte address in file: "0x1A", "0x89"</li>
+<li>at any other level. For example, at each line, each character for that line, etc.</li>
+</ul>
+<p>The important aspect of addresses is that an address must not be directly tied to a Document (your implementation of Document can change: if you add a beautifier, if you decide to format your document on a single line, if you use a tree/table for your representation, etc.). Of course, there should still be a way to make the link between the two addressing systems:</p>
+<blockquote>
+<p>Refer to the technical draft <a href="https://docs.google.com/document/d/19WDsGf2NbJmKLYC6iE7MT5P9nUJvAOLdGhPsuMeM104/pub">"Positioning within inputs, units, and documents"</a> for additional details on addressing.</p>
+</blockquote>
+<p>At last, an address must identify an object/position in a unique way. Otherwise, you wouldn't know where to jump.</p>
+<p>For our sample JavaScript plugin, we will use the addressing using <a href="http://mozilla.github.io/rhino/javadoc/org/mozilla/javascript/ast/AstNode.html#getAbsolutePosition%28%29">AstNode.getAbsolutePosition()</a>. When jumping from Notification Panel, we have the current address (Absolute position), and we will jump to an ICoordinates in the ITextDocument. So the main method to implement is:</p>
+<p><code>public ICoordinates addressToCoordinates(String address);</code></p>
+<blockquote>
+<p><strong>Assignment 2</strong>: Try to implement this method.</p>
+</blockquote>
+<p>There is also another column in the Notification Panel called "Label": it represents the label of the address. You can indicate here a human readable label: for example, the name of the function.</p>
+<p>To display label, we need to inherit from <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/units/IInteractiveUnit.html">IInteractiveUnit</a> and implement String getAddressLabel(String address) to see changes in the Notification Panel.</p>
+<blockquote>
+<p><strong>Assignment 3 (hard)</strong>: Try to implement the getAddressLabel() method.</p>
+</blockquote>
+<p>A solution to the assignments can be found by checking out the branch <code>tutorial7_solution</code> of the <a href="https://github.com/pnfsoftware/jeb2-plugindemo-js">sample code</a>. </p>
+<p>You may have noticed that IInteractiveUnit provides a lot of methods. We will focus on it in the next part!</p>
+<p><strong>Next: <a href="../8-more-interactivity/index.html">Part 8</a></strong></p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>JEB &copy; <a href="https://www.pnfsoftware.com">PNF Software, Inc.</a> 2015, 2016 - Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

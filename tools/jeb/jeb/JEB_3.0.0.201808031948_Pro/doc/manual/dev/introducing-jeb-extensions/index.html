@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="PNF Software">
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb2/manual/dev/introducing-jeb-extensions/index.html">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        
+
+	<title>Introducing JEB Extensions - JEB Decompiler</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.pnfsoftware.com/jeb2">JEB Decompiler</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../index.html">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Using JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../actions/index.html">Common Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../views/index.html">Common Views</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../decompiling/index.html">Decompiling</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../debugging/index.html">Debugging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../native/index.html">Native Code Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../misc/index.html">Miscellaneous</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developing with JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li class="active">
+    <a href="index.html">Introducing JEB Extensions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-client-scripts/index.html">Writing Client Scripts</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Writing Parsers (Tutorial Series)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../1-getting-started-with-parsers/index.html">Part 1: Getting Started with Parsers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../2-creating-simple-parser/index.html">Part 2: Creating a Simple Parser</a>
+</li>
+
+        
+            
+<li >
+    <a href="../3-documents-delegation/index.html">Part 3: Documents and Delegation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../4-tables-trees/index.html">Part 4: Tables and Trees</a>
+</li>
+
+        
+            
+<li >
+    <a href="../5-development-tips/index.html">Part 5: Development Tips</a>
+</li>
+
+        
+            
+<li >
+    <a href="../6-releasing-plugin/index.html">Part 6: Releasing a Plugin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../7-unit-interactivity/index.html">Part 7: Interactivity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../8-more-interactivity/index.html">Part 8: More on Interactivity</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../writing-engines-plugins/index.html">Writing Engines Plugins</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-front-ends/index.html">Writing Front-Ends</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../other-resources/index.html">Additional Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../settings/index.html">Settings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../client-configuration/index.html">Client Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../engines-configuration/index.html">Engines Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../floating/index.html">Floating Controller</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../faq/index.html">FAQ</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../../misc/index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../writing-client-scripts/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#introducing-jeb-extensions">Introducing JEB Extensions</a></li>
+        
+            <li><a href="#capabilities">Capabilities</a></li>
+        
+            <li><a href="#high-level-architecture">High-level Architecture</a></li>
+        
+            <li><a href="#api">API</a></li>
+        
+            <li><a href="#scripts-vs-plugins">Scripts vs Plugins</a></li>
+        
+            <li><a href="#executing-scripts">Executing Scripts</a></li>
+        
+            <li><a href="#executing-engines-plugins">Executing Engines Plugins</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="introducing-jeb-extensions">Introducing JEB Extensions<a class="headerlink" href="#introducing-jeb-extensions" title="Permanent link">&para;</a></h1>
+<p>JEB offers a rich API that can be used to develop:</p>
+<ul>
+<li><strong>Front-end clients</strong>, such as:<ul>
+<li>The official <em>RCP client</em></li>
+<li>Headless clients for automation pipelines</li>
+</ul>
+</li>
+<li><strong>Plugins</strong> (aka <em>back-end modules</em>):<ul>
+<li><strong><em>Processor plugins</em></strong> such as disassemblers, decompilers, debuggers, or any other type of analyzer<ul>
+<li>Many processor plugins fall in the category of <em>parsers</em> and are sometimes referred as such</li>
+</ul>
+</li>
+<li><strong><em>Engines plugins</em></strong> such as second-pass code analyzers, working on results produced by other plugins, or helpers</li>
+</ul>
+</li>
+<li><strong>Scripts</strong>:<ul>
+<li>Python scripts for automating simple tasks</li>
+<li>Python scripts that can interact with graphical clients that implement the UI-API (the RCP client does)</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> the <em>Developing with JEB</em> area of this guide is superseding our <em>Developer Portal</em>. This is a work-in-progress as old pages are being ported over, and new contents is being added.</p>
+</blockquote>
+<h2 id="capabilities">Capabilities<a class="headerlink" href="#capabilities" title="Permanent link">&para;</a></h2>
+<p>Only professional licenses offer full API access. However, all licenses allow script execution from within the RCP client:</p>
+<table>
+<thead>
+<tr>
+<th>Licenses Type</th>
+<th>RCP client</th>
+<th>Other Clients (incl. command-line)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Basic</strong></td>
+<td>UI scripts</td>
+<td>no</td>
+</tr>
+<tr>
+<td><strong>Pro</strong></td>
+<td>UI scripts + plugins</td>
+<td>scripts + plugins</td>
+</tr>
+</tbody>
+</table>
+<h2 id="high-level-architecture">High-level Architecture<a class="headerlink" href="#high-level-architecture" title="Permanent link">&para;</a></h2>
+<p>Grasping the high-level concepts of how pieces fit together within JEB will make you a more efficient extensions developer.</p>
+<p>At the highest-level, JEB is separated into back-end and front-end components:</p>
+<ul>
+<li>The back-end components are responsible for processing input artifacts. They provide an execution environment for native and third-party plugins, including input artifact processor plugins, such as file parsers.</li>
+<li>The front-end components are responsible for processing input commands and rendering back-end results. A variety of front-ends may be created using the API exposed by the back-end.</li>
+</ul>
+<blockquote>
+<p><strong>Note:</strong> As said earlier, all JEB distributions ship with the RCP client front-end that runs on all major desktop operating systems.</p>
+</blockquote>
+<p>The diagram below shows the relationship between back-end and front-end components:</p>
+<p><a href="../../img/jeb-architecture.png"><img alt="" src="../../img/jeb-architecture.png" /></a></p>
+<p>Depending on their license type, users may be able to develop third-party plugins and instruct the back-end to load them. This enables power users to craft input processors that cater to their specific needs (eg, a disassembler for an exotic or virtual CPU).</p>
+<p>You may verify your API usage capabilities by starting JEB with the <code>-c --license</code> command line flag.</p>
+<h2 id="api">API<a class="headerlink" href="#api" title="Permanent link">&para;</a></h2>
+<p>The JEB 2.x Application Programming Interface offers power-users ways to:</p>
+<ul>
+<li>write clients such as command-line processors (headless)</li>
+<li>write extensions, from simple scripts in <em>Python</em> to advanced analysis modules in <em>Java</em></li>
+</ul>
+<p>The JEB API reference documentation is <a href="https://www.pnfsoftware.com/jeb2/apidoc">available online</a> as well as offline, within your JEB software package (file <code>doc/apidoc.zip</code>).</p>
+<p><strong>A exhaustive discussion of the API components is outside the scope of this guide.</strong></p>
+<p><a href="../../img/jeb-portal-apidoc.png"><img alt="" src="../../img/jeb-portal-apidoc.png" /></a></p>
+<h2 id="scripts-vs-plugins">Scripts vs Plugins<a class="headerlink" href="#scripts-vs-plugins" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Scripts...<ul>
+<li>Implement <code>IScript</code></li>
+<li>Are called by users to achieve small tasks<ul>
+<li>Example: modify some code, navigate somewhere, display some info, etc.</li>
+</ul>
+</li>
+<li>Have to to be written in Python (and are run within a Jython VM)<ul>
+<li>Ideal for rapid development and prototyping</li>
+</ul>
+</li>
+<li>Are executed by JEB on-demand<ul>
+<li>In UI client, can be executed via the <em>File</em> menu</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Plugins...<ul>
+<li>Implement <code>IPlugin</code> (<code>IUnitIdentifier</code> for processor plugins, <code>IEnginesPlugin</code> for engines plugins)</li>
+<li>Are designed to process input (for processor plugins) or do other tasks (for engines plugins)<ul>
+<li>Example: disassemble or decompile code, do complex file parsing, etc.</li>
+</ul>
+</li>
+<li>Must be written in Java<ul>
+<li>Ideal for complex, large code bases</li>
+</ul>
+</li>
+<li>Are loaded by JEB at start-up time<ul>
+<li>List of loaded plugins can be seen in the <em>File</em> menu</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p><strong>Future</strong>: we may allow plugins to be written in Python soon, stay tuned!</p>
+</blockquote>
+<h2 id="executing-scripts">Executing Scripts<a class="headerlink" href="#executing-scripts" title="Permanent link">&para;</a></h2>
+<blockquote>
+<p><strong>Note</strong>: All versions of JEB can execute <em>client scripts</em> inside the RCP client.</p>
+</blockquote>
+<p>Scripts <strong>should</strong> be dropped in your <code>scripts/</code> directory (or any other directory specified in your <code>.ScriptsFolder</code> <a href="../../client-configuration/index.html">client option</a>).
+Use the <em>File, Script, Run Script...</em> menu command to execute a script. The last run script can be executed again by pressing the <em>F2</em> key.</p>
+<p><a href="../../img/jeb-menu-scripts.png"><img alt="" src="../../img/jeb-menu-scripts.png" /></a></p>
+<ul>
+<li>Client scripts are written in Python, and are executed within a <a href="http://www.jython.org/downloads.html">Jython</a> (a Java implementation of the Python VM)</li>
+<li>You will need to drop a copy of the Jython JAR runtime in your JEB <code>scripts/</code> in order to execute scripts</li>
+<li>Scripts, like any extension, use the JEB API. Visit the reference documentation for details.</li>
+<li>Client scripts executed inside the RCP client also have access to the <strong>UI-API</strong> (package <code>com.pnfsoftware.jeb.client.ui</code>). Classes of the UI-API allow graphical manipulation of views, fragments, items, etc. (This sub-API is accessible only to clients that implement it; the RCP client does.)</li>
+</ul>
+<p>You will find a large collection of sample scripts on our <a href="https://github.com/pnfsoftware/jeb2-samplecode/tree/master/scripts">public Github repository</a>.</p>
+<h2 id="executing-engines-plugins">Executing Engines Plugins<a class="headerlink" href="#executing-engines-plugins" title="Permanent link">&para;</a></h2>
+<p>All third-party plugins must be dropped in your <code>coreplugins/</code> directory (or any other directory specified in your <code>.PluginsFolder</code> <a href="../../engines-configuration/index.html">back-end option</a>). Use the <em>File, Engines, Execute, ...</em> menu command to execute an <strong><em>engines plugin</em></strong>.</p>
+<blockquote>
+<p><strong>Note</strong>: technically speaking, <em>engines plugins</em> are JEB plugins that implement the <a href="https://www.pnfsoftware.com/jeb2/apidoc/reference/com/pnfsoftware/jeb/core/IEnginesPlugin.html">IEnginesPlugin</a> interface.</p>
+</blockquote>
+<p>The full list of <em>engines plugins</em> loaded within your JEB instance context can be seen by running the <em>File, Engines, Plugins</em> command. (You may double-click a plugin to execute it.)</p>
+<p><a href="../../img/jeb-list-plugins.png"><img alt="" src="../../img/jeb-list-plugins.png" /></a></p>
+<p>A collection of open-source plugins can be found on our <a href="https://github.com/pnfsoftware/">public Github repository</a>.</p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>JEB &copy; <a href="https://www.pnfsoftware.com">PNF Software, Inc.</a> 2015, 2016 - Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

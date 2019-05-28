@@ -1,0 +1,96 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: LpI83b0B4I+qTP81h6QtXx+mam4P1
+ Y2wAbEVhhnLg3o=
+SHA-256-Digest-Manifest: vq27W9Pls1etljUVxlPdmuq+BOPqHJIKMdGW7XEiH/k=
+Created-By: 1.8.0_40 (Oracle Corporation)
+
+Name: plugin.xml
+SHA-256-Digest: sB8P7+3dSTnq+7heleqjRynndQ+YY4+orwwvdKowhfo=
+
+Name: data/21/fragment/fragment.xml
+SHA-256-Digest: UiJUvYEDGRud5xsoFJw76i6wa76CK/6vTgBgAbJJ81o=
+
+Name: about_files/LICENSE-2.0.txt
+SHA-256-Digest: pgHwXlfwoswdBsTcqm60MdG9UCR1vmm7cVCWX+ZHJaw=
+
+Name: scripts/build.xml
+SHA-256-Digest: 35fzAmKVjRKHNqYhvNcMfXV5TQcYiAHLd6U71RyRGMg=
+
+Name: scripts/genericTargets.xml
+SHA-256-Digest: kgRl4uHkxy2L4RublwlEHn2aOySgTmniC/uGt4pJrjU=
+
+Name: .options
+SHA-256-Digest: qjnIlNIamrk46y5bRb21zqxz4WrkCoUB5Kz30lWdEQA=
+
+Name: templates/headless-build/customAssembly.xml
+SHA-256-Digest: CmadtTT0bCgESr2y6ksn5g4EqS9BmGjjfuy9raL4IHw=
+
+Name: data/21/plugin/plugin.xml
+SHA-256-Digest: i5dX9r1fWufw/U5IIMRNLLvKWGgcqT3L4HOvlJMIlW0=
+
+Name: plugin.properties
+SHA-256-Digest: z2GXADq7rDowyDis0otd0l1kNJEMF5Wrj7OfimSOONE=
+
+Name: templates/headless-build/customTargets.xml
+SHA-256-Digest: KZDaRNYSFXVzULQBXNdgpLq9HsJSfUt4eOvDn/J7KX0=
+
+Name: data/30/fragment/META-INF/MANIFEST.MF
+SHA-256-Digest: hnSIF2fuSvQyR/Zsesx//Jpa4RyNWmEcDyzoBsjulEA=
+
+Name: templates/headless-build/build.properties
+SHA-256-Digest: dCeKRPcQVi3tJ+eQ4Q06/JHzhZmDEpMRMCSZuaMUf3I=
+
+Name: about.html
+SHA-256-Digest: tadcum1pPNO09yKfO3WcUC1/SbIW8pEfeYQEySheHM8=
+
+Name: scripts/productBuild/allElements.xml
+SHA-256-Digest: uGskCWPmkmm5Y67zyOnNUrnkWxrKew45ghV2T6ORJ90=
+
+Name: templates/packager/packager.properties
+SHA-256-Digest: dFnNaMjOym79pf4Dly5y5vHAycfQ4xNHK1iVJWINbv4=
+
+Name: data/30/plugin/META-INF/MANIFEST.MF
+SHA-256-Digest: A3pbRDTTekcqrTuc83jabgnWT1fGSVWz1KMqDcBmKlU=
+
+Name: scripts/package.xml
+SHA-256-Digest: V63lr297hDTH33ulFKMJus/VGDtzfxl8VnxWnaJPyNo=
+
+Name: .api_description
+SHA-256-Digest: 1k3CBEOFOr9lIy+VqsbCueDlxjHehagB4OhUtajKk9c=
+
+Name: data/env.properties
+SHA-256-Digest: jcuePBBYUKfBj65s96VHLnrmH4rWEfbsCo4nlL932/4=
+
+Name: scripts/productBuild/productBuild.xml
+SHA-256-Digest: aw6Mk2osxG2S4VfHFMHcBCFW6wP+GSjZ9NVJad8Xr0s=
+
+Name: META-INF/eclipse.inf
+SHA-256-Digest: 6RPoqey9mz6Wg5IT2uAR3Bo6DPBNajG+GdbKK0r3/aw=
+
+Name: templates/headless-build/allElements.xml
+SHA-256-Digest: RtNgIe3tUS61BP39If7PGZfrcCj6LvDg8QS01iBUsvw=
+
+Name: templates/packager/customTargets.xml
+SHA-256-Digest: 7hSxXVHXnKi810wENfWywSVIkh43NyMpyIEZlQwXrzg=
+
+Name: templates/packager/packaging.properties
+SHA-256-Digest: OgCLNZ67R1LQvtOvYzemydmtStDsf2ktBo91KtRyy3Y=
+
+Name: data/30/fragment/fragment.xml
+SHA-256-Digest: RHAmFjAqWrMFqMzU6/Y6JgxjMd2Dp04Kdkt6IZd+TTc=
+
+Name: templates/plugins/customBuildCallbacks.xml
+SHA-256-Digest: TtFHOFYRGc3JLkmfjxDs92cr/LIRBWLDnWKQFN/AwHo=
+
+Name: data/30/plugin/plugin.xml
+SHA-256-Digest: 25rVe2fdKTToq/7y5VZDoLBjipMuQ095qDNhTGShydM=
+
+Name: templates/features/customBuildCallbacks.xml
+SHA-256-Digest: BfNijOPO9FMGVH+BHmd9CUfw6INHEfsPwzHZdBNti7A=
+
+Name: lib/pdebuild-ant.jar
+SHA-256-Digest: 0/t55/K6xDb++Xu3wF1wsgCLybsjjUxlgMdJ0pEAXas=
+
+Name: pdebuild.jar
+SHA-256-Digest: QCWobKNkXzxq+Ej2Rff1HutAqHyr63I3Pvb23ZAnl50=
+

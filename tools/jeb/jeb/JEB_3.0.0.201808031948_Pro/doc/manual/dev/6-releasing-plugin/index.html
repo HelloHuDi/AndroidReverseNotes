@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="PNF Software">
+        <link rel="canonical" href="https://www.pnfsoftware.com/jeb2/manual/dev/6-releasing-plugin/index.html">
+        <link rel="shortcut icon" href="../../../../favicon.png">
+        
+
+	<title>Part 6: Releasing a Plugin - JEB Decompiler</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="https://www.pnfsoftware.com/jeb2">JEB Decompiler</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../../index.html">Getting Started</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Using JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../actions/index.html">Common Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../views/index.html">Common Views</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../decompiling/index.html">Decompiling</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../debugging/index.html">Debugging</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../native/index.html">Native Code Actions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../misc/index.html">Miscellaneous</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Developing with JEB <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../introducing-jeb-extensions/index.html">Introducing JEB Extensions</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-client-scripts/index.html">Writing Client Scripts</a>
+</li>
+
+                        
+                            
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="">Writing Parsers (Tutorial Series)</a>
+    <ul class="dropdown-menu">
+        
+            
+<li >
+    <a href="../1-getting-started-with-parsers/index.html">Part 1: Getting Started with Parsers</a>
+</li>
+
+        
+            
+<li >
+    <a href="../2-creating-simple-parser/index.html">Part 2: Creating a Simple Parser</a>
+</li>
+
+        
+            
+<li >
+    <a href="../3-documents-delegation/index.html">Part 3: Documents and Delegation</a>
+</li>
+
+        
+            
+<li >
+    <a href="../4-tables-trees/index.html">Part 4: Tables and Trees</a>
+</li>
+
+        
+            
+<li >
+    <a href="../5-development-tips/index.html">Part 5: Development Tips</a>
+</li>
+
+        
+            
+<li class="active">
+    <a href="index.html">Part 6: Releasing a Plugin</a>
+</li>
+
+        
+            
+<li >
+    <a href="../7-unit-interactivity/index.html">Part 7: Interactivity</a>
+</li>
+
+        
+            
+<li >
+    <a href="../8-more-interactivity/index.html">Part 8: More on Interactivity</a>
+</li>
+
+        
+    </ul>
+  </li>
+
+                        
+                            
+<li >
+    <a href="../writing-engines-plugins/index.html">Writing Engines Plugins</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../writing-front-ends/index.html">Writing Front-Ends</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../other-resources/index.html">Additional Resources</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../settings/index.html">Settings</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../client-configuration/index.html">Client Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../engines-configuration/index.html">Engines Configuration</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../floating/index.html">Floating Controller</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li >
+                        <a href="../../faq/index.html">FAQ</a>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../5-development-tips/index.html">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../7-unit-interactivity/index.html">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#releasing-a-plugin">Releasing a Plugin</a></li>
+        
+            <li><a href="#ant-build-file">Ant Build File</a></li>
+        
+            <li><a href="#building-the-plugin">Building the Plugin</a></li>
+        
+            <li><a href="#generic-build-template">Generic Build Template</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<p><em>JEB Plugin Development Tutorial part 6/8</em></p>
+<h1 id="releasing-a-plugin">Releasing a Plugin<a class="headerlink" href="#releasing-a-plugin" title="Permanent link">&para;</a></h1>
+<p>When your plugin is ready, you may be looking into some way to share it. It is not convenient to hand out classfiles, not to mention changing Classpath and Classnames in the JEB <em>Options</em> panel. The solution is to package your plugin: this page shows you how to build a jar file containing your JEB plugin.</p>
+<h2 id="ant-build-file">Ant Build File<a class="headerlink" href="#ant-build-file" title="Permanent link">&para;</a></h2>
+<p>First, make sure to have a <em>JEB_HOME</em> environment variable pointing to your JEB directory. Then, use the following Ant <code>build.xml</code> file to build the sample JavaScript plugin.</p>
+<pre><code class="xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+
+&lt;project basedir=&quot;.&quot; default=&quot;build&quot; name=&quot;jebplugin&quot;&gt;
+    &lt;property name=&quot;jebjar&quot; value=&quot;${env.JEB_HOME}/bin/cl/jeb.jar&quot;/&gt;
+    &lt;property name=&quot;jebpath&quot; value=&quot;/home/clucas/jeb-2.0.6.201508260620/bin/cl/jeb.jar&quot;/&gt;
+    &lt;property name=&quot;outfile&quot; value=&quot;out/JebJavascriptPlugin.jar&quot;/&gt;
+    &lt;property name=&quot;entryclass&quot; value=&quot;com.jeb.sample.JavascriptPlugin&quot;/&gt;
+
+    &lt;property name=&quot;extcp_build&quot; value=&quot;lib/js.jar&quot;/&gt;
+    &lt;property name=&quot;extcp_manifest&quot; value=&quot;lib/js.jar&quot;/&gt;
+
+    &lt;target name=&quot;build&quot; depends=&quot;compile,package&quot;/&gt;
+
+    &lt;target name=&quot;compile&quot;&gt;
+        &lt;delete dir=&quot;bin&quot;/&gt;
+        &lt;mkdir dir=&quot;bin&quot;/&gt;
+        &lt;javac debug=&quot;true&quot; debuglevel=&quot;source,lines,vars&quot;
+               destdir=&quot;bin&quot; includeantruntime=&quot;false&quot; source=&quot;1.7&quot; target=&quot;1.7&quot;&gt;
+            &lt;src path=&quot;src&quot;/&gt;
+            &lt;classpath&gt;
+                &lt;pathelement location=&quot;${jebpath}&quot;/&gt;
+                &lt;pathelement path=&quot;${extcp_build}&quot;/&gt;
+            &lt;/classpath&gt;
+        &lt;/javac&gt;
+    &lt;/target&gt;
+
+    &lt;target name=&quot;package&quot;&gt;
+        &lt;delete file=&quot;${outfile}&quot;/&gt;
+        &lt;jar destfile=&quot;${outfile}&quot;&gt;
+            &lt;manifest&gt;
+                &lt;attribute name=&quot;Class-Path&quot; value=&quot;${extcp_manifest}&quot;/&gt;
+                &lt;attribute name=&quot;JebPlugin-entryclass&quot; value=&quot;${entryclass}&quot;/&gt;
+            &lt;/manifest&gt;
+            &lt;fileset dir=&quot;bin&quot;/&gt;
+            &lt;fileset dir=&quot;.&quot; includes=&quot;README.md&quot;/&gt;
+        &lt;/jar&gt;
+    &lt;/target&gt;
+
+&lt;/project&gt;
+</code></pre>
+
+<h2 id="building-the-plugin">Building the Plugin<a class="headerlink" href="#building-the-plugin" title="Permanent link">&para;</a></h2>
+<p>You can run the build.xml directly from eclipse or execute the Ant command.</p>
+<p><a href="../img/Plugin6-01.png"><img alt="" src="../img/Plugin6-01.png" /></a></p>
+<p>It will generate a jar which has 2 specific entries in the manifest:</p>
+<ul>
+<li><code>Class-Path</code> to indicate the required external libraries.</li>
+<li><code>JebPlugin-entryclass</code> to indicate the classname, ie your plugin entry-point</li>
+</ul>
+<p>Copy both JebJavascriptPlugin.jar and js.jar to your plugin folder. You can remove the classpath and classnames entries related to JavascriptPlugin and js.jar.</p>
+<blockquote>
+<p><strong>Note</strong>: the best approach is to have one project per plugin.</p>
+</blockquote>
+<p>Exercice: Split the project and generate JavascriptPlugin.jar and HashJavascriptPlugin.jar. Remove all classpaths and classnames to check that it works.</p>
+<h2 id="generic-build-template">Generic Build Template<a class="headerlink" href="#generic-build-template" title="Permanent link">&para;</a></h2>
+<p>The following Ant template can be customized for your own plugins needs: </p>
+<pre><code>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;
+
+&lt;!-- Sample Ant build file used to build and package a JEB plugin.
+- Requirements: set up the JEB_HOME environment variable to point to your
+JEB installation folder.
+- Customize the outfile, entryclass, extcp_build, and extcp_manifest properties. --&gt;
+
+&lt;project basedir=&quot;.&quot; default=&quot;build&quot; name=&quot;jebplugin&quot;&gt;
+
+    &lt;fail message=&quot;Set the plugin version number: ant -Dversion=x.y.z&quot;&gt;
+      &lt;condition&gt;
+        &lt;not&gt;
+          &lt;isset property=&quot;version&quot;/&gt;
+        &lt;/not&gt;
+      &lt;/condition&gt;
+    &lt;/fail&gt;
+
+    &lt;echo message=&quot;Plugin version: ${version}&quot;/&gt;
+
+    &lt;property environment=&quot;env&quot;/&gt;
+    &lt;echo message=&quot;JEB_HOME: ${env.JEB_HOME}&quot;/&gt;
+
+    &lt;property name=&quot;jebjar&quot; value=&quot;${env.JEB_HOME}/bin/cl/jeb.jar&quot;/&gt;
+    &lt;echo message=&quot;JEB Core expected at location: ${jebjar}&quot;/&gt;
+
+    &lt;fail message=&quot;Please set JEB_HOME environment variable to point to your JEB installation folder&quot;&gt;
+      &lt;condition&gt;
+        &lt;not&gt;
+          &lt;available file=&quot;${jebjar}&quot;/&gt;
+        &lt;/not&gt;
+      &lt;/condition&gt;
+    &lt;/fail&gt;
+
+    &lt;property name=&quot;debuglevel&quot; value=&quot;source,lines,vars&quot;/&gt;
+    &lt;property name=&quot;target&quot; value=&quot;1.7&quot;/&gt;
+    &lt;property name=&quot;source&quot; value=&quot;1.7&quot;/&gt;
+
+    &lt;!-- Mandatory properties --&gt;
+    &lt;property name=&quot;outfile&quot; value=&quot;CUSTOMIZE&quot;/&gt;
+    &lt;property name=&quot;entryclass&quot; value=&quot;CUSTOMIZE&quot;/&gt;
+    &lt;!-- External libraries, for build process (semi-colon separated) --&gt;
+    &lt;property name=&quot;extcp_build&quot; value=&quot;&quot;/&gt;
+    &lt;!-- External libraries, for Manifest (space separated) --&gt;
+    &lt;property name=&quot;extcp_manifest&quot; value=&quot;&quot;/&gt;
+
+    &lt;target name=&quot;build&quot; depends=&quot;clean,compile,package&quot;/&gt;
+    &lt;target name=&quot;audit&quot; depends=&quot;clean,compile-audit&quot;/&gt;
+
+    &lt;target name=&quot;clean&quot;&gt;
+        &lt;delete dir=&quot;bin&quot;/&gt;
+        &lt;mkdir dir=&quot;bin&quot;/&gt;
+    &lt;/target&gt;
+
+    &lt;target name=&quot;compile&quot;&gt;
+        &lt;delete dir=&quot;bin&quot;/&gt;
+        &lt;mkdir dir=&quot;bin&quot;/&gt;
+        &lt;javac debug=&quot;true&quot; debuglevel=&quot;${debuglevel}&quot; destdir=&quot;bin&quot;
+               includeantruntime=&quot;false&quot; source=&quot;${source}&quot; target=&quot;${target}&quot; encoding=&quot;UTF-8&quot;&gt;
+            &lt;src path=&quot;src/main/java&quot;/&gt;
+            &lt;classpath&gt;
+                &lt;pathelement location=&quot;${jebjar}&quot;/&gt;
+                &lt;pathelement path=&quot;${extcp_build}&quot;/&gt;
+            &lt;/classpath&gt;
+        &lt;/javac&gt;
+    &lt;/target&gt;
+
+    &lt;target name=&quot;package&quot;&gt;
+        &lt;delete file=&quot;${outfile}&quot;/&gt;
+        &lt;jar destfile=&quot;${outfile}&quot;&gt;
+            &lt;manifest&gt;
+                &lt;attribute name=&quot;Class-Path&quot; value=&quot;${extcp_manifest}&quot;/&gt;
+                &lt;attribute name=&quot;JebPlugin-entryclass&quot; value=&quot;${entryclass}&quot;/&gt;
+                &lt;attribute name=&quot;JebPlugin-version&quot; value=&quot;${version}&quot;/&gt;
+            &lt;/manifest&gt;
+            &lt;fileset dir=&quot;bin&quot;/&gt;
+            &lt;!-- copy resources --&gt;
+            &lt;fileset dir=&quot;src/main/java&quot; excludes=&quot;**/*.java&quot;/&gt;
+            &lt;fileset dir=&quot;.&quot; includes=&quot;README.md&quot;/&gt;
+        &lt;/jar&gt;
+    &lt;/target&gt;
+
+&lt;/project&gt;
+</code></pre>
+
+<p><strong>Next: <a href="../7-unit-interactivity/index.html">Part 7</a></strong></p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+            <p>JEB &copy; <a href="https://www.pnfsoftware.com">PNF Software, Inc.</a> 2015, 2016 - Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
