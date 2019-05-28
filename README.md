@@ -2,11 +2,11 @@
 
 **从入门到入土**
 
-[1.梦幻三板斧—apktool、dex2jar、jd-gui](1.梦幻三板斧—apktool、dex2jar、jd-gui)
+[1.梦幻三板斧—apktool、dex2jar、jd-gui](1.梦幻三板斧—apktool、dex2jar、jd-gui.md)
 
-[2.进击的gui](2.进击的gui)
+[2.进击的gui](2.进击的gui.md)
 
-[3.神奇的Xposed](3.神奇的Xposed)
+[3.神奇的Xposed](3.神奇的Xposed.md)
 
 **记录一些神奇的地址**
 
