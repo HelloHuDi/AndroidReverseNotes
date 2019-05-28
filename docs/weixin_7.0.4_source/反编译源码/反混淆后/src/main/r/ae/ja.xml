@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/gp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="94dp">
+    <com.tencent.p177mm.plugin.card.p355ui.p356v2.CardCdnImageView android:id="@+id/ags" android:background="@color/a3p" android:layout_width="@dimen/vx" android:layout_height="35dp" android:layout_marginLeft="@dimen/vq"/>
+    <TextView android:textSize="21dp" android:textColor="#111111" android:id="@+id/agt" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vr" android:text="{invo}" android:layout_weight="1"/>
+    <TextView android:textSize="14dp" android:textColor="@color/w0" android:id="@+id/agu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{invo}"/>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="16dp" android:src="@drawable/ayr"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/lo" android:paddingBottom="@dimen/lo" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:gravity="center_horizontal" android:id="@+id/av4" android:src="@drawable/ad3" style="@style/qq"/>
+    <TextView android:id="@+id/av6" android:layout_marginTop="@dimen/do" style="@style/qr"/>
+    <TextView android:textColor="#fd8f44" android:id="@+id/e7s" android:visibility="gone" style="@style/qr"/>
+</LinearLayout>

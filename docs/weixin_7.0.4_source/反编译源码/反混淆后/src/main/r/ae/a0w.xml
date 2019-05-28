@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/a2a" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/bx0" android:background="@drawable/a3h" android:layout_width="match_parent" android:layout_height="@dimen/a_h">
+        <com.tencent.p177mm.p612ui.widget.imageview.WeImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/ng" android:layout_height="@dimen/ng" android:layout_marginLeft="28dp" android:layout_marginRight="24dp" android:src="@c1318a/icons_outlined_wifi" app:iconColor="@color/a3_"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/bx1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/c0y" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

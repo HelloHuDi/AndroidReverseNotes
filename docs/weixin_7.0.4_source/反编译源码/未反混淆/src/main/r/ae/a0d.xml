@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/b63" android:background="@color/a69" android:padding="@dimen/g2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColorHint="@color/rz" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/bva" android:layout_width="match_parent" android:layout_height="@dimen/n_" android:hint="@string/b2f" android:singleLine="true" android:drawableLeft="@a/searchbar_icon" android:imeOptions="actionSearch"/>
+    </LinearLayout>
+    <TextView android:background="@color/zf" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/l5" android:paddingRight="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bw5" style="@style/mg"/>
+    <View android:background="@color/ml" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

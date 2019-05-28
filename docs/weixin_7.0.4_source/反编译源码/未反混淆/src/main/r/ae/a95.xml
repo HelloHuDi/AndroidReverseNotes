@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/bz0" android:background="@color/zf" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/l5" android:layout_toLeftOf="@+id/cni" android:layout_alignTop="@+id/cni" android:layout_alignBottom="@+id/cni" android:layout_alignParentLeft="true">
+            <View android:layout_gravity="center" android:background="#cccccc" android:layout_width="match_parent" android:layout_height="1dp"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/l5" android:layout_toRightOf="@+id/cni" android:layout_alignTop="@+id/cni" android:layout_alignBottom="@+id/cni" android:layout_alignParentRight="true">
+            <View android:layout_gravity="center" android:background="#cccccc" android:layout_width="match_parent" android:layout_height="1dp"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/m5" android:textColor="#cccccc" android:gravity="center" android:id="@+id/cni" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ld" android:hint="@string/cho" android:layout_centerHorizontal="true"/>
+        <com.tencent.mm.ui.base.MMGridView android:gravity="center" android:id="@+id/cnj" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/ld" android:layout_marginRight="@dimen/l5" android:listSelector="@android:color/transparent" android:horizontalSpacing="@dimen/a3d" android:verticalSpacing="@dimen/a3d" android:stretchMode="columnWidth" android:numColumns="3" android:minHeight="180dp" android:layout_below="@+id/cni"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="#333333" android:gravity="center" android:id="@+id/ld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/ld" android:layout_marginRight="@dimen/l5" android:layout_below="@+id/cnj" android:layout_centerHorizontal="true"/>
+        <Button android:id="@+id/cnk" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="50dp" android:layout_marginRight="@dimen/l5" android:layout_marginBottom="@dimen/nc" android:text="@string/chk" android:layout_below="@+id/ld" style="@style/ni"/>
+    </RelativeLayout>
+    <ListView android:id="@+id/cnb" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent"/>
+</RelativeLayout>

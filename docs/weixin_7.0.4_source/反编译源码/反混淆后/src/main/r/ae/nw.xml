@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/au1" android:background="@drawable/a3h" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb">
+        <ImageView android:gravity="center_vertical" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="10dp" android:layout_marginRight="4dp" android:src="@c1318a/monitor_banner_icon"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/a3_" android:ellipsize="marquee" android:gravity="left" android:id="@+id/au2" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:maxLines="1" android:marqueeRepeatLimit="marquee_forever" style="@style/l9"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/au3" android:padding="10dp" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:src="@drawable/f8" android:adjustViewBounds="true"/>
+    </LinearLayout>
+</LinearLayout>

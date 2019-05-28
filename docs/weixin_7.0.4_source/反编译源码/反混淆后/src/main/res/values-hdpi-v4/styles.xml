@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a">
+        <item name="ki">24dp</item>
+        <item name="kj">3.33dp</item>
+        <item name="km">18.66dp</item>
+    </style>
+    <style name="b">
+        <item name="android:layout_gravity">top|center_vertical</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="c">
+        <item name="android:gravity">clip_horizontal</item>
+        <item name="android:orientation">@null</item>
+        <item name="android:background">@drawable/a_q</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">45dp</item>
+    </style>
+    <style name="d">
+        <item name="android:textSize">@dimen/m5</item>
+        <item name="android:textColor">@color/wp</item>
+        <item name="android:layout_gravity">center_vertical|clip_horizontal</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">7dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+    </style>
+    <style name="e">
+        <item name="android:layout_gravity">top|center_vertical</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:visibility">invisible</item>
+        <item name="android:layout_marginBottom">8dp</item>
+    </style>
+</resources>

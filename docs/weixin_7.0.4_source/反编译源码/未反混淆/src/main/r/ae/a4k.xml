@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="horizontal" android:background="@color/a69" android:padding="@dimen/l5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <Button android:id="@+id/c7_" android:layout_width="128dp" android:text="@string/c66" style="@style/nq"/>
+</LinearLayout>

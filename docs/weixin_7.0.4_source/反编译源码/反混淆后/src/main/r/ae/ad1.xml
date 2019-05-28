@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.p612ui.LayoutListenerView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/d88" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/d89" android:background="@color/h4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.tencent.p177mm.p612ui.LayoutListenerView>

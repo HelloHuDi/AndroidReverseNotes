@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/l_" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.plugin.sns.p520ui.TestTimeForSns android:id="@+id/avv" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.p177mm.p612ui.KeyboardLinearLayout android:orientation="vertical" android:id="@+id/avw" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/a9h">
+            <com.tencent.p177mm.p612ui.base.MMPullDownView android:id="@+id/avx" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <com.tencent.p177mm.plugin.sns.p520ui.AdListView android:id="@+id/eii" android:background="@color/a0c" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="#00000000" android:scrollingCache="false" android:divider="@null" android:overScrollMode="never"/>
+            </com.tencent.p177mm.p612ui.base.MMPullDownView>
+            <com.tencent.p177mm.plugin.sns.p520ui.SnsCommentFooter android:id="@+id/avz" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </com.tencent.p177mm.p612ui.KeyboardLinearLayout>
+        <AbsoluteLayout android:paddingLeft="35dp" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.p177mm.p612ui.widget.QFadeImageView android:gravity="center" android:id="@+id/enj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/friendactivity_refresh" android:scaleType="matrix" android:layout_y="-40dp"/>
+        </AbsoluteLayout>
+    </com.tencent.p177mm.plugin.sns.p520ui.TestTimeForSns>
+    <ImageView android:id="@+id/el6" android:background="@drawable/bi3" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</RelativeLayout>

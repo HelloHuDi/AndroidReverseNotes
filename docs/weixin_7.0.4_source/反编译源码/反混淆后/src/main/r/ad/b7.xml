@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference app:title="@string/dtd" app:key="contact_is_mute"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/b1s" app:key="contact_info_subscribe_bizinfo" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/av3" app:layout="@layout/qp"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/axl" app:key="contact_info_locate" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/b1t" app:key="contact_info_template_recv" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/avr" app:key="contact_info_expose_btn" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/atv" app:key="contact_info_add_shortcut_btn" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/aub" app:key="contact_info_clear_msg" app:layout="@layout/ae4"/>
+</PreferenceScreen>

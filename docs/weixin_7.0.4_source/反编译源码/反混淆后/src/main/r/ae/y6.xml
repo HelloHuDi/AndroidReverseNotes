@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:id="@+id/bpd" android:background="@drawable/ay1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageButton android:id="@+id/bpe" android:background="@null" android:padding="@dimen/nc" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/n6" android:layout_weight="1"/>
+    <ImageButton android:id="@+id/bpf" android:background="@null" android:padding="@dimen/nc" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/n4" android:layout_weight="1"/>
+    <ImageButton android:id="@+id/bpg" android:background="@null" android:padding="@dimen/nc" android:layout_width="0dp" android:layout_height="wrap_content" android:src="@drawable/n5" android:layout_weight="1"/>
+</LinearLayout>

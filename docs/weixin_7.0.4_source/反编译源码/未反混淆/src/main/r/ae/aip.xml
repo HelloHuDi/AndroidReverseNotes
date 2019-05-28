@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/vt" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="43dp" android:paddingTop="33dp" android:paddingRight="43dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/atk" android:drawableBottom="@drawable/ak0" android:drawablePadding="20dp"/>
+            <TextView android:gravity="center" android:layout_gravity="center" android:text="@string/cbu" style="@style/zz"/>
+            <Button android:id="@+id/dhb" android:layout_marginTop="86dp" android:text="@string/erw" style="@style/ni"/>
+            <TextView android:text="@string/b5m" style="@style/a02"/>
+            <TextView android:id="@+id/dhc" android:layout_marginBottom="20dp" android:text="@string/dek" style="@style/a00"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

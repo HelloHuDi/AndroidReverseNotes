@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_selected="true">
+        <shape android:shape="oval">
+            <size android:height="10dp" android:width="10dp"/>
+            <solid android:color="#f2f2f2"/>
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+    <item android:state_activated="true">
+        <shape android:shape="oval">
+            <size android:height="10dp" android:width="10dp"/>
+            <solid android:color="#1588f4"/>
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <size android:height="10dp" android:width="10dp"/>
+            <solid android:color="#4dffffff"/>
+            <corners android:radius="5dp"/>
+        </shape>
+    </item>
+</selector>

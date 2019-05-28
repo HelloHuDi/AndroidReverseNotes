@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="vertical" android:background="@drawable/in" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/a7y" android:background="@color/jy" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/a7z" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/wv" android:layout_weight="1">
+            <TextView android:textSize="@dimen/a8o" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/cx" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ru" android:maxLines="2" android:lineSpacingExtra="@dimen/nh"/>
+            <TextView android:textSize="@dimen/nk" android:textColor="@color/ra" android:id="@+id/a81" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ru"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/wi" android:layout_width="@dimen/wv" android:layout_height="@dimen/wv" android:layout_marginLeft="@dimen/l5">
+            <ImageView android:id="@+id/wj" android:background="@color/t0" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <ImageView android:id="@+id/a83" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:src="@a/chatting_item_biz_music_play_icon" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

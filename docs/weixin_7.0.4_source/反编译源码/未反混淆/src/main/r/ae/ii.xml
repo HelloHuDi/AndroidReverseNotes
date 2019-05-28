@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/ni" android:textColor="#6a6a6a" android:ellipsize="end" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lo" android:layout_marginTop="@dimen/l5" android:layout_marginRight="@dimen/lo" android:layout_marginBottom="@dimen/lo" android:text="@string/ah0" android:singleLine="true"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/acj" android:background="@drawable/zj" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="74dp" android:layout_marginBottom="@dimen/m7">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/dt" android:textColor="@color/is" android:ellipsize="end" android:id="@+id/ack" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/nk" android:textColor="#6a6a6a" android:ellipsize="end" android:id="@+id/acl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le" android:singleLine="true"/>
+        </LinearLayout>
+        <RelativeLayout android:gravity="right" android:layout_width="80dp" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/acm" android:visibility="invisible" android:layout_width="@dimen/l8" android:layout_height="@dimen/l8" android:src="@drawable/bcm" android:scaleType="fitXY" android:layout_alignParentLeft="true"/>
+            <ImageView android:id="@+id/acn" android:visibility="invisible" android:layout_width="@dimen/l8" android:layout_height="@dimen/l8" android:layout_marginLeft="18dp" android:src="@drawable/bcm" android:scaleType="fitXY" android:layout_alignParentLeft="true"/>
+            <ImageView android:id="@+id/aco" android:visibility="invisible" android:layout_width="@dimen/l8" android:layout_height="@dimen/l8" android:layout_marginLeft="38dp" android:src="@drawable/bcm" android:scaleType="fitXY" android:layout_alignParentLeft="true"/>
+            <ImageView android:id="@+id/acp" android:visibility="invisible" android:layout_width="@dimen/l8" android:layout_height="@dimen/l8" android:layout_marginLeft="56dp" android:src="@drawable/bcm" android:scaleType="fitXY" android:layout_alignParentLeft="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

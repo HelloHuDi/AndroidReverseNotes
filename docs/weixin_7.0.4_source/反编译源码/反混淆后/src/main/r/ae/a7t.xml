@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.p612ui.base.MultiTouchImageView android:layout_gravity="center" android:id="@+id/bl" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/cik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bja" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:id="@+id/cil" android:background="@drawable/a4l" android:padding="3dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/a6a" android:id="@+id/cim" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a5z" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

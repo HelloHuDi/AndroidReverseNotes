@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bjv" android:layout_width="match_parent" android:layout_height="@dimen/h0">
+    <View android:id="@+id/bjw" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="horizontal" android:baselineAligned="false" android:weightSum="1" style="@style/hl">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bjx" android:layout_marginLeft="@dimen/h4" style="@style/hr"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_marginRight="@dimen/h5" style="@style/hs">
+            <RelativeLayout android:paddingLeft="@dimen/h4" android:layout_width="wrap_content" android:layout_height="55dp" android:layout_toLeftOf="@+id/bjy" android:layout_centerVertical="true">
+                <View android:id="@+id/bjz" android:layout_width="match_parent" android:layout_height="0dp" android:layout_alignParentBottom="true"/>
+                <com.tencent.mm.ui.base.NoMeasuredTextView android:id="@+id/bk0" android:singleLine="true" android:layout_toLeftOf="@+id/bk1" android:layout_alignLeft="@+id/bjz" android:layout_centerInParent="true" style="@style/ht"/>
+                <TextView android:id="@+id/bk1" android:layout_marginLeft="50dp" android:minWidth="100dp" android:layout_alignRight="@+id/bjz" android:layout_centerInParent="true" android:layout_centerVertical="true" style="@style/hx"/>
+            </RelativeLayout>
+            <ImageView android:id="@+id/bjy" android:layout_marginLeft="0dp" android:src="@a/device_profile_ui_jiantou" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/hk"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@+id/bk2" android:background="@color/nc" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

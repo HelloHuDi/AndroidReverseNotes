@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/azn" android:background="@drawable/a_g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/azo" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/azp" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a_j" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        <TextView android:id="@+id/azq" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/azp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/a0m"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/azo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-10dp" android:src="@drawable/a_i" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/azr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-13dp" android:src="@drawable/a_h" android:layout_below="@+id/azn" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

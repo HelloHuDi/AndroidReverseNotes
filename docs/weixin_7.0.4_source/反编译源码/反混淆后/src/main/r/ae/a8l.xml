@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bz0" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/cjj" android:background="@drawable/pr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="20dp">
+                <com.tencent.p177mm.plugin.ipcall.p442ui.IPCallCounponCardLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:id="@+id/cjk" android:paddingLeft="@dimen/q" android:paddingTop="@dimen/q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                        <ImageView android:layout_width="15dp" android:layout_height="15dp" android:src="@c1318a/ipcall_giftcard_call_icon"/>
+                        <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/cjn"/>
+                        <TextView android:textSize="14dp" android:textColor="#ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/cjm"/>
+                    </LinearLayout>
+                    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                        <ImageView android:id="@+id/ms" android:layout_width="20dp" android:layout_height="20dp" android:layout_margin="@dimen/q" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+                        <LinearLayout android:background="#4cffffff" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="40dp" android:layout_marginTop="@dimen/p" android:layout_marginRight="20dp"/>
+                    </RelativeLayout>
+                    <RelativeLayout android:gravity="center_vertical" android:id="@+id/cjl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/q" android:layout_marginBottom="@dimen/q" android:layout_alignParentBottom="true">
+                        <TextView android:textSize="10dp" android:textColor="#ffffff" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bn0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:text="@string/ck5" android:layout_centerVertical="true" android:alpha="0.5"/>
+                        <ImageView android:layout_width="5dp" android:layout_height="12dp" android:layout_marginLeft="30dp" android:src="@drawable/a01" android:layout_alignTop="@+id/bn0" android:layout_alignParentLeft="true"/>
+                    </RelativeLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <TextView android:textSize="40dp" android:textStyle="normal" android:textColor="#ffffff" android:id="@+id/cjm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+                        <TextView android:textSize="10dp" android:textColor="#ffffff" android:id="@+id/cjn" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                        <TextView android:textSize="32dp" android:textColor="#ffffff" android:id="@+id/cjo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+                    </LinearLayout>
+                </com.tencent.p177mm.plugin.ipcall.p442ui.IPCallCounponCardLayout>
+            </LinearLayout>
+            <ImageView android:background="@c1318a/ipcall_giftcard_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@+id/cjj" android:layout_alignBottom="@+id/cjj"/>
+        </RelativeLayout>
+        <TextView android:textSize="20dp" android:textColor="#000000" android:gravity="center" android:id="@+id/cjp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="16dp" android:layout_marginRight="20dp"/>
+        <TextView android:textSize="14dp" android:textColor="#888888" android:gravity="center" android:id="@+id/cjq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="10dp" android:layout_marginRight="14dp"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/cjr" android:layout_marginLeft="14dp" android:layout_marginTop="30dp" android:layout_marginRight="14dp" android:text="@string/cji" android:layout_below="@+id/ld" style="@style/p5"/>
+    </LinearLayout>
+</RelativeLayout>

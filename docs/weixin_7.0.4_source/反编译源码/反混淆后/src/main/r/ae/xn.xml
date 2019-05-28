@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <RelativeLayout android:id="@+id/bnr" android:background="@color/h4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/bn8" style="@style/i6"/>
+        <android.support.p057v4.view.ViewPager android:id="@+id/bns" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</merge>

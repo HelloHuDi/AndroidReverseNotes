@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ww" android:background="@drawable/vd" android:layout_width="match_parent" android:layout_height="@dimen/a6n" android:layout_alignParentTop="true" android:paddingStart="@dimen/a6f" android:paddingEnd="@dimen/a6f">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/wx" android:layout_width="@dimen/a6q" android:layout_height="@dimen/a6q" android:src="@c1318a/mp_video_fullscreen_back" android:scaleType="fitCenter"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/cx" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:layout_marginStart="@dimen/a6l"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/wy" android:visibility="gone" android:layout_width="@dimen/a6_" android:layout_height="@dimen/a6_" android:src="@c1318a/mp_video_play_btn_play"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/l_" android:background="@drawable/vc" android:layout_width="match_parent" android:layout_height="@dimen/a6e" android:layout_alignParentBottom="true" android:paddingEnd="@dimen/a6f">
+        <ImageView android:gravity="center_vertical" android:id="@+id/t6" android:layout_width="@dimen/a6q" android:layout_height="@dimen/a6q" android:src="@c1318a/mp_video_play_btn_play" android:scaleType="fitCenter" android:layout_marginStart="@dimen/a6c"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/wz" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/a6c">
+            <TextView android:textSize="@dimen/a6i" android:textColor="@color/a69" android:id="@+id/x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+            <FrameLayout android:gravity="center_vertical" android:id="@+id/x1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:id="@+id/x2" android:background="#33ffffff" style="@style/p_"/>
+                <ImageView android:id="@+id/x3" android:background="#80ffffff" style="@style/p_"/>
+                <ImageView android:id="@+id/x4" android:background="@color/a69" style="@style/p_"/>
+                <ImageView android:id="@+id/x5" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/ds" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/media_player_control_btn"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/a6i" android:textColor="@color/a69" android:id="@+id/x6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+        </LinearLayout>
+        <ImageView android:gravity="center_vertical" android:id="@+id/x8" android:layout_width="@dimen/a6q" android:layout_height="@dimen/a6q" android:src="@c1318a/mp_video_mute_btn_off" android:scaleType="fitCenter" android:layout_marginStart="@dimen/a6c"/>
+        <ImageView android:gravity="center_vertical" android:id="@+id/x9" android:layout_width="@dimen/a6q" android:layout_height="@dimen/a6q" android:src="@c1318a/mp_video_fullscreen_btn" android:scaleType="fitCenter" android:layout_marginStart="@dimen/a6c"/>
+    </LinearLayout>
+</RelativeLayout>

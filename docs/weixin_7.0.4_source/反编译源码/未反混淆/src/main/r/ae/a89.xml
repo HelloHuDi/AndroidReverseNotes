@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/ul" android:paddingRight="2dp" style="@style/mh">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/cj5" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/lf"/>
+        </LinearLayout>
+        <TextView android:id="@+id/cj6" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/le"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="6dp" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:id="@+id/bo9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e7k" style="@style/la"/>
+    </LinearLayout>
+    <CheckBox android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/bo_" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

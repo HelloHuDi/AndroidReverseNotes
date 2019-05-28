@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/e3" android:layout_width="match_parent" android:layout_height="88dp" android:layout_marginTop="8dp" android:layout_marginBottom="8dp">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/eu6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="16dp">
+        <ImageView android:id="@+id/eu7" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginEnd="8dp"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/a8c" android:ellipsize="end" android:gravity="center" android:id="@+id/eu8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+    </LinearLayout>
+    <com.tencent.mm.plugin.story.ui.view.editor.item.MusicLrcView android:textSize="@dimen/dt" android:textColor="@color/a8e" android:ellipsize="none" android:id="@+id/eu9" android:fadingEdge="horizontal" android:fadingEdgeLength="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="暂无歌词" android:singleLine="true" android:layout_below="@+id/eu6" android:layout_centerHorizontal="true" android:requiresFadingEdge="horizontal" android:layout_marginStart="16dp" android:layout_marginEnd="16dp"/>
+</RelativeLayout>

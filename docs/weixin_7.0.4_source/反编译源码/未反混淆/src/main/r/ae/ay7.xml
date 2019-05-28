@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.story.ui.view.CommentItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_marginBottom="12dp" android:transformPivotX="24dp" android:transformPivotY="24dp">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@+id/erh" android:background="@drawable/a27" android:layout_width="48dp" android:layout_height="48dp"/>
+        <com.tencent.mm.plugin.story.ui.view.CommentAvatarImageView android:id="@+id/erc" android:padding="3dp" android:layout_width="46dp" android:layout_height="46dp" android:layout_marginTop="1dp" android:layout_marginStart="1dp" android:layout_marginEnd="1dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/erd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginBottom="4dp" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="4dp" android:layout_toEndOf="@+id/erc">
+            <TextView android:textStyle="bold" android:textColor="@color/a69" android:ellipsize="end" android:id="@+id/ere" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginEnd="20dp"/>
+            <TextView android:textStyle="bold" android:textColor="@color/a69" android:id="@+id/erf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="20dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</com.tencent.mm.plugin.story.ui.view.CommentItemView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/bb_" android:background="@color/t0" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/fdd" android:background="@color/t0" android:padding="@dimen/l5" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/fr" android:textColor="#228b22" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/fde" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fle" android:drawableLeft="@drawable/be6" android:drawablePadding="5dp"/>
+        </LinearLayout>
+        <com.tencent.p177mm.p612ui.base.MaxListView android:id="@+id/fdf" android:background="@color/t0" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="#d4d4d4" android:dividerHeight="1px"/>
+        <TextView android:textColor="@color/t7" android:id="@+id/fdg" android:paddingTop="@dimen/nc" android:visibility="gone" android:layout_height="wrap_content" android:layout_margin="0dp" style="@style/w2"/>
+        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/vr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l5" android:text="@string/g0o" android:drawableLeft="@drawable/bkg" android:drawablePadding="@dimen/nc"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

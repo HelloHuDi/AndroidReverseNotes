@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="156dp">
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/epm" android:layout_width="match_parent" android:layout_height="156dp" android:scaleType="centerCrop"/>
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/epn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nh" android:layout_marginBottom="@dimen/nh" android:src="@c1318a/icons_filled_photo_wall" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <com.tencent.p177mm.p612ui.widget.MMTextView android:textSize="@dimen/lm" android:textColor="@color/a69" android:id="@+id/epo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/do" android:layout_marginBottom="@dimen/nj" android:shadowColor="@color/h4" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="3" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

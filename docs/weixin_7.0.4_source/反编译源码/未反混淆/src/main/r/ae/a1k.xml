@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/byk" android:background="@color/zf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="14dp"/>
+    <RelativeLayout android:id="@+id/byl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="68dp">
+        <LinearLayout android:background="@drawable/k7" style="@style/i3">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:layout_marginRight="10dp" android:src="@a/search_add_icon_green"/>
+            <TextView android:layout_gravity="center_vertical" android:id="@+id/bym" android:layout_width="0dp" android:layout_height="wrap_content" android:text="{tip}" android:layout_weight="1" style="@style/lf"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/byn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="68dp">
+        <View android:id="@+id/byo" android:background="@color/zf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="14dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/byp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/byo"/>
+        <LinearLayout android:id="@+id/byq" android:background="@drawable/k5" android:layout_height="68dp" android:layout_below="@+id/byp" style="@style/i3">
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:layout_marginRight="@dimen/n0" android:src="@a/fts_addfriend_icon"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/nh" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:id="@+id/byr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{title}" android:singleLine="true" style="@style/lf"/>
+                <TextView android:id="@+id/bys" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginRight="20dp" android:text="@string/c29" android:maxLines="2" android:singleLine="false" style="@style/le"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/byt" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:id="@+id/byu" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+        <TextView android:textSize="14dp" android:layout_gravity="center" android:id="@+id/n0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/cn5"/>
+    </LinearLayout>
+</LinearLayout>

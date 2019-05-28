@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/uv" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/b96" android:background="@drawable/uv" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmh" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

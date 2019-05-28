@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/im">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/i0" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ie">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@+id/bqf" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <FrameLayout android:id="@+id/bqg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hv">
+                        <ImageView android:id="@+id/bqh" style="@style/id"/>
+                        <View android:layout_gravity="bottom" android:id="@+id/bqi" android:background="@drawable/nh" android:layout_width="@dimen/hx" android:layout_height="45dp"/>
+                        <ImageView android:layout_gravity="center" android:id="@+id/bq8" android:src="@drawable/vs" android:contentDescription="@string/fy" style="@style/ik"/>
+                        <TextView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/bqj" android:paddingRight="3dp" android:paddingBottom="3dp" android:text="{11:32}" style="@style/ih"/>
+                    </FrameLayout>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@+id/bqk" android:text="{title}" style="@style/ij"/>
+                        <TextView android:id="@+id/bql" android:layout_marginTop="@dimen/i5" android:text="{desc}" android:maxLines="3" style="@style/ig"/>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/bqm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:src="@a/app_attach_file_icon_sound" style="@style/ic"/>
+                    <TextView android:layout_gravity="center_vertical" android:id="@+id/bqn" android:layout_marginLeft="@dimen/hv" android:text="{title}" style="@style/ij"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/bqo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:src="@a/app_attach_file_icon_voice" style="@style/ic"/>
+                    <TextView android:layout_gravity="center_vertical" android:id="@+id/bqp" android:layout_marginLeft="@dimen/hv" android:text="{title}" style="@style/ij"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/bqq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/bqr" style="@style/ic"/>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/hv">
+                        <TextView android:id="@+id/bqs" android:text="{title}" style="@style/ij"/>
+                        <TextView android:id="@+id/bqt" android:layout_marginTop="@dimen/i5" android:text="{desc}" style="@style/ig"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <include layout="@layout/yh"/>
+            <include layout="@layout/yg"/>
+        </LinearLayout>
+        <include layout="@layout/yf"/>
+    </LinearLayout>
+</FrameLayout>

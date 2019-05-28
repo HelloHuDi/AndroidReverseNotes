@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/a7u" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="17dp" android:textColor="@color/h4" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="32dp" android:layout_marginRight="24dp" android:text="@string/a9_"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <CheckBox android:id="@+id/a6p" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" style="@style/ky"/>
+        <TextView android:textSize="14dp" android:textColor="@color/rr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="@string/bv2"/>
+    </LinearLayout>
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="32dp"/>
+    <TextView android:textSize="17dp" android:textColor="@color/a7h" android:gravity="center_horizontal" android:id="@+id/a6q" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a97"/>
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:textSize="17dp" android:textColor="@color/a7h" android:gravity="center_horizontal" android:id="@+id/a6r" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a99"/>
+    <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <TextView android:textSize="17dp" android:textColor="@color/a73" android:gravity="center_horizontal" android:id="@+id/a6s" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/a95"/>
+</LinearLayout>

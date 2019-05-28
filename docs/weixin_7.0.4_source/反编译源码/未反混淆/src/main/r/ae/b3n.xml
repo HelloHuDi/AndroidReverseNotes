@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a4h" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/ks">
+    <com.tencent.mm.wallet_core.ui.MMScrollView android:id="@+id/bb_" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:layout_alignParentTop="true">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="0dp" android:paddingTop="10dp" android:paddingRight="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/v5">
+            <TextView android:id="@+id/f8p" android:background="@null" android:visibility="gone" android:layout_marginBottom="8dp" android:text="@string/fci" android:drawableLeft="@drawable/as7" android:drawablePadding="7dp" style="@style/vh"/>
+            <LinearLayout style="@style/vx">
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f8s" app:titleText="@string/fc0" app:contentHint="@string/fbz" style="@style/v3"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/bbc" app:titleText="@string/fal" app:contentHint="@string/feh" style="@style/gq"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/dm2" android:imeOptions="actionNext" app:titleText="@string/fax" app:contentHint="@string/faw" style="@style/ve"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/dm4" app:titleText="@string/fb4" app:contentHint="@string/faz" style="@style/vf"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f7y" android:imeOptions="actionNext" app:titleText="@string/fct" app:contentHint="@string/fcq" style="@style/vy"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f8z" app:titleText="@string/fas" app:contentHint="@string/far" style="@style/gq"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f90" android:imeOptions="actionNext" app:titleText="@string/fbl" app:contentHint="@string/fbi" style="@style/vo"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f57" android:imeOptions="actionNext" app:titleText="@string/fbt" app:contentHint="@string/fbs" style="@style/vv"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f9a" android:imeOptions="actionNext" app:titleText="@string/fbc" app:contentHint="@string/fbb" style="@style/f7"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f9b" android:imeOptions="actionNext" app:titleText="@string/fbr" app:contentHint="@string/fbq" style="@style/f7"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f9c" android:imeOptions="actionNext" app:titleText="@string/fae" app:contentHint="@string/fad" style="@style/gq"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f9d" android:imeOptions="actionNext" app:titleText="@string/fa8" app:contentHint="@string/fa7" app:contentMaxSize="90" style="@style/f7"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f9e" android:imeOptions="actionNext" app:titleText="@string/fc6" app:contentHint="@string/fc2" style="@style/w1"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f9f" android:imeOptions="actionNext" app:titleText="@string/fc8" app:contentHint="@string/fc7" style="@style/f7"/>
+                <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f9g" android:imeOptions="actionNext" app:titleText="@string/fb7" app:contentHint="@string/fb6" style="@style/vi"/>
+            </LinearLayout>
+            <CheckBox android:textSize="@dimen/kr" android:textColor="@color/h4" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/f9j" android:paddingLeft="24dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:checked="true" android:minHeight="22dp" android:text="@string/fbd" style="@style/nt"/>
+            <LinearLayout android:orientation="horizontal" android:layout_marginTop="8dp" style="@style/mb">
+                <CheckBox android:textSize="@dimen/kr" android:textColor="@color/h4" android:gravity="right|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/f9i" android:paddingLeft="24dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:minHeight="22dp" android:text="@string/fcv" style="@style/nt"/>
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/a8k" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/daa" android:paddingRight="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:text="@string/fcu" android:singleLine="true"/>
+            </LinearLayout>
+            <Button android:id="@+id/ay8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="38dp" android:text="@string/s1" style="@style/or"/>
+        </LinearLayout>
+    </com.tencent.mm.wallet_core.ui.MMScrollView>
+    <TextView android:layout_gravity="bottom" android:id="@+id/dm6" android:background="@color/vs" android:paddingTop="5dp" android:layout_height="wrap_content" android:layout_margin="0dp" android:layout_alignParentBottom="true" style="@style/w2"/>
+</RelativeLayout>

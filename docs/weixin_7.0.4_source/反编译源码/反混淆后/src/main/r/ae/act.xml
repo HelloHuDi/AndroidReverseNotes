@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/a3h" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/do" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/d7v" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw">
+        <com.tencent.p177mm.plugin.sight.decode.p512ui.SightPlayImageView android:id="@+id/d7w" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/d7x" android:background="@null" android:layout_width="@dimen/na" android:layout_height="@dimen/na" android:src="@drawable/att" android:scaleType="centerInside" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/d7y" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/nc" android:layout_weight="1">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/vm" android:layout_width="match_parent" android:layout_height="wrap_content" android:progressDrawable="@drawable/xn" android:minHeight="@dimen/a8m" style="?android:attr/progressBarStyleHorizontal"/>
+        <TextView android:textSize="@dimen/kr" android:layout_gravity="center_vertical" android:id="@+id/by7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ehd"/>
+    </FrameLayout>
+    <ImageButton android:id="@+id/axh" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/r8"/>
+</LinearLayout>

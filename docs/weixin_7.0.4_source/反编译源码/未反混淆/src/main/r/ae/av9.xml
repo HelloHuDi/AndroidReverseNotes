@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@color/h4" style="@style/pt">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/eh6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="bottom" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@+id/m5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

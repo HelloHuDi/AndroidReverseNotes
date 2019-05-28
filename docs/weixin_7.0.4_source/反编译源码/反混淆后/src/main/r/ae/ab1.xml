@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/k5" android:paddingLeft="12dp" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="47dp">
+        <ImageView android:id="@+id/d19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/alq"/>
+        <LinearLayout android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="@color/h4" android:id="@+id/bpq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textColor="@color/ra" android:id="@+id/d1_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/d1a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/mm_submenu_normal"/>
+    </LinearLayout>
+</LinearLayout>

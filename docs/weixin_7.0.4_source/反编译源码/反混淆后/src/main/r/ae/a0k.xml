@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="0dp" android:layout_marginBottom="0dp" style="@style/ks">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp">
+            <TextView android:textSize="18sp" android:layout_marginRight="5dp" android:text="Wi-Fi名称:" android:singleLine="true" style="@style/jd"/>
+            <TextView android:textSize="22sp" android:textColor="@color/a61" android:ellipsize="end" android:id="@+id/bvn" android:text="Tecent-DevNet-WiFi-WIFi" android:singleLine="true" style="@style/jd"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_marginTop="60dp" style="@style/mb">
+            <TextView android:id="@+id/bvo" android:visibility="invisible" android:text="@string/bzq" style="@style/j0"/>
+            <TextView android:id="@+id/bvp" android:visibility="invisible" android:text="@string/bzo" style="@style/j0"/>
+            <TextView android:autoLink="none|web|email|phone" android:id="@+id/bvq" android:visibility="invisible" android:layout_marginLeft="8dp" android:text="@string/c0o" style="@style/jn"/>
+        </LinearLayout>
+        <Button android:textSize="15sp" android:textColor="@color/a61" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/bvr" android:background="@drawable/od" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="40dp" android:layout_marginTop="120dp" android:layout_marginBottom="60dp" android:minHeight="@dimen/lz" android:text="@string/bzt"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_marginBottom="33dp" style="@style/mb">
+        <ImageView android:layout_width="114dp" android:layout_height="18dp" android:src="@drawable/aek"/>
+    </LinearLayout>
+</LinearLayout>

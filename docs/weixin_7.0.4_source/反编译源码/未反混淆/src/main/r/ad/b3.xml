@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.AccountInfoPreference app:title="@string/e9w" app:key="more_tab_setting_personal_info" app:layout="@layout/ahc"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/e8f" app:icon="@a/icons_outlined_wallet" app:iconColor="@color/ag" app:key="settings_mm_wallet"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/e8d" app:icon="@a/icons_outlined_colorful_favorites" app:key="settings_mm_favorite"/>
+    <NormalIconPreference app:title="@string/e8y" app:icon="@a/icons_outlined_album" app:iconColor="@color/bb" app:key="settings_my_album"/>
+    <NormalIconPreference app:title="@string/e8b" app:icon="@a/more_my_card" app:key="settings_mm_cardpackage"/>
+    <NormalIconPreference app:title="@string/e6q" app:icon="@a/icons_outlined_emoji" app:iconColor="@color/c4" app:key="settings_emoji_store"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/ebr" app:icon="@a/icons_outlined_setting" app:iconColor="@color/bb" app:key="more_setting"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/ey5" app:icon="@a/more_ui_show" app:key="more_uishow"/>
+    <PreferenceCategory/>
+    <Preference app:key="settings_privacy_agreements" app:layout="@layout/afs"/>
+</PreferenceScreen>

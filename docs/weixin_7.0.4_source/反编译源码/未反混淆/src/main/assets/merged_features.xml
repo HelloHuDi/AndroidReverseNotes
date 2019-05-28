@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<merged>
+    <feature type="stable" author="test">stable/RB-2015-DEC/test01</feature>
+    <feature type="stable" author="test">stable/RB-2015-DEC/test02</feature>
+</merged>

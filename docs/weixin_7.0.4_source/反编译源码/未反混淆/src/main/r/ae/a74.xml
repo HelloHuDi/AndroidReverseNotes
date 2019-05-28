@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/cg5" android:background="@color/a69" android:paddingTop="5dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/cg6" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:ellipsize="end" android:gravity="left" android:id="@+id/a2f" android:background="@drawable/a3m" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/m4" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:maxLines="2"/>
+            <RelativeLayout android:id="@+id/cg7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="7dp" android:layout_marginRight="7dp">
+                <LinearLayout android:orientation="vertical" android:id="@+id/cg8" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cg9" android:layout_width="104dp" android:layout_height="104dp" android:layout_marginTop="34dp" android:src="@a/honey_pay_main_logo" android:adjustViewBounds="true"/>
+                    <TextView android:textSize="22dp" android:textColor="@color/h4" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/ccl"/>
+                    <TextView android:textSize="17dp" android:textColor="#303030" android:layout_gravity="center_horizontal" android:id="@+id/cg_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/cch"/>
+                    <TextView android:textSize="17dp" android:textColor="#303030" android:layout_gravity="center_horizontal" android:id="@+id/cga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/cci"/>
+                    <TextView android:textSize="17dp" android:textColor="#303030" android:layout_gravity="center_horizontal" android:id="@+id/cgb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/ccj"/>
+                    <Button android:layout_gravity="center_horizontal" android:id="@+id/cgc" android:background="@drawable/qb" android:layout_width="204dp" android:layout_height="47dp" android:layout_marginTop="39dp" android:text="@string/ccc" style="@style/ni"/>
+                </LinearLayout>
+                <TextView android:textSize="13dp" android:gravity="bottom" android:id="@+id/cgd" android:paddingBottom="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/ccg" android:layout_below="@+id/cg8" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cge" android:background="@drawable/q1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="133dp" android:layout_marginLeft="7dp" android:layout_marginTop="10dp" android:layout_marginRight="7dp" android:layout_marginBottom="10dp" android:layerType="software">
+                <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@a/honey_pay_add_friend"/>
+                <TextView android:textSize="14dp" android:textColor="@color/t7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/cc0"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@+id/cgf" android:background="@color/a69" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</ScrollView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="top" android:orientation="horizontal" android:background="@color/a69" android:paddingLeft="@dimen/a4_" android:paddingRight="@dimen/a4_" android:paddingBottom="@dimen/lo" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/d05" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="@dimen/lo" android:layout_marginRight="8dp"/>
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lo" android:layout_weight="1">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/d06" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:ellipsize="end" android:id="@+id/d0_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:singleLine="true" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="top|right|center_vertical|center_horizontal|center" android:layout_gravity="right" android:orientation="vertical" android:paddingTop="@dimen/lo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lo">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:id="@+id/d07" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/d0a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bmm"/>
+        <TextView android:textSize="16dp" android:textColor="@color/h4" android:id="@+id/d0b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginTop="4dp" android:text="@string/emf"/>
+    </LinearLayout>
+</LinearLayout>

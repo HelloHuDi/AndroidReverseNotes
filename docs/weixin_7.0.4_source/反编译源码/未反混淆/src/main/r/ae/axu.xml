@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/eq0" android:background="@drawable/du" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="start" android:orientation="horizontal" android:id="@+id/eq1" android:background="@drawable/dq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:layout_marginBottom="18dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp">
+            <ImageView android:id="@+id/eq2" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc" android:layout_marginStart="@dimen/ds"/>
+            <TextView android:textSize="@dimen/nd" android:textColor="@color/a8d" android:gravity="center" android:id="@+id/eq3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc" android:text="@string/g_d" android:layout_marginStart="@dimen/le" android:layout_marginEnd="@dimen/ds"/>
+        </LinearLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/eq4" android:paddingLeft="30dp" android:paddingRight="30dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="88dp"/>
+        <RelativeLayout android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="24dp">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/eq5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentStart="true">
+                <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/eq6" android:layout_width="16dp" android:layout_height="16dp"/>
+                <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/eq7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/esk" android:layout_marginStart="4dp"/>
+            </LinearLayout>
+            <LinearLayout android:id="@+id/eq8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentEnd="true">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/eq9" android:layout_width="16dp" android:layout_height="16dp"/>
+                <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/eq_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/esl" android:layout_marginStart="4dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <com.tencent.mm.plugin.story.ui.view.editor.EditorAudioSearchView android:id="@+id/eqa" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

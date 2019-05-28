@@ -1,0 +1,118 @@
+{
+  "shaderType" : 6,
+  "distortionList" : [
+    {
+      "radius" : 180,
+      "distortion" : 3,
+      "strength" : 0.03,
+      "position" : 0,
+      "direction" : 3
+    },
+    {
+      "radius" : 180,
+      "distortion" : 3,
+      "strength" : 0.03,
+      "position" : 18,
+      "direction" : 1
+    },
+    {
+      "radius" : 200,
+      "distortion" : 3,
+      "strength" : 0.06,
+      "position" : 2,
+      "direction" : 3
+    },
+    {
+      "radius" : 200,
+      "distortion" : 3,
+      "strength" : 0.06,
+      "position" : 16,
+      "direction" : 1
+    },
+    {
+      "radius" : 180,
+      "distortion" : 3,
+      "strength" : 0.12,
+      "position" : 4,
+      "direction" : 3
+    },
+    {
+      "radius" : 180,
+      "distortion" : 3,
+      "strength" : 0.12,
+      "position" : 14,
+      "direction" : 1
+    },
+    {
+      "radius" : 180,
+      "distortion" : 3,
+      "strength" : 0.12,
+      "position" : 6,
+      "direction" : 3
+    },
+    {
+      "radius" : 180,
+      "distortion" : 3,
+      "strength" : 0.12,
+      "position" : 12,
+      "direction" : 1
+    },
+    {
+      "radius" : 170,
+      "distortion" : 3,
+      "strength" : 0.12,
+      "position" : 8,
+      "direction" : 3
+    },
+    {
+      "radius" : 170,
+      "distortion" : 3,
+      "strength" : 0.12,
+      "position" : 10,
+      "direction" : 1
+    },
+    {
+      "radius" : 220,
+      "distortion" : 3,
+      "strength" : 0.03,
+      "position" : 4,
+      "direction" : 2
+    },
+    {
+      "radius" : 220,
+      "distortion" : 3,
+      "strength" : 0.03,
+      "position" : 14,
+      "direction" : 2
+    },
+    {
+      "radius" : 240,
+      "distortion" : 3,
+      "strength" : 0.05,
+      "position" : 6,
+      "direction" : 2
+    },
+    {
+      "radius" : 240,
+      "distortion" : 3,
+      "strength" : 0.05,
+      "position" : 12,
+      "direction" : 2
+    },
+    {
+      "radius" : 220,
+      "distortion" : 3,
+      "strength" : 0.08,
+      "position" : 8,
+      "direction" : 2
+    },
+    {
+      "radius" : 220,
+      "distortion" : 3,
+      "strength" : 0.08,
+      "position" : 10,
+      "direction" : 2
+    }
+  ],
+  "minAppVersion" : 400
+}

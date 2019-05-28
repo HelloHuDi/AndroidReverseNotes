@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" style="@style/my">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" style="@style/na">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/a5o" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l8" android:layout_marginBottom="@dimen/l8" android:src="@drawable/aha"/>
+            <TextView android:id="@+id/a5p" android:padding="6dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/m4" android:text="@string/ax2" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/kt"/>
+            <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/a5q" android:background="@drawable/k5" android:paddingLeft="@dimen/nc" android:paddingTop="@dimen/m4" android:paddingBottom="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4" android:text="@string/ax4" android:lineSpacingExtra="4dp" style="@style/l9"/>
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/a5r" android:background="@drawable/k5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l5" android:baselineAligned="false" android:minHeight="@dimen/nb">
+                <TextView android:gravity="left|center_vertical|center_horizontal|center" android:paddingLeft="@dimen/nc" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/axg" android:singleLine="true" android:layout_weight="1" style="@style/l9"/>
+                <com.tencent.p177mm.p612ui.widget.MMSwitchBtn android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/a5s" android:focusable="false" android:clickable="false" android:layout_width="@dimen/nr" android:layout_height="@dimen/no" android:layout_marginRight="@dimen/nc"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/dt" android:id="@+id/a5t" android:visibility="gone" android:layout_marginBottom="@dimen/l5" android:text="@string/ax8" style="@style/ni"/>
+            <TextView android:textSize="@dimen/dt" android:id="@+id/a5u" android:visibility="gone" android:layout_marginBottom="@dimen/l5" android:text="@string/axj" style="@style/nl"/>
+            <TextView android:textSize="@dimen/dt" android:id="@+id/a5v" android:visibility="gone" android:text="@string/axb" style="@style/no"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

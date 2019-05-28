@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <Preference app:title="@string/ear" app:key="settings_sns_bg_select_from_album" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/eas" app:key="settings_sns_bg_take_photo" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+    <com.tencent.mm.plugin.sns.ui.SnsArtistPreference app:title="@string/eaq" app:key="settings_sns_bg_select_bg" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

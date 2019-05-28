@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.mm.plugin.profile.ui.BizInfoHeaderPreference app:key="contact_info_header_bizinfo" app:layout="@layout/qb"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/aww" app:key="contact_info_user_desc" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/b24" app:key="contact_info_verifyuser" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/b1y" app:key="contact_info_trademark" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/aye" app:key="contact_info_privilege"/>
+    <Preference app:title="@string/b03" app:key="contact_info_service_phone" app:layout="@layout/ae4"/>
+    <com.tencent.mm.plugin.profile.ui.IconWidgetPreference app:title="@string/e7p" app:key="contact_info_kf_worker" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.plugin.profile.ui.BizBindWxaInfoPreference app:key="contact_info_bindwxainfo" app:layout="@layout/q2"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/d4b" app:key="near_field_service" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.plugin.profile.ui.BizInfoPayInfoIconPreference app:title="@string/azn" app:key="contact_info_reputation" app:layout="@layout/qn"/>
+    <com.tencent.mm.plugin.profile.ui.BizInfoPayInfoIconPreference app:title="@string/aws" app:key="contact_info_guarantee_info" app:layout="@layout/qn"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/azu" app:key="contact_info_scope_of_business" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/b1u" app:key="contact_info_time_expired" app:layout="@layout/afn"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/b2a" app:key="contact_info_verifyuser_weibo" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:title="@string/ayb" app:key="biz_placed_to_the_top" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/b1s" app:key="contact_info_subscribe_bizinfo" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/b1r" app:key="contact_info_stick_biz" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/b1t" app:key="contact_info_template_recv" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/dtd" app:key="contact_is_mute" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/axl" app:key="contact_info_locate" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <PreferenceSmallCategory app:key="contact_info_category2"/>
+    <com.tencent.mm.pluginsdk.ui.preference.ButtonPreference app:title_color="@color/y0" app:btn_title="@string/bdl" app:key="contact_info_biz_disable" app:layout="@layout/ae5"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.pluginsdk.ui.preference.ButtonPreference app:title_color="@color/r8" app:btn_title="@string/au4" app:key="contact_info_biz_add" app:layout="@layout/ae5"/>
+    <com.tencent.mm.pluginsdk.ui.preference.ButtonPreference app:title_color="@color/r8" app:btn_title="@string/aug" app:key="contact_info_biz_go_chatting" app:layout="@layout/ae5"/>
+    <com.tencent.mm.pluginsdk.ui.preference.ButtonPreference app:title_color="@color/r8" app:btn_title="@string/bdn" app:key="contact_info_biz_enable" app:layout="@layout/ae5"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.pluginsdk.ui.preference.ButtonPreference app:title_color="@color/r8" app:btn_title="@string/avr" app:key="contact_info_expose_btn" app:layout="@layout/ae5"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:background="@drawable/emoji_reward_btn_bg" android:layout_width="90dp" android:layout_height="60dp">
+    <TextView android:textSize="@dimen/dk" android:textColor="@color/n4" android:gravity="center" android:id="@+id/bgv" android:visibility="gone" android:layout_width="90dp" android:layout_height="60dp"/>
+</LinearLayout>

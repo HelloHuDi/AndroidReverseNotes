@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" style="@style/pt">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/v5">
+        <TextView android:text="@string/fco" style="@style/vh"/>
+        <CheckedTextView android:textAppearance="@style/n0" android:textColor="@android:color/black" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/f9k" android:background="@drawable/k5" android:paddingLeft="@dimen/ld" android:paddingRight="@dimen/ld" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkMark="@drawable/yu" android:maxHeight="48dp" android:minHeight="48dp" android:text="@string/fed"/>
+        <CheckedTextView android:textAppearance="@style/n0" android:textColor="@android:color/black" android:ellipsize="marquee" android:gravity="center_vertical" android:id="@+id/f9l" android:background="@drawable/k5" android:paddingLeft="@dimen/ld" android:paddingRight="@dimen/ld" android:layout_width="match_parent" android:layout_height="wrap_content" android:checkMark="@drawable/yu" android:maxHeight="48dp" android:minHeight="48dp" android:text="@string/fdu"/>
+        <TextView android:text="@string/fcm" style="@style/vh"/>
+        <com.tencent.p177mm.p612ui.base.MaxListView android:id="@+id/f9m" android:background="@null" android:paddingLeft="@dimen/ld" android:paddingRight="@dimen/ld" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:divider="#00000000" android:dividerHeight="0dp" android:choiceMode="singleChoice"/>
+        <TextView android:layout_marginTop="5dp" android:text="@string/fcn" style="@style/vh"/>
+    </LinearLayout>
+</ScrollView>

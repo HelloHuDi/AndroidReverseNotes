@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/za" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_height="wrap_content" android:minHeight="@dimen/li" style="@style/mh">
+    <com.tencent.p177mm.p612ui.base.MaskLayout android:id="@+id/e86" android:layout_width="@dimen/n6" android:layout_height="@dimen/n6">
+        <ImageView android:id="@+id/m5" android:layout_width="@dimen/n5" android:layout_height="@dimen/n5" android:src="@c1318a/default_avatar" android:layout_centerVertical="true"/>
+    </com.tencent.p177mm.p612ui.base.MaskLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.p177mm.p612ui.base.EllipsizeTextView android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/e87" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nh" android:text="{nick}" android:singleLine="true" style="@style/lf"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/y_" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/e88" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nh" android:singleLine="true" style="@style/lf"/>
+    </LinearLayout>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="3"/>
+    <LinearLayout android:id="@+id/e89" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageButton android:layout_gravity="center_vertical" android:id="@+id/av8" android:background="@null" android:focusableInTouchMode="false" android:layout_width="20dp" android:layout_height="20dp" android:src="@c1318a/checkbox_unselected"/>
+    </LinearLayout>
+</LinearLayout>

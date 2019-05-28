@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pt">
+    <ScrollView android:id="@+id/ih" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/f9v" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/l5">
+                    <ImageView android:layout_gravity="left" android:id="@+id/f9w" android:background="@a/actionbar_icon_close_black" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="@dimen/dy" android:layout_marginTop="@dimen/l8"/>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/kt" android:textColor="#353535" android:gravity="center_horizontal" android:id="@+id/cfp" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="44dp" android:layout_marginRight="@dimen/l5" android:text="@string/fte" style="@style/vr"/>
+                <TextView android:textSize="@dimen/kk" android:textColor="@color/h4" android:gravity="center_horizontal" android:id="@+id/f9x" android:layout_marginLeft="69dp" android:layout_marginTop="18dp" android:layout_marginRight="69dp" android:layout_marginBottom="69dp" android:text="@string/ft8" style="@style/vr"/>
+            </LinearLayout>
+            <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView android:id="@+id/cfs" android:layout_marginLeft="47dp" android:layout_marginRight="47dp" app:format="1" style="@style/oz"/>
+            <TextView android:id="@+id/dm7" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" android:text="@string/ftg" style="@style/vr"/>
+            <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/fh6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/l5" android:text="@string/ftb" android:drawableLeft="@drawable/akn" android:drawablePadding="5dp"/>
+            <TextView android:id="@+id/fh7" android:visibility="gone" android:layout_width="match_parent" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/l5" android:text="@string/qt" style="@style/or"/>
+        </LinearLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/azi"/>
+</LinearLayout>

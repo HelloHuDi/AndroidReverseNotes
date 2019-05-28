@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/eds" android:padding="@dimen/a8j" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.sight.decode.ui.SightPlayAutoSizeImageView android:id="@+id/edt" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/edu" android:background="@drawable/bhs" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:gravity="center" android:id="@+id/edv" android:background="@drawable/bhv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="-8dp" android:text="@string/ei4" android:layout_alignBottom="@+id/edu" android:layout_centerHorizontal="true"/>
+        <View android:id="@+id/edw" android:background="@color/a00" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@+id/edu" android:layout_alignTop="@+id/edu" android:layout_alignRight="@+id/edu" android:layout_alignBottom="@+id/edu"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/edx" android:visibility="gone" android:layout_width="@dimen/m2" android:layout_height="@dimen/m2" android:src="@a/sight_box_delete"/>
+</FrameLayout>

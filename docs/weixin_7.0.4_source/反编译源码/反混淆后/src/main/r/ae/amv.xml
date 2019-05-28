@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <FrameLayout android:id="@+id/dv4" android:paddingTop="8dp" android:minHeight="120dp" style="@style/q4">
+        <ImageView android:layout_gravity="bottom" android:id="@+id/duk" android:background="@drawable/xy" android:layout_width="match_parent" android:layout_height="112dp" android:scaleType="fitXY"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/dul" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="bottom" android:background="#a0000000" android:padding="5dp" android:layout_width="match_parent" android:layout_height="64dp" android:singleLine="true">
+            <ImageView android:id="@+id/dv5" android:padding="2dp" android:visibility="gone" android:layout_width="54dp" android:layout_height="54dp"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/dv6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+                <TextView android:textSize="@dimen/m5" android:textStyle="bold" android:textColor="@color/a69" android:id="@+id/dum" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textSize="14dp" android:textColor="@color/a69" android:id="@+id/dv7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/la"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

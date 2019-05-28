@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/um" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/adg" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/bs7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/w0" android:gravity="right" android:id="@+id/elc" android:padding="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="" android:layout_below="@+id/bs7" android:layout_alignParentRight="true"/>
+        <ImageView android:id="@+id/ed_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+        <TextView android:textColor="@color/a69" android:gravity="center" android:id="@+id/bn0" android:padding="@dimen/l5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l9" android:text="@string/ehi" android:layout_alignParentBottom="true"/>
+        <ImageView android:id="@+id/bs8" android:background="@color/l9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+        <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@+id/eda" android:visibility="gone" android:layout_width="@dimen/a7a" android:layout_height="@dimen/a7a" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/edb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/att" android:scaleType="center" android:layout_centerInParent="true"/>
+        <include layout="@layout/atd"/>
+    </RelativeLayout>
+</LinearLayout>

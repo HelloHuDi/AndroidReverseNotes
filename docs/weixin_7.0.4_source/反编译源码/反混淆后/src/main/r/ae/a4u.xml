@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="144dp" android:layout_height="256dp" android:layout_marginRight="@dimen/m4">
+    <ImageView android:id="@+id/akx" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <FrameLayout android:id="@+id/c7m" android:background="#80000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:layout_width="40dp" android:layout_height="40dp" android:src="@drawable/agm"/>
+    </FrameLayout>
+</FrameLayout>

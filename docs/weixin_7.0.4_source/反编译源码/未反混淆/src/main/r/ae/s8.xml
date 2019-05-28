@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.internal.NavigationMenuItemView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:paddingLeft="?attr/fa" android:paddingRight="?attr/fb" android:focusable="true" android:layout_width="match_parent" android:layout_height="?attr/f9" android:foreground="?attr/er"/>

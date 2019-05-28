@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pt">
+    <com.tencent.mm.ui.base.MMTagPanelScrollView android:id="@+id/b4_" android:background="@drawable/a_r" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="true">
+        <com.tencent.mm.plugin.label.ui.widget.MMLabelPanel android:id="@+id/b4a" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/nc" app:verticalSpacing="@dimen/do"/>
+    </com.tencent.mm.ui.base.MMTagPanelScrollView>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/xy" android:gravity="center" android:id="@+id/b4b" android:padding="@dimen/do" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cl8"/>
+    <ScrollView android:id="@+id/b4c" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/b4d" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/b4e" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include android:id="@+id/b4f" layout="@layout/qr"/>
+                <com.tencent.mm.plugin.label.ui.widget.MMLabelPanel android:id="@+id/b4g" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/nc" app:verticalSpacing="@dimen/do"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <ListView android:id="@+id/b4h" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/mf"/>
+</LinearLayout>

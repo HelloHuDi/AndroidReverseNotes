@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.HelperHeaderPreference app:key="contact_info_header_helper" app:layout="@layout/akh"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/cb1" app:key="contact_info_readerappnews_view" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/az5" app:key="contact_info_readerappnews_recv_remind" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/av9" app:key="contact_info_readerappnews_clear_data" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:title_color="@color/a61" app:btn_title="@string/e_9" app:key="contact_info_readerappnews_install" app:layout="@layout/akq"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:title_color="@color/ct" app:btn_title="@string/e_e" app:key="contact_info_readerappnews_uninstall" app:layout="@layout/akq"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

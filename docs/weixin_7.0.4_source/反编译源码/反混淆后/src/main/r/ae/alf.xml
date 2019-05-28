@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/m5" android:textColor="#999999" android:id="@+id/dp6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:layout_marginBottom="4dp"/>
+    <View android:background="#d4d4d4" android:layout_width="match_parent" android:layout_height="2px"/>
+    <com.tencent.p177mm.plugin.product.p482ui.MaxGridView android:gravity="center" android:id="@+id/dp7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:horizontalSpacing="16dp" android:verticalSpacing="12dp" android:stretchMode="columnWidth" android:numColumns="3"/>
+</LinearLayout>

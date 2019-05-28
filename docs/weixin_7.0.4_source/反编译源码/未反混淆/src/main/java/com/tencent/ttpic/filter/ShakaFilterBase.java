@@ -1,0 +1,235 @@
+package com.tencent.ttpic.filter;
+
+import android.opengl.GLES20;
+import android.text.TextUtils;
+import com.tencent.filter.h;
+import com.tencent.filter.m;
+import com.tencent.ttpic.gles.AttributeParam;
+import com.tencent.ttpic.gles.GlUtil;
+import com.tencent.ttpic.gles.GlUtil.DRAW_MODE;
+import com.tencent.ttpic.shader.Shader;
+import com.tencent.ttpic.shader.ShaderCreateFactory.PROGRAM_TYPE;
+import com.tencent.ttpic.shader.ShaderManager;
+import java.util.HashMap;
+import java.util.Map;
+
+public abstract class ShakaFilterBase {
+    private Map<String, AttributeParam> mAttrParams;
+    private int mCoordNum;
+    private DRAW_MODE mDrawMode;
+    private Map<String, m> mParamList;
+    private int mRenderMode;
+    protected int mSTextureHandle;
+    private boolean needDelProgram;
+    private Shader shader;
+
+    public abstract float getDefaultParamValue();
+
+    public abstract String[] getParamKeys();
+
+    public abstract void initParams();
+
+    public abstract void setParameterDic(Map<String, Float> map);
+
+    public ShakaFilterBase(String str, String str2) {
+        this(new Shader(str, str2));
+        this.needDelProgram = true;
+    }
+
+    public ShakaFilterBase(PROGRAM_TYPE program_type) {
+        this(ShaderManager.getInstance().getShader(program_type));
+    }
+
+    private ShakaFilterBase(Shader shader) {
+        this.shader = shader;
+        this.mAttrParams = new HashMap();
+        this.mParamList = new HashMap();
+        this.mSTextureHandle = -1;
+        this.mCoordNum = 4;
+        this.mDrawMode = DRAW_MODE.TRIANGLE_FAN;
+    }
+
+    public void addAttribParam(String str, float[] fArr) {
+        addAttribParam(str, fArr, false);
+    }
+
+    public void addAttribParam(String str, float[] fArr, boolean z) {
+        if (!TextUtils.isEmpty(str)) {
+            AttributeParam attributeParam = (AttributeParam) this.mAttrParams.get(str);
+            if (attributeParam == null) {
+                attributeParam = new AttributeParam(str, fArr, z);
+                this.mAttrParams.put(str, attributeParam);
+            }
+            attributeParam.setVertices(fArr);
+        }
+    }
+
+    public void addAttribParam(AttributeParam attributeParam) {
+        if (attributeParam != null) {
+            AttributeParam attributeParam2 = (AttributeParam) this.mAttrParams.get(attributeParam.name);
+            if (attributeParam2 == null) {
+                attributeParam2 = new AttributeParam(attributeParam.name, attributeParam.vertices, attributeParam.perVertexFloat, false);
+                this.mAttrParams.put(attributeParam.name, attributeParam2);
+            }
+            attributeParam2.setVertices(attributeParam.vertices);
+            attributeParam2.perVertexFloat = attributeParam.perVertexFloat;
+        }
+    }
+
+    public AttributeParam getAttribParam(String str) {
+        return (AttributeParam) this.mAttrParams.get(str);
+    }
+
+    public void addParam(m mVar) {
+        if (mVar != null) {
+            m mVar2 = (m) this.mParamList.get(mVar.name);
+            if (mVar2 == null) {
+                this.mParamList.put(mVar.name, mVar);
+                return;
+            }
+            mVar.handle = mVar2.handle;
+            this.mParamList.put(mVar.name, mVar);
+        }
+    }
+
+    public void ApplyGLSLFilter() {
+        initAttribParams();
+        initParams();
+        this.shader.compile();
+        for (m initialParams : this.mParamList.values()) {
+            initialParams.initialParams(this.shader.getShaderProgram());
+        }
+        for (AttributeParam initialParams2 : this.mAttrParams.values()) {
+            initialParams2.initialParams(this.shader.getShaderProgram());
+        }
+        this.mSTextureHandle = GLES20.glGetUniformLocation(this.shader.getShaderProgram(), "inputImageTexture");
+    }
+
+    public void initAttribParams() {
+        setPositions(GlUtil.ORIGIN_POSITION_COORDS);
+        setTexCords(GlUtil.ORIGIN_TEX_COORDS);
+    }
+
+    public boolean renderTexture(int i, int i2, int i3) {
+        GLES20.glActiveTexture(33984);
+        GLES20.glBindTexture(3553, i);
+        GLES20.glTexParameterf(3553, 10241, 9729.0f);
+        GLES20.glTexParameterf(3553, 10240, 9729.0f);
+        GLES20.glTexParameterf(3553, 10242, 33071.0f);
+        GLES20.glTexParameterf(3553, 10243, 33071.0f);
+        GLES20.glUniform1i(this.mSTextureHandle, 0);
+        if (this.mDrawMode == DRAW_MODE.TRIANGLE_STRIP) {
+            GLES20.glDrawArrays(5, 0, this.mCoordNum);
+        } else if (this.mDrawMode == DRAW_MODE.TRIANGLES) {
+            GLES20.glDrawArrays(4, 0, this.mCoordNum);
+        } else if (this.mDrawMode == DRAW_MODE.TRIANGLE_FAN) {
+            GLES20.glDrawArrays(6, 0, this.mCoordNum);
+        } else if (this.mDrawMode == DRAW_MODE.LINES) {
+            GLES20.glDrawArrays(1, 0, this.mCoordNum);
+        }
+        if (this.mRenderMode == 0) {
+            GLES20.glFinish();
+        } else if (this.mRenderMode == 1) {
+            GLES20.glFlush();
+        }
+        return true;
+    }
+
+    public void OnDrawFrameGLSL() {
+        this.shader.bind();
+        for (m params : this.mParamList.values()) {
+            params.setParams(this.shader.getShaderProgram());
+        }
+        for (AttributeParam attributeParam : this.mAttrParams.values()) {
+            if (attributeParam.handle >= 0) {
+                attributeParam.setParams(this.shader.getShaderProgram());
+            }
+        }
+    }
+
+    public void OnDrawFrameGLSLSuper() {
+        this.shader.bind();
+        for (m params : this.mParamList.values()) {
+            params.setParams(this.shader.getShaderProgram());
+        }
+    }
+
+    public boolean setPositions(float[] fArr) {
+        addAttribParam("position", fArr);
+        return true;
+    }
+
+    public boolean setTexCords(float[] fArr) {
+        addAttribParam("inputTextureCoordinate", fArr);
+        return true;
+    }
+
+    public boolean setPositions(float[] fArr, boolean z) {
+        addAttribParam("position", fArr, z);
+        return true;
+    }
+
+    public boolean setTexCords(float[] fArr, boolean z) {
+        addAttribParam("inputTextureCoordinate", fArr, z);
+        return true;
+    }
+
+    public boolean setCoordNum(int i) {
+        this.mCoordNum = i;
+        return true;
+    }
+
+    public boolean setRenderMode(int i) {
+        this.mRenderMode = i;
+        return true;
+    }
+
+    public void setDrawMode(DRAW_MODE draw_mode) {
+        this.mDrawMode = draw_mode;
+    }
+
+    public void clearGLSLSelf() {
+        if (this.needDelProgram) {
+            this.shader.clear();
+        }
+        for (m clear : this.mParamList.values()) {
+            clear.clear();
+        }
+        for (AttributeParam clear2 : this.mAttrParams.values()) {
+            clear2.clear();
+        }
+    }
+
+    public int getProgramIds() {
+        return this.shader.getShaderProgram();
+    }
+
+    public void RenderProcess(int i, int i2, int i3, int i4, double d, h hVar) {
+        hVar.a(i4, i2, i3, d);
+        OnDrawFrameGLSL();
+        renderTexture(i, i2, i3);
+    }
+
+    public void updateFilterShader(PROGRAM_TYPE program_type) {
+        this.shader = ShaderManager.getInstance().getShader(program_type);
+        this.needDelProgram = false;
+    }
+
+    public void updateFilterShader(String str, String str2) {
+        this.shader = new Shader(str, str2);
+        this.needDelProgram = true;
+    }
+
+    public void setParameters(Map<String, Float> map) {
+        setParameterDic(fillMissingParams(map, getParamKeys()));
+    }
+
+    private Map<String, Float> fillMissingParams(Map<String, Float> map, String[] strArr) {
+        for (Object obj : strArr) {
+            if (!map.containsKey(obj)) {
+                map.put(obj, Float.valueOf(getDefaultParamValue()));
+            }
+        }
+        return map;
+    }
+}

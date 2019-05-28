@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Рознае</string>
+    <string name="c">Перайсці ўверх</string>
+    <string name="abc_action_menu_overflow_description">Дадатковыя параметры</string>
+    <string name="d">Гатова</string>
+    <string name="e">Прагледзець усё</string>
+    <string name="f">Выбраць праграму</string>
+    <string name="g">ВЫКЛ.</string>
+    <string name="h">УКЛ.</string>
+    <string name="i">Пошук...</string>
+    <string name="j">Выдалiць запыт</string>
+    <string name="l">Пошук</string>
+    <string name="m">Адправіць запыт</string>
+    <string name="n">Галасавы пошук</string>
+    <string name="q">Згарнуць</string>
+    <string name="common_google_play_services_enable_button">Уключыць</string>
+    <string name="common_google_play_services_enable_text">%1$s не будзе працаваць, пакуль вы не ўключыце службы Google Play.</string>
+    <string name="common_google_play_services_enable_title">Уключыць службы Google Play</string>
+    <string name="common_google_play_services_install_button">Усталяваць</string>
+    <string name="common_google_play_services_install_text">%1$s не будзе працаваць без службаў Google Play, якія адсутнічаюць на вашай прыладзе.</string>
+    <string name="common_google_play_services_install_title">Атрымаць службы Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Даступнасць сэрвісаў Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Памылка службаў Google Play</string>
+    <string name="common_google_play_services_unknown_issue">У праграмы %1$s узніклі праблемы са службамі Google Play. Паўтарыце спробу.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s не будзе працаваць без службаў Google Play, якія не падтрымліваюцца вашай прыладай.</string>
+    <string name="common_google_play_services_update_button">Абнавіць</string>
+    <string name="common_google_play_services_update_text">%1$s не будзе працаваць, пакуль вы не абновіце службы Google Play.</string>
+    <string name="common_google_play_services_update_title">Абнаўленне службаў Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s не будзе працаваць без службаў Google Play, якія ў цяперашні час абнаўляюцца.</string>
+    <string name="common_google_play_services_wear_update_text">Патрабуецца новая версія служб Google Play. Яна абновіцца аўтаматычна ў бліжэйшы час.</string>
+    <string name="common_open_on_phone">Адкрыць на тэлефоне</string>
+    <string name="common_signin_button_text">Увайсцi</string>
+    <string name="common_signin_button_text_long">Увайсці праз Google</string>
+    <string name="r">Рознае</string>
+    <string name="b">Перайсці на галоўную старонку</string>
+    <string name="k">Запыт на пошук</string>
+    <string name="o">Абагуліць з</string>
+    <string name="p">Абагуліць праз праграму %s</string>
+    <string name="s">Пошук</string>
+    <string name="t">больш за 999</string>
+</resources>

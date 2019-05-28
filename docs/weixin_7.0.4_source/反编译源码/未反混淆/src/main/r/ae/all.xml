@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.pluginsdk.ui.MMPhoneNumberEditText xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:textColor="@color/w4" android:layout_gravity="bottom" android:id="@+id/dq4" android:paddingLeft="@dimen/le" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4" android:minHeight="@dimen/kz" android:hint="@string/ct" android:maxLength="40" android:inputType="phone" style="@style/md"/>

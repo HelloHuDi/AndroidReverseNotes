@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/jw" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/kw" android:background="@drawable/al" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/ds" android:layout_alignParentLeft="true">
+        <ImageView android:id="@+id/azu" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@c1318a/actionbar_quit_webview_icon" android:contentDescription="@string/g1"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/p3" android:background="@color/dz" android:layout_width="@dimen/ft" android:layout_height="@dimen/l8"/>
+    </LinearLayout>
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@+id/fjx" android:layout_toRightOf="@+id/kw" android:layout_centerVertical="true" style="@style/kl"/>
+    <RelativeLayout android:id="@+id/fjx" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <ImageView android:id="@+id/azv" android:paddingLeft="@dimen/g7" android:paddingRight="@dimen/g7" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@c1318a/actionbar_icon_dark_more"/>
+        <TextView android:textColor="@color/e4" android:gravity="center" android:id="@+id/fjy" android:background="@drawable/al" android:paddingLeft="@dimen/g7" android:paddingRight="@dimen/g7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="send"/>
+    </RelativeLayout>
+</RelativeLayout>

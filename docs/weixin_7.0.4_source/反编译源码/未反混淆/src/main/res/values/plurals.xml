@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item>%d个群聊</item>
+        <item>%d个群聊</item>
+    </plurals>
+    <plurals name="b">
+        <item>%d位联系人</item>
+        <item>%d位联系人</item>
+        <item>%d位联系人</item>
+    </plurals>
+    <plurals name="c">
+        <item>还可以说 %d 秒</item>
+        <item>还可以说 %d 秒</item>
+    </plurals>
+    <plurals name="d">
+        <item>语音%d秒</item>
+        <item>语音%d秒</item>
+    </plurals>
+    <plurals name="e">
+        <item>%d条未读</item>
+        <item>%d条未读</item>
+    </plurals>
+    <plurals name="f">
+        <item>已添加%d个朋友</item>
+        <item>已添加%d个朋友</item>
+    </plurals>
+    <plurals name="g">
+        <item>已发送%d个邀请</item>
+        <item>已发送%d个邀请</item>
+    </plurals>
+    <plurals name="h">
+        <item>找到%d个联系人</item>
+        <item>找到%d个联系人</item>
+    </plurals>
+    <plurals name="i">
+        <item>找到%d个在微信的朋友</item>
+        <item>找到%d个在微信的朋友</item>
+    </plurals>
+    <plurals name="j">
+        <item>%d小时前</item>
+        <item>%d小时前</item>
+    </plurals>
+    <plurals name="k">
+        <item>%d分钟前</item>
+        <item>%d分钟前</item>
+    </plurals>
+    <plurals name="l">
+        <item>%d天前</item>
+        <item>%d天前</item>
+    </plurals>
+    <plurals name="m">
+        <item>你最多只能选择%s张照片</item>
+        <item>你最多只能选择%s张照片</item>
+    </plurals>
+    <plurals name="n">
+        <item>你最多只能选择%s个图片或者视频</item>
+        <item>你最多只能选择%s个图片或者视频</item>
+    </plurals>
+    <plurals name="o">
+        <item>你最多只能选择%s个视频</item>
+        <item>你最多只能选择%s个视频</item>
+    </plurals>
+    <plurals name="q">
+        <item>邀请你%d个朋友加入微信</item>
+        <item>邀请你%d个朋友加入微信</item>
+    </plurals>
+    <plurals name="r">
+        <item>%s位收件人：</item>
+        <item>%s位收件人：</item>
+    </plurals>
+    <plurals name="s">
+        <item>你将发消息给 %s 位朋友</item>
+        <item>你将发消息给 %s 位朋友</item>
+    </plurals>
+    <plurals name="t">
+        <item>接收短信大约需要%d秒钟</item>
+        <item>接收短信大约需要%d秒钟</item>
+    </plurals>
+    <plurals name="u">
+        <item>%s人</item>
+        <item>%s人</item>
+    </plurals>
+    <plurals name="v">
+        <item>有%d个瓶子收到新回应</item>
+        <item>有%d个瓶子收到新回应</item>
+    </plurals>
+    <plurals name="w">
+        <item>[%d条]</item>
+        <item>[%d条]</item>
+    </plurals>
+    <plurals name="x">
+        <item>%1$d个联系人发来%2$d条消息</item>
+        <item>%1$d个联系人发来%2$d条消息</item>
+    </plurals>
+    <plurals name="y">
+        <item>共%1$d个附件(%2$s)</item>
+        <item>共%1$d个附件(%2$s)</item>
+    </plurals>
+    <plurals name="z">
+        <item>%s人</item>
+        <item>%s人</item>
+    </plurals>
+    <plurals name="a0">
+        <item>%d人</item>
+        <item>%d人</item>
+    </plurals>
+    <plurals name="a1">
+        <item>你收到%d个打招呼消息</item>
+        <item>你收到%d个打招呼消息</item>
+    </plurals>
+    <plurals name="a2">
+        <item>共%d张</item>
+        <item>共%d张</item>
+    </plurals>
+    <plurals name="a3">
+        <item>%d条新消息</item>
+        <item>%d条新消息</item>
+    </plurals>
+    <plurals name="a5">
+        <item>%d条未读</item>
+        <item>%d条未读</item>
+    </plurals>
+    <plurals name="a6">
+        <item>标签%1$d之%2$d</item>
+        <item>标签%d之1</item>
+        <item>标签%d之2</item>
+        <item>标签%d之3</item>
+    </plurals>
+    <plurals name="a7">
+        <item>%d 人在共享位置</item>
+        <item>%d 人在共享位置</item>
+    </plurals>
+    <plurals name="a8">
+        <item>还可以拍摄%s秒</item>
+        <item>还可以拍摄%s秒</item>
+    </plurals>
+    <plurals name="p">
+        <item>%s条新消息</item>
+        <item>%s条新消息</item>
+    </plurals>
+    <plurals name="a4">
+        <item>共%d张</item>
+        <item>共%d张</item>
+    </plurals>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/qj" style="@style/i0">
+        <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/qk" android:layout_width="@dimen/he" android:layout_height="@dimen/hd" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:layout_marginBottom="15dp" android:scaleType="centerCrop"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="54dp">
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/qm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="{title}"/>
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:ellipsize="end" android:id="@+id/bxu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="{abstract}" android:layout_below="@+id/qm"/>
+            </RelativeLayout>
+            <TextView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/bxv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="{status}" android:singleLine="true" style="@style/le"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ang" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/lt" android:layout_height="@dimen/lt" android:src="@c1318a/chatting_fast_entrance_video" android:contentDescription="@string/ru"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nj" android:text="@string/qh"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/anh" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nj">
+        <ImageView android:layout_width="@dimen/lt" android:layout_height="@dimen/lt" android:src="@c1318a/chatting_fast_entrance_voice" android:contentDescription="@string/ru"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nj" android:text="@string/qj"/>
+    </LinearLayout>
+</LinearLayout>

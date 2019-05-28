@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bz0" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@drawable/x2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+            <Button android:id="@+id/cnc" android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="54dp" android:text="@string/cj2" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/p5"/>
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="20dp" android:layout_toLeftOf="@+id/cnc" android:layout_toRightOf="@+id/cnc" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_toStartOf="@+id/cnc">
+                <LinearLayout android:id="@+id/cnd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+                    <TextView android:textSize="36dp" android:textColor="#000000" android:id="@+id/cne" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView android:textSize="18dp" android:textColor="#000000" android:id="@+id/cnf" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+                <TextView android:textSize="12dp" android:textColor="#b2b2b2" android:id="@+id/cng" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="12dp" android:textColor="@color/a61" android:id="@+id/cnh" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <View android:layout_width="match_parent" android:layout_height="20dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

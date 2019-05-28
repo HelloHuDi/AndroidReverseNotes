@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/d5g" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="@dimen/a3k"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/zj" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/a_q" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="match_parent" android:layout_height="114.6dp" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5">
+            <ImageView android:id="@+id/d5_" android:layout_width="70dp" android:layout_height="70dp" android:src="@c1318a/mall_order_trade_empty_icon"/>
+            <RelativeLayout android:id="@+id/d5e" android:layout_width="100dp" android:layout_height="70dp" android:layout_marginLeft="10dp" android:layout_weight="0.5">
+                <TextView android:textSize="@dimen/ni" android:textColor="@color/uq" android:ellipsize="end" android:id="@+id/d5a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:layout_alignParentTop="true"/>
+                <TextView android:textSize="@dimen/nk" android:textColor="@color/uo" android:ellipsize="end" android:id="@+id/d5h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:maxLines="1" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:gravity="right" android:layout_width="55dp" android:layout_height="70dp" android:layout_marginLeft="5dp" android:layout_weight="0.5">
+                <TextView android:textSize="@dimen/ni" android:textColor="@color/uo" android:id="@+id/d5i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+                <TextView android:textSize="@dimen/ni" android:textColor="@color/uo" android:ellipsize="end" android:id="@+id/d5j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:maxLines="2" android:layout_below="@+id/d5i" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

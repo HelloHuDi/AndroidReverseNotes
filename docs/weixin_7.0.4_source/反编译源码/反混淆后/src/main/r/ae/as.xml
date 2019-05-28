@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/m7" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/m8" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </ScrollView>
+    <ImageView android:id="@+id/m9" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitStart"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/m_" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p069v7.widget.RecyclerView android:id="@+id/ma" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/mb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:src="@drawable/av5" android:scaleType="centerInside"/>
+</FrameLayout>

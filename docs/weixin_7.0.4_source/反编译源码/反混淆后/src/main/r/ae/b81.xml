@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/flr" android:layout_width="40dp" android:layout_height="match_parent" android:layout_alignParentLeft="true">
+        <ImageView android:id="@+id/fls" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="5dp" android:src="@drawable/a7s" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/flt" android:layout_toRightOf="@+id/flr" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/fln" android:layout_width="20dp" android:layout_height="20dp"/>
+        <TextView android:textSize="13sp" android:textColor="#888888" android:ellipsize="end" android:id="@+id/flo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginRight="14dp" android:text="由**小程序提供"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/flt" android:layout_width="40dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <ImageView android:id="@+id/z_" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginRight="5dp" android:src="@drawable/a7s" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:rotation="180"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/vi" android:background="@color/a0c" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/eg7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/eg8" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="share to a friend"/>
+    </LinearLayout>
+</ScrollView>

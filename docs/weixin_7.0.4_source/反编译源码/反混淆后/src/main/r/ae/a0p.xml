@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" style="@style/ks">
+        <ImageView android:id="@+id/bvw" android:src="@drawable/aee" style="@style/j6"/>
+        <TextView android:text="正在获取Wi-Fi信息..." style="@style/js"/>
+    </LinearLayout>
+</LinearLayout>

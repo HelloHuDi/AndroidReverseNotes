@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pt">
+    <com.tencent.p177mm.plugin.account.p275ui.ResizeLayout android:orientation="vertical" android:id="@+id/cq9" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.p177mm.plugin.account.p275ui.MMKeyboardUperView android:id="@+id/jh" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/l9" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/dw" android:textColor="@color/w4" android:id="@+id/p_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginBottom="@dimen/l9" android:text="@string/d0l"/>
+                <TextView android:textSize="@dimen/dw" android:textColor="@color/w4" android:id="@+id/dbp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginBottom="@dimen/l9" android:text="@string/d0m"/>
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:gravity="center" android:id="@+id/dbq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nc" android:text="@string/dm3"/>
+                <LinearLayout android:gravity="center_vertical" android:id="@+id/a4x" android:background="@drawable/k5" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="match_parent" android:layout_height="@dimen/nb">
+                    <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:id="@+id/cx" android:text="@string/dm8" style="@style/lk"/>
+                    <TextView android:textSize="@dimen/m5" android:textColor="@color/a61" android:gravity="left" android:id="@+id/a4z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le"/>
+                </LinearLayout>
+                <com.tencent.p177mm.p612ui.base.MMFormInputView android:id="@+id/dbr" android:focusableInTouchMode="false" android:visibility="gone" app:form_layout="@layout/adq" app:form_title="@string/co5" app:form_hint="@string/d0j" style="@style/ll"/>
+                <com.tencent.p177mm.p612ui.base.MMFormInputView android:id="@+id/dbs" android:focusableInTouchMode="false" android:visibility="gone" app:form_layout="@layout/ads" app:form_title="@string/cox" app:form_hint="@string/cp1" style="@style/ll"/>
+                <com.tencent.p177mm.p612ui.base.MMFormVerifyCodeInputView android:id="@+id/cql" android:focusableInTouchMode="false" app:form_layout="@layout/adu" app:form_title="@string/d0k" app:form_hint="@string/cp7" app:form_btn_title="@string/d0n" style="@style/ll"/>
+                <Button android:textSize="@dimen/m5" android:textColor="@color/a7l" android:id="@+id/cqb" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/l8" android:layout_marginBottom="@dimen/l8" android:text="@string/cor"/>
+                <Button android:id="@+id/ay8" android:visibility="gone" android:layout_marginTop="@dimen/l5" android:layout_marginBottom="@dimen/lo" android:text="@string/com" style="@style/ni"/>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/dbt" android:visibility="gone" android:layout_marginTop="@dimen/nc" style="@style/mb">
+                    <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:id="@+id/dbu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cmf"/>
+                    <Button android:textSize="@dimen/nk" android:textColor="@color/a7l" android:id="@+id/daa" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cmg"/>
+                </LinearLayout>
+            </LinearLayout>
+        </com.tencent.p177mm.plugin.account.p275ui.MMKeyboardUperView>
+        <Button android:textSize="@dimen/m5" android:textColor="@color/a7l" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/cqd" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/l8" android:layout_marginBottom="@dimen/l8" android:text="@string/g7q"/>
+        <RelativeLayout android:id="@+id/dbv" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/m4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                <Button android:textSize="@dimen/kr" android:textColor="@color/a7l" android:id="@+id/cqf" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/djt"/>
+                <ImageView android:background="@color/dz" android:layout_width="@dimen/ft" android:layout_height="@dimen/l8" android:layout_marginLeft="@dimen/ds" android:layout_marginRight="@dimen/ds"/>
+                <RelativeLayout android:id="@+id/cqg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <Button android:textSize="@dimen/kr" android:textColor="@color/a7l" android:id="@+id/cqh" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/coj" android:layout_centerVertical="true"/>
+                    <ImageView android:background="@color/dz" android:layout_width="@dimen/ft" android:layout_height="@dimen/l8" android:layout_marginLeft="@dimen/ds" android:layout_marginRight="@dimen/ds" android:layout_toRightOf="@+id/cqh"/>
+                </RelativeLayout>
+                <Button android:textSize="@dimen/kr" android:textColor="@color/a7l" android:id="@+id/cqi" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g0m"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.tencent.p177mm.plugin.account.p275ui.ResizeLayout>
+</LinearLayout>

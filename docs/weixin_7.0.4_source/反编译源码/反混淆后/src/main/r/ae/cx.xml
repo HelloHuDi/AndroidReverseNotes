@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/u1" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/u2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/u3" android:layout_width="30dp" android:layout_height="30dp" android:src="@drawable/icon"/>
+        <TextView android:textAppearance="@style/s7" android:id="@+id/u4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lo"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/u5" android:layout_width="wrap_content" android:layout_height="@dimen/m2" android:layout_weight="1"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/u6" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="15dp" android:textColor="@color/t4" android:id="@+id/u7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/au3"/>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/u8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nh" android:src="@drawable/uq"/>
+    </LinearLayout>
+</LinearLayout>

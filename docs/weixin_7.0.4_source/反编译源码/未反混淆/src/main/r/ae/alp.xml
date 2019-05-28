@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="horizontal" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/nb">
+    <Button android:textSize="@dimen/fi" android:textColor="@color/hb" android:id="@+id/dq_" android:background="@drawable/k7" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <View android:id="@+id/dqa" android:background="@color/ta" android:layout_width="1px" android:layout_height="match_parent" android:layout_marginLeft="@dimen/g7" android:layout_marginTop="@dimen/g7" android:layout_marginBottom="@dimen/g7"/>
+    <Button android:textSize="@dimen/fi" android:textColor="@color/hb" android:id="@+id/dqb" android:background="@drawable/k7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g7"/>
+    <View android:id="@+id/dqc" android:background="@color/ta" android:layout_width="1px" android:layout_height="match_parent" android:layout_marginLeft="@dimen/g7" android:layout_marginTop="@dimen/g7" android:layout_marginBottom="@dimen/g7"/>
+    <Button android:textSize="@dimen/fi" android:textColor="@color/hb" android:id="@+id/dqd" android:background="@drawable/k7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g7"/>
+</LinearLayout>

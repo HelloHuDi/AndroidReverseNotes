@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/e8_" android:background="@drawable/b78" android:paddingLeft="@dimen/dy" android:paddingTop="@dimen/nc" android:paddingRight="@dimen/dy" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+        <ImageView android:id="@+id/e8a" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/searchbar_icon"/>
+        <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/m5" android:textColor="@color/w4" android:textColorHint="@color/rz" android:gravity="center_vertical" android:id="@+id/e8b" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/do" android:minHeight="@dimen/ky" android:hint="@string/te" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/a_a" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pt">
+        <ListView android:id="@+id/e83" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/mf"/>
+        <com.tencent.mm.chatroom.ui.SelectMemberScrollBar android:id="@+id/e8c" android:layout_width="@dimen/bd" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/e84" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="15dp" android:textColor="@color/ed" android:gravity="center" android:id="@+id/e85" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/cg7" android:layout_weight="0.5"/>
+            <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/e8d" android:visibility="gone" android:layout_width="match_parent" android:layout_height="200dp">
+            <ProgressBar android:padding="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+            <TextView android:textSize="15dp" android:textColor="@color/ed" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/czd"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

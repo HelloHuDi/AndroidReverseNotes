@@ -1,0 +1,99 @@
+//uniform highp mat4 projection;
+//uniform highp mat4 faceFrame;
+//uniform highp mat4 stableToImage;
+uniform highp vec2 leftEyePlainSize;
+uniform highp vec3 leftEyeCenter;
+uniform highp vec2 rightEyePlainSize;
+uniform highp vec3 rightEyeCenter;
+uniform highp float eyesSize; // it is eye size adjust factor
+uniform highp float eyesWidth; // it is eye width adjust factor
+uniform highp float eyesHeight; // it is eye height adjust factor
+uniform highp float eyesTiltAngle; // rotate angle need to apply
+uniform highp float eyesDistance;
+attribute highp vec4 position;
+//attribute highp float faceIndex;
+//attribute highp float depthValue;
+varying highp vec2 textureCoordinate;
+uniform highp float width;
+uniform highp float height;
+
+highp float getElipseMask(in highp vec2 sigmaScaling, in highp vec2 point,in highp vec2 center, in highp vec2 boundingSize) {
+    highp vec2 sigmas = boundingSize / sigmaScaling;
+    highp vec2 lengths = (point - center) / sigmas;
+    highp float mask = exp(-dot(lengths, lengths));
+    return smoothstep(0.2, 0.8, mask);
+}
+highp float getLeftEyeFineMask(in highp vec2 point) {
+    const highp vec2 sigmaScaling = vec2(1.25, 0.7);
+    return getElipseMask(sigmaScaling, point, leftEyeCenter.xy, leftEyePlainSize);
+}
+highp float getRightEyeFineMask(in highp vec2 point) {
+    const highp vec2 sigmaScaling = vec2(1.25, 0.7);
+    return getElipseMask(sigmaScaling, point, rightEyeCenter.xy, rightEyePlainSize);
+}
+highp float getLeftEyeCoarseMask(in highp vec2 point) {
+    const highp vec2 sigmaScaling = vec2(0.9, 0.8);
+    return getElipseMask(sigmaScaling, point, leftEyeCenter.xy, leftEyePlainSize);
+}
+highp float getRightEyeCoarseMask(in highp vec2 point) {
+    const highp vec2 sigmaScaling = vec2(0.9, 0.8);
+    return getElipseMask(sigmaScaling, point, rightEyeCenter.xy, rightEyePlainSize);
+}
+highp vec2 rotate2DPoint(highp vec2 point, highp float angle) {
+    return vec2(cos(angle) * point.x - sin(angle) * point.y, sin(angle) * point.x + cos(angle) * point.y);
+}
+highp vec3 getScaledEyesPoint(highp vec3 originalPoint, highp vec3 scalingFactors,highp float scalingFactor,highp float leftEyeMask, highp float rightEyeMask) {
+    if (scalingFactor == 0.0) {
+        return originalPoint;
+    }
+    highp vec3 eyesScaledPoint = originalPoint;
+    highp vec3 leftEyeScaledPoint = leftEyeCenter + scalingFactors * (originalPoint - leftEyeCenter);
+    eyesScaledPoint = mix(eyesScaledPoint, leftEyeScaledPoint, leftEyeMask);
+    highp vec3 rightEyeScaledPoint = rightEyeCenter + scalingFactors * (originalPoint - rightEyeCenter);
+    eyesScaledPoint = mix(eyesScaledPoint, rightEyeScaledPoint, rightEyeMask);
+    return mix(originalPoint, eyesScaledPoint, scalingFactor);
+}
+highp vec2 getEyesDistanceFactors() {
+    const highp float kEyesDistanceXRatio = 0.03662283339;
+    return vec2(abs(kEyesDistanceXRatio * (leftEyeCenter - rightEyeCenter).x), 0.0);
+}
+void main() {
+    vec4 _position = vec4(position.x*width, position.y*height, position.z, position.w);
+    //faceIndex;
+    highp float leftEyeFineMask     = getLeftEyeFineMask(_position.xy);
+    highp float rightEyeFineMask    = getRightEyeFineMask(_position.xy);
+    highp float leftEyeCoarseMask   = getLeftEyeCoarseMask(_position.xy);
+    highp float rightEyeCoarseMask  = getRightEyeCoarseMask(_position.xy);
+    highp vec3 displacedEyesPoint   = _position.xyz;
+    // width
+    const highp vec3 kEyesWidthFactors = vec3(1.3, 1.0, 1.0);
+    displacedEyesPoint = getScaledEyesPoint(displacedEyesPoint, kEyesWidthFactors, eyesWidth, leftEyeFineMask, rightEyeFineMask);
+
+    // height
+    const highp vec3 kEyesHeightFactors = vec3(1.0, 1.3, 1.0);
+    displacedEyesPoint = getScaledEyesPoint(displacedEyesPoint, kEyesHeightFactors, eyesHeight, leftEyeFineMask, rightEyeFineMask);
+
+    // all size
+    const highp vec3 kEyesSizeFactors = vec3(1.4, 1.4, 1.0);
+    displacedEyesPoint = getScaledEyesPoint(displacedEyesPoint, kEyesSizeFactors, eyesSize, leftEyeFineMask, rightEyeFineMask);
+
+    // rotate
+    highp vec2 leftEye2DTiltPoint = leftEyeCenter.xy + rotate2DPoint(displacedEyesPoint.xy - leftEyeCenter.xy, -eyesTiltAngle);
+    displacedEyesPoint = mix(displacedEyesPoint, vec3(leftEye2DTiltPoint, displacedEyesPoint.z), leftEyeCoarseMask);
+    highp vec2 rightEye2DTiltPoint = rightEyeCenter.xy + rotate2DPoint(displacedEyesPoint.xy - rightEyeCenter.xy, eyesTiltAngle);
+    displacedEyesPoint = mix(displacedEyesPoint, vec3(rightEye2DTiltPoint, displacedEyesPoint.z), rightEyeCoarseMask);
+
+    // distance
+    highp vec2 eyesDistanceFactors = getEyesDistanceFactors();
+    highp vec3 leftEyeDistancePoint = vec3(displacedEyesPoint.xy + eyesDistance * eyesDistanceFactors, displacedEyesPoint.z);
+    displacedEyesPoint = mix(displacedEyesPoint, leftEyeDistancePoint, leftEyeCoarseMask);
+    highp vec3 rightEyeDistancePoint = vec3(displacedEyesPoint.xy - eyesDistance * eyesDistanceFactors, displacedEyesPoint.z);
+    displacedEyesPoint = mix(displacedEyesPoint, rightEyeDistancePoint, rightEyeCoarseMask);
+
+    highp vec2 originalPosition = (vec4(position.xyz, 1.0)).xy;
+    //highp vec2 displacedPosition = (vec4(displacedEyesPoint, 1.0)).xy;
+    highp vec2 displacedPosition = vec2(displacedEyesPoint.x/width, displacedEyesPoint.y/height);
+    //textureCoordinate = displacedPosition - originalPosition;
+    textureCoordinate = displacedPosition;
+    gl_Position = vec4(originalPosition.x*2.0-1.0, originalPosition.y*2.0-1.0, 0.0, 1.0);
+}

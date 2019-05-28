@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.p177mm.p612ui.base.preference.CheckBoxPreference app:title="@string/bk_" app:key="face_debug_switch"/>
+    <PreferenceCategory/>
+    <PreferenceCategory/>
+    <PreferenceCategory/>
+    <PreferenceCategory/>
+    <com.tencent.p177mm.p612ui.base.preference.CheckBoxPreference app:title="@string/bk2" app:key="face_debug_save_pic_switch"/>
+    <com.tencent.p177mm.p612ui.base.preference.CheckBoxPreference app:title="@string/bk4" app:key="face_debug_save_final_switch"/>
+    <com.tencent.p177mm.p612ui.base.preference.CheckBoxPreference app:title="@string/bk5" app:key="face_debug_save_lipreading_switch"/>
+    <com.tencent.p177mm.p612ui.base.preference.CheckBoxPreference app:title="@string/bk6" app:key="face_debug_save_voice_switch"/>
+    <com.tencent.p177mm.p612ui.base.preference.CheckBoxPreference app:title="@string/bjy" app:key="face_debug_force_upload_video"/>
+    <Preference app:title="@string/bjw" app:key="face_debug_check_resource" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/bjx" app:key="face_debug_clear_resource" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.p177mm.p612ui.base.MMGridView android:gravity="center" android:id="@+id/xy" android:paddingTop="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@drawable/uv" android:horizontalSpacing="@dimen/nc" android:verticalSpacing="@dimen/l5" android:stretchMode="columnWidth" android:columnWidth="90dp" android:numColumns="4"/>
+        <TextView android:gravity="center" android:id="@+id/xz" android:paddingTop="@dimen/l5" android:paddingBottom="@dimen/l5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/la"/>
+        <Button android:id="@+id/y0" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test"/>
+    </LinearLayout>
+</LinearLayout>

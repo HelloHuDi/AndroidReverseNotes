@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@drawable/k5" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/nc" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/ebj" android:background="@c1318a/default_avatar" android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:scaleType="centerCrop"/>
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginRight="@dimen/nc" android:layout_marginBottom="@dimen/nj">
+        <TextView android:id="@+id/ebk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m7" android:maxLines="2" android:singleLine="false" style="@style/l9"/>
+        <TextView android:id="@+id/ebl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m7" android:singleLine="true" style="@style/la"/>
+        <TextView android:id="@+id/ebm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nj" android:singleLine="true" style="@style/la"/>
+    </LinearLayout>
+</LinearLayout>

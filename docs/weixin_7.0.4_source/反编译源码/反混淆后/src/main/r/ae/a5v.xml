@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.plugin.game.p433ui.GameFeedSocialInfoView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/c9r" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/c9s" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/pp" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginRight="@dimen/k1"/>
+        <com.tencent.p177mm.plugin.game.widget.GameSmallAvatarList android:orientation="horizontal" android:id="@+id/c9t" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/k1"/>
+        <TextView android:textSize="@dimen/k3" android:textColor="@color/qe" android:id="@+id/c9u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/o7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/pp" android:layout_width="2dp" android:layout_height="match_parent" android:layout_marginRight="@dimen/k1"/>
+        <TextView android:textSize="@dimen/k3" android:textColor="@color/qe" android:id="@+id/c9v" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</com.tencent.p177mm.plugin.game.p433ui.GameFeedSocialInfoView>

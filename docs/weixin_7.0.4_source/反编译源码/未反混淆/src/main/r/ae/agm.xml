@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/l_" android:background="@drawable/a2q" android:paddingLeft="@dimen/g7" android:layout_width="match_parent" android:layout_height="@dimen/fg" android:minWidth="170dp">
+    <ImageView android:id="@+id/jb" android:layout_width="@dimen/lt" android:layout_height="@dimen/lt" android:layout_marginRight="@dimen/gg"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingRight="@dimen/g7" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/bg8" android:visibility="gone" android:layout_marginLeft="@dimen/nc" style="@style/pu"/>
+            <ImageView android:id="@+id/ckb" android:visibility="gone" android:layout_marginLeft="@dimen/nc" style="@style/uy"/>
+            <TextView android:id="@+id/db7" android:visibility="gone" android:layout_marginLeft="@dimen/nc" style="@style/ux"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/db8" android:background="@color/lb" android:layout_width="match_parent" android:layout_height="@dimen/ft"/>
+    </LinearLayout>
+</LinearLayout>

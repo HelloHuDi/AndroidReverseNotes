@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a">200dp</dimen>
+    <dimen name="b">131dp</dimen>
+    <dimen name="c">58dp</dimen>
+    <dimen name="d">88dp</dimen>
+    <dimen name="e">48dp</dimen>
+    <dimen name="f">17dp</dimen>
+    <dimen name="g">256dp</dimen>
+    <dimen name="h">92dp</dimen>
+</resources>

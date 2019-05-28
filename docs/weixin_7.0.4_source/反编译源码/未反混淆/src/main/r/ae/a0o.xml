@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" style="@style/ks">
+        <ImageView android:id="@+id/bwa" android:src="@drawable/aee" style="@style/j6"/>
+        <TextView android:id="@+id/bwb" android:text="正在获取Wi-Fi信息..." style="@style/js"/>
+        <Button android:textSize="15sp" android:id="@+id/bwc" android:visibility="invisible" android:layout_width="220dp" android:layout_marginTop="70dp" android:minHeight="34dp" android:text="@string/c0p" style="@style/jr"/>
+    </LinearLayout>
+</LinearLayout>

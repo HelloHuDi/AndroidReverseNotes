@@ -1,0 +1,58 @@
+precision highp float;
+varying highp vec2 textureCoordinate;
+uniform sampler2D inputImageTexture;
+uniform float adjust;
+
+void main() {
+    float pi = 3.1415926;
+    float delta = 0.0;
+    vec2 coord = textureCoordinate;
+
+    float value1 = -0.08;
+    float middle1 = 0.09;
+    float span1 = 0.05;
+
+    float value2 = 0.04;
+    float middle2 = 0.18;
+    float span2 = 0.04;
+
+    float value3 = 0.09;
+    float middle3 = 0.29;
+    float span3 = 0.07;
+
+    float value4 = -0.03;
+    float middle4 = 0.49;
+    float span4 = 0.1;
+
+    float value5 = -0.08;
+    float middle5 = 0.72;
+    float span5 = 0.1;
+
+    float value6 = 0.02;
+    float middle6 = 0.87;
+    float span6 = 0.05;
+
+    if (abs(textureCoordinate.y - middle1) < span1) {
+        float f = (coord.y - middle1) / span1 * pi;
+        delta = (cos(f) + 1.0) * value1;
+    } else if (abs(textureCoordinate.y - middle2) < span2) {
+        float f = (coord.y - middle2) / span2 * pi;
+        delta = (cos(f) + 1.0) * value2;
+    } else if (abs(textureCoordinate.y - middle3) < span3) {
+        float f = (coord.y - middle3) / span3 * pi;
+        delta = (cos(f) + 1.0) * value3;
+    } else if (abs(textureCoordinate.y - middle4) < span4) {
+        float f = (coord.y - middle4) / span4 * pi;
+        delta = (cos(f) + 1.0) * value4;
+    } else if (abs(textureCoordinate.y - middle5) < span5) {
+        float f = (coord.y - middle5) / span5 * pi;
+        delta = (cos(f) + 1.0) * value5;
+    } else if (abs(textureCoordinate.y - middle6) < span6) {
+        float f = (coord.y - middle6) / span6 * pi;
+        delta = (cos(f) + 1.0) * value6;
+    }
+
+    coord.x = coord.x + delta * adjust;
+    vec4 textureColor = texture2D(inputImageTexture, coord);
+    gl_FragColor = textureColor;
+}

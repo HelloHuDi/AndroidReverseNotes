@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <Preference app:title="@string/fnh" app:key="wallet_realname_verify" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/fnd" app:key="wallet_modify_password" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/fn9" app:key="wallet_forget_password" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.plugin.wallet.pwd.ui.RightBelowPreference app:title="" app:key="wallet_biometric_pay" app:layout="@layout/ag7"/>
+    <PreferenceSmallCategory/>
+    <PreferenceSmallCategory/>
+    <IconPreference app:title="@string/fmx" app:key="wallet_open_auto_pay" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/fmb" app:key="wallet_delay_transfer_date" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/fnq" app:key="wallet_universal_pay_order" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/gas" app:key="wallet_function_settings" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/fgc" app:key="wallet_switch_currency" app:layout="@layout/ae4"/>
+    <Preference app:title="" app:key="wallet_im_mch" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory app:key="wallet_switch_category"/>
+    <Preference app:title="@string/fmc" app:key="wallet_digitalcert" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/fnp" app:key="wallet_password_setting_un_reg" app:layout="@layout/ae4"/>
+</PreferenceScreen>

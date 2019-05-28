@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pt">
+    <ListView android:id="@+id/d5f" android:background="@color/vs" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:focusable="true" android:transcriptMode="disabled" style="@style/mf"/>
+</LinearLayout>

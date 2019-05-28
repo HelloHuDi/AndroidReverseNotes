@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/b7j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <NumberPicker android:id="@+id/b7k" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1dp" android:layout_marginEnd="1dp"/>
+        <NumberPicker android:id="@+id/b7l" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1dp" android:layout_marginEnd="1dp"/>
+        <NumberPicker android:id="@+id/b7m" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="1dp" android:layout_marginEnd="1dp"/>
+    </LinearLayout>
+    <CalendarView android:id="@+id/b7n" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="245dp" android:layout_height="280dp" android:layout_marginLeft="44dp" android:layout_weight="1" android:layout_marginStart="44dp"/>
+</LinearLayout>

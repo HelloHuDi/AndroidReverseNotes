@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:padding="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:textColor="@color/w4" android:id="@+id/e79" android:singleLine="true" style="@style/mc"/>
+</LinearLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="i">
+    </style>
+    <style name="b7">
+    </style>
+    <style name="b9">
+    </style>
+    <style name="bj">
+    </style>
+    <style name="cq">
+    </style>
+    <style name="cr">
+    </style>
+    <style name="a1f">
+        <item name="dz">?android:attr/actionBarItemBackground</item>
+        <item name="e0">?android:attr/actionMenuTextAppearance</item>
+        <item name="e1">?android:attr/actionMenuTextColor</item>
+        <item name="ft">@drawable/a8u</item>
+        <item name="ga">?android:attr/ratingBarStyleIndicator</item>
+        <item name="gb">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="a1g">
+        <item name="dz">?android:attr/actionBarItemBackground</item>
+        <item name="e0">?android:attr/actionMenuTextAppearance</item>
+        <item name="e1">?android:attr/actionMenuTextColor</item>
+        <item name="ft">@drawable/a8u</item>
+        <item name="ga">?android:attr/ratingBarStyleIndicator</item>
+        <item name="gb">?android:attr/ratingBarStyleSmall</item>
+    </style>
+    <style name="cs">
+    </style>
+    <style name="ct">
+    </style>
+    <style name="cu">
+    </style>
+    <style name="cv">
+        <item name="gz">?unknown_attr_ref: 10104e2</item>
+    </style>
+    <style name="a1h">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+    <style name="cw">
+        <item name="e0">@style/a1h</item>
+    </style>
+    <style name="cx">
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowActionBar">true</item>
+        <item name="e0">@style/a1h</item>
+    </style>
+</resources>

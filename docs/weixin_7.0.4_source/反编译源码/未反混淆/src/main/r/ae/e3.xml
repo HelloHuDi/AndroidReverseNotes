@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_width="64dp" android:layout_height="64dp">
+                <ImageView android:id="@+id/xm" android:layout_width="53.3dp" android:layout_height="53.3dp" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="10dp" android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/xn" android:background="@drawable/ct" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="10dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/xo" android:background="@drawable/w3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40dp" android:text="@string/s0"/>
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/ni" android:textColor="@color/h4" android:gravity="center" android:layout_gravity="center" android:id="@+id/xp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContactsSource xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ContactsDataKind android:mimeType="vnd.android.cursor.item/vnd.com.tencent.mm.chatting.profile" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true"/>
+    <ContactsDataKind android:mimeType="vnd.android.cursor.item/vnd.com.tencent.mm.plugin.sns.timeline" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true"/>
+    <ContactsDataKind android:mimeType="vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip.video" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true"/>
+    <ContactsDataKind android:mimeType="vnd.android.cursor.item/vnd.com.tencent.mm.chatting.voip" android:summaryColumn="data2" android:detailColumn="data3" android:detailSocialSummary="true"/>
+</ContactsSource>

@@ -1,0 +1,53 @@
+package com.tencent.ttpic.config;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+
+public class BeautyRealConfig {
+    public static final TYPE[] COMBINED_TYPE = new TYPE[]{TYPE.NONE, TYPE.NATURE, TYPE.CUTE, TYPE.MELON};
+    public static final TYPE[] SINGLE_TRANS_TYPE = new TYPE[]{TYPE.COLOR_TONE, TYPE.REMOVE_POUNCH, TYPE.FACE_V, TYPE.FACE_THIN, TYPE.FACE_SHORTEN, TYPE.CHIN, TYPE.FOREHEAD, TYPE.EYE, TYPE.EYE_LIGHTEN, TYPE.EYE_DISTANCE, TYPE.EYE_ANGLE, TYPE.NOSE, TYPE.MOUTH_SHAPE, TYPE.TOOTH_WHITEN, TYPE.NOSE_WING, TYPE.NOSE_POSITION, TYPE.MOUTH_SHAPE, TYPE.LIPS_THICKNESS, TYPE.LIPS_WIDTH};
+    public static final TYPE[] SINGLE_TRANS_TYPE_573 = new TYPE[]{TYPE.FACE_V, TYPE.FACE_THIN, TYPE.FACE_SHORTEN, TYPE.CHIN, TYPE.EYE, TYPE.NOSE, TYPE.BASIC3};
+    public static final TYPE[] SINGLE_TRANS_TYPE_574 = new TYPE[]{TYPE.COLOR_TONE, TYPE.REMOVE_POUNCH, TYPE.FACE_V, TYPE.FACE_THIN, TYPE.FACE_SHORTEN, TYPE.CHIN, TYPE.FOREHEAD, TYPE.EYE, TYPE.EYE_LIGHTEN, TYPE.EYE_DISTANCE, TYPE.EYE_ANGLE, TYPE.NOSE, TYPE.MOUTH_SHAPE, TYPE.TOOTH_WHITEN, TYPE.NOSE_WING, TYPE.NOSE_POSITION, TYPE.MOUTH_SHAPE, TYPE.LIPS_THICKNESS, TYPE.LIPS_WIDTH};
+    public static final TYPE[] SINGLE_TYPE = new TYPE[]{TYPE.BEAUTY, TYPE.FACE_V, TYPE.FACE_THIN, TYPE.FACE_SHORTEN, TYPE.CHIN, TYPE.EYE, TYPE.NOSE};
+
+    public enum TYPE {
+        BEAUTY(0),
+        FACE_V(1),
+        FACE_THIN(2),
+        FACE_SHORTEN(10),
+        CHIN(3),
+        EYE(4),
+        NOSE(5),
+        NONE(6),
+        NATURE(7),
+        CUTE(8),
+        MELON(9),
+        BASIC3(11),
+        REMOVE_POUNCH(12),
+        EYE_LIGHTEN(13),
+        AUTO_BRIGHTNESS(14),
+        FOREHEAD(15),
+        EYE_DISTANCE(16),
+        EYE_ANGLE(17),
+        MOUTH_SHAPE(18),
+        TOOTH_WHITEN(19),
+        COLOR_TONE(20),
+        CONTRAST_RATIO(21),
+        NOSE_WING(22),
+        NOSE_POSITION(23),
+        LIPS_THICKNESS(24),
+        LIPS_WIDTH(25),
+        WUGUANLITI(26),
+        FACECOLOR(27),
+        EMPTY(-1);
+        
+        public int value;
+
+        static {
+            AppMethodBeat.o(81858);
+        }
+
+        private TYPE(int i) {
+            this.value = i;
+        }
+    }
+}

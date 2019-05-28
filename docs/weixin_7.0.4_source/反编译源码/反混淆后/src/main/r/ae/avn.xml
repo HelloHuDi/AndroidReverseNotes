@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/ejy" android:layout_width="73dp" android:layout_height="73dp">
+    <com.tencent.p177mm.plugin.sns.p520ui.TagImageView android:id="@+id/ejz" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <View android:id="@+id/ek0" android:background="@color/a0x" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/c9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:layout_centerInParent="true"/>
+    <com.tencent.p177mm.p612ui.widget.MMTextView android:textSize="@dimen/nd" android:textColor="@color/a69" android:ellipsize="end" android:gravity="center" android:id="@+id/ek1" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/enh" android:singleLine="false" android:layout_centerInParent="true"/>
+</RelativeLayout>

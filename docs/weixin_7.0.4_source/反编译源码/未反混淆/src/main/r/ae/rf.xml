@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <ListView android:id="@+id/n3" android:focusable="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/a8g" android:transcriptMode="disabled" android:cacheColorHint="#ffffff" android:divider="@null" android:dividerHeight="0px" android:layout_weight="1" style="@style/pt"/>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.tencent.mm.ui.base.AlphabetScrollBar android:id="@+id/n6" android:layout_width="25dp" android:layout_height="wrap_content" android:layout_marginBottom="0dp" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

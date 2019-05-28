@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/ww" android:background="@drawable/cl" android:layout_width="match_parent" android:layout_height="@dimen/tz" android:layout_alignParentTop="true" android:paddingStart="@dimen/tr" android:paddingEnd="@dimen/tr">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/wx" android:layout_width="@dimen/u2" android:layout_height="@dimen/u2" android:src="@a/app_brand_video_fullscreen_back" android:scaleType="fitCenter"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/cx" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1" android:layout_marginStart="@dimen/tx"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center" android:id="@+id/wy" android:visibility="gone" android:layout_width="@dimen/tl" android:layout_height="@dimen/tl" android:src="@a/app_brand_video_play_btn_play"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/l_" android:background="@drawable/cj" android:layout_width="match_parent" android:layout_height="@dimen/tq" android:layout_alignParentBottom="true" android:paddingEnd="@dimen/tr">
+        <ImageView android:gravity="center_vertical" android:id="@+id/t6" android:layout_width="@dimen/u2" android:layout_height="@dimen/u2" android:src="@a/app_brand_video_play_btn_play" android:scaleType="fitCenter" android:layout_marginStart="@dimen/to"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/wz" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="@dimen/to">
+            <TextView android:textSize="@dimen/tu" android:textColor="@color/a69" android:id="@+id/x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+            <FrameLayout android:gravity="center_vertical" android:id="@+id/x1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <ImageView android:id="@+id/x2" android:background="#33ffffff" style="@style/dj"/>
+                <ImageView android:id="@+id/x3" android:background="#80ffffff" style="@style/dj"/>
+                <ImageView android:id="@+id/x4" android:background="@color/a69" style="@style/dj"/>
+                <ImageView android:id="@+id/x5" android:paddingLeft="@dimen/ds" android:paddingTop="@dimen/ds" android:paddingRight="@dimen/ds" android:paddingBottom="@dimen/ds" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/media_player_control_btn" android:layout_marginStart="@dimen/nc"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/tu" android:textColor="@color/a69" android:id="@+id/x6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+        </LinearLayout>
+        <ImageView android:gravity="center_vertical" android:id="@+id/x7" android:layout_width="@dimen/tw" android:layout_height="@dimen/u2" android:src="@a/app_brand_video_danmu_off" android:scaleType="fitCenter" android:layout_marginStart="@dimen/to"/>
+        <ImageView android:gravity="center_vertical" android:id="@+id/x8" android:layout_width="@dimen/u2" android:layout_height="@dimen/u2" android:src="@a/app_brand_video_mute_btn_off" android:scaleType="fitCenter" android:layout_marginStart="@dimen/to"/>
+        <ImageView android:gravity="center_vertical" android:id="@+id/x9" android:layout_width="@dimen/u2" android:layout_height="@dimen/u2" android:src="@a/app_brand_video_fullscreen_btn" android:scaleType="fitCenter" android:layout_marginStart="@dimen/to"/>
+    </LinearLayout>
+</RelativeLayout>

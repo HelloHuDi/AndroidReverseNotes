@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/cyn" android:background="@drawable/sq" android:paddingLeft="12dp" android:paddingTop="12dp" android:paddingRight="12dp" android:layout_width="280dp" android:layout_height="wrap_content" android:minHeight="522dp">
+        <RelativeLayout android:background="@drawable/s7" android:layout_width="256dp" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/cyo" android:layout_width="256dp" android:layout_height="424dp" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/cyp" android:layout_width="256dp" android:layout_height="355dp" android:src="@drawable/b91"/>
+            <ImageView android:layout_width="88dp" android:layout_height="88dp" android:layout_marginTop="-63dp" android:src="@drawable/b5t" android:layout_below="@+id/cyp" android:layout_centerInParent="true"/>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <ImageView android:id="@+id/cyq" android:layout_width="39dp" android:layout_height="39dp" android:layout_marginTop="70dp" android:transitionName="shared_avatar"/>
+                <TextView android:textSize="13dp" android:textColor="@color/tv" android:ellipsize="end" android:id="@+id/cyr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginTop="7dp" android:layout_marginRight="@dimen/m4" android:layout_marginBottom="9dp" android:text="" android:singleLine="true" android:includeFontPadding="false"/>
+                <TextView android:textSize="19dp" android:textColor="@color/tv" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/cys" android:paddingLeft="18dp" android:paddingRight="18dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cqe" android:maxLines="2" android:singleLine="false"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView android:textSize="17dp" android:textColor="@color/h6" android:layout_gravity="center_horizontal" android:id="@+id/cyt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:text=""/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+            <RadioButton android:id="@+id/cyu" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/n8"/>
+            <TextView android:textSize="14dp" android:textColor="@color/rr" android:id="@+id/cyv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginBottom="1dp" android:text="@string/g7w"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/cyw" android:background="@drawable/sr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignLeft="@+id/cyn" android:layout_alignTop="@+id/cyn" android:layout_alignRight="@+id/cyn" android:layout_alignBottom="@+id/cyn" android:alpha="0.9">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="166dp">
+            <ImageView android:layout_gravity="center" android:id="@+id/cyx" android:layout_width="27dp" android:layout_height="27dp" android:src="@c1318a/pick_envelope_refresh"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/cyy" android:layout_width="27dp" android:layout_height="27dp" style="@style/zo"/>
+        </FrameLayout>
+        <TextView android:textSize="@dimen/ef" android:textColor="@color/rr" android:id="@+id/cyz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/csh"/>
+    </LinearLayout>
+</RelativeLayout>

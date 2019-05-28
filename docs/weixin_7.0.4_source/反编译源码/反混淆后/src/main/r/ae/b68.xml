@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/d3v" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="82dp">
+    <ImageView android:id="@+id/btd" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/a3u" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:id="@+id/dz8" android:background="@drawable/yp" android:layout_width="match_parent" android:layout_height="2dp" android:layerType="software"/>
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+            <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/fh9" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="17dp" android:textColor="#353535" android:id="@+id/rr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_toRightOf="@+id/fh9"/>
+            <TextView android:textSize="13dp" android:textColor="#b2b2b2" android:id="@+id/ld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_toRightOf="@+id/fh9" android:layout_below="@+id/rr"/>
+            <Button android:textSize="13dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/i3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60dp" android:minHeight="30dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ni"/>
+        </RelativeLayout>
+        <View android:id="@+id/dzc" android:background="@drawable/yp" android:layout_width="match_parent" android:layout_height="2dp" android:layerType="software"/>
+    </LinearLayout>
+    <com.tencent.p177mm.plugin.wallet_core.p561ui.view.WalletScratchShakeView android:id="@+id/fh_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.tencent.p177mm.plugin.wallet_core.p561ui.view.WalletAwardShakeAnimView android:layout_gravity="center_vertical" android:id="@+id/fha" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="1px" android:layout_marginBottom="1px"/>
+</FrameLayout>

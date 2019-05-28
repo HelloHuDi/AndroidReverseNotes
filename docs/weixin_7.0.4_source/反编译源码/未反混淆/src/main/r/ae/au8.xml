@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/nc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/efm" android:background="@drawable/az" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_gravity="center" android:id="@+id/efn" android:layout_width="match_parent" android:layout_height="49dp">
+            <ImageView android:id="@+id/av9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:src="@drawable/atg" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="14sp" android:textColor="@color/h4" android:id="@+id/o7" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="this is location" android:singleLine="true" android:layout_toLeftOf="@+id/z_" android:layout_toRightOf="@+id/av9" android:layout_centerInParent="true" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/z_" android:layout_width="7dp" android:layout_height="13dp" android:layout_marginLeft="12dp" android:src="@drawable/atl" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

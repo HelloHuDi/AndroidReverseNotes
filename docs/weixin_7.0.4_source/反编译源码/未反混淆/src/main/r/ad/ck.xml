@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceSmallCategory/>
+    <IconPreference app:title="@string/ejt" app:key="unlike"/>
+    <Preference app:title="@string/gaa" app:key="unlike_desc" app:layout="@layout/afn"/>
+    <PreferenceSmallCategory/>
+    <IconPreference app:title="@string/ena" app:key="black"/>
+    <Preference app:title="@string/ga0" app:key="not_be_seen_desc" app:layout="@layout/afn"/>
+    <PreferenceSmallCategory/>
+    <IconPreference app:title="@string/ga2" app:key="feedback"/>
+</PreferenceScreen>

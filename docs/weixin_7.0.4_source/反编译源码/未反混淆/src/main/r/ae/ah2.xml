@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/lp">
+    <LinearLayout android:paddingLeft="@dimen/do" android:paddingRight="@dimen/do" style="@style/mh">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:id="@+id/bsy" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/l9"/>
+        </LinearLayout>
+        <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dbm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="75dp" android:minHeight="30dp">
+            <TextView android:textSize="14dp" android:textColor="@color/t4" android:gravity="center" android:layout_gravity="center" android:id="@+id/dbn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60dp" android:minHeight="30dp" android:text="@string/c12"/>
+            <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/dbo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

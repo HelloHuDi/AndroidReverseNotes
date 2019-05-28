@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/um" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.sns.storage.AdLandingPagesStorage.AdLandingPageComponent.component.widget.AdLandingVideoWrapper android:id="@+id/wh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/z4" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/rj" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true" style="@style/zo"/>
+    <ImageView android:id="@+id/l4" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:gravity="center" android:id="@+id/edz" android:paddingBottom="20dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="0.8"/>
+    <View android:id="@+id/efp" android:background="@color/e6" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="13dp" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/efq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/b7k" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</RelativeLayout>

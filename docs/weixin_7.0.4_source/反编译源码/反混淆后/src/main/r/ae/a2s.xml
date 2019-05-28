@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.plugin.game.p433ui.GameCenterListView android:id="@+id/c26" android:focusable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/a8a" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0dp"/>
+    <RelativeLayout android:id="@+id/c27" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/dt" android:textColor="#737373" android:gravity="center" android:background="@null" android:layout_width="match_parent" android:layout_height="60dp" android:text="@string/c4r" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ViewStub android:id="@+id/c28" android:layout="@layout/a46" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="30dp" android:layout_marginRight="30dp"/>
+</FrameLayout>

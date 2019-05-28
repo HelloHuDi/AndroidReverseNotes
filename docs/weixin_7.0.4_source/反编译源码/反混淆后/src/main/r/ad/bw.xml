@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceTitleCategory app:title="@string/e5v"/>
+    <CheckBoxPreference app:title="@string/e5u" app:key="settings_auto_mul_terminal_sync" app:defaultValue="false"/>
+    <PreferenceTitleCategory app:title="@string/ebn"/>
+    <CheckBoxPreference app:title="@string/ebm" app:key="settings_take_photo_auto_save_photo" app:defaultValue="false"/>
+    <CheckBoxPreference app:title="@string/ebo" app:key="settings_take_photo_auto_save_video" app:defaultValue="false"/>
+</PreferenceScreen>

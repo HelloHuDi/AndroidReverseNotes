@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/zj" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/f_j" android:background="@color/a3p" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="8dp"/>
+        <TextView android:textSize="17dp" android:textColor="@color/h4" android:id="@+id/f_k" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+        <ImageView android:id="@+id/f_l" android:layout_width="24dp" android:layout_height="24dp" android:src="@a/wallet_drag_icon"/>
+    </LinearLayout>
+    <View android:background="#e2e2e2" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

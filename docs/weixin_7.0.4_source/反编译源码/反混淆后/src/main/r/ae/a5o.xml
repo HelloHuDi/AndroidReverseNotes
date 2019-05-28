@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:padding="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/s0" android:id="@+id/c9a" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/zj" android:padding="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/qv" android:id="@+id/c9b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/le"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/qu" android:ellipsize="end" android:id="@+id/c9c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/zj" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:background="@drawable/a_q" android:paddingTop="@dimen/m4" android:paddingBottom="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:id="@+id/c9d" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

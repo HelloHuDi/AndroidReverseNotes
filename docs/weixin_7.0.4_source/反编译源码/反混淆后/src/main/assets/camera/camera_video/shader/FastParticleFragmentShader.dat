@@ -1,0 +1,42 @@
+precision highp float;
+
+varying vec4 vColor;
+varying vec2 vTexCoords;
+varying float stickerIndex;
+
+uniform sampler2D inputImageTexture;
+uniform sampler2D inputImageTexture0;
+uniform sampler2D inputImageTexture1;
+uniform sampler2D inputImageTexture2;
+uniform sampler2D inputImageTexture3;
+uniform sampler2D inputImageTexture4;
+uniform sampler2D inputImageTexture5;
+uniform sampler2D inputImageTexture6;
+uniform sampler2D inputImageTexture7;
+
+void main() {
+
+    vec4 texColor = vec4(0.0, 0.0, 0.0, 0.0);
+    vec4 blendColor = vec4(0.68, 0.32, 0.21, 1.0);
+
+    if (0.0 <= stickerIndex && stickerIndex <= 1.0 ) {
+        texColor = texture2D(inputImageTexture0, vTexCoords);
+    } else if (1.0 <= stickerIndex && stickerIndex <= 2.0) {
+        texColor = texture2D(inputImageTexture1, vTexCoords);
+    } else if (2.0 <= stickerIndex && stickerIndex <= 3.0) {
+        texColor = texture2D(inputImageTexture2, vTexCoords);
+    } else if (3.0 <= stickerIndex && stickerIndex <= 4.0) {
+        texColor = texture2D(inputImageTexture3, vTexCoords);
+    } else if (4.0 <= stickerIndex && stickerIndex <= 5.0) {
+        texColor = texture2D(inputImageTexture4, vTexCoords);
+    } else if (5.0 <= stickerIndex && stickerIndex <= 6.0) {
+        texColor = texture2D(inputImageTexture5, vTexCoords);
+    } else if (6.0 <= stickerIndex && stickerIndex <= 7.0) {
+        texColor = texture2D(inputImageTexture6, vTexCoords);
+    } else {
+        texColor = texture2D(inputImageTexture7, vTexCoords);
+    }
+
+    gl_FragColor = vec4(texColor) * vColor;
+
+}

@@ -1,0 +1,100 @@
+//uniform highp mat4 projection;
+//uniform highp mat4 faceFrame;
+//uniform highp mat4 stableToImage;
+uniform highp vec2 lipsPlainSize;
+uniform highp vec3 lipsCenter;
+uniform highp vec2 nosePlainSize;
+uniform highp vec3 noseCenter;
+uniform highp float lipsSize;
+uniform highp float lipsWidth;
+uniform highp float lipsHeight;
+//uniform sampler2D teethRegionMask;
+attribute highp vec4 position;
+//attribute highp float faceIndex;
+//attribute highp float depthValue;
+varying highp vec2 textureCoordinate;
+uniform vec3 angles; // angles.x: pitch, angles.y: yaw, angles.z: roll
+uniform vec2 size;
+
+uniform sampler2D inputImageTexture;
+
+highp float getElipseMask2(in highp vec2 sigmaScaling, in highp vec2 point,in highp vec2 center, in highp vec2 boundingSize) {
+    highp vec2 sigmas = boundingSize / sigmaScaling;
+    highp vec2 lengths = (point - center) / sigmas;
+    highp float mask = exp(-dot(lengths, lengths));
+    return smoothstep(0.2, 0.8, mask);
+}
+
+float getElipseMask(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize) {
+    // un-normalization
+    boundingSize = boundingSize * size;
+    point = point * size;
+    center = center * size;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 translate = (point - center);
+    // rotate and scale
+    vec2 v = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) * sigmaScaling;
+
+    float d2 = sqrt(dot(v / boundingSize, v / boundingSize));
+    float a1 = 0.5;
+    float a2 = 1.2;
+
+    return 1.0 - smoothstep(a1, a2, d2);
+}
+
+highp float getLipsMask() {
+    const highp vec2 sigmaScaling = vec2(1.8, 1.0);
+    const highp float upDirectionBias = 0.15;
+    // highp vec2 lipsCenterBiased = lipsCenter.xy - sign(stableToImage[1][1]) * lipsPlainSize.y * upDirectionBias;
+    highp vec2 lipsCenterBiased = lipsCenter.xy;
+    // highp vec2 lipsPlaineSizeBiased = vec2(0.9, 1.0 - upDirectionBias) * lipsPlainSize;
+    highp vec2 lipsPlaineSizeBiased = lipsPlainSize;
+    return getElipseMask(sigmaScaling, position.xy, lipsCenterBiased, lipsPlaineSizeBiased);
+}
+highp float getNoseMask() {
+    const highp vec2 sigmaScaling = vec2(1.0, 1.1);
+    return getElipseMask(sigmaScaling, position.xy, noseCenter.xy, nosePlainSize);
+}
+highp vec3 getScaledLipsPoint(in highp vec3 originalPoint, in highp vec3 scalingFactors,
+    in highp float scalingCoefficient, in highp float lipsMask) {
+    if (scalingCoefficient == 0.0) {
+        return originalPoint;
+    }
+    highp vec3 lipsScaledPoint = lipsCenter + scalingFactors * (originalPoint - lipsCenter);
+    return mix(originalPoint, lipsScaledPoint, scalingCoefficient * lipsMask);
+}
+
+vec3 getScaledLipsPoint2(vec3 originalPoint, vec3 center, float theta, float scale) {
+    float sin_t = sin(theta);
+    float cos_t = cos(theta);
+    vec2 v = (originalPoint - center).xy;
+    float d = dot(v, vec2(cos_t, sin_t));
+    d = d * scale;
+    vec2 dv = d * vec2(cos_t, sin_t);
+
+    return vec3(originalPoint.xy+dv, originalPoint.z);
+}
+
+void main() {
+    const float pi = 3.1415926;
+    const highp float kScalingFactor = 1.3;
+    highp vec2 originalPosition = position.xy;
+    highp vec2 faceFrameCoords = originalPosition;
+    // highp float teethRegionWeight = texture2D(teethRegionMask, faceFrameCoords).r;
+    highp float teethRegionWeight = 0.0;
+    highp float lipsMask = getLipsMask() * (1.0 - teethRegionWeight) * (1.0 - getNoseMask());
+    highp vec3 displacedLipsPoint = position.xyz;
+    const highp vec3 kLipsWidthFactors = vec3(kScalingFactor, 1.0, 1.0);
+    displacedLipsPoint = mix(displacedLipsPoint, getScaledLipsPoint2(displacedLipsPoint, lipsCenter, angles.z, 0.3), lipsWidth * lipsMask);
+
+    const highp vec3 kLipsHeightFactors = vec3(1.0, kScalingFactor, 1.0);
+    displacedLipsPoint = mix(displacedLipsPoint, getScaledLipsPoint2(displacedLipsPoint, lipsCenter, pi/2.0 + angles.z, 0.3), lipsHeight * lipsMask);
+
+    const highp vec3 kLipsSizeFactors = vec3(kScalingFactor, kScalingFactor, 1.0);
+    displacedLipsPoint = getScaledLipsPoint(displacedLipsPoint, kLipsSizeFactors, lipsSize, lipsMask);
+    highp vec2 displacedPosition = (vec4(displacedLipsPoint, 1.0)).xy;
+    textureCoordinate = displacedPosition;
+    gl_Position = vec4(originalPosition.x*2.0-1.0, originalPosition.y*2.0-1.0, 0.0, 1.0);
+}

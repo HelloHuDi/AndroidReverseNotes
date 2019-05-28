@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:paddingTop="@dimen/ld" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/kr" android:textColor="#6c6c6c" android:gravity="center_horizontal" android:id="@+id/bgn" android:background="@drawable/a8g" android:paddingBottom="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <Button android:id="@+id/bgo" android:layout_marginTop="@dimen/ds" android:layout_marginBottom="@dimen/ds" android:minWidth="@dimen/n9" android:text="@string/bbe" style="@style/nn"/>
+    <TextView android:textSize="@dimen/kr" android:textColor="#6c6c6c" android:gravity="center_horizontal" android:id="@+id/bgp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.tencent.p177mm.plugin.emoji.p384ui.p385v2.DonorsAvatarView android:layout_gravity="center" android:id="@+id/bgq" android:paddingTop="@dimen/ds" android:paddingBottom="@dimen/kx" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

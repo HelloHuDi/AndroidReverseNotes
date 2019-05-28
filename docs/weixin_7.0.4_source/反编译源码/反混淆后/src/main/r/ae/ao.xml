@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/lh" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp">
+        <Button android:id="@+id/lx" android:layout_marginLeft="5dp" android:text="getDB" style="@style/nk"/>
+        <Button android:id="@+id/ly" android:layout_marginLeft="5dp" android:text="calcExpt" style="@style/nk"/>
+        <Button android:id="@+id/lz" android:layout_marginLeft="5dp" android:text="delDB" style="@style/nn"/>
+        <Button android:id="@+id/m0" android:layout_marginLeft="5dp" android:text="reset" style="@style/nn"/>
+        <Button android:id="@+id/m1" android:layout_marginLeft="5dp" android:text="experience" style="@style/nk"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/kr" android:id="@+id/m2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp"/>
+    <ListView android:id="@+id/m3" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@color/a61" android:dividerHeight="1dp"/>
+</LinearLayout>

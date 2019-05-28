@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.p612ui.ListViewInScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_gravity="center" android:id="@+id/xa" android:background="@null" android:layout_width="match_parent" android:layout_height="0dp" android:listSelector="@drawable/b_" android:cacheColorHint="@null" android:dividerHeight="@dimen/fv" android:minWidth="@dimen/lr" android:layout_weight="1"/>

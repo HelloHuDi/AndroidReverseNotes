@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/bgs" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/eah" android:background="@drawable/a3g" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/nb">
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:layout_gravity="center_vertical" android:id="@+id/eai" android:layout_marginLeft="10dp" android:layout_weight="1" style="@style/la"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/au3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@drawable/a3k"/>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:src="@c1318a/trust_friend"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dv" android:gravity="center" android:paddingTop="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ec0"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:layout_gravity="center_horizontal" android:id="@+id/eaj" android:paddingLeft="14dp" android:paddingTop="19dp" android:paddingRight="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ec4"/>
+        <TextView android:id="@+id/eak" android:paddingLeft="14dp" android:paddingTop="14dp" android:paddingRight="14dp" android:text="@string/ec1" style="@style/k6"/>
+        <TextView android:layout_marginLeft="14dp" android:layout_marginTop="17dp" android:layout_marginRight="14dp" style="@style/l3"/>
+        <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.p177mm.p612ui.widget.MMScrollGridView android:id="@+id/eal" android:fadingEdge="none" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_marginTop="@dimen/a2v" android:layout_marginRight="14dp" android:listSelector="@drawable/a8g" android:overScrollMode="never"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.ui.base.MMGallery android:id="@+id/ejm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="0dp" android:unselectedAlpha="1.2"/>
+        <com.tencent.mm.ui.tools.MMGestureGallery android:id="@+id/ejn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="0dp" android:unselectedAlpha="1.2"/>
+        <LinearLayout android:layout_gravity="center" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.mm.ui.base.MMPageControlView android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ejo" android:background="@null" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="20dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,90 @@
+package com.tencent.p177mm.network;
+
+import android.os.Binder;
+import android.os.IBinder;
+import android.os.IInterface;
+import android.os.Parcel;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+
+/* renamed from: com.tencent.mm.network.o */
+public interface C1926o extends IInterface {
+
+    /* renamed from: com.tencent.mm.network.o$a */
+    public static abstract class C1927a extends Binder implements C1926o {
+
+        /* renamed from: com.tencent.mm.network.o$a$a */
+        static class C1928a implements C1926o {
+            private IBinder mRemote;
+
+            C1928a(IBinder iBinder) {
+                this.mRemote = iBinder;
+            }
+
+            public final IBinder asBinder() {
+                return this.mRemote;
+            }
+
+            public final void reportKV(long j, String str, boolean z, boolean z2) {
+                int i = 1;
+                AppMethodBeat.m2504i(58527);
+                Parcel obtain = Parcel.obtain();
+                Parcel obtain2 = Parcel.obtain();
+                try {
+                    obtain.writeInterfaceToken("com.tencent.mm.network.IOnReportKV_AIDL");
+                    obtain.writeLong(j);
+                    obtain.writeString(str);
+                    obtain.writeInt(z ? 1 : 0);
+                    if (!z2) {
+                        i = 0;
+                    }
+                    obtain.writeInt(i);
+                    this.mRemote.transact(1, obtain, obtain2, 0);
+                    obtain2.readException();
+                } finally {
+                    obtain2.recycle();
+                    obtain.recycle();
+                    AppMethodBeat.m2505o(58527);
+                }
+            }
+        }
+
+        public C1927a() {
+            attachInterface(this, "com.tencent.mm.network.IOnReportKV_AIDL");
+        }
+
+        public IBinder asBinder() {
+            return this;
+        }
+
+        public boolean onTransact(int i, Parcel parcel, Parcel parcel2, int i2) {
+            switch (i) {
+                case 1:
+                    boolean z;
+                    boolean z2;
+                    parcel.enforceInterface("com.tencent.mm.network.IOnReportKV_AIDL");
+                    long readLong = parcel.readLong();
+                    String readString = parcel.readString();
+                    if (parcel.readInt() != 0) {
+                        z = true;
+                    } else {
+                        z = false;
+                    }
+                    if (parcel.readInt() != 0) {
+                        z2 = true;
+                    } else {
+                        z2 = false;
+                    }
+                    reportKV(readLong, readString, z, z2);
+                    parcel2.writeNoException();
+                    return true;
+                case 1598968902:
+                    parcel2.writeString("com.tencent.mm.network.IOnReportKV_AIDL");
+                    return true;
+                default:
+                    return super.onTransact(i, parcel, parcel2, i2);
+            }
+        }
+    }
+
+    void reportKV(long j, String str, boolean z, boolean z2);
+}

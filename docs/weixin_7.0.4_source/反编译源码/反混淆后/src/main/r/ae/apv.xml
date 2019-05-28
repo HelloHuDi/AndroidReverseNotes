@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="start" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l8" android:layout_marginTop="38dp" android:layout_marginRight="@dimen/l8">
+            <ImageView android:id="@+id/e6l" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="8dp" android:src="@c1318a/login_app_default_avatar"/>
+            <TextView android:textSize="15dp" android:textColor="@color/fn" android:layout_gravity="center" android:id="@+id/e6m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="12dp" android:maxLines="2"/>
+            <TextView android:textSize="15dp" android:textColor="@color/fn" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d6b"/>
+        </LinearLayout>
+        <TextView android:textSize="22dp" android:textColor="@color/h4" android:layout_gravity="start" android:id="@+id/e6n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l8" android:layout_marginTop="18dp" android:layout_marginRight="@dimen/l8"/>
+        <com.tencent.p177mm.p612ui.base.MaxListView android:id="@+id/e6o" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l8" android:layout_marginTop="4dp" android:listSelector="@color/a3p" android:cacheColorHint="#00000000" android:divider="@null"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l8" android:layout_marginTop="60dp" android:layout_marginRight="@dimen/l8" android:layout_marginBottom="@dimen/m4">
+            <Button android:id="@+id/e6p" android:text="同意" style="@style/nj"/>
+            <Button android:id="@+id/e6q" android:layout_marginTop="@dimen/g7" android:text="拒绝" style="@style/np"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

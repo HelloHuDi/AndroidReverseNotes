@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceTitleCategory app:title="@string/a14" app:key="backup_select_ext_time_title"/>
+    <RadioCheckPreference app:title="@string/a1l" app:key="backup_select_ext_time_all"/>
+    <RadioCheckPreference app:title="@string/a1m" app:key="backup_select_ext_time_some"/>
+    <Preference app:title="@string/a1p" app:key="backup_select_begin_time"/>
+    <Preference app:title="@string/a1o" app:key="backup_select_end_time"/>
+    <PreferenceSmallCategory/>
+    <PreferenceTitleCategory app:title="@string/a13" app:key="backup_select_ext_content_title"/>
+    <RadioCheckPreference app:title="@string/a1i" app:key="backup_select_ext_content_all_msg"/>
+    <RadioCheckPreference app:title="@string/a1j" app:key="backup_select_ext_content_text_only"/>
+</PreferenceScreen>

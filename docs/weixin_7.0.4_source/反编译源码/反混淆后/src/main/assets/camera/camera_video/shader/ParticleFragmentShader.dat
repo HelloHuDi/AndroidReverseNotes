@@ -1,0 +1,38 @@
+precision highp float;
+
+ varying vec4 vColor;
+ varying vec2 vTexCoords;
+
+ uniform sampler2D inputImageTexture;
+ uniform sampler2D inputImageTexture2;
+
+ uniform int isPartical2;
+ uniform int u_opacityModifyRGB;
+
+
+ vec4 color;
+
+ void main() {
+
+     if (isPartical2 == 0) {
+         gl_FragColor = vec4(1.0, 0.0, 0.0, 1.0);//texture2D(inputImageTexture2, vTexCoords);
+         return;
+     }
+     else {
+
+         if (u_opacityModifyRGB == 1) {
+             color = vec4(vColor.r * vColor.a,
+                          vColor.g * vColor.a,
+                          vColor.b * vColor.a,
+                          vColor.a);
+         } else {
+             color = vColor;
+         }
+
+         vec4 texColor = texture2D(inputImageTexture2, vTexCoords);
+         gl_FragColor = vec4(texColor) * vColor;
+
+     }
+
+
+ }

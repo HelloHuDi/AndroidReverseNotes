@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bz0" android:layout_width="match_parent" android:layout_height="50dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:weightSum="3">
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/hi" android:gravity="center" android:layout_gravity="center" android:id="@+id/bz1" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:text="{textview_1}" android:layout_weight="1" android:lineSpacingExtra="@dimen/ms"/>
+        <View android:layout_gravity="center" android:id="@+id/bz2" android:background="#dadada" android:visibility="gone" android:layout_width="1px" android:layout_height="match_parent"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/hi" android:gravity="center" android:layout_gravity="center" android:id="@+id/bz3" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:text="{textview_2}" android:layout_weight="1" android:lineSpacingExtra="@dimen/ms"/>
+        <View android:layout_gravity="center" android:id="@+id/bz4" android:background="#dadada" android:visibility="gone" android:layout_width="1px" android:layout_height="match_parent"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/hi" android:gravity="center" android:layout_gravity="center" android:id="@+id/bz5" android:visibility="gone" android:layout_width="0dp" android:layout_height="match_parent" android:text="{textview_3}" android:layout_weight="1" android:lineSpacingExtra="@dimen/ms"/>
+    </LinearLayout>
+</LinearLayout>

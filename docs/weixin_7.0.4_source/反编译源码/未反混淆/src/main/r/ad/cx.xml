@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wearableApp xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" package="com.tencent.mm">
+    <versionCode>5
+    </versionCode>
+    <versionName>2.0
+    </versionName>
+    <rawPathResId>android_wear_micro_apk
+    </rawPathResId>
+</wearableApp>

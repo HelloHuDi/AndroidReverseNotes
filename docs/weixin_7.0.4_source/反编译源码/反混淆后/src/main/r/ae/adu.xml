@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.p177mm.p612ui.widget.textview.MMAutoAdjustTextView android:id="@+id/cx" style="@style/lk"/>
+    <com.tencent.p177mm.p612ui.base.MMClearEditText android:id="@+id/l3" android:layout_width="wrap_content" android:layout_marginRight="@dimen/nc" android:layout_weight="1" android:imeOptions="actionDone" style="@style/lj"/>
+    <Button android:id="@+id/d9g" style="@style/p9"/>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/d9h" android:visibility="gone" style="@style/lk"/>
+</merge>

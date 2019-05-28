@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bm8" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l8">
+        <ImageView android:id="@+id/bmq" android:background="@drawable/b35" android:layout_width="@dimen/x2" android:layout_height="@dimen/x2" android:layout_marginTop="@dimen/l9"/>
+        <TextView android:textSize="24dp" android:textColor="@color/h4" android:gravity="center" android:id="@+id/bmr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="@string/bku"/>
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bms" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="80dp">
+            <Button android:textSize="@dimen/dt" android:id="@+id/bma" android:padding="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" android:text="@string/bkt" style="@style/ni"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@null" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/l5" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.chatting.HardDeviceChattingItemView android:orientation="vertical" android:id="@+id/ap9" android:background="@drawable/ih" android:paddingLeft="@dimen/nc" android:paddingTop="@dimen/l5" android:paddingRight="@dimen/nc" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginRight="0dp">
+                <TextView android:textSize="42dp" android:textColor="@color/a69" android:ellipsize="end" android:gravity="center" android:id="@+id/aso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50dp" android:singleLine="true" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="15dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/asp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="50dp" android:singleLine="true" android:layout_below="@+id/aso" android:layout_alignLeft="@+id/aso" android:layout_alignRight="@+id/aso" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="15dp">
+                <TextView android:textSize="42dp" android:textColor="@color/a69" android:ellipsize="end" android:gravity="left" android:id="@+id/asq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="220dp" android:singleLine="true" android:layout_alignParentRight="true"/>
+                <TextView android:textSize="15dp" android:textColor="@color/a69" android:gravity="left" android:id="@+id/asr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/asq" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <TextView android:id="@+id/ass" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/ds" android:layout_marginTop="32dp" android:layout_marginRight="@dimen/ds"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/ds">
+            <ImageView android:id="@+id/asm" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="@dimen/m4" android:src="@a/chatting_item_harddevice_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds" android:layout_toLeftOf="@+id/asm" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+                <ImageView android:id="@+id/ast" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:layout_marginRight="@dimen/ds" android:src="@drawable/ad2"/>
+                <TextView android:textSize="15dp" android:textColor="@color/h4" android:gravity="left" android:layout_gravity="center_vertical" android:id="@+id/asu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </com.tencent.mm.ui.chatting.HardDeviceChattingItemView>
+</LinearLayout>

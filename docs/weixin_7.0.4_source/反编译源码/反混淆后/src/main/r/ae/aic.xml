@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d9u" android:background="@drawable/ul" android:layout_width="match_parent" android:layout_height="@dimen/li">
+    <ImageView android:id="@+id/dfy" android:background="@drawable/aq5" android:visibility="gone" android:layout_width="@dimen/m2" android:layout_height="@dimen/m2" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/nc" android:layout_marginRight="@dimen/nc" android:layout_marginBottom="@dimen/nc"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="@dimen/li" android:layout_marginLeft="@dimen/m4" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc" android:layout_weight="1">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:id="@+id/dfz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[item title]" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:id="@+id/dga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[item price]" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/ni" android:textColor="@color/t4" android:id="@+id/dgb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="[item desc]" android:singleLine="true"/>
+    </LinearLayout>
+    <com.tencent.p177mm.p612ui.widget.imageview.WeImageView android:id="@+id/dgc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m4" android:src="@c1318a/radio_on" android:scaleType="fitXY" app:iconColor="#1aad19"/>
+</LinearLayout>

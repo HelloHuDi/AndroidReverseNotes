@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_below="@+id/ag" style="@style/fz">
+    <include layout="@layout/lj"/>
+    <LinearLayout android:paddingRight="14dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/g9">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ap9" android:background="@drawable/i0" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/atv" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@+id/aps" android:background="@drawable/ar3" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/apt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/vs" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+                <TextView android:textSize="16dp" android:textColor="@color/a44" android:ellipsize="end" android:layout_gravity="center" android:id="@+id/apr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:maxLines="3"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

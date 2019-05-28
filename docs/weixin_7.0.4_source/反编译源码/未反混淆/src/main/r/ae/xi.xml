@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <RelativeLayout android:id="@+id/bmx" android:background="@color/o9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/bmy" android:background="@color/o7" android:paddingLeft="48dp" android:paddingRight="48dp" android:paddingBottom="@dimen/l8" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bmz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:src="@drawable/b3x" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="18dp" android:textColor="@color/a69" android:gravity="center_horizontal" android:id="@+id/bn0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m_" android:text="@string/bkw" android:layout_below="@+id/bmz" android:layout_centerHorizontal="true" style="@style/nu"/>
+            <TextView android:textSize="18dp" android:textColor="@color/a69" android:gravity="left" android:id="@+id/bn1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/bn0" android:layout_alignTop="@+id/bn0" style="@style/nu"/>
+            <Button android:textColor="@color/a74" android:id="@+id/bn2" android:background="@null" android:visibility="invisible" android:layout_marginTop="40dp" android:text="@string/bkx" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/ml"/>
+            <Button android:textSize="@dimen/lm" android:textColor="@color/a74" android:id="@+id/ay8" android:visibility="invisible" android:text="@string/bkx" android:layout_above="@+id/bn2" android:layout_centerHorizontal="true" style="@style/p5"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a8m" android:id="@+id/bn3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l5" android:text="@string/bke" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <Button android:id="@+id/bn4" android:visibility="gone" style="@style/i6"/>
+    </RelativeLayout>
+</merge>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/v5">
+    <TextView android:textColor="@color/s0" android:id="@+id/dm_" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fpb"/>
+    <LinearLayout style="@style/vx">
+        <com.tencent.p177mm.plugin.wallet_payu.security_question.p574ui.WalletPayUSecurityQuestionView android:id="@+id/dma" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" app:tipmsg="@string/fpf"/>
+        <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/dmb" android:singleLine="false" android:imeOptions="actionNext" app:titleText="@string/fpd" app:contentHint="@string/fpc" style="@style/vz"/>
+    </LinearLayout>
+    <Button android:id="@+id/dmc" android:layout_marginTop="@dimen/l5" android:text="@string/fp9" style="@style/vu"/>
+</LinearLayout>

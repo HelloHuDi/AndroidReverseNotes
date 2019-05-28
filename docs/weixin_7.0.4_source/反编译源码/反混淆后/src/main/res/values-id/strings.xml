@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u">Kunjungi &lt;b&gt;facebook.com/device&lt;/b&gt; dan masukkan kode yang ditampilkan di atas.</string>
+    <string name="w">Masuk WebView memerlukan izin INTERNET</string>
+    <string name="x">Kesalahan AndroidManifest</string>
+    <string name="y">Disukai</string>
+    <string name="z">Suka</string>
+    <string name="a0">Memuat…</string>
+    <string name="a1">Batal</string>
+    <string name="a2">Masuk</string>
+    <string name="a3">Lanjutkan dengan Facebook</string>
+    <string name="a5">Keluar</string>
+    <string name="a6">Keluar</string>
+    <string name="a7">Masuk sebagai: %1$s</string>
+    <string name="a8">Masuk menggunakan Facebook</string>
+    <string name="aa">Untuk menghubungkan akun Anda, buka aplikasi Facebook di perangkat seluler Anda dan periksa pemberitahuan.</string>
+    <string name="ab">- ATAU -</string>
+    <string name="ac">Bukan Anda?</string>
+    <string name="ae">Konfirmasikan Masuk</string>
+    <string name="af">Anda memegang kendali - pilih info yang ingin Anda bagikan dengan aplikasi.</string>
+    <string name="v">Kesalahan yang tidak diharapkan saat mengunduh gambar.</string>
+    <string name="a4">Masuk menggunakan Facebook</string>
+    <string name="a9">Kirim</string>
+    <string name="a_">Berbagi</string>
+</resources>

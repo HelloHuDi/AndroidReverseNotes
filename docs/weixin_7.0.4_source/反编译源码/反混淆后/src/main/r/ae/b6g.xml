@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/vs" android:paddingTop="0dp" android:layout_height="match_parent" style="@style/ks">
+    <LinearLayout android:orientation="vertical" android:paddingTop="45dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="18dp" android:textColor="@color/h4" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/fhm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fqk"/>
+        <TextView android:textSize="13dp" android:textColor="#868686" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/dm7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="20dp" android:text="@string/fua"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m5" android:layout_gravity="center_vertical" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fui"/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/a65" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="0dp" android:layout_height="32dp" android:layout_marginBottom="0dp" android:layout_weight="1" android:inputType="phone" app:layoutRes="@layout/b6h" app:contentHint="@string/fuq" app:contentGravity="11" style="@style/w5"/>
+            <Button android:textColor="@color/a74" android:id="@+id/dm8" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/fup" android:singleLine="true" style="@style/nk"/>
+        </LinearLayout>
+        <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="1px"/>
+        <TextView android:textSize="14dp" android:textColor="@color/a8k" android:gravity="center_vertical" android:id="@+id/dm9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="@string/ful"/>
+        <Button android:id="@+id/a66" android:layout_marginTop="@dimen/l9" android:text="@string/s1" style="@style/ni"/>
+    </LinearLayout>
+</ScrollView>

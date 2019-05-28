@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="right" style="@style/g8">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ap9" android:background="@drawable/g1" android:paddingLeft="@dimen/lo" android:paddingTop="0dp" android:paddingRight="13dp" android:paddingBottom="0dp" android:layout_width="@dimen/wp" android:layout_height="wrap_content" style="@style/g_">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/ds" android:paddingBottom="@dimen/ds" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/ar5" android:layout_width="34dp" android:layout_height="34dp" android:layout_marginLeft="@dimen/nj" android:layout_centerVertical="true"/>
+            <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                    <com.tencent.p177mm.p612ui.widget.MMTextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/a69" android:ellipsize="end" android:id="@+id/ar6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <com.tencent.p177mm.p612ui.widget.MMTextView android:textSize="@dimen/ni" android:textColor="@color/a69" android:ellipsize="end" android:id="@+id/ar7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m8" android:singleLine="true"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="20dp" android:minHeight="20dp">
+            <TextView android:textSize="@dimen/nt" android:textColor="@color/il" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/alr" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <include layout="@layout/ll"/>
+</LinearLayout>

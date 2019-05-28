@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/gq" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+        <ImageView android:id="@+id/afg" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="12dp" android:src="@c1318a/card_ticket_icon"/>
+        <TextView android:textSize="@dimen/dz" android:textColor="@color/h6" android:id="@+id/afh" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/fi" android:textColor="@color/h5" android:id="@+id/afi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        <ImageView android:id="@+id/afj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:src="@drawable/ayr"/>
+    </LinearLayout>
+    <View android:background="#ededed" android:layout_width="match_parent" android:layout_height="16dp"/>
+</LinearLayout>

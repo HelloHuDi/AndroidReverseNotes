@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <RelativeLayout android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ih" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="47.5dp" android:layout_height="56dp" android:layout_marginTop="57.5dp" android:src="@drawable/bmb" android:scaleType="centerInside"/>
+            <TextView android:textSize="20dp" android:textColor="@color/h4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/cm5"/>
+            <TextView android:textSize="14dp" android:textColor="@color/w0" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.5dp" android:layout_marginTop="20dp" android:layout_marginRight="40.5dp" android:text="@string/b1"/>
+            <Button android:id="@+id/ii" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ld" android:layout_marginTop="40dp" android:layout_marginRight="@dimen/ld" android:text="@string/clg" style="@style/ni"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textColor="@color/t7" android:gravity="bottom" android:id="@+id/ij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18dp" android:text="@string/ap7" android:layout_below="@+id/ih" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:background="@null" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/nc" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/m3">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textColor="@color/w4" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/cx" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/lf"/>
+        <TextView android:textSize="@dimen/nk" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/asn" android:layout_width="match_parent" android:layout_height="0dp" android:singleLine="true" android:layout_weight="1" style="@style/le"/>
+    </LinearLayout>
+    <Button android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/at4" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/p_" style="@style/nk"/>
+</LinearLayout>

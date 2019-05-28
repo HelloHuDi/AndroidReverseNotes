@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/a2r" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/fi_" android:layout_width="20dp" android:layout_height="20dp"/>
+        <TextView android:textSize="@dimen/dz" android:textColor="@color/h4" android:id="@+id/fia" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="" android:layout_weight="1"/>
+        <RadioButton android:id="@+id/fib" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/n7"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/fi" android:textColor="@color/rr" android:id="@+id/fic" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="4dp" android:text=""/>
+    <com.tencent.p177mm.plugin.wallet_core.p561ui.view.FavourLayout android:orientation="vertical" android:id="@+id/fid" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="4dp"/>
+    <View android:background="@color/h4" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="16dp" android:alpha="0.1"/>
+</LinearLayout>

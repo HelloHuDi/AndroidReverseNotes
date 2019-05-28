@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceTitleCategory app:title="@string/e5r"/>
+    <CheckBoxPreference app:title="@string/e96" app:key="settings_need_verify" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:summary="@string/e_s" app:title="@string/azb" app:key="settings_recommend_mobilefriends_to_me"/>
+    <CheckBoxPreference app:summary="@string/e_r" app:title="@string/e76" app:key="settings_find_google_contact"/>
+    <Preference app:title="@string/e5m" app:key="settings_add_me_way" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e_n" app:key="settings_about_blacklist" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ecg" app:key="settings_unfamiliar_contact" app:layout="@layout/ae4"/>
+    <PreferenceTitleCategory app:title="@string/e5s" app:key="settings_add_friends_timeline_tip"/>
+    <Preference app:title="@string/ena" app:key="timline_outside_permiss"/>
+    <Preference app:title="@string/ejt" app:key="timeline_black_permiss"/>
+    <Preference app:title="@string/e_l" app:key="edit_timeline_group"/>
+    <CheckBoxPreference app:title="@string/awd" app:key="timeline_stranger_show" app:layout="@layout/ae4"/>
+    <IconPreference app:title="@string/aw_" app:key="timeline_recent_show_select"/>
+    <CheckBoxPreference app:summary="@string/eav" app:title="@string/eau" app:key="settings_sns_notify" app:dependency="settings_new_sns_notify" app:defaultValue="true"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e5p" app:key="settings_auth_manage"/>
+    <PreferenceCategory/>
+    <Preference app:key="settings_privacy_agreements" app:layout="@layout/afs"/>
+</PreferenceScreen>

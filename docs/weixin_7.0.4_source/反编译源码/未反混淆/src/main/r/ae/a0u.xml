@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/jf">
+    <ImageView android:src="@drawable/aep" style="@style/j6"/>
+    <TextView android:text="@string/bzs" style="@style/jm"/>
+    <LinearLayout android:id="@+id/bwn" android:layout_marginTop="@dimen/ic" style="@style/jj">
+        <RelativeLayout android:id="@+id/bwo" style="@style/jg">
+            <TextView android:id="@+id/bwp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" style="@style/ji"/>
+            <CheckBox android:id="@+id/bwq" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:checked="false" android:text="@string/c0_" android:layout_alignParentRight="true" style="@style/nt"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/bwr" style="@style/jj">
+        <LinearLayout android:background="@null" style="@style/je">
+            <TextView android:id="@+id/bws" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/jh"/>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/bwt" android:visibility="gone" android:layout_marginTop="@dimen/ic" style="@style/jk">
+        <TextView android:id="@+id/bwu" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true" style="@style/ji"/>
+        <TextView android:id="@+id/bwv" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/c0z" android:layout_alignParentRight="true" style="@style/jl"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_marginTop="@dimen/ia" style="@style/mb">
+        <Button android:id="@+id/bww" android:text="@string/c08" style="@style/jr"/>
+    </LinearLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <Button android:id="@+id/bwx" android:visibility="gone" android:layout_height="20dp" android:layout_marginBottom="0dp" android:text="查看更多三星服务" android:layout_alignParentBottom="true" style="@style/jn"/>
+    </RelativeLayout>
+</LinearLayout>

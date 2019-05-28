@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/wz" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="@dimen/lr" android:minHeight="216dp">
+    <RelativeLayout android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/fiz" android:layout_width="9dp" android:layout_height="17dp" android:src="@a/arrow_left" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/dz" android:textStyle="bold" android:textColor="@color/t7" android:id="@+id/fj0" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fq6" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/fj1" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="16dp" android:src="@a/cashier_fingerprint_icon"/>
+    <TextView android:textSize="@dimen/dz" android:textColor="@color/rr" android:layout_gravity="center_horizontal" android:id="@+id/fj2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="40dp" android:text="@string/fpz"/>
+</LinearLayout>

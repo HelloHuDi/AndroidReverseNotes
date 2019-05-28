@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/d1s" android:background="@color/a3p" style="@style/pt">
+    <com.tencent.mm.plugin.appbrand.widget.desktop.dynamicbackground.GradientColorBackgroundView android:id="@+id/d1t" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/d1u" android:background="@color/vy" android:layout_width="match_parent" android:layout_height="0dp" android:layout_alignParentTop="true"/>
+    <com.tencent.mm.ui.conversation.ConversationListView android:id="@+id/d1v" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0px" android:layout_alignParentTop="true" android:overScrollMode="always" style="@style/mf"/>
+    <TextView android:id="@+id/d1w" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/cvu" android:singleLine="false" style="@style/l8"/>
+    <com.tencent.mm.plugin.appbrand.widget.desktop.AppBrandDesktopDragView android:id="@+id/an" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.p177mm.plugin.voiceprint.p545ui.VoiceHeaderPreference app:key="settings_voiceprint_header"/>
+    <PreferenceCategory/>
+    <PreferenceCategory/>
+    <com.tencent.p177mm.p612ui.base.preference.CheckBoxPreference app:summary="@string/ecx" app:title="@string/ecw" app:key="settings_voiceprint_title"/>
+    <SummaryBelowPreference app:summary="@string/ecu" app:title="@string/ect" app:key="settings_voiceprint_create"/>
+    <Preference app:title="@string/ecv" app:key="settings_voiceprint_reset" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ecy" app:key="settings_voiceprint_unlock" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

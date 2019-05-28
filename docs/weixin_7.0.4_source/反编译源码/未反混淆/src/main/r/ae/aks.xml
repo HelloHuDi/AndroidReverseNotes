@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/vm" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+    <com.tencent.mm.pluginsdk.ui.emoji.MMEmojiView android:layout_gravity="center" android:id="@+id/bl" android:padding="@dimen/lo" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/hb"/>
+</FrameLayout>

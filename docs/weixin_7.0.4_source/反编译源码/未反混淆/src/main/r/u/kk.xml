@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:drawable="@drawable/a_n"/>
+    <item android:left="-36dp">
+        <bitmap android:gravity="left|center_vertical|center_horizontal|center" android:src="@drawable/a_p"/>
+    </item>
+</layer-list>

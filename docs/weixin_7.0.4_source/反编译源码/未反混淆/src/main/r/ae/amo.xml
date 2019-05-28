@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:minHeight="120dp" style="@style/q4">
+    <ImageView android:id="@+id/duk" android:layout_width="match_parent" android:layout_height="120dp" android:scaleType="centerCrop"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/dul" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+    <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="bottom" android:id="@+id/dum" android:background="#a0000000" android:paddingLeft="5dp" android:paddingTop="0dp" android:paddingRight="0dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="32dp" android:singleLine="true"/>
+</FrameLayout>

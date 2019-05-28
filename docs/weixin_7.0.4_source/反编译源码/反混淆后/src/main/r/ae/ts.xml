@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/bdo" android:layout_width="@dimen/g" android:layout_height="@dimen/g" android:layout_marginTop="@dimen/h" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <com.tencent.p177mm.plugin.emojicapture.p389ui.editor.EditorItemContainer android:id="@+id/bdp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/bdq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e" android:layout_below="@+id/bdo" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bdr" android:layout_width="@dimen/a08" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/bds" android:layout_width="32dp" android:layout_height="32dp" android:contentDescription="@string/b8n"/>
+            <TextView android:textSize="@dimen/a07" android:textColor="?attr/f1" android:gravity="center_horizontal" android:id="@+id/bdt" android:layout_width="@dimen/a08" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a06" android:text="@string/b8n"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bdu" android:layout_width="@dimen/a08" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/bdv" android:layout_width="32dp" android:layout_height="32dp" android:contentDescription="@string/b8o"/>
+            <TextView android:textSize="@dimen/a07" android:textColor="?attr/f1" android:gravity="center_horizontal" android:id="@+id/bdw" android:layout_width="@dimen/a08" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a06" android:text="@string/b8o"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bdx" android:layout_width="@dimen/a08" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/bdy" android:layout_width="32dp" android:layout_height="32dp" android:contentDescription="@string/b8k"/>
+            <TextView android:textSize="@dimen/a07" android:textColor="?attr/f1" android:gravity="center_horizontal" android:id="@+id/bdz" android:layout_width="@dimen/a08" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a06" android:text="@string/b8k"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/d" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:id="@+id/be0" android:layout_width="72dp" android:layout_height="72dp">
+                <View android:background="@drawable/emoji_capture_editor_btn_bg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/be1" android:layout_width="32dp" android:layout_height="32dp"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/a07" android:textColor="?attr/bk" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/b8j"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/zs">
+            <FrameLayout android:id="@+id/be2" android:layout_width="72dp" android:layout_height="72dp">
+                <View android:background="@drawable/emoji_capture_editor_btn_bg" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/be3" android:layout_width="32dp" android:layout_height="32dp"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/a07" android:textColor="?attr/bk" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/fs"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.p177mm.plugin.emojicapture.p389ui.editor.EditorChangeTextView android:id="@+id/bc_" android:background="@color/jt" android:visibility="gone" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

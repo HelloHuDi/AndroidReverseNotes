@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView android:scrollbars="none" style="@style/na">
+        <LinearLayout style="@style/ks">
+            <TextView android:gravity="center_horizontal" android:id="@+id/a63" android:layout_marginBottom="@dimen/m4" android:text="@string/a7q" style="@style/kt"/>
+            <TextView android:gravity="center_horizontal" android:id="@+id/a64" android:visibility="gone" android:layout_marginBottom="@dimen/m4" style="@style/me"/>
+            <LinearLayout android:gravity="bottom" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/a65" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:layout_weight="1" android:inputType="phone" style="@style/md"/>
+                <Button android:id="@+id/a66" android:layout_width="80dp" android:text="@string/a71" style="@style/nk"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+                <Button android:id="@+id/a56" android:visibility="gone" android:layout_marginTop="10dp" android:text="@string/a82" style="@style/nq"/>
+                <Button android:layout_gravity="center" android:id="@+id/a67" android:visibility="gone" android:text="@string/dwj" style="@style/qo"/>
+            </LinearLayout>
+            <TextView android:gravity="center_horizontal" android:id="@+id/a68" android:visibility="gone" style="@style/kt"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

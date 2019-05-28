@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="#e2e2e2" android:layout_width="match_parent" android:layout_height="1px"/>
+    <TextView android:textSize="14dp" android:textColor="@color/rr" android:layout_gravity="center_horizontal" android:id="@+id/fj3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="8dp"/>
+    <android.support.v7.widget.GridLayout android:padding="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:orientation="horizontal" app:rowCount="4" app:columnCount="4" app:alignmentMode="alignMargins" app:layout_gravity="fill_horizontal">
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fj4" android:layout_marginTop="0dp" android:text="1" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fj5" android:layout_marginTop="0dp" android:text="2" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fj6" android:layout_marginTop="0dp" android:text="3" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <RelativeLayout android:gravity="center" android:id="@+id/fj7" android:layout_marginTop="0dp" android:layout_marginRight="0dp" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8">
+            <ImageView android:layout_width="24dp" android:layout_height="24dp" android:src="@a/wc_pay_keyboard_del" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fj8" android:text="4" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fj9" android:text="5" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fj_" android:text="6" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="17dp" android:textColor="@color/a8m" android:id="@+id/fja" android:background="@drawable/a6g" android:layout_marginRight="0dp" app:layout_rowSpan="3" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fjb" android:text="7" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fjc" android:text="8" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fjd" android:text="9" app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fje" android:text="0" app:layout_rowWeight="1" app:layout_columnSpan="2" app:layout_columnWeight="1" style="@style/w8"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:id="@+id/fjf" android:text="." app:layout_rowWeight="1" app:layout_columnWeight="1" style="@style/w8"/>
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

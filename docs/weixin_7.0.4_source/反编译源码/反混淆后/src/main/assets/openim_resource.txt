@@ -1,0 +1,37 @@
+{
+"type_wording":[
+	{
+		"type":0,
+		"zh_CN":"企业微信帐号0",
+		"zh_HK":"hongkong企业微信帐号",
+		"en":"english企业微信帐号"
+	},
+	 {
+		"type":1,
+		"zh_CN":"企业微信帐号",
+		"zh_HK":"hongkong1企业微信帐号",
+		"en":"english2企业微信帐号"
+	}],
+"card_wording":[
+	{
+		"type":0,
+		"zh_CN":"企业微信名片0",
+		"zh_HK":"hongkong0企业微信名片",
+		"en":"english企业微信名片"
+	}, 
+	{
+		"type":1,
+		"zh_CN":"企业微信名片",
+		"zh_HK":"hongkong1企业微信名片",
+		"en":"english2企业微信名片"
+	}],
+"icon_url": [
+	{
+		"type":0, 
+		"url":"http://rescdn.qqmail.com/node/ww/wwmng/style/images/independent/logo/shareLogo.png"
+	},
+	{
+		"type":1,
+		"url":"https://rescdn.qqmail.com/node/wework/images/ww_about_logo.png"
+	}]
+}

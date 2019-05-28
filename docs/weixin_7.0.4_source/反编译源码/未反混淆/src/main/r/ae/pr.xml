@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:id="@+id/b0c" android:background="@color/z6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" style="@style/gt">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:minHeight="@dimen/lp" android:layout_weight="1">
+            <com.tencent.mm.ui.MMImageView android:id="@+id/b0_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/m4" android:src="@drawable/acy" style="@style/gy"/>
+            <TextView android:id="@+id/b0a" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:layout_marginBottom="@dimen/l5" android:text="message" android:maxLines="6" style="@style/gz"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/b0j" android:background="@color/a04" android:layout_width="match_parent" android:layout_height="@dimen/fv"/>
+        <Button android:textSize="@dimen/m5" android:textColor="@color/w4" android:id="@+id/b03" android:background="@drawable/b_" android:layout_width="match_parent" android:layout_height="@dimen/lz" android:text="@string/s6"/>
+    </LinearLayout>
+</LinearLayout>

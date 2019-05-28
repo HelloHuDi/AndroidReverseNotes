@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/l_" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/hh" android:paddingLeft="@dimen/gg" android:paddingTop="@dimen/gg" style="@style/lg">
+        <LinearLayout android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <RelativeLayout android:layout_gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gg" android:layout_marginBottom="@dimen/g2">
+                <ImageView android:id="@+id/eid" android:background="@null" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/ga" android:layout_height="@dimen/ga" android:src="@a/icons_outlined_at" android:scaleType="fitXY"/>
+                <ImageView android:id="@+id/eie" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a4h" android:layout_alignTop="@+id/eid" android:layout_alignRight="@+id/eid"/>
+            </RelativeLayout>
+            <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/h4" android:layout_gravity="bottom" android:id="@+id/eif" android:background="@drawable/a7m" android:paddingLeft="@dimen/gg" android:paddingRight="@dimen/gg" android:layout_width="0dp" android:layout_marginTop="@dimen/gg" android:maxHeight="@dimen/ek" android:minHeight="@dimen/em" android:singleLine="false" android:layout_weight="1" android:inputType="none|text|textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/pt" style="@style/l4"/>
+            <ImageButton android:layout_gravity="bottom" android:id="@+id/d0w" android:background="@null" android:layout_width="@dimen/ga" android:layout_height="@dimen/ga" android:layout_marginLeft="@dimen/gg" android:layout_marginBottom="@dimen/g2" android:src="@drawable/iv" android:scaleType="fitXY" android:contentDescription="@string/aiu"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/fz" android:paddingRight="@dimen/fz" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <Button android:textColor="#1a000000" android:id="@+id/eig" android:background="@drawable/zh" android:layout_width="wrap_content" android:layout_height="@dimen/ep" android:layout_marginBottom="12dp" android:minWidth="@dimen/er" android:text="@string/tf"/>
+            <Button android:textColor="@color/a8m" android:id="@+id/eih" android:background="@drawable/fp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/ep" android:layout_marginBottom="12dp" android:minWidth="@dimen/er" android:text="@string/tf"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

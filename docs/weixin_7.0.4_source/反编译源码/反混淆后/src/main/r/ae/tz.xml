@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="@dimen/a12">
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/yw" android:padding="@dimen/nh" android:layout_width="65dp" android:layout_height="65dp" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+    <RelativeLayout android:id="@+id/bet" android:background="#46ffffff" android:visibility="gone" android:layout_width="65dp" android:layout_height="65dp" android:layout_centerInParent="true">
+        <ProgressBar android:id="@+id/beu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/a0j"/>
+        <ImageView android:id="@+id/bev" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1w" android:layout_centerInParent="true" android:contentDescription="@string/b9_"/>
+    </RelativeLayout>
+</RelativeLayout>

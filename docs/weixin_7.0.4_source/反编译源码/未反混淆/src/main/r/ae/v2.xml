@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:padding="@dimen/m4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/bfd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/r8" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/bhc" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/m4" android:paddingRight="@dimen/le" android:paddingBottom="@dimen/m4" android:layout_width="96dp" android:layout_height="96dp" android:src="@drawable/icon"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/le" android:paddingRight="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dk" android:layout_gravity="left" android:id="@+id/bf8" android:paddingBottom="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{小崽子ss剧场}" style="@style/lf"/>
+            <TextView android:layout_gravity="left" android:id="@+id/bhd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{小崽子ss剧场}" style="@style/le"/>
+        </LinearLayout>
+        <FrameLayout android:layout_gravity="center_vertical" android:paddingLeft="@dimen/m4" android:layout_width="wrap_content" android:layout_height="32dp">
+            <Button android:id="@+id/bhe" android:layout_width="wrap_content" android:layout_height="32dp" android:maxWidth="100dp" android:text="@string/bai" style="@style/nk"/>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/bfc" android:visibility="gone" android:layout_width="80dp" android:layout_height="wrap_content" style="@style/l6"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/aoq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:id="@+id/ai3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+        <ImageView android:id="@+id/ai4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/xi"/>
+        <TextView android:textSize="14dp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/em7"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/ekf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="8dp">
+        <TextView android:layout_gravity="center" android:background="@drawable/akz" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_marginLeft="60dp" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eoo"/>
+        <TextView android:layout_gravity="center" android:background="@drawable/akz" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_marginRight="60dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:id="@+id/ekg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="8dp">
+        <TextView android:layout_gravity="center" android:background="@drawable/akz" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_marginLeft="60dp" android:layout_weight="1"/>
+        <TextView android:gravity="center" android:id="@+id/ekh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ent"/>
+        <TextView android:layout_gravity="center" android:background="@drawable/akz" android:layout_width="wrap_content" android:layout_height="2dp" android:layout_marginRight="60dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center" android:id="@+id/ai5" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginTop="25dp" android:layout_marginBottom="5dp">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:background="@drawable/aky" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

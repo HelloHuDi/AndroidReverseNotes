@@ -1,0 +1,16 @@
+{
+  "stepCounterRateUs" : 600000,
+  "stepCounterSaveInterval": 60000,
+  "stepCounterSaveStep": 50,
+  "stepCounterMaxStep5m": 1500,
+  "deviceStepSwitch": 1,
+  "extStepApiSwitch": 0,
+  "stepExtConfig" : {
+    "version" : 1,
+    "interval": 7200
+  },
+  "stepCountUploadConfig": {
+    "backgroundTimeInterval" : 60,
+    "backgroundStepCountInterval" : 500
+  }
+}

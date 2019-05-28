@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="bottom" android:layout_gravity="bottom" android:orientation="vertical" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/b9h" android:layout_width="match_parent" android:layout_height="274dp"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/dw" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+            <FrameLayout android:layout_gravity="center" android:id="@+id/etf" android:background="@drawable/dx" android:layout_width="48dp" android:layout_height="24dp" android:layout_centerInParent="true" android:layout_centerHorizontal="true">
+                <ImageView android:layout_gravity="center" android:layout_width="20dp" android:layout_height="20dp" android:src="@drawable/ax3" android:rotation="-90"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/nf" android:textColor="@color/v" android:id="@+id/etg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/esq" android:layout_centerVertical="true" android:layout_marginEnd="24dp" android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+        <FrameLayout android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="@dimen/nf" android:textColor="@color/v" android:layout_gravity="center_horizontal" android:id="@+id/eth" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:text="@string/ess"/>
+            <android.support.p069v7.widget.RecyclerView android:id="@+id/eti" android:background="@color/a3p" android:paddingBottom="0dp" android:fadingEdge="vertical" android:fadingEdgeLength="50dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/g7" android:layout_marginBottom="0dp" android:requiresFadingEdge="vertical"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

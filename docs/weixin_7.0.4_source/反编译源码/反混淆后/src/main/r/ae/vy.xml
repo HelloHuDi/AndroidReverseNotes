@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/zf" android:paddingTop="@dimen/gp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_width="@dimen/l7" android:layout_height="@dimen/l7" android:src="@c1318a/wifi_logo" android:scaleType="fitCenter" android:contentDescription="@string/sn"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gp" android:text="@string/bf7" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gq" android:text="@string/bf2" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bir" android:background="@color/zf" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bi9" android:layout_width="@dimen/go" android:layout_height="@dimen/go" android:src="@drawable/b2z" android:scaleType="fitCenter" android:contentDescription="@string/sn"/>
+        <TextView android:textSize="@dimen/gs" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/bi_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gp" android:singleLine="true"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/vs" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:duplicateParentState="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gp" android:minHeight="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:gravity="center_horizontal" android:layout_gravity="top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/l5" android:text="@string/bed" android:singleLine="true"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/vs" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:duplicateParentState="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc">
+                <com.tencent.p177mm.p612ui.base.MMClearEditText android:textSize="@dimen/kr" android:id="@+id/bis" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/bgk" android:inputType="textPassword" android:imeOptions="actionDone"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bit" android:background="@color/vs" android:visibility="gone" android:duplicateParentState="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4">
+                    <ImageView android:id="@+id/biu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avn" android:contentDescription="@string/sn"/>
+                    <TextView android:textSize="@dimen/kr" android:textColor="@color/i8" android:ellipsize="end" android:gravity="center_horizontal" android:id="@+id/biv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gr" android:text="@string/bil" android:singleLine="true"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:id="@+id/biw" android:layout_marginLeft="@dimen/m4" android:layout_marginTop="@dimen/gp" android:layout_marginRight="@dimen/m4" android:text="@string/bfg" style="@style/ni"/>
+    </LinearLayout>
+</FrameLayout>

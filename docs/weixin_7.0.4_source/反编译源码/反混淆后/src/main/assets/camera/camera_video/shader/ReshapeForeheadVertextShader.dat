@@ -1,0 +1,78 @@
+precision highp float;
+//uniform mat4 projection;
+//uniform mat4 faceFrame;
+//uniform mat4 stableToImage;
+
+uniform vec2 foreheadSize;
+uniform vec3 foreheadCenter;
+uniform vec2 leftEyebrowPlainSize;
+uniform vec3 leftEyebrowCenter;
+uniform vec2 rightEyebrowPlainSize;
+uniform vec3 rightEyebrowCenter;
+uniform float foreheadHeight;
+
+attribute vec4 position;
+varying vec2 textureCoordinate;
+uniform vec3 angles; // angles.x: pitch, angles.y: yaw, angles.z: roll
+uniform vec2 size;
+
+uniform sampler2D inputImageTexture;
+
+float getElipseMask(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize, float a1, float a2) {
+    // un-normalization
+    boundingSize = boundingSize * size;
+    point = point * size;
+    center = center * size;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 translate = (point - center);
+    // rotate and scale
+    vec2 v = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) * sigmaScaling;
+
+    float d2 = sqrt(dot(v / boundingSize, v / boundingSize));
+
+    return 1.0 - smoothstep(a1, a2, d2);
+}
+
+float getLeftEyebrowMask() {
+    const vec2 sigmaScaling = vec2(1.0, 0.8);
+    return getElipseMask(sigmaScaling, position.xy, leftEyebrowCenter.xy, leftEyebrowPlainSize, 0.6, 1.0);
+}
+float getRightEyebrowMask() {
+    const vec2 sigmaScaling = vec2(1.0, 0.8);
+    return getElipseMask(sigmaScaling, position.xy, rightEyebrowCenter.xy, rightEyebrowPlainSize, 0.6, 1.0);
+}
+float getForeheadMask() {
+    const vec2 sigmaScaling = vec2(1.4, 1.8);
+    return getElipseMask(sigmaScaling, position.xy, foreheadCenter.xy, foreheadSize, 0.5, 1.5);
+}
+
+vec3 getScaledFacePoint2(vec3 originalPoint, vec3 center, vec3 scalingFactors, float mask) {
+    vec3 scaledPoint = center + scalingFactors * (originalPoint - center);
+    return mix(originalPoint, scaledPoint, mask);
+}
+
+void main() {
+    const float pi = 3.1415926;
+    float foreheadMask    = getForeheadMask() * (1.0 - getLeftEyebrowMask()) * (1.0 - getRightEyebrowMask());
+    vec3 displacedForeheadPoint   = position.xyz;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+
+    vec3 displacedForeheadPoint2 = getScaledFacePoint2(displacedForeheadPoint, foreheadCenter, vec3(1.1, 1.1, 1.0), 0.3*foreheadHeight*foreheadMask);
+
+    const float kForeheadLiftingYRatio = 0.05518821053;
+    vec2 foreheadLiftingVector = vec2(0.0, -kForeheadLiftingYRatio * foreheadSize.y);
+    foreheadLiftingVector = vec2(dot(foreheadLiftingVector, vec2(cos_t, -sin_t)), dot(foreheadLiftingVector, vec2(sin_t, cos_t)));
+    vec3 foreheadPositionPoint = vec3(displacedForeheadPoint.xy + foreheadLiftingVector, displacedForeheadPoint.z);
+    displacedForeheadPoint = mix(displacedForeheadPoint, foreheadPositionPoint, foreheadMask * foreheadHeight);
+
+    displacedForeheadPoint = (displacedForeheadPoint + displacedForeheadPoint2) / 2.0;
+
+    vec2 originalPosition = (vec4(position.xyz, 1.0)).xy;
+    vec2 displacedPosition = (vec4(displacedForeheadPoint, 1.0)).xy;
+    textureCoordinate = displacedPosition;
+    gl_Position = vec4(originalPosition.x*2.0-1.0, originalPosition.y*2.0-1.0, 0.0, 1.0);
+}

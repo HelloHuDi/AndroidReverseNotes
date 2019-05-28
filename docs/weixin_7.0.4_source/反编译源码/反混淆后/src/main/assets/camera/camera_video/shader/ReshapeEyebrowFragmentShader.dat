@@ -1,0 +1,84 @@
+precision highp float;
+varying vec2 textureCoordinate;
+uniform sampler2D inputImageTexture;
+
+uniform vec2 leftEyePlainSize;
+uniform vec3 leftEyeCenter;
+uniform vec2 rightEyePlainSize;
+uniform vec3 rightEyeCenter;
+
+uniform vec2 leftEyebrowPlainSize;
+uniform vec3 leftEyebrowCenter;
+uniform vec2 rightEyebrowPlainSize;
+uniform vec3 rightEyebrowCenter;
+
+uniform vec3 nose3DCenter;
+uniform vec2 nosePlainSize;
+
+uniform float eyebrowHeight; // it is eye height adjust factor
+uniform float eyebrowDistance;
+uniform vec3 angles; // angles.x: pitch, angles.y: yaw, angles.z: roll
+
+float getElipseMask(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize) {
+    vec2 screenRatio = vec2(9.0/16.0, 1.0);
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 sigmas = boundingSize / sigmaScaling;
+    vec2 translate = (point - center) * screenRatio;
+    //float len = dot(point - center, vec2(cos_t, sin_t));
+    vec2 lengths = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) / sigmas;
+    float mask = exp(-dot(lengths, lengths));
+    return smoothstep(0.3, 0.8, mask);
+}
+float getLeftEyeFineMask() {
+    const vec2 sigmaScaling = vec2(1.0, 1.0);
+    return getElipseMask(sigmaScaling, textureCoordinate.xy, leftEyeCenter.xy, leftEyePlainSize);
+}
+float getRightEyeFineMask() {
+    const vec2 sigmaScaling = vec2(1.0, 1.0);
+    return getElipseMask(sigmaScaling, textureCoordinate.xy, rightEyeCenter.xy, rightEyePlainSize);
+}
+float getLeftEyebrowMask() {
+    const vec2 sigmaScaling = vec2(2.0, 0.6);
+    return getElipseMask(sigmaScaling, textureCoordinate.xy, leftEyebrowCenter.xy, leftEyebrowPlainSize);
+}
+float getRightEyebrowMask() {
+    const vec2 sigmaScaling = vec2(2.0, 0.6);
+    return getElipseMask(sigmaScaling, textureCoordinate.xy, rightEyebrowCenter.xy, rightEyebrowPlainSize);
+}
+float getNoseMask() {
+    const vec2 sigmaScaling = vec2(3.0, 0.9);
+    return getElipseMask(sigmaScaling, textureCoordinate.xy, nose3DCenter.xy, nosePlainSize);
+}
+vec2 getEyebrowDistanceFactors2() {
+    const float kEyesDistanceXRatio = 0.03662283339;
+    return kEyesDistanceXRatio * vec2(leftEyebrowCenter.x - rightEyebrowCenter.x, leftEyebrowCenter.y - rightEyebrowCenter.y);
+}
+
+vec3 getScaledEyebrowPoint2(vec3 originalPoint, float scalingFactor, float theta, float leftEyeMask, float rightEyeMask) {
+    if (scalingFactor == 0.0) {
+        return originalPoint;
+    }
+    float sin_t = sin(theta);
+    float cos_t = cos(theta);
+    vec2 v = (originalPoint - leftEyebrowCenter).xy;
+    float d = dot(v, vec2(cos_t, sin_t));
+    d = d * 0.3 * leftEyeMask * scalingFactor;
+    vec2 left = d * vec2(cos_t, sin_t);
+
+    v = (originalPoint - rightEyebrowCenter).xy;
+    d = dot(v, vec2(cos_t, sin_t));
+    d = d * 0.3 * rightEyeMask * scalingFactor;
+    vec2 right = d * vec2(cos_t, sin_t);
+    return vec3(originalPoint.xy+left+right, originalPoint.z);
+}
+
+void main()
+{
+    float noseMask    = getNoseMask();
+    float leftEyebrowMask   = getLeftEyebrowMask() * (1.0 - getLeftEyeFineMask()) * (1.0 - noseMask);
+    float rightEyebrowMask  = getRightEyebrowMask() * (1.0 - getRightEyeFineMask()) * (1.0 - noseMask);
+    vec4 color = 0.9 * vec4(0.0, 0.0, leftEyebrowMask + rightEyebrowMask, 0.0) + vec4(noseMask, 0.0, 0.0, 0.0) + texture2D(inputImageTexture, textureCoordinate);
+    //gl_FragColor = color;
+    gl_FragColor = texture2D(inputImageTexture, textureCoordinate);
+}

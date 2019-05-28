@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="@dimen/a58" android:layout_height="@dimen/a54">
+    <ImageView android:id="@+id/csq" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/bcr"/>
+</RelativeLayout>

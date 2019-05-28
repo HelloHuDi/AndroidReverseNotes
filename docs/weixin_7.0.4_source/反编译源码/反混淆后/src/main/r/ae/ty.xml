@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.view.SmileySubGrid android:id="@+id/z0" android:visibility="gone" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/uv" android:cacheColorHint="#00000000" android:fastScrollEnabled="false" android:fadeScrollbars="false" android:fastScrollAlwaysVisible="false"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bep" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/beq" android:layout_width="65dp" android:layout_height="65dp" android:src="@c1318a/emoji_add_capture" android:contentDescription="@string/b9a"/>
+        <TextView android:textSize="17dp" android:textColor="#e6000000" android:id="@+id/ber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/b9a"/>
+        <TextView android:textSize="12dp" android:textColor="#80000000" android:id="@+id/bes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/b9m"/>
+    </LinearLayout>
+</RelativeLayout>

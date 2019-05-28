@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:id="@+id/b6c" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="@dimen/m3" android:baselineAligned="false" android:minHeight="@dimen/m3">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/ly" android:layout_height="@dimen/ly" android:layout_marginLeft="@dimen/nc" android:layout_marginRight="@dimen/nh">
+        <ImageView android:id="@+id/qk" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:src="@a/default_avatar" android:layout_centerVertical="true"/>
+        <TextView android:id="@+id/nf" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/ux"/>
+        <ImageView android:id="@+id/b6d" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/uy"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/nc">
+        <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nj">
+            <com.tencent.mm.ui.tools.MMTruncTextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:id="@+id/b6e" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="@style/lf"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/b6f" android:layout_width="100dp" android:layout_height="wrap_content" style="@style/ld"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/nj">
+            <com.tencent.mm.ui.tools.MMTruncTextView android:textSize="14dp" android:textColor="#888888" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/b6g" android:layout_width="0dp" android:layout_height="wrap_content" android:text="{lastmsg}" android:layout_weight="1" style="@style/le"/>
+            <LinearLayout android:gravity="bottom|right|center_vertical|center_horizontal|center" android:layout_width="60dp" android:layout_height="wrap_content">
+                <ImageView android:gravity="right" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/e6t" android:paddingRight="@dimen/nh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/abx"/>
+                <ImageView android:gravity="right" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/b6i" android:paddingRight="@dimen/nh" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/chat_mute_notify_normal"/>
+                <ImageView android:gravity="right|center_vertical|center_horizontal|center" android:layout_gravity="center_vertical" android:id="@+id/b6j" android:visibility="gone" android:layout_width="16dp" android:layout_height="16dp" android:src="@a/talk_room_mic_idle" android:contentDescription="@string/fy"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

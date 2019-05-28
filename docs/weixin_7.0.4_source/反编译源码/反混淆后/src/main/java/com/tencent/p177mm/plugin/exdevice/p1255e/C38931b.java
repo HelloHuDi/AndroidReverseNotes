@@ -1,0 +1,104 @@
+package com.tencent.p177mm.plugin.exdevice.p1255e;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.p177mm.p205bt.C1331a;
+import com.tencent.p177mm.p205bt.C1332b;
+import java.util.LinkedList;
+import p690e.p691a.p692a.C6087a;
+import p690e.p691a.p692a.C6092b;
+import p690e.p691a.p692a.p693a.C6086a;
+import p690e.p691a.p692a.p695b.p697b.C6091a;
+import p690e.p691a.p692a.p698c.C6093a;
+
+/* renamed from: com.tencent.mm.plugin.exdevice.e.b */
+public final class C38931b extends C42987j {
+    public C1332b luR;
+
+    /* renamed from: op */
+    public final int mo4669op(int i, Object... objArr) {
+        AppMethodBeat.m2504i(19419);
+        C6092b c6092b;
+        int ix;
+        if (i == 0) {
+            C6093a c6093a = (C6093a) objArr[0];
+            if (this.lvk == null) {
+                c6092b = new C6092b("Not all required fields were included: BaseResponse");
+                AppMethodBeat.m2505o(19419);
+                throw c6092b;
+            } else if (this.luR == null) {
+                c6092b = new C6092b("Not all required fields were included: AesSessionKey");
+                AppMethodBeat.m2505o(19419);
+                throw c6092b;
+            } else {
+                if (this.lvk != null) {
+                    c6093a.mo13479iy(1, this.lvk.computeSize());
+                    this.lvk.writeFields(c6093a);
+                }
+                if (this.luR != null) {
+                    c6093a.mo13473c(2, this.luR);
+                }
+                AppMethodBeat.m2505o(19419);
+                return 0;
+            }
+        } else if (i == 1) {
+            if (this.lvk != null) {
+                ix = C6087a.m9557ix(1, this.lvk.computeSize()) + 0;
+            } else {
+                ix = 0;
+            }
+            if (this.luR != null) {
+                ix += C6091a.m9571b(2, this.luR);
+            }
+            AppMethodBeat.m2505o(19419);
+            return ix;
+        } else if (i == 2) {
+            C6086a c6086a = new C6086a((byte[]) objArr[0], unknownTagHandler);
+            for (ix = C1331a.getNextFieldNumber(c6086a); ix > 0; ix = C1331a.getNextFieldNumber(c6086a)) {
+                if (!super.populateBuilderWithField(c6086a, this, ix)) {
+                    c6086a.ems();
+                }
+            }
+            if (this.lvk == null) {
+                c6092b = new C6092b("Not all required fields were included: BaseResponse");
+                AppMethodBeat.m2505o(19419);
+                throw c6092b;
+            } else if (this.luR == null) {
+                c6092b = new C6092b("Not all required fields were included: AesSessionKey");
+                AppMethodBeat.m2505o(19419);
+                throw c6092b;
+            } else {
+                AppMethodBeat.m2505o(19419);
+                return 0;
+            }
+        } else if (i == 3) {
+            C6086a c6086a2 = (C6086a) objArr[0];
+            C38931b c38931b = (C38931b) objArr[1];
+            int intValue = ((Integer) objArr[2]).intValue();
+            switch (intValue) {
+                case 1:
+                    LinkedList Vh = c6086a2.mo13445Vh(intValue);
+                    int size = Vh.size();
+                    for (intValue = 0; intValue < size; intValue++) {
+                        byte[] bArr = (byte[]) Vh.get(intValue);
+                        C27831e c27831e = new C27831e();
+                        C6086a c6086a3 = new C6086a(bArr, unknownTagHandler);
+                        for (boolean z = true; z; z = c27831e.populateBuilderWithField(c6086a3, c27831e, C1331a.getNextFieldNumber(c6086a3))) {
+                        }
+                        c38931b.lvk = c27831e;
+                    }
+                    AppMethodBeat.m2505o(19419);
+                    return 0;
+                case 2:
+                    c38931b.luR = c6086a2.BTU.emu();
+                    AppMethodBeat.m2505o(19419);
+                    return 0;
+                default:
+                    AppMethodBeat.m2505o(19419);
+                    return -1;
+            }
+        } else {
+            AppMethodBeat.m2505o(19419);
+            return -1;
+        }
+    }
+}

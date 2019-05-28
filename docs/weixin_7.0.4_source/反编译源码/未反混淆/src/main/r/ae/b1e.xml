@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="@dimen/gb">
+    <ImageView android:id="@+id/t6" android:layout_width="@dimen/ff" android:layout_height="@dimen/ff" android:layout_marginLeft="@dimen/nc" android:src="@a/media_player_play_btn" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@dimen/nk" android:textColor="@color/a30" android:id="@+id/x0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds" android:text="00:00" android:layout_toRightOf="@+id/t6" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@dimen/nk" android:textColor="@color/a30" android:id="@+id/x6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l5" android:text="00:00" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/x6" android:layout_toRightOf="@+id/x0" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/x2" android:background="@color/x5" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5"/>
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/x4" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5"/>
+        <ImageView android:id="@+id/x5" android:paddingLeft="@dimen/ds" android:paddingTop="@dimen/ds" android:paddingRight="@dimen/ds" android:paddingBottom="@dimen/ds" android:layout_width="@dimen/gb" android:layout_height="@dimen/gb" android:layout_marginLeft="@dimen/nc" android:src="@a/media_player_control_btn"/>
+    </FrameLayout>
+</RelativeLayout>

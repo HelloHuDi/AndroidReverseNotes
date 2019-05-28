@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="top|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:id="@+id/b_2" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/bp" android:layout_marginTop="10dp" android:layout_marginRight="@dimen/bp" android:layout_marginBottom="10dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="3" android:layout_alignParentTop="true">
+            <View android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <View android:gravity="center" android:id="@+id/b_3" android:layout_width="1px" android:layout_height="wrap_content"/>
+            <View android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <View android:gravity="center" android:id="@+id/b_4" android:layout_width="1px" android:layout_height="wrap_content"/>
+            <View android:gravity="center" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:weightSum="4" android:layout_alignParentTop="true">
+            <View android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+            <View android:gravity="center" android:id="@+id/b_5" android:layout_width="wrap_content" android:layout_height="1px"/>
+            <View android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+            <View android:gravity="center" android:id="@+id/b_6" android:layout_width="wrap_content" android:layout_height="1px"/>
+            <View android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+            <View android:gravity="center" android:id="@+id/b_7" android:layout_width="wrap_content" android:layout_height="1px"/>
+            <View android:gravity="center" android:layout_width="wrap_content" android:layout_height="0dp" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="0.9">
+            <RelativeLayout android:background="#ffdcdcdc" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="0.6"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="4">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/b_8" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="0.9" android:layout_weight="1" android:layout_alignParentTop="true">
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_9" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b__" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_a" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/b_b" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="0.9" android:layout_weight="1" android:layout_below="@+id/b_8">
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_c" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_d" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_e" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/b_f" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="0.9" android:layout_weight="1" android:layout_below="@+id/b_b">
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_g" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_h" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_i" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/b_j" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="0.9" android:layout_weight="1" android:layout_below="@+id/b_f">
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_k" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_l" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+                <com.tencent.p177mm.plugin.ipcall.p442ui.DialNumberButton android:gravity="center" android:id="@+id/b_m" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="0.3"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

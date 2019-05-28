@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/it" android:background="@color/zf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="14dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/qj" android:layout_marginLeft="@dimen/hk" android:layout_below="@+id/it" android:layout_alignParentBottom="true" style="@style/i2">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/by5" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="@dimen/n0"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/h7" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@+id/by6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{header}" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/h7" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@+id/by7" android:paddingLeft="10dp" android:paddingRight="10dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="&gt;" android:singleLine="true"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/by8" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="@dimen/n0"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/h7" android:ellipsize="middle" android:layout_gravity="center_vertical" android:id="@+id/by9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{header}" android:singleLine="true"/>
+    </LinearLayout>
+</RelativeLayout>

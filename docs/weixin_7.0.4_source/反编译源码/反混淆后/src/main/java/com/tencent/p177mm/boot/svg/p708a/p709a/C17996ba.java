@@ -1,0 +1,90 @@
+package com.tencent.p177mm.boot.svg.p708a.p709a;
+
+import android.graphics.Canvas;
+import android.graphics.Matrix;
+import android.graphics.Paint;
+import android.graphics.Paint.Cap;
+import android.graphics.Paint.Join;
+import android.graphics.Paint.Style;
+import android.graphics.Path;
+import android.os.Looper;
+import com.tencent.p177mm.svg.C5163c;
+import com.tencent.p177mm.svg.WeChatSVGRenderC2Java;
+import com.tencent.smtt.sdk.WebView;
+
+/* renamed from: com.tencent.mm.boot.svg.a.a.ba */
+public final class C17996ba extends C5163c {
+    private final int height = 24;
+    private final int width = 24;
+
+    /* renamed from: a */
+    public final int mo10620a(int i, Object... objArr) {
+        switch (i) {
+            case 0:
+                return 24;
+            case 1:
+                return 24;
+            case 2:
+                Canvas canvas = (Canvas) objArr[0];
+                Looper looper = (Looper) objArr[1];
+                Matrix h = C5163c.m7881h(looper);
+                float[] g = C5163c.m7880g(looper);
+                Paint k = C5163c.m7883k(looper);
+                k.setFlags(385);
+                k.setStyle(Style.FILL);
+                Paint k2 = C5163c.m7883k(looper);
+                k2.setFlags(385);
+                k2.setStyle(Style.STROKE);
+                k.setColor(WebView.NIGHT_MODE_COLOR);
+                k2.setStrokeWidth(1.0f);
+                k2.setStrokeCap(Cap.BUTT);
+                k2.setStrokeJoin(Join.MITER);
+                k2.setStrokeMiter(4.0f);
+                k2.setPathEffect(null);
+                C5163c.m7876a(k2, looper).setStrokeWidth(1.0f);
+                canvas.save();
+                Paint a = C5163c.m7876a(k, looper);
+                a.setColor(-12822120);
+                g = C5163c.m7878a(g, 1.0f, 0.0f, 3.0f, 0.0f, 1.0f, 3.0f);
+                h.reset();
+                h.setValues(g);
+                canvas.concat(h);
+                canvas.save();
+                Paint a2 = C5163c.m7876a(a, looper);
+                Path l = C5163c.m7884l(looper);
+                l.moveTo(16.972387f, 0.040298507f);
+                l.lineTo(1.027612f, 0.040298507f);
+                l.cubicTo(0.48358208f, 0.040298507f, 0.040298507f, 0.48358208f, 0.040298507f, 1.027612f);
+                l.lineTo(0.040298507f, 16.972387f);
+                l.cubicTo(0.040298507f, 17.516418f, 0.48358208f, 17.959702f, 1.027612f, 17.959702f);
+                l.lineTo(9.611194f, 17.959702f);
+                l.lineTo(9.611194f, 11.021642f);
+                l.lineTo(7.2738805f, 11.021642f);
+                l.lineTo(7.2738805f, 8.314925f);
+                l.lineTo(9.611194f, 8.314925f);
+                l.lineTo(9.611194f, 6.3201494f);
+                l.cubicTo(9.611194f, 4.002985f, 11.028358f, 2.747015f, 13.090299f, 2.747015f);
+                l.cubicTo(14.077612f, 2.747015f, 14.930597f, 2.8208954f, 15.179105f, 2.8544776f);
+                l.lineTo(15.179105f, 5.272388f);
+                l.lineTo(13.7485075f, 5.272388f);
+                l.cubicTo(12.626865f, 5.272388f, 12.405224f, 5.802985f, 12.405224f, 6.588806f);
+                l.lineTo(12.405224f, 8.314925f);
+                l.lineTo(15.085074f, 8.314925f);
+                l.lineTo(14.735821f, 11.021642f);
+                l.lineTo(12.405224f, 11.021642f);
+                l.lineTo(12.405224f, 17.966417f);
+                l.lineTo(16.972387f, 17.966417f);
+                l.cubicTo(17.516418f, 17.966417f, 17.959702f, 17.523134f, 17.959702f, 16.979105f);
+                l.lineTo(17.959702f, 1.027612f);
+                l.cubicTo(17.959702f, 0.47686568f, 17.523134f, 0.040298507f, 16.972387f, 0.040298507f);
+                l.close();
+                WeChatSVGRenderC2Java.setFillType(l, 1);
+                canvas.drawPath(l, a2);
+                canvas.restore();
+                canvas.restore();
+                C5163c.m7882j(looper);
+                break;
+        }
+        return 0;
+    }
+}

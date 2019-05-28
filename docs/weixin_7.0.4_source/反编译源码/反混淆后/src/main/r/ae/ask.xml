@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/d80" android:background="@drawable/ahn" android:layout_width="match_parent" android:layout_height="90dp" android:layout_alignParentTop="true">
+        <com.tencent.p177mm.p612ui.base.MMImageButton android:id="@+id/ecz" android:background="@drawable/rg" android:focusable="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/nc" android:contentDescription="@string/bim"/>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:background="@drawable/a8g" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <com.tencent.p177mm.p612ui.base.MMHorList android:layout_gravity="center_horizontal" android:id="@+id/ed0" android:scrollbars="none" android:fadingEdge="none" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/kr" android:textStyle="bold" android:textColor="#ffffff" android:ellipsize="marquee" android:gravity="bottom" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginBottom="@dimen/do" android:text="@string/cnb" android:scrollHorizontally="true" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:marqueeRepeatLimit="marquee_forever"/>
+        </RelativeLayout>
+        <com.tencent.p177mm.p612ui.base.MMImageButton android:id="@+id/ed1" android:background="@drawable/rf" android:focusable="true" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:layout_marginRight="@dimen/nc" android:contentDescription="@string/db6"/>
+    </LinearLayout>
+</RelativeLayout>

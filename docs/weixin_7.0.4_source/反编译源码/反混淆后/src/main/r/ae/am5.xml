@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp">
+        <Button android:textSize="13dp" android:textStyle="bold" android:textColor="#335eb8" android:gravity="center_vertical" android:id="@+id/dr7" android:background="@drawable/tc" android:focusable="true" android:layout_width="wrap_content" android:layout_height="30dp" android:singleLine="true" android:drawableRight="@drawable/aib"/>
+    </FrameLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/dr8" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:id="@+id/dr9" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:id="@+id/dr_" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/cjj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/dra" android:background="@drawable/td" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginRight="5dp" style="@style/c">
+            <ImageView android:id="@+id/drb" android:padding="5dp" android:paddingLeft="0dp" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/ai_"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="14sp" android:textColor="@color/h4" android:id="@+id/drc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240dp" android:singleLine="true"/>
+                <TextView android:textSize="12sp" android:textColor="@color/ra" android:id="@+id/drd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+            <ProgressBar android:id="@+id/dre" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+            <TextView android:textColor="#ffff0000" android:id="@+id/drf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dcy"/>
+            <ImageView android:id="@+id/drg" android:visibility="gone" android:src="@drawable/xo" style="@style/a0a"/>
+            <ImageView android:id="@+id/drh" android:padding="5dp" android:paddingRight="0dp" android:src="@drawable/ti" style="@style/a0a"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

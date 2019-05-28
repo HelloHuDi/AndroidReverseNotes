@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/fy" android:paddingTop="@dimen/m4" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textColorHint="@color/rz" android:layout_gravity="center_vertical" android:id="@+id/l3" android:paddingLeft="0dp" android:layout_width="match_parent" android:layout_height="@dimen/n_" android:singleLine="true" android:drawableLeft="@c1318a/searchbar_icon" android:imeOptions="actionSearch"/>
+            <TextView android:textColor="@color/rz" android:gravity="center_vertical" android:id="@+id/d_4" android:paddingLeft="46dp" android:paddingTop="@dimen/do" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </RelativeLayout>
+        <Button android:layout_gravity="center_vertical" android:id="@+id/i3" android:visibility="gone" android:layout_marginLeft="@dimen/nc" android:text="@string/te" style="@style/nk"/>
+    </LinearLayout>
+</LinearLayout>

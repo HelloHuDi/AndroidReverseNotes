@@ -1,0 +1,26 @@
+{
+	"sprite":
+	{
+		"path": "lanterns.png",
+		"frameCount": 200,
+		"width": 200,
+		"height": 200,
+		"blendMode": 1,
+		"animated": 1,
+		"looped": 0,
+		"frameDuration": 0.5
+	},
+
+	"particleCountMax": 55,
+	"emissionRate": 3,
+	"width": "25+10*t*(rand0%200/100-0.5)",
+	"height": "25+10*t*(rand0%200/100-0.5)",
+	"life": 15,
+	"colorR": 1,
+	"colorG": 1,
+	"colorB": 1,
+	"colorA": 1,
+	"positionX" : "100+t",
+	"positionY" : 100,
+	"positionZ" : 100
+}

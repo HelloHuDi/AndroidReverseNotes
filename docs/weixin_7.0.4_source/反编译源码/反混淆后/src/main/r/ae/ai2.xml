@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.plugin.music.p467ui.MusicItemLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="bottom" android:orientation="vertical" android:id="@+id/dfe" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/dff" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/dfg" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="1dp" android:scaleType="centerCrop"/>
+        <View android:id="@+id/dfh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <View android:id="@+id/dfi" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="@color/a69" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dfj" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{music_name_tv}" android:textIsSelectable="true"/>
+    <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/a69" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/dfk" android:paddingLeft="40dp" android:paddingRight="40dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="{music_name_tv}"/>
+    <com.tencent.p177mm.plugin.music.p467ui.LyricView android:id="@+id/dfl" android:layout_width="match_parent" android:layout_height="26dp" android:layout_marginTop="23dp"/>
+    <View android:layout_width="match_parent" android:layout_height="120dp"/>
+</com.tencent.p177mm.plugin.music.p467ui.MusicItemLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.p177mm.plugin.setting.p505ui.widget.HeadImgNewPreference app:title="@string/e5w" app:key="settings_change_avatar" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e92" app:key="settings_name" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ecn" app:key="settings_username" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e_o" app:key="settings_qrcode" app:widgetLayout="@layout/afj" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/rn" app:key="settings_more_info" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e5n" app:key="settings_address" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e7n" app:key="settings_invoice" app:layout="@layout/ae4"/>
+</PreferenceScreen>

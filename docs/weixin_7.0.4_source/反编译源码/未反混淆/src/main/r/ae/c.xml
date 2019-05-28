@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="80dp">
+    <ImageView android:id="@+id/ik" android:layout_width="@dimen/ov" android:layout_height="@dimen/ov" android:src="@a/aa_record_default_icon" android:scaleType="fitXY"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/il" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_marginRight="2dp" android:layout_weight="1">
+        <TextView android:textSize="@dimen/ox" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/im" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/ow" android:textColor="@color/dk" android:ellipsize="end" android:id="@+id/in" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+        <TextView android:textSize="@dimen/ow" android:textColor="@color/dk" android:ellipsize="end" android:id="@+id/io" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp">
+        <TextView android:textSize="@dimen/ou" android:textColor="@color/h4" android:id="@+id/ip" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/ow" android:textColor="@color/dk" android:id="@+id/iq" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

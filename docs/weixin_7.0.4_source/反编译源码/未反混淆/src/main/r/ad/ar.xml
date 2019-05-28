@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference app:title="@string/bm4" app:key="facebook_auth_tip" app:layout="@layout/afn"/>
+    <PreferenceCategory app:key="facebook_auth_cat"/>
+    <Preference app:title="@string/bly" app:key="facebook_auth_bind_btn" app:layout="@layout/xq"/>
+</PreferenceScreen>

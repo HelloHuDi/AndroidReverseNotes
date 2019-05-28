@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView style="@style/na">
+        <LinearLayout style="@style/ks">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:paddingBottom="80dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/e9u" android:layout_width="@dimen/l6" android:layout_height="@dimen/l6" android:src="@a/success_icon"/>
+                    <TextView android:textSize="@dimen/m5" android:textColor="@color/s0" android:gravity="center" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="@string/d1f"/>
+                    <TextView android:textSize="@dimen/l_" android:textColor="@color/w4" android:gravity="center" android:id="@+id/o9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5"/>
+                </LinearLayout>
+                <Button android:id="@+id/e9v" android:visibility="gone" android:layout_marginBottom="@dimen/m4" android:text="@string/d1e" style="@style/ni"/>
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/s0" android:gravity="center" android:id="@+id/ld" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_gravity="center_horizontal" android:background="@color/a69" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/epp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <RelativeLayout android:gravity="left|center_vertical|center_horizontal|center" android:background="@drawable/a1y" android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:layout_width="@dimen/a9u" android:layout_height="wrap_content" android:layout_marginTop="25dp">
+            <ImageView android:id="@+id/epq" android:layout_width="17dp" android:layout_height="17dp" android:src="@drawable/a1w" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+            <ImageView android:id="@+id/epr" android:layout_width="10dp" android:layout_height="10dp" android:src="@c1318a/arrow_right" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+            <TextView android:textSize="@dimen/nd" android:textColor="@color/h4" android:id="@+id/eps" android:paddingLeft="8dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et7" android:layout_toLeftOf="@+id/epr" android:layout_toRightOf="@+id/epq" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ept" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/epp" android:layout_alignLeft="@+id/epp" android:layout_alignRight="@+id/epp" android:layout_centerHorizontal="true">
+        <RelativeLayout android:gravity="left|center_vertical|center_horizontal|center" android:background="@drawable/a1y" android:paddingLeft="12dp" android:paddingTop="10dp" android:paddingRight="12dp" android:paddingBottom="10dp" android:layout_width="@dimen/a9u" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+            <ImageView android:id="@+id/epu" android:layout_width="17dp" android:layout_height="17dp" android:src="@drawable/a1w" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+            <ImageView android:id="@+id/epv" android:layout_width="10dp" android:layout_height="10dp" android:src="@c1318a/arrow_right" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_alignParentEnd="true"/>
+            <TextView android:textSize="@dimen/nd" android:textColor="@color/h4" android:id="@+id/epw" android:paddingLeft="8dp" android:paddingRight="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/es8" android:layout_toLeftOf="@+id/epv" android:layout_toRightOf="@+id/epu" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/epx" android:paddingBottom="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="58dp">
+            <TextView android:textSize="17dp" android:textColor="@color/h4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/g6m" android:layout_centerVertical="true"/>
+            <ImageView android:layout_width="7dp" android:layout_height="13dp" android:layout_marginRight="19dp" android:src="@c1318a/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <include android:layout_width="match_parent" android:layout_height="12dp" layout="@layout/afh"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dt" android:textColor="@color/rr" android:id="@+id/epy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/et5" android:layout_centerInParent="true"/>
+    <android.support.p069v7.widget.RecyclerView android:id="@+id/epz" android:layout_width="match_parent" android:layout_height="match_parent" android:overScrollMode="never"/>
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.p612ui.base.sortview.CatalogView android:id="@+id/a42" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/dm" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mg"/>
+    <FrameLayout android:id="@+id/a43" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/a9j" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/lo" android:paddingBottom="@dimen/lo" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/a9k" android:layout_width="@dimen/f1" android:layout_height="@dimen/f1" android:layout_marginLeft="@dimen/lu"/>
+                </FrameLayout>
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/a7t" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/a9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds" android:text="@string/ru" android:maxLines="2"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/a9n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:src="@c1318a/app_new"/>
+    </FrameLayout>
+</LinearLayout>

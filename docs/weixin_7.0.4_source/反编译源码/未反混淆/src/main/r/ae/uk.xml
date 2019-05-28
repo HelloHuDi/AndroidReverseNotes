@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/l_" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/pt">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bg9" android:background="@drawable/emoji_store_v2_single_bar" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="@dimen/nb" android:layout_marginTop="@dimen/ld" android:layout_marginBottom="@dimen/ld" style="@style/pt">
+        <TextView android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bba" android:singleLine="true" style="@style/lf"/>
+        <TextView android:textColor="@color/a69" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/bg8" android:background="@drawable/a4h" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="@dimen/le" android:layout_marginRight="@dimen/le"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bgh" android:background="@color/a69" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/lo" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/lo" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/pt">
+        <TextView android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bgi" android:layout_width="0dp" android:text="@string/b_c" android:layout_weight="1" style="@style/lf"/>
+        <TextView android:gravity="right|center_vertical|center_horizontal|center" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/bgj" android:layout_width="0dp" android:text="@string/bb2" android:drawableRight="@a/emoji_arrow" android:layout_weight="1" style="@style/le"/>
+    </LinearLayout>
+</LinearLayout>

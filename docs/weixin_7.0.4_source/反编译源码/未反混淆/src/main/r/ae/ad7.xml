@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.emoji.view.BaseEmojiView android:gravity="center_horizontal" android:layout_gravity="center" android:id="@+id/d92" android:layout_width="@dimen/a1h" android:layout_height="@dimen/a1h"/>
+</LinearLayout>

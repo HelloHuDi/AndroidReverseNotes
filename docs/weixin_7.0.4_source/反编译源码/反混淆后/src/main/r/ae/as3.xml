@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:paddingLeft="@dimen/le" android:paddingRight="@dimen/le" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:id="@+id/ea_" android:padding="@dimen/nc" android:layout_width="@dimen/dp" android:layout_height="@dimen/dp" android:src="@drawable/ad3"/>
+        <ImageView android:gravity="center" android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/eaa" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/cy"/>
+    </FrameLayout>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/h7" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/eab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le" android:layout_marginBottom="20dp" android:maxLines="1"/>
+    <RelativeLayout android:layout_gravity="center_horizontal" android:id="@+id/eac" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ead" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/eae" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/do"/>
+            <ProgressBar android:id="@+id/eaf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/do" android:indeterminateDrawable="@drawable/xi" style="@style/a0h"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/kr" android:id="@+id/eag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ebd" android:layout_toRightOf="@+id/ead" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

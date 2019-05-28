@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <EditText android:textColor="@color/h4" android:id="@+id/bbn" android:paddingLeft="0dp" android:inputType="numberDecimal" android:imeOptions="actionNone" style="@style/gu"/>
+    <TextView android:textSize="@dimen/fi" android:id="@+id/bbo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text=""/>
+</LinearLayout>

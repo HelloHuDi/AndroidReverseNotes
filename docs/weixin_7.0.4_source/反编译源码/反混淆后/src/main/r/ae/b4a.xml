@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <RelativeLayout android:id="@+id/d3v" android:background="@color/a6_" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/l_" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <TextView android:textSize="22dp" android:textColor="@color/h4" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="57dp" android:text="@string/ffk"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/bl5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="59dp" android:layout_marginRight="30dp">
+                    <TextView android:textSize="17dp" android:textColor="@color/h4" android:gravity="left" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ffi" android:layout_weight="0.3"/>
+                    <com.tencent.p177mm.p612ui.widget.MMEditText android:textSize="17dp" android:textColor="@color/h4" android:gravity="left" android:id="@+id/faa" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="0.7"/>
+                </LinearLayout>
+                <View android:background="@color/h4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="30dp" android:layout_marginTop="17dp" android:layout_marginRight="30dp" android:alpha="0.1"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="18dp" android:layout_marginRight="30dp">
+                    <TextView android:textSize="17dp" android:textColor="@color/h4" android:gravity="left" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ffl" android:layout_weight="0.3"/>
+                    <TextView android:textSize="17dp" android:textColor="@color/h4" android:gravity="left" android:id="@+id/fab" android:layout_width="0dp" android:layout_height="wrap_content" android:text="身份证" android:layout_weight="0.7"/>
+                </LinearLayout>
+                <View android:background="@color/h4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="30dp" android:layout_marginTop="17dp" android:layout_marginRight="30dp" android:alpha="0.1"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="18dp" android:layout_marginRight="30dp">
+                    <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/f90" app:titleText="@string/fbl" app:contentHint="@string/fbi" style="@style/vp"/>
+                </LinearLayout>
+                <View android:id="@+id/fac" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="30dp" android:layout_marginTop="17dp" android:layout_marginRight="30dp" android:alpha="0.1"/>
+            </LinearLayout>
+            <Button android:enabled="false" android:id="@+id/ay8" android:layout_width="180dp" android:layout_height="40dp" android:layout_marginTop="114dp" android:text="@string/s1" android:layout_below="@+id/l_" android:layout_centerHorizontal="true" style="@style/ni"/>
+            <TextView android:textSize="14dp" android:textColor="#576b95" android:gravity="bottom" android:id="@+id/fad" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp" android:text="@string/fxl" android:layout_below="@+id/ay8" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/azi"/>
+</LinearLayout>

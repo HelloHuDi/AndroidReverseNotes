@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/eet" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/eeu" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.sns.ui.MaskImageView android:id="@+id/eev" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerCrop"/>
+        <include android:id="@+id/eew" android:visibility="gone" layout="@layout/ata"/>
+        <include android:visibility="gone" layout="@layout/awl"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/eex" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#000000" android:ellipsize="end" android:id="@+id/eey" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:layout_marginRight="10dp" android:maxLines="1" android:singleLine="true" android:lineSpacingExtra="5dp"/>
+        <TextView android:textSize="15sp" android:textColor="#000000" android:id="@+id/eez" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="7dp" android:layout_marginRight="10dp" android:layout_marginBottom="14dp" android:lineSpacingExtra="5dp"/>
+        <com.tencent.mm.plugin.sns.ui.widget.SnsCardAdTagListView android:orientation="horizontal" android:id="@+id/ef0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="2dp" android:layout_marginRight="10dp" android:layout_marginBottom="16dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ef1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="42dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="15dp">
+            <Button android:textSize="14sp" android:textStyle="bold" android:textColor="#353535" android:id="@+id/ef2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="11dp" android:layout_weight="1" android:textAllCaps="false" style="@style/ro"/>
+            <Button android:textSize="14sp" android:textStyle="bold" android:textColor="#353535" android:id="@+id/ef3" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" android:textAllCaps="false" style="@style/ro"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ef4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:background="#e4e4e4" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp">
+                <ImageView android:layout_width="10dp" android:layout_height="10dp" android:layout_marginRight="6dp" android:src="@a/album_ad_link_tag_weapp"/>
+                <TextView android:textSize="10sp" android:textColor="#b2b2b2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginBottom="8dp" android:text="@string/eiw"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

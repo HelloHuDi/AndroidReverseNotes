@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/a8b" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp">
+    <RelativeLayout android:id="@+id/anm" android:layout_width="match_parent" android:layout_height="@dimen/wx">
+        <ImageView android:id="@+id/wj" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/ann" android:background="@drawable/axe" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="@dimen/ww" android:textColor="@color/a69" android:ellipsize="end" android:id="@+id/ano" android:background="@drawable/eh" android:paddingLeft="@dimen/l5" android:paddingTop="20dp" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/lo" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ru" android:maxLines="2" android:layout_alignParentBottom="true" android:lineSpacingExtra="@dimen/nj"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/anp" android:background="@drawable/b18" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/l5" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/anm">
+        <TextView android:textSize="@dimen/ww" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/cx" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ru" android:maxLines="4"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:ellipsize="end" android:id="@+id/anq" android:paddingTop="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ru" android:maxLines="15"/>
+    </LinearLayout>
+    <ImageView android:orientation="vertical" android:id="@+id/a8e" android:background="@drawable/iz" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/wx" android:layout_alignTop="@+id/anm" android:layout_alignBottom="@+id/anp"/>
+</RelativeLayout>

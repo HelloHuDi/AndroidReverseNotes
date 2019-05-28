@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/y9" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="47dp">
+    <ImageView android:id="@+id/dw8" android:layout_width="match_parent" android:layout_height="1px" android:src="#eeeeee"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="11dp" android:paddingBottom="11dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/dw9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/rb" android:ellipsize="end" android:gravity="right" android:id="@+id/dw_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:maxWidth="200dp" android:text="" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/dwa" android:layout_width="match_parent" android:layout_height="1px" android:src="#eeeeee"/>
+</LinearLayout>

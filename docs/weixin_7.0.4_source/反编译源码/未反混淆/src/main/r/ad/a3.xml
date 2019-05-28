@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoHeaderPreference app:key="contact_info_header_newbizinfo" app:layout="@layout/qe"/>
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoDescPreference app:key="contact_info_desc_newbizinfo" app:layout="@layout/qc"/>
+    <Preference app:title="@string/auo" app:key="contact_info_biz_add" app:layout="@layout/qm"/>
+    <Preference app:title="" app:key="contact_info_biz_space" app:layout="@layout/q7"/>
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoFollowPreference app:key="contact_info_biz_go_chatting" app:layout="@layout/q9"/>
+    <Preference app:title="" app:layout="@layout/q8"/>
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoLoadingPreference app:key="contact_info_biz_loading" app:layout="@layout/qh"/>
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoMenuPreference app:key="contact_info_biz_menu_newbizinfo" app:layout="@layout/q5"/>
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoMessagePreference app:key="contact_info_message_newbizinfo" app:layout="@layout/qj"/>
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizInfoAllMessagePreference app:key="contact_info_all_message_newbizinfo" app:layout="@layout/q1"/>
+    <com.tencent.mm.plugin.profile.ui.newbizinfo.NewBizBindWxaInfoPreference app:title="@string/au6" app:key="contact_info_new_bindwxainfo" app:layout="@layout/q6"/>
+    <PreferenceSmallCategory/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="" app:key="contact_info_footer_space" app:layout="@layout/qa"/>
+</PreferenceScreen>

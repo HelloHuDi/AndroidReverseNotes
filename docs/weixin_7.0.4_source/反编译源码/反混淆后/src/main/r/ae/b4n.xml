@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="45dp">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/k5" android:paddingLeft="7dp" android:paddingRight="7dp" android:layout_width="match_parent" android:layout_height="@dimen/li">
+        <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/qm" android:paddingRight="5dp" android:focusable="false" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="80dp" android:text="@string/fxd" android:singleLine="true" style="@style/vg"/>
+        <TextView android:textColor="#999999" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/don" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1" style="@style/vg"/>
+        <ImageView android:id="@+id/doo" android:focusable="false" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:src="@drawable/uq" android:scaleType="center"/>
+    </LinearLayout>
+</LinearLayout>

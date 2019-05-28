@@ -1,0 +1,11 @@
+precision highp float;
+attribute vec4 position;
+attribute vec2 inputTextureCoordinate;
+varying vec2 canvasCoordinate;
+varying vec2 textureCoordinate;
+
+void main(){
+    gl_Position = position;
+    canvasCoordinate = vec2(position.x * 0.5 + 0.5, position.y * 0.5 + 0.5);
+    textureCoordinate = inputTextureCoordinate;
+}

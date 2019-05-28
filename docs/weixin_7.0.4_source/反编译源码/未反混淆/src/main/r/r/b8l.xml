@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/dx" android:textColor="@color/h4" android:gravity="center" android:id="@+id/f1x" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="{title}"/>
+    <TextView android:textSize="@dimen/aai" android:textColor="@color/h4" android:gravity="center" android:id="@+id/bm_" android:padding="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="{title_tip}"/>
+    <TextView android:textSize="18dp" android:textColor="@color/xy" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/f2i" android:padding="15dp" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="{error_tip}"/>
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/bpn" android:visibility="visible" android:layout_width="45dp" android:layout_height="45dp"/>
+</LinearLayout>

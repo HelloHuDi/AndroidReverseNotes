@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:id="@+id/akp" android:background="@drawable/a_q" android:layout_width="match_parent" android:layout_height="80dp">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentLeft="true">
+        <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/l9"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/d_h" android:layout_width="@dimen/dp" android:layout_height="@dimen/dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:gravity="left" android:id="@+id/d_g" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@a/default_avatar"/>
+        <TextView android:textColor="@android:color/white" android:gravity="center" android:id="@+id/d_i" android:background="@drawable/zg" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/pg"/>
+        <View android:id="@+id/mt" android:background="@drawable/zf" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/e48"/>
+    </RelativeLayout>
+</RelativeLayout>

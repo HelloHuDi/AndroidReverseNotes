@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/a_q" android:layout_width="match_parent" android:layout_height="@dimen/m3" android:minHeight="@dimen/m3">
+    <ImageView android:id="@+id/al5" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:layout_marginLeft="@dimen/nc" android:layout_marginRight="@dimen/nc" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:textColor="@color/s0" android:id="@+id/al6" android:background="@drawable/fr" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/ds9" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <TextView android:id="@+id/al7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="{nick}" android:singleLine="true" android:layout_toLeftOf="@+id/al6" android:layout_toRightOf="@+id/al5" android:layout_centerVertical="true" style="@style/lf"/>
+</RelativeLayout>

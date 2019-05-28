@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ListView android:id="@+id/bi5" android:background="@color/vs" style="@style/mf"/>
+    <TextView android:textColor="@color/w4" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/a74" android:paddingLeft="@dimen/ld" android:paddingTop="220dp" android:paddingRight="@dimen/ld" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" style="@style/l8"/>
+</LinearLayout>

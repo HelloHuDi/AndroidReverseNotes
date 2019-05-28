@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/cvp" android:background="#fcfcfc" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/cvq" android:background="#fcfcfc" android:layout_width="match_parent" android:layout_height="0dp"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="-2dp">
+            <ImageView android:id="@+id/cvr" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/cvs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/b89" android:scaleType="fitXY"/>
+        </FrameLayout>
+    </LinearLayout>
+    <com.tencent.mm.ui.KeyboardLinearLayout android:orientation="vertical" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/cvt" android:focusable="true" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:scrollingCache="false" android:transcriptMode="disabled" android:divider="@null" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:overScrollMode="never"/>
+        <com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyWishFooter android:id="@+id/cvu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.tencent.mm.ui.KeyboardLinearLayout>
+    <FrameLayout android:id="@+id/cvv" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

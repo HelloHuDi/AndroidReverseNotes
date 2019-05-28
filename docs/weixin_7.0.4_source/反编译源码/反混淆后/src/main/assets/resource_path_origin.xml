@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <resource type="lut" id="282" name="白皙" path="assets://raw/sh">
+        <item>baixi_lf.png</item>
+    </resource>
+    <resource type="lut" id="289" name="红润" path="assets://raw/sh">
+        <item>ziran_lf.png</item>
+        <item>ziran_lf_573.png</item>
+    </resource>
+    <resource type="lut" id="252" name="草木青" path="assets://raw/sh">
+        <item>tianbohe_lf.png</item>
+    </resource>
+    <resource type="lut" id="298" name="曝蓝" path="assets://raw/sh">
+        <item>qingxi_lf.png</item>
+    </resource>
+    <resource type="lut" id="246" name="紫水晶" path="assets://raw/sh">
+        <item>meiguichuxue_lf.png</item>
+    </resource>
+    <resource type="lut" id="5" name="褪色" path="assets://raw/sh">
+        <item>qingyi_lf.png</item>
+    </resource>
+    <resource type="lut" id="288" name="秋叶" path="assets://raw/sh">
+        <item>youjiali_lf.png</item>
+    </resource>
+    <resource type="lut" id="283" name="茄子" path="assets://raw/sh">
+        <item>qiangwei_lf.png</item>
+    </resource>
+    <resource type="lut" id="290" name="荧光红" path="assets://raw/sh">
+        <item>fennen_lf.png</item>
+    </resource>
+    <resource type="lut" id="308" name="鹅黄" path="assets://raw/sh">
+        <item>chuxia_lf.png</item>
+    </resource>
+    <resource type="lut" id="306" name="桃子" path="assets://raw/sh">
+        <item>xindong_lf.png</item>
+    </resource>
+    <resource type="lut" id="401" name="巧克力" path="assets://raw/sh">
+        <item>shanhujiao_lf.png</item>
+    </resource>
+    <resource type="lut" id="402" name="砖瓦青" path="assets://raw">
+        <item>hudson.png</item>
+    </resource>
+    <resource type="lut" id="403" name="热带" path="assets://raw/sh">
+        <item>meiwei_lf.png</item>
+    </resource>
+    <resource type="lut" id="404" name="初夏" path="assets://raw/sh">
+        <item>xinxian_lf.png</item>
+    </resource>
+    <resource type="model" id="model1" name="handdetect" path="assets://xlabHandmodel">
+        <item>cls.xnet</item>
+        <item>det.xnet</item>
+    </resource>
+    <!--<resource type="model" id="model1" name="handalignment" path="assets://model/handalignment">-->
+        <!--<item>add_p_tu_1130_800k.rpdm</item>-->
+    <!--</resource>-->
+    <!--<resource type="model" id="model2" name="handclassify" path="assets://model/handclassify">-->
+        <!--<item>v3.0_int8_resnet18_3MB_1130.pb_bin.rapidnetproto_nhwc</item>-->
+        <!--<item>v3.0_int8_resnet18_3MB_1130.pb.rapidnetmodel_nhwc</item>-->
+    <!--</resource>-->
+    <!--<resource type="model" id="model3" name="handdetect" path="assets://model/handdetect">-->
+        <!--<item>v3.0_1130_add_lift_epoch40_bin.rapidnetproto_nchw_mod</item>-->
+        <!--<item>v3.0_1130_add_lift_epoch40.rapidnetmodel_nchw</item>-->
+    <!--</resource>-->
+    <resource type="model" id="model4" name="ufa" path="assets://ufa">
+        <item>pictrack_align521_16.rpdm</item>
+        <item>pictrack_align521_bin.rpdc</item>
+        <item>pictrack_contour_16.rpdm</item>
+        <item>pictrack_contour_bin.rpdc</item>
+        <item>pictrack_eye_16.rpdm</item>
+        <item>pictrack_eye_bin.rpdc</item>
+        <item>pictrack_eyebrow_16.rpdm</item>
+        <item>pictrack_eyebrow_bin.rpdc</item>
+        <item>pictrack_FacePicAlignRunner_bin.md5</item>
+        <item>pictrack_mouth_16.rpdm</item>
+        <item>pictrack_mouth_bin.rpdc</item>
+        <item>pictrack_nose_16.rpdm</item>
+        <item>pictrack_nose_bin.rpdc</item>
+    </resource>
+    <resource type="model" id="model5" name="segmentation" path="assets://">
+        <item>RPNSegmenter_m5.rapidnetmodel</item>
+    </resource>
+    <resource type="model" id="model6" name="bodydetector" path="assets://bodydetector">
+        <item>xnet_keypoint1.param.bin.xd</item>
+        <item>xnet_keypoint1.bin.xd</item>
+        <item>xnet_keypoint2.param.bin.xd</item>
+        <item>xnet_keypoint2.bin.xd</item>
+        <item>label.txt</item>
+        <item>threshold.txt</item>
+    </resource>
+    <resource type="so" id="so1" name="YTHandDetector" path="assets://">
+        <item>libXGestureSDK.so</item>
+    </resource>
+    <resource type="so" id="so2" name="GestureDetectJni" path="assets://">
+        <item>libpt_handdetector.so</item>
+    </resource>
+    <resource type="so" id="so3" name="segmentero" path="assets://">
+        <item>libsegmentero.so</item>
+    </resource>
+    <resource type="so" id="so4" name="segmentern" path="assets://">
+        <item>libsegmentern.so</item>
+    </resource>
+    <resource type="so" id="so5" name="gameplay" path="assets://">
+        <item>libgameplay.so</item>
+    </resource>
+    <resource type="so" id="so6" name="xnet" path="assets://">
+        <item>libxnet.so</item>
+    </resource>
+    <resource type="so" id="so7" name="bodydetector" path="assets://">
+        <item>libbodydetector.so</item>
+    </resource>
+    <resource type="so" id="so8" name="algo_rithm_jni" path="">
+        <item>libalgo_rithm_jni.so</item>
+    </resource>
+    <resource type="so" id="so9" name="image_filter_cpu" path="assets://">
+        <item>libimage_filter_cpu.so</item>
+    </resource>
+</resources>

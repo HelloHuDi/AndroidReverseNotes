@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="16dp">
+        <RelativeLayout android:id="@+id/clo" android:background="@drawable/zj" android:padding="20dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="49dp" android:layout_alignParentLeft="true">
+                <TextView android:textSize="26dp" android:textColor="#000000" android:id="@+id/clp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textSize="13dp" android:textColor="#888888" android:id="@+id/clq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/clr" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                    <ImageView android:layout_gravity="center" android:id="@+id/cls" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginRight="6dp" android:src="@drawable/a4h"/>
+                    <TextView android:textSize="13dp" android:textColor="#888888" android:id="@+id/clt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ImageView android:id="@+id/clu" android:layout_width="12dp" android:layout_height="12dp" android:src="@a/ipcall_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <ImageView android:background="#26000000" android:layout_width="match_parent" android:layout_height="@dimen/fv"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp" android:layout_weight="2">
+            <LinearLayout android:gravity="center" android:id="@+id/clv" android:background="@drawable/zj" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="@a/ipcall_contacts_icon"/>
+                <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/cg6"/>
+            </LinearLayout>
+            <ImageView android:layout_gravity="center_vertical" android:background="#26000000" android:layout_width="@dimen/fv" android:layout_height="40dp"/>
+            <LinearLayout android:gravity="center" android:id="@+id/clw" android:background="@drawable/zj" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+                <ImageView android:layout_width="25dp" android:layout_height="25dp" android:src="@a/ip_call_dial_entrance"/>
+                <TextView android:textSize="16dp" android:textColor="#000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="@string/cgk"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:background="#26000000" android:layout_width="match_parent" android:layout_height="@dimen/fv"/>
+    </LinearLayout>
+</LinearLayout>

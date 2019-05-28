@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/l_" android:background="@drawable/b78" android:padding="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nc">
+    <HorizontalScrollView android:orientation="horizontal" android:id="@+id/dft" android:focusableInTouchMode="true" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:id="@+id/dfu" android:layout_width="wrap_content" android:layout_height="@dimen/f1"/>
+    </HorizontalScrollView>
+    <ImageView android:id="@+id/b97" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/searchbar_icon"/>
+    <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/m5" android:textColor="@color/w4" android:textColorHint="@color/rz" android:gravity="center_vertical" android:id="@+id/b98" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/do" android:minHeight="@dimen/ky" android:hint="@string/te" android:singleLine="true" android:layout_weight="1"/>
+</LinearLayout>

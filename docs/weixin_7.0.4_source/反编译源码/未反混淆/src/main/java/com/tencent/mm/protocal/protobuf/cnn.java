@@ -1,0 +1,136 @@
+package com.tencent.mm.protocal.protobuf;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import e.a.a.b;
+import e.a.a.c.a;
+import java.util.LinkedList;
+
+public final class cnn extends btd {
+    public int vYu;
+    public int wTs;
+    public cob wTx;
+    public String xkU;
+
+    public final int op(int i, Object... objArr) {
+        AppMethodBeat.i(28700);
+        b bVar;
+        int ix;
+        if (i == 0) {
+            a aVar = (a) objArr[0];
+            if (this.BaseResponse == null) {
+                bVar = new b("Not all required fields were included: BaseResponse");
+                AppMethodBeat.o(28700);
+                throw bVar;
+            } else if (this.wTx == null) {
+                bVar = new b("Not all required fields were included: NextPiece");
+                AppMethodBeat.o(28700);
+                throw bVar;
+            } else {
+                if (this.BaseResponse != null) {
+                    aVar.iy(1, this.BaseResponse.computeSize());
+                    this.BaseResponse.writeFields(aVar);
+                }
+                if (this.wTx != null) {
+                    aVar.iy(2, this.wTx.computeSize());
+                    this.wTx.writeFields(aVar);
+                }
+                aVar.iz(3, this.vYu);
+                aVar.iz(4, this.wTs);
+                if (this.xkU != null) {
+                    aVar.e(5, this.xkU);
+                }
+                AppMethodBeat.o(28700);
+                return 0;
+            }
+        } else if (i == 1) {
+            if (this.BaseResponse != null) {
+                ix = e.a.a.a.ix(1, this.BaseResponse.computeSize()) + 0;
+            } else {
+                ix = 0;
+            }
+            if (this.wTx != null) {
+                ix += e.a.a.a.ix(2, this.wTx.computeSize());
+            }
+            ix = (ix + e.a.a.b.b.a.bs(3, this.vYu)) + e.a.a.b.b.a.bs(4, this.wTs);
+            if (this.xkU != null) {
+                ix += e.a.a.b.b.a.f(5, this.xkU);
+            }
+            AppMethodBeat.o(28700);
+            return ix;
+        } else if (i == 2) {
+            e.a.a.a.a aVar2 = new e.a.a.a.a((byte[]) objArr[0], unknownTagHandler);
+            for (ix = com.tencent.mm.bt.a.getNextFieldNumber(aVar2); ix > 0; ix = com.tencent.mm.bt.a.getNextFieldNumber(aVar2)) {
+                if (!super.populateBuilderWithField(aVar2, this, ix)) {
+                    aVar2.ems();
+                }
+            }
+            if (this.BaseResponse == null) {
+                bVar = new b("Not all required fields were included: BaseResponse");
+                AppMethodBeat.o(28700);
+                throw bVar;
+            } else if (this.wTx == null) {
+                bVar = new b("Not all required fields were included: NextPiece");
+                AppMethodBeat.o(28700);
+                throw bVar;
+            } else {
+                AppMethodBeat.o(28700);
+                return 0;
+            }
+        } else if (i == 3) {
+            e.a.a.a.a aVar3 = (e.a.a.a.a) objArr[0];
+            cnn cnn = (cnn) objArr[1];
+            int intValue = ((Integer) objArr[2]).intValue();
+            LinkedList Vh;
+            int size;
+            byte[] bArr;
+            e.a.a.a.a aVar4;
+            boolean z;
+            switch (intValue) {
+                case 1:
+                    Vh = aVar3.Vh(intValue);
+                    size = Vh.size();
+                    for (intValue = 0; intValue < size; intValue++) {
+                        bArr = (byte[]) Vh.get(intValue);
+                        BaseResponse baseResponse = new BaseResponse();
+                        aVar4 = new e.a.a.a.a(bArr, unknownTagHandler);
+                        for (z = true; z; z = baseResponse.populateBuilderWithField(aVar4, baseResponse, com.tencent.mm.bt.a.getNextFieldNumber(aVar4))) {
+                        }
+                        cnn.BaseResponse = baseResponse;
+                    }
+                    AppMethodBeat.o(28700);
+                    return 0;
+                case 2:
+                    Vh = aVar3.Vh(intValue);
+                    size = Vh.size();
+                    for (intValue = 0; intValue < size; intValue++) {
+                        bArr = (byte[]) Vh.get(intValue);
+                        cob cob = new cob();
+                        aVar4 = new e.a.a.a.a(bArr, unknownTagHandler);
+                        for (z = true; z; z = cob.populateBuilderWithField(aVar4, cob, com.tencent.mm.bt.a.getNextFieldNumber(aVar4))) {
+                        }
+                        cnn.wTx = cob;
+                    }
+                    AppMethodBeat.o(28700);
+                    return 0;
+                case 3:
+                    cnn.vYu = aVar3.BTU.vd();
+                    AppMethodBeat.o(28700);
+                    return 0;
+                case 4:
+                    cnn.wTs = aVar3.BTU.vd();
+                    AppMethodBeat.o(28700);
+                    return 0;
+                case 5:
+                    cnn.xkU = aVar3.BTU.readString();
+                    AppMethodBeat.o(28700);
+                    return 0;
+                default:
+                    AppMethodBeat.o(28700);
+                    return -1;
+            }
+        } else {
+            AppMethodBeat.o(28700);
+            return -1;
+        }
+    }
+}

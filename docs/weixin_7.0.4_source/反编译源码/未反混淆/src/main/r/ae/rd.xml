@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/nh" android:background="@drawable/a_r" android:paddingTop="@dimen/l5" android:paddingBottom="@dimen/nh" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/nj" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="@dimen/nb">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/nr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="111" android:singleLine="true" style="@style/lf"/>
+        </LinearLayout>
+        <TextView android:id="@+id/nn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:text="signature" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/h1"/>
+    </LinearLayout>
+</LinearLayout>

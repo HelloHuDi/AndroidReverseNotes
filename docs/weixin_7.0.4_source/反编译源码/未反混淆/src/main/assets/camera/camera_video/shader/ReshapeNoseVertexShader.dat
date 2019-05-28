@@ -1,0 +1,141 @@
+//uniform highp mat4 projection;
+//uniform highp mat4 faceFrame;
+//uniform highp mat4 stableToImage;
+precision highp float;
+uniform vec3 nose3DCenter; // 鼻子中心
+uniform vec2 nosePlainSize; //
+uniform vec3 nostrilsCenter; // 鼻孔
+uniform vec2 nostrilsPlaneSize; // 两鼻孔之间？
+uniform vec3 noseTipCenter;
+uniform vec2 noseTipPlaneSize;
+
+uniform vec3 lipsCenter;
+uniform vec2 lipsPlainSize;
+uniform vec2 leftEyePlainSize;
+uniform vec3 leftEyeCenter;
+uniform vec2 rightEyePlainSize;
+uniform vec3 rightEyeCenter;
+
+uniform float noseSize;
+uniform float noseOutlineWidth;
+uniform float noseBridgeWidth;
+uniform float nosePosition;
+uniform float noseTipSize;
+uniform vec3 angles; // angles.x: pitch, angles.y: yaw, angles.z: roll
+uniform vec2 size;
+
+
+attribute vec4 position;
+//attribute float faceIndex;
+//attribute float depthValue;
+varying vec2 textureCoordinate;
+
+uniform sampler2D inputImageTexture;
+
+
+float getElipseMask(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize) {
+    // un-normalization
+    boundingSize = boundingSize * size;
+    point = point * size;
+    center = center * size;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 translate = (point - center);
+    // rotate and scale
+    vec2 v = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) * sigmaScaling;
+
+    float d2 = sqrt(dot(v / boundingSize, v / boundingSize));
+    float a1 = 0.5;
+    float a2 = 1.2;
+
+    return 1.0 - smoothstep(a1, a2, d2);
+}
+
+float getNoseMask() {
+    const vec2 sigmaScaling = vec2(1.0, 1.5);
+    return getElipseMask(sigmaScaling, position.xy, nose3DCenter.xy, nosePlainSize);
+}
+float getNostrilsBridgetMask() {
+    const vec2 sigmaScaling = vec2(0.3, 0.3);
+    return getElipseMask(sigmaScaling, position.xy, nostrilsCenter.xy, vec2(0.05, 0.9) * nostrilsPlaneSize);
+}
+float getNoseTipFineMask() {
+    const vec2 sigmaScaling = vec2(1.5, 3.0);
+    return getElipseMask(sigmaScaling, position.xy, noseTipCenter.xy, noseTipPlaneSize);
+}
+float getNoseTipCoarseMask() {
+    const vec2 sigmaScaling = vec2(1.0, 1.5);
+    return getElipseMask(sigmaScaling, position.xy, noseTipCenter.xy, noseTipPlaneSize);
+}
+float getNoseVerticalAxisMask() {
+    const vec2 sigmaScaling = vec2(2.0, 1.0);
+    return getElipseMask(sigmaScaling, position.xy, nose3DCenter.xy, nosePlainSize);
+}
+float getNoseVerticalAxisFineMask() {
+    const vec2 sigmaScaling = vec2(2.5, 0.8);
+    return getElipseMask(sigmaScaling, position.xy, nose3DCenter.xy, nosePlainSize);
+}
+float getLipsMask() {
+    const vec2 sigmaScaling = vec2(1.4);
+    return getElipseMask(sigmaScaling, position.xy, lipsCenter.xy, lipsPlainSize);
+}
+float getLeftEyeMask() {
+    const vec2 sigmaScaling = vec2(0.8);
+    return getElipseMask(sigmaScaling, position.xy, leftEyeCenter.xy, leftEyePlainSize);
+}
+float getRightEyeMask() {
+    const vec2 sigmaScaling = vec2(0.8);
+    return getElipseMask(sigmaScaling, position.xy, rightEyeCenter.xy, rightEyePlainSize);
+}
+
+vec3 getScaledNosePoint(vec3 originalPoint, vec3 center, float theta, float scale) {
+    float sin_t = sin(theta);
+    float cos_t = cos(theta);
+    vec2 v = (originalPoint - center).xy;
+    float d = dot(v, vec2(cos_t, sin_t));
+    d = d * scale;
+    vec2 dv = d * vec2(cos_t, sin_t);
+
+    return vec3(originalPoint.xy+dv, originalPoint.z);
+}
+
+void main() {
+    float noseNegativeRegionsMask = (1.0 - getLeftEyeMask()) * (1.0 - getRightEyeMask()) * (1.0 - getLipsMask());
+    float noseMask = getNoseMask() * noseNegativeRegionsMask;
+    float nostrilsBridgeMask = getNostrilsBridgetMask() * noseNegativeRegionsMask;
+    float noseTipFineMask = getNoseTipFineMask() * noseNegativeRegionsMask;
+    float noseTipCoarseMask = getNoseTipCoarseMask() * noseNegativeRegionsMask;
+    float noseVertivalAxisMask = getNoseVerticalAxisMask() * noseNegativeRegionsMask; // 估计是鼻梁
+    float noseVertivalAxisFineMask = getNoseVerticalAxisFineMask() * noseNegativeRegionsMask; // 估计是鼻梁
+    vec3 displacedNosePoint = position.xyz;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+
+    vec3 noseOutlineWidthPoint = getScaledNosePoint(displacedNosePoint, nose3DCenter, angles.z, 0.3);
+    displacedNosePoint = mix(displacedNosePoint, noseOutlineWidthPoint, noseOutlineWidth * noseTipCoarseMask*(1.0-noseVertivalAxisFineMask));
+    // 鼻梁
+    vec3 noseBridgeWidthPoint = getScaledNosePoint(displacedNosePoint, nose3DCenter, angles.z, 0.3);
+    displacedNosePoint = mix(displacedNosePoint, noseBridgeWidthPoint, noseBridgeWidth * noseVertivalAxisMask);
+
+    vec3 noseSizePoint = nose3DCenter + vec3(0.75, 0.75, 0.8) * (displacedNosePoint - nose3DCenter);
+    displacedNosePoint = mix(displacedNosePoint, noseSizePoint, noseSize * noseMask);
+
+    const float kNoseLiftingYRatio = 0.05518821053;
+    vec2 noseLiftingVector = vec2(0.0, -kNoseLiftingYRatio * nosePlainSize.y);
+    noseLiftingVector = vec2(dot(noseLiftingVector, vec2(cos_t, -sin_t)), dot(noseLiftingVector, vec2(sin_t, cos_t)));
+    vec3 nosePositionPoint = vec3(displacedNosePoint.xy + noseLiftingVector, displacedNosePoint.z);
+    displacedNosePoint = mix(displacedNosePoint, nosePositionPoint, nosePosition * noseMask);
+
+    vec3 noseTipPoint = noseTipCenter + vec3(0.65) * (displacedNosePoint - noseTipCenter);
+    displacedNosePoint = mix(displacedNosePoint, noseTipPoint, noseTipSize * noseTipFineMask);
+
+    vec3 nostrilsBridgePoint = noseTipCenter + vec3(0.8, 0.85, 0.8) * (displacedNosePoint - noseTipCenter);
+    displacedNosePoint = mix(displacedNosePoint, nostrilsBridgePoint, 0.6 * noseTipSize * nostrilsBridgeMask);
+
+    vec2 originalPosition = position.xy;
+    vec2 displacedPosition = (vec4(displacedNosePoint, 1.0)).xy;
+    textureCoordinate = displacedPosition;
+    gl_Position = vec4(originalPosition.x*2.0-1.0, originalPosition.y*2.0-1.0, 0.0, 1.0);
+}

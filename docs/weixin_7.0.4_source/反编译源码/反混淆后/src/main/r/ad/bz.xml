@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <Preference app:title="@string/ec_" app:key="settings_bind_qq" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e6k" app:key="settings_email_addr" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e58" app:key="settings_about_domainmail" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/c_t" app:key="settings_facebook" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e6j" app:key="settings_dump_personal_data" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.IconSwitchKeyValuePreference app:title="@string/dcb" app:key="settings_phone_security" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e45" app:key="settings_delete_account" app:layout="@layout/ae4"/>
+</PreferenceScreen>

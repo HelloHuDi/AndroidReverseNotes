@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:id="@+id/a8x" android:background="@drawable/iq" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/wu">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="@dimen/ww" android:textColor="@color/h4" android:ellipsize="end" android:layout_gravity="left" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:maxLines="2"/>
+            <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:layout_gravity="left" android:id="@+id/la" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/a83" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="@dimen/l5" android:src="@drawable/if" android:scaleType="centerCrop"/>
+    </LinearLayout>
+</LinearLayout>

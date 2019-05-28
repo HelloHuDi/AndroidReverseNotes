@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="#fff1a555" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:paddingLeft="33dp" android:paddingRight="33dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="20dp">
+            <com.tencent.p177mm.plugin.welab.p584ui.widget.WelabRoundCornerImageView android:id="@+id/fkz" android:background="@color/a68" android:layout_width="58dp" android:layout_height="58dp" android:layout_marginTop="5dp" android:layout_marginRight="14dp" android:scaleType="fitCenter" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/m5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/fkz" android:layout_alignParentTop="true">
+                <TextView android:textSize="24sp" android:textColor="#ffffff" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="2dp" android:singleLine="true"/>
+                <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="left" android:id="@+id/a81" android:layout_width="wrap_content" android:layout_height="wrap_content" android:lineSpacingExtra="5dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/a69" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="28dp" android:layout_marginRight="28dp"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:id="@+id/fl1" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="28dp" android:layout_marginTop="10dp" android:layout_marginRight="28dp" android:text="@string/edi" android:singleLine="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/fl2" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <android.support.p069v7.widget.RecyclerView android:layout_gravity="center_horizontal" android:id="@+id/fl3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="30dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/fl4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="28dp" android:layout_marginRight="28dp">
+                <View android:background="@color/a69" android:layout_width="match_parent" android:layout_height="1px"/>
+                <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="49dp">
+                    <com.tencent.p177mm.p612ui.widget.MMSwitchBtn android:id="@+id/js" android:focusable="false" android:focusableInTouchMode="true" android:clickable="false" android:layout_width="@dimen/nr" android:layout_height="wrap_content" android:minHeight="@dimen/no" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="13sp" android:textColor="@color/a69" android:id="@+id/fl5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_toLeftOf="@+id/js" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <View android:background="@color/a69" android:layout_width="match_parent" android:layout_height="1px"/>
+            </LinearLayout>
+            <Button android:textSize="16sp" android:textColor="#ffef8c0e" android:layout_gravity="center_horizontal" android:id="@+id/bsc" android:background="@drawable/a6v" android:paddingLeft="38dp" android:paddingRight="38dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="31dp" android:text="@string/g0w"/>
+            <TextView android:textSize="13sp" android:textColor="#b2ffffff" android:layout_gravity="center_horizontal" android:id="@+id/fl6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="28dp" android:text="@string/edc"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

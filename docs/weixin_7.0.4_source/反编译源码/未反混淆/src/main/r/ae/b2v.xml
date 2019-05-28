@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/a7u" android:paddingLeft="@dimen/fm" android:paddingTop="@dimen/fm" android:paddingRight="@dimen/fm" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/au3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b73" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <ImageView android:id="@+id/f5r" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="8dp" android:src="@a/wcpay_security_icon" android:layout_below="@+id/au3" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/h4" android:id="@+id/f5s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_below="@+id/f5r" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="17dp" android:textColor="@color/rr" android:gravity="center_horizontal" android:id="@+id/f5t" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="{你名下各账户的累计提现金额较大，为保护资金安全、降低风险，请完善信息后继续操作}" android:layout_below="@+id/f5s" android:layout_centerHorizontal="true"/>
+        <Button android:enabled="true" android:textSize="17dp" android:textColor="@color/a6a" android:id="@+id/f5u" android:layout_width="184dp" android:layout_height="40dp" android:layout_marginTop="40dp" android:layout_marginBottom="32dp" android:layout_below="@+id/f5t" android:layout_centerHorizontal="true" style="@style/nj"/>
+    </RelativeLayout>
+</LinearLayout>

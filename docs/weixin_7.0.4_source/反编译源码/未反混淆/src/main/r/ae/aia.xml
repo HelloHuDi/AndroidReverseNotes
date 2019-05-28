@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:scrollbarStyle="outsideOverlay" android:background="@color/vs" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/l5" android:paddingRight="@dimen/l5" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/li" android:layout_marginBottom="@dimen/l5">
+            <TextView android:textSize="@dimen/m5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:text="@string/d7c"/>
+            <EditText android:textSize="@dimen/m5" android:layout_gravity="center_vertical" android:id="@+id/dg0" android:background="@drawable/lx" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/d7_" android:singleLine="true" android:inputType="text"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dg1" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="@dimen/li" android:layout_marginBottom="@dimen/l5">
+            <TextView android:textSize="@dimen/m5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:text="@string/d71"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="#576b95" android:layout_gravity="center_vertical" android:id="@+id/dg2" android:paddingLeft="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/d78"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="@dimen/li" android:layout_marginBottom="@dimen/l5">
+            <TextView android:textSize="@dimen/m5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:text="@string/d77"/>
+            <EditText android:textSize="@dimen/m5" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/dg3" android:background="@drawable/lx" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/d70" android:singleLine="true" android:inputType="text"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/m5" android:textColor="#ff0066cc" android:gravity="center_vertical" android:id="@+id/dg4" android:layout_width="wrap_content" android:layout_height="@dimen/li" android:layout_marginBottom="@dimen/l5" android:text="@string/d79"/>
+        <LinearLayout android:id="@+id/dg5" android:background="@drawable/k5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/li" android:layout_marginBottom="@dimen/l5">
+            <TextView android:textSize="@dimen/m5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:text="@string/d7b"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="#576b95" android:layout_gravity="center_vertical" android:id="@+id/dg6" android:paddingLeft="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:hint="@string/d72"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/dg7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/li" android:layout_marginBottom="@dimen/l5">
+            <TextView android:textSize="@dimen/m5" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:text="@string/d7d"/>
+            <EditText android:textSize="@dimen/m5" android:layout_gravity="center_vertical" android:id="@+id/dg8" android:background="@drawable/lx" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/d7g" android:singleLine="true" android:inputType="number"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

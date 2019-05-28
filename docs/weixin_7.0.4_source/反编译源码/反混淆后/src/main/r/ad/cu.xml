@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <Preference app:title="@string/fnf" app:key="wallet_modify_password" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/fn_" app:key="wallet_forget_password" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+    <CheckBoxPreference app:title="@string/fng" app:key="wallet_open_gesture_password" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/fne" app:key="wallet_modify_gesture_password" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

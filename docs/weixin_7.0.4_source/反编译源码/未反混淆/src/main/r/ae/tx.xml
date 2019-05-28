@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include layout="@layout/tv"/>
+    <LinearLayout android:orientation="vertical" android:background="@drawable/zj" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bek" android:background="@drawable/k7" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_height="@dimen/nb" style="@style/mh">
+            <ImageView android:id="@+id/be7" android:background="@null" android:layout_width="@dimen/ff" android:layout_height="@dimen/ff" android:layout_marginRight="@dimen/g7" android:src="@a/emoticonstore_custom_icon"/>
+            <TextView android:id="@android:id/title" style="@style/l9"/>
+        </LinearLayout>
+        <View android:layout_gravity="center_vertical" android:background="@drawable/a_q" android:layout_width="match_parent" android:layout_height="1sp" android:layout_marginLeft="52dp"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/bel" android:background="@drawable/k7" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_height="@dimen/nb" style="@style/mh">
+            <ImageView android:id="@+id/bem" android:background="@null" android:layout_width="@dimen/ff" android:layout_height="@dimen/ff" android:layout_marginRight="@dimen/g7" android:src="@a/emoticonstore_capture_icon"/>
+            <TextView android:id="@+id/ben" style="@style/l9"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/beo" android:layout_marginLeft="@dimen/n3" android:layout_marginRight="@dimen/n3" style="@style/nf"/>
+</LinearLayout>

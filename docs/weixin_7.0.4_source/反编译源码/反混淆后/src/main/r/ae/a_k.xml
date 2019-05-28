@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="32dp" android:layout_marginRight="32dp">
+        <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textSize="48dp" android:textColor="@color/h4" android:id="@+id/crm" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1" app:walletTypeFace="0"/>
+        <ImageView android:id="@+id/crn" android:background="@drawable/a5z" android:layout_width="24dp" android:layout_height="24dp" android:src="@c1318a/lqt_plan_more"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="32dp" android:layout_marginRight="32dp">
+        <TextView android:textSize="@dimen/i_" android:textColor="@color/a69" android:id="@+id/cro" android:background="@drawable/a5q" android:paddingLeft="6dp" android:paddingTop="1.5dp" android:paddingRight="6dp" android:paddingBottom="1.5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:text="@string/fjh"/>
+        <TextView android:textSize="@dimen/fi" android:textColor="@color/h4" android:id="@+id/crp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/fi" android:textColor="@color/w0" android:id="@+id/crq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="12dp" android:layout_marginRight="32dp" android:text=""/>
+    <View android:background="#e2e2e2" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="32dp" android:layout_marginTop="28dp" android:layout_marginRight="32dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/crr" android:paddingTop="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+        <TextView android:textSize="@dimen/dz" android:textColor="@color/h4" android:id="@+id/crs" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:text="" android:layout_weight="1"/>
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="32dp" android:src="@c1318a/lqt_plan_arrow"/>
+    </LinearLayout>
+</LinearLayout>

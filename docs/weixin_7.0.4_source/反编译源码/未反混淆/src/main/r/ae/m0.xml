@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:clipChildren="false" android:clipToPadding="false" android:layout_below="@+id/ag" style="@style/g8">
+    <include layout="@layout/lj"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/g9">
+        <TextView android:id="@+id/od" android:visibility="gone" style="@style/gd"/>
+        <com.tencent.mm.ui.widget.MMNeat7extView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/oe" android:background="@drawable/hz" android:maxWidth="@dimen/x7" android:minHeight="@dimen/ej" style="@style/gj"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nh">
+            <ImageView android:id="@+id/ap2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nj" android:layout_marginRight="@dimen/nh" android:src="@drawable/ax5" android:layout_centerVertical="true"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/a7l" android:id="@+id/ap3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nj" android:text="@string/ap3" android:layout_toRightOf="@+id/ap2" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <ViewStub android:id="@+id/ap4" android:layout="@layout/np" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="@dimen/le"/>
+    </LinearLayout>
+</LinearLayout>

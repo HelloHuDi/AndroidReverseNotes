@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">अन्य</string>
+    <string name="c">ऊपर जाएं</string>
+    <string name="abc_action_menu_overflow_description">ज़्यादा विकल्प</string>
+    <string name="d">हो गया</string>
+    <string name="e">सभी देखें</string>
+    <string name="f">कोई एप्‍लिकेशन चुनें</string>
+    <string name="g">बंद</string>
+    <string name="h">चालू</string>
+    <string name="i">खोजा जा रहा है…</string>
+    <string name="j">क्‍वेरी साफ़ करें</string>
+    <string name="l">सर्च करें</string>
+    <string name="m">क्वेरी सबमिट करें</string>
+    <string name="n">आवाज़ सर्च</string>
+    <string name="q">छोटा करें</string>
+    <string name="common_google_play_services_enable_button">चालू करें</string>
+    <string name="common_google_play_services_enable_text">जब तक आप Google Play सेवाएं चालू नहीं करते, %1$s काम नहीं करेगा.</string>
+    <string name="common_google_play_services_enable_title">Google Play सेवाएं चालू करें</string>
+    <string name="common_google_play_services_install_button">इंस्टॉल करें</string>
+    <string name="common_google_play_services_install_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो आपके डिवाइस में उपलब्ध नहीं हैं.</string>
+    <string name="common_google_play_services_install_title">Google Play सेवाएं इंस्टॉल करें</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play सेवाएं उपलब्ध हैं</string>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवाओं से जुड़ी गड़बड़ी</string>
+    <string name="common_google_play_services_unknown_issue">%1$s को Google Play सेवाओं के साथ समस्या आ रही है. कृपया फिर से कोशिश करें.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा, जो आपके डिवाइस पर काम नहीं करती हैं.</string>
+    <string name="common_google_play_services_update_button">अपडेट करें</string>
+    <string name="common_google_play_services_update_text">%1$s तब तक नहीं चलेगा जब तक आप Google Play सेवाओं को अपडेट नहीं करते.</string>
+    <string name="common_google_play_services_update_title">Google Play सेवाओं को अपडेट करें</string>
+    <string name="common_google_play_services_updating_text">%1$s उन Google Play सेवाओं के बिना नहीं चलेगा जो अभी अपडेट हो रही हैं.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play सेवाओं के नए वर्शन की ज़रूरत है. यह जल्द ही अपने आप अपडेट हो जाएगा.</string>
+    <string name="common_open_on_phone">फ़ोन पर खोलें</string>
+    <string name="common_signin_button_text">साइन इन करें</string>
+    <string name="common_signin_button_text_long">Google के ज़रिए साइन इन करें</string>
+    <string name="r">अन्य</string>
+    <string name="u">&lt;b&gt;facebook.com/device&lt;/b&gt; पर विज़िट करें और ऊपर दिखाया गया कोड डालें.</string>
+    <string name="w">WebView लॉग इन के लिए इंटरनेट अनुमति आवश्यक है</string>
+    <string name="x">AndroidManifest गलती</string>
+    <string name="y">पसंद किया</string>
+    <string name="z">पसंद करें</string>
+    <string name="a0">लोड हो रहा है...</string>
+    <string name="a1">रद्द करें</string>
+    <string name="a2">लॉग इन</string>
+    <string name="a3">Facebook के साथ जारी रखें</string>
+    <string name="a5">लॉग आउट करें</string>
+    <string name="a6">लॉग आउट करें</string>
+    <string name="a7">इस रूप में लॉग इन हैं: %1$s</string>
+    <string name="a8">Facebook का उपयोग करके लॉग इन किया है</string>
+    <string name="aa">अपने खाते से कनेक्ट करने के लिए, अपने मोबाइल डिवाइस पर Facebook एप्लिकेशन खोलें और सूचनाएँ जाँचें.</string>
+    <string name="ab">- या -</string>
+    <string name="ac">आप नहीं हैं?</string>
+    <string name="ad">%1$s के रूप में जारी रखें</string>
+    <string name="ae">लॉग इन कन्फ़र्म करें</string>
+    <string name="af">नियंत्रण आपके पास है - चुनें कि आप एप्लिकेशन के साथ कौन सी जानकारी साझा करना चाहते हैं.</string>
+    <string name="f6">sound/after_upload_voice.mp3</string>
+    <string name="ajo">https://weixin.qq.com/cgi-bin/readtemplate?lang=%s&amp;t=weixin_howToAdjustGroupNum&amp;pf=android</string>
+    <string name="ajt">https://weixin.qq.com/cgi-bin/readtemplate?lang=%s&amp;t=weixin_groupOwnerResponsibility</string>
+    <string name="b9u">https://weixin.qq.com/cgi-bin/readtemplate?t=emotion/wap/complain/msg_tmpl&amp;lang=</string>
+    <string name="b_q">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_emoji_agreement&amp;lang=</string>
+    <string name="c07">file:///android_asset/doc/default/wx_wifi_faq.html</string>
+    <string name="c0q">file:///android_asset/doc/default/wx_wifi_service_terms_chs.html</string>
+    <string name="c1d">https://search.weixin.qq.com/cgi-bin/h5/emoticon/tousu.html?lang=</string>
+    <string name="cpw">sound/cashrecivedrevised.mp3</string>
+    <string name="czs">file:///android_asset/doc/default/mig_wifi_service_terms_chs.html</string>
+    <string name="d5i">file:///android_asset/doc/en/network_warning.htm</string>
+    <string name="da3">file:///android_asset/doc/default/oauth_network_error.html</string>
+    <string name="dcn">sound/play_completed.mp3</string>
+    <string name="dgc">sound/qrcode_completed.mp3</string>
+    <string name="ef_">sound/shake_match.mp3</string>
+    <string name="efh">sound/shake_nomatch.mp3</string>
+    <string name="eg4">sound/shake_sound_male.mp3</string>
+    <string name="ev0">sound/talkroom_begin.mp3</string>
+    <string name="ev3">sound/talkroom_othersbegin.mp3</string>
+    <string name="ev4">sound/talkroom_press.mp3</string>
+    <string name="ev6">sound/talkroom_sasasa.mp3</string>
+    <string name="ev7">sound/talkroom_up.mp3</string>
+    <string name="ew8">sound/time_limit.mp3</string>
+    <string name="ezj">http://weixin.qq.com/agreement?lang=en</string>
+    <string name="ezl">https://account.qq.com/cgi-bin/en/index</string>
+    <string name="ezo">https://weixin.qq.com/cgi-bin/readtemplate?lang=en_US&amp;check=false&amp;t=weixin_agreement&amp;s=terms</string>
+    <string name="ezq">https://action.weixin.qq.com/payact/readtemplate?t=mobile/shuaka/help_tmpl</string>
+    <string name="f82">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_bank&amp;lang=%s&amp;banktype=%s</string>
+    <string name="f84">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_pay&amp;lang=%s</string>
+    <string name="f85">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_bank_wxcredit&amp;lang=%s&amp;banktype=%s</string>
+    <string name="f86">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_person_pay&amp;lang=%s&amp;banktype=%s</string>
+    <string name="f87">https://weixin.qq.com/cgi-bin/readtemplate?&amp;lang=en&amp;check=false&amp;t=weixin_agreement&amp;s=pay#point</string>
+    <string name="fev">https://kf.qq.com/touch/sappfaq/1603017bqMvA1603013eamiI.html</string>
+    <string name="g0f">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf338&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="g0g">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf348&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="g0h">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf136&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="g0i">https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx10583a7e974992ec&amp;redirect_uri=https%3A%2F%2Fkf.qq.com%2Ftouch%2Fscene_product.html%3Fscene_id%3Dkf350&amp;response_type=code&amp;scope=snsapi_base&amp;state=123#wechat_redirect</string>
+    <string name="g0n">https://weixin110.qq.com/?lang=</string>
+    <string name="b">होम पेज पर जाएं</string>
+    <string name="k">सर्च क्वेरी</string>
+    <string name="o">इसके द्वारा साझा करें</string>
+    <string name="p">%s के साथ साझा करें</string>
+    <string name="s">सर्च</string>
+    <string name="t">999+</string>
+    <string name="a3u">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_msgtrans_agreement&amp;lang=en</string>
+    <string name="a3v">https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/record_sync__course&amp;lang=zh_CN</string>
+    <string name="a3w">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_chat_migration_faq&amp;lang=zh_CN</string>
+    <string name="v">चित्र डाउनलोड करते समय अनपेक्षित त्रुटि हुई.</string>
+    <string name="a4">Facebook से लॉग इन करें</string>
+    <string name="a9">भेजें</string>
+    <string name="a_">साझा करें</string>
+    <string name="bsk">file:///android_asset/doc/default/wx_feedback_index.html</string>
+    <string name="cod">https://support.weixin.qq.com/getpassword?lang=</string>
+    <string name="coe">https://support.weixin.qq.com/security/readtemplate?t=page/login_optimized__w_index&amp;lang=</string>
+    <string name="dfg">http://weixin.qq.com/cgi-bin/readtemplate?t=weixin_contract_agreement&amp;lang=en</string>
+    <string name="dfh">file:///android_asset/doc/en/qqsync_intro.htm</string>
+    <string name="dfi">file:///android_asset/doc/en/qqsync_privacy.htm</string>
+    <string name="dfj">?hl=en</string>
+    <string name="egq">sound/shakelucky_ad_logo_clicked.mp3</string>
+    <string name="egr">sound/shakelucky_firework_sound.mp3</string>
+    <string name="ezk">http://support.wechat.com/getpassword?lang=en</string>
+    <string name="ezm">http://open.weixin.qq.com/emoticon#wechat_redirect</string>
+    <string name="ezn">https://weixin.qq.com/cgi-bin/readtemplate?lang=en_US&amp;check=false&amp;t=weixin_agreement&amp;s=privacy</string>
+    <string name="ezp">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_small_pay</string>
+    <string name="ezr">https://support.weixin.qq.com/cgi-bin/mmsupport-bin/readtemplate?t=page/payment_security__intro_new_editon</string>
+    <string name="f83">https://weixin.qq.com/cgi-bin/readtemplate?t=weixin_business_agreement&amp;lang=%s</string>
+</resources>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/a2f" android:background="#f99d3a" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="38dp" android:text="" android:maxLines="2"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/d37" android:background="@drawable/tq" android:layout_width="match_parent" android:layout_height="140dp" android:layout_marginTop="8dp">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/d38" android:background="@drawable/tr" android:paddingTop="35dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@c1318a/mall_pos_icon"/>
+            <TextView android:textSize="17dp" android:textColor="@color/a69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/fg7"/>
+            <TextView android:textColor="@color/a69" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="{待实名}" android:alpha="0.5"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/d39" android:background="@drawable/ts" android:paddingTop="35dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <RelativeLayout android:layout_width="40dp" android:layout_height="40dp">
+                <ImageView android:layout_width="40dp" android:layout_height="40dp" android:src="@c1318a/mall_wallet_icon"/>
+                <ImageView android:id="@+id/d3_" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/uy"/>
+            </RelativeLayout>
+            <TextView android:textSize="17dp" android:textColor="@color/a69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/cwo"/>
+            <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textColor="@color/a69" android:id="@+id/d3a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="{待实名}" android:alpha="0.5"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

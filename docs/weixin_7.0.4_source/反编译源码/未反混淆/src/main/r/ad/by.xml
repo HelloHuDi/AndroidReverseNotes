@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceTitleCategory app:title="@string/e86"/>
+    <CheckBoxPreference android:contentDescription="@string/ekb" app:title="@string/ekb" app:icon="@a/icons_outlined_colorful_moment" app:key="settings_sns_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/btn" app:title="@string/btn" app:icon="@a/icons_outlined_scan" app:iconColor="@color/a7" app:key="settings_scan_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/efr" app:title="@string/efr" app:icon="@a/icons_outlined_shake" app:iconColor="@color/a7" app:key="settings_shake_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/btu" app:title="@string/btu" app:icon="@a/icons_outlined_news" app:iconColor="@color/c4" app:key="settings_look_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/bty" app:title="@string/bty" app:icon="@a/icons_outlined_searchlogo" app:iconColor="@color/ct" app:key="settings_search_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/d57" app:title="@string/d57" app:icon="@a/icons_outlined_nearby" app:iconColor="@color/a7" app:key="settings_nearby_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/btz" app:title="@string/btz" app:icon="@a/icons_outlined_shop" app:iconColor="@color/ct" app:key="settings_shopping_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/c7m" app:title="@string/c7m" app:icon="@a/icons_outlined_colorful_game" app:key="settings_game_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/i9" app:title="@string/i9" app:icon="@a/icons_outlined_miniprogram" app:iconColor="@color/a7" app:key="settings_miniprogram_switch" app:defaultValue="false"/>
+    <CheckBoxPreference android:contentDescription="@string/cgr" app:title="@string/cgr" app:icon="@a/icons_outlined_wechatout" app:iconColor="@color/a61" app:key="settings_wechatout_switch" app:defaultValue="false"/>
+    <Preference app:title="@string/e8_" app:key="settings_switch_bottom_tip" app:layout="@layout/afn"/>
+</PreferenceScreen>

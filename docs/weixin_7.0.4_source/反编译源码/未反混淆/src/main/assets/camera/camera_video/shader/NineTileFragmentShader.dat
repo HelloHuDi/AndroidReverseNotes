@@ -1,0 +1,48 @@
+
+varying highp vec2 textureCoordinate;
+
+uniform sampler2D inputImageTexture;
+
+uniform lowp float x_max;
+uniform lowp float x_min;
+uniform lowp float y_max;
+uniform lowp float y_min;
+
+void main()
+{
+    highp float new_x = textureCoordinate.x;
+    highp float new_y = textureCoordinate.y;
+
+    lowp float d_x_0 = x_min;
+    lowp float d_x_1 = x_max-x_min;
+    lowp float d_x_2 = 1.0-x_max;
+    lowp float d_y_0 = y_min;
+    lowp float d_y_1 = y_max-y_min;
+    lowp float d_y_2 = 1.0-y_max;
+    lowp float s_x = max(max(d_x_0,d_x_1),d_x_2);
+    lowp float s_y = max(max(d_y_0,d_y_1),d_y_2);
+    lowp float s = max(s_x,s_y);
+
+    if (new_x < x_min) {
+        new_x = 1.0-(x_min-new_x)/s;
+    }
+    else if (new_x < x_max) {
+        new_x = (new_x-x_min)/s;
+    }
+    else {
+        new_x = (new_x-x_max)/s;
+    }
+
+    if (new_y < y_min) {
+        new_y = 1.0-(y_min-new_y)/s;
+    }
+    else if (new_y < y_max) {
+        new_y = (new_y-y_min)/s;
+    }
+    else {
+        new_y = (new_y-y_max)/s;
+    }
+
+    highp vec2 newCorrdinate = vec2(new_x,new_y);
+    gl_FragColor = texture2D(inputImageTexture, newCorrdinate);
+}

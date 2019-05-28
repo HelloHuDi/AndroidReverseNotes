@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/ih" android:background="#ededed" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.plugin.appbrand.widget.recyclerview.LoadMoreRecyclerView android:id="@+id/ag1" android:focusable="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:dividerHeight="8dp" android:overScrollMode="never"/>
+    <include android:visibility="gone" layout="@layout/iz"/>
+    <LinearLayout android:gravity="center" android:id="@+id/ag2" android:background="@color/a69" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.3">
+        <ProgressBar android:visibility="visible" android:layout_width="24dp" android:layout_height="24dp" android:indeterminateDrawable="@drawable/xi"/>
+    </LinearLayout>
+</RelativeLayout>

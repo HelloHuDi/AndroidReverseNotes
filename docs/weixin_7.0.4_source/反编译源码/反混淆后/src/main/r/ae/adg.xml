@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/b7t" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/d99" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.p177mm.p612ui.TabIconView android:id="@+id/rq" android:layout_width="40dp" android:layout_height="38dp" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+            <TextView android:id="@+id/d9_" android:visibility="invisible" android:layout_marginLeft="-12dp" android:layout_toRightOf="@+id/rq" android:layout_alignTop="@+id/rq" style="@style/ux"/>
+            <ImageView android:id="@+id/kk" android:visibility="invisible" android:layout_marginTop="1dp" android:layout_marginRight="-1dp" android:layout_alignTop="@+id/rq" android:layout_alignRight="@+id/rq" style="@style/uy"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/e9" android:textColor="@color/a69" android:gravity="center" android:id="@+id/d9a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cv9"/>
+    </LinearLayout>
+</RelativeLayout>

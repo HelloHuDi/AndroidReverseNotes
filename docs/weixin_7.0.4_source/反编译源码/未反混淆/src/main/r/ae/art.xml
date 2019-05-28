@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/e_6" android:divider="@drawable/pw" style="@style/mf"/>
+    <TextView android:gravity="center_horizontal" android:id="@+id/e_7" android:visibility="gone" android:layout_marginTop="@dimen/m_" android:text="@string/e5q" style="@style/kt"/>
+</FrameLayout>

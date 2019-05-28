@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@+id/cx" android:visibility="gone" android:layout_width="@dimen/i8" android:layout_height="wrap_content" android:layout_marginRight="@dimen/le" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/l9"/>
+    <TextView android:id="@+id/d_t" android:visibility="gone" android:drawableLeft="@a/card_photoicon" android:drawablePadding="@dimen/nh" android:layout_toRightOf="@+id/cx" style="@style/lb"/>
+    <TextView android:textColor="@color/t7" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/d_u" android:visibility="gone" android:layout_marginTop="@dimen/nc" android:layout_toRightOf="@+id/cx" android:layout_below="@+id/d_t" style="@style/lb"/>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/f2j" android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/f2k" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_above="@+id/f2l" android:layout_alignParentTop="true">
+        <ScrollView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/asg" android:paddingTop="100dp" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/f2m" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="27dp" android:textColor="#000000" android:layout_gravity="left" android:id="@+id/f2n" android:paddingLeft="20dp" android:paddingTop="25dp" android:paddingRight="20dp" android:paddingBottom="25dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="440dp" android:lineSpacingExtra="3dp"/>
+                <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/f2o" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/f2p" android:layout_width="40dp" android:layout_height="40dp" style="@style/zo"/>
+                    <TextView android:textSize="18dp" android:textColor="#000000" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f3g"/>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/f2q" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="20dp" android:layout_above="@+id/f2l" android:layout_alignParentTop="true">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aqt"/>
+        <TextView android:textSize="18dp" android:textColor="#8d8d8d" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/f3e"/>
+    </LinearLayout>
+    <Button android:textSize="@dimen/kr" android:textColor="@color/h4" android:layout_gravity="center" android:id="@+id/f2l" android:background="@drawable/a4v" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="wrap_content" android:layout_height="@dimen/lz" android:layout_marginBottom="40dp" android:text="@string/f3d" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/f2r" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <View android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="15dp"/>
+        <View android:background="@drawable/acj" android:layout_width="match_parent" android:layout_height="25dp"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/f2s" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:background="@drawable/ack" android:layout_width="match_parent" android:layout_height="25dp"/>
+        <View android:background="#ffffffff" android:layout_width="match_parent" android:layout_height="15dp"/>
+    </LinearLayout>
+</RelativeLayout>

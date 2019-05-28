@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/lh" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/lo">
+        <EditText android:id="@+id/lk" android:visibility="gone" android:layout_width="100dp" android:layout_marginRight="10dp" android:hint="exptId" android:inputType="number" style="@style/l4"/>
+        <Button android:id="@+id/ll" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="confirm"/>
+        <Button android:id="@+id/lm" android:layout_marginRight="10dp" android:text="select log" style="@style/nq"/>
+        <Button android:id="@+id/ln" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Req expt"/>
+        <Button android:id="@+id/lo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Delete"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="exptId:"/>
+            <TextView android:textSize="@dimen/m5" android:id="@+id/lp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="groupId:"/>
+            <TextView android:textSize="@dimen/m5" android:id="@+id/lq" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="exptSeq:"/>
+            <TextView android:textSize="@dimen/m5" android:id="@+id/lr" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="exptTime:"/>
+            <TextView android:textSize="@dimen/m5" android:id="@+id/ls" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m5" android:id="@+id/lt" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </ScrollView>&gt;\10
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+        <EditText android:id="@+id/lu" android:layout_width="match_parent" android:layout_margin="10dp" android:hint="xml" style="@style/l4"/>
+        <Button android:id="@+id/lv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:text="confirmXMl"/>
+    </LinearLayout>
+</LinearLayout>

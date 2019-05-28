@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/akp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+    <ImageView android:id="@+id/aga" android:background="@null" android:layout_width="@dimen/ff" android:layout_height="@dimen/ff" android:layout_marginRight="@dimen/g7"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/l5" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:singleLine="true" style="@style/l9"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:gravity="center" android:id="@+id/akq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s0"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/akt" android:background="@null" android:layout_width="@dimen/n6" android:layout_height="@dimen/n6">
+        <ImageView android:id="@+id/aku" android:layout_width="@dimen/n5" android:layout_height="@dimen/n5" android:src="@c1318a/default_avatar" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+        <ImageView android:gravity="center" android:id="@+id/akv" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:src="@drawable/a4h" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <TextView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/d_j" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="4" style="@style/lb"/>
+</LinearLayout>

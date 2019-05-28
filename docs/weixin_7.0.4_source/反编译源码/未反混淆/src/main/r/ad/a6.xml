@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference app:key="contact_info_header_helper" app:layout="@layout/akh"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e_9" app:key="contact_info_qmessage_install" app:layout="@layout/a82"/>
+    <Preference app:title="@string/b26" app:key="contact_info_view_message" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/ayk" app:key="contact_info_qmessage_recv_offline_msg" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/av9" app:key="contact_info_qmessage_clear_data" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e_e" app:key="contact_info_qmessage_uninstall" app:layout="@layout/a_e"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

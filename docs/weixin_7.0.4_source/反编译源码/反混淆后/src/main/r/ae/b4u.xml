@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="#f7f7f7" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <LinearLayout android:orientation="vertical" android:background="#f7f7f7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/dq5" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/a__" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_width="54dp" android:layout_height="54dp" android:layout_marginTop="89dp" android:src="@c1318a/lqt_succ_icon" android:scaleType="fitXY"/>
+                <TextView android:textSize="17dp" android:textColor="@color/h4" android:id="@+id/fbq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37dp" android:text="@string/fjw"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                    <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textSize="48dp" android:textColor="@color/h4" android:id="@+id/fbr" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="¥" app:walletTypeFace="0"/>
+                    <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textSize="48dp" android:textColor="@color/h4" android:id="@+id/fbs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{3000}"/>
+                </LinearLayout>
+                <TextView android:textSize="13dp" android:textColor="#888888" android:id="@+id/fbt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/fbu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="64dp" android:layout_below="@+id/a__" android:layout_alignParentBottom="true">
+                <Button android:id="@+id/fbv" android:layout_width="184dp" android:layout_height="40dp" android:text="@string/qt" style="@style/ni"/>
+                <TextView android:textSize="13dp" android:textColor="#888888" android:gravity="bottom" android:id="@+id/fbw" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="31dp" android:text=""/>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rm" android:background="@color/a69" android:padding="16dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:minHeight="80dp">
+            <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/fbx" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="16dp" android:src="@c1318a/lqt_plan_logo"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/dz" android:textColor="@color/h4" android:id="@+id/fby" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                <TextView android:textSize="@dimen/fi" android:textColor="#7f7f7f" android:id="@+id/fbz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text=""/>
+            </LinearLayout>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bkf"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

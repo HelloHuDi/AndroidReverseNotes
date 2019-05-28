@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="false">
+    <FrameLayout android:id="@+id/c08" android:layout_width="match_parent" android:layout_height="match_parent" android:animateLayoutChanges="false">
+        <com.tencent.p177mm.p612ui.widget.ThreeDotsLoadingView android:layout_gravity="center" android:id="@+id/ue" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/a82" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/app_brand_share_page_cover_default" android:scaleType="centerInside"/>
+    </FrameLayout>
+</AbsoluteLayout>

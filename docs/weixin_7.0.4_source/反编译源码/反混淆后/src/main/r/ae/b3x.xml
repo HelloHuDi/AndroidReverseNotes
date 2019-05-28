@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/a7u" android:paddingLeft="@dimen/fm" android:paddingTop="@dimen/fm" android:paddingRight="@dimen/fm" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/f__" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/f_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b73" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/f_b" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+</LinearLayout>

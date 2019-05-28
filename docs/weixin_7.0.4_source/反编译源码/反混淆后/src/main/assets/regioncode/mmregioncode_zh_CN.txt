@@ -1,0 +1,3972 @@
+AD|安道尔
+AT|奥地利
+AT_Burgenland|布尔根兰
+AT_Tyrol|蒂罗尔
+AT_Vorarlberg|福拉尔贝格
+AT_Carinthia|克恩顿
+AT_Upper Austria|上奥地利
+AT_Styria|施蒂利亚
+AT_Salzburg|萨尔茨堡
+AT_Vienna|维也纳
+AT_Lower Austria|下奥地利
+AU|澳大利亚
+AU_Northern Territory|北部地区
+AU_Northern Territory_Palmerston|北帕默斯顿
+AU_Northern Territory_Darwin|达尔文
+AU_Canberra|堪培拉
+AU_Queensland|昆士兰
+AU_Queensland_Brisbane|布里斯班
+AU_Queensland_Gold Coast|黄金海岸
+AU_Queensland_Cairns|凯恩斯
+AU_Queensland_Caloundra|卡罗旺德拉
+AU_Queensland_Townsville|汤斯维尔
+AU_Queensland_Toowoomba|图文巴
+AU_South Australia|南澳大利亚
+AU_South Australia_Adelaide|阿德莱德
+AU_South Australia_Port Augusta|奥古斯塔
+AU_South Australia_Mount Gambier|甘比亚山
+AU_South Australia_Whyalla|怀阿拉
+AU_South Australia_Port Lincoln|林肯港
+AU_South Australia_Murray Bridge|默里布里奇
+AU_South Australia_Port Pirie|皮里港
+AU_South Australia_Victor Harbor|维克托港
+AU_Tasmania|塔斯马尼亚
+AU_Tasmania_Burnie|伯尼港
+AU_Tasmania_Devonport|德文波特
+AU_Tasmania_Hobart|霍巴特
+AU_Tasmania_Launceston|朗塞斯顿
+AU_Victoria|维多利亚
+AU_Victoria_Geelong|吉朗
+AU_Victoria_Melbourne|墨尔本
+AU_Western Australia|西澳大利亚
+AU_Western Australia_Albany|奥尔巴尼
+AU_Western Australia_Bunbury|班伯里
+AU_Western Australia_Fremantle|弗里曼特尔港
+AU_Western Australia_Geraldton|杰拉尔顿
+AU_Western Australia_Mandurah|曼哲拉
+AU_Western Australia_Perth|珀斯
+AU_Western Australia_Kalgoorlie|卡尔古利
+AU_New South Wales|新南威尔士
+AU_New South Wales_Newcastle|纽卡斯尔
+AU_New South Wales_Wollongong|伍伦贡
+AU_New South Wales_Sydney|悉尼
+AL|阿尔巴尼亚
+DZ|阿尔及利亚
+IE|爱尔兰
+IE_Offaly|奥法利
+IE_Dublin|都柏林
+IE_Donegal|多内加尔
+IE_Tipperary|蒂珀雷里
+IE_Galway|戈尔韦
+IE_Kildare|基尔代尔
+IE_Kilkenny|基尔肯尼
+IE_Cork|科克
+IE_Kerry|凯里
+IE_Clare|克莱尔
+IE_Longford|朗福德
+IE_Limerick|利默里克
+IE_Laois|崂斯
+IE_Louth|劳斯
+IE_Roscommon|罗斯康芒
+IE_Leitrim|利特里姆
+IE_Mayo|梅奥
+IE_Monaghan|莫内根
+IE_Meath|米斯
+IE_Cavan|卡范
+IE_Carlow|卡洛
+IE_Sligo|斯莱戈
+IE_Wicklow|威克洛
+IE_Wexford|韦克斯福德
+IE_Waterford|沃特福德
+IE_Westmeath|西米斯
+AO|安哥拉
+AO_Bengo|本戈
+AO_Benguela|本格拉
+AO_Cuanza Norte|北宽扎
+AO_Lunda Norte|北隆达
+AO_Bie|比耶
+AO_Cuando Cubango|宽多库邦戈
+AO_Cunene|库内内
+AO_Luanda|罗安达
+AO_Malanje|马兰热
+AO_Moxico|莫希科
+AO_Cuanza Sul|南宽扎
+AO_Lunda Sul|南隆达
+AO_Namibe|纳米贝
+AO_Cabinda|卡宾达
+AO_Huambo|万博
+AO_Huila|威拉
+AO_Uige|威热
+AO_Zaire|扎伊尔
+AR|阿根廷
+AR_Viedma|别德马
+AR_Parana|巴拉那
+AR_Bahia Blanca|布兰卡港
+AR_Posadas|波萨达斯
+AR_Buenos Aires|布宜诺斯艾利斯
+AR_Formosa|福莫萨
+AR_Jujuy|胡胡伊
+AR_Cordoba|科尔多瓦
+AR_Concordia|肯考迪娅
+AR_Villa Krause|克劳斯城
+AR_Corrientes|科连特斯
+AR_Rio Gallegos|里奥加耶戈斯
+AR_Rio Cuarto|里奥夸尔托
+AR_La Rioja|拉里奥哈
+AR_La Plata|拉普拉塔
+AR_Rawson|罗森
+AR_Rosario|罗萨里奥
+AR_Comodoro Rivadavia|里瓦达维亚海军准将城
+AR_Resistencia|雷西斯滕匹亚
+AR_Mar del Plata|马德普拉塔
+AR_Mendoza|门多萨
+AR_Neuquen|内乌肯
+AR_Catamarca|卡塔马卡
+AR_Santiago del Estero|圣地亚哥-德尔埃斯特罗
+AR_Salta|萨尔塔
+AR_Santa Fe|圣菲
+AR_San Juan|圣胡安
+AR_San Rafael|圣拉斐尔
+AR_Santa Rosa|圣罗莎
+AR_San Luis|圣路易斯
+AR_San Miguel de Tucuman|圣米格尔-德图库曼
+AR_San Nicolas|圣尼古拉斯
+AR_Trelew|特雷利乌
+AR_Ushuaia|乌斯怀亚
+EG|埃及
+AW|阿鲁巴
+AE|阿拉伯联合酋长国
+AE_Abu Dhabi|阿布扎比
+AE_Al l'Ayn|艾因
+AE_Dubayy|迪拜
+AE_Ash Shariqah|沙迦
+OM|阿曼
+AZ|阿塞拜疆
+ET|埃塞俄比亚
+AG|安提瓜岛和巴布达
+BB|巴巴多斯岛
+PG|巴布亚新几内亚
+BW|博茨瓦纳
+IS|冰岛
+BT|不丹
+PR|波多黎各
+BA|波黑
+BS|巴哈马
+BG|保加利亚
+PK|巴基斯坦
+BH|巴林
+PL|波兰
+BI|布隆迪
+BE|比利时
+BO|玻利维亚
+BY|白俄罗斯
+BM|百慕大
+MP|北马里亚纳群岛
+BJ|贝宁
+PA|巴拿马
+BR|巴西
+BR_Acre|阿克里
+BR_Alagoas|阿拉戈斯
+BR_Amapa|阿马帕
+BR_Rio Grande do Norte|北里奥格兰德
+BR_Parana|巴拉那
+BR_Pernambuco|伯南布哥
+BR_Brasilia|巴西利亚
+BR_Bahia|巴伊亚
+BR_Goias|戈亚斯
+BR_Rondonia|朗多尼亚
+BR_Roraima|罗赖马
+BR_Rio de Janeiro|里约热内卢
+BR_Maranhao|马拉尼昂
+BR_Minas Gerais|米纳斯吉拉斯
+BR_Mato Grosso|马托格罗索
+BR_Rio Grande do Sul|南里奥格兰德
+BR_Mato Grosso do Sul|南马托格罗索
+BR_Piaui|皮奥伊
+BR_Para|帕拉
+BR_Paraiba|帕拉伊巴
+BR_Ceara|塞阿拉
+BR_Espirito Santo|圣埃斯皮里图
+BR_Sao Paulo|圣保罗
+BR_Sergipe|塞尔希培
+BR_Santa Catarina|圣卡塔琳娜
+BR_Tocantins|托坎廷斯
+BR_Amazonas|亚马孙
+KP|朝鲜
+DE|德国
+DE_Erfurt|爱尔福特
+DE_Arnsberg|阿恩斯贝格
+DE_Augsburg|奥格斯堡
+DE_Ansbach|安斯巴格
+DE_Potsdam|波茨坦
+DE_Bochum|波鸿
+DE_Berlin|柏林
+DE_Bielefeld|比勒费尔德
+DE_Bremen|不来梅
+DE_Brunswick|不伦瑞克
+DE_Bayreuth|拜伊罗特
+DE_Dresden|德累斯顿
+DE_Darmstadt|达姆施塔特
+DE_Dessau|德绍
+DE_Dusseldorf|杜塞尔多夫
+DE_Detmold|代特莫尔特
+DE_Freiburg|弗赖堡
+DE_Frankfurt|法兰克福
+DE_Hamburg|汉堡
+DE_Halle|哈雷
+DE_Hannover|汉诺威
+DE_Kiel|基尔
+DE_GieBen|吉森
+DE_Koblenz|科布伦次
+DE_Cologne|科隆
+DE_Chemnitz|开姆尼斯
+DE_Leipzig|莱比锡
+DE_Landshut|兰茨胡特
+DE_Luneburg|吕讷堡
+DE_Magdeburg|马格德堡
+DE_Mannheim|曼海姆
+DE_Munich|慕尼黑
+DE_Muenster|明斯特
+DE_Mainz|美因兹
+DE_Nuremberg|纽伦堡
+DE_Karlsruhe|卡尔斯鲁厄
+DE_Kassel|卡塞尔
+DE_Stuttgart|斯图加特
+DE_Schwerin|什未林
+DE_Trier|特里尔
+DE_Wuerzburg|维尔茨堡
+DE_Wiesbaden|威斯巴登
+DK|丹麦
+DO|多米尼加共和国
+EC|厄瓜多尔
+EE|爱沙尼亚
+RU|俄罗斯
+RU_Abakan|阿巴坎
+RU_Arkhangelsk|阿尔汉格尔斯克
+RU_Aginskoye|阿金斯科耶
+RU_Orenburg|奥伦堡
+RU_Orel|奥廖尔
+RU_Elista|埃利斯塔
+RU_Anadyr|阿纳德尔
+RU_Astrakhan|阿斯特拉罕
+RU_Petropavlovsk-Kamchatskiy|彼得罗巴甫洛夫斯克
+RU_Petrozavodsk|彼得罗扎沃茨克
+RU_Belgorod|别尔哥罗德
+RU_Perm|彼尔姆
+RU_Barnaul|巴尔瑙尔
+RU_Chabarovsk|伯力
+RU_Birobidzan|比罗比詹
+RU_Blagoveshchensk|布拉戈维申斯克
+RU_Bryansk|布良斯克
+RU_Penza|奔萨
+RU_Chelyabinsk|车里雅宾斯克
+RU_Chita|赤塔
+RU_Rostov-na-Donu|顿河畔罗斯托夫
+RU_Omsk|鄂木斯克
+RU_Volgograd|伏尔加格勒
+RU_Vladikavkaz|弗拉季高加索
+RU_Vladimir|弗拉基米尔
+RU_Gorno-Altajsk|戈尔诺－阿尔泰斯克
+RU_Grozny|格罗兹尼
+RU_Vladivostok|海参崴
+RU_Khanty-Mansiysk|汉特－曼西斯克
+RU_Kirov|基洛夫
+RU_Kaliningrad|加里宁格勒
+RU_Kudymkar|库德姆卡尔
+RU_Kurgan|库尔干
+RU_Kursk|库尔斯克
+RU_Krasnodar|克拉斯诺达尔
+RU_Krasnojarsk|克拉斯诺亚尔斯克
+RU_Kemerovo|克麦罗沃
+RU_Kazan|喀山
+RU_Kostroma|科斯特罗马
+RU_Kyzyl|克孜勒
+RU_Lipeck|利佩茨克
+RU_Ryazan|梁赞
+RU_Murmansk|摩尔曼斯克
+RU_Makhachkala|马哈奇卡拉
+RU_Magadan|马加丹
+RU_Magas|马加斯
+RU_Maykop|迈科普
+RU_Moscow|莫斯科
+RU_Nalchik|纳尔奇克
+RU_Velikij Novgorod|诺夫哥罗德
+RU_Naryan-Mar|纳里扬马尔
+RU_Juzno-Sachalinsk|南萨哈林斯克
+RU_Palana|帕拉纳
+RU_Pskov|普斯科夫
+RU_Cheboksary|切博克萨雷
+RU_Cherkessk|切尔克斯克
+RU_Kaluga|卡卢加
+RU_Tyumen|秋明
+RU_St. Peterburg|圣彼得堡
+RU_Syktyvkar|瑟克特夫卡尔
+RU_Salekhard|萨列哈尔德
+RU_Saransk|萨兰斯克
+RU_Saratov|萨拉托夫
+RU_Samara|萨马拉
+RU_Smolensk|斯摩棱斯克
+RU_Stavropol|斯塔夫罗波尔
+RU_Tambov|坦波夫
+RU_Tula|图拉
+RU_Tomsk|托木斯克
+RU_Tver|特维尔
+RU_Ufa|乌法
+RU_Vologda|沃洛格达
+RU_Voronezh|沃罗涅什
+RU_Ulan-Ude|乌兰乌德
+RU_Uljanovsk|乌里扬诺夫斯克
+RU_Ust-Ordynsky|乌斯季奥尔登斯基
+RU_Niznij Novgorod|下诺夫哥罗德
+RU_Novosibirsk|新西伯利亚
+RU_Irkutsk|伊尔库茨克
+RU_Jakutsk|雅库茨克
+RU_Jaroslavl|雅罗斯拉夫尔
+RU_Jekaterinburg|叶卡捷林堡
+RU_Izhevsk|伊热夫斯克
+RU_Yoshkar-Ola|约什卡尔奥拉
+RU_Ivanovo|伊万诺沃
+ER|厄立特里亚
+FR|法国
+FR_Arles|阿尔勒
+FR_Orleans|奥尔良
+FR_Aix-en-Provence|艾克斯
+FR_Ajaccio|阿雅克修
+FR_Paris|巴黎
+FR_Besancon|贝桑松
+FR_Dijon|第戎
+FR_Frejus|弗雷瑞斯
+FR_Rouen|鲁昂
+FR_Lyon|里昂
+FR_Rennes|雷恩
+FR_Lille|里尔
+FR_Limoges|利摩日
+FR_Montpellier|蒙彼利埃
+FR_Marseille|马赛
+FR_Metz|梅斯
+FR_Nice|尼斯
+FR_Nantes|南特
+FR_Caen|卡昂
+FR_Chalons-en-Champagne|沙隆
+FR_Toulouse|图卢兹
+FR_Valence|瓦朗斯
+FR_Amiens|亚眠
+FJ|斐济
+FI|芬兰
+PH|菲律宾
+PH_Davao|达沃
+PH_Manila|马尼拉
+PH_Caloocan|卡卢坎
+PH_Cebu|宿务
+CU|古巴
+GM|冈比亚
+GU|关岛
+GG|格恩西岛
+CG|刚果民主共和国
+CO|哥伦比亚
+GL|格陵兰
+GD|格林纳达
+CR|哥斯达黎加
+HT|海地
+HN|洪都拉斯
+KR|韩国
+KR_Daegu|大邱
+KR_Daegu_Dalseong-gun|达城郡
+KR_Daegu_Daegu|大邱
+KR_Daegu_Suseong-gu|寿城区
+KR_Daejeon|大田
+KR_Busan|釜山
+KR_Gwangju|光州
+KR_Gangwon-do|江原道
+KR_Gangwon-do_Chuncheon|春川市
+KR_Gangwon-do_Donghae|东海市
+KR_Gangwon-do_Goseong County|高城郡
+KR_Gangwon-do_Hongcheon County|洪川郡
+KR_Gangwon-do_Hoengseong County|横城郡
+KR_Gangwon-do_Hwacheon County|华川郡
+KR_Gangwon-do_Gangneung|江陵市
+KR_Gangwon-do_Jeongseon County|旌善郡
+KR_Gangwon-do_Inje County|麟蹄郡
+KR_Gangwon-do_Yeongwol County|宁越郡
+KR_Gangwon-do_Pyeongchang County|平昌郡
+KR_Gangwon-do_Sokcho|束草市
+KR_Gangwon-do_Samcheok|三陟市
+KR_Gangwon-do_Taebaek|太白市
+KR_Gangwon-do_Cheorwon County|铁原郡
+KR_Gangwon-do_Yangyang County|襄阳郡
+KR_Gangwon-do_Yanggu County|杨口郡
+KR_Gangwon-do_Wonju|原州市
+KR_Jeju-do|济州岛
+KR_Jeju-do_Anseong|安城市
+KR_Jeju-do_Ansan|安山市
+KR_Jeju-do_Anyang|安养市
+KR_Jeju-do_Pocheon|抱川市
+KR_Jeju-do_Seongnam|城南市
+KR_Jeju-do_Dongducheon|东豆川市
+KR_Jeju-do_Bucheon|富川市
+KR_Jeju-do_Gwacheon|果川市
+KR_Jeju-do_Gwangmyeong|光明市
+KR_Jeju-do_Goyang|高阳市
+KR_Jeju-do_Gwangju|广州市
+KR_Jeju-do_Hwaseong|华城市
+KR_Jeju-do_Hanam|河南市
+KR_Jeju-do_Guri|九里市
+KR_Jeju-do_Gapyeong County|加平郡
+KR_Jeju-do_Gimpo|金浦市
+KR_Jeju-do_Gunpo|军浦市
+KR_Jeju-do_Yeoncheon County|涟川郡
+KR_Jeju-do_Icheon|利川市
+KR_Jeju-do_Yongin|龙仁市
+KR_Jeju-do_Yeoju County|骊州郡
+KR_Jeju-do_Namyangju|南杨州市
+KR_Jeju-do_Paju|坡州市
+KR_Jeju-do_Pyeongtaek|平泽市
+KR_Jeju-do_Siheung|始兴市
+KR_Jeju-do_Suwon|水原市
+KR_Jeju-do_Osan|乌山市
+KR_Jeju-do_Yangpyeong County|扬平郡
+KR_Jeju-do_Uiwang|仪旺市
+KR_Jeju-do_Uijeongbu|议政府
+KR_Jeju-do_Yangju|杨州市
+KR_Gyeonggi-do|济州特别自治道
+KR_Gyeongsangbuk-do|全罗北道
+KR_Gyeongsangbuk-do_Sunchang County|淳昌郡
+KR_Gyeongsangbuk-do_Jangsu County|长水郡
+KR_Gyeongsangbuk-do_Buan County|扶安郡
+KR_Gyeongsangbuk-do_Gochang County|高敞郡
+KR_Gyeongsangbuk-do_Gimje|金堤市
+KR_Gyeongsangbuk-do_Jeongeup|井邑市
+KR_Gyeongsangbuk-do_Muju County|茂朱郡
+KR_Gyeongsangbuk-do_Namwon|南原市
+KR_Gyeongsangbuk-do_Gunsan|群山市
+KR_Gyeongsangbuk-do_Jeonju|全州市
+KR_Gyeongsangbuk-do_Imsil County|任实郡
+KR_Gyeongsangbuk-do_Wanju County|完州郡
+KR_Gyeongsangbuk-do_Iksan|益山市
+KR_Gyeongsangbuk-do_Jinan County|鎭安郡
+KR_Gyeongsangnam-do|全罗南道
+KR_Gyeongsangnam-do_Boseong County|宝城郡
+KR_Gyeongsangnam-do_Jangseong County|长城郡
+KR_Gyeongsangnam-do_Jangheung County|长兴郡
+KR_Gyeongsangnam-do_Gokseong County|谷城郡
+KR_Gyeongsangnam-do_Wando County|莞岛郡
+KR_Gyeongsangnam-do_Goheung County|高兴郡
+KR_Gyeongsangnam-do_Gwangyang|光阳市
+KR_Gyeongsangnam-do_Haenam County|海南郡
+KR_Gyeongsangnam-do_Hwasun County|和顺郡
+KR_Gyeongsangnam-do_Gangjin County|康津郡
+KR_Gyeongsangnam-do_Yeonggwang County|灵光郡
+KR_Gyeongsangnam-do_Yeosu|丽水市
+KR_Gyeongsangnam-do_Yeongam County|灵岩郡
+KR_Gyeongsangnam-do_Naju|罗州市
+KR_Gyeongsangnam-do_Mokpo|木浦市
+KR_Gyeongsangnam-do_Gurye County|求礼郡
+KR_Gyeongsangnam-do_Suncheon|顺天市
+KR_Gyeongsangnam-do_Damyang County|潭阳郡
+KR_Gyeongsangnam-do_Muan County|务安郡
+KR_Gyeongsangnam-do_Sinan County|新安郡
+KR_Gyeongsangnam-do_Hampyeong County|咸平郡
+KR_Gyeongsangnam-do_Jindo County|珍岛郡
+KR_Chungcheongbuk-do|庆尚北道
+KR_Chungcheongbuk-do_Andong|安东市
+KR_Chungcheongbuk-do_Cheongdo County|淸道郡
+KR_Chungcheongbuk-do_Bonghwa County|奉化郡
+KR_Chungcheongbuk-do_Goryeong County|高灵郡
+KR_Chungcheongbuk-do_Gumi|龟尾市
+KR_Chungcheongbuk-do_Gimcheon|金泉市
+KR_Chungcheongbuk-do_Gunwi County|军威郡
+KR_Chungcheongbuk-do_Yecheon County|醴泉郡
+KR_Chungcheongbuk-do_Pohang|浦项市
+KR_Chungcheongbuk-do_Chilgok County|漆谷郡
+KR_Chungcheongbuk-do_Gyeongsan|庆山市
+KR_Chungcheongbuk-do_Gyeongju|庆州市
+KR_Chungcheongbuk-do_Yeongju|荣州市
+KR_Chungcheongbuk-do_Cheongsong County|靑松郡
+KR_Chungcheongbuk-do_Sangju|尙州市
+KR_Chungcheongbuk-do_Mungyeong|闻庆市
+KR_Chungcheongbuk-do_Uljin County|蔚珍郡
+KR_Chungcheongbuk-do_Seongju County|星州郡
+KR_Chungcheongbuk-do_Uiseong County|义城郡
+KR_Chungcheongbuk-do_Yeongcheon|永川市
+KR_Chungcheongbuk-do_Yeongdeok County|盈德郡
+KR_Chungcheongbuk-do_Ulleung County|郁陵郡
+KR_Chungcheongbuk-do_Yeongyang County|英阳郡
+KR_Chungcheongnam-do|庆尚南道
+KR_Chungcheongnam-do_Changnyeong County|昌宁郡
+KR_Chungcheongnam-do_Changwon|昌原市
+KR_Chungcheongnam-do_Goseong County|固城郡
+KR_Chungcheongnam-do_Hadong County|河东郡
+KR_Chungcheongnam-do_Geochang County|居昌郡
+KR_Chungcheongnam-do_Gimhae|金海市
+KR_Chungcheongnam-do_Geoje|巨济市
+KR_Chungcheongnam-do_Jinju|晋州市
+KR_Chungcheongnam-do_Yangsan|梁山市
+KR_Chungcheongnam-do_Masan|马山市
+KR_Chungcheongnam-do_Miryang|密阳市
+KR_Chungcheongnam-do_Namhae County|南海郡
+KR_Chungcheongnam-do_Sacheon|泗川市
+KR_Chungcheongnam-do_Sancheong County|山淸郡
+KR_Chungcheongnam-do_Tongyeong|统营市
+KR_Chungcheongnam-do_Haman County|咸安郡
+KR_Chungcheongnam-do_Hapcheon County|陜川郡
+KR_Chungcheongnam-do_Hamyang County|咸阳郡
+KR_Chungcheongnam-do_Uiryeong County|宜宁郡
+KR_Chungcheongnam-do_Jinhae|鎭海市
+KR_Incheon|仁川
+KR_Seoul|首尔
+KR_Ulsan|蔚山
+KR_Jeollabuk-do|忠清北道
+KR_Jeollabuk-do_Boeun County|报恩郡
+KR_Jeollabuk-do_Jecheon|堤川市
+KR_Jeollabuk-do_Danyang County|丹阳郡
+KR_Jeollabuk-do_Goesan County|槐山郡
+KR_Jeollabuk-do_Okcheon County|沃川郡
+KR_Jeollabuk-do_Eumseong County|阴城郡
+KR_Jeollabuk-do_Cheongwon County|淸原郡
+KR_Jeollabuk-do_Yeongdong County|永同郡
+KR_Jeollabuk-do_Jincheon County|鎭川郡
+KR_Jeollabuk-do_Jeungpyeong County|曾坪郡
+KR_Jeollabuk-do_Cheongju|淸州市
+KR_Jeollabuk-do_Chungju|忠州市
+KR_Jeollanam-do|忠清南道
+KR_Jeollanam-do_Boryeong|保宁市
+KR_Jeollanam-do_Buyeo County|扶余郡
+KR_Jeollanam-do_Gongju|公州市
+KR_Jeollanam-do_Hongseong County|洪城郡
+KR_Jeollanam-do_Gyeryong|鸡龙市
+KR_Jeollanam-do_Geumsan County|锦山郡
+KR_Jeollanam-do_Yesan County|礼山郡
+KR_Jeollanam-do_Nonsan|论山市
+KR_Jeollanam-do_Cheongyang County|青阳郡
+KR_Jeollanam-do_Seosan|瑞山市
+KR_Jeollanam-do_Seocheon County|舒川郡
+KR_Jeollanam-do_Taean County|泰安郡
+KR_Jeollanam-do_Cheonan|天安市
+KR_Jeollanam-do_Dangjin County|唐津郡
+KR_Jeollanam-do_Yeongi County|燕岐郡
+KR_Jeollanam-do_Asan|牙山市
+NL|荷兰
+NL_Ede|埃德
+NL_Almere|阿尔梅勒
+NL_Emmen|埃门
+NL_Amersfoort|阿默斯福特
+NL_Amsterdam|阿姆斯特丹
+NL_Arnhem|阿纳姆
+NL_Apeldoorn|阿珀尔多伦
+NL_Assen|阿森
+NL_Eindhoven|埃因霍芬
+NL_Breda|布雷达
+NL_Dordrecht|多德雷赫特
+NL_Tilburg|蒂尔堡
+NL_Enschede|恩斯赫德
+NL_Groningen|格罗宁根
+NL_Hoofddorp|霍夫多尔普
+NL_Haarlem|哈勒姆
+NL_Hague|海牙
+NL_Leiden|莱顿
+NL_Leeuwarden|吕伐登
+NL_Lelystad|莱利斯塔德
+NL_Rotterdam|鹿特丹
+NL_Middelburg|米德尔堡
+NL_Maastricht|马斯特里赫特
+NL_Nijmegen|奈梅亨
+NL_'s-Hertogenbosch|斯海尔托亨博思
+NL_Utrecht|乌得勒支
+NL_Zoetermeer|佐特尔梅
+NL_Zwolle|兹沃勒
+ME|黑山共和国
+KZ|哈萨克斯坦
+DJ|吉布提
+KG|吉尔吉斯斯坦
+CZ|捷克共和国
+KI|基里巴斯
+GH|加纳
+CA|加拿大
+CA_British Columbia|不列颠哥伦比亚省
+CA_British Columbia_Abbotsford|阿伯茨福德
+CA_British Columbia_Armstrong|阿姆斯特朗
+CA_British Columbia_Burnaby|本那比
+CA_British Columbia_Campbell River|坎贝尔河
+CA_British Columbia_Castlegar|卡斯尔加
+CA_British Columbia_Chilliwack|奇利瓦克
+CA_British Columbia_Colwood|科尔伍德
+CA_British Columbia_Coquitlam|高贵林市
+CA_British Columbia_Courtenay|库特尼
+CA_British Columbia_Cranbrook|克兰布鲁克
+CA_British Columbia_Dawson Creek|道森克里克
+CA_British Columbia_Duncan|邓肯
+CA_British Columbia_Enderby|恩德比
+CA_British Columbia_Fernie|弗尼
+CA_British Columbia_Fort St. John|圣约翰堡
+CA_British Columbia_Grand Forks|大福克斯
+CA_British Columbia_Greenwood|格林伍德
+CA_British Columbia_Kamloops|坎卢普斯
+CA_British Columbia_Kelowna|基隆拿
+CA_British Columbia_Kimberley|金伯利
+CA_British Columbia_Kitimat|卡提玛特
+CA_British Columbia_Langford|朗福德
+CA_British Columbia_Langley|兰利
+CA_British Columbia_Merritt|梅利特
+CA_British Columbia_Nanaimo|纳奈莫
+CA_British Columbia_Nelson|纳尔逊
+CA_British Columbia_New Westminster|新威斯敏斯特
+CA_British Columbia_North Vancouver|北温哥华
+CA_British Columbia_Parksville|帕克斯维尔
+CA_British Columbia_Penticton|彭蒂克顿
+CA_British Columbia_Pitt Meadows|匹特草原
+CA_British Columbia_Port Alberni|艾伯尼港
+CA_British Columbia_Port Coquitlam|高桂林港
+CA_British Columbia_Port Moody|穆迪港
+CA_British Columbia_Powell River|鲍威尔河
+CA_British Columbia_Prince George|乔治王子城
+CA_British Columbia_Prince Rupert|鲁珀特王子港
+CA_British Columbia_Quesnel|奎斯内尔
+CA_British Columbia_Revelstoke|雷夫尔斯托克
+CA_British Columbia_Richmond|列治文市
+CA_British Columbia_Rossland|罗斯兰
+CA_British Columbia_Salmon Arm|萨蒙阿姆
+CA_British Columbia_Surrey|素里市
+CA_British Columbia_Terrace|泰勒斯
+CA_British Columbia_Trail|特雷尔
+CA_British Columbia_Vancouver|温哥华
+CA_British Columbia_Vernon|弗农
+CA_British Columbia_Victoria|维多利亚市
+CA_British Columbia_White Rock|白石镇
+CA_British Columbia_Williams Lake|威廉姆斯湖
+CA_Alberta|亚伯达省
+CA_Alberta_Airdrie|艾尔德里
+CA_Alberta_Brooks|布鲁克斯
+CA_Alberta_Calgary|卡尔加里
+CA_Alberta_Camrose|卡姆罗斯
+CA_Alberta_Chestermere|切斯特密尔
+CA_Alberta_Cold Lake|冷湖
+CA_Alberta_Edmonton|埃德蒙顿
+CA_Alberta_Fort Saskatchewan|萨斯喀彻温堡
+CA_Alberta_Grande Prairie|大草原城
+CA_Alberta_Lacombe|拉康姆
+CA_Alberta_Leduc|勒杜克
+CA_Alberta_Lethbridge|莱斯布里奇
+CA_Alberta_Lloydminster|劳埃德明斯特
+CA_Alberta_Medicine Hat|梅迪辛哈特
+CA_Alberta_Red Deer|红鹿市
+CA_Alberta_Spruce Grove|斯普鲁斯格罗夫
+CA_Alberta_St. Albert|圣阿尔伯特
+CA_Alberta_Wetaskiwin|韦塔斯基温
+CA_Saskatchewan|萨斯喀彻温省
+CA_Saskatchewan_Estevan|埃斯特万
+CA_Saskatchewan_Flin Flon|弗林弗伦
+CA_Saskatchewan_Humboldt|洪堡
+CA_Saskatchewan_Lloydminster|洛伊民斯特
+CA_Saskatchewan_Martensville|马腾斯维尔
+CA_Saskatchewan_Meadow Lake|梅多莱克
+CA_Saskatchewan_Melfort|梅尔福特
+CA_Saskatchewan_Melville|梅尔维尔
+CA_Saskatchewan_Moose Jaw|穆斯乔
+CA_Saskatchewan_North Battleford|北巴特尔福德
+CA_Saskatchewan_Prince Albert|艾伯特王子城
+CA_Saskatchewan_Regina|里贾纳
+CA_Saskatchewan_Saskatoon|萨斯卡通
+CA_Saskatchewan_Swift Current|斯威夫特卡伦特
+CA_Saskatchewan_Warman|沃曼
+CA_Saskatchewan_Weyburn|韦本
+CA_Saskatchewan_Yorkton|约克顿
+CA_Manitoba|曼尼托巴省
+CA_Manitoba_Brandon|布兰登
+CA_Manitoba_Dauphin|多芬
+CA_Manitoba_Flin Flon|弗林弗伦
+CA_Manitoba_Morden|莫登
+CA_Manitoba_Portage la Prairie|波蒂奇拉普雷里
+CA_Manitoba_Selkirk|些吉
+CA_Manitoba_Steinbach|斯坦巴克
+CA_Manitoba_Thompson|汤普森
+CA_Manitoba_Winkler|温克勒
+CA_Manitoba_Winnipeg|温尼伯
+CA_Ontario|安大略省
+CA_Ontario_Barrie|巴里
+CA_Ontario_Belleville|贝尔维尔
+CA_Ontario_Brampton|宾顿
+CA_Ontario_Brant|布兰特
+CA_Ontario_Brantford|布兰特福德
+CA_Ontario_Brockville|布罗克维尔
+CA_Ontario_Burlington|布灵敦
+CA_Ontario_Cambridge|剑桥
+CA_Ontario_Clarence-Rockland|克拉伦斯罗克兰
+CA_Ontario_Cornwall|康沃尔
+CA_Ontario_Dryden|德赖登
+CA_Ontario_Elliot Lake|埃利奥特莱克
+CA_Ontario_Greater Sudbury|大萨德伯里市
+CA_Ontario_Guelph|圭尔夫
+CA_Ontario_Haldimand County|哈迪曼郡
+CA_Ontario_Hamilton|哈密尔顿
+CA_Ontario_Kirkland Lake|吉兰湖
+CA_Ontario_Kenora|凯诺拉
+CA_Ontario_Kingston|京士顿
+CA_Ontario_Kitchener|基秦拿
+CA_Ontario_London|伦敦
+CA_Ontario_Niagara Falls|尼亚加拉瀑布城
+CA_Ontario_Norfolk County|诺福克郡
+CA_Ontario_North Bay|北湾
+CA_Ontario_Mississauga|密西沙加
+CA_Ontario_Markham|万锦
+CA_Ontario_Orillia|奥里利亚
+CA_Ontario_Oshawa|奥沙瓦
+CA_Ontario_Ottawa|渥太华
+CA_Ontario_Owen Sound|欧文桑德
+CA_Ontario_Pembroke|彭布罗克郡
+CA_Ontario_Peterborough|彼得堡
+CA_Ontario_Pickering|皮克宁市
+CA_Ontario_Port Colborne|科尔本港
+CA_Ontario_Prince Edward County|爱德华王子县
+CA_Ontario_Quinte West|西里
+CA_Ontario_Sarnia|珊尼亚
+CA_Ontario_Temiskaming Shores|Temiskaming海岸
+CA_Ontario_Thorold|索罗尔德
+CA_Ontario_Thunder Bay|雷湾
+CA_Ontario_Timmins|天明
+CA_Ontario_Toronto|多伦多
+CA_Ontario_Vaughan|旺市
+CA_Ontario_Waterloo|沃特卢
+CA_Ontario_Welland|韦兰
+CA_Ontario_Windsor|温莎
+CA_Ontario_Woodstock|伍德斯托克
+CA_Ontario_St. Catharines|圣凯瑟琳市
+CA_Ontario_Stratford|斯特勒福
+CA_Ontario_Sault Sainte Marie|苏圣玛丽
+CA_Ontario_St. Thomas|圣托马斯
+CA_Quebec|魁北克省
+CA_Quebec_Alma|阿尔马
+CA_Quebec_Châteauguay|城堡盖
+CA_Quebec_Chibougamau|希布加莫
+CA_Quebec_Chicoutimi|诗古提米
+CA_Quebec_Gaspé|加斯佩
+CA_Quebec_Gatineau|加蒂诺
+CA_Quebec_Inukjuak|伊努朱亚克
+CA_Quebec_Ivujivik|伊武志维克
+CA_Quebec_Kangiqsujuaq|康吉克苏华克
+CA_Quebec_Sept-Îles|七岛
+CA_Quebec_Sherbrooke|舍卜
+CA_Quebec_Saguenay|山更尼
+CA_Quebec_Schefferville|谢弗村
+CA_Quebec_Kuujjuaq|古朱华克
+CA_Quebec_Kuujjuarapik|古朱华拉碧
+CA_Quebec_Eastmain|东主
+CA_Quebec_Montréal|蒙特利尔
+CA_Quebec_Natashquan|纳塔诗昆
+CA_Quebec_Rivière-du-Loup|陆卜河
+CA_Quebec_Trois-Rivières|三河市
+CA_Quebec_Ville de Québec|魁北克市
+CA_New Brunswick|新不伦瑞克省
+CA_New Brunswick_Saint John|圣约翰
+CA_New Brunswick_Moncton|蒙克顿
+CA_New Brunswick_Fredericton|弗雷德里克顿
+CA_New Brunswick_Sackville|袋村
+CA_Prince Edward Island|爱德华王子岛省
+CA_Prince Edward Island_Charlottetow|查洛城
+CA_Prince Edward Island_Summerside|森麻实
+CA_Nova Scotia|新斯科舍省
+CA_Nova Scotia_Antigonish|安蒂戈尼什
+CA_Nova Scotia_Glace Bay|格莱斯湾
+CA_Nova Scotia_Halifax|夏里法斯
+CA_Nova Scotia_Dartmouth|达特茅斯
+CA_Nova Scotia_Prince George|乔治王子城
+CA_Nova Scotia_Wolfville|狼村
+CA_Nova Scotia_Yarmouth|雅茅斯
+CA_Nova Scotia_Sydney|悉尼
+CA_Newfoundland and Labrador|纽芬兰-拉布拉多省
+CA_Newfoundland and Labrador_Cartwright|卡特赖特
+CA_Newfoundland and Labrador_Corner Brook|角落卜克
+CA_Newfoundland and Labrador_Davis Inlet|戴维斯因莱特
+CA_Newfoundland and Labrador_Goose Bay|鹅湾
+CA_Newfoundland and Labrador_Hopedale|希望带
+CA_Newfoundland and Labrador_Indian Harbour|印第安港
+CA_Newfoundland and Labrador_St. Anthony|圣安东尼
+CA_Newfoundland and Labrador_St. John's|圣约翰斯
+CA_Newfoundland and Labrador_Gander|甘德
+CA_Newfoundland and Labrador_Nain|内恩
+CA_Newfoundland and Labrador_Port-aux-Basques|巴斯克港
+CA_Yukon|育空领地
+CA_Yukon_Beaver Creek|比弗河
+CA_Yukon_Carmacks|卡马克斯
+CA_Yukon_Dawson City|道森
+CA_Yukon_Mayo|梅奥
+CA_Yukon_Old Crow|旧克罗
+CA_Yukon_Ross River|罗斯河
+CA_Yukon_Whitehorse|白马
+CA_Northwest Territories|西北领地
+CA_Northwest Territories_Arctic Red River|北极红河
+CA_Northwest Territories_Fort Franklin|富兰克林堡
+CA_Northwest Territories_Fort Good Hope|好望堡
+CA_Northwest Territories_Hay River|海河
+CA_Northwest Territories_Holman|霍尔曼
+CA_Northwest Territories_Inuvik|伊努维克
+CA_Northwest Territories_Fort Resolution|雷索卢申堡
+CA_Northwest Territories_Nahanni Butte|纳汉尼比尤特
+CA_Northwest Territories_Reindeer Station|伦迪尔站
+CA_Northwest Territories_Sachs Harbour|萨克斯港
+CA_Northwest Territories_Wrigley|永利
+CA_Northwest Territories_Yellowknife|黄刀镇
+CA_Northwest Territories_Sawmill Bay|索米尔湾
+CA_Nunavut|努纳武特领地
+CA_Nunavut_Alert|阿勒特
+CA_Nunavut_Arctic Bay|北极湾
+CA_Nunavut_Baker Lake|贝克湖
+CA_Nunavut_Bathurst Inlet|巴瑟斯特因莱特
+CA_Nunavut_Broughton Island|布罗顿岛
+CA_Nunavut_Cambridge Bay|剑桥湾镇
+CA_Nunavut_Cape Dyer|开普代尔
+CA_Nunavut_Chesterfield Inlet|切斯特田因莱特
+CA_Nunavut_Clyde River|克莱德河
+CA_Nunavut_Coral Harbour|珊瑚港
+CA_Nunavut_Eureka|尤里卡
+CA_Nunavut_Umingmaktuuq|尤明默督
+CA_Nunavut_Grise Fiord|格赖斯菲约德
+CA_Nunavut_Hall Beach|堂滩
+CA_Nunavut_Igloolik|依格鲁利克
+CA_Nunavut_Gjoa Harbour|约亚港
+CA_Nunavut_Iqaluit|伊魁特
+CA_Nunavut_Pond Inlet|因莱特港
+CA_Nunavut_Rankin Inlet|兰今湾
+CA_Nunavut_Resolute|瑞瑟鲁特
+KH|柬埔寨
+KH_Otdar Mean Chey|奥多棉吉
+KH_Banteay Mean Chey|班迭棉吉
+KH_Prey Veng|波罗勉
+KH_Krong Pailin|拜林市
+KH_Krong Keb|白马市
+KH_Kampong Chhnang|磅清扬
+KH_Kampong Spoe|磅士卑
+KH_Kampong Thum|磅同
+KH_Preah Vihear|柏威夏
+KH_Kampong Cham|磅湛
+KH_Takev|茶胶
+KH_Svay Rieng|柴桢
+KH_Kampot|贡布
+KH_Kandal|干丹
+KH_Kaoh Kong|戈公
+KH_Phnum Penh|金边市
+KH_Kracheh|桔井
+KH_Mondol Kiri|蒙多基里
+KH_Bat Dambang|马德望
+KH_Pouth sat|菩萨
+KH_Stoeng Treng|上丁
+KH_Krong Preah|西哈努克市
+KH_Siem Reab|暹粒
+KH_Rotanak Kiri|腊塔纳基里
+HR|克罗地亚
+CM|喀麦隆
+KY|开曼群岛
+KE|肯尼亚
+KW|科威特
+LR|利比里亚
+LB|黎巴嫩
+LY|利比亚
+RO|罗马尼亚
+RE|留尼旺岛
+LU|卢森堡
+LS|莱索托
+LV|拉脱维亚
+RW|卢旺达
+LA|老挝
+LI|列支敦士登
+LT|立陶宛
+MM|缅甸
+MG|马达加斯加
+MV|马尔代夫
+MV_Addu Atoll|阿杜
+MV_North Ari Atoll|北阿里
+MV_North Thiladhunmathi|北蒂拉杜马蒂
+MV_North Miladhunmadhulu|北米拉杜马杜卢
+MV_North Maalhosmadhulu|北马洛斯马杜卢
+MV_North Nilandhe Atoll|北尼兰杜
+MV_North Huvadhu Atoll|北苏瓦迪瓦
+MV_Foammulah|福阿穆拉库
+MV_Faadhippolhu|法迪福卢
+MV_Felidhu Atoll|费利杜
+MV_Hadhdhunmathi|哈杜马蒂
+MV_Kolhumadulu|科卢马杜卢
+MV_Male|马累
+MV_Male Atoll|马累岛
+MV_Mulakatholhu|穆拉库
+MV_South Ari Atoll|南阿里
+MV_South Thiladhunmathi|南蒂拉杜马蒂
+MV_South Miladhunmadhulu|南米拉杜马杜卢
+MV_South Maalhosmadulu|南马洛斯马杜卢
+MV_South Nilandhe Atoll|南尼兰杜
+MV_South Huvadhu Atoll|南苏瓦迪瓦
+MD|摩尔多瓦
+US|美国
+US_Alabama|亚拉巴马州
+US_Alabama_Auburn City|奥本市
+US_Alabama_Baldwin County|鲍德温县
+US_Alabama_Birmingham City|伯明翰市
+US_Alabama_Calhoun County|迪凯特市
+US_Alabama_Cullman County|卡尔曼县
+US_Alabama_Decatur City|迪凯特市
+US_Alabama_Dothan City|多森市
+US_Alabama_Hoover City|胡佛市
+US_Alabama_Huntsville City|亨茨维尔市
+US_Alabama_Jefferson County|杰斐逊县
+US_Alabama_Lee County|李县
+US_Alabama_Limestone County|莱姆斯通县
+US_Alabama_Madison County|麦迪逊县
+US_Alabama_Mobile City|莫比尔市
+US_Alabama_Mobile County|莫比尔县
+US_Alabama_Montgomery City|蒙哥马利市
+US_Alabama_Shelby County|谢尔比县
+US_Alabama_Tuscaloosa City|塔斯卡卢萨市
+US_Alabama_Tuscaloosa County|塔斯卡卢萨县
+US_Alaska|阿拉斯加州
+US_Alaska_Anchorage Municipality|安克雷奇市
+US_Alaska_Fairbanks North Star Borough|费尔班克斯北极星自治市镇
+US_Alaska_Matanuska-Susitna Borough|马塔努斯卡 - 苏西特纳自治市镇
+US_Arizona|亚利桑那州
+US_Arizona_Apache County|阿帕奇县
+US_Arizona_Avondale City|埃文代尔市
+US_Arizona_Buckeye Town|巴克艾镇
+US_Arizona_Casa Grande City|卡萨格兰德市
+US_Arizona_Chandler City|钱德勒市
+US_Arizona_Coconino County|科科尼诺县
+US_Arizona_Flagstaff City|弗拉格斯塔夫市
+US_Arizona_Gilbert Town|吉尔伯特镇
+US_Arizona_Glendale City|格伦代尔市
+US_Arizona_Goodyear City|古德伊尔市
+US_Arizona_Lake Havasu City|哈瓦苏湖市
+US_Arizona_Maricopa County|马里科帕县
+US_Arizona_Mesa City|梅萨市
+US_Arizona_Mohave County|莫哈维县
+US_Arizona_Navajo County|纳瓦霍县
+US_Arizona_Peoria City|皮奥里亚市
+US_Arizona_Phoenix City|凤凰城
+US_Arizona_Pima County|皮马县
+US_Arizona_Pinal County|皮纳尔县
+US_Arizona_Scottsdale City|斯科茨代尔市
+US_Arizona_Surprise City|瑟普赖斯市
+US_Arizona_Tempe City|坦佩市
+US_Arizona_Tucson City|图森市
+US_Arizona_Yavapai County|亚瓦派县
+US_Arizona_Yuma City|尤马市
+US_Arizona_Yuma County|尤马县
+US_Arkansas|阿肯色州
+US_Arkansas_Conway City|康威市
+US_Arkansas_Fayetteville City|费耶特维尔市
+US_Arkansas_Fort Smith City|史密斯堡市
+US_Arkansas_Jonesboro City|琼斯博罗市
+US_Arkansas_Little Rock City|小岩城
+US_Arkansas_North Little Rock City|北小岩城
+US_Arkansas_Pine Bluff City|派恩布拉夫市
+US_Arkansas_Rogers City|杰斯市
+US_Arkansas_Springdale City|斯普林代尔市
+US_California|加利福尼亚州
+US_California_Alameda City|阿拉米达市
+US_California_Alameda County|阿拉米达县
+US_California_Alhambra City|阿罕布拉市
+US_California_Aliso Viejo City|亚里索维耶荷市
+US_California_Anaheim City|阿纳海姆市
+US_California_Antioch City|安条克市
+US_California_Apple Valley Town|苹果谷镇
+US_California_Arcadia City|阿卡迪亚市
+US_California_Bakersfield City|贝克斯菲尔德市
+US_California_Baldwin Park City|鲍德温公园市
+US_California_Bellflower City|贝尔佛劳尔市
+US_California_Berkeley City|伯克利市
+US_California_Brentwood City|布伦特伍德市
+US_California_Buena Park City|布埃纳帕克市
+US_California_Burbank City|伯班克市
+US_California_Butte County|布尤特县
+US_California_Camarillo City|卡马里奥市
+US_California_Carlsbad City|卡尔斯巴德市
+US_California_Carson City|卡森市
+US_California_Cathedral City|卡西德勒尔市
+US_California_Cerritos City|塞里托斯市
+US_California_Chico City|奇科市
+US_California_Chino City|茅野市
+US_California_Chino Hills City|奇诺岗市
+US_California_Chula Vista City|丘拉维斯塔市
+US_California_Citrus Heights City|圣特斯海茨市
+US_California_Clovis City|克洛维斯市
+US_California_Colton City|科尔顿市
+US_California_Compton City|康普顿市
+US_California_Concord City|康科德市
+US_California_Contra Costa County|康特拉科斯塔县
+US_California_Corona City|科罗纳市
+US_California_Costa Mesa City|科斯塔梅萨市
+US_California_Cupertino City|库比蒂诺市
+US_California_Daly City|达利市
+US_California_Davis City|戴维斯市
+US_California_Delano City|德拉诺市
+US_California_Diamond Bar City|钻石吧市
+US_California_Downey City|唐尼市
+US_California_Dublin City|都柏林市
+US_California_Eastvale City|东谷市
+US_California_El Cajon City|埃尔卡洪市
+US_California_El Dorado County|埃尔多拉多县
+US_California_El Monte City|艾尔蒙特市
+US_California_Elk Grove City|埃尔克格罗夫市
+US_California_Encinitas City|恩西尼塔斯市
+US_California_Escondido City|埃斯孔迪多市
+US_California_Fairfield City|费尔菲尔德市
+US_California_Folsom City|福尔瑟姆市
+US_California_Fontana City|方塔纳市
+US_California_Fountain Valley City|喷泉谷市
+US_California_Fremont City|弗里蒙特市
+US_California_Fresno City|弗雷斯诺市
+US_California_Fresno County|弗雷斯诺县
+US_California_Fullerton City|富勒顿市
+US_California_Garden Grove City|加登格罗夫市
+US_California_Gardena City|加迪纳市
+US_California_Gilroy City|吉尔罗伊市
+US_California_Glendale City|格伦代尔市
+US_California_Glendora City|格伦多拉市
+US_California_Hanford City|汉福德市
+US_California_Hawthorne City|霍桑市
+US_California_Hayward City|海沃德市
+US_California_Hemet City|赫米特市
+US_California_Hesperia City|赫斯珀里亚市
+US_California_Highland City|高地市
+US_California_Humboldt County|洪堡县
+US_California_Huntington Beach City|亨廷顿海滩市
+US_California_Huntington Park City|亨廷顿帕克市
+US_California_Indio City|印地欧市
+US_California_Inglewood City|英格尔伍德市
+US_California_Irvine City|尔湾市
+US_California_Jurupa Valley City|朱鲁帕谷市
+US_California_Kern County|克恩县
+US_California_La Habra City|拉哈布拉市
+US_California_La Mesa City|拉梅萨市
+US_California_Laguna Niguel City|尼古湖市
+US_California_Lake Elsinore City|埃尔西诺湖市
+US_California_Lake Forest City|森林湖市
+US_California_Lakewood City|莱克伍德市
+US_California_Lancaster City|兰开斯特市
+US_California_Livermore City|利弗莫尔市
+US_California_Lodi City|洛迪市
+US_California_Long Beach City|长滩市
+US_California_Los Angeles City|洛杉矶市
+US_California_Los Angeles County|洛杉矶县
+US_California_Lynwood City|林伍德市
+US_California_Madera City|马德拉市
+US_California_Madera County|马德拉县
+US_California_Manteca City|曼特卡市
+US_California_Marin County|马林县
+US_California_Mendocino County|门多西诺县
+US_California_Menifee City|门尼菲市
+US_California_Merced City|默塞德市
+US_California_Merced County|默塞德县
+US_California_Milpitas City|米尔皮塔斯市
+US_California_Mission Viejo City|米慎维荷市
+US_California_Modesto City|莫德斯托市
+US_California_Montebello City|蒙特贝罗市
+US_California_Monterey County|蒙特雷县
+US_California_Monterey Park City|蒙特利公园市
+US_California_Moreno Valley City|莫雷诺谷市
+US_California_Mountain View City|山景市
+US_California_Murrieta City|穆列塔市
+US_California_Napa City|纳帕市
+US_California_National City|纳雄耐尔市
+US_California_Nevada County|内华达县
+US_California_Newport Beach City|纽波特海滩市
+US_California_Norwalk City|诺沃克市
+US_California_Novato City|诺瓦托市
+US_California_Oakland City|奥克兰市
+US_California_Oceanside City|欧申赛德市
+US_California_Ontario City|安大略市
+US_California_Orange City|奥兰治市
+US_California_Orange County|奥兰治县
+US_California_Oxnard City|奥克斯纳德市
+US_California_Palm Desert City|棕榈沙漠市
+US_California_Palmdale City|帕姆代尔市
+US_California_Palo Alto City|帕洛阿托市
+US_California_Paramount City|派拉蒙市
+US_California_Pasadena City|帕萨迪纳市
+US_California_Perris City|佩里斯市
+US_California_Petaluma City|佩塔卢马市
+US_California_Pico Rivera City|皮克里维拉市
+US_California_Pittsburg City|匹兹堡市
+US_California_Placentia City|普拉森市
+US_California_Placer County|普莱瑟县
+US_California_Pleasanton City|普莱森顿市
+US_California_Pomona City|波莫纳市
+US_California_Porterville City|波特维尔市
+US_California_Rancho Cordova City|兰乔科尔多瓦市
+US_California_Rancho Cucamonga City|库卡蒙加牧场市
+US_California_Redding City|雷丁市
+US_California_Redlands City|雷德兰兹市
+US_California_Redondo Beach City|雷东多海滩市
+US_California_Redwood City|雷德伍德市
+US_California_Rialto City|里亚托市
+US_California_Richmond City|列治文市
+US_California_Riverside City|里弗赛德市
+US_California_Riverside County|里弗赛德县
+US_California_Rocklin City|罗克林市
+US_California_Rosemead City|罗斯米德市
+US_California_Roseville City|罗斯维尔市
+US_California_Sacramento City|萨克拉门托市
+US_California_Sacramento County|萨克拉门托县
+US_California_Salinas City|萨利纳斯市
+US_California_San Bernardino City|圣贝纳迪诺市
+US_California_San Bernardino County|圣贝纳迪诺县
+US_California_San Buenaventura City|圣布埃纳文图拉市
+US_California_San Clemente City|圣克利门蒂市
+US_California_San Diego City|圣迭戈市
+US_California_San Diego County|圣迭戈县
+US_California_San Francisco City|旧金山市
+US_California_San Joaquin County|圣华金县
+US_California_San Jose City|圣何塞市
+US_California_San Leandro City|圣莱安德罗市
+US_California_San Luis Obispo County|圣路易斯奥比斯波县
+US_California_San Marcos City|圣马科斯市
+US_California_San Mateo City|圣马特奥市
+US_California_San Mateo County|圣马特奥县
+US_California_San Rafael City|圣拉斐尔市
+US_California_San Ramon City|圣拉蒙市
+US_California_Santa Ana City|圣安娜市
+US_California_Santa Barbara City|圣巴巴拉市
+US_California_Santa Barbara County|圣巴巴拉县
+US_California_Santa Clara City|圣克拉拉市
+US_California_Santa Clara County|圣克拉拉县
+US_California_Santa Clarita City|圣塔克拉瑞塔市
+US_California_Santa Cruz City|圣克鲁斯市
+US_California_Santa Cruz County|圣克鲁斯县
+US_California_Santa Maria City|圣玛丽亚市
+US_California_Santa Monica City|圣莫尼卡市
+US_California_Santa Rosa City|圣罗莎市
+US_California_Santee City|桑蒂市
+US_California_Shasta County|沙斯塔县
+US_California_Simi Valley City|西米谷市
+US_California_Sonoma County|索诺玛县
+US_California_South Gate City|南盖特市
+US_California_South San Francisco City|南旧金山市
+US_California_Stanislaus County|斯坦尼斯劳斯县
+US_California_Stockton City|斯托克顿市
+US_California_Sunnyvale City|桑尼维尔市
+US_California_Temecula City|蒂梅丘拉市
+US_California_Thousand Oaks City|千橡市
+US_California_Torrance City|托兰斯市
+US_California_Tracy City|特雷西市
+US_California_Tulare City|莱里市
+US_California_Tulare County|图莱里县
+US_California_Turlock City|特洛克市
+US_California_Tustin City|塔斯廷市
+US_California_Union City|联合市
+US_California_Upland City|阿普兰市
+US_California_Vacaville City|瓦卡维尔市
+US_California_Vallejo City|瓦列霍市
+US_California_Ventura County|文图拉县
+US_California_Victorville City|维克托维尔市
+US_California_Visalia City|维塞利亚市
+US_California_Vista City|维斯塔市
+US_California_Walnut Creek City|核桃溪市
+US_California_Watsonville City|沃森维尔市
+US_California_West Covina City|西柯汶纳市
+US_California_West Sacramento City|西萨克拉门托市
+US_California_Westminster City|威斯敏斯特市
+US_California_Whittier City|惠提尔市
+US_California_Woodland City|伍德兰市
+US_California_Yorba Linda City|约巴林达市
+US_California_Yuba City|尤巴市
+US_California_Yuba County|尤巴县
+US_California_Yucaipa City|尤卡帕市
+US_Colorado|科罗拉多州
+US_Colorado_Adams County|亚当斯县
+US_Colorado_Arapahoe County|阿拉帕霍县
+US_Colorado_Arvada City|阿瓦达市
+US_Colorado_Aurora City|奥罗拉市
+US_Colorado_Boulder City|博尔德市
+US_Colorado_Broomfield City|布鲁姆菲尔德市
+US_Colorado_Castle Rock Town|岩堡镇
+US_Colorado_Centennial City|森特尼尔市
+US_Colorado_Colorado Springs City|科罗拉多斯普林斯市
+US_Colorado_CommerceCity|科默斯市
+US_Colorado_Denver City|丹佛市
+US_Colorado_Douglas County|道格拉斯县
+US_Colorado_El Paso County|埃尔帕索县
+US_Colorado_Fort Collins City|柯林斯堡市
+US_Colorado_Grand Junction City|大章克申市
+US_Colorado_Greeley City|格里利市
+US_Colorado_Jefferson County|杰斐逊县
+US_Colorado_Lakewood City|莱克伍德市
+US_Colorado_Larimer County|拉里默县
+US_Colorado_Longmont City|朗蒙特市
+US_Colorado_Loveland City|拉夫兰市
+US_Colorado_Mesa County|梅萨县
+US_Colorado_Pueblo City|普韦布洛市
+US_Colorado_Pueblo County|普韦布洛县
+US_Colorado_Thornton City|桑顿市
+US_Colorado_Westminster City|威斯敏斯特市
+US_Connecticut|康涅狄格州
+US_Connecticut_Bridgeport City|布里奇波特市
+US_Connecticut_Bridgeport Town|布里奇波特镇
+US_Connecticut_Bristol City|布里斯托市
+US_Connecticut_Bristol Town|布里斯托镇
+US_Connecticut_Danbury City|丹伯里市
+US_Connecticut_Danbury Town|丹伯里镇
+US_Connecticut_East Hartford Town|东哈特福德镇
+US_Connecticut_Fairfield County|费尔菲尔德县
+US_Connecticut_Fairfield Town|费尔菲尔德镇
+US_Connecticut_Greenwich Town|格林尼治镇
+US_Connecticut_Hamden Town|哈姆登市
+US_Connecticut_Hartford City|哈特福德市
+US_Connecticut_Hartford County|哈特福德县
+US_Connecticut_Hartford Town|哈特福德镇
+US_Connecticut_Litchfield County|利奇菲尔德县
+US_Connecticut_Manchester Town|曼彻斯特市
+US_Connecticut_Meriden City|梅里登市
+US_Connecticut_Meriden Town|梅里登镇
+US_Connecticut_Middlesex County|米德尔塞克斯县
+US_Connecticut_Milford City|米尔福德市
+US_Connecticut_Milford Town|米尔福德镇
+US_Connecticut_New Britain City|新不列颠市
+US_Connecticut_New Britain Town|新不列颠市
+US_Connecticut_New Haven City|纽黑文市
+US_Connecticut_New Haven County|纽黑文县
+US_Connecticut_New Haven Town|纽黑文镇
+US_Connecticut_New London County|新伦敦县
+US_Connecticut_Norwalk City|诺沃克市
+US_Connecticut_Norwalk Town|诺瓦克镇
+US_Connecticut_Stamford City|斯坦福市
+US_Connecticut_Stamford Town|斯坦福镇
+US_Connecticut_Stratford Town|斯特拉特福镇
+US_Connecticut_Waterbury City|沃特伯里市
+US_Connecticut_Waterbury Town|沃特伯里市
+US_Connecticut_West Hartford Town|西哈特福德镇
+US_Connecticut_West Haven City|西黑文市
+US_Connecticut_West Haven Town|西黑文镇
+US_Connecticut_Windham County|温德姆县
+US_Delaware|特拉华州
+US_Delaware_Kent County|肯特县
+US_Delaware_New Castle County|纽卡斯尔县
+US_Delaware_Sussex County|萨塞克斯县
+US_Delaware_Wilmington City|威尔明顿市
+US_District of Columbia|哥伦比亚特区
+US_District of Columbia_Washington City|华盛顿市
+US_Florida|佛罗里达州
+US_Florida_Alachua County|阿拉楚阿县
+US_Florida_Bay County|海湾县
+US_Florida_Boca Raton City|博卡拉顿市
+US_Florida_Boynton Beach City|博因顿比奇市
+US_Florida_Bradenton City|布雷登顿市
+US_Florida_Brevard County|布里瓦德县
+US_Florida_Cape Coral City|开普科勒尔市
+US_Florida_Charlotte County|夏洛特县
+US_Florida_Citrus County|希勒斯县
+US_Florida_Clay County|克莱县
+US_Florida_Clearwater City|克利尔沃特市
+US_Florida_Coconut Creek City|科科纳特克里克市
+US_Florida_Collier County|科利尔县
+US_Florida_Columbia County|哥伦比亚县
+US_Florida_Coral Gables City|科勒尔盖布尔斯市
+US_Florida_Coral Springs City|科勒尔斯普林斯市
+US_Florida_Davie Town|戴维市
+US_Florida_Daytona Beach City|德通纳海滩市
+US_Florida_Deerfield Beach City|迪尔菲尔德海滩市
+US_Florida_Delray Beach City|德拉海滩市
+US_Florida_Deltona City|德尔托纳市
+US_Florida_Doral City|多拉市
+US_Florida_Escambia County|埃斯坎比亚县
+US_Florida_Fort Lauderdale City|劳德代尔堡市
+US_Florida_Fort Myers City|迈尔斯堡市
+US_Florida_Gainesville City|盖恩斯维尔市
+US_Florida_Hernando County|赫尔南多县
+US_Florida_Hialeah City|海厄利亚市
+US_Florida_Highlands County|高原县
+US_Florida_Hillsborough County|希尔斯伯勒县
+US_Florida_Hollywood City|好莱坞市
+US_Florida_Homestead City|霍姆斯特德市
+US_Florida_Indian River County|印地安河县
+US_Florida_Jacksonville City|杰克逊维尔市
+US_Florida_Jupiter Town|朱庇特镇
+US_Florida_Kissimmee City|基西米市
+US_Florida_Lake County|莱克县
+US_Florida_Lakeland City|莱克兰市
+US_Florida_Largo City|拉哥市
+US_Florida_Lauderhill City|兰德尔希尔市
+US_Florida_Lee County|李县
+US_Florida_Leon County|莱昂县
+US_Florida_Manatee County|马纳提县
+US_Florida_Margate City|马盖特市
+US_Florida_Marion County|马里恩县
+US_Florida_Martin County|马丁县
+US_Florida_Melbourne City|墨尔本市
+US_Florida_Miami Beach City|迈阿密海滩市
+US_Florida_Miami City|迈阿密市
+US_Florida_Miami Gardens City|迈阿密花园市
+US_Florida_Miami-Dade County|迈阿密戴德县
+US_Florida_Miramar City|米拉马尔市
+US_Florida_Nassau County|纳苏县
+US_Florida_North Miami City|北迈阿密市
+US_Florida_North Port City|北港市
+US_Florida_Ocala City|奥卡拉市
+US_Florida_Okaloosa County|奥卡卢萨县
+US_Florida_Orange County|奥兰治县
+US_Florida_Orlando City|奥兰多市
+US_Florida_Osceola County|奥西奥拉县
+US_Florida_Palm Bay City|棕榈湾市
+US_Florida_Palm Beach County|棕榈滩县
+US_Florida_Palm Beach Gardens City|棕榈滩花园市
+US_Florida_Palm Coast City|棕榈海岸市
+US_Florida_Pasco County|帕斯科县
+US_Florida_Pembroke Pines City|彭布罗克派恩斯市
+US_Florida_Pensacola City|彭萨科拉市
+US_Florida_Pinellas County|皮内拉斯县
+US_Florida_Pinellas Park City|皮内拉斯公园市
+US_Florida_Plantation City|普兰太绅市
+US_Florida_Polk County|波尔克县
+US_Florida_Pompano Beach City|庞帕诺比奇市
+US_Florida_Port Orange City|珀特奥兰治市
+US_Florida_Port St. Lucie City|圣露西港市
+US_Florida_Putnam County|帕特兰县
+US_Florida_Sanford City|桑福德市
+US_Florida_Santa Rosa County|圣罗莎县
+US_Florida_Sarasota City|萨拉索塔市
+US_Florida_Sarasota County|萨拉索塔县
+US_Florida_Seminole County|塞米诺尔县
+US_Florida_St. Johns County|圣约翰斯县
+US_Florida_St. Lucie County|圣露西县
+US_Florida_St. Petersburg City|圣彼德斯堡市
+US_Florida_Sumter County|萨姆特县
+US_Florida_Sunrise City|日出市
+US_Florida_Tallahassee City|塔拉哈西市
+US_Florida_Tamarac City|塔马拉克市
+US_Florida_Tampa City|坦帕市
+US_Florida_Volusia County|沃卢夏县
+US_Florida_Walton County|沃尔顿县
+US_Florida_Wellington Village|惠灵顿村
+US_Florida_West Palm Beach City|西棕榈滩市
+US_Florida_Weston City|韦斯顿市
+US_Georgia|佐治亚州
+US_Georgia_Albany City|奥尔巴尼市
+US_Georgia_Alpharetta City|阿尔法利塔市
+US_Georgia_Athens-Clarke County Unified Government|雅典-克拉克县
+US_Georgia_Atlanta City|亚特兰大市
+US_Georgia_Augusta-Richmond County Consolidated Government|奥古斯塔-里士满县
+US_Georgia_Bartow County|巴托县
+US_Georgia_Brookhaven City|布鲁克黑文市
+US_Georgia_Carroll County|卡洛尔县
+US_Georgia_Catoosa County|卡图萨县
+US_Georgia_Chatham County|查塔姆县
+US_Georgia_Cherokee County|切罗基县
+US_Georgia_Clayton County|克莱顿县
+US_Georgia_Cobb County|科布县
+US_Georgia_Columbia County|哥伦比亚县
+US_Georgia_Columbus City|哥伦布市
+US_Georgia_Coweta County|考维塔县
+US_Georgia_Dekalb County|迪卡尔布县
+US_Georgia_Douglas County|道格拉斯县
+US_Georgia_Fayette County|费耶特县
+US_Georgia_Floyd County|弗洛伊德县
+US_Georgia_Forsyth County|福赛斯县
+US_Georgia_Fulton County|富尔顿县
+US_Georgia_Glynn County|格林县
+US_Georgia_Gwinnett County|格威内特县
+US_Georgia_Hall County|霍尔县
+US_Georgia_Henry County|亨利县
+US_Georgia_Houston County|休斯敦县
+US_Georgia_Johns Creek City|约翰溪市
+US_Georgia_Lowndes County|朗兹县
+US_Georgia_Macon-Bibb County|梅肯-比伯县
+US_Georgia_Marietta City|玛丽埃塔市
+US_Georgia_Newton County|牛顿县
+US_Georgia_Paulding County|波尔丁县
+US_Georgia_Rockdale County|罗克代尔县
+US_Georgia_Roswell City|罗斯威尔市
+US_Georgia_Sandy Springs City|桑迪斯普林斯市
+US_Georgia_Savannah City|萨凡纳市
+US_Georgia_Smyrna City|士麦那市
+US_Georgia_Valdosta City|瓦尔多斯塔市
+US_Georgia_Walker County|获嘉县
+US_Georgia_Walton County|沃尔顿县
+US_Georgia_Warner Robins City|华纳罗宾斯市
+US_Georgia_Whitfield County|惠特菲尔德县
+US_Hawaii|夏威夷州
+US_Hawaii_Honolulu County|檀香山县
+US_Hawaii_Urban Honolulu|檀香山市
+US_Idaho|爱达荷州
+US_Idaho_Ada County|艾达县
+US_Idaho_BoiseCity|博伊西市
+US_Idaho_Caldwell City|考德威尔市
+US_Idaho_Canyon County|坎宁县
+US_Idaho_Idaho Falls City|爱达荷福尔斯市
+US_Idaho_Meridian City|默里迪恩市
+US_Idaho_Nampa City|南帕市
+US_Idaho_Pocatello City|波卡特洛市
+US_Illinois|伊利诺伊州
+US_Illinois_Addison Township|阿迪森小镇
+US_Illinois_Algonquin Township|阿尔冈琴小镇
+US_Illinois_Arlington Heights Village|阿灵顿海茨村
+US_Illinois_Aurora City|奥罗拉市
+US_Illinois_Aurora Township|奥罗拉小镇
+US_Illinois_Avon Township|埃文小镇
+US_Illinois_Berwyn City|伯温市
+US_Illinois_Berwyn Township|伯温小镇
+US_Illinois_Bloom Township|布鲁姆小镇
+US_Illinois_Bloomingdale Township|布卢明代尔小镇
+US_Illinois_Bloomington City|布卢明顿市
+US_Illinois_Bloomington Township|布卢明顿小镇
+US_Illinois_Bolingbrook Village|波林布鲁克村
+US_Illinois_Bremen Township|不来梅小镇
+US_Illinois_Capital Township|卡皮塔尔小镇
+US_Illinois_Champaign City|尚佩恩市
+US_Illinois_Champaign Township|尚佩恩小镇
+US_Illinois_Chicago City|芝加哥市
+US_Illinois_Cicero Town|西塞罗镇
+US_Illinois_Cicero Township|西塞罗小镇
+US_Illinois_Cook County|库克县
+US_Illinois_Decatur City|迪凯特市
+US_Illinois_Decatur Township|迪凯特小镇
+US_Illinois_Des Plaines City|德斯普兰斯市
+US_Illinois_Downers Grove Township|纳斯格罗夫小镇
+US_Illinois_Du Page Township|杜佩奇小镇
+US_Illinois_Dundee Township|邓迪小镇
+US_Illinois_Dupage County|杜佩奇县
+US_Illinois_Elgin City|埃尔金市
+US_Illinois_Elgin Township|埃尔金小镇
+US_Illinois_Elk Grove Township|埃尔克格罗夫小镇
+US_Illinois_Evanston City|埃文斯顿市
+US_Illinois_Evanston Township|埃文斯顿小镇
+US_Illinois_Frankfort Township|法兰克福小镇
+US_Illinois_Grafton Township|格拉夫顿小镇
+US_Illinois_Hanover Township|汉诺威小镇
+US_Illinois_Hoffman Estates Village|霍夫曼伊斯塔特村
+US_Illinois_Joliet City|乔利埃特市
+US_Illinois_Joliet Township|乔利埃特小镇
+US_Illinois_Kane County|凯恩县
+US_Illinois_Lake County|莱克县
+US_Illinois_Leyden Township|莱顿小镇
+US_Illinois_Libertyville Township|利伯蒂维尔小镇
+US_Illinois_Lisle Township|莱尔小镇
+US_Illinois_Lockport Township|洛克波特小镇
+US_Illinois_Lyons Township|里昂小镇
+US_Illinois_Madison County|麦迪逊县
+US_Illinois_Maine Township|缅因小镇
+US_Illinois_Mchenry County|麦克亨利县
+US_Illinois_Milton Township|米尔顿小镇
+US_Illinois_Mount Prospect Village|芒特普罗斯佩克特村
+US_Illinois_Naperville City|内珀维尔市
+US_Illinois_Naperville Township|内珀维尔小镇
+US_Illinois_New Trier Township|新特里尔小镇
+US_Illinois_Niles Township|奈尔斯小镇
+US_Illinois_Normal Town|诺黙尔镇
+US_Illinois_Normal Township|诺黙尔小镇
+US_Illinois_Northfield Township|诺斯菲尔德小镇
+US_Illinois_Oak Lawn Village|奥克朗村
+US_Illinois_Oak Park Township|奥克帕克小镇
+US_Illinois_Oak Park Village|奥克帕克村
+US_Illinois_Orland Park Village|奥兰多帕克村
+US_Illinois_Orland Township|奥兰多小镇
+US_Illinois_Oswego Township|奥斯威戈小镇
+US_Illinois_Palatine Township|帕拉丁小镇
+US_Illinois_Palatine Village|帕拉丁村
+US_Illinois_Palos Township|帕洛斯小镇
+US_Illinois_Peoria City|皮奥里亚市
+US_Illinois_Peoria Township|皮奥里亚小镇
+US_Illinois_Plainfield Township|普兰菲尔德小镇
+US_Illinois_Proviso Township|普瑞威索小镇
+US_Illinois_Rich Township|里奇小镇
+US_Illinois_Rockford City|罗克福德市
+US_Illinois_Rockford Township|罗克福德小镇
+US_Illinois_Schaumburg Township|绍姆堡小镇
+US_Illinois_Schaumburg Village|绍姆堡村
+US_Illinois_Skokie Village|斯科基村
+US_Illinois_Springfield City|斯普林菲尔德市
+US_Illinois_St. Charles Township|圣查尔斯小镇
+US_Illinois_St. Clair County|圣克莱尔县
+US_Illinois_Thornton Township|桑顿小镇
+US_Illinois_Tinley Park Village|廷利公园村
+US_Illinois_Vernon Township|弗农小镇
+US_Illinois_Warren Township|沃伦小镇
+US_Illinois_Waukegan City|沃基根市
+US_Illinois_Waukegan Township|沃基根小镇
+US_Illinois_Wayne Township|韦恩小镇
+US_Illinois_Wheatland Township|惠特兰小镇
+US_Illinois_Wheaton City|惠顿市
+US_Illinois_Wheeling Township|威灵小镇
+US_Illinois_Will County|威尔县
+US_Illinois_Winnebago County|温纳贝戈县
+US_Illinois_Worth Township|沃斯小镇
+US_Illinois_York Township|约克小镇
+US_Indiana|印第安纳州
+US_Indiana_Allen County|艾伦县
+US_Indiana_Anderson City|安德森市
+US_Indiana_Anderson Township|安德森小镇
+US_Indiana_Bloomington City|布卢明顿市
+US_Indiana_Calumet Township|卡鲁梅小镇
+US_Indiana_Carmel City|卡梅尔市
+US_Indiana_Center Township|森特小镇
+US_Indiana_Clay Township|克莱小镇
+US_Indiana_Concord Township|康科德小镇
+US_Indiana_Elkhart City|埃尔克哈特市
+US_Indiana_Elkhart County|埃尔克哈特县
+US_Indiana_Evansville City|埃文斯维尔市
+US_Indiana_Fairfield Township|费尔菲尔德小镇
+US_Indiana_Fall Creek Township|福尔克里克小镇
+US_Indiana_Fishers Town|费希尔斯小镇
+US_Indiana_Fort Wayne City|韦恩堡市
+US_Indiana_Franklin Township|富兰克林小镇
+US_Indiana_Gary City|加里市
+US_Indiana_Greenwood City|格林伍德市
+US_Indiana_Hammond City|哈蒙德市
+US_Indiana_Harrison Township|哈里逊小镇
+US_Indiana_Hendricks County|亨德里克斯县
+US_Indiana_Indianapolis City|印第安纳波利斯市
+US_Indiana_Jeffersonville Township|杰斐逊维尔小镇
+US_Indiana_Knight Township|奈特小镇
+US_Indiana_Kokomo City|科科莫市
+US_Indiana_Lafayette City|拉斐特市
+US_Indiana_Lawrence Township|劳伦斯小镇
+US_Indiana_Monroe County|门罗县
+US_Indiana_Muncie City|曼西市
+US_Indiana_Noblesville City|诺布尔斯维尔市
+US_Indiana_Noblesville Township|诺布尔斯维尔小镇
+US_Indiana_North Township|诺斯小镇
+US_Indiana_Penn Township|佩恩小镇
+US_Indiana_Perry Township|佩里小镇
+US_Indiana_Pike Township|派克小镇
+US_Indiana_Pleasant Township|普莱曾特小镇
+US_Indiana_Portage Township|波蒂奇小镇
+US_Indiana_Porter County|波特县
+US_Indiana_South Bend City|南本德市
+US_Indiana_St. John Township|圣约翰小镇
+US_Indiana_St. Joseph County|圣约瑟夫县
+US_Indiana_St. Joseph Township|圣若瑟小镇
+US_Indiana_Terre Haute City|特雷霍特市
+US_Indiana_Tippecanoe County|蒂珀卡努县
+US_Indiana_Vanderburgh County|范德堡县
+US_Indiana_Wabash Township|沃巴什小镇
+US_Indiana_Warren Township|沃伦小镇
+US_Indiana_Washington Township|华盛顿小镇
+US_Indiana_Wayne Township|韦恩小镇
+US_Iowa|爱荷华州
+US_Iowa_Ames City|埃姆斯市
+US_Iowa_Ankeny City|安克尼市
+US_Iowa_Cedar Rapids City|锡达拉皮兹市
+US_Iowa_Council Bluffs City|康瑟尔布拉夫斯市
+US_Iowa_Davenport City|达文波特市
+US_Iowa_Des Moines City|得梅因市
+US_Iowa_Dubuque City|迪比克市
+US_Iowa_Iowa City|爱荷华市
+US_Iowa_Sioux City|苏斯市
+US_Iowa_Waterloo City|滑铁卢市
+US_Iowa_West Des Moines City|西得梅因市
+US_Kansas|堪萨斯州
+US_Kansas_Kansas City|堪萨斯市
+US_Kansas_Lawrence City|劳伦斯市
+US_Kansas_Lenexa City|列涅萨市
+US_Kansas_Manhattan City|曼哈顿市
+US_Kansas_Olathe City|奥拉西市
+US_Kansas_Overland Park City|欧弗兰帕克市
+US_Kansas_Shawnee City|肖尼市
+US_Kansas_Topeka City|托皮卡市
+US_Kansas_Wichita City|威奇托市
+US_Kentucky|肯塔基州
+US_Kentucky_Boone County|布恩县
+US_Kentucky_Bowling Green City|鲍灵格林市
+US_Kentucky_Laurel County|劳雷尔县
+US_Kentucky_Lexington-Fayette Urban County|列克星敦-费耶特县
+US_Kentucky_Louisville/Jefferson County Metro Government|路易斯维尔/杰斐逊县
+US_Kentucky_Owensboro City|欧文斯伯勒市
+US_Kentucky_Pike County|派克县
+US_Kentucky_Warren County|沃伦县
+US_Louisiana|路易斯安那州
+US_Louisiana_Ascension Parish|阿森松教区
+US_Louisiana_Baton Rouge City|巴吞鲁日市
+US_Louisiana_Bossier City|博西尔市
+US_Louisiana_Calcasieu Parish|卡尔克苏教区
+US_Louisiana_East Baton Rouge Parish|东巴吞鲁日教区
+US_Louisiana_Jefferson Parish|杰斐逊教区
+US_Louisiana_Kenner City|肯纳市
+US_Louisiana_Lafayette City|拉斐特市
+US_Louisiana_Lafayette Parish|拉斐特教区
+US_Louisiana_Lafourche Parish|拉福什堂区
+US_Louisiana_Lake Charles City|查尔斯湖市
+US_Louisiana_Livingston Parish|利文斯通教区
+US_Louisiana_New Orleans City|新奥尔良市
+US_Louisiana_Ouachita Parish|沃希托教区
+US_Louisiana_Rapides Parish|拉皮德堂区
+US_Louisiana_Shreveport City|什里夫波特市
+US_Louisiana_St. Tammany Parish|圣坦慕尼教区
+US_Louisiana_Tangipahoa Parish|坦吉帕霍阿堂区
+US_Louisiana_Terrebonne Parish|泰勒博恩教区
+US_Maine|缅因州
+US_Maine_Aroostook County|阿鲁斯托克县
+US_Maine_Cumberland County|坎伯兰县
+US_Maine_Kennebec County|肯纳贝克县
+US_Maine_Penobscot County|佩诺布斯科特县
+US_Maine_Portland City|波特兰市
+US_Maine_York County|约克县
+US_Maryland|马里兰州
+US_Maryland_Anne Arundel County|阿内阿伦德尔县
+US_Maryland_Baltimore City|巴尔的摩市
+US_Maryland_Bowie City|鲍伊市
+US_Maryland_Calvert County|卡尔弗特县
+US_Maryland_Carroll County|卡洛尔县
+US_Maryland_Cecil County|塞西尔县
+US_Maryland_Charles County|查尔斯县
+US_Maryland_Frederick City|弗雷德里克市
+US_Maryland_Frederick County|弗雷德里克县
+US_Maryland_Gaithersburg City|盖瑟斯堡市
+US_Maryland_Harford County|哈福德县
+US_Maryland_Montgomery County|蒙哥马利县
+US_Maryland_Prince George'S County|乔治王子县
+US_Maryland_Rockville City|罗克维尔市
+US_Maryland_St. Mary'S County|圣玛丽斯县
+US_Maryland_Washington County|华盛顿县
+US_Maryland_Wicomico County|威科米科县
+US_Massachusetts|马萨诸塞州
+US_Massachusetts_Barnstable County|巴恩斯特布尔县
+US_Massachusetts_Berkshire County|柏克夏县
+US_Massachusetts_Boston City|波士顿市
+US_Massachusetts_Bristol County|布里斯托尔县
+US_Massachusetts_Brockton City|布罗克顿市
+US_Massachusetts_Brookline Town|布鲁克林镇
+US_Massachusetts_Cambridge City|剑桥市
+US_Massachusetts_Chicopee City|奇科皮市
+US_Massachusetts_Essex County|埃塞克斯县
+US_Massachusetts_Fall River City|福尔里弗市
+US_Massachusetts_Framingham Town|弗雷明汉镇
+US_Massachusetts_Franklin County|富兰克林县
+US_Massachusetts_Hampden County|汉普登县
+US_Massachusetts_Hampshire County|汉普县
+US_Massachusetts_Haverhill City|黑弗里尔市
+US_Massachusetts_Lawrence City|劳伦斯市
+US_Massachusetts_Lowell City|洛厄尔市
+US_Massachusetts_Lynn City|林恩市
+US_Massachusetts_Malden City|莫尔登市
+US_Massachusetts_Medford City|梅德福市
+US_Massachusetts_Middlesex County|米德尔塞克斯县
+US_Massachusetts_New Bedford City|新贝德福德市
+US_Massachusetts_Newton City|牛顿市
+US_Massachusetts_Norfolk County|诺福克县
+US_Massachusetts_Peabody City|皮博迪市
+US_Massachusetts_Plymouth County|普利茅斯县
+US_Massachusetts_Plymouth Town|普利茅斯镇
+US_Massachusetts_Quincy City|昆西市
+US_Massachusetts_Revere City|里维尔市
+US_Massachusetts_Somerville City|萨默维尔市
+US_Massachusetts_Springfield City|斯普林菲尔德市
+US_Massachusetts_Taunton City|汤顿市
+US_Massachusetts_Waltham City|沃尔瑟姆市
+US_Massachusetts_Weymouth Town City|韦茅斯镇市
+US_Massachusetts_Worcester City|伍斯特市
+US_Massachusetts_Worcester County|伍斯特县
+US_Michigan|密歇根州
+US_Michigan_Allegan County|阿勒根县
+US_Michigan_Ann Arbor City|安阿伯市
+US_Michigan_Battle Creek City|巴特尔克里克市
+US_Michigan_Bay County|海湾县
+US_Michigan_Berrien County|贝林县
+US_Michigan_Calhoun County|卡尔霍恩县
+US_Michigan_Canton Charter Township|坎顿查特小镇
+US_Michigan_Clinton Charter Township|克林顿查特小镇
+US_Michigan_Clinton County|克林顿县
+US_Michigan_Dearborn City|迪尔伯恩市
+US_Michigan_Dearborn Heights City|迪尔伯恩海茨市
+US_Michigan_Detroit City|底特律市
+US_Michigan_Eaton County|伊顿县
+US_Michigan_Farmington Hills City|法明顿希尔斯市
+US_Michigan_Flint City|弗林特市
+US_Michigan_Genesee County|杰纳西河县
+US_Michigan_Grand Rapids City|大急流市
+US_Michigan_Grand Traverse County|特拉弗斯市
+US_Michigan_Ingham County|英厄姆县
+US_Michigan_Jackson County|杰克逊县
+US_Michigan_Kalamazoo City|卡拉马祖市
+US_Michigan_Kalamazoo County|卡拉马祖县
+US_Michigan_Kent County|肯特县
+US_Michigan_Kentwood City|肯特伍德市
+US_Michigan_Lansing City|兰辛市
+US_Michigan_Lapeer County|拉皮尔县
+US_Michigan_Lenawee County|莱纳维县
+US_Michigan_Livingston County|利文斯通县
+US_Michigan_Livonia City|利沃尼亚市
+US_Michigan_Macomb County|马科姆县
+US_Michigan_Macomb Township|马科姆镇
+US_Michigan_Monroe County|门罗县
+US_Michigan_Muskegon County|马斯基根县
+US_Michigan_Novi City|诺维市
+US_Michigan_Oakland County|奥克兰县
+US_Michigan_Ottawa County|渥太华县
+US_Michigan_Pontiac City|庞蒂亚克市
+US_Michigan_Rochester Hills City|罗切斯特山市
+US_Michigan_Royal Oak City|罗亚尔奥克市
+US_Michigan_Saginaw County|萨吉诺县
+US_Michigan_Shelby Charter Township|谢尔比查特小镇
+US_Michigan_Southfield City|南菲尔德市
+US_Michigan_St. Clair County|圣克莱尔县
+US_Michigan_St. Clair Shores City|圣克莱尔海岸市
+US_Michigan_Sterling Heights City|斯特灵海茨市
+US_Michigan_Taylor City|泰勒市
+US_Michigan_Troy City|特洛伊市
+US_Michigan_Van Buren County|范布伦县
+US_Michigan_Warren City|沃伦市
+US_Michigan_Washtenaw County|沃什特诺县
+US_Michigan_Waterford Charter Township|沃特福德查特小镇
+US_Michigan_Wayne County|韦恩县
+US_Michigan_West Bloomfield Charter Township|西布卢姆菲尔德查特小镇
+US_Michigan_Westland City|韦斯特兰市
+US_Michigan_Wyoming City|怀俄明市
+US_Michigan_Ypsilanti Charter Township|伊普西兰蒂查特小镇
+US_Minnesota|明尼苏达州
+US_Minnesota_Apple Valley City|阿普尔瓦利市
+US_Minnesota_Blaine City|布莱恩市
+US_Minnesota_Bloomington City|布卢明顿市
+US_Minnesota_Brooklyn Park City|布鲁克林帕克市
+US_Minnesota_Burnsville City|伯恩斯维尔市
+US_Minnesota_Coon Rapids City|库恩拉皮兹市
+US_Minnesota_Duluth City|德卢斯市
+US_Minnesota_Eagan City|伊根市
+US_Minnesota_Eden Prairie City|伊顿普瑞里市
+US_Minnesota_Lakeville City|莱克维尔市
+US_Minnesota_Maple Grove City|梅普尔格罗夫市
+US_Minnesota_Minneapolis City|明尼阿波利斯市
+US_Minnesota_Minnetonka City|明尼通卡市
+US_Minnesota_Plymouth City|普利茅斯市
+US_Minnesota_Rochester City|罗切斯特市
+US_Minnesota_St. Cloud City|圣克劳德市
+US_Minnesota_St. Louis County|圣路易斯县
+US_Minnesota_St. Paul City|圣保罗市
+US_Minnesota_Woodbury City|伍德伯里市
+US_Mississippi|密西西比州
+US_Mississippi_Gulfport City|格尔夫波特市
+US_Mississippi_Harrison County|哈里森县
+US_Mississippi_Jackson City|杰克逊市
+US_Mississippi_Jackson County|杰克逊县
+US_Mississippi_Rankin County|兰金县
+US_Mississippi_Southaven City|南海文市
+US_Missouri|密苏里州
+US_Missouri_Blue Springs City|蓝泉市
+US_Missouri_Columbia City|哥伦比亚市
+US_Missouri_Florissant City|弗洛里森特市
+US_Missouri_Franklin County|富兰克林县
+US_Missouri_Greene County|格林县
+US_Missouri_Independence City|独立市
+US_Missouri_Jefferson County|杰斐逊县
+US_Missouri_Joplin City|乔普林市
+US_Missouri_Kansas City|堪萨斯市
+US_Missouri_Lee'S Summit City|利斯萨米特市
+US_Missouri_O'Fallon City|奥法伦市
+US_Missouri_Springfield City|斯普林菲尔德市
+US_Missouri_St. Charles City|圣查尔斯市
+US_Missouri_St. Charles County|圣查尔斯县
+US_Missouri_St. Joseph City|圣约瑟夫市
+US_Missouri_St. Louis City|圣路易斯市
+US_Missouri_St. Louis County|圣路易斯县
+US_Missouri_St. Peters City|圣彼得市
+US_Montana|蒙大拿州
+US_Montana_Billings City|比林斯市
+US_Montana_Flathead County|弗拉特黑德县
+US_Montana_Great Falls City|大瀑布
+US_Montana_Missoula City|米苏拉市
+US_Nebraska|内布拉斯加州
+US_Nebraska_Bellevue City|贝尔维尤市
+US_Nebraska_Douglas County|道格拉斯县
+US_Nebraska_Grand Island City|格兰德岛市
+US_Nebraska_Lincoln City|林肯市
+US_Nebraska_Omaha City|奥马哈市
+US_Nebraska_Sarpy County|萨皮县
+US_Nevada|内华达州
+US_Nevada_Carson City|卡森市
+US_Nevada_Clark County|克拉克县
+US_Nevada_Henderson City|亨德森市
+US_Nevada_Las Vegas City|拉斯维加斯市
+US_Nevada_North Las Vegas City|北拉斯维加斯市
+US_Nevada_Reno City|里诺市
+US_Nevada_Sparks City|斯帕克斯市
+US_Nevada_Washoe County|沃肖县
+US_New Hampshire|新罕布什尔州
+US_New Hampshire_Cheshire County|赤夏县
+US_New Hampshire_Grafton County|格拉夫顿县
+US_New Hampshire_Hillsborough County|希尔斯伯勒县
+US_New Hampshire_Manchester City|曼彻斯特市
+US_New Hampshire_Merrimack County|梅里马克县
+US_New Hampshire_Nashua City|纳舒厄市
+US_New Hampshire_Rockingham County|罗金厄姆县
+US_New Hampshire_Strafford County|斯特拉福德县
+US_New Jersey|新泽西州
+US_New Jersey_Atlantic County|大西洋县
+US_New Jersey_Bayonne City|巴约讷市
+US_New Jersey_Bergen County|卑尔根县
+US_New Jersey_Brick Township|布里克小镇
+US_New Jersey_Burlington County|伯灵顿县
+US_New Jersey_Camden City|卡姆登市
+US_New Jersey_Camden County|卡姆登县
+US_New Jersey_Cape May County|开普梅县
+US_New Jersey_Cherry Hill Township|樱桃山小镇
+US_New Jersey_Clifton City|克利夫顿市
+US_New Jersey_East Orange City|东奥兰治市
+US_New Jersey_Edison Township|爱迪生小镇
+US_New Jersey_Elizabeth City|伊丽莎白市
+US_New Jersey_Essex County|埃塞克斯县
+US_New Jersey_Franklin Township|富兰克林小镇
+US_New Jersey_Gloucester County|格洛斯特县
+US_New Jersey_Gloucester Township|格洛斯特小镇
+US_New Jersey_Hamilton Township|汉密尔顿小镇
+US_New Jersey_Hoboken City|霍博肯市
+US_New Jersey_Howell Township|豪威尔小镇
+US_New Jersey_Hudson County|哈德逊县
+US_New Jersey_Hunterdon County|亨特敦县
+US_New Jersey_Irvington Township|欧文顿小镇
+US_New Jersey_Jackson Township|杰克逊小镇
+US_New Jersey_Jersey City|泽西市
+US_New Jersey_Lakewood Township|雷克伍德小镇
+US_New Jersey_Mercer County|默瑟县
+US_New Jersey_Middlesex County|米德尔塞克斯县
+US_New Jersey_Middletown Township|米德尔敦镇
+US_New Jersey_Monmouth County|蒙默思县
+US_New Jersey_Morris County|莫里斯县
+US_New Jersey_New Brunswick City|新不伦瑞克市
+US_New Jersey_Newark City|纽华克市
+US_New Jersey_North Bergen Township|北卑尔根小镇
+US_New Jersey_Ocean County|海洋县
+US_New Jersey_Old Bridge Township|老桥小镇
+US_New Jersey_Parsippany-Troy Hills Township|帕西帕尼-特洛伊希尔斯小镇
+US_New Jersey_Passaic City|帕塞伊克市
+US_New Jersey_Passaic County|帕塞伊克县
+US_New Jersey_Paterson City|帕特森市
+US_New Jersey_Perth Amboy City|珀斯安博伊市
+US_New Jersey_Piscataway Township|皮斯卡塔韦小镇
+US_New Jersey_Plainfield City|普兰菲尔德市
+US_New Jersey_Somerset County|萨默塞特县
+US_New Jersey_Sussex County|萨塞克斯县
+US_New Jersey_Toms River Township|汤姆斯河小镇
+US_New Jersey_Trenton City|特伦顿市
+US_New Jersey_Union City|尤宁市
+US_New Jersey_Union County|尤宁县
+US_New Jersey_Union Township|尤宁小镇
+US_New Jersey_Vineland City|瓦恩兰市
+US_New Jersey_Warren County|沃伦县
+US_New Jersey_Wayne Township|韦恩小镇
+US_New Jersey_West New York Town|西纽约镇
+US_New Jersey_Woodbridge Township|伍德布里奇小镇
+US_New Mexico|新墨西哥州
+US_New Mexico_Albuquerque City|阿尔伯克基市
+US_New Mexico_Bernalillo County|伯纳利欧县
+US_New Mexico_Dona Ana County|唐娜安娜县
+US_New Mexico_Las Cruces City|拉斯克鲁塞斯市
+US_New Mexico_Mckinley County|麦金利县
+US_New Mexico_Rio Rancho City|里奥兰珠市
+US_New Mexico_San Juan County|圣胡安县
+US_New Mexico_Santa Fe City|圣菲市
+US_New Mexico_Santa Fe County|圣菲县
+US_New York|纽约州
+US_New York_Albany City|奥尔巴尼市
+US_New York_Albany County|奥尔巴尼县
+US_New York_Amherst Town|阿默斯特镇
+US_New York_Babylon Town|巴比伦镇
+US_New York_Brookhaven Town|布鲁克黑文镇
+US_New York_Broome County|布鲁姆县
+US_New York_Buffalo City|布法罗市
+US_New York_Chautauqua County|肖托夸县
+US_New York_Cheektowaga Town|奇克托瓦加镇
+US_New York_Clarkstown Town|克拉克斯顿镇
+US_New York_Clay Town|克莱镇
+US_New York_Clinton County|克林顿县
+US_New York_Colonie Town|科勒尼镇
+US_New York_Dutchess County|达切斯县
+US_New York_Erie County|伊利县
+US_New York_Greece Town|希腊市
+US_New York_Greenburgh Town|格林伯格镇
+US_New York_Hamburg Town|汉堡市
+US_New York_Hempstead Town|斯特德镇
+US_New York_Hempstead Village|斯特德村
+US_New York_Huntington Town|亨廷顿镇
+US_New York_Irondequoit Town|伊朗德阔伊特镇
+US_New York_Islip Town|艾斯利普镇
+US_New York_Jefferson County|杰斐逊县
+US_New York_Monroe County|门罗县
+US_New York_Mount Vernon City|弗农山市
+US_New York_Nassau County|纳苏县
+US_New York_New Rochelle City|新罗谢尔市
+US_New York_New York City|纽约市
+US_New York_Niagara County|尼亚加拉县
+US_New York_North Hempstead Town|北斯特德镇
+US_New York_Oneida County|奥奈达县
+US_New York_Onondaga County|奥农达加县
+US_New York_Ontario County|安大略县
+US_New York_Orange County|奥兰治县
+US_New York_Orangetown Town|奥兰治敦镇
+US_New York_Oswego County|奥斯威戈县
+US_New York_Oyster Bay Town|牡蛎湾市
+US_New York_Putnam County|普特南县
+US_New York_Ramapo Town|拉马波镇
+US_New York_Rensselaer County|伦斯勒县
+US_New York_Rochester City|罗切斯特市
+US_New York_Rockland County|罗克兰县
+US_New York_Saratoga County|萨拉托加县
+US_New York_Schenectady City|斯克内克塔迪市
+US_New York_Schenectady County|斯克内克塔迪县
+US_New York_Smithtown Town|史密斯敦镇
+US_New York_Southampton Town|南安普敦镇
+US_New York_St. Lawrence County|圣劳伦斯县
+US_New York_Steuben County|斯托本县
+US_New York_Suffolk County|萨福克县
+US_New York_Sullivan County|沙利文县
+US_New York_Syracuse City|锡拉丘兹市
+US_New York_Tompkins County|汤普金斯县
+US_New York_Tonawanda Town|托纳旺达镇
+US_New York_Ulster County|阿尔斯特县
+US_New York_Union Town|尤宁市
+US_New York_Utica City|尤蒂卡市
+US_New York_Wayne County|韦恩县
+US_New York_Westchester County|威彻斯特县
+US_New York_White Plains City|怀特普莱恩斯市
+US_New York_Yonkers City|扬克斯市
+US_North Carolina|北卡罗来纳州
+US_North Carolina_Alamance County|阿拉曼斯县
+US_North Carolina_Asheville City|阿什维尔
+US_North Carolina_Brunswick County|不伦瑞克县
+US_North Carolina_Buncombe County|邦科姆县
+US_North Carolina_Burke County|伯克县
+US_North Carolina_Burlington City|伯灵顿市
+US_North Carolina_Cabarrus County|卡贝勒斯县
+US_North Carolina_Cary Town|卡里镇
+US_North Carolina_Catawba County|卡托巴县
+US_North Carolina_Chapel Hill Town|教堂山市
+US_North Carolina_Charlotte City|夏洛特市
+US_North Carolina_Chatham County|查塔姆县
+US_North Carolina_Cleveland County|克利夫兰县
+US_North Carolina_Concord City|康科德市
+US_North Carolina_Cumberland County|坎伯兰县
+US_North Carolina_Davidson County|戴维森县
+US_North Carolina_Durham City|达勒姆市
+US_North Carolina_Fayetteville City|费耶特维尔市
+US_North Carolina_Forsyth County|福赛斯县
+US_North Carolina_Franklin County|富兰克林县
+US_North Carolina_Gaston County|加斯顿县
+US_North Carolina_Gastonia City|加斯托尼亚市
+US_North Carolina_Greensboro City|格林斯博罗市
+US_North Carolina_Greenville City|格林维尔市
+US_North Carolina_Guilford County|吉尔福德县
+US_North Carolina_Harnett County|哈奈特县
+US_North Carolina_Henderson County|亨德森县
+US_North Carolina_High Point City|海波因特市
+US_North Carolina_Huntersville Town|亨特斯维尔镇
+US_North Carolina_Iredell County|艾尔德尔县
+US_North Carolina_Jacksonville City|杰克逊维尔市
+US_North Carolina_Johnston County|约翰斯顿县
+US_North Carolina_Lincoln County|林肯县
+US_North Carolina_New Hanover County|新汉诺威县
+US_North Carolina_Onslow County|昂斯洛县
+US_North Carolina_Orange County|奥兰治县
+US_North Carolina_Pitt County|皮特县
+US_North Carolina_Raleigh City|罗利市
+US_North Carolina_Randolph County|伦道夫县
+US_North Carolina_Robeson County|罗伯逊县
+US_North Carolina_Rockingham County|罗金厄姆县
+US_North Carolina_Rocky Mount City|落基山市
+US_North Carolina_Rowan County|罗文县
+US_North Carolina_Sampson County|桑普森县
+US_North Carolina_Surry County|萨里县
+US_North Carolina_Union County|尤宁县
+US_North Carolina_Wake County|韦克县
+US_North Carolina_Wayne County|韦恩县
+US_North Carolina_Wilkes County|威尔克斯县
+US_North Carolina_Wilmington City|威尔明顿市
+US_North Carolina_Winston-Salem City|温斯顿-塞勒姆市
+US_North Dakota|北达科他州
+US_North Dakota_Bismarck City|俾斯麦市
+US_North Dakota_Fargo City|法戈市
+US_North Dakota_Grand Forks City|格兰德福克斯市
+US_Ohio|俄亥俄州
+US_Ohio_Akron City|阿克伦市
+US_Ohio_Allen County|艾伦县
+US_Ohio_Beavercreek Township|比弗克里克小镇
+US_Ohio_Butler County|巴特勒县
+US_Ohio_Canton City|坎顿市
+US_Ohio_Cincinnati City|辛辛那提市
+US_Ohio_Clark County|克拉克县
+US_Ohio_Clermont County|克莱蒙县
+US_Ohio_Cleveland City|克利夫兰市
+US_Ohio_Colerain Township|科尔雷恩小镇
+US_Ohio_Columbiana County|哥伦比亚纳县
+US_Ohio_Columbus City|哥伦布市
+US_Ohio_Dayton City|代顿市
+US_Ohio_Delaware County|特拉华县
+US_Ohio_Elyria City|伊利里亚市
+US_Ohio_Fairfield County|费尔菲尔德县
+US_Ohio_Franklin County|富兰克林县
+US_Ohio_Geauga County|吉奥格县
+US_Ohio_Green Township|格林小镇
+US_Ohio_Hamilton City|哈密​​市
+US_Ohio_Hamilton County|哈密​​尔顿县
+US_Ohio_Kettering City|凯特林市
+US_Ohio_Lake County|莱克县
+US_Ohio_Lakewood City|莱克伍德市
+US_Ohio_Licking County|利金县
+US_Ohio_Lorain City|洛雷恩市
+US_Ohio_Lorain County|洛雷恩县
+US_Ohio_Lucas County|卢卡斯县
+US_Ohio_Mahoning County|马霍宁县
+US_Ohio_Medina County|梅迪纳县
+US_Ohio_Miami Township|迈阿密小镇
+US_Ohio_Montgomery County|蒙哥马利县
+US_Ohio_Muskingum County|马斯京根县
+US_Ohio_Parma City|帕尔马市
+US_Ohio_Plain Township|普莱恩小镇
+US_Ohio_Portage County|波蒂奇县
+US_Ohio_Richland County|里奇兰县
+US_Ohio_Ross County|罗斯县
+US_Ohio_Scioto County|塞尔托县
+US_Ohio_Springfield City|斯普林菲尔德市
+US_Ohio_Stark County|斯塔克县
+US_Ohio_Summit County|萨米特县
+US_Ohio_Toledo City|托莱多市
+US_Ohio_Trumbull County|特兰伯尔县
+US_Ohio_Warren County|沃伦县
+US_Ohio_Washington Township|华盛顿小镇
+US_Ohio_Wayne County|韦恩县
+US_Ohio_West Chester Township|西切斯特镇
+US_Ohio_Youngstown City|扬斯敦市
+US_Oklahoma|俄克拉何马州
+US_Oklahoma_Broken Arrow City|断箭市
+US_Oklahoma_Edmond City|爱德蒙市
+US_Oklahoma_Enid City|伊妮德市
+US_Oklahoma_Lawton City|劳顿市
+US_Oklahoma_Midwest City|米德韦斯特市
+US_Oklahoma_Moore City|摩尔市
+US_Oklahoma_Norman City|诺曼市
+US_Oklahoma_Oklahoma City|俄克拉何马市
+US_Oklahoma_Rogers County|罗杰斯县
+US_Oklahoma_Tulsa City|塔尔萨市
+US_Oregon|俄勒冈州
+US_Oregon_Albany City|奥尔巴尼市
+US_Oregon_Beaverton City|比弗顿市
+US_Oregon_Bend City|本德市
+US_Oregon_Clackamas County|克拉克马斯县
+US_Oregon_Corvallis City|科瓦利斯市
+US_Oregon_Deschutes County|德舒特县
+US_Oregon_Douglas County|道格拉斯县
+US_Oregon_Eugene City|尤金市
+US_Oregon_Gresham City|格雷沙姆市
+US_Oregon_Hillsboro City|希尔斯伯勒市
+US_Oregon_Jackson County|杰克逊县
+US_Oregon_Lane County|雷恩县
+US_Oregon_Marion County|马里恩县
+US_Oregon_Medford City|梅德福市
+US_Oregon_Portland City|波特兰市
+US_Oregon_Salem City|塞勒姆市
+US_Oregon_Springfield City|斯普林菲尔德市
+US_Oregon_Tigard City|蒂伽德市
+US_Oregon_Washington County|华盛顿县
+US_Pennsylvania|宾夕法尼亚州
+US_Pennsylvania_Abington Township|阿宾顿小镇
+US_Pennsylvania_Adams County|亚当斯县
+US_Pennsylvania_Allegheny County|阿勒格尼县
+US_Pennsylvania_Allentown City|阿伦敦市
+US_Pennsylvania_Beaver County|比佛县
+US_Pennsylvania_Bensalem Township|班萨莱姆小镇
+US_Pennsylvania_Berks County|伯克斯县
+US_Pennsylvania_Bethlehem City|伯利恒市
+US_Pennsylvania_Blair County|布莱尔县
+US_Pennsylvania_Bristol Township|布里斯托尔小镇
+US_Pennsylvania_Bucks County|巴克斯县
+US_Pennsylvania_Butler County|巴特勒县
+US_Pennsylvania_Cambria County|坎布里亚县
+US_Pennsylvania_Centre County|申特县
+US_Pennsylvania_Chester County|切斯特县
+US_Pennsylvania_Clearfield County|克利尔菲尔德县
+US_Pennsylvania_Crawford County|克劳福德县
+US_Pennsylvania_Cumberland County|坎伯兰县
+US_Pennsylvania_Dauphin County|道芬县
+US_Pennsylvania_Delaware County|特拉华县
+US_Pennsylvania_Erie City|伊利市
+US_Pennsylvania_Erie County|伊利县
+US_Pennsylvania_Fayette County|费耶特县
+US_Pennsylvania_Franklin County|富兰克林县
+US_Pennsylvania_Indiana County|印第安纳县
+US_Pennsylvania_Lancaster City|兰开斯特市
+US_Pennsylvania_Lancaster County|兰开斯特县
+US_Pennsylvania_Lawrence County|劳伦斯县
+US_Pennsylvania_Lebanon County|莱巴嫩县
+US_Pennsylvania_Lehigh County|利哈伊县
+US_Pennsylvania_Lower Merion Township|劳尔梅里恩小镇
+US_Pennsylvania_Luzerne County|路泽恩县
+US_Pennsylvania_Lycoming County|莱康明县
+US_Pennsylvania_Mercer County|默瑟县
+US_Pennsylvania_Millcreek Township|米尔克里克小镇
+US_Pennsylvania_Monroe County|门罗县
+US_Pennsylvania_Montgomery County|蒙哥马利县
+US_Pennsylvania_Northampton County|北安普顿县
+US_Pennsylvania_Northumberland County|诺森伯兰县
+US_Pennsylvania_Philadelphia City|费城
+US_Pennsylvania_Pike County|派克县
+US_Pennsylvania_Pittsburgh City|匹兹堡市
+US_Pennsylvania_Reading City|雷丁市
+US_Pennsylvania_Schuylkill County|斯古吉尔县
+US_Pennsylvania_Scranton City|斯克兰顿市
+US_Pennsylvania_Somerset County|萨默塞特县
+US_Pennsylvania_Upper Darby Township|上达比小镇
+US_Pennsylvania_Washington County|华盛顿县
+US_Pennsylvania_Westmoreland County|威斯特摩兰县
+US_Pennsylvania_York County|约克县
+US_Rhode Island|罗得岛州
+US_Rhode Island_Cranston City|克兰斯顿市
+US_Rhode Island_Kent County|肯特县
+US_Rhode Island_Newport County|纽波特县
+US_Rhode Island_Pawtucket City|波塔基特市
+US_Rhode Island_Providence City|普罗维登斯市
+US_Rhode Island_Providence County|普罗维登斯县
+US_Rhode Island_Warwick City|沃威克市
+US_South Carolina|南卡罗来纳州
+US_South Carolina_Aiken County|艾肯县
+US_South Carolina_Anderson County|安德森县
+US_South Carolina_Beaufort County|博福特县
+US_South Carolina_Berkeley County|伯克利县
+US_South Carolina_Charleston City|查尔斯顿市
+US_South Carolina_Charleston County|查尔斯顿县
+US_South Carolina_Columbia City|哥伦比亚市
+US_South Carolina_Darlington County|达林顿县
+US_South Carolina_Dorchester County|多尔切斯特县
+US_South Carolina_Florence County|佛罗伦萨县
+US_South Carolina_Greenville City|格林维尔市
+US_South Carolina_Greenville County|格林维尔县
+US_South Carolina_Horry County|霍里县
+US_South Carolina_Kershaw County|克肖县
+US_South Carolina_Lancaster County|兰开斯特县
+US_South Carolina_Lexington County|列克星敦县
+US_South Carolina_Mount Pleasant Town|芒特普莱森特镇
+US_South Carolina_North Charleston City|北查尔斯顿市
+US_South Carolina_Oconee County|奥科尼县
+US_South Carolina_Orangeburg County|奥兰治堡县
+US_South Carolina_Pickens County|皮肯斯县
+US_South Carolina_Richland County|里奇兰县
+US_South Carolina_Rock Hill City|罗克希尔市
+US_South Carolina_Spartanburg County|斯帕坦堡县
+US_South Carolina_Sumter County|萨姆特县
+US_South Carolina_York County|约克县
+US_South Dakota|南达科他州
+US_South Dakota_Rapid City|拉皮德市
+US_South Dakota_Sioux Falls City|苏福尔斯市
+US_Tennessee|田纳西州
+US_Tennessee_Bartlett City|巴特利特市
+US_Tennessee_Blount County|布朗特县
+US_Tennessee_Bradley County|布拉德利县
+US_Tennessee_Chattanooga City|查塔努加市
+US_Tennessee_Clarksville City|克拉克斯维尔市
+US_Tennessee_Franklin City|富兰克林市
+US_Tennessee_Hamilton County|哈密​​尔顿县
+US_Tennessee_Hendersonville City|亨德森维尔市
+US_Tennessee_Jackson City|杰克逊市
+US_Tennessee_Johnson City|约翰逊市
+US_Tennessee_Kingsport City|金斯波特市
+US_Tennessee_Knox County|诺克斯县
+US_Tennessee_Knoxville City|诺克斯维尔市
+US_Tennessee_Memphis City|孟菲斯市
+US_Tennessee_Murfreesboro City|默弗里斯伯勒市
+US_Tennessee_Nashville-Davidson Metropolitan Government|纳什维尔-戴维森市政府
+US_Tennessee_Rutherford County|卢瑟福县
+US_Tennessee_Sevier County|塞维尔县
+US_Tennessee_Shelby County|谢尔比县
+US_Tennessee_Sullivan County|沙利文县
+US_Tennessee_Sumner County|萨姆纳县
+US_Tennessee_Washington County|华盛顿县
+US_Tennessee_Wilson County|威信县
+US_Texas|得克萨斯
+US_Texas_Abilene City|阿比林市
+US_Texas_Allen City|艾伦市
+US_Texas_Amarillo City|阿马里洛市
+US_Texas_Arlington City|阿灵顿市
+US_Texas_Austin City|奥斯汀市
+US_Texas_Bastrop County|巴斯特罗普县
+US_Texas_Baytown City|贝敦市
+US_Texas_Beaumont City|博蒙特市
+US_Texas_Bell County|贝尔县
+US_Texas_Bexar County|贝克萨尔县
+US_Texas_Brazoria County|布拉佐里亚县
+US_Texas_Brownsville City|布朗斯维尔市
+US_Texas_Bryan City|布莱恩市
+US_Texas_Cameron County|卡梅伦县
+US_Texas_Carrollton City|卡罗顿市
+US_Texas_Cedar Park City|锡达帕克市
+US_Texas_College Station City|卡城
+US_Texas_Comal County|科马尔县
+US_Texas_Conroe City|康罗市
+US_Texas_Corpus Christi City|科珀斯克里斯蒂市
+US_Texas_Dallas City|达拉斯市
+US_Texas_Denton City|登顿市
+US_Texas_Denton County|登顿县
+US_Texas_Desoto City|德索托市
+US_Texas_Edinburg City|爱丁堡市
+US_Texas_El Paso City|埃尔帕索市
+US_Texas_El Paso County|埃尔帕索县
+US_Texas_Ellis County|埃利斯县
+US_Texas_Euless City|尤利斯市
+US_Texas_Flower Mound Town|弗劳尔芒德镇
+US_Texas_Fort Bend County|本德堡县
+US_Texas_Fort Worth City|沃斯堡市
+US_Texas_Frisco City|弗里斯科市
+US_Texas_Garland City|加兰市
+US_Texas_Georgetown City|乔治敦市
+US_Texas_Grand Prairie City|大草原市
+US_Texas_Grapevine City|格瑞普番恩市
+US_Texas_Harlingen City|哈林根市
+US_Texas_Harris County|哈里斯县
+US_Texas_Hays County|海斯县
+US_Texas_Hidalgo County|伊达尔戈县
+US_Texas_Houston City|休斯敦市
+US_Texas_Irving City|欧文市
+US_Texas_Johnson County|约翰逊县
+US_Texas_Kaufman County|考夫曼县
+US_Texas_Killeen City|基林市
+US_Texas_Laredo City|拉雷多市
+US_Texas_League City|联盟市
+US_Texas_Lewisville City|路易斯维尔市
+US_Texas_Longview City|朗维尤市
+US_Texas_Lubbock City|拉伯克市
+US_Texas_Mansfield City|曼斯菲尔德市
+US_Texas_Mcallen City|麦卡伦市
+US_Texas_Mckinney City|麦金尼市
+US_Texas_Mesquite City|梅斯基特市
+US_Texas_Midland City|米德兰市
+US_Texas_Mission City|米慎市
+US_Texas_Missouri City|密苏里市
+US_Texas_Montgomery County|蒙哥马利县
+US_Texas_New Braunfels City|新布劳恩费尔斯市
+US_Texas_North Richland Hills City|北里奇兰希尔斯市
+US_Texas_Odessa City|敖德萨市
+US_Texas_Parker County|帕克县
+US_Texas_Pasadena City|帕萨迪纳市
+US_Texas_Pearland City|皮尔兰市
+US_Texas_Pflugerville City|普夫卢格维尔市
+US_Texas_Pharr City|法尔市
+US_Texas_Plano City|布兰诺市
+US_Texas_Port Arthur City|阿瑟港市
+US_Texas_Richardson City|理查森市
+US_Texas_Round Rock City|朗德罗克市
+US_Texas_Rowlett City|罗利特市
+US_Texas_San Angelo City|圣安吉洛市
+US_Texas_San Antonio City|圣安东尼奥市
+US_Texas_San Marcos City|圣马科斯市
+US_Texas_Smith County|史密斯县
+US_Texas_Sugar Land City|舒格兰市
+US_Texas_Tarrant County|塔兰特县
+US_Texas_Temple City|坦普尔市
+US_Texas_Travis County|特拉维斯县
+US_Texas_Tyler City|泰勒市
+US_Texas_Victoria City|维多利亚市
+US_Texas_Waco City|韦科市
+US_Texas_Wichita Falls City|威奇托福尔斯​​市
+US_Texas_Williamson County|威廉森县
+US_Utah|犹他州
+US_Utah_Layton City|莱顿市
+US_Utah_Lehi City|李海市
+US_Utah_Ogden City|奥格登市
+US_Utah_Orem City|奥勒姆市
+US_Utah_Provo City|普罗沃市
+US_Utah_Salt Lake City|盐湖市
+US_Utah_Salt Lake County|盐湖县
+US_Utah_Sandy City|桑迪市
+US_Utah_South Jordan City|南约旦市
+US_Utah_St. George City|圣乔治市
+US_Utah_Taylorsville City|泰勒斯维尔市
+US_Utah_West Jordan City|西乔丹市
+US_Utah_West Valley City|西瓦利市
+US_Vermont|佛蒙特州
+US_Vermont_Chittenden County|奇滕登县
+US_Vermont_Windsor County|温莎县
+US_Virginia|弗吉尼亚州
+US_Virginia_Albemarle County|阿尔伯马尔县
+US_Virginia_Alexandria City|亚历山大市
+US_Virginia_Augusta County|奥古斯塔县
+US_Virginia_Bedford County|贝德福德县
+US_Virginia_Campbell County|坎贝尔县
+US_Virginia_Chesapeake City|切萨皮克市
+US_Virginia_Fairfax County|费尔法克斯县
+US_Virginia_Fauquier County|福基尔县
+US_Virginia_Franklin County|富兰克林县
+US_Virginia_Frederick County|弗雷德里克县
+US_Virginia_Hampton City|汉普顿市
+US_Virginia_Hanover County|汉诺威县
+US_Virginia_Harrisonburg City|哈里森堡市
+US_Virginia_Henry County|亨利县
+US_Virginia_Loudoun County|劳登县
+US_Virginia_Lynchburg City|林奇堡市
+US_Virginia_Newport News City|纽波特纽斯市
+US_Virginia_Norfolk City|诺福克市
+US_Virginia_Pittsylvania County|皮茨尔瓦尼亚县
+US_Virginia_Portsmouth City|朴次茅斯市
+US_Virginia_Prince William County|威廉王子县
+US_Virginia_Richmond City|列治文市
+US_Virginia_Roanoke City|罗阿诺克市
+US_Virginia_Roanoke County|罗阿诺克县
+US_Virginia_Rockingham County|罗金厄姆县
+US_Virginia_Suffolk City|萨福克市
+US_Virginia_Virginia Beach City|弗吉尼亚比奇市
+US_Washington|华盛顿州
+US_Washington_Auburn City|奥本市
+US_Washington_Bellevue City|贝尔维尤市
+US_Washington_Bellingham City|贝灵汉市
+US_Washington_Burien City|布里恩市
+US_Washington_Clark County|克拉克县
+US_Washington_Everett City|埃弗里特市
+US_Washington_Federal Way City|费多威市
+US_Washington_Island County|艾兰县
+US_Washington_Kennewick City|肯纳威克市
+US_Washington_Kent City|肯特市
+US_Washington_King County|金县
+US_Washington_Kirkland City|柯克兰市
+US_Washington_Kitsap County|基沙普县
+US_Washington_Lakewood City|莱克伍德市
+US_Washington_Marysville City|马里斯维尔市
+US_Washington_Mason County|梅森县
+US_Washington_Pasco City|帕斯科市
+US_Washington_Pierce County|皮尔斯县
+US_Washington_Redmond City|雷德蒙市
+US_Washington_Renton City|伦顿市
+US_Washington_Richland City|里奇兰市
+US_Washington_Sammamish City|瑟马米什市
+US_Washington_Seattle City|西雅图市
+US_Washington_Shoreline City|雪兰市
+US_Washington_Snohomish County|斯诺霍米什县
+US_Washington_Spokane City|斯波坎市
+US_Washington_Spokane County|斯波坎县
+US_Washington_Spokane Valley City|斯波坎谷市
+US_Washington_Tacoma City|塔科马市
+US_Washington_Thurston County|瑟斯顿县
+US_Washington_Vancouver City|温哥华市
+US_Washington_Whatcom County|霍特科姆县
+US_Washington_Yakima City|亚基马市
+US_Washington_Yakima County|亚基马县
+US_West Virginia|西弗吉尼亚州
+US_West Virginia_Berkeley County|伯克利县
+US_West Virginia_Charleston City|查尔斯顿市
+US_West Virginia_Kanawha County|卡诺瓦县
+US_West Virginia_Monongalia County|莫农加利亚县
+US_West Virginia_Raleigh County|罗利县
+US_Wisconsin|威斯康星州
+US_Wisconsin_Appleton City|阿普尔顿市
+US_Wisconsin_Dane County|戴恩县
+US_Wisconsin_Eau Claire City|欧克莱尔市
+US_Wisconsin_Green Bay City|格林贝市
+US_Wisconsin_Janesville City|简斯维尔市
+US_Wisconsin_Kenosha City|基诺沙市
+US_Wisconsin_La Crosse City|拉克罗斯市
+US_Wisconsin_Madison City|麦迪逊市
+US_Wisconsin_Marathon County|马拉松县
+US_Wisconsin_Milwaukee City|密尔沃基市
+US_Wisconsin_Oshkosh City|奥什科什市
+US_Wisconsin_Outagamie County|奥特加米县
+US_Wisconsin_Racine City|拉辛市
+US_Wisconsin_Waukesha City|瓦克夏市
+US_Wisconsin_Waukesha County|沃基肖县
+US_Wisconsin_West Allis City|西阿利斯市
+US_Wisconsin_Winnebago County|温纳贝戈县
+US_Wyoming|怀俄明州
+US_Wyoming_Casper City|卡斯帕市
+US_Wyoming_Cheyenne City|夏延市
+MN|蒙古
+BD|孟加拉
+PE|秘鲁
+MA|摩洛哥
+MU|毛里求斯
+MR|毛里塔尼亚
+MW|马拉维
+MY|马来西亚
+MY_Perlis|玻璃市
+MY_Perlis_Kangar|加央
+MY_Pulau Pinang|槟榔屿
+MY_Pulau Pinang_George Town|槟城
+MY_Pulau Pinang_Butterworth|北海
+MY_Pulau Pinang_Bukit Mertajam|大山脚
+MY_Pulau Pinang_Nibong Tebal|高渊
+MY_Terengganu|丁加奴
+MY_Terengganu_Kuala Terengganu|瓜拉丁加奴
+MY_Terengganu_Kemaman|甘马挽
+MY_Terengganu_Dungun|龙运
+MY_Terengganu_Marang|马江
+MY_Terengganu_Setiu|实兆
+MY_Terengganu_Hulu|乌鲁
+MY_Terengganu_Besut|勿述
+MY_Kedah|吉打
+MY_Kedah_Padang Terap|巴东得腊
+MY_Kedah_Pendang|笨筒
+MY_Kedah_Langkawi|浮罗交怡
+MY_Kedah_Kubang Pasu|古邦巴素
+MY_Kedah_Kota Setar|哥打士打
+MY_Kedah_Kuala Muda|瓜拉姆达
+MY_Kedah_Baling|华玲
+MY_Kedah_Kulim|居林
+MY_Kedah_Bandar Baharu|万拉峇鲁
+MY_Kelantan|吉兰丹
+MY_Kelantan_Pasir Putih|巴西富地
+MY_Kelantan_Pasir Mas|巴西马
+MY_Kelantan_Tumpat|道北
+MY_Kelantan_Tanah Merah|丹那美拉
+MY_Kelantan_Bachok|登卓
+MY_Kelantan_Kota Bharu|哥打巴鲁
+MY_Kelantan_Kuala Krai|瓜拉吉赖
+MY_Kelantan_Gua Musang|话望生
+MY_Kelantan_Machang|马樟
+MY_Kelantan_Jeli|日里
+MY_Kuala Lumpur|吉隆坡
+MY_Kuala Lumpur_Kuala Lumpur|吉隆坡
+MY_Malacca|马六甲
+MY_Malacca_Melaka|马六甲市
+MY_Malacca_Alor Gajah|亚罗牙也
+MY_Malacca_Jasin|野新
+MY_Labuan|纳闽
+MY_Labuan_Labuan|纳闽
+MY_Labuan_Victoria|维多利亚
+MY_Pahang|彭亨
+MY_Pahang_Pekan|北根
+MY_Pahang_Bera|百乐
+MY_Pahang_Temerloh|淡马鲁
+MY_Pahang_Jerantut|而连突
+MY_Pahang_Kuantan|关丹
+MY_Pahang_Cameron Highlands|金马仑高原
+MY_Pahang_Kuala Lipis|立卑
+MY_Pahang_Raub|劳勿
+MY_Pahang_Maran|马兰
+MY_Pahang_Bentong|文冬
+MY_Pahang_Rompin|云冰
+MY_Perak|霹雳
+MY_Perak_Teluk Intan|安顺
+MY_Perak_Tanjung Malim|丹绒马
+MY_Perak_Batu Gajah|华都牙也
+MY_Perak_Sungai Siput|和丰
+MY_Perak_Kuala Kangsar|江沙
+MY_Perak_Lumut|紅土坎
+MY_Perak_Taiping|太平
+MY_Perak_Ipoh|怡保
+MY_Johor|柔佛
+MY_Johor_Pontian|笨珍
+MY_Johor_Mersing|丰盛港
+MY_Johor_Kota Tinggi|哥打丁宜
+MY_Johor_Kluang|居銮
+MY_Johor_Muar|麻坡
+MY_Johor_Segamat|昔加末
+MY_Johor_Johor Bahru|新山
+MY_Johor_Batu Pahat|峇株巴辖
+MY_Sabah|沙巴
+MY_Sabah_Papar|吧巴
+MY_Sabah_Pitas|必达士
+MY_Sabah_Beaufort|保佛
+MY_Sabah_Beluran|比鲁兰
+MY_Sabah_Penampang|兵南邦
+MY_Sabah_Tambunan|担布南
+MY_Sabah_Tawau|斗湖
+MY_Sabah_Tenom|丹南
+MY_Sabah_Tuaran|斗亚兰
+MY_Sabah_Kudat|古达
+MY_Sabah_Kota Kinabalu|哥打基纳巴鲁
+MY_Sabah_Kota Belud|古打毛律
+MY_Sabah_Kota Marudu|哥打马鲁都
+MY_Sabah_Keningau|根地咬
+MY_Sabah_Kuala Penyu|瓜拉班尤
+MY_Sabah_Kunak|古纳
+MY_Sabah_Kinabatangan|京那巴登岸
+MY_Sabah_Ranau|兰脑
+MY_Sabah_Nabawan|纳巴湾
+MY_Sabah_Lahad Datu|拿笃
+MY_Sabah_Sandakan|山打根
+MY_Sabah_Semporna|仙本那
+MY_Sabah_Sipitang|西比陶
+MY_Sarawak|沙捞越
+MY_Sarawak_Kuching|古晋
+MY_Sarawak_Kapit|加帛
+MY_Sarawak_Limbang|林梦
+MY_Sarawak_Bintulu|民都鲁
+MY_Sarawak_Mukah|木胶
+MY_Sarawak_Miri|美里
+MY_Sarawak_Betong|木中
+MY_Sarawak_Sri Aman|斯里阿曼
+MY_Sarawak_Sarikei|泗里街
+MY_Sarawak_Samarahan|三马拉汉
+MY_Sarawak_Sibu|泗务
+MY_Negeri Sembilan|森美兰
+MY_Negeri Sembilan_Port Dickson|波德申
+MY_Negeri Sembilan_Tampin|淡边
+MY_Negeri Sembilan_Seremban|芙蓉
+MY_Negeri Sembilan_Kuala Pilah|瓜拉庇劳
+MY_Negeri Sembilan_Rembau|林茂
+MY_Negeri Sembilan_Jempol|仁保
+MY_Negeri Sembilan_Jelebu|日叻务
+MY_Selangor|雪兰莪
+MY_Selangor_Petaling|八打灵
+MY_Selangor_Gombak|鹅麦
+MY_Selangor_Kuala Langat|瓜拉冷岳
+MY_Selangor_Kuala Selangor|瓜拉雪兰莪
+MY_Selangor_Sabak Bernam|沙白安南
+MY_Selangor_Hulu Langat|乌鲁冷岳
+MY_Selangor_Hulu Selangor|乌鲁雪兰莪
+MY_Selangor_Sepang|雪邦
+MC|摩纳哥
+MK|马其顿
+MZ|莫桑比克
+MH|马绍尔群岛
+MX|墨西哥
+MX_Obregon|奥夫雷贡城
+MX_Aguascalientes|阿瓜斯卡连斯特
+MX_Orizaba|奥里萨巴
+MX_Hermosillo|埃莫西约
+MX_Campeche|埃佩切
+MX_Acapulco|阿卡普尔科
+MX_Valles|巴利城
+MX_Villahermosa|比利亚埃尔莫萨
+MX_Benito Juurez|贝尼托·胡亚雷斯
+MX_Poza Rica de Hidalgo|波萨里卡
+MX_Puerto Vallarta|巴亚尔塔港
+MX_Tijuana|蒂华纳
+MX_Durango|杜兰戈
+MX_Ensenada|恩塞纳达
+MX_Guadalajara|瓜达拉哈拉
+MX_Guanajuato|瓜纳华托
+MX_Jalapa|哈拉帕
+MX_Juarez|华雷斯
+MX_Cuernavaca|库埃纳瓦卡
+MX_Coatzacoalcos|夸察夸拉克斯
+MX_Culiacan|库利阿坎
+MX_Colima|科利马
+MX_Queretaro|克雷塔罗
+MX_Leon|莱昂
+MX_La Paz|拉巴斯
+MX_Reynosa|雷诺萨
+MX_Los Mochis|洛斯莫奇斯
+MX_Monclova|蒙克洛瓦
+MX_Merida|梅里达
+MX_Morelia|莫雷利亚
+MX_Mazatlan|马萨特兰
+MX_Monterrey|蒙特雷
+MX_Matamoros|马塔莫罗斯
+MX_Mexico City|墨西哥城
+MX_Mexicali|墨西卡利
+MX_Nogales|诺加莱斯
+MX_Puebla|普埃布拉
+MX_Pachuca|帕丘卡
+MX_Chilpancingo|奇尔潘辛戈
+MX_Carmen|卡门
+MX_Cheturnal|切图马尔
+MX_Chihuahua|奇瓦瓦
+MX_Saltillo|萨尔蒂约
+MX_Celaya|塞拉亚
+MX_San Luis Potosi|圣路易斯波托亚
+MX_Zacatecas|萨卡特卡斯
+MX_Toluca|托卢卡
+MX_Tlaxcala|特拉斯卡拉
+MX_Torreon|托雷翁
+MX_Tampico|坦皮科
+MX_Tepic|特皮克
+MX_Tapachula|塔帕丘拉
+MX_Tuxtla Gutierrez|图斯特拉-古铁雷斯
+MX_Tehuacan|特瓦坎
+MX_Victoria|维多利亚城
+MX_Oaxaca|瓦哈卡
+MX_Uruapan|乌鲁阿潘
+MX_Veracruz|韦拉克鲁斯
+MX_Nuevo Laredo|新拉雷多
+MX_Irapuato|伊拉普阿托
+NP|尼泊尔
+ZA|南非
+ZA_Mount Ayliff|艾利弗山
+ZA_Upington|阿平顿
+ZA_Pietermaritzburg|彼德马里茨堡
+ZA_Pietersburg|彼德斯堡
+ZA_Bredasdorp|布雷达斯多普
+ZA_Bloemfontein|布隆方丹
+ZA_Bronkhorstspruit|布隆克斯特斯普利特
+ZA_Pretoria|比勒陀利亚
+ZA_Bisho|比索
+ZA_De Aar|德阿尔
+ZA_Durban|德班
+ZA_Barkley East|东巴克利
+ZA_Dundee|邓迪
+ZA_East London|东伦敦
+ZA_Vryburg|弗雷堡
+ZA_Vereeniging|弗里尼欣
+ZA_Groblersdal|格罗布莱斯达尔
+ZA_Kimberley|金伯利
+ZA_Giyani|基雅尼
+ZA_Klerksdorp|克莱克斯多普
+ZA_Kuruman|库鲁曼
+ZA_Cape Town|开普敦
+ZA_Queenstown|昆士敦
+ZA_Richards Bay|理查兹湾
+ZA_Randfontein|兰德方丹
+ZA_Ladysmith|莱迪史密斯
+ZA_Rustenburg|利斯滕堡
+ZA_Middelburg|米德尔堡
+ZA_Mkuze|姆库泽
+ZA_Moorreesburg|穆里斯堡
+ZA_Nelspruit|内尔斯普雷特
+ZA_Nylstroom|尼尔斯特隆
+ZA_Newcastle|纽卡斯尔
+ZA_George|乔治
+ZA_Secunda|瑟孔达
+ZA_Sasolburg|萨索尔堡
+ZA_Thohoyandou|托霍延杜
+ZA_Ixopo|特克索波
+ZA_Springbok|跳羚
+ZA_Thulamahashe|图拉马哈谢
+ZA_Trompsburg|特隆普斯堡
+ZA_Witsieshoek|韦茨肖克
+ZA_Welkom|韦尔科姆
+ZA_Ulundi|乌伦迪
+ZA_Umtata|乌姆塔塔
+ZA_Worcester|伍斯特
+ZA_Beaufort West|西博福特
+ZA_Port Shepstone|谢普斯通港
+ZA_Johannesburg|约翰内斯堡
+ZA_Port Elizabeth|伊丽莎白港
+NI|尼加拉瓜
+NA|纳米比亚
+NG|尼日利亚
+NO|挪威
+PW|帕劳群岛
+PT|葡萄牙
+PT_Porto|波尔图
+PT_Alentejo Litoral|滨海阿连特茹
+PT_Pinhal Litoral|滨海皮尼亚尔
+PT_Douro|杜罗
+PT_Entre Douro e Vouga|恩特拉杜罗伏日
+PT_Faro|法鲁
+PT_Funchal|丰沙尔
+PT_Cova da Beira|科瓦贝拉
+PT_Leziria do Tejo|利巴特茹
+PT_Lisboa|里斯本
+PT_Medio Tejo|梅地奥特茹
+PT_Minho-Lima|米尼奥-利马
+PT_Beira Interior Norte|内贝拉北
+PT_Beira Interior Sul|内贝拉南
+PT_Pinhal Interior Norte|内皮尼亚尔北
+PT_Pinhal Interior Sul|内皮尼亚尔南
+PT_Ponta Delgada|蓬塔德尔加达
+PT_Cavado|卡瓦多
+PT_Alto Alentejo|上阿连特茹
+PT_Serra da Estrela|山后
+PT_Peninsula de Setubal|塞图巴尔半岛
+PT_Alto Tros-os-Montes|上特拉斯山
+PT_Tamega|塔梅加
+PT_Ave|万福
+PT_Baixo Alentejo|下阿连特茹
+PT_Oeste|西部
+PT_Baixo Vouga|下伏日
+PT_Baixo Mondego|下蒙德古
+PT_Alentejo Central|中阿连特茹
+QA|卡塔尔
+GE|乔治亚
+JP|日本
+JP_Ehime|爱媛
+JP_Aichi|爱知
+JP_Hokkaido|北海道
+JP_Hyogo|兵库
+JP_Miyagi|宮城
+JP_Ibaraki|茨城
+JP_Nagasaki|长崎
+JP_Okinawa|冲绳
+JP_Nagano|长野
+JP_Osaka|大阪
+JP_Tokushima|徳岛
+JP_Oita|大分
+JP_Shimane|岛根
+JP_Tokyo|东京
+JP_Fukushima|福岛
+JP_Fukuoka|福冈
+JP_Fukui|福井
+JP_Toyama|富山
+JP_Hiroshima|广岛
+JP_Miyazaki|宫崎
+JP_Okayama|冈山
+JP_Kochi|高知
+JP_Wakayama|和歌山
+JP_Kyoto|京都
+JP_Shizuoka|静冈
+JP_Kagoshima|鹿儿岛
+JP_Tochigi|枥木
+JP_Nara|奈良
+JP_Tottori|鸟取
+JP_Gifu|岐阜
+JP_Gunma|群马
+JP_Aomori|青森
+JP_Akita|秋田
+JP_Saitama|埼玉
+JP_Chiba|千叶
+JP_Mie|三重
+JP_Ishikawa|石川
+JP_Yamaguchi|山口
+JP_Yamanashi|山梨
+JP_Kanagawa|神奈川
+JP_Yamagata|山形
+JP_Kumamoto|熊本
+JP_Kagawa|香川
+JP_Niigata|新潟
+JP_Iwate|岩手
+JP_Saga|佐贺
+JP_Shiga|滋贺
+SE|瑞典
+SE_Norrbottens|北博滕
+SE_Blekinge|布莱金厄
+SE_Dalarnas|达拉纳
+SE_Ustergotland|东约特兰
+SE_Orebro|厄勒布鲁
+SE_Gotlands|哥得兰
+SE_Hallands|哈兰
+SE_Kronobergs|克鲁努贝里
+SE_Sodermanlands|南曼兰
+SE_Kalmar|卡尔马
+SE_Stockholms|斯德哥尔摩
+SE_Skane|斯科耐
+SE_Varmlands|韦姆兰
+SE_Uppsala|乌普萨拉
+SE_Vasterbottens|西博滕
+SE_Vastmanlands|西曼兰
+SE_Vasternorrlands|西诺尔兰
+SE_Vastra Gotalands|西约特兰
+SE_Gavleborgs|耶夫勒堡
+SE_Jamtlands|耶姆特兰
+SE_Jonkopings|延雪平
+CH|瑞士
+CH_Aargau|阿尔高
+CH_Bern|伯尔尼
+CH_Basel-stadt|巴塞尔
+CH_Basel Landschaft|巴塞尔乡村
+CH_Zug|楚格
+CH_Freiburg|弗里堡
+CH_Graubnden|格劳宾登
+CH_Glarus|格拉鲁斯
+CH_Lausanne|洛桑
+CH_Luzern|卢塞恩
+CH_Appenzell Innerrhodn|内阿彭策尔
+CH_Neuchatel|纳沙泰尔
+CH_Jura|汝拉
+CH_Geneve|日内瓦
+CH_Schaffhausen|沙夫豪森
+CH_St.Gallen|圣加仑
+CH_Zurich|苏黎世
+CH_Solothurn|索洛图恩
+CH_Schwyz|施维茨
+CH_Obwalden|上瓦尔登
+CH_Thurgau|图尔高
+CH_Ticino|提契诺
+CH_Vaud|沃
+CH_Appenzell Ausserrhon|外阿彭策尔
+CH_Uri|乌里
+CH_Wallis|瓦莱
+CH_Nidwalden|下瓦尔登
+SD|苏丹
+RS|塞尔维亚
+KN|圣基茨和尼维斯
+SK|斯洛伐克
+SL|塞拉利昂
+LK|斯里兰卡
+SB|所罗门群岛
+SR|苏里南
+SI|斯洛文尼亚
+SM|圣马力诺
+WS|萨摩亚
+SN|塞内加尔
+SC|塞舌尔
+SA|沙特阿拉伯
+SA_Abha|艾卜哈
+SA_Arar|阿尔阿尔
+SA_Al Hofuf|阿尔胡富夫
+SA_Al Mubarraz|阿尔姆巴拉兹
+SA_Al Kharj|阿尔卡里
+SA_Al Jubail|阿尔朱拜勒
+SA_Al Bahah|巴哈
+SA_Buraydah|布赖代
+SA_Dammam|达曼
+SA_Hafar al-Batin|哈费尔巴廷
+SA_Khamis Mushayt|海米斯穆谢特
+SA_Hail|哈伊勒
+SA_Jiddah|吉达
+SA_Jizan|吉赞
+SA_Riyad|利雅得
+SA_Medina|麦地那
+SA_Makkah|麦加
+SA_Najran|纳季兰
+SA_Sakaka|塞卡卡
+SA_Tabuk|塔布克
+SA_At Tarif|塔伊夫
+SA_Yanbu al-Bahr|延布
+SZ|斯威士兰
+TR|土耳其
+TR_Aydin|艾登
+TR_Edirne|埃迪尔内
+TR_Adana|阿达纳
+TR_Adiyaman|阿德亚曼
+TR_Ordu|奥尔杜
+TR_Ardahan|阿尔达罕
+TR_Erzincan|埃尔津詹
+TR_Artvin|阿尔特温
+TR_Erzurum|埃尔祖鲁姆
+TR_Afyon|阿菲永
+TR_Aksaray|阿克萨赖
+TR_Agri|阿勒
+TR_Elazig|埃拉泽
+TR_Amasya|阿马西亚
+TR_Ankara|安卡拉
+TR_Eskisehir|埃斯基谢希尔
+TR_Antalya|安塔利亚
+TR_Burdur|布尔杜尔
+TR_Bursa|布尔萨
+TR_Bartin|巴尔腾
+TR_Bingol|宾格尔
+TR_Bolu|博卢
+TR_Bilecik|比莱吉克
+TR_Balikesir|巴勒克埃西尔
+TR_Bitlis|比特利斯
+TR_Batman|巴特曼
+TR_Bayburt|巴伊布尔特
+TR_Cankiri|昌克勒
+TR_Denizli|代尼兹利
+TR_Diyarbakir|迪亚巴克尔
+TR_Van|凡
+TR_Hakkari|哈卡里
+TR_Hatay|哈塔伊
+TR_Gaziantep|加济安泰普
+TR_Giresun|吉雷松
+TR_Kilis|基利斯
+TR_Gumushane|居米什哈内
+TR_Kirsehir|克尔谢希尔
+TR_Kocaeli|科贾埃利
+TR_Kirklareli|柯克拉雷利
+TR_Kirikkale|克勒克卡莱
+TR_Konya|科尼亚
+TR_Kayseri|开塞利
+TR_Urfa|拉飞
+TR_Rize|里泽
+TR_Mardin|马尔丁
+TR_Mugla|穆拉
+TR_Malatya|马拉蒂亚
+TR_Manisa|马尼萨
+TR_Mus|穆什
+TR_Nigde|尼代
+TR_Nevsehir|内夫谢希尔
+TR_Kars|卡尔斯
+TR_Kahraman?Maras|卡赫拉曼马拉什
+TR_Karabuk|卡拉比克
+TR_Corum|乔鲁姆
+TR_Karaman|卡拉曼
+TR_Canakkale|恰纳卡莱
+TR_Kastamonu|卡斯塔莫努
+TR_Kutahya|屈塔希亚
+TR_Samsun|萨姆松
+TR_Sakarya|萨卡里亚
+TR_Tekirdag|泰基尔达
+TR_Tunceli|通杰利
+TR_Trabzon|特拉布宗
+TR_Tokat|托卡特
+TR_Usak|乌萨克
+TR_Sirnak|锡尔纳克
+TR_Siirt|锡尔特
+TR_Sinop|锡诺普
+TR_Sivas|锡瓦斯
+TR_Igdir|伊迪尔
+TR_Icel|伊切尔
+TR_Isparta|伊斯帕尔塔
+TR_Istanbul|伊斯坦布尔
+TR_Yozgat|约兹加特
+TR_Izmir|伊兹密尔
+TR_Zonguldak|宗古尔达克
+TH|泰国
+TH_Amnat Charoen|安纳乍能
+TH_Kanchanaburi|北碧
+TH_Saraburi|北标
+TH_Phetchabun|碧差汶
+TH_Phatthalung|博达伦
+TH_Pattani|北大年
+TH_Chachoengsao|北柳
+TH_Samut Prakan|北揽
+TH_Nakhon Sawan|北榄坡
+TH_Prachuap Khiri Khan|巴蜀
+TH_Pathum Thani|巴吞他尼
+TH_Prachin Buri|巴真
+TH_Chai Nat|猜那
+TH_Chumphon|春蓬
+TH_Chon Buri|春武里
+TH_Uttaradit|程逸
+TH_Chaiyaphum|猜也奔
+TH_Tak|达
+TH_Phra Nakhon Si Ayutthaya|大城
+TH_Trang|董里
+TH_Trat|达叻
+TH_Phetchaburi|佛丕
+TH_Nakhon Pathom|佛统
+TH_Kamphaeng Phet|甘烹碧
+TH_Lop Buri|华富里
+TH_Ang Thong|红统
+TH_Kalasin|加拉信
+TH_Krabi|甲米
+TH_Chanthaburi|尖竹汶
+TH_Khon Kaen|孔敬
+TH_Loei|黎
+TH_Nakhon Si Thammarat|洛坤
+TH_Nong Khai|廊开
+TH_Nong Bua Lamphu|廊莫那浦
+TH_Rayong|拉农
+TH_Ratchaburi|叻丕
+TH_Ranong|罗勇
+TH_Roi Et|黎逸
+TH_Samut Sakhon|龙仔厝
+TH_Mukdahan|莫达汉
+TH_Bangkok|曼谷
+TH_Maha Sarakham|玛哈沙拉堪
+TH_Nan|难
+TH_Lamphun|南奔
+TH_Nakhon Nayok|那空那育
+TH_Nakhon Phanom|那空帕农
+TH_Nonthaburi|暖武里
+TH_Phrae|帕
+TH_Phichit|披集
+TH_Phuket|普吉
+TH_Phitsanulok|彭世洛
+TH_Phangnga|攀牙
+TH_Phayao|帕尧
+TH_Chiang Rai|清莱
+TH_Chiang Mai|清迈
+TH_Satun|沙敦
+TH_Sa Kaeo|沙缴
+TH_Sakon Nakhon|色军
+TH_Sukhothai|素可泰
+TH_Surat Thani|素叻
+TH_Surin|素林
+TH_Suphan Buri|素攀武里
+TH_Songkhla|宋卡
+TH_Si sa ket|四色菊
+TH_Narathiwat|陶公
+TH_Udon Thani|乌隆
+TH_Buri Ram|武里南
+TH_Uthai Thani|乌泰他尼
+TH_Ubon Ratchathani|乌汶
+TH_Sing Buri|信武里
+TH_Mae Hong Son|夜丰颂
+TH_Samut Songkhram|夜功
+TH_Yala|也拉
+TH_Yasothon|耶梭通
+TO|汤加
+TJ|塔吉克斯坦
+TT|特立尼达和多巴哥
+TZ|坦桑尼亚
+GT|危地马拉
+UG|乌干达
+UA|乌克兰
+UA_Odessa|敖德萨
+UA_Poltava|波尔塔瓦
+UA_Dnipropetrovsk|第聂伯罗波得罗夫斯克
+UA_Donetsk|顿涅茨克
+UA_Kharkiv|哈尔科夫
+UA_Khersonsrka|赫尔松州
+UA_Khmelnytsky|赫梅利尼茨基
+UA_Ternopil|捷尔诺波尔
+UA_Kyiv|基辅
+UA_Kirovohrad|基洛夫格勒
+UA_Respublika Krym|克里米亚自治共和国
+UA_Rivne|罗夫诺
+UA_Luhansk|卢甘斯克
+UA_Lviv|利沃夫
+UA_Mykolayiv|尼古拉耶夫
+UA_Chernivtsi|切尔诺夫策
+UA_Chernihiv|切尔尼戈夫
+UA_Cherkasy|切尔卡瑟
+UA_Zhytomyr|日托米尔
+UA_Sumy|苏梅
+UA_Zakarpatska|外喀尔巴阡
+UA_Volyn|沃伦
+UA_Vinnytsya|文尼察
+UA_Ivano-Frankivsk|伊万－弗兰科夫州
+UA_Zaporizhzhya|扎波罗热
+BN|文莱
+UY|乌拉圭
+VU|瓦努阿图
+VE|委内瑞拉
+VE_Aragua|阿拉瓜
+VE_Delta Amacuro|阿马库罗三角洲
+VE_Apure|阿普雷
+VE_Anzoategui|安索阿特吉
+VE_Barinas|巴里纳斯
+VE_Bolivar|玻利瓦尔
+VE_Portuguesa|波图格萨
+VE_Falcon|法尔孔
+VE_Guarico|瓜里科
+VE_Caracas|加拉加斯
+VE_Cojedes|科赫德斯
+VE_Dependencias Federales|联邦属地
+VE_Lara|拉腊
+VE_Merida|梅里达
+VE_Miranda|米兰达
+VE_Monagas|莫纳加斯
+VE_Carabobo|卡拉沃沃
+VE_Sucre|苏克雷
+VE_Zulia|苏利亚
+VE_Trujillo|特鲁希略
+VE_Tachira|塔奇拉
+VE_Estado Nueva Esparta|新埃斯帕塔
+VE_Yaracuy|亚拉奎
+VE_Amazonas|亚马孙
+UZ|乌兹别克斯坦
+ES|西班牙
+ES_Almeria|阿尔梅里亚
+ES_Albacete|阿尔瓦塞特
+ES_Alicante|阿利坎特
+ES_Orense|奥伦塞
+ES_Alava|阿拉瓦
+ES_Asturias|阿斯图利亚斯
+ES_Avila|阿维拉
+ES_Badajoz|巴达霍斯
+ES_Burgos|布尔戈斯
+ES_Baleares|巴利阿里
+ES_Valencia|巴伦西亚
+ES_Valladolid|巴利亚多利德
+ES_Vizcaya|比斯开
+ES_Barcelona|巴塞罗那
+ES_Guadalajara|瓜达拉哈拉
+ES_Granada|格拉纳达
+ES_Jaen|哈恩
+ES_Gerona|赫罗纳
+ES_Cadiz|加的斯
+ES_Guipuzcoa|吉普斯夸
+ES_Cordoba|科尔多瓦
+ES_Cuenca|昆卡
+ES_Leon|莱昂
+ES_Ciudad Real|雷阿尔城
+ES_Provincia de Lugo|卢戈
+ES_La Coruna|拉科鲁尼亚
+ES_La Rioja|拉里奥哈
+ES_Lleida|莱里达
+ES_Las Palmas|拉斯帕尔马斯
+ES_Madrid|马德里
+ES_Murcia|穆尔西亚
+ES_Malaga|马拉加
+ES_Navarra|纳瓦拉
+ES_Palencia|帕伦西亚
+ES_Provincia de Pontevedra|蓬特韦德拉
+ES_Caceres|卡塞雷斯
+ES_Castellon|卡斯特利翁
+ES_Segovia|塞哥维亚
+ES_Santa Cruz de Tenerife|圣克鲁斯-德特内里费
+ES_Zaragoza|萨拉戈萨
+ES_Salamanca|萨拉曼卡
+ES_Soria|索里亚
+ES_Zamora|萨莫拉
+ES_Santander|桑坦德
+ES_Sevilla|塞维利亚
+ES_Teruel|特鲁埃尔
+ES_Toledo|托莱多
+ES_Tarragona|塔拉戈纳
+ES_Huelva|韦尔瓦
+ES_Huesca|韦斯卡
+SG|新加坡
+NC|新喀里多尼亚
+GR|希腊
+NZ|新西兰
+NZ_Auckland|奥克兰
+NZ_North Shore|北岸
+NZ_Blenheim|布莱尼姆
+NZ_Palmerston North|北帕默斯顿
+NZ_Far North|北远
+NZ_Dunedin|达尼丁
+NZ_Greymouth|格雷茅斯
+NZ_Hamilton|哈密尔顿
+NZ_Hastings|黑斯廷斯
+NZ_Waitakere|怀塔科拉
+NZ_Wellington|惠灵顿
+NZ_Gisborne|吉斯伯恩
+NZ_Christchurch|克赖斯特彻奇
+NZ_Kaipara|凯帕拉
+NZ_Richmond|里士满
+NZ_Manukau|马努考
+NZ_Nelson|纳尔逊
+NZ_Napier|内皮尔
+NZ_Stratford|斯特拉特福德
+NZ_Taumarunui|陶马鲁努伊
+NZ_Whangarei|旺阿雷
+NZ_Wanganui|旺格努伊
+NZ_Whakatane|瓦卡塔尼
+NZ_New Plymouth|新普利茅斯
+NZ_Invercargill|因弗卡吉尔
+HU|匈牙利
+HU_Budapest|布达佩斯
+HU_Borsod-Abauj-Zemplen|包尔绍德-奥包乌伊-曾普伦
+HU_Bekes|贝凯什
+HU_Baranya|巴兰尼亚
+HU_Bacs-Kiskun|巴奇-基什孔
+HU_Fejer|费耶尔
+HU_Heves|赫维什
+HU_Hajdu-Bihar|豪伊杜-比豪尔
+HU_Gyor-Moson-Sopron|杰尔-莫松-肖普朗
+HU_Jasz-Nagykun-Szolnok|加兹-纳杰孔-索尔诺克
+HU_Komarom-Esztergom|科马罗姆
+HU_Nograd|诺格拉德
+HU_Pest|佩斯
+HU_Csongrad|琼格拉德
+HU_Szabolcs-Szatmar-Bereg|索博尔奇-索特马尔-贝拉格
+HU_Somogy|绍莫吉
+HU_Tolna|托尔瑙
+HU_Vas|沃什
+HU_Veszprem|维斯普雷姆
+HU_Zala|佐洛
+IN|印度
+IN_Agra|阿格拉
+IN_Ahmedabad|艾哈迈达巴德
+IN_Agartala|阿加尔塔拉
+IN_Aligarh|阿里格尔
+IN_Allahabad|阿拉哈巴德
+IN_Aurangabad|奥兰加巴德
+IN_Amritsar|阿姆利则
+IN_Aizawl|艾藻尔
+IN_Bhubaneswar|布巴内斯瓦尔
+IN_Pondicherry|本地治里
+IN_Bangalore|班加罗尔
+IN_Baroda|巴罗达
+IN_Nasik|邦纳西克
+IN_Bhopal|博帕尔
+IN_Bokaro|波卡罗
+IN_Patna|巴特那
+IN_Chandigarh|昌迪加尔
+IN_Jammu|查谟
+IN_Durgapur|杜加浦
+IN_Dehradun|德拉敦
+IN_Tiruchirappalli|蒂鲁吉拉伯利
+IN_Dimapur|迪马普尔
+IN_Faridabad|法里达巴德
+IN_Goa|果阿
+IN_Gandhinagar|甘地讷格尔
+IN_Kolhapur|戈尔
+IN_Gurgaon|古尔加翁
+IN_Gwalior|瓜廖尔
+IN_Guwahati|古瓦哈提
+IN_Coimbatore|哥印拜陀
+IN_Hyderabad|海德拉巴
+IN_Jabalpur|贾巴尔普尔
+IN_Kolkata|加尔各答
+IN_Ghaziabad|加济阿巴德
+IN_Jullundhar|贾朗达尔
+IN_Jamnagar|贾姆纳格尔
+IN_Chennai|金奈
+IN_Jodhpur|焦特布尔
+IN_Kanpur|坎普尔
+IN_Cochin|科钦
+IN_Cuttack|克塔克
+IN_Raipur|赖布尔
+IN_Ludhiana|卢迪亚纳
+IN_Rourkela|鲁尔克拉
+IN_Rajkot|拉杰果德
+IN_Lucknow|勒克瑙
+IN_Ranchi|兰契
+IN_Madurai|马杜赖
+IN_Margao|马尔高
+IN_Mangalore|芒格洛尔
+IN_Mumbai|孟买
+IN_Mysore|迈索尔
+IN_Nagpur|那格浦尔
+IN_Noida|诺伊达
+IN_Panjim|潘吉姆
+IN_Pune|浦那
+IN_Visakhapatnam|維沙哈巴南
+IN_Secunderabad|塞康德拉巴德
+IN_Sura|苏拉
+IN_Salem|塞勒姆
+IN_Srinagar|斯利那加
+IN_Thiruvananthapuram|特里凡得琅
+IN_Thane|塔那
+IN_Udaipur|乌代布尔
+IN_Vijayawada|维杰亚瓦达
+IN_Vellore|韦洛尔
+IN_Varanasi|瓦拉纳西
+IN_New Delhi|新德里
+IN_Shillong|西隆
+IN_Siliguri|西里古里
+IN_Indore|印多尔
+IN_Imphal|因帕尔
+IN_Jaipur|斋普尔
+IN_Jamshedpur|詹谢普尔
+JO|约旦
+IT|意大利
+IT_Olbia-Tempio|奥尔比亚
+IT_Agrigento|阿格里真托
+IT_Ancona|安科纳
+IT_Oristano|奥里斯塔诺
+IT_Arezzo|阿雷佐
+IT_Asti|阿斯蒂
+IT_Ascoli Piceno|阿斯科利皮切诺
+IT_Aosta|奥斯塔
+IT_Pordenone|波代诺内
+IT_Bolzano|博尔扎诺
+IT_Bergamo|贝加莫
+IT_Bari|巴里
+IT_Biella|布拉
+IT_Brindisi|布林迪西
+IT_Palermo|巴勒莫
+IT_Belluno|贝卢诺
+IT_Bologna|博洛尼亚
+IT_Barletta-Andria-Trani|巴列塔 - 安德里亚 - 特拉尼
+IT_Brescia|布雷西亚
+IT_Benevento|贝内文托
+IT_Pisa|比萨
+IT_Potenza|波坦察
+IT_Turin|都灵
+IT_Trieste|的里雅斯特
+IT_Enna|恩纳
+IT_Fermo|费尔莫
+IT_Foggia|福贾
+IT_Forlì- Cesena|弗利 - 切塞纳
+IT_Ferrara|费拉拉
+IT_Firenze|佛罗伦萨
+IT_Frosinone|费辛隆尼
+IT_Gorizia|戈里齐亚
+IT_Grosseto|格罗塞托
+IT_Chieti|基耶蒂
+IT_Campobasso|坎波巴索
+IT_Crotone|克罗托内
+IT_Como|科摩
+IT_Cuneo|库内奥
+IT_Cosenza|科森扎
+IT_Latina|拉丁
+IT_Lodi|洛迪
+IT_Rieti|列蒂
+IT_Vibo-valentia|伦蒂亚
+IT_Ragusa|拉古萨
+IT_Reggio Emilia|雷焦艾米利亚
+IT_Reggio Calabria|雷焦卡拉布里亚
+IT_Lecco|莱科
+IT_L'Aquila|拉奎拉
+IT_Roma|罗马
+IT_Rimini|里米尼
+IT_Lecce|莱切
+IT_Lucca|卢卡
+IT_La Spezia|拉斯佩齐亚
+IT_Rovigo|罗维戈
+IT_Livorno|里窝那
+IT_Ravenna|拉文纳
+IT_Modena|摩德纳
+IT_Milano|米兰
+IT_Macerata|马切拉塔
+IT_Massa-Carrara|马萨
+IT_Matera|马泰拉
+IT_Mantova|曼图亚
+IT_Messina|墨西拿
+IT_Monza e Brianza|蒙扎
+IT_Nuoro|努奥罗
+IT_Naples|那不勒斯
+IT_Novara|诺瓦拉
+IT_Padova|帕多瓦
+IT_Parma|帕尔马
+IT_Perugia|佩鲁贾
+IT_Prato|普拉托
+IT_Pesaro|佩萨罗
+IT_Pescara|佩斯卡拉
+IT_Pistoia|皮斯托亚
+IT_Pavia|帕维亚
+IT_Piacenza|皮亚琴察
+IT_Carbonia-Iglesias|卡博尼亚 - 伊格莱西亚斯
+IT_Cagliari|卡利亚里
+IT_Caserta|卡塞塔
+IT_Catania|卡塔尼亚
+IT_Catanzaro|卡坦扎罗
+IT_Genova|热那亚
+IT_Sondrio|松德里奥
+IT_Salerno|萨莱诺
+IT_Sassari|萨萨里
+IT_Savona|萨沃纳
+IT_Terni|特尔尼
+IT_Teramo|泰拉莫
+IT_Trapani|特拉帕尼
+IT_Taranto|塔兰托
+IT_Trento|特伦托
+IT_Treviso|特雷维索
+IT_Verbano-Cusio-Ossola|韦巴诺 - 库西奥 - 奥索拉
+IT_Udine|乌迪内
+IT_Vercelli|韦尔切利
+IT_Verona|维罗纳
+IT_Varese|瓦雷泽
+IT_Venice|威尼斯
+IT_Vicenza|维琴察
+IT_Viterbo|维泰博
+IT_Syracuse|锡拉库扎
+IT_Siena|锡耶纳
+IT_Alessandria|亚历山德里亚
+IT_Imperia|因佩里亚
+IT_Isernia|伊塞尔尼亚
+ID|印度尼西亚
+ID_Kepulauan Bangka Belitung|邦加－勿里洞群岛
+ID_Bali|巴厘
+ID_Sulawesi Utara|北苏拉威西
+ID_Sumatera Utara|北苏门答腊
+ID_Kalimantan Timur|东加里曼丹
+ID_Nusa Tenggara Timur|东努沙登加拉
+ID_Sulawesi Tenggara|东南苏拉威西
+ID_Daerah Tingkat I Kalimantan Barat|大雅加达首都特区
+ID_Java Timur|东爪哇
+ID_Riau|廖内
+ID_Bengkulu|明古鲁
+ID_Maluku|马鲁古
+ID_Lampung|楠榜
+ID_Kalimantan Selatan|南加里曼丹
+ID_Sulawesi Selatan|南苏拉威西
+ID_Sumatera Selatan|南苏门答腊
+ID_Daerah Istimewa Yogyakarta|日惹特区
+ID_Banten|万丹
+ID_Nusa Tenggara Barat|西努沙登加拉
+ID_Sumatera Barat|西苏门答腊
+ID_Java Barat|西爪哇
+ID_Jakarta Raya|雅加达
+ID_Irian Jaya|伊里安查亚
+ID_Aceh|亚齐
+ID_Jambi|占碑
+ID_Kalimantan Tengah|中加里曼丹
+ID_Sulawesi Tengah|中苏拉威西
+ID_Java Tengah|中爪哇
+GB|英国
+GB_Northern Ireland|北爱尔兰
+GB_Northern Ireland_Belfast|贝尔法斯特
+GB_Northern Ireland_Derry|德里
+GB_Northern Ireland_Lisburn|利斯本
+GB_Northern Ireland_Newry|纽里
+GB_Scotland|苏格兰
+GB_Scotland_Aberdeen|阿伯丁
+GB_Scotland_Edinburgh|爱丁堡
+GB_Scotland_Dundee|丹迪
+GB_Scotland_Glasgow|格拉斯哥
+GB_Scotland_Stirling|斯特灵
+GB_Scotland_Inverness|因弗内斯
+GB_Wales|威尔士
+GB_Wales_Bangor|班戈
+GB_Wales_Newport|纽波特
+GB_Wales_Cardiff|卡迪夫
+GB_Wales_Swansea|斯旺西
+GB_England|英格兰
+GB_England_Exeter|爱塞特
+GB_England_Peterborough|彼得伯勒
+GB_England_Bradford|布拉德福德
+GB_England_Brighton & Hove|布莱顿霍夫
+GB_England_Bristol|布里斯托尔
+GB_England_Birmingham|伯明翰
+GB_England_Bath|巴斯
+GB_England_Derby|德比
+GB_England_Durham|德罕
+GB_England_Gloucester|格洛斯特
+GB_England_Kingston upon Hull|赫尔河畔京斯敦
+GB_England_Hereford|赫里福德
+GB_England_Cambridge|剑桥
+GB_England_Canterbury|坎特伯雷
+GB_England_Coventry|考文垂
+GB_England_London|伦敦
+GB_England_Lincoln|林肯
+GB_England_Lancaster|兰开斯特
+GB_England_Ripon|里彭
+GB_England_Lichfield|利奇菲尔德
+GB_England_Leicester|列斯特
+GB_England_Liverpool|利物浦
+GB_England_Leeds|利茲
+GB_England_Manchester|曼彻斯特
+GB_England_Southampton|南安普敦
+GB_England_Nottingham|诺丁汉
+GB_England_Oxford|牛津
+GB_England_Norwich|诺里奇
+GB_England_Newcastle|纽卡斯尔
+GB_England_Portsmouth|朴茨茅斯
+GB_England_Plymouth|普利茅斯
+GB_England_Preston|普雷斯顿
+GB_England_Carlisle|卡莱尔
+GB_England_Chichester|奇切斯特
+GB_England_Chester|切斯特
+GB_England_Saint Albans|圣阿本斯
+GB_England_Sunderland|桑德兰
+GB_England_Salisbury|索尔斯堡
+GB_England_Salford|索福特
+GB_England_Truro|特鲁罗
+GB_England_Stoke-on-Trent|特伦特河畔斯多克
+GB_England_Winchester|温彻斯特
+GB_England_Wolverhampton|伍尔弗汉普顿
+GB_England_Wells|威尔斯
+GB_England_Wakefield|韦克菲尔德
+GB_England_Worcester|伍斯特
+GB_England_Sheffield|谢菲尔德
+GB_England_York|约克
+GB_England_Ely|伊利
+IR|伊朗
+IQ|伊拉克
+YE|也门
+JM|牙买加
+AM|亚美尼亚
+VN|越南
+VN_Haiphong|海防
+VN_Hanoi|河内
+VN_Ho Chi Minh City|胡志明市
+IL|以色列
+GI|直布罗陀
+ZM|赞比亚
+CF|中非共和国
+CN|中国
+CN_Anhui|安徽
+CN_Anhui_Anqing|安庆
+CN_Anhui_Bengbu|蚌埠
+CN_Anhui_Bozhou|亳州
+CN_Anhui_Chaohu|巢湖
+CN_Anhui_Chuzhou|滁州
+CN_Anhui_Chizhou|池州
+CN_Anhui_Fuyang|阜阳
+CN_Anhui_Huaibei|淮北
+CN_Anhui_Hefei|合肥
+CN_Anhui_Huainan|淮南
+CN_Anhui_Huangshan|黄山
+CN_Anhui_Luan|六安
+CN_Anhui_MOS|马鞍山
+CN_Anhui_Suzhou|宿州
+CN_Anhui_Tongling|铜陵
+CN_Anhui_Wuhu|芜湖
+CN_Anhui_Xuancheng|宣城
+CN_Macao|澳门
+CN_Macao_Cathedral|大堂区
+CN_Macao_Taipa|氹仔
+CN_Macao_St. Lawrence|风顺堂区
+CN_Macao_Fatima|花地玛堂区
+CN_Macao_Coloane|路环岛
+CN_Macao_St. Anthony|圣安多尼堂区
+CN_Macao_St. Lazarus|望德堂区
+CN_Beijing|北京
+CN_Beijing_Changping|昌平
+CN_Beijing_Chaoyang|朝阳
+CN_Beijing_East|东城
+CN_Beijing_Daxing|大兴
+CN_Beijing_Fangshan|房山
+CN_Beijing_Fengtai|丰台
+CN_Beijing_Haidian|海淀
+CN_Beijing_Huairou|怀柔
+CN_Beijing_Mentougou|门头沟
+CN_Beijing_Miyun|密云
+CN_Beijing_Pinggu|平谷
+CN_Beijing_Shijingshan|石景山
+CN_Beijing_Shunyi|顺义
+CN_Beijing_Tongzhou|通州
+CN_Beijing_West|西城
+CN_Beijing_Yanqing|延庆
+CN_Chongqing|重庆
+CN_Chongqing_Beibei|北碚
+CN_Chongqing_Banan|巴南
+CN_Chongqing_Bishan|璧山
+CN_Chongqing_Chengkou|城口
+CN_Chongqing_longevity|长寿
+CN_Chongqing_Dadukou|大渡口
+CN_Chongqing_Dianjiang|垫江
+CN_Chongqing_Dazu|大足
+CN_Chongqing_Fengdu|丰都
+CN_Chongqing_Fengjie|奉节
+CN_Chongqing_Fuling|涪陵
+CN_Chongqing_Aikawa|合川
+CN_Chongqing_Jiangbei|江北
+CN_Chongqing_Jiangjin|江津
+CN_Chongqing_Jiulongpo|九龙坡
+CN_Chongqing_Kaixian|开县
+CN_Chongqing_Two Rivers|两江新区
+CN_Chongqing_Liangping|梁平
+CN_Chongqing_South Bank|南岸
+CN_Chongqing_Nanchuan|南川
+CN_Chongqing_Pengshui|彭水
+CN_Chongqing_Qijiang|綦江
+CN_Chongqing_Qianjiang|黔江
+CN_Chongqing_Rongchang|荣昌
+CN_Chongqing_Shapingba|沙坪坝
+CN_Chongqing_Shuangqiao|双桥
+CN_Chongqing_columns|石柱
+CN_Chongqing_Tongliang|铜梁
+CN_Chongqing_Tongnan|潼南
+CN_Chongqing_Wulong|武隆
+CN_Chongqing_Wushan|巫山
+CN_Chongqing_Pine Valley|万盛
+CN_Chongqing_Wuxi|巫溪
+CN_Chongqing_Wanzhou|万州
+CN_Chongqing_Xiushan|秀山
+CN_Chongqing_Yubei|渝北
+CN_Chongqing_Yongchuan|永川
+CN_Chongqing_Youyang|酉阳
+CN_Chongqing_Yunyang|云阳
+CN_Chongqing_Yuzhong|渝中
+CN_Chongqing_Zhongxian|忠县
+CN_Fujian|福建
+CN_Fujian_Fuzhou|福州
+CN_Fujian_Longyan|龙岩
+CN_Fujian_Ningde|宁德
+CN_Fujian_Nanping|南平
+CN_Fujian_Putian|莆田
+CN_Fujian_Quanzhou|泉州
+CN_Fujian_Xiamen|厦门
+CN_Fujian_Sanming|三明
+CN_Fujian_Zhangzhou|漳州
+CN_Guangdong|广东
+CN_Guangdong_Chaozhou|潮州
+CN_Guangdong_Dongguan|东莞
+CN_Guangdong_Foshan|佛山
+CN_Guangdong_Guangzhou|广州
+CN_Guangdong_Heyuan|河源
+CN_Guangdong_Huizhou|惠州
+CN_Guangdong_Jiangmen|江门
+CN_Guangdong_Jieyang|揭阳
+CN_Guangdong_Maoming|茂名
+CN_Guangdong_Meizhou|梅州
+CN_Guangdong_Qingyuan|清远
+CN_Guangdong_Shaoguan|韶关
+CN_Guangdong_Shantou|汕头
+CN_Guangdong_Shanwei|汕尾
+CN_Guangdong_Shenzhen|深圳
+CN_Guangdong_Yunfu|云浮
+CN_Guangdong_Yangjiang|阳江
+CN_Guangdong_Zhuhai|珠海
+CN_Guangdong_Zhanjiang|湛江
+CN_Guangdong_Zhaoqing|肇庆
+CN_Guangdong_Zhongshan|中山
+CN_Gansu|甘肃
+CN_Gansu_Silver|白银
+CN_Gansu_Dingxi|定西
+CN_Gansu_Gannan|甘南
+CN_Gansu_Jinchang|金昌
+CN_Gansu_Jiuquan|酒泉
+CN_Gansu_Jiayuguan|嘉峪关
+CN_Gansu_Longnan|陇南
+CN_Gansu_Linxia|临夏
+CN_Gansu_Lanzhou|兰州市
+CN_Gansu_Pingliang|平凉
+CN_Gansu_Qingyang|庆阳
+CN_Gansu_Tin Shui|天水
+CN_Gansu_Wuwei|武威
+CN_Gansu_Zhangye|张掖
+CN_Guangxi|广西
+CN_Guangxi_Beihai|北海
+CN_Guangxi_Baise|百色
+CN_Guangxi_Chongzuo|崇左
+CN_Guangxi_Fangchenggang|防城港
+CN_Guangxi_Guigang|贵港
+CN_Guangxi_Guilin|桂林
+CN_Guangxi_Hechi|河池
+CN_Guangxi_Hezhou|贺州
+CN_Guangxi_guests|来宾
+CN_Guangxi_Liuzhou|柳州
+CN_Guangxi_Nanning|南宁
+CN_Guangxi_Chow|钦州
+CN_Guangxi_Wuzhou|梧州
+CN_Guangxi_Yulin|玉林
+CN_Guizhou|贵州
+CN_Guizhou_Anshun|安顺
+CN_Guizhou_Bijie|毕节
+CN_Guizhou_Guiyang|贵阳
+CN_Guizhou_Liupanshui|六盘水
+CN_Guizhou_Southeast|黔东南
+CN_Guizhou_South Guizhou|黔南
+CN_Guizhou_Southwest Guizhou|黔西南
+CN_Guizhou_Tongren|铜仁
+CN_Guizhou_Lawrence|遵义
+CN_Hebei|河北
+CN_Hebei_Baoding|保定
+CN_Hebei_Chengde|承德
+CN_Hebei_Cangzhou|沧州
+CN_Hebei_Handan|邯郸
+CN_Hebei_Hengshui|衡水
+CN_Hebei_Langfang|廊坊
+CN_Hebei_Qinhuangdao|秦皇岛
+CN_Hebei_Shijiazhuang|石家庄
+CN_Hebei_Tangshan|唐山
+CN_Hebei_Xingtai|邢台
+CN_Hebei_Zhangjiakou|张家口
+CN_Hubei|湖北
+CN_Hubei_Enshi|恩施
+CN_Hubei_Ezhou|鄂州
+CN_Hubei_Huanggang|黄冈
+CN_Hubei_Yellowstone|黄石
+CN_Hubei_Jingmen|荆门
+CN_Hubei_Jingzhou|荆州
+CN_Hubei_Qianjiang|潜江
+CN_Hubei_Shennongjia|神农架
+CN_Hubei_Shiyan|十堰
+CN_Hubei_Suizhou|随州
+CN_Hubei_Tianmen|天门
+CN_Hubei_Wuhan|武汉
+CN_Hubei_Xiaogan|孝感
+CN_Hubei_Xianning|咸宁
+CN_Hubei_Bristol|仙桃
+CN_Hubei_Yangyang|襄阳
+CN_Hubei_Yichang|宜昌
+CN_Heilongjiang|黑龙江
+CN_Heilongjiang_Daqing|大庆
+CN_Heilongjiang_Mountains|大兴安岭
+CN_Heilongjiang_Harbin|哈尔滨
+CN_Heilongjiang_Hegang|鹤岗
+CN_Heilongjiang_Heihe|黑河
+CN_Heilongjiang_Jiamusi|佳木斯
+CN_Heilongjiang_Jixi|鸡西
+CN_Heilongjiang_Mudanjiang|牡丹江
+CN_Heilongjiang_Qiqihar|齐齐哈尔
+CN_Heilongjiang_Qitaihe|七台河
+CN_Heilongjiang_Suihua|绥化
+CN_Heilongjiang_Shuangyashan|双鸭山
+CN_Heilongjiang_Yichun|伊春
+CN_Hainan|海南
+CN_Hainan_White Sands|白沙
+CN_Hainan_Baoting|保亭
+CN_Hainan_Changjiang|昌江
+CN_Hainan_Chengmai|澄迈
+CN_Hainan_Honour|定安
+CN_Hainan_East|东方
+CN_Hainan_Danzhou|儋州
+CN_Hainan_Haikou|海口
+CN_Hainan_Music East|乐东
+CN_Hainan_Pro High|临高
+CN_Hainan_Lingshui|陵水
+CN_Hainan_Qionghai|琼海
+CN_Hainan_Qiongzhong|琼中
+CN_Hainan_Sansha|三沙
+CN_Hainan_Sanya|三亚
+CN_Hainan_Tunchang|屯昌
+CN_Hainan_Wenchang|文昌
+CN_Hainan_Manning|万宁
+CN_Hainan_Fingers|五指山
+CN_Henan|河南
+CN_Henan_Anyang|安阳
+CN_Henan_Hebi|鹤壁
+CN_Henan_Jiyuan|济源
+CN_Henan_Jiaozuo|焦作
+CN_Henan_Kaifeng|开封
+CN_Henan_Luohe|漯河
+CN_Henan_Luoyang|洛阳
+CN_Henan_Nanyang|南阳
+CN_Henan_mesa|平顶山
+CN_Henan_Puyang|濮阳
+CN_Henan_Sanmenxia|三门峡
+CN_Henan_Shangqiu|商丘
+CN_Henan_Xuchang|许昌
+CN_Henan_Xinxiang|新乡
+CN_Henan_Xinyang|信阳
+CN_Henan_Zhoukou|周口
+CN_Henan_Zhumadian|驻马店
+CN_Henan_Zhengzhou|郑州
+CN_Hunan|湖南
+CN_Hunan_Changde|常德
+CN_Hunan_Changsha|长沙
+CN_Hunan_Chenzhou|郴州
+CN_Hunan_Huaihua|怀化
+CN_Hunan_Hengyang|衡阳
+CN_Hunan_Loudi|娄底
+CN_Hunan_Shaoyang|邵阳
+CN_Hunan_Xiangtan|湘潭
+CN_Hunan_Xiangxi|湘西
+CN_Hunan_Yiyang|益阳
+CN_Hunan_Yueyang|岳阳
+CN_Hunan_Yongzhou|永州
+CN_Hunan_Zhangjiajie|张家界
+CN_Hunan_Zhuzhou|株洲
+CN_Jilin|吉林
+CN_Jilin_White City|白城
+CN_Jilin_White Mountains|白山
+CN_Jilin_Changchun|长春
+CN_Jilin_Jilin|吉林
+CN_Jilin_Liaoyuan|辽源
+CN_Jilin_Siping|四平
+CN_Jilin_Matsubara|松原
+CN_Jilin_Tonghua|通化
+CN_Jilin_Yanbian|延边
+CN_Jiangsu|江苏
+CN_Jiangsu_Changzhou|常州
+CN_Jiangsu_Huai|淮安
+CN_Jiangsu_Lianyungang|连云港
+CN_Jiangsu_Nanjing|南京
+CN_Jiangsu_Nantong|南通
+CN_Jiangsu_Suqian|宿迁
+CN_Jiangsu_Suzhou|苏州
+CN_Jiangsu_Taizhou|泰州
+CN_Jiangsu_Wuxi|无锡
+CN_Jiangsu_Xuzhou|徐州
+CN_Jiangsu_Yancheng|盐城
+CN_Jiangsu_Yangzhou|扬州
+CN_Jiangsu_Zhenjiang|镇江
+CN_Jiangxi|江西
+CN_Jiangxi_Fuzhou|抚州
+CN_Jiangxi_Ganzhou|赣州
+CN_Jiangxi_Jian|吉安
+CN_Jiangxi_Jingdezhen|景德镇
+CN_Jiangxi_Jiujiang|九江
+CN_Jiangxi_Nanchang|南昌
+CN_Jiangxi_Pingxiang|萍乡
+CN_Jiangxi_Shangrao|上饶
+CN_Jiangxi_Xinyu|新余
+CN_Jiangxi_Yichun|宜春
+CN_Jiangxi_Yingtan|鹰潭
+CN_Liaoning|辽宁
+CN_Liaoning_Anshan|鞍山
+CN_Liaoning_Benxi|本溪
+CN_Liaoning_Chaoyang|朝阳
+CN_Liaoning_Dandong|丹东
+CN_Liaoning_Dalian|大连
+CN_Liaoning_Fushun|抚顺
+CN_Liaoning_Fuxin|阜新
+CN_Liaoning_Huludao|葫芦岛
+CN_Liaoning_Jinzhou|锦州
+CN_Liaoning_Liaoyang|辽阳
+CN_Liaoning_Panjin|盘锦
+CN_Liaoning_Shenyang|沈阳
+CN_Liaoning_Tieling|铁岭
+CN_Liaoning_Yingkou|营口
+CN_Inner Mongolia|内蒙古
+CN_Inner Mongolia_Alxa|阿拉善
+CN_Inner Mongolia_Baotou|包头
+CN_Inner Mongolia_Bayannur|巴彦淖尔
+CN_Inner Mongolia_Chifeng|赤峰
+CN_Inner Mongolia_Erdos|鄂尔多斯
+CN_Inner Mongolia_Hohhot|呼和浩特
+CN_Inner Mongolia_Hulunbeier|呼伦贝尔
+CN_Inner Mongolia_Tongliao|通辽
+CN_Inner Mongolia_Wuhai|乌海
+CN_Inner Mongolia_Bu|乌兰察布
+CN_Inner Mongolia_Xing|兴安
+CN_Inner Mongolia_Gol|锡林郭勒
+CN_Ningxia|宁夏
+CN_Ningxia_Guyuan|固原
+CN_Ningxia_Shizuishan|石嘴山
+CN_Ningxia_Wuzhong|吴忠
+CN_Ningxia_Yinchuan|银川
+CN_Ningxia_Zhongwei|中卫
+CN_Qinghai|青海
+CN_Qinghai_Guoluo|果洛
+CN_Qinghai_rambling|海北
+CN_Qinghai_Haidong|海东
+CN_Qinghai_Hainan|海南
+CN_Qinghai_Huangnan|黄南
+CN_Qinghai_Hercynian|海西
+CN_Qinghai_Xining|西宁
+CN_Qinghai_Yushu|玉树
+CN_Sichuan|四川
+CN_Sichuan_Aba|阿坝
+CN_Sichuan_Pakistan|巴中
+CN_Sichuan_Chengdu|成都
+CN_Sichuan_Deyang|德阳
+CN_Sichuan_Florida|达州
+CN_Sichuan_Kwong|广安
+CN_Sichuan_Guangyuan|广元
+CN_Sichuan_Ganzi|甘孜
+CN_Sichuan_Leshan|乐山
+CN_Sichuan_Liangshan|凉山
+CN_Sichuan_Luzhou|泸州
+CN_Sichuan_Meishan|眉山
+CN_Sichuan_Mianyang|绵阳
+CN_Sichuan_Nanchong|南充
+CN_Sichuan_Neijiang|内江
+CN_Sichuan_Panzhihua|攀枝花
+CN_Sichuan_Suining|遂宁
+CN_Sichuan_Yaan|雅安
+CN_Sichuan_Yibin|宜宾
+CN_Sichuan_Zigong|自贡
+CN_Sichuan_Ziyang|资阳
+CN_Shandong|山东
+CN_Shandong_Binzhou|滨州
+CN_Shandong_Dongying|东营
+CN_Shandong_Texas|德州
+CN_Shandong_Heze|菏泽
+CN_Shandong_Jinan|济南
+CN_Shandong_Jining|济宁
+CN_Shandong_Liaocheng|聊城
+CN_Shandong_Laiwu|莱芜
+CN_Shandong_Linyi|临沂
+CN_Shandong_Qingdao|青岛
+CN_Shandong_Rizhao|日照
+CN_Shandong_Taian|泰安
+CN_Shandong_Weifang|潍坊
+CN_Shandong_Weihai|威海
+CN_Shandong_Yantai|烟台
+CN_Shandong_Zibo|淄博
+CN_Shandong_Zaozhuang|枣庄
+CN_Shanghai|上海
+CN_Shanghai_Baoshan|宝山
+CN_Shanghai_Chongming|崇明
+CN_Shanghai_Changning|长宁
+CN_Shanghai_Fengxian|奉贤
+CN_Shanghai_Hongkou|虹口
+CN_Shanghai_Huangpu|黄浦
+CN_Shanghai_Jing|静安
+CN_Shanghai_Jiading|嘉定
+CN_Shanghai_Jinshan|金山
+CN_Shanghai_Luwan|卢湾
+CN_Shanghai_Minhang|闵行
+CN_Shanghai_Pudong New District|浦东新区
+CN_Shanghai_Po|普陀
+CN_Shanghai_Qingpu|青浦
+CN_Shanghai_Songjiang|松江
+CN_Shanghai_Xuhui|徐汇
+CN_Shanghai_Yangpu|杨浦
+CN_Shanghai_Zhabei|闸北
+CN_Shaanxi|陕西
+CN_Shaanxi_Ankang|安康
+CN_Shaanxi_Baoji|宝鸡
+CN_Shaanxi_Hanzhong|汉中
+CN_Shaanxi_Shangluo|商洛
+CN_Shaanxi_Tongchuan|铜川
+CN_Shaanxi_Weinan|渭南
+CN_Shaanxi_Xi'an|西安
+CN_Shaanxi_Xianyang|咸阳
+CN_Shaanxi_Yanan|延安
+CN_Shaanxi_Yulin|榆林
+CN_Shanxi|山西
+CN_Shanxi_Changzhi|长治
+CN_Shanxi_Datong|大同
+CN_Shanxi_Jincheng|晋城
+CN_Shanxi_Jinzhong|晋中
+CN_Shanxi_Linfen|临汾
+CN_Shanxi_Luliang|吕梁
+CN_Shanxi_Shuozhou|朔州
+CN_Shanxi_Taiyuan|太原
+CN_Shanxi_Xinzhou|忻州
+CN_Shanxi_Yuncheng|运城
+CN_Shanxi_Yangquan|阳泉
+CN_Tianjin|天津
+CN_Tianjin_North Star|北辰
+CN_Tianjin_Baodi|宝坻
+CN_Tianjin_Binhai New Area|滨海新区
+CN_Tianjin_Toray|东丽
+CN_Tianjin_Hebei|河北
+CN_Tianjin_east|河东
+CN_Tianjin_Peace|和平
+CN_Tianjin_Red Bridge|红桥
+CN_Tianjin_west|河西
+CN_Tianjin_Jinghai|静海
+CN_Tianjin_Jinnan|津南
+CN_Tianjin_Jixian|蓟县
+CN_Tianjin_Ninghe|宁河
+CN_Tianjin_Nankai|南开
+CN_Tianjin_Wuqing|武清
+CN_Tianjin_West Green|西青
+CN_Taiwan|台湾
+CN_Taiwan_Kaohsiung City|高雄市
+CN_Taiwan_Hualien County|花莲县
+CN_Taiwan_Keelung City|基隆市
+CN_Taiwan_Kinmen County|金门县
+CN_Taiwan_Chiayi City|嘉义市
+CN_Taiwan_Chiayi County|嘉义县
+CN_Taiwan_Lianjiang County|连江县
+CN_Taiwan_Miaoli County|苗栗县
+CN_Taiwan_Nantou County|南投县
+CN_Taiwan_Pingtung County|屏东县
+CN_Taiwan_Penghu County|澎湖县
+CN_Taiwan_Taipei|台北市
+CN_Taiwan_Taitung County|台东县
+CN_Taiwan_Tainan City|台南市
+CN_Taiwan_Taoyuan County|桃园县
+CN_Taiwan_Taichung City|台中市
+CN_Taiwan_New Taipei City|新北市
+CN_Taiwan_Hsinchu City|新竹市
+CN_Taiwan_Hsinchu County|新竹县
+CN_Taiwan_Yunlin County|云林县
+CN_Taiwan_Yilan County|宜兰县
+CN_Taiwan_Changhua County|彰化县
+CN_Tibet|西藏
+CN_Tibet_Ali|阿里
+CN_Tibet_Qamdo|昌都
+CN_Tibet_Lhasa|拉萨
+CN_Tibet_Nyingchi|林芝
+CN_Tibet_Nagqu|那曲
+CN_Tibet_Shigatse|日喀则
+CN_Tibet_Shannan|山南
+CN_Hong Kong|香港
+CN_Hong Kong_North|北区
+CN_Hong Kong_Tai Po|大埔区
+CN_Hong Kong_Eastern|东区
+CN_Hong Kong_Kwun Tong|观塘区
+CN_Hong Kong_Wong Tai Sin|黄大仙区
+CN_Hong Kong_Kowloon City|九龙城区
+CN_Hong Kong_Kwai Tsing|葵青区
+CN_Hong Kong_Islands|离岛区
+CN_Hong Kong_Southern|南区
+CN_Hong Kong_Tsuen Wan|荃湾区
+CN_Hong Kong_Sham Shui Po|深水埗区
+CN_Hong Kong_Sha Tin|沙田区
+CN_Hong Kong_Tuen Mun|屯门区
+CN_Hong Kong_Wan Chai|湾仔区
+CN_Hong Kong_Sai Kung|西贡区
+CN_Hong Kong_Yau Tsim Mong|油尖旺区
+CN_Hong Kong_Yuen Long|元朗区
+CN_Hong Kong_Central and Western|中西区
+CN_Xinjiang|新疆
+CN_Xinjiang_Aksu|阿克苏
+CN_Xinjiang_Arar|阿拉尔
+CN_Xinjiang_Altay|阿勒泰
+CN_Xinjiang_Bortala|博尔塔拉
+CN_Xinjiang_Bayingolin|巴音郭楞
+CN_Xinjiang_Changji|昌吉
+CN_Xinjiang_Hamilton|哈密
+CN_Xinjiang_Hotan|和田
+CN_Xinjiang_Karamay|克拉玛依
+CN_Xinjiang_Kashgar|喀什
+CN_Xinjiang_Kizilsu|克孜勒苏
+CN_Xinjiang_Shihezi|石河子
+CN_Xinjiang_Tacheng|塔城
+CN_Xinjiang_Turpan|吐鲁番
+CN_Xinjiang_Figure wooden Shook|图木舒克
+CN_Xinjiang_Wujiaqu|五家渠
+CN_Xinjiang_Urumqi|乌鲁木齐
+CN_Xinjiang_Ili|伊犁
+CN_Yunnan|云南
+CN_Yunnan_Baoshan|保山
+CN_Yunnan_Chuxiong|楚雄
+CN_Yunnan_Devon|德宏
+CN_Yunnan_Dali|大理
+CN_Yunnan_Diqing|迪庆
+CN_Yunnan_Red|红河
+CN_Yunnan_Kunming|昆明
+CN_Yunnan_Lincang|临沧
+CN_Yunnan_Lijiang|丽江
+CN_Yunnan_Nu|怒江
+CN_Yunnan_Pu'er|普洱
+CN_Yunnan_Qujing|曲靖
+CN_Yunnan_Wenshan|文山
+CN_Yunnan_Xishuangbanna|西双版纳
+CN_Yunnan_Yuxi|玉溪
+CN_Yunnan_Zhaotong|昭通
+CN_Zhejiang|浙江
+CN_Zhejiang_Hangzhou|杭州
+CN_Zhejiang_Huzhou|湖州
+CN_Zhejiang_Jinhua|金华
+CN_Zhejiang_Jiaxing|嘉兴
+CN_Zhejiang_Lishui|丽水
+CN_Zhejiang_Ningbo|宁波
+CN_Zhejiang_Quzhou|衢州
+CN_Zhejiang_Shaoxing|绍兴
+CN_Zhejiang_Taizhou|台州
+CN_Zhejiang_Wenzhou|温州
+CN_Zhejiang_Zhoushan|舟山
+MO|澳门（中国）
+MO_Cathedral|大堂区
+MO_Taipa|氹仔
+MO_St. Lawrence|风顺堂区
+MO_Fatima|花地玛堂区
+MO_Coloane|路环岛
+MO_St. Anthony|圣安多尼堂区
+MO_St. Lazarus|望德堂区
+TW|台湾（中国）
+TW_Kaohsiung City|高雄市
+TW_Hualien County|花莲县
+TW_Keelung City|基隆市
+TW_Kinmen County|金门县
+TW_Chiayi City|嘉义市
+TW_Chiayi County|嘉义县
+TW_Lianjiang County|连江县
+TW_Miaoli County|苗栗县
+TW_Nantou County|南投县
+TW_Pingtung County|屏东县
+TW_Penghu County|澎湖县
+TW_Taipei|台北市
+TW_Taitung County|台东县
+TW_Tainan City|台南市
+TW_Taoyuan County|桃园县
+TW_Taichung City|台中市
+TW_New Taipei City|新北市
+TW_Hsinchu City|新竹市
+TW_Hsinchu County|新竹县
+TW_Yilan County|宜兰县
+TW_Yunlin County|云林县
+TW_Changhua County|彰化县
+HK|香港（中国）
+HK_North|北区
+HK_Tai Po|大埔区
+HK_Eastern|东区
+HK_Kwun Tong|观塘区
+HK_Wong Tai Sin|黄大仙区
+HK_Kowloon City|九龙城区
+HK_Kwai Tsing|葵青区
+HK_Islands|离岛区
+HK_Southern|南区
+HK_Tsuen Wan|荃湾区
+HK_Sham Shui Po|深水埗区
+HK_Sha Tin|沙田区
+HK_Tuen Mun|屯门区
+HK_Wan Chai|湾仔区
+HK_Sai Kung|西贡区
+HK_Yau Tsim Mong|油尖旺区
+HK_Yuen Long|元朗区
+HK_Central and Western|中西区
+CL|智利
+JE|泽西岛

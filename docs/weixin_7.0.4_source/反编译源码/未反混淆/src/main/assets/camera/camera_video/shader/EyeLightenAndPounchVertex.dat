@@ -1,0 +1,15 @@
+attribute vec4 position;
+attribute vec2 inputTextureCoordinate;
+varying vec2 canvasCoordinate;
+varying vec2 textureCoordinate;
+
+uniform vec2 canvasSize;
+uniform float positionRotate;
+uniform mat4 posMatRotate;
+
+void main(){
+    vec4 framePos = position;
+    gl_Position = framePos;
+    canvasCoordinate = vec2(framePos.x * 0.5 + 0.5, framePos.y * 0.5 + 0.5);
+    textureCoordinate = inputTextureCoordinate;
+}

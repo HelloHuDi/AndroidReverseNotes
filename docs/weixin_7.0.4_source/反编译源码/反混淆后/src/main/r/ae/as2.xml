@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/ea1" android:layout_width="match_parent" android:layout_height="@dimen/fd">
+            <TextView android:textSize="16dp" android:textColor="@color/hb" android:id="@+id/ea2" android:background="@drawable/a3a" android:layout_height="match_parent" android:text="@string/g1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/ng"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/ea3" android:background="@c1318a/wechat_gray_logo" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <RelativeLayout android:id="@+id/ea4" android:layout_width="match_parent" android:layout_height="160dp">
+            <TextView android:id="@+id/ea5" android:layout_width="120dp" android:layout_marginTop="@dimen/m_" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/l3"/>
+            <TextView android:textSize="@dimen/kr" android:ellipsize="end" android:id="@+id/ea6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lo" android:text="@string/ebf" android:maxLines="2" android:layout_above="@+id/ea5" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="27dp" android:textColor="@color/h4" android:ellipsize="end" android:gravity="center" android:id="@+id/ea7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m_" android:layout_marginRight="@dimen/m_" android:text="@string/ebi" android:maxLines="2" android:layout_above="@+id/ea6" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <com.tencent.p177mm.plugin.setting.p505ui.widget.SwitchAccountGridView android:layout_gravity="center_horizontal" android:id="@+id/ea8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m_"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="16dp" android:textColor="@color/hb" android:id="@+id/ea9" android:background="@drawable/a3a" android:layout_marginBottom="@dimen/m4" android:text="@string/ebg" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/ng"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,29 @@
+precision mediump float;
+varying vec2 textureCoordinate;
+uniform float scales[4];
+uniform float alphaRatios[4];
+uniform int layers;
+uniform sampler2D inputImageTexture;
+
+
+void main(void) {
+    vec4 result = vec4(0., 0., 0., 0.);
+    vec4 color;
+    for (int i = 0; i < 4; i++) {
+        if(i >= layers){
+            break;
+        }
+        vec2 v;
+        v.x = (textureCoordinate.x - 0.5) / scales[i] + 0.5;
+        v.y = (textureCoordinate.y - 0.5) / scales[i] + 0.5;
+
+        if(v.x < 0. || v.x > 1. || v.y < 0. || v.y > 1.){
+            color = vec4(0., 0., 0., 1.);
+        } else {
+            color = texture2D(inputImageTexture, v);
+        }
+
+        result += color * alphaRatios[i];
+    }
+    gl_FragColor = result;
+}

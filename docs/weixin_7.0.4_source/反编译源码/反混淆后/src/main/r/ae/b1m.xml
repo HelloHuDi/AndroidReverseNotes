@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:padding="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16dp" android:textColor="#353535" android:ellipsize="end" android:gravity="left" android:id="@+id/eot" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="3"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="14dp" android:textColor="#999999" android:gravity="left" android:id="@+id/la" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <View android:background="#484c4c" android:layout_width="1dp" android:layout_height="match_parent" android:layout_margin="2dp"/>
+            <TextView android:textSize="14dp" android:textColor="#999999" android:gravity="left" android:id="@+id/lb" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="14dp" android:textColor="#999999" android:gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g6t"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

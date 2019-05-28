@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_gravity="center_vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/dio" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="8dp" android:layout_alignLeft="@+id/din" android:layout_alignRight="@+id/din" android:layout_alignParentTop="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/din" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/dio" android:layout_centerHorizontal="true">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/diw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true"/>
+            <ImageView android:id="@+id/da7" android:background="@color/rt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+        <RelativeLayout android:layout_gravity="center" android:id="@+id/dix" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/aex" android:background="#f6f6f6" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerInParent="true"/>
+                <ImageView android:id="@+id/cik" android:background="@color/rt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </FrameLayout>
+            <ImageView android:id="@+id/l4" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@+id/af0" android:visibility="gone" android:layout_width="@dimen/a7a" android:layout_height="@dimen/a7a" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/diy" android:background="@drawable/a6z" android:paddingLeft="12dp" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="60dp">
+            <ImageView android:id="@+id/diz" android:layout_width="45dp" android:layout_height="45dp" android:scaleType="centerCrop"/>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp">
+                <TextView android:textSize="16sp" android:textColor="#353535" android:ellipsize="end" android:id="@+id/dj0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="test" android:singleLine="true"/>
+                <TextView android:textSize="12sp" android:textColor="#888888" android:ellipsize="end" android:id="@+id/dj1" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/dj2" android:background="@drawable/a7f" android:visibility="visible" android:clickable="true" android:layout_width="match_parent" android:layout_height="56dp">
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dj3" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/dj4" android:background="@a/note_voice_recording" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp"/>
+                <TextView android:textSize="14sp" android:textColor="#353535" android:ellipsize="end" android:id="@+id/dj5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/bsh" android:singleLine="true"/>
+                <TextView android:textSize="14sp" android:textColor="#353535" android:ellipsize="end" android:id="@+id/dj6" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="00:00" android:singleLine="true"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dj7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.plugin.wenote.ui.nativenote.voiceview.NoteVoiceView android:id="@+id/dj8" android:layout_width="match_parent" android:layout_height="56dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dj9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.plugin.wenote.ui.nativenote.voiceview.NoteEditorVoiceBaseView android:textSize="14sp" android:textColor="#353535" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/dj_" android:background="@drawable/a6z" android:paddingLeft="@dimen/l5" android:clickable="true" android:layout_width="match_parent" android:layout_height="56dp" android:text="00:00" android:drawableLeft="@a/chatfrom_voice_playing_new" android:drawablePadding="@dimen/nc"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/dja" android:background="@null" android:paddingTop="7dp" android:paddingBottom="7dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="21dp">
+            <View android:id="@+id/djb" android:background="#20000000" android:layout_width="match_parent" android:layout_height="4px"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/djc" android:background="@null" android:paddingTop="56dp" android:paddingBottom="30dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/djd" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="2px"/>
+            <TextView android:textSize="14sp" android:textColor="#888888" android:id="@+id/dje" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/d8c"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/djf" android:background="@null" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/djg" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_width="45dp" android:layout_height="45dp" android:src="@a/note_alarm" android:scaleType="centerInside"/>
+            <TextView android:textSize="12sp" android:textColor="@color/p8" android:ellipsize="end" android:id="@+id/djh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="2017年6月1日 08:20" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/dji" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignLeft="@+id/din" android:layout_alignTop="@+id/din" android:layout_alignRight="@+id/din" android:layout_alignBottom="@+id/din"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/djj" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="8dp" android:layout_below="@+id/din" android:layout_alignLeft="@+id/din" android:layout_alignRight="@+id/din"/>
+    <LinearLayout android:id="@+id/djk" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/din" android:layout_alignTop="@+id/din" android:layout_alignBottom="@+id/din">
+        <com.tencent.mm.plugin.wenote.model.nativenote.manager.WXRTEditText android:textSize="48sp" android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_gravity="bottom" android:id="@+id/djl" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="20dp" android:maxLines="1" android:imeOptions="actionUnspecified|actionGo|actionSend|actionDone|flagNoEnterAction" android:textCursorDrawable="@drawable/w6"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/djm" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@+id/din" android:layout_alignTop="@+id/din" android:layout_alignBottom="@+id/din">
+        <com.tencent.mm.plugin.wenote.model.nativenote.manager.WXRTEditText android:textSize="48sp" android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_gravity="bottom" android:id="@+id/djn" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="20dp" android:maxLines="1" android:imeOptions="actionUnspecified|actionGo|actionSend|actionDone|flagNoEnterAction" android:textCursorDrawable="@drawable/w6"/>
+    </LinearLayout>
+</RelativeLayout>

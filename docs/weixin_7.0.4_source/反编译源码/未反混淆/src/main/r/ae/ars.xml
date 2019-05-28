@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/k7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l8">
+            <View android:layout_width="0dp" android:layout_height="@dimen/ej" android:layout_weight="1"/>
+            <com.tencent.mm.ui.widget.MMNeat7extView android:id="@+id/e_1" android:background="@drawable/j4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/x7" android:minHeight="@dimen/ej" android:text="@string/deh" style="@style/gj"/>
+            <ImageView android:id="@+id/e_2" android:layout_marginRight="@dimen/nc" style="@style/g6"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l8">
+            <ImageView android:layout_marginLeft="@dimen/nc" android:src="@drawable/icon" style="@style/g2"/>
+            <com.tencent.mm.ui.widget.MMNeat7extView android:id="@+id/e_3" android:background="@drawable/hz" android:maxWidth="@dimen/x7" android:minHeight="@dimen/ej" android:text="@string/e4c" style="@style/gj"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l8">
+            <ImageView android:layout_marginLeft="@dimen/nc" android:src="@drawable/icon" style="@style/g2"/>
+            <com.tencent.mm.ui.widget.MMNeat7extView android:id="@+id/e_4" android:background="@drawable/hz" android:maxWidth="@dimen/x7" android:minHeight="@dimen/ej" android:text="@string/e4a" style="@style/gj"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.mm.plugin.setting.ui.widget.FontSelectorView android:id="@+id/e_5" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="100dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

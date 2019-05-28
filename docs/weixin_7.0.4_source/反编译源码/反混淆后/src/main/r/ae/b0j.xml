@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:background="@color/pi" android:layout_width="match_parent" android:layout_height="match_parent">
+        <android.support.p069v7.widget.RecyclerView android:id="@+id/exm" android:background="@color/pi" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <android.support.p069v7.widget.RecyclerView android:id="@+id/eyp" android:background="@color/pi" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <RelativeLayout android:id="@+id/exn" android:background="#40000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:layout_width="58dp" android:layout_height="58dp" android:src="@c1318a/top_story_scroll_tips"/>
+                <TextView android:textSize="16dp" android:textColor="@color/a69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/exd"/>
+                <Button android:id="@+id/exo" android:layout_marginTop="20dp" android:text="@string/r4" style="@style/np"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:id="@+id/eyq" android:background="@color/pi" android:clickable="false" android:layout_width="match_parent" android:layout_height="56dp"/>
+        <RelativeLayout android:id="@+id/eoj" android:clickable="false" android:layout_width="match_parent" android:layout_height="56dp" android:layout_alignParentTop="true">
+            <ImageButton android:id="@+id/dfp" android:background="@null" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="40dp" android:layout_height="56dp" android:src="@c1318a/actionbar_icon_dark_back" android:contentDescription="@string/g1"/>
+            <ImageView android:id="@+id/ewr" android:visibility="gone" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="10dp" android:src="@color/pi" android:layout_toRightOf="@+id/dfp" android:layout_centerVertical="true"/>
+            <FrameLayout android:id="@+id/exp" android:layout_width="60dp" android:layout_height="56dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <ImageView android:layout_gravity="center" android:id="@+id/exq" android:background="@c1318a/top_story_volume_on" android:layout_width="20dp" android:layout_height="20dp"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/qm" android:layout_width="match_parent" android:layout_height="56dp" android:layout_marginLeft="14dp" android:text="@string/dj7" android:singleLine="true" android:layout_toLeftOf="@+id/exp" android:layout_toRightOf="@+id/ewr"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/exr" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/exs" layout="@layout/b08"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/eyr" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/eys" layout="@layout/b09"/>
+    </LinearLayout>
+    <com.tencent.p177mm.plugin.topstory.p541ui.widget.TopStoryCommentFloatDialog android:id="@+id/ext" android:background="#00000000" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

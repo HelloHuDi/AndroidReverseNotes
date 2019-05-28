@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:background="@null" android:paddingTop="@dimen/dy" android:paddingBottom="@dimen/dy" android:layout_width="match_parent" android:layout_height="@dimen/li">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/xb" android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:src="@drawable/icon"/>
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textColor="@color/w4" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/xc" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/lf"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:paddingRight="@dimen/do" android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/bf9"/>
+            <TextView android:textColor="@color/r8" android:id="@+id/xd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="安全推荐" style="@style/le"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@+id/xe" android:visibility="gone" android:text="@string/p_" style="@style/p6"/>
+        <RadioButton android:layout_gravity="center_vertical" android:id="@+id/xf" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:button="@drawable/yu"/>
+    </LinearLayout>
+</LinearLayout>

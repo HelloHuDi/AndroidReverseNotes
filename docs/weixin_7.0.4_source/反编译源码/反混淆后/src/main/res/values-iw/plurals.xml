@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item>קבוצה %d</item>
+        <item>קבוצה %d</item>
+    </plurals>
+    <plurals name="b">
+        <item>%d אנשי קשר</item>
+        <item>%d אנשי קשר</item>
+        <item>%d אנשי קשר</item>
+    </plurals>
+    <plurals name="c">
+        <item>נותרו %d שניות</item>
+        <item>נותרו %d שניות</item>
+    </plurals>
+    <plurals name="d">
+        <item>קול %d שניות</item>
+        <item>קול %d שנייה</item>
+    </plurals>
+    <plurals name="e">
+        <item>%d הודעות לא נקראו</item>
+        <item>הודעה %d לא נקראה</item>
+    </plurals>
+    <plurals name="f">
+        <item>%d חבר נוסף</item>
+        <item>%d חבר נוסף</item>
+    </plurals>
+    <plurals name="g">
+        <item>%d הזמנות נשלחו</item>
+        <item>%d הזמנות נשלחו</item>
+    </plurals>
+    <plurals name="h">
+        <item>%d איש קשר נמצא</item>
+        <item>%d איש קשר נמצא</item>
+    </plurals>
+    <plurals name="i">
+        <item>%d חברים ב-WeChat</item>
+        <item>%d חברים ב-WeChat</item>
+    </plurals>
+    <plurals name="j">
+        <item>לפני %d שעות</item>
+        <item>לפני %d שעות</item>
+    </plurals>
+    <plurals name="k">
+        <item>לפני %d דקות</item>
+        <item>לפני %d דקה</item>
+    </plurals>
+    <plurals name="l">
+        <item>לפני %d ימים</item>
+        <item>לפני %d ימים</item>
+    </plurals>
+    <plurals name="m">
+        <item>ניתן לבחור %s תמונות לכל היותר</item>
+        <item>ניתן לבחור %s תמונות לכל היותר</item>
+    </plurals>
+    <plurals name="n">
+        <item>בחר %s תמונות או סרטוני וידאו לכל היותר</item>
+        <item>בחר %s תמונות לכל היותר</item>
+    </plurals>
+    <plurals name="o">
+        <item>ניתן לבחור %s סרטוני וידאו לכל היותר</item>
+        <item>ניתן לבחור %s סרטוני וידאו לכל היותר</item>
+    </plurals>
+    <plurals name="q">
+        <item>אתה מזמין %d חברים ל-WeChat</item>
+        <item>אתה מזמין %d חברים ל-WeChat</item>
+    </plurals>
+    <plurals name="r">
+        <item>%s נמענים</item>
+        <item>%s נמענים</item>
+    </plurals>
+    <plurals name="s">
+        <item>אתה שולח את ההודעה ל-%s חברים</item>
+        <item>אתה שולח את ההודעה ל-%s חברים</item>
+    </plurals>
+    <plurals name="t">
+        <item>הודעת ה-SMS תגיע תוך %d שניות</item>
+        <item>הודעת ה-SMS תגיע תוך %d שניות</item>
+    </plurals>
+    <plurals name="u">
+        <item>%s אנשים</item>
+        <item>אדם %s</item>
+    </plurals>
+    <plurals name="v">
+        <item>%d בקבוק נענה</item>
+        <item>%d בקבוק נענה</item>
+    </plurals>
+    <plurals name="w">
+        <item>[%d]</item>
+        <item>[%d]</item>
+    </plurals>
+    <plurals name="x">
+        <item>%1$d חברים שלחו לך %2$d הודעות</item>
+        <item>%1$d חברים שלחו לך %2$d הודעות</item>
+    </plurals>
+    <plurals name="y">
+        <item>%1$d קבצים מצורפים (%2$s)</item>
+        <item>%1$d קבצים מצורפים (%2$s)</item>
+    </plurals>
+    <plurals name="z">
+        <item>%s אנשים</item>
+        <item>אדם %s</item>
+    </plurals>
+    <plurals name="a0">
+        <item>%d אנשים</item>
+        <item>אדם %d</item>
+    </plurals>
+    <plurals name="a1">
+        <item>ברכה חדשה %d</item>
+        <item>ברכה חדשה %d</item>
+    </plurals>
+    <plurals name="a2">
+        <item>%d פרסומים</item>
+        <item>%d פרסום</item>
+    </plurals>
+    <plurals name="a3">
+        <item>%d הודעות חדשות</item>
+        <item>%d הודעה חדשה</item>
+    </plurals>
+    <plurals name="a5">
+        <item>%d הודעות לא נקראו</item>
+        <item>הודעה %d לא נקראה</item>
+    </plurals>
+    <plurals name="a6">
+        <item>כרטיסייה %2$d של %1$d</item>
+        <item>כרטיסייה 1 של %d</item>
+        <item>כרטיסייה 2 של %d</item>
+        <item>כרטיסייה 3 של %d</item>
+    </plurals>
+    <plurals name="a7">
+        <item>מיקום בזמן אמת (%d)</item>
+        <item>מיקום בזמן אמת (%d)</item>
+    </plurals>
+    <plurals name="a8">
+        <item>%s שניות נותרו</item>
+        <item>%s שניה נותרה</item>
+    </plurals>
+    <plurals name="p">
+        <item>%s הודעות חדשות</item>
+        <item>%s הודעות חדשות</item>
+    </plurals>
+    <plurals name="a4">
+        <item>%d פרסומים</item>
+        <item>%d פרסום</item>
+    </plurals>
+</resources>

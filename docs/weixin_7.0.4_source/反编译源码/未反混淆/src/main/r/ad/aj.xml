@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.ui.base.preference.PluginTextPreference app:plugin_layout="@layout/af2" app:plugin_text="@string/dqt" app:key="tip_other"/>
+    <com.tencent.mm.ui.base.preference.Preference app:title="@string/avc" app:key="common_chatroom" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.Preference app:title="@string/b1p" app:key="friend_source" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.Preference app:title="@string/avm" app:key="district" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.Preference app:title="@string/b0a" app:key="signature" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.PluginTextPreference app:plugin_layout="@layout/af2" app:plugin_text="@string/ax8" app:key="tip_about_account"/>
+    <com.tencent.mm.ui.base.preference.Preference app:title="@string/b0j" app:key="weishop" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory app:key="contact_info_category_1"/>
+    <com.tencent.mm.ui.base.preference.Preference app:title="@string/azz" app:key="send_to_friend" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:persistent="false" app:summary="@string/ay2" app:title="@string/ay1" app:key="add_to_black" app:defaultValue="false"/>
+    <com.tencent.mm.ui.base.preference.Preference app:title="@string/aki" app:key="expose" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.ui.base.preference.Preference app:title="@string/avj" app:key="delete_contact" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+</PreferenceScreen>

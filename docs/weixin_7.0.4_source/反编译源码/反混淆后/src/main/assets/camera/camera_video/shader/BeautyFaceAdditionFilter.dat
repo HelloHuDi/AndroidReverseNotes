@@ -1,0 +1,200 @@
+precision highp float;
+varying vec2 canvasCoordinate;
+varying vec2 textureCoordinate;
+uniform sampler2D inputImageTexture;
+uniform sampler2D inputImageTexture2;
+uniform sampler2D inputImageTexture3;
+uniform sampler2D inputImageTexture4;
+uniform float alpha;
+uniform vec2 size;
+uniform vec2 center1;
+uniform vec2 center2;
+uniform float radius1;
+uniform float radius2;
+uniform float width;
+uniform float height;
+uniform float smoothOpacity;
+uniform float contrastOpacity;
+uniform float toothWhiten;
+
+uniform float contrast;
+uniform float saturation;
+uniform float brightness;
+
+vec4 smoothColor(vec4 centralColor)
+{
+     vec4 resultColor = centralColor;
+
+     float x_a = float(width);
+     float y_a = float(height);
+     float mul_x = 1.6 / x_a;
+     float mul_y = 1.6 / y_a;
+
+     vec2 blurCoordinates12 = canvasCoordinate + vec2(0.0 * mul_x,-6.0 * mul_y);
+     vec2 blurCoordinates13 = canvasCoordinate + vec2(-4.0 * mul_x,-4.0 * mul_y);
+     vec2 blurCoordinates14 = canvasCoordinate + vec2(-6.0 * mul_x,0.0 * mul_y);
+     vec2 blurCoordinates15 = canvasCoordinate + vec2(-4.0 * mul_x,4.0 * mul_y);
+     vec2 blurCoordinates16 = canvasCoordinate + vec2(0.0 * mul_x,6.0 * mul_y);
+     vec2 blurCoordinates17 = canvasCoordinate + vec2(4.0 * mul_x,4.0 * mul_y);
+     vec2 blurCoordinates18 = canvasCoordinate + vec2(6.0 * mul_x,0.0 * mul_y);
+     vec2 blurCoordinates19 = canvasCoordinate + vec2(4.0 * mul_x,-4.0 * mul_y);
+
+     float central;
+     float gaussianWeightTotal;
+     float sum;
+     float sample;
+     float distanceFromCentralColor;
+     float gaussianWeight;
+
+     float distanceNormalizationFactor = 3.6;
+
+     central = texture2D(inputImageTexture, canvasCoordinate).g;
+     gaussianWeightTotal = 0.2;
+     sum = central * 0.2;
+
+     sample = texture2D(inputImageTexture, blurCoordinates12).g;
+     distanceFromCentralColor = min(abs(central - sample) * distanceNormalizationFactor, 1.0);
+     gaussianWeight = 0.1 * (1.0 - distanceFromCentralColor);
+     gaussianWeightTotal += gaussianWeight;
+     sum += sample * gaussianWeight;
+
+     sample = texture2D(inputImageTexture, blurCoordinates13).g;
+     distanceFromCentralColor = min(abs(central - sample) * distanceNormalizationFactor, 1.0);
+     gaussianWeight = 0.1 * (1.0 - distanceFromCentralColor);
+     gaussianWeightTotal += gaussianWeight;
+     sum += sample * gaussianWeight;
+
+     sample = texture2D(inputImageTexture, blurCoordinates14).g;
+     distanceFromCentralColor = min(abs(central - sample) * distanceNormalizationFactor, 1.0);
+     gaussianWeight = 0.1 * (1.0 - distanceFromCentralColor);
+     gaussianWeightTotal += gaussianWeight;
+     sum += sample * gaussianWeight;
+
+     sample = texture2D(inputImageTexture, blurCoordinates15).g;
+     distanceFromCentralColor = min(abs(central - sample) * distanceNormalizationFactor, 1.0);
+     gaussianWeight = 0.1 * (1.0 - distanceFromCentralColor);
+     gaussianWeightTotal += gaussianWeight;
+     sum += sample * gaussianWeight;
+
+     sample = texture2D(inputImageTexture, blurCoordinates16).g;
+     distanceFromCentralColor = min(abs(central - sample) * distanceNormalizationFactor, 1.0);
+     gaussianWeight = 0.1 * (1.0 - distanceFromCentralColor);
+     gaussianWeightTotal += gaussianWeight;
+     sum += sample * gaussianWeight;
+
+     sample = texture2D(inputImageTexture, blurCoordinates17).g;
+     distanceFromCentralColor = min(abs(central - sample) * distanceNormalizationFactor, 1.0);
+     gaussianWeight = 0.1 * (1.0 - distanceFromCentralColor);
+     gaussianWeightTotal += gaussianWeight;
+     sum += sample * gaussianWeight;
+
+     sample = texture2D(inputImageTexture, blurCoordinates18).g;
+     distanceFromCentralColor = min(abs(central - sample) * distanceNormalizationFactor, 1.0);
+     gaussianWeight = 0.1 * (1.0 - distanceFromCentralColor);
+     gaussianWeightTotal += gaussianWeight;
+     sum += sample * gaussianWeight;
+
+     sample = texture2D(inputImageTexture, blurCoordinates19).g;
+     distanceFromCentralColor = min(abs(central - sample) * distanceNormalizationFactor, 1.0);
+     gaussianWeight = 0.1 * (1.0 - distanceFromCentralColor);
+     gaussianWeightTotal += gaussianWeight;
+     sum += sample * gaussianWeight;
+
+     sum = sum/gaussianWeightTotal;
+
+     sample = centralColor.g - sum + 0.5;
+
+     for(int i = 0; i < 5; ++i) {
+         if(sample <= 0.5) {
+             sample = sample * sample * 2.0;
+         }
+         else {
+             sample = 1.0 - ((1.0 - sample)*(1.0 - sample) * 2.0);
+         }
+     }
+
+     float aa = 1.0 + pow(sum, 0.3)*0.09;
+     vec3 smoothColor = centralColor.rgb*aa - vec3(sample)*(aa-1.0);// get smooth color
+     smoothColor = clamp(smoothColor,vec3(0.0),vec3(1.0));//make smooth color right
+
+     smoothColor = mix(centralColor.rgb, smoothColor, pow(centralColor.g, 0.33));
+     smoothColor = mix(centralColor.rgb, smoothColor, pow(centralColor.g, 0.39));
+
+     smoothColor = mix(centralColor.rgb, smoothColor, smoothOpacity); // smoothOpacity  default value is 0.79
+
+     resultColor = vec4(pow(smoothColor, vec3(0.96)),1.0);
+
+     return resultColor;
+}
+
+vec3 ContrastSaturationBrightness(vec3 color, float brt, float sat, float con)
+{
+    const float AvgLumR = 0.5;
+    const float AvgLumG = 0.5;
+    const float AvgLumB = 0.5;
+    const vec3 LumCoeff = vec3(0.2125, 0.7154, 0.0721);
+    vec3 AvgLumin = vec3(AvgLumR, AvgLumG, AvgLumB);
+    vec3 brtColor = color * brt;
+    vec3 intensity = vec3(dot(brtColor, LumCoeff));
+    vec3 satColor = mix(intensity, brtColor, sat);
+    vec3 conColor = mix(AvgLumin, satColor, con);
+    return conColor;
+}
+
+
+void main(void) {
+    vec4 origColor = texture2D(inputImageTexture, canvasCoordinate);
+    vec4 texColor = texture2D(inputImageTexture2, textureCoordinate);
+    vec4 color0 = origColor;
+    if (texColor.r <= 0.01 && texColor.g <= 0.03) {
+        color0 = vec4(origColor.rgb, 1.0);
+    } else if (texColor.r > 0.01) {
+        color0 = mix(smoothColor(origColor), origColor, (1.0 - texColor.r));
+    } else {
+        vec2 curPos = vec2(canvasCoordinate.x * size.x, canvasCoordinate.y * size.y);
+        vec2 step1 = vec2(0.00208, 0.0);
+        vec2 step2 = vec2(0.0, 0.001388);
+        float p = 0.0;
+        float t = 0.0;
+        vec3 sumColor = vec3(0.0, 0.0, 0.0);
+        for(t = -2.0; t < 2.5; t += 1.0) {
+            for(p = -2.0; p < 2.5; p += 1.0) {
+                sumColor += texture2D(inputImageTexture, canvasCoordinate + t * step1 + p * step2).rgb;
+            }
+        }
+        sumColor = sumColor * 0.04;
+        sumColor = clamp(sumColor + (origColor.rgb - sumColor) * 2.8, 0.0, 1.0);
+        sumColor = max(origColor.rgb, sumColor);
+        color0 = mix(origColor, vec4(sumColor, 1.0), alpha * texColor.g);
+    }
+    vec4 eyebrowMaskColor = texture2D(inputImageTexture3, textureCoordinate);
+    if (eyebrowMaskColor.g > 0.03) {
+        float contrast = 1.0 + eyebrowMaskColor.g * contrastOpacity;
+        color0 = vec4(mix(vec3(0.5), color0.rgb, contrast), color0.a);
+    }
+    if(texColor.b > 0.01) {
+        mediump vec2 quad1;
+        mediump vec2 quad2;
+        mediump vec2 texPos1;
+        mediump vec2 texPos2;
+        mediump float blueColor = color0.b * 63.0;
+        quad1.y = floor(floor(blueColor) / 8.0);
+        quad1.x = floor(blueColor) - (quad1.y * 8.0);
+        quad2.y = floor(ceil(blueColor)  / 8.0);
+        quad2.x = ceil(blueColor) - (quad2.y * 8.0);
+        texPos1.x = (quad1.x * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * color0.r);
+        texPos1.y = (quad1.y * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * color0.g);
+        texPos2.x = (quad2.x * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * color0.r);
+        texPos2.y = (quad2.y * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * color0.g);
+        lowp vec3 newColor1 = texture2D(inputImageTexture4, texPos1).rgb;
+        lowp vec3 newColor2 = texture2D(inputImageTexture4, texPos2).rgb;
+        lowp vec3 newColor = mix(newColor1, newColor2, fract(blueColor));
+        color0 = vec4(mix(color0.rgb, newColor, toothWhiten * texColor.b), 1.0);
+    }
+        vec3 color = ContrastSaturationBrightness(color0.rgb, brightness, saturation, contrast);
+        gl_FragColor = vec4(color.rgb, color0.a);
+    //gl_FragColor = color0;
+}
+
+
+

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/ir" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/s0" android:id="@+id/a42" android:background="#eeeeee" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/l8" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/lo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/rk" android:background="@drawable/gv" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="110dp">
+        <ImageView android:id="@+id/ahm" android:layout_width="56dp" android:layout_height="56dp" android:layout_marginRight="@dimen/l5" android:src="@drawable/bcm" android:scaleType="fitCenter" android:minWidth="56dp" android:minHeight="56dp"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/lo" android:layout_weight="1">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/cx" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/dx" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/s9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/do" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/rb" android:ellipsize="end" android:id="@+id/aj8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/do" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/aj4" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:src="@drawable/g9" android:layout_centerVertical="true"/>
+    </LinearLayout>
+</LinearLayout>

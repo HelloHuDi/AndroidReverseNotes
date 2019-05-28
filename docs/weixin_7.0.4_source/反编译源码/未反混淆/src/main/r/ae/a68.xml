@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/lo">
+    <ImageView android:id="@+id/c_a" android:background="@a/default_avatar" android:layout_width="40dp" android:layout_height="40dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="8dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/c_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{PanChangpeng}" style="@style/l9"/>
+            <TextView android:id="@+id/c_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{changpeng.pan@gmail.com}" style="@style/lb"/>
+        </LinearLayout>
+    </LinearLayout>
+    <FrameLayout android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/c_d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/a0w" android:minWidth="60dp">
+        <TextView android:textSize="14dp" android:textColor="@color/t4" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/c_e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="60dp" android:minHeight="30dp" android:text="@string/c12"/>
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/c_f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chatbg
+	version="1"
+	
+	time_color="ff000000"
+	time_show_shadow_color="false"
+	time_shadow_color="ffffffff"
+	time_show_background="true"
+	time_light_background="true"
+
+	
+	voice_second_color="ffffffff"
+	voice_second_show_shadow_color="false"
+	voice_second_shadow_color="ffffffff"
+	voice_second_show_background="false">
+	
+</chatbg>

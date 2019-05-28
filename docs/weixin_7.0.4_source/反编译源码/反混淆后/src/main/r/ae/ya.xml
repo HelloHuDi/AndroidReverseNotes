@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/bm" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.p177mm.p612ui.base.MultiTouchImageView android:gravity="center" android:id="@+id/bl" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <include layout="@layout/y2"/>
+    </RelativeLayout>
+    <ImageView android:gravity="center" android:id="@+id/z4" android:layout_width="150dp" android:layout_height="150dp"/>
+    <ProgressBar android:id="@+id/as0" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="50dp" android:layout_marginRight="20dp" style="?android:attr/progressBarStyleHorizontal"/>
+    <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:gravity="center" android:id="@+id/bq0" android:background="@color/h4" android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

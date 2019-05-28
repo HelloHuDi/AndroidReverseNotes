@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="14dp" android:textColor="@color/w0" android:id="@+id/a39" android:background="@color/gr" android:paddingLeft="20dp" android:paddingTop="15dp" android:paddingBottom="8dp" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=""/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a3_" android:background="@drawable/dd" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="90dp" android:layout_below="@+id/a39">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/a3a" android:background="@color/a3p" android:layout_width="50dp" android:layout_height="50dp" android:scaleType="centerCrop"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginRight="16dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="16dp" android:textColor="@color/w4" android:id="@+id/a3b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="16dp" android:textColor="@color/h4" android:gravity="right" android:id="@+id/a3c" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+                <TextView android:textSize="13dp" android:textColor="#afafaf" android:id="@+id/a3d" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                <TextView android:textSize="13dp" android:textColor="#afafaf" android:gravity="right" android:id="@+id/a3e" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="20dp" android:layout_below="@+id/a3_" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

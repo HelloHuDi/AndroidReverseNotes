@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/cx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginBottom="16dp" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/si" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginRight="8dp" android:layout_centerVertical="true"/>
+        <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/h7" android:ellipsize="end" android:id="@+id/sj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:maxLines="1" android:layout_toRightOf="@+id/si" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="#171717" android:ellipsize="end" android:id="@+id/sk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:text="@string/vu" android:maxLines="1" android:layout_toRightOf="@+id/sj" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/sl" android:padding="5dp" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp" android:src="@drawable/aw9" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="22dp" android:textStyle="bold" android:textColor="@color/j" android:id="@+id/sm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/we" android:maxLines="2" android:layout_below="@+id/cx" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/lk" android:id="@+id/sn" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_below="@+id/sm"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/m5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28.5dp" android:layout_below="@+id/sn" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="match_parent" android:layout_height="@dimen/uq" android:src="#e5e5e5"/>
+        <android.support.v7.widget.RecyclerView android:gravity="center" android:id="@+id/so" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="always"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/sp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/l8" style="@style/zo"/>
+        <TextView android:textSize="14sp" android:textColor="#576b95" android:gravity="center_vertical" android:id="@+id/sq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/w7"/>
+    </LinearLayout>
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/sr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/u7" android:layout_marginBottom="@dimen/u6" android:layout_below="@+id/m5" android:layout_centerHorizontal="true">
+        <Button android:textSize="17dp" android:textStyle="bold" android:textColor="@color/h4" android:id="@+id/ss" android:layout_width="0dp" android:layout_height="40dp" android:text="拒绝" android:layout_weight="1" style="@style/np"/>
+        <View android:layout_width="18dp" android:layout_height="match_parent"/>
+        <Button android:textSize="17dp" android:id="@+id/st" android:layout_width="0dp" android:layout_height="40dp" android:text="允许" android:layout_weight="1" style="@style/nj"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@color/a3p" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/m5" android:background="@drawable/oc" android:paddingLeft="@dimen/g7" android:paddingRight="@dimen/g7" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="@dimen/gf" android:layout_marginLeft="@dimen/g2" android:layout_marginTop="@dimen/g2" android:layout_marginRight="@dimen/g2">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/qk" android:layout_width="@dimen/gb" android:layout_height="@dimen/gb" android:layout_marginRight="@dimen/g2" android:src="@drawable/ad2" android:scaleType="centerCrop" android:contentDescription="@string/x9"/>
+        <TextView android:textSize="17dp" android:ellipsize="end" android:id="@+id/qm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150dp" android:maxLines="1" style="@style/l9"/>
+        <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+        <TextView android:textSize="14dp" android:textColor="@color/ll" android:id="@+id/bvi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g2" android:maxWidth="130dp"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/bvj" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:textSize="14dp" android:textColor="@color/ct" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gg" android:layout_marginRight="@dimen/gg" android:maxWidth="@dimen/g1" android:text="重新设置"/>
+            <com.tencent.p177mm.p612ui.widget.imageview.WeImageView android:id="@+id/bvk" android:background="@c1318a/refresh" android:layout_width="17dp" android:layout_height="17dp" app:iconColor="@color/y0"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

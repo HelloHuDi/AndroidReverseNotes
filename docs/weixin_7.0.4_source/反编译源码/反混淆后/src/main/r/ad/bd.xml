@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <Preference app:title="@string/ea2" app:key="settings_room_size" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/dua" app:key="room_right_max_tip" app:layout="@layout/afn"/>
+    <PreferenceCategory/>
+    <com.tencent.p177mm.chatroom.p216ui.RoomGrantPreference app:title="@string/e_z" app:key="settings_room_grant" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+    <Preference app:title="@string/du7" app:key="room_grant_to_friend" app:layout="@layout/a6e"/>
+    <PreferenceCategory/>
+    <Preference app:title="@string/du8" app:key="room_right_grant_tip" app:layout="@layout/afn"/>
+</PreferenceScreen>

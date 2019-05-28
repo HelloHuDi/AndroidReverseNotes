@@ -1,0 +1,88 @@
+<!-- 包含已发布和未发布的所有类型 -->
+<canvasvalidtype>
+	<!-- 以下是canvastype -->
+	<canvastype val="0" ios="1" android="1" desc="default类型">
+		<subtype val="0" ios="1" android="1" desc="default类型"/>
+	</canvastype>
+	<!-- 以下是pagetype -->
+	<pagetype val="0" ios="1" android="1" desc="default类型">
+		<subtype val="0" ios="1" android="1" desc="default类型"/>
+		<subtype val="1" ios="1" android="1" desc="page第一个组件是轮播组件"/>
+	</pagetype>
+	<!-- 以下是componenttype -->
+	<componenttype val="0" ios="1" android="1" desc="default类型">
+		<subtype val="0" ios="1" android="1" desc="default类型" />
+	</componenttype>
+	<componenttype val="1" ios="1" android="1" desc="文本类型">
+		<subtype val="0" ios="1" android="1" desc="文本default类型" />
+		<subtype val="1" ios="1" android="1" desc="富文本类型" />
+	</componenttype>
+	<componenttype val="21" ios="1" android="1" desc="按钮类型">
+		<subtype val="0" ios="1" android="1" desc="按钮default类型" />
+		<subtype val="1" ios="1" android="1" desc="带traceid关注按钮" />
+		<subtype val="2" ios="1" android="1" desc="带traceid下载按钮" />
+		<subtype val="3" ios="1" android="1" desc="带有背景图的按钮" />
+		<subtype val="4" ios="1" android="1" desc="跳转原生卡券" />
+		<subtype val="6" ios="1" android="1" desc="app下载按钮,根据appid判断是否安装,未安装则跳转url" />
+		<subtype val="7" ios="1" android="1" desc="打开原生页" />
+		<subtype val="8" ios="1" android="1" desc="跳小程序" />
+		<subtype val="9" ios="1" android="1" desc="跳地理位置" />
+		<subtype val="10" ios="1" android="1" desc="打电话" />
+		<subtype val="11" ios="1" android="1" desc="品牌心愿单" />
+	</componenttype>
+	<componenttype val="41" ios="1" android="1" desc="纯图类型">
+		<subtype val="0" ios="1" android="1" desc="纯图default类型" />
+		<subtype val="1" ios="1" android="1" desc="纯图类型:圆形图" />
+		<subtype val="2" ios="1" android="1" desc="带背景颜色的图片" />
+	</componenttype>
+	<componenttype val="44" ios="1" android="1" desc="全景图类型">
+		<subtype val="0" ios="1" android="1" desc="全景图default类型" />
+	</componenttype>
+	<componenttype val="45" ios="1" android="1" desc="全屏图类型">
+		<subtype val="0" ios="1" android="1" desc="全屏图default类型" />
+	</componenttype>
+	<componenttype val="61" ios="1" android="1" desc="小视频类型">
+		<subtype val="0" ios="1" android="1" desc="小视频default类型" />
+		<subtype val="1" ios="1" android="1" desc="小视频带完整视频类型" />
+		<subtype val="2" ios="1" android="1" desc="小视频带canvasId类型" />
+	</componenttype>
+	<componenttype val="62" ios="1" android="1" desc="流媒体视频类型">
+		<subtype val="0" ios="1" android="1" desc="流媒体视频default类型" />
+	</componenttype>
+	<componenttype val="81" ios="1" android="1" desc="H5类型">
+		<subtype val="0" ios="1" android="1" desc="H5 default类型" />
+	</componenttype>
+	<componenttype val="101" ios="1" android="1" desc="左右滑动控件组类型">
+		<subtype val="0" ios="1" android="1" desc="左右滑动控件组default类型" />
+	</componenttype>
+	<componenttype val="102" ios="1" android="1" desc="下载类滑动控件">
+		<subtype val="0" ios="1" android="1" desc="下载类滑动控件default类型" />
+	</componenttype>
+	<componenttype val="103" ios="1" android="1" desc="LinearLayout">
+		<subtype val="0" ios="1" android="1" desc="从上到下的布局" />
+		<subtype val="1" ios="1" android="1" desc="从左到右的布局" />
+	</componenttype>
+	<componenttype val="104" android="1"  ios="1" desc="FrameLayout" >
+        <subtype val="0" ios="1" android="1" desc="" />
+	</componenttype>
+	<componenttype val="105" android="1" ios="1" desc="float layout">
+		<subtype val="0" ios="1" android="1" desc=""/>
+	</componenttype>
+	<componenttype val="121" ios="1" android="1" desc="LBS组件类型">
+		<subtype val="0" ios="1" android="1" desc="LBS组件default类型" />
+	</componenttype>
+	<componenttype val="122" ios="1" android="1" desc="电话组件类型">
+		<subtype val="0" ios="1" android="1" desc="电话组件default类型" />
+	</componenttype>
+	<componenttype val="131" ios="1" android="1" desc="能力模型">
+		<subtype val="0" ios="1" android="1" desc="条形图样式" />
+	</componenttype>
+	<componenttype val="132" ios="1" android="1" desc="雷达图">
+		<subtype val="0" ios="1" android="1" desc="雷达图" />
+	</componenttype>
+	<componenttype android="1" desc="new h5" ios="1" val="82">
+		<subtype val="0" ios="1" android="1" desc="default类型"/>
+		<subtype val="1" ios="1" android="1" desc="投票类型"/>
+	</componenttype>
+</canvasvalidtype>
+

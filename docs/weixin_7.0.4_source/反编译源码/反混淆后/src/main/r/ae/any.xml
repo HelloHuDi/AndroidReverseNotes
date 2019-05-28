@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/l9" android:paddingRight="@dimen/l5" style="@style/pt">
+    <FrameLayout android:id="@+id/dx7" android:background="@drawable/lx" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.p177mm.p612ui.base.MMAutoCompleteTextView android:id="@+id/dx8" android:background="@null" android:paddingLeft="85dp" android:hint="@string/djz" android:dropDownSelector="#00000000" android:popupBackground="@null" android:inputType="textEmailAddress" style="@style/md"/>
+        <TextView android:textSize="16dp" android:textColor="@color/h4" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/uv" android:paddingLeft="@dimen/m4" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/djy" android:singleLine="false" style="@style/md"/>
+    </FrameLayout>
+    <FrameLayout android:background="@drawable/lx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l8">
+        <com.tencent.p177mm.p612ui.base.MMClearEditText android:id="@+id/dx9" android:background="@null" android:paddingLeft="85dp" android:hint="@string/dka" style="@style/mc"/>
+        <TextView android:textSize="16dp" android:textColor="@color/h4" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@drawable/uv" android:paddingLeft="10dp" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:text="@string/dk_" android:singleLine="false" android:imeOptions="actionNext" style="@style/md"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="left" android:orientation="horizontal" android:layout_marginTop="@dimen/l8" style="@style/mb">
+        <CheckBox android:textSize="13dp" android:textColor="@color/h4" android:id="@+id/da_" android:paddingLeft="25dp" android:checked="true" android:text="@string/cme" style="@style/qn"/>
+        <Button android:textSize="13dp" android:id="@+id/daa" android:paddingLeft="5dp" android:paddingRight="0dp" android:paddingBottom="5dp" android:text="@string/cmg" style="@style/qo"/>
+    </LinearLayout>
+</LinearLayout>

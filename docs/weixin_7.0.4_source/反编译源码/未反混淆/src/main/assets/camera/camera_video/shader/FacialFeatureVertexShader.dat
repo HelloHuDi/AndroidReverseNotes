@@ -1,0 +1,15 @@
+precision highp float;
+attribute vec4 position;
+attribute vec2 inputTextureCoordinate;
+attribute vec2 inputTextureCoordinate2;
+varying vec2 textureCoordinate;
+varying vec2 maskCoordinate;
+
+uniform mat4 posMatRotate;
+
+
+void main(){
+    gl_Position = position * posMatRotate;
+    textureCoordinate = inputTextureCoordinate;
+    maskCoordinate = inputTextureCoordinate2;
+}

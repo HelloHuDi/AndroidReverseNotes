@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceTitleCategory app:title="@string/e65"/>
+    <CheckBoxPreference app:title="@string/g5e" app:key="settings_find_me_by_weixin"/>
+    <CheckBoxPreference app:title="@string/g5a" app:key="settings_find_me_by_mobile"/>
+    <CheckBoxPreference app:title="@string/g5d" app:key="settings_find_me_by_QQ"/>
+    <CheckBoxPreference app:title="@string/g5_" app:key="settings_find_me_by_google"/>
+    <Preference app:title="@string/ea5" app:layout="@layout/afs"/>
+    <PreferenceTitleCategory app:title="@string/e64" app:key="settings_friend_verify"/>
+    <CheckBoxPreference app:title="@string/e5j" app:key="settings_add_me_by_chatroom"/>
+    <CheckBoxPreference app:title="@string/e5l" app:key="settings_add_me_by_qrcode"/>
+    <CheckBoxPreference app:title="@string/e5k" app:key="settings_add_me_by_namecard"/>
+</PreferenceScreen>

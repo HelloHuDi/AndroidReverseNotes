@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/u4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/cx0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4" android:layout_marginRight="@dimen/m4" android:layout_alignParentTop="true" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/tr" android:id="@+id/cx1" android:padding="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+            <ImageView android:id="@+id/cx2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:src="@drawable/bb9"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/cx3" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="50dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/dt" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/cx4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/m4" android:singleLine="true" android:includeFontPadding="false"/>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textSize="60dp" android:textColor="@color/h4" android:gravity="bottom" android:id="@+id/cx5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="65dp" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/h4" android:paddingBottom="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/cq3" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/cx6" android:paddingLeft="50dp" android:paddingTop="23dp" android:paddingRight="50dp" android:paddingBottom="36dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <TextView android:textSize="32dp" android:textColor="@color/tw" android:id="@+id/cx7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/tw" android:id="@+id/cx8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+            <TextView android:textSize="32dp" android:textColor="@color/tw" android:id="@+id/cx9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/tw" android:id="@+id/cx_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/crh" android:includeFontPadding="false"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/dt" android:textColor="@color/tw" android:id="@+id/cxa" android:paddingTop="23dp" android:paddingBottom="36dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

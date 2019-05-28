@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference app:key="contact_info_header_helper" app:layout="@layout/akh"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/awm" app:key="contact_info_go_to_sport" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/awl" app:key="contact_info_go_to_my_profile" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/awt" app:key="contact_info_invite_friend" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/avh" app:key="contact_info_common_problem" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:persistent="false" app:title="@string/azd" app:key="contact_info_record_data" app:defaultValue="true" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ayd" app:key="contact_info_privacy_and_notification" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/b1x" app:key="contact_info_top_sport" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/ay9" app:key="contact_info_not_disturb" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/av9" app:key="contact_info_clear_data" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.pluginsdk.ui.preference.ButtonPreference app:title_color="@color/r8" app:btn_title="@string/e_9" app:key="contact_info_sport_install"/>
+    <com.tencent.mm.pluginsdk.ui.preference.ButtonPreference app:title_color="@color/y0" app:btn_title="@string/e_e" app:key="contact_info_sport_uninstall" app:layout="@layout/a_e"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

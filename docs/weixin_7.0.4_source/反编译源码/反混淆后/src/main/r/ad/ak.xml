@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.p177mm.p612ui.base.preference.KeyValuePreference app:title="@string/b0g" app:key="contact_info_social_mobile" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.KeyValuePreference app:title="@string/b0h" app:key="contact_info_social_qq" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.KeyValuePreference app:title="@string/b0f" app:key="contact_info_social_linkedin" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.KeyValuePreference app:title="@string/b0c" app:key="contact_info_social_facebook" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.KeyValuePreference app:title="@string/b0e" app:key="contact_info_social_googlecontacts" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.KeyValuePreference app:title="@string/b0j" app:key="contact_info_social_weishop" app:layout="@layout/ae4"/>
+</PreferenceScreen>

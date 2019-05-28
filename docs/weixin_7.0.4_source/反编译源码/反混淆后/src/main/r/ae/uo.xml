@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/be6" android:background="@color/a69" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="@dimen/a0i">
+    <ImageView android:id="@+id/be7" android:padding="@dimen/m4" android:layout_width="@dimen/a0k" android:layout_height="@dimen/a0k" android:scaleType="fitXY"/>
+    <ImageView android:id="@+id/bgg" android:background="@drawable/emoji_grid_item_fg" android:layout_width="@dimen/a0k" android:layout_height="@dimen/a0k"/>
+    <TextView android:textSize="@dimen/ni" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/bgm" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="wrap_content" android:layout_height="@dimen/a0g" android:maxWidth="@dimen/a0k" android:layout_below="@+id/be7" android:layout_centerHorizontal="true" style="@style/lf"/>
+</RelativeLayout>

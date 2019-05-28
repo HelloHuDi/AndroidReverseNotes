@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/aw_" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" style="@style/mf"/>
+    <LinearLayout android:id="@+id/a1m" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <TextView android:textColor="#aaaaaa" android:gravity="center" android:id="@+id/ys" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/apy"/>
+    </LinearLayout>
+    <View android:background="#dfdfdf" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <RelativeLayout android:background="#fcfcfc" android:layout_width="match_parent" android:layout_height="48dp">
+        <TextView android:textColor="#aaaaaa" android:id="@+id/aw9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <Button android:textSize="@dimen/kr" android:id="@+id/aw8" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginRight="12dp" android:minWidth="60dp" android:text="@string/b53" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/nl"/>
+        <CheckBox android:id="@+id/a1s" android:background="@drawable/ub" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/ex" android:layout_height="@dimen/ex" android:layout_marginLeft="12dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textColor="#aaaaaa" android:id="@+id/a1t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/fh" android:layout_toRightOf="@+id/a1s" android:layout_centerVertical="true"/>
+        <View android:id="@+id/a1u" android:layout_width="72dp" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</LinearLayout>

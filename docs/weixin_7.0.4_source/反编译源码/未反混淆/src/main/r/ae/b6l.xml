@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a4h" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" style="@style/v5">
+        <TextView android:id="@+id/f55" android:text="@string/fd2" style="@style/vh"/>
+        <LinearLayout style="@style/vx">
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f7y" app:titleText="@string/fct" app:contentHint="@string/fcq" style="@style/vy"/>
+            <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/f90" android:imeOptions="actionNext" app:titleText="@string/fbl" app:contentHint="@string/fbi" style="@style/vo"/>
+        </LinearLayout>
+        <Button android:id="@+id/ay8" android:layout_width="match_parent" android:layout_marginTop="16dp" android:text="@string/s1" style="@style/vu"/>
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/azi"/>
+</RelativeLayout>

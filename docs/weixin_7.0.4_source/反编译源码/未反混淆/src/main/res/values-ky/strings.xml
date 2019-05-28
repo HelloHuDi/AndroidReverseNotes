@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Аралаш</string>
+    <string name="c">Жогору</string>
+    <string name="abc_action_menu_overflow_description">Көбүрөөк мүмкүнчүлүктөр</string>
+    <string name="d">Даяр</string>
+    <string name="e">Бардыгын көрүү</string>
+    <string name="f">Колдонмо тандоо</string>
+    <string name="g">ӨЧҮК</string>
+    <string name="h">КҮЙҮК</string>
+    <string name="i">Издөө…</string>
+    <string name="j">Талаптарды тазалоо</string>
+    <string name="l">Издөө</string>
+    <string name="m">Талап жөнөтүү</string>
+    <string name="n">Үн аркылуу издөө</string>
+    <string name="q">Жыйнап коюу</string>
+    <string name="common_google_play_services_enable_button">Иштетүү</string>
+    <string name="common_google_play_services_enable_text">Google Play кызматтарын иштетмейиңизче %1$s иштебейт.</string>
+    <string name="common_google_play_services_enable_title">Google Play кызматтарын иштетүү</string>
+    <string name="common_google_play_services_install_button">Орнотуу</string>
+    <string name="common_google_play_services_install_text">Google Play кызматтарысыз %1$s иштебейт. Алар түзмөгүңүздө жок болуп жатат.</string>
+    <string name="common_google_play_services_install_title">Google Play кызматтарын алуу</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play кызматтарынын иштеши</string>
+    <string name="common_google_play_services_notification_ticker">Google Play кызматтарынын катасы</string>
+    <string name="common_google_play_services_unknown_issue">%1$s колдонмосунун Google Play кызматтары менен иштөөдө көйгөй чыкты. Кайра аракет кылыңыз.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s колдонмосу сиздин түзмөгүңүздө колдоого алынбаган Google Play кызматтары болбосо иштебейт.</string>
+    <string name="common_google_play_services_update_button">Жаңыртуу</string>
+    <string name="common_google_play_services_update_text">Google Play кызматтары жаңыртылмайынча %1$s иштебейт.</string>
+    <string name="common_google_play_services_update_title">Google Play кызматтарын жаңыртуу</string>
+    <string name="common_google_play_services_updating_text">Google Play кызматтарысыз %1$s иштебейт, алар учурда жаңыртылууда.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play кызматтарынын жаңы версиясы талап кылынат. Бир аздан кийин ал өзү эле жаңыртылат.</string>
+    <string name="common_open_on_phone">Телефондо ачык</string>
+    <string name="common_signin_button_text">Кирүү</string>
+    <string name="common_signin_button_text_long">Google менен кирүү</string>
+    <string name="r">Аралаш</string>
+    <string name="b">Үйгө багыттоо</string>
+    <string name="k">Издөө талаптары</string>
+    <string name="o">Бөлүшүү</string>
+    <string name="p">%s аркылуу бөлүшүү</string>
+    <string name="s">Издөө</string>
+    <string name="t">999+</string>
+</resources>

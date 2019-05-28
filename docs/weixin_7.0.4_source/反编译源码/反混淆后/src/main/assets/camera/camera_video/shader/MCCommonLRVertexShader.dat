@@ -1,0 +1,126 @@
+precision highp float;
+attribute vec4 position;
+attribute vec2 inputTextureCoordinate;
+varying vec2 canvasCoordinate;
+varying vec2 textureCoordinate;
+varying vec2 alphaCoordinate;
+
+uniform int texNeedTransform;
+uniform vec2 canvasSize;
+uniform vec2 texAnchor;
+uniform float texScale;
+uniform vec3 texRotate;
+
+const float PI = 3.14159;
+
+uniform mat4 u_MVPMatrix;
+
+mat4 texMatTranslateBefore = mat4(1.0, 0.0, 0.0, 0.0,
+                                  0.0, 1.0, 0.0, 0.0,
+                                  0.0, 0.0, 1.0, 0.0,
+                                  0.0, 0.0, 0.0, 1.0);
+
+mat4 texMatScale = mat4(1.0, 0.0, 0.0, 0.0,
+                        0.0, 1.0, 0.0, 0.0,
+                        0.0, 0.0, 1.0, 0.0,
+                        0.0, 0.0, 0.0, 1.0);
+
+mat4 texMatRotate = mat4(1.0, 0.0, 0.0, 0.0,
+                         0.0, 1.0, 0.0, 0.0,
+                         0.0, 0.0, 1.0, 0.0,
+                         0.0, 0.0, 0.0, 1.0);
+
+mat4 texMatRotateXY = mat4(1.0, 0.0, 0.0, 0.0,
+                         0.0, 1.0, 0.0, 0.0,
+                         0.0, 0.0, 1.0, 0.0,
+                         0.0, 0.0, 0.0, 1.0);
+
+mat4 texMatTranslateAfter = mat4(1.0, 0.0, 0.0, 0.0,
+                                 0.0, 1.0, 0.0, 0.0,
+                                 0.0, 0.0, 1.0, 0.0,
+                                 0.0, 0.0, 0.0, 1.0);
+
+mat4 mat4RotationYXZ(mat4 m, float xRadians, float yRadians, float zRadians) {
+    /*
+     |  cycz + sxsysz   czsxsy - cysz   cxsy  0 |
+ M = |  cxsz            cxcz           -sx    0 |
+     |  cysxsz - czsy   cyczsx + sysz   cxcy  0 |
+     |  0               0               0     1 |
+
+     where cA = cos(A), sA = sin(A) for A = x,y,z
+     */
+
+    float cx = cos(xRadians);
+    float sx = sin(xRadians);
+    float cy = cos(yRadians);
+    float sy = sin(yRadians);
+    float cz = cos(zRadians);
+    float sz = sin(zRadians);
+
+    m[0][0] = (cy * cz) + (sx * sy * sz);
+    m[0][1] = cx * sz;
+    m[0][2] = (cy * sx * sz) - (cz * sy);
+    m[0][3] = 0.0;
+
+    m[1][0] = (cz * sx * sy) - (cy * sz);
+    m[1][1] = cx * cz;
+    m[1][2] = (cy * cz * sx) + (sy * sz);
+    m[1][3] = 0.0;
+
+    m[2][0] = cx * sy;
+    m[2][1] = -sx;
+    m[2][2] = cx * cy;
+    m[2][3] = 0.0;
+
+    m[3][0] = 0.0;
+    m[3][1] = 0.0;
+    m[3][2] = 0.0;
+    m[3][3] = 1.0;
+
+    return m;
+}
+
+void main(){
+    vec4 framePos = position;
+    if (texNeedTransform > 0) {
+        framePos.x = framePos.x * canvasSize.x * 0.5;
+        framePos.y = framePos.y * canvasSize.y * 0.5;
+
+        texMatTranslateBefore[3][0] = -texAnchor.x;
+        texMatTranslateBefore[3][1] = -texAnchor.y;
+
+        texMatScale[0][0] = texScale;
+        texMatScale[1][1] = texScale;
+
+        texMatRotate = mat4RotationYXZ(texMatRotate, 0.0, 0.0, texRotate.z);
+        texMatRotateXY = mat4RotationYXZ(texMatRotateXY, texRotate.x, texRotate.y, 0.0);
+
+        texMatTranslateAfter[3][0] = texAnchor.x;
+        texMatTranslateAfter[3][1] = texAnchor.y;
+
+        framePos = texMatRotate * texMatScale * texMatTranslateBefore * framePos;
+
+        framePos.x = framePos.x * 2.0 / canvasSize.x;
+        framePos.y = framePos.y * 2.0 / canvasSize.y;
+
+        framePos = texMatRotateXY * framePos;
+
+        framePos.x = framePos.x * canvasSize.x * 0.5;
+        framePos.y = framePos.y * canvasSize.y * 0.5;
+
+        framePos = texMatTranslateAfter * framePos;
+
+        framePos.x = framePos.x * 2.0 / canvasSize.x;
+        framePos.y = framePos.y * 2.0 / canvasSize.y;
+
+        framePos.x = framePos.x * 1.5 ;
+        framePos.y = framePos.y * 1.5 ;
+
+        framePos = u_MVPMatrix * framePos;
+
+    }
+    gl_Position = framePos;
+    canvasCoordinate = vec2(framePos.x / framePos.w * 0.5 + 0.5, framePos.y / framePos.w * 0.5 + 0.5);
+    textureCoordinate = vec2(inputTextureCoordinate.x / 2., inputTextureCoordinate.y);
+    alphaCoordinate = vec2(inputTextureCoordinate.x / 2. + 0.5, inputTextureCoordinate.y);
+}

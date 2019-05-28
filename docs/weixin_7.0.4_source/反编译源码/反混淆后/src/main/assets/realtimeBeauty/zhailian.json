@@ -1,0 +1,62 @@
+{
+  "shaderType" : 6,
+  "distortionList" : [
+    {
+      "radius" : 200,
+      "distortion" : 3,
+      "strength" : 0.1,
+      "position" : 0,
+      "direction" : 3
+    },
+    {
+      "radius" : 200,
+      "distortion" : 3,
+      "strength" : 0.1,
+      "position" : 18,
+      "direction" : 1
+    },
+    {
+      "radius" : 220,
+      "distortion" : 3,
+      "strength" : 0.1,
+      "position" : 2,
+      "direction" : 3
+    },
+    {
+      "radius" : 220,
+      "distortion" : 3,
+      "strength" : 0.1,
+      "position" : 16,
+      "direction" : 1
+    },
+    {
+      "radius" : 220,
+      "distortion" : 3,
+      "strength" : 0.1,
+      "position" : 4,
+      "direction" : 3
+    },
+    {
+      "radius" : 220,
+      "distortion" : 3,
+      "strength" : 0.1,
+      "position" : 14,
+      "direction" : 1
+    },
+    {
+      "radius" : 188,
+      "distortion" : 3,
+      "strength" : 0.05,
+      "position" : 6,
+      "direction" : 3
+    },
+    {
+      "radius" : 188,
+      "distortion" : 3,
+      "strength" : 0.05,
+      "position" : 12,
+      "direction" : 1
+    }
+  ],
+  "minAppVersion" : 400
+}

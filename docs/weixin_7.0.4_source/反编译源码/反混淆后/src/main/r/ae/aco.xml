@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/d7e" style="@style/zn"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/d7f" android:background="@drawable/iq" android:paddingLeft="@dimen/ds" android:paddingTop="@dimen/ds" android:paddingRight="@dimen/ds" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc">
+        <TextView android:id="@+id/d7g" style="@style/zl"/>
+        <TextView android:id="@+id/d7h" android:layout_marginTop="@dimen/do" android:layout_marginBottom="@dimen/nc" style="@style/zl"/>
+        <View style="@style/zm"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds" android:layout_marginBottom="@dimen/ds">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/d7i" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <TextView android:textSize="13dp" android:textColor="@color/a69" android:gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/d7l" android:background="@drawable/ac0" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/d7m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/att"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <View style="@style/zm"/>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/d7j" style="@style/zk"/>
+    </LinearLayout>
+</LinearLayout>

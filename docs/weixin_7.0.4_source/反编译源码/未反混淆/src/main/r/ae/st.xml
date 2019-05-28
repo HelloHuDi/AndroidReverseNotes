@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.downloader_app.ui.TaskManagerHeaderView android:id="@+id/abv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.tencent.mm.plugin.downloader_app.ui.DeleteTaskFooterView android:id="@+id/ba0" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    <com.tencent.mm.plugin.downloader_app.ui.TaskListView android:id="@+id/l9" android:background="@color/mt" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/ba0" android:layout_below="@+id/abv"/>
+    <ViewStub android:id="@+id/ba1" android:layout="@layout/aiz" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/ue" android:layout="@layout/sq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</RelativeLayout>

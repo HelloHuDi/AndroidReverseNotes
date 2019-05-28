@@ -1,0 +1,164 @@
+package com.tencent.p177mm.plugin.card.p355ui.p356v2;
+
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
+import android.content.Intent;
+import android.os.Bundle;
+import com.facebook.internal.NativeProtocol;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.p177mm.C25738R;
+import com.tencent.p177mm.modelgeo.C26443d;
+import com.tencent.p177mm.modelgeo.C42207b.C42206a;
+import com.tencent.p177mm.p612ui.MMActivity;
+import com.tencent.p177mm.p612ui.base.C30379h;
+import com.tencent.p177mm.pluginsdk.permission.C35805b;
+import com.tencent.p177mm.sdk.platformtools.C4990ab;
+import com.tencent.p177mm.sdk.platformtools.C5004al;
+import p000a.C0220l;
+import p000a.p005f.p007b.C25052j;
+
+@C0220l(dWo = {1, 1, 13}, dWp = {"\u0000Z\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\u0007\n\u0002\b\u0005\n\u0002\u0010\u000b\n\u0002\b\b\n\u0002\u0018\u0002\n\u0002\b\u0005\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0018\u0002\n\u0002\b\u0006\n\u0002\u0010\u0011\n\u0002\u0010\u000e\n\u0000\n\u0002\u0010\u0015\n\u0002\b\u0006\b&\u0018\u0000 22\u00020\u0001:\u00012B\u0005¢\u0006\u0002\u0010\u0002J\"\u0010\u001a\u001a\u00020\u001b2\u0006\u0010\u001c\u001a\u00020\u001d2\u0006\u0010\u001e\u001a\u00020\u001d2\b\u0010\u001f\u001a\u0004\u0018\u00010 H\u0014J\u0012\u0010!\u001a\u00020\u001b2\b\u0010\"\u001a\u0004\u0018\u00010#H\u0016J\b\u0010$\u001a\u00020\u001bH\u0014J\u001a\u0010%\u001a\u00020\u001b2\u0006\u0010&\u001a\u00020\u001d2\b\b\u0002\u0010'\u001a\u00020\nH&J-\u0010(\u001a\u00020\u001b2\u0006\u0010\u001c\u001a\u00020\u001d2\u000e\u0010)\u001a\n\u0012\u0006\b\u0001\u0012\u00020+0*2\u0006\u0010,\u001a\u00020-H\u0016¢\u0006\u0002\u0010.J\u0006\u0010/\u001a\u00020\u001bJ\u0006\u00100\u001a\u00020\u001bJ\u0006\u00101\u001a\u00020\u001bR\u001a\u0010\u0003\u001a\u00020\u0004X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0005\u0010\u0006\"\u0004\b\u0007\u0010\bR\u001a\u0010\t\u001a\u00020\nX\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u000b\u0010\f\"\u0004\b\r\u0010\u000eR\u001a\u0010\u000f\u001a\u00020\u0004X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0010\u0010\u0006\"\u0004\b\u0011\u0010\bR\u001a\u0010\u0012\u001a\u00020\u0013X\u000e¢\u0006\u000e\n\u0000\u001a\u0004\b\u0014\u0010\u0015\"\u0004\b\u0016\u0010\u0017R\u000e\u0010\u0018\u001a\u00020\u0019X\u0004¢\u0006\u0002\n\u0000¨\u00063"}, dWq = {"Lcom/tencent/mm/plugin/card/ui/v2/CardNewBaseUI;", "Lcom/tencent/mm/ui/MMActivity;", "()V", "latitude", "", "getLatitude", "()F", "setLatitude", "(F)V", "locationPermissionGrant", "", "getLocationPermissionGrant", "()Z", "setLocationPermissionGrant", "(Z)V", "longitude", "getLongitude", "setLongitude", "onLocationGet", "Lcom/tencent/mm/modelgeo/IGetLocation$IOnLocationGet;", "getOnLocationGet", "()Lcom/tencent/mm/modelgeo/IGetLocation$IOnLocationGet;", "setOnLocationGet", "(Lcom/tencent/mm/modelgeo/IGetLocation$IOnLocationGet;)V", "overtimeTask", "Ljava/lang/Runnable;", "onActivityResult", "", "requestCode", "", "resultCode", "data", "Landroid/content/Intent;", "onCreate", "savedInstanceState", "Landroid/os/Bundle;", "onDestroy", "onFinishLocationThings", "ret", "isLocationOk", "onRequestPermissionsResult", "permissions", "", "", "grantResults", "", "(I[Ljava/lang/String;[I)V", "requestLocation", "showGpsAlert", "stopLocation", "Companion", "plugin-card_release"})
+/* renamed from: com.tencent.mm.plugin.card.ui.v2.CardNewBaseUI */
+public abstract class CardNewBaseUI extends MMActivity {
+    public static final C20193a kpU = new C20193a();
+    float cEB = -85.0f;
+    float cGm = -1000.0f;
+    boolean kpR;
+    private C42206a kpS = new C20194b(this);
+    private final Runnable kpT = new C27626d(this);
+
+    @C0220l(dWo = {1, 1, 13}, dWp = {"\u0000\u001a\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\b\u0002\n\u0002\u0010\b\n\u0002\b\u0004\n\u0002\u0010\u000e\n\u0000\b\u0003\u0018\u00002\u00020\u0001B\u0007\b\u0002¢\u0006\u0002\u0010\u0002R\u000e\u0010\u0003\u001a\u00020\u0004XT¢\u0006\u0002\n\u0000R\u000e\u0010\u0005\u001a\u00020\u0004XT¢\u0006\u0002\n\u0000R\u000e\u0010\u0006\u001a\u00020\u0004XT¢\u0006\u0002\n\u0000R\u000e\u0010\u0007\u001a\u00020\u0004XT¢\u0006\u0002\n\u0000R\u000e\u0010\b\u001a\u00020\tXT¢\u0006\u0002\n\u0000¨\u0006\n"}, dWq = {"Lcom/tencent/mm/plugin/card/ui/v2/CardNewBaseUI$Companion;", "", "()V", "DEFAULT_REQ_NUM", "", "DEFAULT_REQ_NUM_DISTANCE", "REQ_GPS_PERMISSION", "REQ_OPEN_GPS", "TAG", "", "plugin-card_release"})
+    /* renamed from: com.tencent.mm.plugin.card.ui.v2.CardNewBaseUI$a */
+    public static final class C20193a {
+        private C20193a() {
+        }
+
+        public /* synthetic */ C20193a(byte b) {
+            this();
+        }
+    }
+
+    @C0220l(dWo = {1, 1, 13}, dWp = {"\u0000 \n\u0000\n\u0002\u0010\u000b\n\u0002\b\u0002\n\u0002\u0010\u0007\n\u0002\b\u0002\n\u0002\u0010\b\n\u0000\n\u0002\u0010\u0006\n\u0002\b\u0003\u0010\u0000\u001a\u00020\u00012\u0006\u0010\u0002\u001a\u00020\u00012\u0006\u0010\u0003\u001a\u00020\u00042\u0006\u0010\u0005\u001a\u00020\u00042\u0006\u0010\u0006\u001a\u00020\u00072\u0006\u0010\b\u001a\u00020\t2\u0006\u0010\n\u001a\u00020\t2\u0006\u0010\u000b\u001a\u00020\tH\n¢\u0006\u0002\b\f"}, dWq = {"<anonymous>", "", "isOk", "fLongitude", "", "fLatitude", "locType", "", "speed", "", "accuracy", "altitude", "onGetLocation"})
+    /* renamed from: com.tencent.mm.plugin.card.ui.v2.CardNewBaseUI$b */
+    static final class C20194b implements C42206a {
+        final /* synthetic */ CardNewBaseUI kpV;
+
+        C20194b(CardNewBaseUI cardNewBaseUI) {
+            this.kpV = cardNewBaseUI;
+        }
+
+        /* renamed from: a */
+        public final boolean mo5861a(boolean z, float f, float f2, int i, double d, double d2, double d3) {
+            AppMethodBeat.m2504i(89284);
+            if (z) {
+                this.kpV.cEB = f2;
+                this.kpV.cGm = f;
+                this.kpV.bep();
+            }
+            this.kpV.mo23051P(0, z);
+            AppMethodBeat.m2505o(89284);
+            return false;
+        }
+    }
+
+    @C0220l(dWo = {1, 1, 13}, dWp = {"\u0000\u0016\n\u0000\n\u0002\u0010\u0002\n\u0000\n\u0002\u0018\u0002\n\u0002\b\u0002\n\u0002\u0010\b\n\u0000\u0010\u0000\u001a\u00020\u00012\u000e\u0010\u0002\u001a\n \u0004*\u0004\u0018\u00010\u00030\u00032\u0006\u0010\u0005\u001a\u00020\u0006H\n¢\u0006\u0002\b\u0007"}, dWq = {"<anonymous>", "", "dialog", "Landroid/content/DialogInterface;", "kotlin.jvm.PlatformType", "which", "", "onClick"})
+    /* renamed from: com.tencent.mm.plugin.card.ui.v2.CardNewBaseUI$c */
+    static final class C27625c implements OnClickListener {
+        final /* synthetic */ CardNewBaseUI kpV;
+
+        C27625c(CardNewBaseUI cardNewBaseUI) {
+            this.kpV = cardNewBaseUI;
+        }
+
+        public final void onClick(DialogInterface dialogInterface, int i) {
+            AppMethodBeat.m2504i(89285);
+            this.kpV.startActivityForResult(new Intent("android.settings.MANAGE_APPLICATIONS_SETTINGS"), 564);
+            AppMethodBeat.m2505o(89285);
+        }
+    }
+
+    @C0220l(dWo = {1, 1, 13}, dWp = {"\u0000\b\n\u0000\n\u0002\u0010\u0002\n\u0000\u0010\u0000\u001a\u00020\u0001H\n¢\u0006\u0002\b\u0002"}, dWq = {"<anonymous>", "", "run"})
+    /* renamed from: com.tencent.mm.plugin.card.ui.v2.CardNewBaseUI$d */
+    static final class C27626d implements Runnable {
+        final /* synthetic */ CardNewBaseUI kpV;
+
+        C27626d(CardNewBaseUI cardNewBaseUI) {
+            this.kpV = cardNewBaseUI;
+        }
+
+        public final void run() {
+            AppMethodBeat.m2504i(89286);
+            C4990ab.m7416i("MicroMsg.CardNewBaseUI", "remove location in task");
+            this.kpV.mo23051P(-2, false);
+            AppMethodBeat.m2505o(89286);
+        }
+    }
+
+    /* renamed from: P */
+    public abstract void mo23051P(int i, boolean z);
+
+    public void onWindowFocusChanged(boolean z) {
+        super.onWindowFocusChanged(z);
+        AppMethodBeat.m2503at(this, z);
+    }
+
+    public void onCreate(Bundle bundle) {
+        super.onCreate(bundle);
+        this.kpR = C35805b.m58707a(this, "android.permission.ACCESS_COARSE_LOCATION", 69, null, null);
+        if (this.kpR) {
+            beo();
+        }
+    }
+
+    public void onDestroy() {
+        super.onDestroy();
+        C5004al.m7439af(this.kpT);
+        bep();
+    }
+
+    public void onRequestPermissionsResult(int i, String[] strArr, int[] iArr) {
+        C25052j.m39376p(strArr, NativeProtocol.RESULT_ARGS_PERMISSIONS);
+        C25052j.m39376p(iArr, "grantResults");
+        if (i == 69) {
+            if ((!(iArr.length == 0)) && iArr[0] == 0) {
+                this.kpR = true;
+                beo();
+                return;
+            }
+            this.kpR = false;
+            C30379h.m48445a((Context) this, getString(C25738R.string.g6b), getString(C25738R.string.dc8), getString(C25738R.string.ckr), getString(C25738R.string.atb), false, (OnClickListener) new C27625c(this), null);
+            mo23051P(-2, false);
+            return;
+        }
+        super.onRequestPermissionsResult(i, strArr, iArr);
+    }
+
+    public void onActivityResult(int i, int i2, Intent intent) {
+        C4990ab.m7417i("MicroMsg.CardNewBaseUI", "requestCode: %s, resultCode: %s", Integer.valueOf(i), Integer.valueOf(i2));
+        switch (i) {
+            case 563:
+                beo();
+                return;
+            case 564:
+                this.kpR = C35805b.m58713j(dxU(), "android.permission.ACCESS_COARSE_LOCATION", false);
+                return;
+            default:
+                super.onActivityResult(i, i2, intent);
+                return;
+        }
+    }
+
+    private void beo() {
+        C4990ab.m7417i("MicroMsg.CardNewBaseUI", "request location: %s", Boolean.valueOf(this.kpR));
+        if (this.kpR) {
+            C26443d.agz().mo44204a(this.kpS, false);
+            C5004al.m7442n(this.kpT, 4000);
+        }
+    }
+
+    public final void bep() {
+        C4990ab.m7416i("MicroMsg.CardNewBaseUI", "stop location");
+        C26443d.agz().mo44208c(this.kpS);
+    }
+}

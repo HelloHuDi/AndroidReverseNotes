@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="58dp">
+    <com.tencent.p177mm.p612ui.base.MMHorList android:layout_gravity="center_horizontal" android:id="@+id/evc" android:layout_width="290dp" android:layout_height="58dp"/>
+</FrameLayout>

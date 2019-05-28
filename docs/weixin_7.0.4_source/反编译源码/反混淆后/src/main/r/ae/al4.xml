@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/do8" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/do9" android:layout_width="match_parent" android:layout_height="@dimen/a7c">
+        <ImageView android:id="@+id/do_" android:layout_width="match_parent" android:layout_height="@dimen/a7c" android:scaleType="centerCrop"/>
+        <View android:id="@+id/doa" android:background="@color/yj" android:layout_width="match_parent" android:layout_height="@dimen/a7c"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dob" android:background="@null" android:paddingLeft="12dp" android:paddingTop="?attr/dx" android:paddingRight="12dp" android:layout_width="match_parent" android:layout_height="@dimen/a7c">
+        <RelativeLayout android:id="@+id/doc" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/dod" android:background="@c1318a/scan_product_movie_default_img" android:visibility="gone" android:layout_width="87dp" android:layout_height="113dp" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:src="@c1318a/scan_product_movie_default_img" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+            <ImageView android:id="@+id/doe" android:background="@c1318a/scan_product_default_img" android:visibility="gone" android:layout_width="87dp" android:layout_height="87dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:src="@c1318a/scan_product_default_img" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+            <ImageView android:id="@+id/dof" android:background="@drawable/z1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/dog" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="@dimen/l5">
+            <TextView android:textSize="18dp" android:textColor="@color/a69" android:ellipsize="end" android:id="@+id/doh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_marginRight="2dp" android:maxLines="2" android:includeFontPadding="false" android:layout_alignParentTop="true" android:lineSpacingExtra="0dp"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/doi" android:background="@drawable/o6" android:paddingLeft="2dp" android:paddingTop="2dp" android:paddingRight="3dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <ImageView android:id="@+id/doj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1dp" android:layout_marginRight="3dp" android:src="@drawable/bgk"/>
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:id="@+id/dok" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/rt" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/dol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dyg" android:singleLine="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ImageView android:id="@+id/dom" android:background="@null" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/a7c"/>
+</RelativeLayout>

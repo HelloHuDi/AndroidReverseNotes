@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/nh" android:background="@color/a3p" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/dm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A" style="@style/mg"/>
+    <LinearLayout android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/dm" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lp">
+        <RelativeLayout android:id="@+id/nj" android:background="@drawable/a_q" android:layout_width="match_parent" android:layout_height="@dimen/f4">
+            <com.tencent.p177mm.p612ui.base.MaskLayout android:id="@+id/nk" android:layout_width="@dimen/f2" android:layout_height="@dimen/f2" android:layout_centerVertical="true">
+                <ImageView android:id="@+id/m5" android:layout_width="@dimen/f1" android:layout_height="@dimen/f1" android:layout_centerVertical="true"/>
+            </com.tencent.p177mm.p612ui.base.MaskLayout>
+            <RelativeLayout android:id="@+id/nl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l8" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <TextView android:id="@+id/nm" android:visibility="gone" android:text="@string/dq" style="@style/le"/>
+                <CheckBox android:id="@+id/no" android:focusable="false" android:focusableInTouchMode="false" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/nh" android:layout_toLeftOf="@+id/nl" android:layout_toRightOf="@+id/nk" android:layout_centerHorizontal="true">
+                <com.tencent.p177mm.p612ui.tools.MMTruncTextView android:id="@+id/nr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nick}" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" style="@style/lf"/>
+                <TextView android:id="@+id/ns" android:layout_width="wrap_content" android:layout_height="20dp" android:text="{account}" android:singleLine="true" android:layout_below="@+id/nr" android:layout_alignParentLeft="true" style="@style/le"/>
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/d2e" android:background="#efeff4" android:layout_width="match_parent" android:layout_height="8dp"/>
+    <TextView android:textSize="@dimen/kr" android:textColor="#716f76" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/d2f" android:background="@drawable/tp" android:paddingLeft="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="39dp"/>
+    <View android:id="@+id/p3" android:background="@color/vz" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/d2g" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/d2h" android:background="@drawable/tl" android:layout_width="match_parent" android:layout_height="39dp">
+        <TextView android:textColor="@color/t7" android:id="@+id/d2i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cwl"/>
+        <ImageView android:id="@+id/d2j" android:layout_width="9dp" android:layout_height="4dp" android:layout_marginLeft="9dp" android:src="@c1318a/wallet_arrow_down" android:scaleType="fitXY"/>
+        <View android:id="@+id/d2k" android:background="@drawable/a4h" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="5dp"/>
+    </LinearLayout>
+    <View android:id="@+id/d2l" android:background="@color/uk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="8dp"/>
+</LinearLayout>

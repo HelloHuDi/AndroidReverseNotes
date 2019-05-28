@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/c7" android:paddingBottom="@dimen/t3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/t5" android:layout_marginTop="@dimen/t4" android:layout_marginRight="@dimen/t5">
+    <include layout="@layout/d9"/>
+    <LinearLayout android:id="@+id/up" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/t3" android:layout_marginEnd="@dimen/t3">
+        <android.support.constraint.ConstraintLayout android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dt" android:textColor="#e6000000" android:ellipsize="end" android:id="@+id/uq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:minHeight="24dp" android:maxLines="1" android:layout_marginStart="16dp" app:layout_constraintStart_toEndOf="@+id/ur" app:layout_constraintTop_toTopOf="0"/>
+            <ImageView android:id="@+id/ur" android:layout_width="@dimen/t1" android:layout_height="@dimen/t1" android:layout_marginTop="@dimen/t3" android:layout_marginBottom="@dimen/t3" android:layout_marginStart="0dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="#80000000" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/us" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:minHeight="20dp" android:maxLines="1" android:layout_marginStart="64dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintStart_toEndOf="@+id/ur" app:layout_constraintTop_toBottomOf="@+id/uq"/>
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+</LinearLayout>

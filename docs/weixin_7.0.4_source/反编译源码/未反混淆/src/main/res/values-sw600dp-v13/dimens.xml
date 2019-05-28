@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a2">64dp</dimen>
+    <dimen name="a3">16dp</dimen>
+    <dimen name="a4">20dp</dimen>
+    <dimen name="a6">580dp</dimen>
+    <dimen name="am">24dp</dimen>
+    <dimen name="an">80dp</dimen>
+    <dimen name="ao">8dp</dimen>
+    <dimen name="ap">8dp</dimen>
+    <dimen name="aq">320dp</dimen>
+    <dimen name="ar">0dp</dimen>
+    <dimen name="as">2dp</dimen>
+    <dimen name="au">576dp</dimen>
+    <dimen name="av">320dp</dimen>
+    <dimen name="aw">@dimen/z6</dimen>
+    <dimen name="ax">160dp</dimen>
+    <dimen name="at">24dp</dimen>
+</resources>

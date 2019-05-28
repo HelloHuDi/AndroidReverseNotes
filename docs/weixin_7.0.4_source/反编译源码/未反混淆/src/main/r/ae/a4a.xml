@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.game.ui.GameNewTopBannerView android:id="@+id/c6u" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/c5j" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ImageView android:layout_gravity="bottom" android:id="@+id/c6v" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.tencent.mm.plugin.game.ui.GameNewTopBannerView>
+    <com.tencent.mm.plugin.game.ui.GameIndexSearchView android:id="@+id/c6w" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.tencent.mm.plugin.game.ui.GameMessageBubbleView android:gravity="center_horizontal" android:id="@+id/c1e" android:background="@color/a69" android:paddingLeft="@dimen/dy" android:paddingRight="@dimen/dy" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/c1f" android:background="@drawable/oj" android:padding="@dimen/nc" android:focusable="true" android:clickable="true" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5">
+            <ImageView android:id="@+id/c1g" android:layout_width="@dimen/m2" android:layout_height="@dimen/m2" android:scaleType="fitCenter"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:ellipsize="end" android:id="@+id/c1h" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+    </com.tencent.mm.plugin.game.ui.GameMessageBubbleView>
+    <com.tencent.mm.plugin.game.ui.GameIndexWxagView android:id="@+id/c6x" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.tencent.mm.plugin.game.ui.GameBlockView android:orientation="vertical" android:id="@+id/c6y" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.tencent.mm.plugin.game.ui.GameRecomBlockView android:orientation="vertical" android:id="@+id/c6z" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <com.tencent.mm.plugin.game.ui.GameNewClassifyView android:orientation="vertical" android:id="@+id/c70" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/c3d" android:layout_width="match_parent" android:layout_height="@dimen/k2"/>
+    </com.tencent.mm.plugin.game.ui.GameNewClassifyView>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/fd5" android:background="@color/a69" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ai9" android:padding="14dp" android:visibility="gone" android:persistentDrawingCache="all" android:alwaysDrawnWithCache="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:layout_width="250dp" android:layout_height="250dp">
+                <ImageView android:id="@+id/ai_" android:layout_width="250dp" android:layout_height="250dp" android:scaleType="fitCenter" android:layout_centerInParent="true" android:contentDescription="@string/fw5"/>
+                <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/wallet_offline_icon" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/aic" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:visibility="visible" android:persistentDrawingCache="all" android:alwaysDrawnWithCache="true" android:layout_width="wrap_content" android:layout_height="430dp">
+            <ImageView android:id="@+id/aif" android:layout_width="126dp" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@string/fv4"/>
+            <com.tencent.mm.ui.base.MMVerticalTextView android:id="@+id/aie" android:tag="1" android:focusable="true" android:clickable="true" android:layout_width="24dp" android:layout_height="match_parent" app:text="" app:textColor="@color/w4" app:textSize="@dimen/fr" app:direction="top_to_bottom" app:textBold="true"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="30dp">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="1dp" android:layout_marginBottom="5dp" android:src="@a/offline_notification"/>
+                <com.tencent.mm.ui.base.MMVerticalTextView android:id="@+id/fd6" android:tag="1" android:focusable="true" android:clickable="true" android:layout_width="15dp" android:layout_height="wrap_content" app:text="@string/da8" app:textColor="#ffc15c" app:textSize="@dimen/ni" app:direction="top_to_bottom"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/fd7" android:background="@color/a69" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.99">
+        <com.tencent.mm.ui.base.MMVerticalTextView android:id="@+id/fd8" android:paddingLeft="0dp" android:paddingRight="0dp" android:focusable="true" android:clickable="true" android:layout_width="35dp" android:layout_height="190dp" app:text="@string/fk5" app:textColor="#02bb00" app:textSize="@dimen/fp" app:direction="top_to_bottom" style="@style/p4"/>
+        <RelativeLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.base.MMVerticalTextView android:id="@+id/fd9" android:tag="1" android:focusable="true" android:clickable="true" android:layout_width="22dp" android:layout_height="327dp" android:layout_marginLeft="30dp" android:layout_centerVertical="true" app:text="@string/da_" app:textColor="#666666" app:textSize="18dp" app:direction="top_to_bottom"/>
+            <com.tencent.mm.ui.base.MMVerticalTextView android:id="@+id/fd_" android:tag="1" android:focusable="true" android:clickable="true" android:layout_width="22dp" android:layout_height="327dp" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/fd9" app:text="@string/da9" app:textColor="#666666" app:textSize="18dp" app:direction="top_to_bottom"/>
+        </RelativeLayout>
+        <ImageView android:layout_width="56dp" android:layout_height="51dp" android:layout_marginLeft="30dp" android:src="@drawable/bld" android:rotation="90"/>
+    </LinearLayout>
+</FrameLayout>

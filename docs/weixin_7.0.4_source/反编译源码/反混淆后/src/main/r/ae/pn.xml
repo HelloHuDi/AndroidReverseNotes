@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/l5">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/b08" android:layout_width="@dimen/fn" android:layout_height="@dimen/fn"/>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/a1n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/zo"/>
+        </FrameLayout>
+        <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.tencent.p177mm.p612ui.widget.edittext.PasterEditText android:textSize="@dimen/m5" android:textColor="@color/t7" android:ellipsize="end" android:id="@+id/b09" android:background="@drawable/b78" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="0dp" android:maxLines="3"/>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

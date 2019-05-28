@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.p177mm.p612ui.base.preference.DialogPreference app:persistent="false" app:title="@string/eac" app:entries="@array/ae" app:entryValues="@array/af" app:key="settings_sex" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e6i" app:key="settings_district" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.chatroom.p216ui.preference.SignaturePreference app:title="@string/eak" app:key="settings_signature" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e7v" app:key="settings_linkedin" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+</PreferenceScreen>

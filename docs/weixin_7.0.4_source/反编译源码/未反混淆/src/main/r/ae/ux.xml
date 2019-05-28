@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/bh8" android:background="@drawable/a8g" android:paddingBottom="@dimen/ld" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:layout_gravity="left" android:id="@+id/bh9" android:background="@a/list_deletetext_icon" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <FrameLayout android:layout_width="@dimen/a1h" android:layout_height="@dimen/a1h">
+        <com.tencent.mm.emoji.view.EmojiStatusView android:gravity="center_horizontal" android:id="@+id/bh_" android:layout_width="@dimen/a1h" android:layout_height="@dimen/a1h"/>
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/bha" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</LinearLayout>

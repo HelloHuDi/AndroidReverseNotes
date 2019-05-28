@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.plugin.game.p433ui.GameLibraryCategoriesView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/c76" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.plugin.game.widget.BouncyHScrollView android:background="@color/a69" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds" android:fillViewport="false" android:overScrollMode="never">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/c77" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.tencent.p177mm.plugin.game.widget.BouncyHScrollView>
+</com.tencent.p177mm.plugin.game.p433ui.GameLibraryCategoriesView>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:top="4dp" android:right="6dp">
+        <shape>
+            <solid android:color="@android:color/darker_gray"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+    <item android:right="0dp" android:bottom="0dp">
+        <shape>
+            <solid android:color="#f5ffffff"/>
+            <corners android:radius="4dp"/>
+        </shape>
+    </item>
+</layer-list>

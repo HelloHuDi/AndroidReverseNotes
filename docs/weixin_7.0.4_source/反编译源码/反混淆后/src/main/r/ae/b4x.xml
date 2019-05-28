@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <TextView android:gravity="center_horizontal" android:id="@+id/f55" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/l8" android:layout_marginRight="@dimen/l5" android:layout_marginBottom="@dimen/l5" android:text="@string/fdd" style="@style/vr"/>
+    <com.tencent.p177mm.wallet_core.p650ui.formview.EditHintPasswdView android:id="@+id/cfs" app:format="1" style="@style/oz"/>
+    <include layout="@layout/kt"/>
+</LinearLayout>

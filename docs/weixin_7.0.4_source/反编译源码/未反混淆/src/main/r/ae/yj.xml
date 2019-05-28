@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/im">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/i0" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ie">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@+id/bq7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/hv">
+                    <ImageView android:id="@+id/yk" style="@style/id"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/bq8" android:visibility="gone" android:src="@drawable/ae0" android:contentDescription="@string/fy" style="@style/ik"/>
+                    <ImageView android:layout_gravity="bottom|right|center_vertical|center_horizontal|center" android:id="@+id/bq9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/atx" android:contentDescription="@string/fy"/>
+                </FrameLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/bq_" android:text="{title}" style="@style/ii"/>
+                    <TextView android:id="@+id/bqa" android:layout_marginTop="3dp" android:text="{desc}" style="@style/ij"/>
+                    <TextView android:id="@+id/bqb" android:layout_marginTop="3dp" android:text="{title}" style="@style/ii"/>
+                    <TextView android:id="@+id/bqc" android:layout_marginTop="3dp" android:text="{desc}" style="@style/ij"/>
+                </LinearLayout>
+            </LinearLayout>
+            <include layout="@layout/yh"/>
+            <include layout="@layout/yg"/>
+        </LinearLayout>
+        <include layout="@layout/yf"/>
+    </LinearLayout>
+</FrameLayout>

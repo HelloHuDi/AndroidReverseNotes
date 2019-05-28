@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView style="@style/na">
+        <LinearLayout style="@style/ks">
+            <LinearLayout android:orientation="vertical" android:id="@+id/e9r" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:paddingBottom="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/qk" android:layout_width="@dimen/dp" android:layout_height="@dimen/dp"/>
+                    <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/b6e" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/qk"/>
+                    <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:gravity="left" android:id="@+id/dw7" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_toRightOf="@+id/qk" android:layout_below="@+id/b6e"/>
+                </RelativeLayout>
+                <View style="@style/nr"/>
+                <EditText android:textColor="@color/w4" android:layout_gravity="bottom" android:id="@+id/e9s" android:layout_marginTop="@dimen/nc" android:minHeight="@dimen/kz" style="@style/md"/>
+                <View style="@style/nr"/>
+                <TextView android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/e9t" android:text="@string/d1a" android:height="70dp" style="@style/me"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

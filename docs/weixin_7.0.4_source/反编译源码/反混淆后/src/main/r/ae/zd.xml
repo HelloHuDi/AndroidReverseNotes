@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bsk" android:background="@color/x" android:paddingRight="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageButton android:id="@+id/bsl" android:background="@color/a3p" android:layout_width="24dp" android:layout_height="24dp" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:src="@c1318a/voicepost_beginicon"/>
+    <TextView android:textColor="#353535" android:id="@+id/bsm" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+    <FrameLayout android:id="@+id/bsn" android:padding="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <View android:layout_gravity="center_vertical" android:background="#66000000" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="0dp" android:layout_gravity="center_vertical" android:id="@+id/bso" android:background="#1aad19" android:layout_width="wrap_content" android:layout_height="3px" android:lines="0"/>
+            <TextView android:textSize="0dp" android:layout_gravity="center_vertical" android:background="@drawable/nw" android:layout_width="wrap_content" android:layout_height="8dp" android:lines="0"/>
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textColor="#353535" android:id="@+id/bsp" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="00:00"/>
+</LinearLayout>

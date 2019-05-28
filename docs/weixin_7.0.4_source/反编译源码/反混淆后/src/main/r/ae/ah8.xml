@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView style="@style/na">
+        <LinearLayout style="@style/ks">
+            <TextView android:id="@+id/dc_" android:text="@string/dti" android:layout_weight="1" style="@style/me"/>
+            <com.tencent.p177mm.p612ui.widget.MMEditText android:id="@+id/dca" style="@style/md"/>
+            <View style="@style/m_"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

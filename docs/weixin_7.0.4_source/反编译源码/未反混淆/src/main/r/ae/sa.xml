@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:textAppearance="@style/se" android:textColor="?android:attr/textColorSecondary" android:gravity="left|center_vertical|center_horizontal|center|start" android:paddingLeft="?attr/fa" android:paddingRight="?attr/fb" android:layout_width="match_parent" android:layout_height="?attr/f9" android:maxLines="1"/>

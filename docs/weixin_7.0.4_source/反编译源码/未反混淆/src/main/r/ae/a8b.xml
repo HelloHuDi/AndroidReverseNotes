@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/vs" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ih" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/lu" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/d3">
+            <com.tencent.mm.ui.base.MaxListView android:id="@+id/cj8" android:background="@null" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="#00000000" android:dividerHeight="0dp" android:choiceMode="singleChoice"/>
+            <include android:id="@+id/cj9" android:visibility="gone" layout="@layout/b2p"/>
+            <TextView android:textSize="@dimen/fo" android:textColor="@color/t1" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/cj_" android:background="@drawable/k5" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/m3" android:text="@string/e5i"/>
+        </LinearLayout>
+        <TextView android:textSize="14dp" android:textColor="@color/w0" android:gravity="bottom" android:id="@+id/cja" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="18dp" android:text="@string/cfe" android:layout_below="@+id/ih" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</ScrollView>

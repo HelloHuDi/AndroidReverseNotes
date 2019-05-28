@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/m5" android:textColor="@color/im" android:id="@+id/axh" android:background="@drawable/b9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/f0" android:minHeight="48dp" android:text="@string/abn" android:layout_alignParentLeft="true"/>
+        <Button android:textSize="@dimen/m5" android:textColor="@color/r8" android:id="@+id/b7o" android:background="@drawable/b9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="92dp" android:minHeight="48dp" android:text="@string/dnc" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.p177mm.p612ui.widget.picker.OptionPicker android:id="@+id/dyi" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="8dp" android:layout_marginBottom="20dp"/>
+        <com.tencent.p177mm.p612ui.widget.picker.OptionPicker android:id="@+id/dko" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp"/>
+    </LinearLayout>
+</LinearLayout>

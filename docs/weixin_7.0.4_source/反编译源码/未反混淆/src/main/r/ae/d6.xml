@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/c7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/t5" android:layout_marginTop="@dimen/t4" android:layout_marginRight="@dimen/t5">
+    <include layout="@layout/d9"/>
+    <View android:background="@color/g1" android:layout_width="match_parent" android:layout_height="@dimen/tc" android:layout_marginTop="2dp" android:layout_marginBottom="18dp" android:layout_marginStart="@dimen/t3" android:layout_marginEnd="@dimen/t3"/>
+    <LinearLayout android:id="@+id/up" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/t3" android:layout_marginEnd="@dimen/t3">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.plugin.appbrand.ui.recommend.AppBrandCombinationLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/uu" android:padding="1dp" android:layout_width="40dp" android:layout_height="40dp"/>
+                <ImageView android:id="@+id/ur" android:layout_width="match_parent" android:layout_height="146dp" android:scaleType="centerCrop"/>
+            </com.tencent.mm.plugin.appbrand.ui.recommend.AppBrandCombinationLayout>
+            <TextView android:textSize="@dimen/dt" android:textColor="#e6000000" android:id="@+id/us" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/t2" android:layout_marginBottom="@dimen/t2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/d7"/>
+</LinearLayout>

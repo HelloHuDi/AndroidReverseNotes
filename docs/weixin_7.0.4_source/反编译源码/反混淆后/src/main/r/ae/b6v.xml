@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a3p" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:paddingBottom="12dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/wz" android:paddingLeft="16dp" android:paddingTop="16dp" android:paddingRight="16dp" android:layout_width="@dimen/lr" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/dz" android:textColor="@color/h6" android:gravity="center_vertical" android:id="@+id/fii" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="140dp" android:text="@string/fq4" android:maxLines="3" android:includeFontPadding="false" android:layout_centerInParent="true"/>
+                    <ImageView android:id="@+id/fij" android:layout_width="24dp" android:layout_height="24dp" android:src="@c1318a/actionbar_icon_dark_close" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="@dimen/dz" android:textStyle="bold" android:textColor="@color/t7" android:gravity="right" android:id="@+id/fik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40dp" android:text="" android:maxLines="3" android:layout_toRightOf="@+id/fii" android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/dz" android:textColor="@color/h4" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/fil" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text=""/>
+                        <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                            <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textSize="40dp" android:textColor="@color/h4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" app:walletTypeFace="0"/>
+                            <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textSize="40dp" android:textColor="@color/h4" android:id="@+id/fim" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" app:walletTypeFace="0"/>
+                        </LinearLayout>
+                        <TextView android:textSize="@dimen/kr" android:textColor="@color/w0" android:gravity="center" android:id="@+id/fin" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/le" android:layout_marginRight="@dimen/l5" android:singleLine="true"/>
+                        <View android:id="@+id/fio" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="24dp" android:alpha="0.1"/>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/fip" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp"/>
+                        <com.tencent.p177mm.plugin.wallet_core.p561ui.cashier.WcPayCashierDetailItemLayout android:id="@+id/fiq" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/fir" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+                            <View android:background="@color/h4" android:layout_width="match_parent" android:layout_height="1px" android:alpha="0.1"/>
+                            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp">
+                                <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/fis" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="8dp"/>
+                                <TextView android:textSize="@dimen/fi" android:textColor="@color/h6" android:id="@+id/fit" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+                                <Button android:textSize="@dimen/nk" android:textStyle="bold" android:id="@+id/fiu" android:background="@drawable/a5g" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="40dp" android:layout_height="24dp" style="@style/nq"/>
+                            </LinearLayout>
+                        </LinearLayout>
+                        <LinearLayout android:orientation="vertical" android:id="@+id/fiv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:layout_marginBottom="24dp">
+                            <com.tencent.p177mm.wallet_core.p650ui.formview.EditHintPasswdView android:id="@+id/fiw" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" app:format="1" app:EditTextBg="@drawable/b2r"/>
+                            <TextView android:textSize="@dimen/fi" android:textColor="@color/rr" android:layout_gravity="center_horizontal" android:id="@+id/fix" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text=""/>
+                        </LinearLayout>
+                        <Button android:layout_gravity="center_horizontal" android:id="@+id/fiy" android:visibility="gone" android:layout_marginTop="36dp" android:layout_marginBottom="28dp" android:text="@string/gav" style="@style/nj"/>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/azi"/>
+</LinearLayout>

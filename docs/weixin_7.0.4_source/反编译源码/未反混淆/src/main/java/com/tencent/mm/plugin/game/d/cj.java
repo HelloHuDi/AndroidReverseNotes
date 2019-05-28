@@ -1,0 +1,86 @@
+package com.tencent.mm.plugin.game.d;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.mm.bt.a;
+
+public final class cj extends a {
+    public String Desc;
+    public String Title;
+    public String mZi;
+    public String ncZ;
+
+    public final int op(int i, Object... objArr) {
+        AppMethodBeat.i(111647);
+        int f;
+        if (i == 0) {
+            e.a.a.c.a aVar = (e.a.a.c.a) objArr[0];
+            if (this.Title != null) {
+                aVar.e(1, this.Title);
+            }
+            if (this.Desc != null) {
+                aVar.e(2, this.Desc);
+            }
+            if (this.mZi != null) {
+                aVar.e(3, this.mZi);
+            }
+            if (this.ncZ != null) {
+                aVar.e(4, this.ncZ);
+            }
+            AppMethodBeat.o(111647);
+            return 0;
+        } else if (i == 1) {
+            if (this.Title != null) {
+                f = e.a.a.b.b.a.f(1, this.Title) + 0;
+            } else {
+                f = 0;
+            }
+            if (this.Desc != null) {
+                f += e.a.a.b.b.a.f(2, this.Desc);
+            }
+            if (this.mZi != null) {
+                f += e.a.a.b.b.a.f(3, this.mZi);
+            }
+            if (this.ncZ != null) {
+                f += e.a.a.b.b.a.f(4, this.ncZ);
+            }
+            AppMethodBeat.o(111647);
+            return f;
+        } else if (i == 2) {
+            e.a.a.a.a aVar2 = new e.a.a.a.a((byte[]) objArr[0], unknownTagHandler);
+            for (f = a.getNextFieldNumber(aVar2); f > 0; f = a.getNextFieldNumber(aVar2)) {
+                if (!super.populateBuilderWithField(aVar2, this, f)) {
+                    aVar2.ems();
+                }
+            }
+            AppMethodBeat.o(111647);
+            return 0;
+        } else if (i == 3) {
+            e.a.a.a.a aVar3 = (e.a.a.a.a) objArr[0];
+            cj cjVar = (cj) objArr[1];
+            switch (((Integer) objArr[2]).intValue()) {
+                case 1:
+                    cjVar.Title = aVar3.BTU.readString();
+                    AppMethodBeat.o(111647);
+                    return 0;
+                case 2:
+                    cjVar.Desc = aVar3.BTU.readString();
+                    AppMethodBeat.o(111647);
+                    return 0;
+                case 3:
+                    cjVar.mZi = aVar3.BTU.readString();
+                    AppMethodBeat.o(111647);
+                    return 0;
+                case 4:
+                    cjVar.ncZ = aVar3.BTU.readString();
+                    AppMethodBeat.o(111647);
+                    return 0;
+                default:
+                    AppMethodBeat.o(111647);
+                    return -1;
+            }
+        } else {
+            AppMethodBeat.o(111647);
+            return -1;
+        }
+    }
+}

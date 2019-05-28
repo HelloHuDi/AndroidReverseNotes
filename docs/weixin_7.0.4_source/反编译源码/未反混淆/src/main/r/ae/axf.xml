@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/eot" android:layout_width="match_parent" android:layout_height="48dp" android:text="result" style="@style/nu"/>
+    <Button android:id="@+id/eou" android:text="@string/g9g" style="@style/ma"/>
+    <Button android:id="@+id/eov" android:text="@string/g9b" style="@style/ma"/>
+    <Button android:id="@+id/eow" android:text="@string/g9f" style="@style/ma"/>
+    <Button android:id="@+id/eox" android:text="@string/g9d" style="@style/ma"/>
+    <Button android:id="@+id/eoy" android:text="@string/g9a" style="@style/ma"/>
+    <Button android:id="@+id/eoz" android:text="@string/g9e" style="@style/ma"/>
+    <Button android:id="@+id/ep0" android:text="@string/g9c" style="@style/ma"/>
+    <Button android:id="@+id/ep1" android:text="@string/g9_" style="@style/ma"/>
+    <Button android:id="@+id/ep2" android:text="@string/g99" style="@style/ma"/>
+</LinearLayout>

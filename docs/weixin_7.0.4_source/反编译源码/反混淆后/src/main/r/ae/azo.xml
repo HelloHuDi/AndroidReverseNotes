@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:background="@drawable/oj" android:paddingLeft="5dp" android:paddingRight="5dp" android:duplicateParentState="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp">
+        <ImageView android:id="@+id/evx" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="3dp" android:scaleType="fitCenter"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:id="@+id/evy" android:paddingLeft="15dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{saysay}"/>
+        <Chronometer android:textSize="13dp" android:textStyle="bold" android:textColor="#79ffc5" android:id="@+id/dkg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </LinearLayout>
+</LinearLayout>

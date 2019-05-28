@@ -1,0 +1,60 @@
+package com.tencent.p177mm.plugin.sns.p520ui;
+
+import android.content.Context;
+import android.graphics.Canvas;
+import android.util.AttributeSet;
+import android.view.View;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.p177mm.p612ui.base.MMFrameLayout;
+
+/* renamed from: com.tencent.mm.plugin.sns.ui.AdFrameLayout */
+public class AdFrameLayout extends MMFrameLayout {
+    public AdFrameLayout(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+    }
+
+    public void addView(View view) {
+        AppMethodBeat.m2504i(38046);
+        super.addView(view);
+        AppMethodBeat.m2505o(38046);
+    }
+
+    public void removeView(View view) {
+        AppMethodBeat.m2504i(38047);
+        super.removeView(view);
+        AppMethodBeat.m2505o(38047);
+    }
+
+    public void requestLayout() {
+        AppMethodBeat.m2504i(38048);
+        super.requestLayout();
+        AppMethodBeat.m2505o(38048);
+    }
+
+    /* Access modifiers changed, original: protected */
+    public void onDetachedFromWindow() {
+        AppMethodBeat.m2504i(38049);
+        super.onDetachedFromWindow();
+        AppMethodBeat.m2505o(38049);
+    }
+
+    public void onLayout(boolean z, int i, int i2, int i3, int i4) {
+        AppMethodBeat.m2504i(38050);
+        System.currentTimeMillis();
+        super.onLayout(z, i, i2, i3, i4);
+        AppMethodBeat.m2505o(38050);
+    }
+
+    /* Access modifiers changed, original: protected */
+    public void onMeasure(int i, int i2) {
+        AppMethodBeat.m2504i(38051);
+        super.onMeasure(i, i2);
+        AppMethodBeat.m2505o(38051);
+    }
+
+    public void draw(Canvas canvas) {
+        AppMethodBeat.m2504i(38052);
+        super.draw(canvas);
+        AppMethodBeat.m2505o(38052);
+    }
+}

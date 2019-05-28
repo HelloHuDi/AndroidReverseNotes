@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/m5" android:paddingLeft="@dimen/ga" android:paddingRight="@dimen/ga" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:layout_marginBottom="@dimen/g9">
+        <ImageView android:background="@drawable/r6" android:layout_width="@dimen/g9" android:layout_height="@dimen/g9" android:layout_marginRight="@dimen/g2"/>
+        <TextView android:textSize="17dp" android:textColor="@color/a6_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bzh"/>
+    </LinearLayout>
+    <View android:background="#4cffffff" android:layout_width="match_parent" android:layout_height="1dp"/>
+    <LinearLayout android:gravity="top" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga">
+        <ImageView android:id="@+id/qk" android:background="@drawable/ad2" android:layout_width="@dimen/ge" android:layout_height="@dimen/ge" android:layout_marginRight="@dimen/g2"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="22dp" android:textStyle="bold" android:textColor="@color/a6_" android:id="@+id/b6e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:textFontWeight="1"/>
+            <TextView android:textSize="17dp" android:textColor="@color/a6_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gg" android:text="@string/e32"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:background="#00000000" android:paddingBottom="@dimen/g1" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Button android:textSize="@dimen/g7" android:textColor="@color/a6_" android:id="@+id/bvm" android:background="@drawable/qu" android:layout_width="@dimen/g3" android:layout_height="@dimen/gb" android:text="@string/g0z"/>
+    </LinearLayout>
+</LinearLayout>

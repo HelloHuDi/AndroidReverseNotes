@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingBottom="0dp" android:layout_marginBottom="0dp" style="@style/ks">
+        <ImageView android:id="@+id/bvw" android:background="@drawable/oe" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="60dp" android:src="@drawable/aee" style="@style/j6"/>
+        <TextView android:textSize="22sp" android:ellipsize="end" android:id="@+id/bvx" android:layout_marginTop="20dp" android:text="@string/c0t" android:singleLine="true" style="@style/js"/>
+        <TextView android:id="@+id/bvy" android:layout_marginTop="10dp" android:text="@string/c0t" style="@style/jd"/>
+        <LinearLayout android:gravity="center" android:layout_marginTop="60dp" style="@style/mb">
+            <TextView android:id="@+id/bvz" android:visibility="invisible" android:text="@string/bzq" style="@style/j0"/>
+            <TextView android:id="@+id/bw0" android:visibility="invisible" android:text="@string/bzo" style="@style/j0"/>
+            <TextView android:autoLink="none|web|email|phone" android:id="@+id/bw1" android:visibility="invisible" android:layout_marginLeft="8dp" android:text="@string/c0o" style="@style/jn"/>
+        </LinearLayout>
+        <Button android:textSize="15sp" android:id="@+id/bw2" android:layout_width="220dp" android:layout_marginTop="20dp" android:minHeight="34dp" android:text="@string/atr" style="@style/jr"/>
+        <LinearLayout android:gravity="center" android:layout_marginTop="20dp" style="@style/mb">
+            <TextView android:text="@string/c0u" style="@style/jo"/>
+            <Button android:id="@+id/bw3" android:layout_height="20dp" android:text="@string/c0x" style="@style/jn"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@+id/bw4" android:visibility="gone" android:layout_marginTop="2dp" style="@style/mb">
+            <TextView android:textSize="10dp" android:text="@string/c0w" style="@style/jo"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_marginBottom="15dp" style="@style/mb">
+        <ImageView android:layout_width="114dp" android:layout_height="18dp" android:src="@drawable/aek"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/abq" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/abr" android:visibility="gone" layout="@layout/k5"/>
+        <include android:id="@+id/abs" android:visibility="gone" layout="@layout/a0y"/>
+        <include android:id="@+id/abt" android:visibility="gone" layout="@layout/hu"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/abu" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginRight="@dimen/nc" android:layout_marginBottom="@dimen/nc">
+            <LinearLayout android:orientation="vertical" android:id="@+id/abv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/abw" android:background="@drawable/azv" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ViewStub android:id="@+id/abx" android:layout="@layout/hw" android:inflatedId="@+id/aby" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/abz" android:layout="@layout/kg" android:inflatedId="@+id/abz" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac0" android:layout="@layout/hv" android:inflatedId="@+id/ac0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac1" android:layout="@layout/hy" android:inflatedId="@+id/ac1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac2" android:layout="@layout/jv" android:inflatedId="@+id/ac2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac3" android:layout="@layout/jz" android:inflatedId="@+id/ac3" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac4" android:layout="@layout/jn" android:inflatedId="@+id/ac4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac5" android:layout="@layout/ie" android:inflatedId="@+id/ac5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac6" android:layout="@layout/if" android:inflatedId="@+id/ac6" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac7" android:visibility="gone" android:layout="@layout/i7" android:inflatedId="@+id/ac7" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac8" android:visibility="gone" android:layout="@layout/i2" android:inflatedId="@+id/ac8" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac9" android:visibility="gone" android:layout="@layout/i8" android:inflatedId="@+id/ac9" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <ViewStub android:id="@+id/ac_" android:layout="@layout/ki" android:inflatedId="@+id/ac_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/n3"/>
+                <com.tencent.mm.ui.base.MaxListView android:id="@+id/aca" android:background="@null" android:focusable="true" android:layout_height="wrap_content" android:transcriptMode="disabled" style="@style/fj"/>
+            </LinearLayout>
+            <TextView android:id="@+id/acb" android:background="@drawable/azu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="36dp" android:layout_marginBottom="@dimen/l5" android:layerType="software"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/acc" android:paddingTop="@dimen/l5" android:paddingBottom="@dimen/l5" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="@dimen/m4" android:layout_weight="1">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:gravity="center_horizontal" android:id="@+id/acd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ace" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/a_f" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/azh"/>
+                    <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:gravity="center_horizontal" android:id="@+id/a_g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le" android:text="@string/ah8"/>
+                    <Button android:textSize="@dimen/ni" android:textColor="@color/a8m" android:gravity="center" android:id="@+id/a_h" android:background="@drawable/gi" android:layout_width="wrap_content" android:layout_height="24dp" android:layout_marginTop="@dimen/m4" android:minWidth="50dp" android:text="@string/agr"/>
+                </LinearLayout>
+                <View android:id="@+id/acf" android:background="@color/a69" android:visibility="gone" android:layout_width="1px" android:layout_height="60dp"/>
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/acg" android:visibility="visible" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/azl"/>
+                    <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/nc" android:layout_marginRight="@dimen/nc" android:text="@string/agg"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:ellipsize="middle" android:gravity="center_horizontal" android:id="@+id/ach" android:paddingTop="@dimen/lo" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

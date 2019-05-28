@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:background="#00000000" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" style="@style/pt">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/h6"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/gy"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a7p" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ViewStub android:id="@+id/a7q" android:layout="@layout/ha" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/a7r" android:layout="@layout/he" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/a7s" android:layout="@layout/hc" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/a7t" android:layout="@layout/hf" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/a7u" android:layout="@layout/hb" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ViewStub android:id="@+id/a7v" android:layout="@layout/hd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a7w" android:background="@drawable/in" android:paddingLeft="@dimen/ug" android:paddingRight="@dimen/ug" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:background="@color/jy" android:layout_width="match_parent" android:layout_height="1px"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dy" android:layout_marginBottom="@dimen/dy">
+            <TextView android:textSize="@dimen/nd" android:textColor="@color/t7" android:layout_gravity="center_vertical" android:id="@+id/a7x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1" style="@style/nu"/>
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="@dimen/le" android:src="@c1318a/biz_item_more_icon"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.webview.ui.tools.WebViewKeyboardLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bhl" android:background="#eeeeee" style="@style/pt">
+    <FrameLayout android:id="@+id/bhm" android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <FrameLayout android:id="@+id/nc" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="containerFrameLayout">
+            <include layout="@layout/b7e"/>
+            <com.tencent.mm.plugin.webview.ui.tools.LogoWebViewWrapper android:id="@+id/bhn" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:id="@+id/bho" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="containerFrameLayout"/>
+            </com.tencent.mm.plugin.webview.ui.tools.LogoWebViewWrapper>
+        </FrameLayout>
+        <FrameLayout android:id="@+id/bhp" android:background="#eeeeee" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="refreshFrameLayout">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/dq" android:layout_marginBottom="@dimen/dq" android:src="@a/webview_refresh_icon"/>
+                <TextView android:textSize="18sp" android:textColor="#dddddd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fzd" style="@style/p0"/>
+            </LinearLayout>
+        </FrameLayout>
+        <com.tencent.mm.ui.base.MMFalseProgressBar android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/bhq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="0dp" android:progressDrawable="@drawable/uw" android:contentDescription="progressBar"/>
+    </FrameLayout>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/bhr" android:background="#2e3132" android:layout_width="match_parent" android:layout_height="50dp">
+        <ImageButton android:id="@+id/bhs" android:background="@drawable/al" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/a6s" android:layout_alignParentLeft="true"/>
+        <ImageView android:background="@color/dz" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_toRightOf="@+id/bhs"/>
+        <ImageButton android:id="@+id/bht" android:background="@drawable/al" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/a6t" android:layout_alignParentRight="true"/>
+        <ImageView android:background="@color/dz" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="10dp" android:layout_marginBottom="10dp" android:layout_toLeftOf="@+id/bht"/>
+    </RelativeLayout>
+</com.tencent.mm.plugin.webview.ui.tools.WebViewKeyboardLinearLayout>

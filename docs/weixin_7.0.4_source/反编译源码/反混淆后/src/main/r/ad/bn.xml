@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <Preference app:title="@string/ena" app:key="timline_outside_permiss"/>
+    <Preference app:title="@string/ejt" app:key="timeline_black_permiss"/>
+    <PreferenceCategory/>
+    <CheckBoxPreference app:title="@string/awd" app:key="timeline_stranger_show" app:layout="@layout/ae4"/>
+</PreferenceScreen>

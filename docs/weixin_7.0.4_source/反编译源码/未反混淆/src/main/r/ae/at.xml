@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="horizontal" android:id="@+id/mc" android:background="@drawable/avh" android:layout_width="150dp" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/md" android:paddingBottom="@dimen/le" android:layout_width="150dp" android:layout_height="wrap_content">
+        <TextView android:textSize="12dp" android:textColor="@color/a0h" android:id="@+id/me" android:paddingLeft="@dimen/lo" android:paddingRight="@dimen/lo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds" android:layout_marginBottom="6dp" android:text="@string/ejd" android:layout_centerHorizontal="true"/>
+        <View android:id="@+id/mf" android:background="@color/hc" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/lo" android:layout_marginRight="@dimen/lo" android:layout_below="@+id/me"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="#576b95" android:id="@+id/mg" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/le" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/le" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ejc" android:layout_below="@+id/mf" android:layout_centerHorizontal="true"/>
+        <ListView android:id="@+id/mh" android:background="@color/a69" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/mf" style="@style/mf"/>
+    </RelativeLayout>
+</LinearLayout>

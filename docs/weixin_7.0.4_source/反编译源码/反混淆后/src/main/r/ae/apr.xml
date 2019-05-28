@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@color/a69" android:paddingTop="@dimen/dy" android:paddingBottom="@dimen/dy" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/a02" android:layout_width="20dp" android:layout_height="20dp" android:src="@c1318a/login_auth_state_radar_default_select"/>
+    <TextView android:textSize="16dp" android:textColor="@color/h4" android:layout_gravity="center" android:id="@+id/a03" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_centerVertical="true"/>
+</LinearLayout>

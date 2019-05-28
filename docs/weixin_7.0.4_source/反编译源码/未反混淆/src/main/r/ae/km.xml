@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/ih" android:background="#f3f3f3" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.appbrand.widget.recyclerview.LoadMoreRecyclerView android:id="@+id/ak9" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:dividerHeight="8dp" android:overScrollMode="never"/>
+    <include android:visibility="gone" layout="@layout/iy"/>
+</RelativeLayout>

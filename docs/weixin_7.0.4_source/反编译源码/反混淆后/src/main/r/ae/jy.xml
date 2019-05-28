@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/ir" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:paddingTop="15dp" android:paddingBottom="22dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aiy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/jm" android:ellipsize="end" android:gravity="left" android:id="@+id/aiz" android:layout_width="70dp" android:layout_height="wrap_content" android:maxWidth="70dp" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/jl" android:ellipsize="end" android:gravity="left" android:id="@+id/aj0" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:singleLine="true" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aj1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/lo" android:layout_marginRight="@dimen/l5">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/jm" android:ellipsize="end" android:gravity="left" android:id="@+id/aj2" android:layout_width="70dp" android:layout_height="wrap_content" android:maxWidth="70dp" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/jl" android:ellipsize="end" android:gravity="left" android:id="@+id/aj3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:singleLine="true" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

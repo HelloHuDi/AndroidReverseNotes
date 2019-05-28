@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="b">#90000000</color>
+    <color name="c">#1f000000</color>
+    <color name="d">#90000000</color>
+    <color name="e">#de000000</color>
+    <color name="f">@android:color/white</color>
+    <color name="g">#deffffff</color>
+    <color name="h">@android:color/black</color>
+    <color name="i">#deffffff</color>
+</resources>

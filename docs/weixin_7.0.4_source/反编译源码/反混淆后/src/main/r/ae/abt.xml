@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/zj" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/d3z" android:layout_width="match_parent" android:layout_height="76dp" style="@style/pn">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/uq" android:id="@+id/d40" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:text="@string/cwx" android:layout_weight="1"/>
+            <CheckedTextView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/d43" android:background="@drawable/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24dp"/>
+            <CheckedTextView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/d42" android:background="@drawable/tu" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

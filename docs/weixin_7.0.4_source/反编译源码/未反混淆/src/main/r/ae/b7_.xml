@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/nc" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/fjz" android:background="@drawable/bm0" android:layout_width="@dimen/aav" android:layout_height="@dimen/aav" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/m5" android:paddingLeft="@dimen/aat" android:paddingTop="@dimen/aat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <ImageView android:id="@+id/jb" android:layout_width="48dp" android:layout_height="48dp" android:src="@a/webview_bag_canceller_icon"/>
+        <TextView android:textSize="12dp" android:textColor="#7fffffff" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/fxu"/>
+    </LinearLayout>
+</RelativeLayout>

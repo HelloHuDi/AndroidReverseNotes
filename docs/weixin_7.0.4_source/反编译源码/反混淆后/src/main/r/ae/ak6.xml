@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/d6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/bb_" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/bba" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/v5">
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/dm0" android:minHeight="45dp" app:titleText="@string/fgp" app:contentHint="@string/fgo" app:encryptType="50" style="@style/v3"/>
+            <TextView android:id="@+id/dm1" android:visibility="invisible" android:text="@string/fav" style="@style/vk"/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/dm2" android:imeOptions="actionNext" app:titleText="@string/fax" app:contentHint="@string/faw" app:encryptType="30" style="@style/ve"/>
+            <TextView android:id="@+id/dm3" android:visibility="invisible" android:text="@string/fav" style="@style/vk"/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/dm4" app:titleText="@string/fb4" app:contentHint="@string/faz" app:encryptType="0" style="@style/vf"/>
+            <TextView android:textColor="@color/s0" android:gravity="center" android:id="@+id/dm5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="@string/fpm"/>
+            <Button android:enabled="false" android:id="@+id/ay8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:layout_marginBottom="38dp" android:text="@string/s1" style="@style/vu"/>
+            <TextView android:layout_gravity="bottom" android:id="@+id/dm6" android:paddingTop="5dp" android:layout_height="match_parent" android:layout_margin="0dp" style="@style/w2"/>
+        </LinearLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/azi"/>
+</LinearLayout>

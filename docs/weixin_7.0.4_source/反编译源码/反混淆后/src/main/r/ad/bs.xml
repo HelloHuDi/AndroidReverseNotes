@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.p177mm.p612ui.base.preference.IconSwitchKeyValuePreference app:title="@string/e5c" app:key="settings_account_info" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e9j" app:key="settings_notification_preference" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e5f" app:key="settings_active_time" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e69" app:key="settings_chatting" app:layout="@layout/ae4"/>
+    <IconPreference app:title="@string/e5_" app:key="settings_about_privacy" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e57" app:key="settings_about_device" app:layout="@layout/ae4"/>
+    <IconPreference app:title="@string/e5b" app:key="settings_about_system" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <IconPreference app:title="@string/e59" app:key="settings_about_micromsg"/>
+    <Preference app:title="@string/e71" app:key="settings_feedback" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <IconPreference app:title="@string/ed6" app:key="settings_welab" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/eba" app:key="settings_switch_account"/>
+    <Preference app:title="@string/e80" app:key="settings_logout" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="Redesign" app:key="settings_redesign" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

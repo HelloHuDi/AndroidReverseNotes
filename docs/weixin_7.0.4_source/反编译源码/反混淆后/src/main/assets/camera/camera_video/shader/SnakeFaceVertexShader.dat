@@ -1,0 +1,141 @@
+ attribute vec4 position;
+ attribute vec4 inputTextureCoordinate;
+
+ uniform int nPoint;
+ uniform vec2 fSrc[102];
+ uniform vec2 fDst[102];
+
+ varying vec2 textureCoordinate;
+
+ void main(void) {
+     if (nPoint <= 0) {
+         vec4 xPosition = position;
+         gl_Position = xPosition;
+         textureCoordinate = inputTextureCoordinate.xy;
+         return;
+     }
+     float M_PI_HALF = 1.57079632679;
+
+     float imageWidth = fDst[101].x;
+     float imageHeight = fDst[101].y;
+     float xCenter = fSrc[64].x;
+     float yCenter = fSrc[64].y;
+
+
+     vec4 rawPosition = position;
+     rawPosition.x = (position.x + 1.0) * imageWidth / 2.0;
+     rawPosition.y = (position.y + 1.0) * imageHeight / 2.0;
+
+//     for (int ii = 0; ii < 19; ii++){
+//         if (abs(rawPosition.x - fSrc[ii].x) < 3.0 && abs(rawPosition.y - fSrc[ii].y) < 3.0) {
+//             vec4 xPosition = position;
+//             xPosition.x = 0.0;
+//             xPosition.y = 0.0;
+//             gl_Position = xPosition;
+//             textureCoordinate = inputTextureCoordinate.xy;
+//             return;
+//         }
+//     }
+     vec2 swq;
+     vec2 qstar;
+     vec2 newP;
+     vec2 tmpP;
+     float sw;
+
+     //float w[MAX_ASSIGN_POINT];
+
+     vec2 swp;
+     vec2 pstar;
+     vec2 curV;
+     vec2 curVJ;
+     vec2 Pi;
+     vec2 PiJ;
+     float miu_s;
+
+     float i = rawPosition.x;
+     float j = rawPosition.y;
+     sw = 0.0;
+     swp.x = swp.y = 0.0;
+     swq.x = swq.y = 0.0;
+     newP.x = newP.y = 0.0;
+     curV.x = i;
+     curV.y = j;
+     for (int k = 0; k < nPoint - 1; k++) {
+         float w = 1.0 / ((i - fSrc[k].x) * (i - fSrc[k].x) +
+                          (j - fSrc[k].y) * (j - fSrc[k].y));
+         sw = sw + w;
+         swp = swp + w * fSrc[k];
+         swq = swq + w * fDst[k];
+
+//         w[k] = 1.0 / ((i - fSrc[k].x) * (i - fSrc[k].x) +
+//                       (j - fSrc[k].y) * (j - fSrc[k].y));
+//         sw = sw + w[k];
+//         swp = swp + w[k] * fSrc[k];
+//         swq = swq + w[k] * fDst[k];
+     }
+
+     pstar = (1.0 / sw) * swp;
+     qstar = 1.0 / sw * swq;
+
+     miu_s = 0.0;
+     for (int k = 0; k < nPoint - 1; k++) {
+
+         float w = 1.0 / ((i - fSrc[k].x) * (i - fSrc[k].x) +
+                          (j - fSrc[k].y) * (j - fSrc[k].y));
+         Pi = fSrc[k] - pstar;
+         miu_s += w * dot(Pi, Pi);
+     }
+
+     curV -= pstar;
+     curVJ.x = -curV.y;
+     curVJ.y = curV.x;
+
+     for (int k = 0; k < nPoint - 1; k++) {
+
+         float w = 1.0 / ((i - fSrc[k].x) * (i - fSrc[k].x) +
+                          (j - fSrc[k].y) * (j - fSrc[k].y));
+         Pi = fSrc[k] - pstar;
+         PiJ.x = -Pi.y;
+         PiJ.y = Pi.x;
+
+         tmpP.x = dot(Pi, curV) * fDst[k].x -
+         dot(PiJ, curV) * fDst[k].y;
+         tmpP.y = - dot(Pi, curVJ) * fDst[k].x +
+         dot(PiJ, curVJ) * fDst[k].y;
+         tmpP *= w / miu_s;
+         newP += tmpP;
+     }
+     newP += qstar;
+
+     vec4 nPosition = rawPosition;
+     nPosition.x = newP.x;
+     nPosition.y = newP.y;
+
+     i = nPosition.x - rawPosition.x;
+     j = nPosition.y - rawPosition.y;
+
+     if (rawPosition.x < xCenter) {
+         i = sin(rawPosition.x * M_PI_HALF / xCenter) * i;
+     } else {
+         i = (i * sin((imageWidth - rawPosition.x) * M_PI_HALF / (imageWidth - xCenter)));
+     }
+     if (rawPosition.y < yCenter) {
+         j = sin(rawPosition.y * M_PI_HALF / yCenter) * j;
+     } else {
+         j = (j * sin((imageHeight - rawPosition.y) * M_PI_HALF / (imageHeight - yCenter)));
+     }
+
+     nPosition.x = rawPosition.x + i;
+     nPosition.y = rawPosition.y + j;
+
+     if (rawPosition.x <= 0.1) nPosition.x = 0.0;
+     if (rawPosition.x >= imageWidth - 0.1) nPosition.x = imageWidth;
+     if (rawPosition.y <= 0.1) nPosition.y = 0.0;
+     if (rawPosition.y >= imageHeight - 0.1) nPosition.y = imageHeight;
+
+     nPosition.x = (nPosition.x * 2.0 / imageWidth) - 1.0;
+     nPosition.y = (nPosition.y * 2.0 / imageHeight) - 1.0;
+
+     gl_Position = nPosition;
+     textureCoordinate = inputTextureCoordinate.xy;
+ }

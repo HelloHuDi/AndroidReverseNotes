@@ -1,0 +1,26 @@
+
+varying highp vec2 textureCoordinate;
+
+uniform sampler2D inputImageTexture;
+
+uniform highp float l;
+uniform highp float r;
+
+void main()
+{
+    highp float delta;
+    if (textureCoordinate.x < 0.5) {
+        delta = l;
+    }
+    else {
+        delta = r;
+    }
+
+    highp float v = textureCoordinate.y+delta;
+    if (v > 1.0 || v < 0.0) {
+        gl_FragColor = vec4(0.0, 0.0, 0.0, 1.0);
+    }
+    else {
+        gl_FragColor = texture2D(inputImageTexture, vec2(textureCoordinate.x, v));
+    }
+}

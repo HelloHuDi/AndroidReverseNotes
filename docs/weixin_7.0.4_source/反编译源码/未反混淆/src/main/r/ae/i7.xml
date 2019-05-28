@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:paddingTop="@dimen/le" android:paddingBottom="@dimen/do" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/aal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <ImageView android:id="@+id/aab" android:layout_width="209dp" android:layout_height="209dp" android:scaleType="fitXY"/>
+        <Button android:textSize="@dimen/m5" android:textColor="@color/a69" android:ellipsize="end" android:gravity="center" android:id="@+id/aa6" android:background="@drawable/fs" android:visibility="gone" android:layout_width="141dp" android:layout_height="35dp" android:text="@string/afs" android:singleLine="true" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/dx" android:textColor="@color/h4" android:ellipsize="end" android:gravity="center" android:id="@+id/aa7" android:background="@drawable/k7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m7" android:maxLines="3" android:layout_below="@+id/aal" android:layout_centerHorizontal="true"/>
+    <View android:id="@+id/aa8" android:background="@drawable/kz" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/dy" android:layout_marginTop="@dimen/l5" android:layout_marginRight="@dimen/dy" android:layout_below="@+id/aa7" android:layerType="software"/>
+</RelativeLayout>

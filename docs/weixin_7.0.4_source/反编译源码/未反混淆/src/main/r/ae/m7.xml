@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/fz">
+    <include layout="@layout/lj"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ani" style="@style/g9">
+        <TextView android:id="@+id/od" android:visibility="gone" style="@style/gd"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.widget.MMNeat7extView android:id="@+id/oe" android:background="@drawable/hz" android:maxWidth="@dimen/x7" android:maxHeight="@dimen/g3" android:minHeight="@dimen/ej" style="@style/gj"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,27 @@
+precision mediump float;
+vec3 ContrastSaturationBrightness(vec3 color, float brt, float sat, float con)
+{
+    const float AvgLumR = 0.5;
+    const float AvgLumG = 0.5;
+    const float AvgLumB = 0.5;
+    const vec3 LumCoeff = vec3(0.2125, 0.7154, 0.0721);
+    vec3 AvgLumin = vec3(AvgLumR, AvgLumG, AvgLumB);
+    vec3 brtColor = color * brt;
+    vec3 intensity = vec3(dot(brtColor, LumCoeff));
+    vec3 satColor = mix(intensity, brtColor, sat);
+    vec3 conColor = mix(AvgLumin, satColor, con);
+    return conColor;
+}
+
+varying vec2 textureCoordinate;
+uniform sampler2D inputImageTexture;
+
+uniform float contrast;
+uniform float saturation;
+uniform float brightness;
+
+void main() {
+    vec4 original = texture2D(inputImageTexture, textureCoordinate);
+    vec3 color = ContrastSaturationBrightness(original.rgb, brightness, saturation, contrast);
+    gl_FragColor = vec4(color.rgb, original.a);
+}

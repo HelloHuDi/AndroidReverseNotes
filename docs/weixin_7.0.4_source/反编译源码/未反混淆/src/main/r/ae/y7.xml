@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" style="@style/pt">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <EditText android:textSize="18dp" android:id="@+id/bbt" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" style="@style/mm"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textColor="@color/h4" android:gravity="right" android:id="@+id/bph" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:text="@string/fy"/>
+</LinearLayout>

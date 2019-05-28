@@ -1,0 +1,19 @@
+precision highp float;
+varying vec2 textureCoordinate;
+uniform sampler2D inputImageTexture;
+uniform int map[256];
+
+void main()
+{
+    int index = int(texture2D (inputImageTexture, textureCoordinate).r * 255.0);
+
+    int color = map[index];
+
+    int r = (color >> 24) & 0xff;
+
+    int g = (color >> 16) & 0xff;
+    int b = (color >> 8) & 0xff;
+    int a = color & 0xff;
+    gl_FragColor = vec4(r / 255.0, g / 255.0, b / 255.0, a / 255.0);
+
+}

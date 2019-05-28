@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="@dimen/f4" style="@style/lp">
+    <RelativeLayout android:id="@+id/o3" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="@dimen/f4">
+        <com.tencent.mm.ui.AddressView android:id="@+id/o1" android:layout_width="match_parent" android:layout_height="@dimen/f4"/>
+    </RelativeLayout>
+</LinearLayout>

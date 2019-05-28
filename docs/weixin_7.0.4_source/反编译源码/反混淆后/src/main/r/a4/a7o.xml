@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:gravity="center" android:orientation="vertical" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" android:transitionGroup="true">
+    <ViewStub android:id="@+id/aey" android:layout="@layout/a7r" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textColor="@color/xy" android:id="@+id/chu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/chv" android:visibility="gone" android:layout="@layout/ast" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.p612ui.base.WxImageView android:gravity="center" android:id="@+id/chw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.p612ui.base.MultiTouchImageView android:gravity="center" android:id="@+id/bl" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.p612ui.base.MultiTouchImageView android:gravity="center" android:id="@+id/chx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/chy" android:layout="@layout/a7p" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ViewStub android:id="@+id/chz" android:layout="@layout/a7q" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/ci0" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/zp"/>
+</FrameLayout>

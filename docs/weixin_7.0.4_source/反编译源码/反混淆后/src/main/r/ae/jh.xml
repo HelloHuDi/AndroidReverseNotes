@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/ir" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/ah_" android:background="#f5f5f5" android:layout_width="match_parent" android:layout_height="48dp" android:layout_alignParentBottom="true">
+        <View android:id="@+id/aha" android:background="#bcbcbc" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <TextView android:textSize="16dp" android:textColor="#aaaaaa" android:gravity="center_vertical" android:id="@+id/ahb" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:text="@string/af2" android:layout_below="@+id/aha"/>
+        <TextView android:textSize="16dp" android:textColor="#576b95" android:gravity="center_vertical" android:id="@+id/ahc" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:text="@string/afa" android:layout_toRightOf="@+id/ahb" android:layout_below="@+id/aha"/>
+        <TextView android:textSize="13dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/ahd" android:background="@drawable/fp" android:layout_width="60dp" android:layout_height="30dp" android:layout_marginRight="12dp" android:text="@string/af8" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/a_b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/jf" android:id="@+id/a_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ago" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ListView android:id="@+id/ahe" android:background="#eeeeee" android:visibility="visible" android:layout_height="match_parent" android:transcriptMode="disabled" android:layout_above="@+id/ah_" style="@style/fj"/>
+</RelativeLayout>

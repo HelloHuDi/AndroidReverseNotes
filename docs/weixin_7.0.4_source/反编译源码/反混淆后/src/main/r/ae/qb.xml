@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a6_" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/a7j" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/b0i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l5">
+        <ImageView android:layout_gravity="center" android:id="@+id/y1" android:layout_width="@dimen/dp" android:layout_height="@dimen/dp" android:src="@drawable/abh" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+        <View android:id="@+id/b28" android:background="@drawable/ea" android:layout_width="@dimen/dp" android:layout_height="@dimen/dp" android:layout_centerInParent="true" android:contentDescription="@string/x9"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toRightOf="@+id/b0i" android:layout_alignTop="@+id/b0i">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fz">
+            <TextView android:textSize="@dimen/ks" android:textColor="@color/h7" android:ellipsize="end" android:id="@+id/y2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nick_name}" style="@style/l9"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/ll" android:id="@+id/b29" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{user_name}" style="@style/l9"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/b2_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/star_mark" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+ precision highp float;
+ varying vec2 canvasCoordinate;
+ varying vec2 textureCoordinate;
+ uniform sampler2D inputImageTexture;
+ uniform sampler2D inputImageTexture2;
+ uniform int blendmode;
+ void main()
+ {
+     vec4 c1 = texture2D(inputImageTexture2, textureCoordinate);
+     vec4 c2 = texture2D(inputImageTexture, canvasCoordinate);
+     if(blendmode == 0){
+        gl_FragColor = c2;
+     } else {
+        gl_FragColor = c1;
+     }
+}

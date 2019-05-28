@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:paddingRight="20dp" style="@style/fz">
+    <include android:id="@+id/ani" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/g4" layout="@layout/lj"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ani" style="@style/g9">
+        <TextView android:id="@+id/od" android:visibility="gone" style="@style/gd"/>
+        <FrameLayout android:id="@+id/ap9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_below="@+id/od">
+            <ImageView android:id="@+id/apt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:maxWidth="240dp"/>
+            <ImageView android:id="@+id/aq_" android:background="@drawable/hk" android:layout_width="0dp" android:layout_height="0dp"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_below="@+id/ap9">
+            <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <TextView android:ellipsize="end" android:id="@+id/aq0" android:layout_marginLeft="0dp" android:text="{source}" android:singleLine="true" style="@style/g0"/>
+                </LinearLayout>
+                <RelativeLayout android:id="@+id/ar2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/anl" android:visibility="gone" android:text="@string/ak_" android:singleLine="true" style="@style/g0"/>
+                    <ImageView android:id="@+id/aqe" android:background="@drawable/yi" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

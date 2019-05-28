@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.p612ui.widget.FoursquareRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/ih" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/akx" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/cik" android:background="@drawable/b6x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="5dp" android:layout_alignParentBottom="true">
+        <ImageView android:id="@+id/dnq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@c1318a/video_icon_sub" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a6a" android:id="@+id/dnr" android:paddingTop="1dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="--:--" android:maxLines="1" android:layout_toRightOf="@+id/dnq" android:layout_alignBaseline="@+id/dnq" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/dns" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b6w" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/dnt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginBottom="5dp" android:src="@c1318a/photo_edit_mark_sub" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/ape" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/i9" android:layout_marginBottom="@dimen/i9" android:src="@c1318a/error_image_sub" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/dnu" android:background="@color/sb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/dnv" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/lp" android:scaleType="center"/>
+</com.tencent.p177mm.p612ui.widget.FoursquareRelativeLayout>

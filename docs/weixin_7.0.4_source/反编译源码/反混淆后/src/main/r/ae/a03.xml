@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="@dimen/m3" style="@style/lp">
+    <TextView android:id="@+id/bgm" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb" android:maxLines="2" android:layout_centerVertical="true" style="@style/lf"/>
+</RelativeLayout>

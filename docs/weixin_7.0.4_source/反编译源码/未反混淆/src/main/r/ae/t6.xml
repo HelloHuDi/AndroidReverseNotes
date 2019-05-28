@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bbf" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/bbg" android:layout_width="60dp" android:layout_height="67dp" android:layout_marginTop="45dp" android:src="@drawable/b74" android:scaleType="centerCrop"/>
+                <TextView android:textSize="17dp" android:textColor="#ff202020" android:id="@+id/bbh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text=""/>
+                <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="30dp"/>
+                <TextView android:textSize="14dp" android:textColor="@color/w0" android:layout_gravity="left" android:id="@+id/bbi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:text=""/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/bbj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp"/>
+                <Button android:id="@+id/bbk" android:layout_marginTop="40dp" android:text="@string/b8e" style="@style/no"/>
+            </LinearLayout>
+            <TextView android:textSize="13dp" android:textColor="#ff576b95" android:gravity="bottom" android:id="@+id/bbl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="18dp" android:text="" android:layout_below="@+id/bbf" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <View android:id="@+id/bbm" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</ScrollView>

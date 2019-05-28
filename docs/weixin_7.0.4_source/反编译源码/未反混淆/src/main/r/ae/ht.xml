@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/a_9" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <RelativeLayout android:padding="@dimen/nc" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/a__" android:background="@drawable/ha" android:paddingTop="@dimen/le" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="138dp">
+            <LinearLayout android:orientation="vertical" android:id="@+id/a_a" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="180dp">
+                <ListView android:id="@android:id/list" android:background="@null" android:focusable="true" android:visibility="visible" android:layout_height="wrap_content" android:layout_marginBottom="50dp" android:transcriptMode="disabled" style="@style/fj"/>
+                <RelativeLayout android:id="@+id/a_b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textSize="@dimen/m5" android:textColor="@color/jf" android:id="@+id/a_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/acd" android:layout_centerInParent="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/a_d" android:background="@drawable/g8" android:layout_width="match_parent" android:layout_height="65dp" android:layout_alignBottom="@+id/a_a">
+                <Button android:textSize="@dimen/m5" android:textColor="@color/a8m" android:ellipsize="end" android:id="@+id/a_e" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:visibility="visible" android:layout_width="match_parent" android:layout_height="41dp" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" android:minWidth="168dp" android:text="@string/acs" android:singleLine="true"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/a_f" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/l5" android:layout_alignParentBottom="true">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/azh"/>
+            <TextView android:textSize="@dimen/ni" android:textColor="@color/a69" android:id="@+id/a_g" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le" android:text="@string/ah8"/>
+            <Button android:textSize="@dimen/ni" android:textColor="@color/a8m" android:gravity="center" android:id="@+id/a_h" android:background="@drawable/gi" android:layout_width="wrap_content" android:layout_height="24dp" android:layout_marginTop="@dimen/m4" android:minWidth="50dp" android:text="@string/agr"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

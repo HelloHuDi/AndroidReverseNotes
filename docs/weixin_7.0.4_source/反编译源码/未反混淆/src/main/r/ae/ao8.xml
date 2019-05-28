@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <EditText android:textColor="@color/w4" android:textColorHint="@color/rz" android:gravity="center_vertical" android:id="@+id/bbt" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/l8" android:layout_marginRight="@dimen/l5" android:maxHeight="140dp" android:minLines="1" style="@style/mm"/>
+    <TextView android:textColor="@color/w4" android:id="@+id/bph" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/nc" android:layout_marginRight="@dimen/l5"/>
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/cpp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/nc" android:layout_marginRight="@dimen/l5">
+        <ImageView android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/b7w"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/w4" android:id="@+id/cpq" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

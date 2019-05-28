@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <Preference app:title="@string/ecn" app:key="settings_my_username"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:summary="@string/eah" app:title="@string/eae" app:key="settings_show_username"/>
+</PreferenceScreen>

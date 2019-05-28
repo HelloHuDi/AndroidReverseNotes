@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <LinearLayout android:orientation="vertical" android:id="@+id/dwm" android:background="@color/a69" android:padding="@dimen/ma" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.p177mm.plugin.recharge.p491ui.form.InstantAutoCompleteTextView android:textSize="28dp" android:textColor="@color/h4" android:id="@+id/bw" android:padding="0dp" android:layout_margin="0dp" android:dropDownSelector="@color/a3p" android:popupBackground="@null" android:dropDownWidth="match_parent" android:dropDownAnchor="@+id/dwm" android:dropDownHeight="200dp" style="@style/pl"/>
+            <com.tencent.p177mm.pluginsdk.p597ui.wallet.WalletIconImageView android:layout_gravity="center_vertical" android:id="@+id/bx" android:layout_width="25dp" android:layout_height="25dp" android:src="@drawable/yb" android:scaleType="fitXY" style="@style/pc"/>
+        </LinearLayout>
+        <TextView android:textSize="13dp" android:textColor="@color/h4" android:id="@+id/bz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:minHeight="16dp"/>
+    </LinearLayout>
+</merge>

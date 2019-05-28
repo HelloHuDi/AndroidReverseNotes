@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<whilte-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <checker name="ExplainQueryPlanChecker">
+        <element>sqlite_master
+        </element>
+        <element>select count(rconversation.username) from rconversation,rcontact where unreadcount &gt; ? and rconversation.username = rcontact.username and (? != ? or rconversation.username like ? or rconversation.username not like ?) and type? = ? and attrflag? = ? and (parentref or parentref = ? and rcontact.username != ?)
+        </element>
+        <element>select count(*) from rcontact where type &amp; ? != ? and username = ?
+        </element>
+        <element>select username from rcontact where verifyflag &amp; ? != ? and type &amp; ? != ?
+        </element>
+        <element>select bizinfo.brandiconurl,bizinfo.type,bizinfo.status,rcontact.username,rcontact.conremark,rcontact.nickname,rcontact.alias,rcontact.conremarkpyfull,rcontact.conremarkpyshort,rcontact.showhead,rcontact.pyinitial,rcontact.quanpin from rcontact,bizinfo where rcontact.username = bizinfo.username and rcontact.verifyflag &amp; ? != ? and rcontact.type &amp; ? != ? order by showhead,upper(quanpin)length(conremarkpyfull) &gt; ?,upper(conremarkpyfull),upper(quanpin)length(conremark) &gt; ?,upper(conremark),upper(quanpin),upper(nickname)
+        </element>
+        <element>select count(username) from rcontact where type &amp; ? != ? and type &amp; ? = ? and type &amp; ? = ? and verifyflag &amp; ? = ? and username like ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ?
+        </element>
+        <element>select count(username) from rcontact where type &amp; ? != ? and type &amp; ? = ? and type &amp; ? = ? and verifyflag &amp; ? = ? and username not like ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? and rcontact.username != ? or username = ?
+        </element>
+        <element>select *,rowid from rcontact where type &amp; ? != ? and username like ? and type &amp; ? = ? order by showhead,upper(quanpin)length(conremarkpyfull) &gt; ?,upper(conremarkpyfull),upper(quanpin)length(conremark) &gt; ?,upper(conremark),upper(quanpin),upper(nickname),upper(username)
+        </element>
+        <element>select username,nickname,alias,conremark,verifyflag,showhead,weiboflag,rowid,deleteflag,lvbuff from rcontact where type &amp; ? != ? and type &amp; ? = ? and type &amp; ? = ? and verifyflag &amp; ? = ? and (username not like ? or (type &amp; ? != ? and type &amp; ? = ? and username like ?)) and username != ? and username != ? and username != ? and username != ? or username = ? order by showhead,upper(quanpin)length(conremarkpyfull) &gt; ?,upper(conremarkpyfull),upper(quanpin)length(conremark) &gt; ?,upper(conremark),upper(quanpin),upper(nickname),upper(username)
+        </element>
+        <element>select bizinfo.username from rcontact,bizinfo where rcontact.username = bizinfo.username and rcontact.verifyflag &amp; ? != ? and rcontact.type &amp; ? != ? and bizinfo.type = ? order by rcontact.showhead,upper(rcontact.quanpin)length(rcontact.conremarkpyfull) &gt; ?,upper(rcontact.conremarkpyfull),upper(rcontact.quanpin)length(rcontact.conremark) &gt; ?,upper(rcontact.conremark),upper(rcontact.quanpin),upper(rcontact.nickname),upper(rcontact.username)
+        </element>
+        <element>select username,unreadcount from rconversation where username like ? and (? != ? or rconversation.username like ? or rconversation.username not like ?) and unreadcount &gt; ?
+        </element>
+        <element>select count(rowid) from rcontact where type &amp; ? != ? and verifyflag &amp; ? != ?
+        </element>
+        <element>select *,rowid from rcontact where type &amp; ? != ? and verifyflag &amp; ? != ?
+        </element>
+        <element>select sum(unreadcount) from rconversation,rcontact where rconversation.unreadcount &gt; ? and (rconversation.parentref or parentref = ?) and rconversation.username = rcontact.username and (? != ? or rconversation.username like ? or rconversation.username not like ?) and type? = ? and rcontact.username != ?
+        </element>
+        <element>select username from bizinfo where accepttype &amp; ? &gt; ?
+        </element>
+        <element>select * from openmsglistener where status = ?
+        </element>
+        <element>select msgsvrid,createtime from bottlemessage where createtime &gt; ? and talker like ?
+        </element>
+        <element>select *,rowid from rcontact where username = ? or encryptusername = ?
+        </element>
+    </checker>
+    <checker name="AvoidAutoIncrementChecker"/>
+    <checker name="AvoidSelectAllChecker"/>
+    <checker name="WithoutRowIdBetterChecker">
+        <element>VideoPlayHistory
+        </element>
+        <element>AARecord
+        </element>
+        <element>EmotionRewardTipInfo
+        </element>
+        <element>PendingCardId
+        </element>
+        <element>RemittanceRecord
+        </element>
+        <element>ShareCardSyncItemInfo
+        </element>
+        <element>SmileyPanelConfigInfo
+        </element>
+        <element>WalletLuckyMoney
+        </element>
+        <element>BizEnterprise
+        </element>
+        <element>ShakeNewYearFriendInfo
+        </element>
+        <element>WebViewCacheAppIdOccupation
+        </element>
+    </checker>
+    <checker name="PreparedStatementBetterChecker"/>
+    <checker name="RedundantIndexChecker"/>
+</whilte-list>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/ul" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.p612ui.widget.FoursquareRelativeLayout android:layout_width="@dimen/a2g" android:layout_height="@dimen/a2g" android:layout_marginRight="@dimen/m4">
+        <ImageView android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/beo" android:scaleType="center" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/e5z" android:background="@drawable/bh1" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/beo" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/cik" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aqi" android:layout_centerInParent="true"/>
+    </com.tencent.p177mm.p612ui.widget.FoursquareRelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/e60" android:paddingRight="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ru" android:maxLines="2"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:ellipsize="end" android:id="@+id/e61" android:paddingRight="@dimen/do" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/do" android:text="@string/ru" android:singleLine="true"/>
+    </LinearLayout>
+    <ImageView android:id="@+id/e62" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l5" android:src="@c1318a/radio_on"/>
+</LinearLayout>

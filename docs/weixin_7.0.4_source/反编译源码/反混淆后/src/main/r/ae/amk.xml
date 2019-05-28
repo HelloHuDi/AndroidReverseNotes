@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.plugin.radar.p489ui.RadarViewController xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_gravity="center" android:id="@+id/du5" android:layout_width="616dp" android:layout_height="match_parent">
+    <ImageView android:background="@drawable/ami" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/du6" android:background="@drawable/bfb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="center" android:adjustViewBounds="true" android:layout_centerInParent="true"/>
+    <com.tencent.p177mm.plugin.radar.p489ui.RadarWaveView android:id="@+id/du7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/du8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/amh" android:layout_centerInParent="true"/>
+    </com.tencent.p177mm.plugin.radar.p489ui.RadarWaveView>
+    <RelativeLayout android:id="@+id/du9" android:layout_width="320dp" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="horizontal" android:padding="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@+id/du_" android:layout_centerHorizontal="true">
+            <ProgressBar android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/dua" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+            <TextView android:textSize="16sp" android:textColor="#ff858585" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/dub" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView android:background="@drawable/amf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="center" android:adjustViewBounds="true" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/duc" android:layout_width="78dp" android:layout_height="78dp" android:layout_centerInParent="true"/>
+        <com.tencent.p177mm.plugin.radar.p489ui.RadarSpecialGridView android:id="@+id/dud" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="80dp" android:layout_marginBottom="80dp" android:overScrollMode="never"/>
+        <Button android:textSize="16sp" android:textColor="#ff858585" android:gravity="center" android:id="@+id/due" android:background="@drawable/amg" android:paddingLeft="16dp" android:paddingTop="6dp" android:paddingRight="16dp" android:paddingBottom="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="20dp" android:text="@string/dh5" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <include android:id="@+id/duf" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/amj"/>
+        <include layout="@layout/amh"/>
+    </RelativeLayout>
+</com.tencent.p177mm.plugin.radar.p489ui.RadarViewController>

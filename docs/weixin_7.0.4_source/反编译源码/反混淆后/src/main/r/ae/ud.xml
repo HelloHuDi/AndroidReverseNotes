@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/bg0" android:background="@color/a69" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/bg1" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/ue"/>
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4">
+        <TextView android:textSize="@dimen/dk" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/bg2" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lf"/>
+    </LinearLayout>
+    <TextView android:textSize="14sp" android:textColor="#6c6c6c" android:id="@+id/bg3" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4" android:lineSpacingMultiplier="1.1"/>
+    <View android:id="@+id/bg4" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4"/>
+    <include android:id="@+id/bfw" layout="@layout/uc"/>
+    <include android:id="@+id/bg5" layout="@layout/ug"/>
+    <TextView android:id="@+id/bg6" android:background="@color/zf" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/ld" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/bcg" style="@style/mq"/>
+</LinearLayout>

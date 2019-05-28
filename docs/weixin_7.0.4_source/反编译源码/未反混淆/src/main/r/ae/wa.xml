@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/nb" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/bjo" android:background="@color/nf" android:layout_width="match_parent" android:layout_height="@dimen/h6"/>
+    <View android:id="@+id/bjp" android:background="@color/nf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="50dp" android:layout_below="@+id/bjo"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="@dimen/h6" android:layout_alignParentLeft="true" android:layout_centerInParent="true">
+        <View android:id="@+id/bjq" android:layout_width="@dimen/h4" android:layout_height="match_parent"/>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <TextView android:textSize="14dp" android:textColor="@color/nd" android:id="@+id/bjr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

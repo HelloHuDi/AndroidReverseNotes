@@ -1,4 +1,12 @@
-#### Android逆向笔记—从入门到入土
+#### Android逆向笔记
+
+**从入门到入土**
+
+[1.梦幻三板斧—apktool、dex2jar、jd-gui](1.梦幻三板斧—apktool、dex2jar、jd-gui)
+
+[2.进击的gui](2.进击的gui)
+
+[3.神奇的Xposed](3.神奇的Xposed)
 
 **记录一些神奇的地址**
 

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a6">440dp</dimen>
+    <dimen name="a7">60%</dimen>
+    <dimen name="a8">90%</dimen>
+    <dimen name="a9">60%</dimen>
+    <dimen name="a_">90%</dimen>
+    <dimen name="aa">55%</dimen>
+    <dimen name="ab">80%</dimen>
+</resources>

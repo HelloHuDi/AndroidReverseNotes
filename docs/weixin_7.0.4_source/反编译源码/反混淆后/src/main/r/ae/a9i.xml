@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/m5" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+        <ImageView android:id="@+id/co8" android:layout_width="@dimen/o1" android:layout_height="@dimen/o1" android:scaleType="fitXY"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/oo" android:textColor="@color/wl" android:ellipsize="end" android:id="@+id/co9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="15"/>
+            <TextView android:textSize="@dimen/o6" android:textColor="@color/df" android:id="@+id/co_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bl"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:gravity="right" android:id="@+id/coa" android:background="@null" android:paddingLeft="0dp" android:paddingRight="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70dp" android:minHeight="0dp" android:hint="@string/cls" app:layoutRes="@layout/a9e" app:contentHint="@string/cls" app:contentGravity="15" style="@style/vw"/>
+            <TextView android:textSize="@dimen/oo" android:textColor="#353535" android:id="@+id/co1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/clr"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:id="@+id/cob" android:background="@drawable/r0" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="10dp" android:layout_below="@+id/m5"/>
+</RelativeLayout>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.p177mm.pluginsdk.p597ui.applet.ContactListExpandPreference app:key="roominfo_contact_anchor"/>
+    <Preference app:title="@string/e14" app:key="see_room_member" app:layout="@layout/l0"/>
+    <NormalIconPreference app:title="@string/d0" app:icon="@drawable/aa6" app:key="add_selector_btn"/>
+    <NormalIconPreference app:title="@string/b52" app:icon="@drawable/ad7" app:key="del_selector_btn"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.p177mm.chatroom.p216ui.story.StoryLoadIconPreference app:title="@string/aj0" app:key="chat_room_story_videos"/>
+    <KeyValuePreference app:title="@string/dtg" app:key="room_name" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/dtw" app:key="room_qr_code" app:widgetLayout="@layout/afj" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.chatroom.p216ui.preference.RoomCardPreference app:key="room_card" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/cyp" app:key="manage_room" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/dum" app:key="room_search_chatting_content" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/dv4" app:key="room_upgrade_entry" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.SpecialCheckBoxPreference app:key="chatroom_info_chexboxes" app:layout="@layout/aea"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:title="@string/dtd" app:key="room_notify_new_msg" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:title="@string/dtv" app:key="room_placed_to_the_top" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:title="@string/dug" app:key="room_save_to_contact" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <KeyValuePreference app:title="@string/dtf" app:key="room_nickname" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:title="@string/dte" app:key="room_msg_show_username"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/dut" app:key="room_set_chatting_background" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/dsh" app:key="room_report_it" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/drt" app:key="room_clear_chatting_history" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:title_color="@color/ct" app:btn_title="@string/dry" app:key="room_del_quit" app:layout="@layout/akq"/>
+    <PreferenceCategory app:key="chatroom_bottom_pc"/>
+    <Preference app:title="@string/dtr" app:key="room_openim_about" app:layout="@layout/afp"/>
+</PreferenceScreen>

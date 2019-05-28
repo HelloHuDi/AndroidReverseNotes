@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:paddingLeft="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bhx" android:background="@drawable/a_q" android:paddingLeft="@dimen/g7" android:layout_width="match_parent" android:layout_height="@dimen/f4">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@+id/a6v" android:layout_width="@dimen/f2" android:layout_height="@dimen/f2">
+            <ImageView android:id="@+id/m5" android:layout_width="@dimen/f1" android:layout_height="@dimen/f1" android:src="@a/default_wework" android:layout_centerVertical="true"/>
+            <TextView android:id="@+id/nf" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/uy"/>
+        </com.tencent.mm.ui.base.MaskLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/dkm" android:background="@drawable/a_q" android:paddingRight="@dimen/dm" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/g2" android:layout_weight="1">
+            <TextView android:gravity="center_vertical" android:id="@+id/bhy" android:singleLine="true" style="@style/lf"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

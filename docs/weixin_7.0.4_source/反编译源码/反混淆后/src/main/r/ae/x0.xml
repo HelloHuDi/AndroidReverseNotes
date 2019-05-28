@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:weightSum="1">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="14dp" android:textColor="@color/w0" android:gravity="center_horizontal" android:id="@+id/blb" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/dpz" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/blc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="15dp">
+                <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                    <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/bld" android:background="@color/a3p" android:focusable="false" android:layout_width="28dp" android:layout_height="28dp" android:layout_marginRight="3dp" android:scaleType="centerCrop" android:contentDescription="@string/x9"/>
+                    <TextView android:textSize="18dp" android:textColor="@color/l3" android:gravity="center_horizontal" android:id="@+id/ble" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{¥100}"/>
+                </LinearLayout>
+            </LinearLayout>
+            <View android:id="@+id/ahr" android:background="#c7c7c7" android:layout_width="match_parent" android:layout_height="1px"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

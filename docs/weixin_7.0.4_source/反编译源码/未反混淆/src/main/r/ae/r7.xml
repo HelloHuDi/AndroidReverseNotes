@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="left" android:background="#55000000" android:padding="@dimen/nc" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4">
+        <Button android:id="@+id/b66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="C" android:layout_weight="1" style="@style/h2"/>
+        <Button android:id="@+id/b67" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:text="S" android:layout_weight="1" style="@style/h2"/>
+        <Button android:id="@+id/b68" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:text="P" android:layout_weight="1" style="@style/h2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b69" android:background="#f0eff4" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <View android:background="@color/rc" android:layout_width="match_parent" android:layout_height="1px"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.plugin.appbrand.wxawidget.console.ConsolePanel android:id="@+id/b6_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.tencent.mm.plugin.appbrand.wxawidget.console.SettingsPanel android:id="@+id/b6a" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            <com.tencent.mm.plugin.appbrand.wxawidget.console.PerformancePanel android:id="@+id/b6b" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

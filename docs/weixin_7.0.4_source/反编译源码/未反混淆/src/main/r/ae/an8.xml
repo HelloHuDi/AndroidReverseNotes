@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.widget.MMNeat7extView android:textSize="17dp" android:textColor="#77000000" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/m5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dqk"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+        <com.tencent.mm.ui.widget.MMEditText android:textSize="28dp" android:textColor="@color/h4" android:gravity="center" android:id="@+id/dw2" android:background="@drawable/y8" android:padding="0dp" android:layout_width="33dp" android:layout_height="33dp" android:text=""/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp">
+            <TextView android:textSize="28dp" android:typeface="monospace" android:textColor="@color/h4" android:gravity="center" android:id="@+id/dw3" android:layout_width="wrap_content" android:layout_height="33dp" android:text=""/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

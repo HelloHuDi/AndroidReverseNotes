@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/s3" android:paddingLeft="15dp" android:paddingRight="15dp" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="40dp">
+        <ImageView android:id="@+id/cef" android:layout_width="74dp" android:layout_height="74dp" android:layout_marginTop="43dp"/>
+        <TextView android:textSize="20dp" android:textColor="#111111" android:id="@+id/ceg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="23dp" android:text=""/>
+        <TextView android:textSize="14dp" android:textColor="#959595" android:id="@+id/ceh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28dp" android:layout_marginTop="16dp" android:layout_marginRight="28dp" android:text=""/>
+        <View android:id="@+id/cei" android:background="#d8d8d8" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="15dp" android:layout_marginTop="30dp" android:layout_marginRight="15dp"/>
+        <RelativeLayout android:id="@+id/cej" android:visibility="gone" android:layout_width="match_parent" android:layout_height="68dp" android:layout_marginLeft="20dp" android:layout_marginTop="40dp" android:layout_marginRight="20dp">
+            <View android:background="#d8d8d8" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentTop="true"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/cek" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop"/>
+                <TextView android:textSize="13dp" android:textColor="@color/h4" android:id="@+id/cel" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:text="" android:layout_weight="1"/>
+                <Button android:textSize="13dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/cem" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:minWidth="60dp" android:minHeight="30dp" android:text="" style="@style/ni"/>
+            </LinearLayout>
+            <View android:background="#d8d8d8" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/cen" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="16dp" android:layout_marginRight="15dp">
+            <TextView android:textSize="14dp" android:textColor="@color/w4" android:id="@+id/ceo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textSize="14dp" android:textColor="@color/w0" android:gravity="right" android:id="@+id/cep" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ceq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="10dp" android:layout_marginRight="15dp">
+            <TextView android:textSize="14dp" android:textColor="@color/w4" android:id="@+id/cer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textSize="14dp" android:textColor="@color/w0" android:gravity="right" android:id="@+id/ces" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

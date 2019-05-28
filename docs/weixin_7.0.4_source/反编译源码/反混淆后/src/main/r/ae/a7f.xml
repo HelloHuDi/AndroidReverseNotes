@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/b73" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pt">
+    <ImageView android:id="@+id/adg" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.p612ui.base.MMViewPager android:id="@+id/adi" android:background="@null" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="0dp" android:layout_below="@+id/ch5" android:unselectedAlpha="1.2"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/ch6" android:background="@color/h4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.3"/>
+        <ImageView android:layout_gravity="top" android:id="@+id/ch7" android:background="@drawable/bgl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ImageView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/ch8" android:background="@drawable/yt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ga"/>
+    </FrameLayout>
+    <RelativeLayout android:id="@+id/ch9" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/a3a" android:layout_alignParentTop="true">
+        <ViewStub android:id="@+id/ch_" android:layout="@layout/a7j" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="18dp" android:layout_marginRight="12dp" android:layout_marginBottom="18dp" android:layout_alignParentRight="true" android:onClick="onClick"/>
+        <ImageView android:id="@+id/cha" android:visibility="gone" android:layout_width="@dimen/a3c" android:layout_height="@dimen/a3b" android:layout_marginLeft="12dp" android:layout_marginTop="22dp" android:layout_marginBottom="22dp" android:src="@c1318a/media_preview_btn_close" android:layout_alignParentLeft="true" android:onClick="onClick"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/b7_" android:paddingBottom="@dimen/ga" android:visibility="visible" android:layout_width="match_parent" android:layout_height="@dimen/a3a" android:layout_alignParentBottom="true">
+        <ViewStub android:id="@+id/chb" android:layout="@layout/a7h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginBottom="@dimen/l8" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:onClick="onClick"/>
+        <ViewStub android:id="@+id/chc" android:layout="@layout/a7k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <ViewStub android:id="@+id/chd" android:layout="@layout/a7i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l5" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        <ViewStub android:id="@+id/azs" android:layout="@layout/a7l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g7" android:layout_marginRight="@dimen/g7" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <ViewStub android:id="@+id/ch5" android:visibility="gone" android:layout="@layout/a7u" android:layout_width="match_parent" android:layout_height="@dimen/fd" android:layout_alignParentTop="true"/>
+</RelativeLayout>

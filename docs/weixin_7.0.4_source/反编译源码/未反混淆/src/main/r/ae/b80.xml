@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/fln" android:layout_width="20dp" android:layout_height="20dp" android:layout_alignParentLeft="true"/>
+    <TextView android:textSize="13sp" android:textColor="#888888" android:ellipsize="end" android:id="@+id/flo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginRight="14dp" android:text="由**小程序提供" android:layout_toRightOf="@+id/fln"/>
+    <TextView android:textSize="13sp" android:textColor="#576b95" android:id="@+id/flp" android:paddingLeft="13dp" android:paddingRight="13dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="调试" android:layout_toLeftOf="@+id/flq"/>
+    <TextView android:textSize="13sp" android:textColor="#576b95" android:id="@+id/flq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g90" android:layout_alignParentRight="true"/>
+</RelativeLayout>

@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a8">
+    </style>
+    <style name="a9">
+    </style>
+    <style name="a_">
+    </style>
+    <style name="aa">
+    </style>
+    <style name="ab">
+    </style>
+    <style name="ac">
+    </style>
+    <style name="ad">
+    </style>
+    <style name="ae">
+    </style>
+    <style name="af">
+    </style>
+    <style name="ag">
+    </style>
+    <style name="ah">
+    </style>
+    <style name="ai">
+    </style>
+    <style name="aj">
+    </style>
+    <style name="ak">
+    </style>
+    <style name="al">
+    </style>
+    <style name="am">
+    </style>
+    <style name="an">
+    </style>
+    <style name="ao">
+    </style>
+    <style name="ap">
+    </style>
+    <style name="aq">
+    </style>
+    <style name="ar">
+    </style>
+    <style name="as">
+    </style>
+    <style name="at">
+    </style>
+    <style name="au">
+    </style>
+    <style name="av">
+    </style>
+    <style name="aw">
+    </style>
+    <style name="ax">
+    </style>
+    <style name="ay">
+    </style>
+    <style name="az">
+    </style>
+    <style name="b0">
+        <item name="android:textSize">@dimen/qi</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+        <item name="android:fontFamily">@string/g4s</item>
+    </style>
+    <style name="b1">
+    </style>
+    <style name="b2">
+    </style>
+    <style name="b3">
+    </style>
+    <style name="b4">
+    </style>
+    <style name="b5">
+    </style>
+    <style name="b6">
+    </style>
+    <style name="b7">
+    </style>
+    <style name="b8">
+    </style>
+    <style name="b9">
+    </style>
+    <style name="b_">
+    </style>
+    <style name="ba">
+    </style>
+    <style name="a16">
+        <item name="android:colorControlNormal">?attr/fo</item>
+        <item name="android:colorControlActivated">?attr/fp</item>
+        <item name="android:colorButtonNormal">?attr/fr</item>
+        <item name="android:colorControlHighlight">?attr/fq</item>
+        <item name="android:colorPrimary">?attr/fl</item>
+        <item name="android:colorPrimaryDark">?attr/fm</item>
+        <item name="android:colorAccent">?attr/fn</item>
+        <item name="dq">?android:attr/actionOverflowButtonStyle</item>
+        <item name="dx">?android:attr/actionBarSize</item>
+        <item name="dy">?android:attr/actionBarDivider</item>
+        <item name="dz">@drawable/a8j</item>
+        <item name="e4">?android:attr/actionModeBackground</item>
+        <item name="e6">?android:attr/actionModeCloseDrawable</item>
+        <item name="ee">?android:attr/textAppearanceLargePopupMenu</item>
+        <item name="ef">?android:attr/textAppearanceSmallPopupMenu</item>
+        <item name="en">?android:attr/homeAsUpIndicator</item>
+        <item name="eo">?android:attr/actionButtonStyle</item>
+        <item name="er">?android:attr/selectableItemBackground</item>
+        <item name="es">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="et">?android:attr/borderlessButtonStyle</item>
+        <item name="eu">?android:attr/dividerVertical</item>
+        <item name="ev">?android:attr/dividerHorizontal</item>
+        <item name="f1">?android:attr/editTextColor</item>
+        <item name="f2">@drawable/r</item>
+        <item name="f9">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="fk">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="g4">?android:attr/buttonStyle</item>
+        <item name="g5">?android:attr/buttonStyleSmall</item>
+        <item name="g6">?android:attr/checkboxStyle</item>
+        <item name="g7">?android:attr/checkedTextViewStyle</item>
+        <item name="g9">?android:attr/radioButtonStyle</item>
+        <item name="g_">?android:attr/ratingBarStyle</item>
+        <item name="gd">?android:attr/spinnerStyle</item>
+    </style>
+    <style name="a17">
+        <item name="android:windowElevation">@dimen/pz</item>
+    </style>
+    <style name="a18">
+        <item name="android:colorControlNormal">?attr/fo</item>
+        <item name="android:colorControlActivated">?attr/fp</item>
+        <item name="android:colorButtonNormal">?attr/fr</item>
+        <item name="android:colorControlHighlight">?attr/fq</item>
+        <item name="android:colorPrimary">?attr/fl</item>
+        <item name="android:colorPrimaryDark">?attr/fm</item>
+        <item name="android:colorAccent">?attr/fn</item>
+        <item name="dq">?android:attr/actionOverflowButtonStyle</item>
+        <item name="dx">?android:attr/actionBarSize</item>
+        <item name="dy">?android:attr/actionBarDivider</item>
+        <item name="dz">@drawable/a8j</item>
+        <item name="e4">?android:attr/actionModeBackground</item>
+        <item name="e6">?android:attr/actionModeCloseDrawable</item>
+        <item name="ee">?android:attr/textAppearanceLargePopupMenu</item>
+        <item name="ef">?android:attr/textAppearanceSmallPopupMenu</item>
+        <item name="en">?android:attr/homeAsUpIndicator</item>
+        <item name="eo">?android:attr/actionButtonStyle</item>
+        <item name="er">?android:attr/selectableItemBackground</item>
+        <item name="es">?android:attr/selectableItemBackgroundBorderless</item>
+        <item name="et">?android:attr/borderlessButtonStyle</item>
+        <item name="eu">?android:attr/dividerVertical</item>
+        <item name="ev">?android:attr/dividerHorizontal</item>
+        <item name="f1">?android:attr/editTextColor</item>
+        <item name="f2">@drawable/r</item>
+        <item name="f9">?android:attr/listPreferredItemHeightSmall</item>
+        <item name="fk">?android:attr/listChoiceBackgroundIndicator</item>
+        <item name="g4">?android:attr/buttonStyle</item>
+        <item name="g5">?android:attr/buttonStyleSmall</item>
+        <item name="g6">?android:attr/checkboxStyle</item>
+        <item name="g7">?android:attr/checkedTextViewStyle</item>
+        <item name="g9">?android:attr/radioButtonStyle</item>
+        <item name="g_">?android:attr/ratingBarStyle</item>
+        <item name="gd">?android:attr/spinnerStyle</item>
+    </style>
+    <style name="a19">
+        <item name="android:windowElevation">@dimen/pz</item>
+    </style>
+    <style name="a1_">
+        <item name="android:windowElevation">@dimen/pz</item>
+    </style>
+    <style name="a1a">
+        <item name="android:stateListAnimator">@animator/f</item>
+    </style>
+    <style name="bb">
+    </style>
+    <style name="bc">
+    </style>
+    <style name="bd">
+    </style>
+    <style name="be">
+        <item name="android:minWidth">56dp</item>
+    </style>
+    <style name="bf">
+    </style>
+    <style name="bg">
+        <item name="android:background">?attr/f2</item>
+    </style>
+    <style name="bh">
+    </style>
+    <style name="bi">
+    </style>
+    <style name="bj">
+        <item name="android:textColor">@color/a6g</item>
+    </style>
+    <style name="bk">
+    </style>
+    <style name="bl">
+    </style>
+    <style name="bm">
+    </style>
+    <style name="bn">
+    </style>
+    <style name="bo">
+    </style>
+    <style name="bp">
+        <item name="android:background">?attr/f2</item>
+    </style>
+    <style name="bq">
+    </style>
+    <style name="br">
+    </style>
+    <style name="bs">
+    </style>
+    <style name="bt">
+    </style>
+    <style name="bu">
+    </style>
+    <style name="bv">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="bw">
+    </style>
+    <style name="bx">
+    </style>
+    <style name="by">
+    </style>
+    <style name="bz">
+    </style>
+    <style name="c0">
+    </style>
+    <style name="c1">
+        <item name="android:dropDownHorizontalOffset">-4dp</item>
+        <item name="android:overlapAnchor">true</item>
+    </style>
+    <style name="c2">
+    </style>
+    <style name="c3">
+    </style>
+    <style name="c4">
+    </style>
+    <style name="c5">
+    </style>
+    <style name="c6">
+    </style>
+    <style name="c7">
+    </style>
+    <style name="c8">
+    </style>
+    <style name="c9">
+    </style>
+    <style name="c_">
+    </style>
+    <style name="ca">
+    </style>
+    <style name="cb">
+    </style>
+    <style name="cc">
+    </style>
+    <style name="cd">
+        <item name="android:colorControlNormal">?attr/fo</item>
+        <item name="android:colorControlActivated">?attr/fp</item>
+        <item name="android:colorButtonNormal">?attr/fr</item>
+        <item name="android:colorControlHighlight">?attr/fq</item>
+        <item name="android:colorPrimary">?attr/fl</item>
+        <item name="android:colorPrimaryDark">?attr/fm</item>
+        <item name="android:colorAccent">?attr/fn</item>
+    </style>
+    <style name="ce">
+    </style>
+    <style name="cf">
+    </style>
+    <style name="a1b">
+        <item name="android:textColorHintInverse">@color/a6j</item>
+        <item name="android:textColorHint">@color/a6i</item>
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:buttonBarStyle">?attr/ep</item>
+        <item name="android:buttonBarButtonStyle">?attr/eq</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+    </style>
+    <style name="a1c">
+        <item name="android:textColorHintInverse">@color/a6i</item>
+        <item name="android:textColorHint">@color/a6j</item>
+        <item name="android:textColorLink">?android:attr/colorAccent</item>
+        <item name="android:buttonBarStyle">?attr/ep</item>
+        <item name="android:buttonBarButtonStyle">?attr/eq</item>
+        <item name="android:textColorLinkInverse">?android:attr/colorAccent</item>
+    </style>
+    <style name="cg">
+    </style>
+    <style name="ch">
+    </style>
+    <style name="ci">
+        <item name="android:textColor">@color/yv</item>
+    </style>
+    <style name="ck">
+    </style>
+    <style name="cm">
+    </style>
+    <style name="og">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+    <style name="oh">
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:statusBarColor">@color/a3p</item>
+    </style>
+    <style name="ym">
+        <item name="android:background">?android:attr/colorBackground</item>
+        <item name="android:elevation">@dimen/yr</item>
+        <item name="gr">-1</item>
+        <item name="gs">true</item>
+        <item name="gt">false</item>
+    </style>
+    <style name="a14">
+    </style>
+    <style name="a15">
+    </style>
+    <style name="cj">
+        <item name="android:textColor">@color/yv</item>
+    </style>
+    <style name="cl">
+        <item name="android:textColor">@color/yv</item>
+    </style>
+    <style name="cn">
+        <item name="android:textColor">@color/ww</item>
+    </style>
+    <style name="co">
+        <item name="android:background">@drawable/a8n</item>
+    </style>
+    <style name="cp">
+        <item name="android:textAppearance">?android:attr/textAppearanceButton</item>
+        <item name="android:textSize">@dimen/a6v</item>
+        <item name="android:textColor">@color/yw</item>
+    </style>
+    <style name="ne">
+        <item name="android:background">@null</item>
+        <item name="android:maxHeight">@dimen/a8m</item>
+        <item name="android:progressDrawable">@drawable/um</item>
+        <item name="android:minHeight">@dimen/a8m</item>
+        <item name="android:thumb">@drawable/z9</item>
+        <item name="android:splitTrack">false</item>
+    </style>
+</resources>

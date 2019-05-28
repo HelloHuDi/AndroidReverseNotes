@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="false">
+    <item android:duration="300" android:drawable="@a/chatting_item_biz_voice_playing_icon1"/>
+    <item android:duration="300" android:drawable="@a/chatting_item_biz_voice_playing_icon2"/>
+    <item android:duration="300" android:drawable="@a/chatting_item_biz_voice_playing_icon3"/>
+</animation-list>

@@ -1,0 +1,94 @@
+//uniform highp mat4 projection;
+//uniform highp mat4 faceFrame;
+//uniform highp mat4 stableToImage;
+uniform highp vec2 lipsPlainSize;
+uniform highp vec2 lipsLeftEdge;
+uniform highp vec2 lipsRightEdge;
+uniform vec3 nose3DCenter;
+uniform vec2 nosePlainSize;
+uniform highp float faceSmile;
+attribute highp vec4 position;
+//attribute highp vec3 displacementVector;
+//attribute highp float faceIndex;
+//attribute highp float depthValue;
+varying highp vec2 textureCoordinate;
+uniform vec3 angles; // angles.x: pitch, angles.y: yaw, angles.z: roll
+uniform vec2 size;
+uniform float meshType;
+
+uniform sampler2D inputImageTexture;
+
+float my_smoothstep(float edge0, float edge1, float x) {
+    float t = clamp((x - edge0) / (edge1 - edge0), 0.0, 1.0);
+    return t * t * (3.0 - 2.0 * t);
+}
+
+float getEllipseMask(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize, float a1, float a2) {
+    // un-normalization
+    boundingSize = boundingSize * size;
+    point = point * size;
+    center = center * size;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 translate = (point - center);
+    // rotate and scale
+    vec2 v = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) * sigmaScaling;
+
+    float d2 = sqrt(dot(v / boundingSize, v / boundingSize));
+
+    return 1.0 - my_smoothstep(a1, a2, d2);
+}
+float getNoseMask() {
+    const vec2 sigmaScaling = vec2(1.2, 1.5);
+    return getEllipseMask(sigmaScaling, position.xy, nose3DCenter.xy, nosePlainSize, 0.8, 1.0);
+}
+highp vec2 rotate2DPoint(in highp vec2 point, in highp float angle) {
+    return vec2(cos(angle) * point.x - sin(angle) * point.y,
+    sin(angle) * point.x + cos(angle) * point.y);
+}
+highp vec2 rotate2DPointAroundCenter(in highp vec2 point, in highp vec2 center, in highp float angle) {
+    return center + rotate2DPoint(point - center, angle);
+}
+const highp float kLipsEdgeWrinkleSizeToLipsSizeRatio = 0.3;
+const highp float kPi = 3.14159265358979;
+const highp float kLipsEdgeWrinklesRotationAngle = 0.015 * kPi;
+highp vec3 getRotatedLipsEdgeWrinkle(in highp vec3 originalPoint, in bool isLeftSide) {
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    highp vec2 wrinkleSize = vec2(kLipsEdgeWrinkleSizeToLipsSizeRatio * lipsPlainSize.x, 0.6*lipsPlainSize.y);
+    highp vec2 lipsEdge = isLeftSide ? lipsLeftEdge : lipsRightEdge;
+    highp float directionSign = isLeftSide ? 1.0 : -1.0;
+    highp vec2 wrinkleCenter = lipsEdge + directionSign * 0.065 * (lipsRightEdge - lipsLeftEdge);
+
+    highp float wrinkleMask = getEllipseMask(vec2(0.8, 0.5), position.xy, wrinkleCenter,wrinkleSize, 0.5, 1.2);
+    highp vec2 wrinkleRotationCenter = lipsEdge + directionSign * 0.2 * (lipsRightEdge - lipsLeftEdge);
+    highp vec2 rotated2DPoint = rotate2DPointAroundCenter(originalPoint.xy, wrinkleRotationCenter, - directionSign * wrinkleMask * kLipsEdgeWrinklesRotationAngle);
+    wrinkleMask = getEllipseMask(vec2(0.6, 0.4), position.xy, wrinkleCenter,wrinkleSize, 0.5, 1.2);
+    rotated2DPoint = rotated2DPoint + 0.01*directionSign*wrinkleMask*(lipsRightEdge - lipsLeftEdge);
+    vec2 smileLiftingVector = vec2(0.0, 0.03*lipsPlainSize.y);
+    smileLiftingVector = vec2(dot(smileLiftingVector, vec2(cos_t, -sin_t)), dot(smileLiftingVector, vec2(sin_t, cos_t)));
+    rotated2DPoint = rotated2DPoint + wrinkleMask*smileLiftingVector;
+    return vec3(rotated2DPoint, originalPoint.z);
+}
+highp vec3 getRotatedLipsLeftEdgeWrinkle(in highp vec3 originalPoint) {
+    return getRotatedLipsEdgeWrinkle(originalPoint, true);
+}
+highp vec3 getRotatedLipsRightEdgeWrinkle(in highp vec3 originalPoint) {
+    return getRotatedLipsEdgeWrinkle(originalPoint, false);
+}
+void main() {
+    highp vec3 displacedPoint = position.xyz;
+    float noseMask = 0.9 * getNoseMask();
+    displacedPoint = mix(getRotatedLipsLeftEdgeWrinkle(displacedPoint), displacedPoint, noseMask);
+    displacedPoint = mix(getRotatedLipsRightEdgeWrinkle(displacedPoint), displacedPoint, noseMask);
+    highp vec2 originalPosition = position.xy;
+    highp vec2 displacedPosition = originalPosition + faceSmile * (displacedPoint.xy - originalPosition);
+    highp vec4 color = texture2D(inputImageTexture, position.xy);
+    highp vec2 offset = (color.xy * 255.0 + color.zw) / 127.5 - 1.0;
+    textureCoordinate = offset + displacedPosition - originalPosition;
+    if(meshType > 0.0) {
+        textureCoordinate = displacedPosition;
+    }
+    gl_Position = vec4(originalPosition.x*2.0-1.0, originalPosition.y*2.0-1.0, 0.0, 1.0);
+}

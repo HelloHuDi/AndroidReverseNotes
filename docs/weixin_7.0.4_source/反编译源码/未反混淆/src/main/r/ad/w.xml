@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.mm.plugin.profile.ui.HelperHeaderPreference app:key="contact_info_header_helper" app:layout="@layout/qd"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/awf" app:key="contact_info_plugin_view" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/aw8" app:key="contact_info_plugin_outsize" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/aw7" app:key="contact_info_plugin_black" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e_9" app:key="contact_info_plugin_install" app:layout="@layout/a82"/>
+    <Preference app:title="@string/e_e" app:key="contact_info_plugin_uninstall" app:layout="@layout/a_e"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

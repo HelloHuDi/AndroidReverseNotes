@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="center" android:id="@+id/y4" android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.tencent.p177mm.plugin.appbrand.page.AppBrandActionSingleHeaderView android:gravity="center" android:id="@+id/y5" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <HorizontalScrollView android:gravity="center" android:id="@+id/y6" android:paddingTop="24dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/y7" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.p177mm.plugin.appbrand.page.AppBrandActionMultipleHeaderView android:gravity="center" android:id="@+id/y8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <com.tencent.p177mm.plugin.appbrand.page.AppBrandActionMultipleHeaderView android:gravity="center" android:id="@+id/y9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <com.tencent.p177mm.plugin.appbrand.page.AppBrandActionMultipleHeaderView android:gravity="center" android:id="@+id/y_" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <com.tencent.p177mm.plugin.appbrand.page.AppBrandActionMultipleHeaderView android:gravity="center" android:id="@+id/ya" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView android:textSize="@dimen/e4" android:textColor="@color/hh" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/yb" android:paddingLeft="@dimen/uv" android:paddingTop="14dp" android:paddingBottom="7dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/e3"/>
+</LinearLayout>

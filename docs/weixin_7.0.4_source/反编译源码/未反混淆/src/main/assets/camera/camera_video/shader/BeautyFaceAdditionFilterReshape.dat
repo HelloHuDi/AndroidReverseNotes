@@ -1,0 +1,61 @@
+precision highp float;
+varying vec2 canvasCoordinate;
+varying vec2 textureCoordinate;
+uniform sampler2D inputImageTexture;
+uniform sampler2D inputImageTexture2;
+uniform sampler2D inputImageTexture3;
+uniform float alpha;
+uniform vec2 size;
+uniform vec2 center1;
+uniform vec2 center2;
+uniform float radius1;
+uniform float radius2;
+uniform float width;
+uniform float height;
+uniform float smoothOpacity;
+uniform float contrastOpacity;
+uniform float enhance;
+
+float my_smoothstep(float edge0, float edge1, float x) {
+    float t = clamp((x - edge0) / (edge1 - edge0), 0.0, 1.0);
+    return t * t * (3.0 - 2.0 * t);
+}
+
+void main(void) {
+    vec4 origColor = texture2D(inputImageTexture, canvasCoordinate);
+    vec4 texColor = texture2D(inputImageTexture2, textureCoordinate);
+    vec4 color0 = origColor;
+    if (texColor.a <= 0.01) {
+        color0 = vec4(origColor.rgb, 1.0);
+    } else {
+        vec2 curPos = vec2(canvasCoordinate.x * size.x, canvasCoordinate.y * size.y);
+        vec2 step1 = vec2(0.00208, 0.0);
+        vec2 step2 = vec2(0.0, 0.001388);
+        float p = 0.0;
+        float t = 0.0;
+        vec3 sumColor = vec3(0.0, 0.0, 0.0);
+        for(t = -2.0; t < 2.5; t += 1.0) {
+            for(p = -2.0; p < 2.5; p += 1.0) {
+                sumColor += texture2D(inputImageTexture, canvasCoordinate + t * step1 + p * step2).rgb;
+            }
+        }
+        sumColor = sumColor * 0.04;
+        sumColor = clamp(sumColor + (origColor.rgb - sumColor) * 2.8, 0.0, 1.0);
+        sumColor = max(origColor.rgb, sumColor);
+
+        vec2 center = center1;
+        float r = radius1;
+        vec2 cords = vec2(canvasCoordinate.x * width, canvasCoordinate.y * height);
+        float d1 = distance(cords, center1);
+        float d2 = distance(cords, center2);
+        float d = d1;
+        if(d1 > d2) {
+            center = center2;
+            r = radius2;
+            d = d2;
+        }
+        float adj = 1.0 - my_smoothstep(0.5, 1.0, d/r);
+        color0 = mix(origColor, vec4(sumColor, 1.0), adj * alpha * texColor.a);
+    }
+    gl_FragColor = color0;
+}

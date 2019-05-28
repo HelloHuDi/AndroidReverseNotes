@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:background="@color/t6" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <TextView android:textSize="@dimen/nd" android:textColor="@color/s0" android:gravity="left|center_vertical|center_horizontal|center|start" android:paddingLeft="@dimen/g7" android:layout_width="match_parent" android:layout_height="@dimen/gc" android:text="@string/auj"/>
+    <View android:background="@color/t6" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/fy"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/b3i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="80dp" android:layout_marginBottom="80dp" style="@style/a0h"/>
+        <android.support.v7.widget.RecyclerView android:id="@+id/b3m" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <View android:layout_gravity="bottom" android:background="@color/t6" android:layout_width="match_parent" android:layout_height="0.5dp" android:layout_marginLeft="@dimen/fy"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:paddingLeft="16dp" android:paddingRight="16dp" android:paddingBottom="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="0dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/aft" android:paddingTop="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.p177mm.plugin.card.p355ui.p356v2.CardCdnImageView android:id="@+id/afb" android:layout_width="40dp" android:layout_height="40dp" android:src="@c1318a/card_default_merchant_icon"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/afc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="17dp" android:textColor="@color/h4" android:id="@+id/afd" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=""/>
+                <com.tencent.p177mm.plugin.card.p355ui.p356v2.CardLabelTextView android:textSize="12dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/afe" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="18dp" android:layout_marginLeft="10dp" android:text=""/>
+            </LinearLayout>
+            <TextView android:textSize="12dp" android:textColor="#b2b2b2" android:id="@+id/aff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text=""/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/ayr"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/afu" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="52dp" android:layout_marginTop="8dp" android:minHeight="20dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/afv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="52dp" android:layout_marginTop="16dp" android:layout_marginBottom="8dp" android:minHeight="25dp" android:dividerPadding="8dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/afw" android:paddingLeft="52dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+        <TextView android:textSize="@dimen/fi" android:id="@+id/afx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        <ImageView android:id="@+id/afy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@drawable/azj"/>
+    </LinearLayout>
+</LinearLayout>

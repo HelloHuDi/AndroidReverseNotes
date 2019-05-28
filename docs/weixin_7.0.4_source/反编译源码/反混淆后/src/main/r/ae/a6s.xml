@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tenpay.android.wechat.TenpaySecureEditText android:gravity="center_vertical" android:id="@+id/d6" android:background="@drawable/lw" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="48dp" android:singleLine="true"/>
+</RelativeLayout>

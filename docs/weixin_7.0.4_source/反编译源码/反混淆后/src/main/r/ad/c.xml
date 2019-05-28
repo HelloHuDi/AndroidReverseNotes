@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <NormalIconPreference app:title="@string/bti" app:icon="@c1318a/find_more_friend_mobile_icon" app:key="find_friends_by_mobile"/>
+    <NormalIconPreference app:title="@string/bte" app:icon="@drawable/aea" app:key="find_friends_by_google_account"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

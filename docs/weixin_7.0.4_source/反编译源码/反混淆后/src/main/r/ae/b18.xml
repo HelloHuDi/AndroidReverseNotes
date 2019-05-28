@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="17dp" android:paddingTop="13dp" android:paddingRight="13dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/f02" android:background="@drawable/ad3" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="2dp"/>
+        <View android:layout_width="15dp" style="@style/nr"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:ellipsize="end" android:id="@+id/f03" android:layout_weight="1" style="@style/l_"/>
+            <TextView android:id="@+id/f04" android:visibility="gone" style="@style/la"/>
+            <TextView android:id="@+id/f05" android:visibility="gone" style="@style/la"/>
+            <TextView android:id="@+id/f06" android:visibility="gone" style="@style/la"/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:layout_height="10dp" style="@style/nr"/>
+</LinearLayout>

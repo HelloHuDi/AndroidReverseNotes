@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.pluginsdk.ui.preference.NormalUserHeaderPreference app:key="contact_info_header_normal" app:layout="@layout/qf"/>
+    <PreferenceSmallCategory app:key="contact_info_category_1"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/avo" app:key="contact_info_district" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/b0a" app:key="contact_info_signature" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/b1p" app:key="contact_info_source" app:layout="@layout/ae4"/>
+    <com.tencent.mm.pluginsdk.ui.preference.SnsPreference app:title="@string/b0b" app:key="contact_info_sns" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/awv" app:key="contact_info_invite_source" app:layout="@layout/ae4"/>
+    <com.tencent.mm.plugin.profile.ui.ContactMoreInfoPreference app:title="@string/ay0" app:key="contact_info_more" app:layout="@layout/ae4"/>
+    <com.tencent.mm.plugin.profile.ui.ContactSocialInfoPreference app:title="@string/b0i" app:key="contact_info_social" app:layout="@layout/ae4"/>
+    <com.tencent.mm.plugin.profile.ui.FriendPreference app:title="@string/c_t" app:key="contact_info_facebook" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/b24" app:key="contact_info_verifyuser" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.plugin.profile.ui.NormalUserFooterPreference app:key="contact_info_footer_normal" app:layout="@layout/q_"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.ui.base.preference.TextPreference app:key="contact_info_hint"/>
+</PreferenceScreen>

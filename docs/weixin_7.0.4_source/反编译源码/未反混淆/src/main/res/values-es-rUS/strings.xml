@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Varios</string>
+    <string name="c">Navegar hacia arriba</string>
+    <string name="abc_action_menu_overflow_description">Más opciones</string>
+    <string name="d">Listo</string>
+    <string name="e">Ver todo</string>
+    <string name="f">Elige una aplicación.</string>
+    <string name="g">DESACTIVADO</string>
+    <string name="h">ACTIVADO</string>
+    <string name="i">Buscar…</string>
+    <string name="j">Eliminar la consulta</string>
+    <string name="l">Búsqueda</string>
+    <string name="m">Enviar consulta</string>
+    <string name="n">Búsqueda por voz</string>
+    <string name="q">Contraer</string>
+    <string name="common_google_play_services_enable_button">Habilitar</string>
+    <string name="common_google_play_services_enable_text">%1$s no funcionará a menos que habilites los servicios de Google Play.</string>
+    <string name="common_google_play_services_enable_title">Habilitar servicios de Google Play</string>
+    <string name="common_google_play_services_install_button">Instalar</string>
+    <string name="common_google_play_services_install_text">%1$s no se ejecutará si los Servicios de Google Play no están instalados en tu dispositivo.</string>
+    <string name="common_google_play_services_install_title">Obtener servicios de Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Disp. de los Servicios de Google‌‌‌ Play</string>
+    <string name="common_google_play_services_notification_ticker">Error de Google Play Services</string>
+    <string name="common_google_play_services_unknown_issue">%1$s tiene problemas con los servicios de Google Play. Vuelve a intentarlo.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s no se ejecutará sin los servicios de Google Play, que no son compatibles con tu dispositivo.</string>
+    <string name="common_google_play_services_update_button">Actualizar</string>
+    <string name="common_google_play_services_update_text">%1$s no se ejecutará a menos que actualices los servicios de Google Play.</string>
+    <string name="common_google_play_services_update_title">Actualizar servicios de Google Play</string>
+    <string name="common_google_play_services_updating_text">%1$s no se ejecutará sin los servicios de Google Play. La plataforma se está actualizando en este momento.</string>
+    <string name="common_google_play_services_wear_update_text">Se necesita una nueva versión de los servicios de Google Play. Se actualizarán automáticamente en breve.</string>
+    <string name="common_open_on_phone">Abrir en el teléfono</string>
+    <string name="common_signin_button_text">Acceder</string>
+    <string name="common_signin_button_text_long">Acceder con Google</string>
+    <string name="r">Varios</string>
+    <string name="b">Navegar a la página principal</string>
+    <string name="k">Búsqueda</string>
+    <string name="o">Compartir con</string>
+    <string name="p">Compartir con %s</string>
+    <string name="s">Buscar</string>
+    <string name="t">999+</string>
+</resources>

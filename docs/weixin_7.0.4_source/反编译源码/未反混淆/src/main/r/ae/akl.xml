@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/k5" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="match_parent" android:layout_height="@dimen/m3" android:minHeight="@dimen/m3">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/dgt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <ImageView android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dnj" android:padding="3dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:src="@a/radio_on"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dnk" android:paddingLeft="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/dgt" android:layout_centerVertical="true">
+        <TextView android:textColor="@color/w4" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d4u" style="@style/lf"/>
+        <TextView android:textColor="@color/s0" android:id="@+id/a_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="hehe" style="@style/le"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/dnl" android:paddingLeft="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/dgt" android:layout_centerVertical="true"> &gt;\10
+        <TextView android:textColor="@color/w4" android:id="@+id/dnm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d4u" style="@style/lf"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory/>
+    <com.tencent.p177mm.plugin.setting.p505ui.setting.SettingsAboutMMHeaderPreference app:key="fix_tools_micromsg_header" app:layout="@layout/arn"/>
+    <PreferenceCategory/>
+    <PreferenceTitleCategory app:title="@string/bvw" app:key="fix_tools_wording"/>
+    <Preference app:title="@string/bvo" app:key="fix_tools_uplog" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/bvm" app:key="fix_tools_db_recover" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

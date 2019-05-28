@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:background="@drawable/aqp" android:layout_width="150dp" android:layout_height="150dp" android:minWidth="150dp" android:minHeight="150dp">
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:src="@c1318a/app_brand_wifi_icon"/>
+    <TextView android:textSize="17dp" android:textColor="@color/a69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/oj"/>
+    <ProgressBar android:id="@+id/x_" android:layout_width="36dp" android:layout_height="8dp" android:layout_marginTop="20dp" android:max="100" android:progress="0" style="@style/dh"/>
+</LinearLayout>

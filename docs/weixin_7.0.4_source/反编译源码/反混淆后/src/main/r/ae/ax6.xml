@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.p612ui.KeyboardLinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="#f5f5f5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/cvt" android:background="@null" android:focusable="true" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="0dp" android:scrollingCache="false" android:transcriptMode="disabled" android:divider="@drawable/se" android:dividerHeight="@dimen/fv" android:layout_weight="1" android:headerDividersEnabled="false" android:footerDividersEnabled="false"/>
+</com.tencent.p177mm.p612ui.KeyboardLinearLayout>

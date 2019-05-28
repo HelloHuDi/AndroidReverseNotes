@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:id="@+id/jw" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="?attr/dx">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/kw" android:background="@drawable/al" android:paddingLeft="@dimen/gg" android:paddingRight="@dimen/gg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/kx" android:background="@null" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ai" android:contentDescription="@string/c8"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_toRightOf="@+id/kw">
+        <EditText android:textSize="@dimen/dz" android:id="@+id/ky" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="搜索"/>
+    </LinearLayout>
+    <ImageButton android:id="@+id/kz" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:src="@drawable/aur" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

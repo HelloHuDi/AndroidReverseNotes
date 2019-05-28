@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:weightSum="1">
+    <TextView android:textSize="12dp" android:textColor="#949494" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bbp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textSize="12dp" android:textColor="#949494" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/fe_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+</LinearLayout>

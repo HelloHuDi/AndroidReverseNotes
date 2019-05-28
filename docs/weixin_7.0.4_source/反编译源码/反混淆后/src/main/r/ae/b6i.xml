@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="60dp" android:paddingRight="60dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20dp" android:textColor="@color/w4" android:gravity="center_horizontal" android:id="@+id/fhn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="85dp" android:text=""/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.EditHintPasswdView android:id="@+id/fho" android:focusable="true" android:focusableInTouchMode="true" android:layout_height="wrap_content" android:layout_marginTop="90dp" app:format="8" app:EditTextBg="@drawable/b2p" app:PwdEncryptType="3" style="@style/ot"/>
+        </LinearLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/azi"/>
+</LinearLayout>

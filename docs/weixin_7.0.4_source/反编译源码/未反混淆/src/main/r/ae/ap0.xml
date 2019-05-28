@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:focusable="false" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:gravity="center_horizontal" android:id="@+id/e3x" android:src="@drawable/ad3" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/qq"/>
+    <ImageView android:gravity="center" android:id="@+id/e3y" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ct" android:layout_alignLeft="@+id/e3x" android:layout_alignTop="@+id/e3x"/>
+    <ImageView android:id="@+id/e3z" android:visibility="gone" android:layout_width="25dp" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:layout_alignRight="@+id/e3x" android:layout_alignBottom="@+id/e3x"/>
+    <ImageView android:id="@+id/av5" android:visibility="gone" android:layout_width="26dp" android:layout_height="26dp" android:layout_marginTop="2dp" android:src="@drawable/anc" android:layout_alignRight="@+id/e3x" android:layout_alignBottom="@+id/e3x"/>
+    <RelativeLayout android:id="@+id/e40" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/e3x" android:layout_centerHorizontal="true">
+        <TextView android:id="@+id/e41" android:visibility="gone" android:layout_centerHorizontal="true" style="@style/qr"/>
+        <TextView android:id="@+id/e42" android:paddingTop="@dimen/do" android:visibility="gone" android:layout_centerHorizontal="true" style="@style/qr"/>
+    </RelativeLayout>
+    <TextView android:textColor="#fd8f44" android:id="@+id/e43" android:visibility="gone" android:layout_below="@+id/e40" android:layout_centerHorizontal="true" style="@style/qr"/>
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="65dp">
+            <ImageView android:id="@+id/bm0" android:layout_width="@dimen/m2" android:layout_height="@dimen/m2" android:layout_marginStart="15dp"/>
+            <TextView android:textSize="17sp" android:textColor="@color/h7" android:id="@+id/bm1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/dx" android:layout_gravity="center_horizontal" android:id="@+id/bm2" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:layout_marginRight="15dp" style="@style/nu"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="48dp" android:layout_marginRight="15dp">
+            <CheckBox android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bm3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:drawablePadding="@dimen/do" android:layout_alignParentTop="true" android:scaleX="0.8" android:scaleY="0.8" style="@style/nt"/>
+            <TextView android:textSize="12dp" android:textColor="@color/s0" android:id="@+id/bm4" android:paddingTop="3dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bjq" android:includeFontPadding="false" android:layout_toRightOf="@+id/bm3" android:layout_alignParentTop="true" android:lineSpacingMultiplier="1.25"/>
+        </RelativeLayout>
+        <Button android:enabled="false" android:id="@+id/bm5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="54dp" android:layout_marginRight="15dp" android:text="@string/bjo" style="@style/ni"/>
+        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="80dp" android:layout_marginBottom="@dimen/l5">
+            <TextView android:textSize="@dimen/nk" android:textColor="@color/t7" android:gravity="center_horizontal" android:id="@+id/bm6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/nu"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

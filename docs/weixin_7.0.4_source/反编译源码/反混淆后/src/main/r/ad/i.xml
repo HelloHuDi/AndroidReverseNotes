@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<whilte-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <checker name="ExplainQueryPlanChecker">
+        <element>sqlite_master
+        </element>
+    </checker>
+    <checker name="AvoidAutoIncrementChecker"/>
+    <checker name="AvoidSelectAllChecker"/>
+    <checker name="WithoutRowIdBetterChecker">
+        <element>AppBrandStarApp
+        </element>
+    </checker>
+    <checker name="PreparedStatementBetterChecker"/>
+    <checker name="RedundantIndexChecker"/>
+</whilte-list>

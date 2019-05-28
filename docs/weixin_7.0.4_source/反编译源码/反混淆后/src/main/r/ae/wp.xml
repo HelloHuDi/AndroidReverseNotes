@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/nc" android:layout_width="match_parent" android:layout_height="@dimen/h0">
+    <View android:id="@+id/be8" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:baselineAligned="false" android:weightSum="1">
+        <RelativeLayout android:id="@+id/bkr" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <RelativeLayout android:id="@+id/bks" style="@style/hm">
+                <TextView android:id="@+id/bkt" style="@style/hp"/>
+            </RelativeLayout>
+            <ImageView android:id="@+id/bku" android:layout_toRightOf="@+id/bks" style="@style/hr"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="match_parent" style="@style/hs">
+            <RelativeLayout android:id="@+id/bkv" android:paddingLeft="13dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/bkw" android:layout_centerVertical="true">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/bjk" android:layout_alignParentLeft="true" android:layout_centerInParent="true" android:layout_centerVertical="true" style="@style/hw">
+                    <com.tencent.p177mm.p612ui.base.NoMeasuredTextView android:id="@+id/bkx" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" style="@style/ht"/>
+                    <TextView android:id="@+id/bky" android:visibility="visible" android:layout_height="wrap_content" android:layout_below="@+id/bkx" android:layout_alignParentLeft="true" android:layout_centerInParent="false" style="@style/hu"/>
+                </RelativeLayout>
+                <TextView android:id="@+id/bjk" android:layout_marginBottom="@dimen/do" android:layout_alignParentRight="true" style="@style/hx"/>
+            </RelativeLayout>
+            <com.tencent.p177mm.plugin.exdevice.p393ui.ExdeviceLikeView android:id="@+id/bkw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="2px" android:layout_alignParentBottom="true">
+        <View android:id="@+id/bkz" android:background="@color/nl" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+</RelativeLayout>

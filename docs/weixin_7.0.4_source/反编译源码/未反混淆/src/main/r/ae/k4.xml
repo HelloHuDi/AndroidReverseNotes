@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/aje" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lo" android:layout_marginTop="@dimen/l5" android:layout_marginRight="@dimen/lo" android:layout_marginBottom="@dimen/do">
+        <TextView android:textSize="@dimen/ni" android:textColor="#6a6a6a" android:ellipsize="end" android:id="@+id/aj9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ajf" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/ajg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nh" android:src="@drawable/aza"/>
+            <TextView android:textSize="@dimen/ni" android:textColor="@color/rb" android:ellipsize="end" android:id="@+id/aj_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/gp" android:clickable="false" android:layout_width="match_parent" android:layout_height="110dp" android:layout_marginTop="@dimen/le">
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/je" android:ellipsize="end" android:text="@string/ah7" android:singleLine="true" style="@style/fg"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">სხვადასხვა</string>
+    <string name="c">ზემოთ ნავიგაცია</string>
+    <string name="abc_action_menu_overflow_description">მეტი ვარიანტები</string>
+    <string name="d">დასრულდა</string>
+    <string name="e">ყველას ნახვა</string>
+    <string name="f">აპის არჩევა</string>
+    <string name="g">გამორთულია</string>
+    <string name="h">ჩართულია</string>
+    <string name="i">ძიება...</string>
+    <string name="j">მოთხოვნის გასუფთავება</string>
+    <string name="l">ძიება</string>
+    <string name="m">მოთხოვნის გადაგზავნა</string>
+    <string name="n">ხმოვანი ძიება</string>
+    <string name="q">აკეცვა</string>
+    <string name="common_google_play_services_enable_button">ჩართვა</string>
+    <string name="common_google_play_services_enable_text">%1$s ვერ იმუშავებს Google Play Services-ის ჩართვამდე.</string>
+    <string name="common_google_play_services_enable_title">Google Play Services-ის ჩართვა</string>
+    <string name="common_google_play_services_install_button">ინსტალაცია</string>
+    <string name="common_google_play_services_install_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომელიც აკლია თქვენს მოწყობილობას.</string>
+    <string name="common_google_play_services_install_title">Google Play Services-ის ჩამოტვირთვა</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play services-ის ხელმისაწვდომობა</string>
+    <string name="common_google_play_services_notification_ticker">Google Play Services-ის შეცდომა</string>
+    <string name="common_google_play_services_unknown_issue">%1$s-ს Google Play Services-თან პრობლემა შეექმნა. გთხოვთ, ცადოთ ხელახლა.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომლებიც მხარდაუჭერელია თქვენი მოწყობილობის მიერ.</string>
+    <string name="common_google_play_services_update_button">განახლება</string>
+    <string name="common_google_play_services_update_text">%1$s ვერ გაეშვება, თუ Google Play სერვისებს არ განაახლებთ.</string>
+    <string name="common_google_play_services_update_title">განაახლეთ Google Play Services</string>
+    <string name="common_google_play_services_updating_text">%1$s ვერ გაეშვება Google Play Services-ის გარეშე, რომელთა განახლებაც ამჟამად მიმდინარეობს.</string>
+    <string name="common_google_play_services_wear_update_text">საჭიროა Google Play Services-ის ახალი ვერსია. ის მალე განახლდება.</string>
+    <string name="common_open_on_phone">ტელეფონში გახსნა</string>
+    <string name="common_signin_button_text">შესვლა</string>
+    <string name="common_signin_button_text_long">Google-ით შესვლა</string>
+    <string name="r">სხვადასხვა</string>
+    <string name="b">მთავარზე ნავიგაცია</string>
+    <string name="k">ძიების მოთხოვნა</string>
+    <string name="o">გაზიარება:</string>
+    <string name="p">გაუზიარეთ %s-ს</string>
+    <string name="s">ძიება</string>
+    <string name="t">999+</string>
+</resources>

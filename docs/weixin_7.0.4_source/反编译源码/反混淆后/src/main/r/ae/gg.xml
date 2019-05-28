@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView android:scrollbars="none" style="@style/na">
+        <LinearLayout style="@style/ks">
+            <TextView android:id="@+id/a5w" android:text="@string/a6x" style="@style/me"/>
+            <View style="@style/m_"/>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="10dp" android:paddingRight="10dp" style="@style/ks">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/a4x" android:background="@drawable/ui" android:layout_width="wrap_content" android:layout_height="50dp">
+                    <TextView android:textSize="15dp" android:textColor="@color/h4" android:gravity="center_horizontal" android:id="@+id/a4y" android:layout_width="48dp" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <TextView android:textSize="8dp" android:textColor="@color/h4" android:gravity="center_horizontal" android:id="@+id/a4z" android:layout_width="48dp" android:layout_height="wrap_content" android:text="@string/b3b" android:singleLine="true"/>
+                </LinearLayout>
+                <EditText android:id="@+id/a50" android:layout_height="50dp" android:layout_marginLeft="10dp" android:layout_marginBottom="10dp" android:hint="@string/a89" android:inputType="phone" style="@style/md"/>
+            </LinearLayout>
+            <Button android:id="@+id/a56" android:visibility="gone" android:text="@string/a82" style="@style/nq"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

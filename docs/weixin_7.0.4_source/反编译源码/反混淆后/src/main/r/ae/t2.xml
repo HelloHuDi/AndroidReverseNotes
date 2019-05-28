@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" style="@style/v5">
+        <TextView android:id="@+id/bb6" android:text="@string/b84" style="@style/vh"/>
+        <LinearLayout style="@style/vx">
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/bb7" app:titleText="@string/b8c" style="@style/v3"/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/bb8" android:minHeight="45dp" app:titleText="@string/b8d" style="@style/vv"/>
+        </LinearLayout>
+        <Button android:id="@+id/bb9" android:layout_width="match_parent" android:layout_marginTop="16dp" android:text="@string/s1" style="@style/vu"/>
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/azi"/>
+</RelativeLayout>

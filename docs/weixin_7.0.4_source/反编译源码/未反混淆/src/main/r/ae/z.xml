@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="?attr/el" android:minWidth="196dp">
+    <TextView android:textAppearance="?attr/eg" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@android:id/title" android:fadingEdge="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:textAlignment="viewStart"/>
+</FrameLayout>

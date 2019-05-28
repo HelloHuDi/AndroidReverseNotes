@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/a_a" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.p612ui.base.MMLoadMoreListView android:id="@+id/e83" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/mf"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/e84" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15dp" android:textColor="@color/ed" android:gravity="center" android:id="@+id/e85" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/d7p" android:layout_weight="0.5"/>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+    </LinearLayout>
+</RelativeLayout>

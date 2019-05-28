@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt">
+    <item>
+        <rotate android:drawable="@drawable/bma" android:fromDegrees="0" android:toDegrees="1080" android:pivotX="50%" android:pivotY="50%"/>
+    </item>
+</layer-list>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:textSize="@dimen/m5" android:textColor="@color/w4" android:gravity="left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb" android:drawableLeft="@c1318a/radio_off" android:drawablePadding="@dimen/m4"/>

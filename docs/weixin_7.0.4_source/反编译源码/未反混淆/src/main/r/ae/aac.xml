@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:paddingLeft="@dimen/a4_" android:paddingTop="@dimen/lo" android:paddingRight="@dimen/a4_" android:paddingBottom="@dimen/lo" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="left" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/cxh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/tw" android:ellipsize="end" android:id="@+id/cxi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/cxj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="16dp" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/tw" android:ellipsize="end" android:id="@+id/cxk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:singleLine="true"/>
+    </LinearLayout>
+</RelativeLayout>

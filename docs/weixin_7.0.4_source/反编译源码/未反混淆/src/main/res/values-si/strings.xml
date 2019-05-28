@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">විවිධ</string>
+    <string name="c">ඉහලට සංචාලනය කරන්න</string>
+    <string name="abc_action_menu_overflow_description">තවත් විකල්ප</string>
+    <string name="d">අවසාන වූ</string>
+    <string name="e">සියල්ල බලන්න</string>
+    <string name="f">යෙදුමක් තෝරන්න</string>
+    <string name="g">ක්‍රියාවිරහිතයි</string>
+    <string name="h">ක්‍රියාත්මකයි</string>
+    <string name="i">සොයන්න...</string>
+    <string name="j">විමසුම හිස් කරන්න</string>
+    <string name="l">සෙවීම</string>
+    <string name="m">විමසුම යොමු කරන්න</string>
+    <string name="n">හඬ සෙවීම</string>
+    <string name="q">හකුළන්න</string>
+    <string name="common_google_play_services_enable_button">සබල කරන්න</string>
+    <string name="common_google_play_services_enable_text">ඔබ Google Play සේවා සබල කරන්නේ නම් මිස %1$s වැඩ නොකරනු ඇත.</string>
+    <string name="common_google_play_services_enable_title">Google Play සේවා සබල කරන්න</string>
+    <string name="common_google_play_services_install_button">ස්ථාපනය කරන්න</string>
+    <string name="common_google_play_services_install_text">ඔබගේ ටැබ්ලට් පරිගණකයේ නැති Google Play සේවා නොමැතිව %1$s ධාවනය නොවනු ඇත.</string>
+    <string name="common_google_play_services_install_title">Google Play සේවා ලබා ගන්න</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play සේවාවල ලබා ගත හැකි බව</string>
+    <string name="common_google_play_services_notification_ticker">Google Play සේවා දෝෂය</string>
+    <string name="common_google_play_services_unknown_issue">%1$s හට Google Play සේවා සමගින් ගැටලු ඇත. කරුණාකර නැවත උත්සාහ කරන්න.</string>
+    <string name="common_google_play_services_unsupported_text">ඔබගේ උපාංගය මගින් සහාය නොදක්වන, Google Play සේවා නොමැතිව %1$s ධාවනය නොවනු ඇත.</string>
+    <string name="common_google_play_services_update_button">යාවත්කාලීන කරන්න</string>
+    <string name="common_google_play_services_update_text">Google Play සේවා යාවත්කාලීන කරන්නේ නොමැතිව %1$s ධාවනය නොවේ.</string>
+    <string name="common_google_play_services_update_title">Google Play සේවා යාවත්කාලීන කරන්න</string>
+    <string name="common_google_play_services_updating_text">දැනට යාවත්කාලීන කරමින් ඇති, Google Play සේවා නොමැතිව %1$s ධාවනය නොවනු ඇත.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play සේවාවල නව අනුවාදයක් අවශ්‍යයි. එය මද වේලාවකින් එය විසින්ම යාවත්කාලීන වනු ඇත.</string>
+    <string name="common_open_on_phone">දුරකථනය තුළ විවෘත කරන්න</string>
+    <string name="common_signin_button_text">පුරන්න</string>
+    <string name="common_signin_button_text_long">Google සමගින් පුරන්න</string>
+    <string name="r">විවිධ</string>
+    <string name="b">ගෙදරට සංචාලනය කරන්න</string>
+    <string name="k">සෙවුම් විමසුම</string>
+    <string name="o">සමඟ බෙදාගන්න</string>
+    <string name="p">%s සමඟ බෙදා ගන්න</string>
+    <string name="s">සොයන්න</string>
+    <string name="t">999+</string>
+</resources>

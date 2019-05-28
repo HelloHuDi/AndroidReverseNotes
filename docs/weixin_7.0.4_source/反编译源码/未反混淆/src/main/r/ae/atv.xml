@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/eep" android:background="@color/ru" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="13dp">
+    <TextView android:textColor="@color/rv" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/eeq" android:paddingLeft="10dp" android:paddingTop="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="{Content}" android:drawableLeft="@a/seller_warning" android:drawablePadding="10dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/eer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6dp" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textColor="@color/a0k" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@null" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="agree"/>
+    </LinearLayout>
+</RelativeLayout>

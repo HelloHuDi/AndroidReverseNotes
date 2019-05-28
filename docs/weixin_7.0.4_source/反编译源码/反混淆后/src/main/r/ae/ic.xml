@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/kl" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/al" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/ds">
+        <ImageView android:id="@+id/kn" android:background="@null" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@c1318a/actionbar_icon_dark_back" android:contentDescription="@string/g1"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/p3" android:background="@color/dz" android:layout_width="@dimen/ft" android:layout_height="@dimen/l8"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:ellipsize="middle" android:gravity="center_vertical" android:id="@+id/ko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ru" android:singleLine="true" style="@style/kl"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="#999999" android:ellipsize="end" android:id="@+id/kp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ru" android:singleLine="true"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/al" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="@dimen/ds">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/abh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/chat_mute_notify_title_icon" android:contentDescription="@string/rn"/>
+    </LinearLayout>
+</LinearLayout>

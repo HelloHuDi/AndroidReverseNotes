@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/l2" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0px" android:layout_height="0px"/>
+    <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/m5" android:textColor="@color/w4" android:textColorHint="@color/s0" android:id="@+id/l3" android:background="@null" android:paddingBottom="3dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/do" android:hint="@string/d2" android:textCursorDrawable="@drawable/pt"/>
+</LinearLayout>

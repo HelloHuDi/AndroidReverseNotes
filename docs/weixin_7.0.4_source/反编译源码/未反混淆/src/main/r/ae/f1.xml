@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" style="@style/pt">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <ScrollView android:visibility="visible" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_horizontal" style="@style/ks">
+                <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/aaz"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x7"/>
+                <TextView android:paddingTop="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/x6" android:lineSpacingExtra="4dp" style="@style/kt"/>
+                <RelativeLayout android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x8" android:layout_alignParentLeft="true"/>
+                    <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@+id/a07" android:focusable="false" android:clickable="false" android:layout_width="@dimen/nr" android:layout_height="@dimen/no" android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+                <RelativeLayout android:paddingTop="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/a08" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/x5" android:layout_alignParentLeft="true"/>
+                    <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@+id/a09" android:focusable="false" android:clickable="false" android:layout_width="@dimen/nr" android:layout_height="@dimen/no" android:layout_alignParentRight="true"/>
+                </RelativeLayout>
+                <TextView android:paddingTop="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a5c"/>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

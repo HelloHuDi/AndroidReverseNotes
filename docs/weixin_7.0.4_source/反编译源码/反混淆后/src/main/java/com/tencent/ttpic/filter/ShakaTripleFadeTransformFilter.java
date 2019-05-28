@@ -1,0 +1,57 @@
+package com.tencent.ttpic.filter;
+
+import com.tencent.filter.C25624m.C0935i;
+import com.tencent.filter.C25624m.C25625a;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.ttpic.shader.ShaderCreateFactory.PROGRAM_TYPE;
+import java.util.Map;
+
+public class ShakaTripleFadeTransformFilter extends ShakaFilterBase {
+    private static final String[] PARAM_KEYS = new String[]{"scaleUp", "scaleMid", "scaleDown", "alphaUp", "alphaMid", "alphaDown"};
+
+    public ShakaTripleFadeTransformFilter() {
+        super(PROGRAM_TYPE.SHAKA_TRIPLE_FACE_TRANSFORM);
+    }
+
+    public void initParams() {
+        AppMethodBeat.m2504i(82849);
+        addParam(new C0935i("layers", 1));
+        addParam(new C25625a("scales", new float[]{1.0f, 0.0f, 0.0f, 0.0f}));
+        addParam(new C25625a("alphaRatios", new float[]{1.0f, 0.0f, 0.0f, 0.0f}));
+        AppMethodBeat.m2505o(82849);
+    }
+
+    /* Access modifiers changed, original: protected */
+    public String[] getParamKeys() {
+        return PARAM_KEYS;
+    }
+
+    private void setParams(int i, float[] fArr, float[] fArr2) {
+        AppMethodBeat.m2504i(82850);
+        addParam(new C0935i("layers", i));
+        addParam(new C25625a("scales", fArr));
+        addParam(new C25625a("alphaRatios", fArr2));
+        AppMethodBeat.m2505o(82850);
+    }
+
+    public void setParameterDic(Map<String, Float> map) {
+        int i;
+        AppMethodBeat.m2504i(82851);
+        float[] fArr = new float[]{((Float) map.get("scaleUp")).floatValue(), ((Float) map.get("scaleMid")).floatValue(), ((Float) map.get("scaleDown")).floatValue()};
+        float[] fArr2 = new float[]{((Float) map.get("alphaUp")).floatValue(), ((Float) map.get("alphaMid")).floatValue(), ((Float) map.get("alphaDown")).floatValue()};
+        float f = 0.0f;
+        for (i = 0; i < 3; i++) {
+            f += fArr2[i];
+        }
+        for (i = 0; i < 3; i++) {
+            fArr2[i] = fArr2[i] / f;
+        }
+        setParams(3, fArr, fArr2);
+        AppMethodBeat.m2505o(82851);
+    }
+
+    /* Access modifiers changed, original: protected */
+    public float getDefaultParamValue() {
+        return 1.0f;
+    }
+}

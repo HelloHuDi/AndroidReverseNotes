@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Të ndryshme</string>
+    <string name="c">Ngjitu lart</string>
+    <string name="abc_action_menu_overflow_description">Opsione të tjera</string>
+    <string name="d">U krye!</string>
+    <string name="e">Shikoji të gjitha</string>
+    <string name="f">Zgjidh një aplikacion</string>
+    <string name="g">JOAKTIV</string>
+    <string name="h">AKTIV</string>
+    <string name="i">Kërko...</string>
+    <string name="j">Pastro pyetjen</string>
+    <string name="l">Kërko</string>
+    <string name="m">Dërgo pyetjen</string>
+    <string name="n">Kërkim me zë</string>
+    <string name="q">Shpalos</string>
+    <string name="common_google_play_services_enable_button">Aktivizo</string>
+    <string name="common_google_play_services_enable_text">%1$s nuk do të funksionojë nëse nuk aktivizon shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_enable_title">Aktivizo shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_install_button">Instalo</string>
+    <string name="common_google_play_services_install_text">%1$s nuk do të funksionojë pa shërbimet e Google Play, të cilat mungojnë në pajisjen tënde.</string>
+    <string name="common_google_play_services_install_title">Merr shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_notification_channel_name">Disponueshmëria e shërbimeve të Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Gabim në shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_unknown_issue">%1$s ka probleme me shërbimet e Google Play. Provo sërish.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s nuk do të funksionojë pa shërbimet e Google Play, të cilat nuk mbështeten nga pajisja jote.</string>
+    <string name="common_google_play_services_update_button">Përditëso</string>
+    <string name="common_google_play_services_update_text">%1$s nuk do të funksionojë nëse nuk përditëson shërbimet e \"Luaj me Google\".</string>
+    <string name="common_google_play_services_update_title">Përditëso shërbimet e \"Luaj me Google\"</string>
+    <string name="common_google_play_services_updating_text">%1$s nuk do të funksionojë pa shërbimet e \"Luaj me Google\", të cilat po përditësohen aktualisht.</string>
+    <string name="common_google_play_services_wear_update_text">Nevojitet një version i ri i shërbimeve të \"Luaj me Google\". Ai do të përditësohet automatikisht së shpejti.</string>
+    <string name="common_open_on_phone">Hape në telefon</string>
+    <string name="common_signin_button_text">Identifikohu</string>
+    <string name="common_signin_button_text_long">Identifikohu me Google</string>
+    <string name="r">Të ndryshme</string>
+    <string name="b">Orientohu për në shtëpi</string>
+    <string name="k">Kërko pyetjen</string>
+    <string name="o">Shpërnda publikisht me</string>
+    <string name="p">Ndaje me %s</string>
+    <string name="s">Kërko</string>
+    <string name="t">999+</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/etm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a_4" android:src="@drawable/atz" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <TextView android:textSize="@dimen/l2" android:textColor="@color/a28" android:id="@+id/etn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a_9" android:text="@string/esx" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/eto" android:background="@drawable/a2i" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a_3" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:paddingStart="@dimen/l5" android:paddingEnd="@dimen/l5">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/etp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:contentDescription="@string/esv"/>
+        <TextView android:textSize="@dimen/lm" android:textColor="@color/a2_" android:id="@+id/etq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/esv"/>
+    </LinearLayout>
+</merge>

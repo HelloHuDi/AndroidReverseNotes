@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+    <TextView android:textSize="@dimen/fi" android:textColor="@color/rr" android:id="@+id/fie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+    <Space android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/fif" android:layout_width="13dp" android:layout_height="13dp" android:layout_marginRight="3.4dp"/>
+    <TextView android:textSize="@dimen/fi" android:textColor="@color/rr" android:ellipsize="end" android:gravity="right" android:id="@+id/fig" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="145dp" android:text="" android:maxLines="2"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/fih" android:layout_width="4.8dp" android:layout_height="8.6dp" android:layout_marginLeft="5.6dp" android:src="@c1318a/arrow_right"/>
+</LinearLayout>

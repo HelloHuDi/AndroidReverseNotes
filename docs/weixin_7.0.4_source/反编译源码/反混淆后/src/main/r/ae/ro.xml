@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.plugin.emoji.p384ui.widget.ScaleRelativeLayout android:orientation="vertical" android:id="@+id/b7e" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.tencent.p177mm.emoji.view.BaseEmojiView android:id="@+id/xr" android:layout_width="240dp" android:layout_height="240dp" android:layout_centerInParent="true"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="start" android:orientation="horizontal" android:id="@+id/b7f" android:background="@drawable/emoji_preview_capture_tips" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_below="@+id/xr" android:layout_centerHorizontal="true" android:paddingStart="8dp" android:paddingEnd="8dp">
+            <ImageView android:id="@+id/b7g" android:layout_width="16dp" android:layout_height="16dp" android:src="@c1318a/emoticonstore_capture_icon" android:layout_marginEnd="4dp"/>
+            <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac9"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/w0" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/b7h" android:paddingTop="@dimen/a6s" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/xr"/>
+    </com.tencent.p177mm.plugin.emoji.p384ui.widget.ScaleRelativeLayout>
+    <TextView android:textColor="@color/a69" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/xu" android:background="@drawable/hu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l5" android:text="@string/d7s"/>
+    <ImageView android:id="@+id/b7i" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/uc"/>
+    <ListView android:gravity="center" android:id="@android:id/list" android:background="@color/a3p" android:focusable="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@color/a3p" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0dp"/>
+</LinearLayout>

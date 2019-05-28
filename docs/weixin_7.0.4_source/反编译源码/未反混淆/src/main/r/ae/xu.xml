@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView style="@style/na">
+        <LinearLayout android:id="@+id/boc" style="@style/ks">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/bep" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="5dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp">
+                <ImageView android:id="@+id/bod" android:layout_width="42dp" android:layout_height="42dp"/>
+                <View style="@style/nr"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@+id/boe" style="@style/l9"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/m5" android:textColor="#707070" android:gravity="center" android:id="@+id/bof" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp"/>
+            <Button android:textSize="20dp" android:id="@+id/bog" android:layout_marginTop="27dp" android:text="@string/ce7" style="@style/ni"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

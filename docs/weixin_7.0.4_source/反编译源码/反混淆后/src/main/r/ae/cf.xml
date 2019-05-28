@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/c1" android:layout_width="match_parent" android:layout_height="@dimen/s_">
+    <ImageView android:id="@+id/jb" android:layout_width="50dp" android:layout_height="50dp" android:layout_marginLeft="20dp" android:layout_marginRight="15dp" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/ro" android:visibility="gone" android:layout_width="19dp" android:layout_height="19dp" android:layout_marginRight="20dp" android:src="@c1318a/ic_appbrand_star_mark" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <FrameLayout android:id="@+id/ql" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/ro" android:layout_toRightOf="@+id/jb">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:id="@+id/c5" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/s_"/>
+                <TextView android:id="@+id/qn" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" style="@style/sa"/>
+            </LinearLayout>
+            <TextView android:id="@+id/pr" android:background="@drawable/c4" android:padding="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" style="@style/sb"/>
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:textSize="11dp" android:id="@+id/rp" android:background="@drawable/c4" android:padding="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" style="@style/sb"/>
+    <View android:id="@+id/p3" android:layout_alignLeft="@+id/ql" android:layout_alignParentBottom="true" android:layout_alignStart="@+id/ql" style="@style/wl"/>
+</RelativeLayout>

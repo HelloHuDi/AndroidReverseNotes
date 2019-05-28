@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceSmallCategory app:key="settings_notification_top"/>
+    <PreferenceTitleCategory app:title="@string/e9k" app:key="settings_notification_title"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/e9c" app:key="settings_new_msg_notification"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/e9g" app:key="settings_new_voip_msg_notification"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference android:defaultValue="true" app:persistent="false" app:summary="@string/e68" app:title="@string/e9d" app:key="settings_show_detail" app:dependency="settings_new_msg_notification"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/eb4" app:key="settings_sound" app:dependency="settings_new_msg_notification" app:defaultValue="true"/>
+    <Preference app:persistent="false" app:title="@string/e9m" app:key="settings_notification_ringtone" app:dependency="settings_sound"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/ead" app:key="settings_shake" app:dependency="settings_new_msg_notification" app:defaultValue="true" app:layout="@layout/ag7"/>
+    <PreferenceTitleCategory app:title="@string/e9p" app:key="settings_notification_sound_shake"/>
+    <SummaryBelowPreference app:summary="@string/e9n" app:title="@string/e9o" app:key="settings_notification_sound_and_shake"/>
+    <SummaryBelowPreference app:summary="@string/ed2" app:title="@string/ed3" app:key="settings_voip_sound_and_shake"/>
+    <SummaryBelowPreference app:summary="@string/eb6" app:title="@string/eb7" app:key="settings_special_scene_notification_sound_and_shake"/>
+    <PreferenceSmallCategory/>
+</PreferenceScreen>

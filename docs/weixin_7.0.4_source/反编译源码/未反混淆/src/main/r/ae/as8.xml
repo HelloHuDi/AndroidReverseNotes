@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/abc" android:background="@drawable/zr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/eb9" android:background="@drawable/zs" android:layout_width="match_parent" android:layout_height="77dp" android:layout_alignParentTop="true">
+            <ImageView android:id="@+id/eb_" android:layout_width="@dimen/a89" android:layout_height="@dimen/a89" android:layout_marginLeft="@dimen/lo" android:src="@a/shake_card_package_defaultlogo" android:scaleType="fitCenter"/>
+            <TextView android:textSize="@dimen/fr" android:textColor="@color/a69" android:ellipsize="end" android:id="@+id/abf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/le" android:layout_marginRight="@dimen/lo" android:singleLine="true"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/eba" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/bh_" android:layout_alignBottom="@+id/eb9"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/ebb" android:layout_width="match_parent" android:layout_height="31dp">
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:ellipsize="end" android:gravity="left" android:id="@+id/a_1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lo" android:singleLine="true" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:gravity="right" android:id="@+id/ebc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginRight="@dimen/lo" android:minWidth="80dp" android:singleLine="true"/>
+    </LinearLayout>
+</LinearLayout>

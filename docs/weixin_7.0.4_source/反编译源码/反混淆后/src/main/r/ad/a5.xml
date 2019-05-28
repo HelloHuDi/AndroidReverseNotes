@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.NormalUserHeaderPreference app:key="contact_info_header_normal" app:layout="@layout/qf"/>
+    <Preference app:title="@string/ayi" app:key="contact_info_qcontact_sex" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ayg" app:key="contact_info_qcontact_age" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ayh" app:key="contact_info_qcontact_birthday" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ayf" app:key="contact_info_qcontact_address" app:layout="@layout/ae4"/>
+</PreferenceScreen>

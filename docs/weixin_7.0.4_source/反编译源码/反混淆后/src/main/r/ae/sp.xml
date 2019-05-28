@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/mt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.plugin.downloader_app.p380ui.BottomEntranceView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/up" android:layout_marginBottom="@dimen/up">
+        <TextView android:textSize="14dp" android:textColor="@color/a40" android:id="@+id/b_w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="看看好友在玩什么" android:layout_centerInParent="true"/>
+        <ImageView android:layout_width="5dp" android:layout_height="9dp" android:layout_marginLeft="4dp" android:src="@drawable/at9" android:layout_toRightOf="@+id/b_w" android:layout_centerVertical="true"/>
+    </com.tencent.p177mm.plugin.downloader_app.p380ui.BottomEntranceView>
+</LinearLayout>

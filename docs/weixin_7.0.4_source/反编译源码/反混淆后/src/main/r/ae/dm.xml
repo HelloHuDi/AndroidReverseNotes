@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/vo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <RelativeLayout android:orientation="vertical" android:id="@+id/vp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/dk" android:textColor="@color/h4" android:gravity="center" android:id="@+id/vq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        <ImageView android:id="@+id/vr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:src="@c1318a/app_brand_loading_game_original" android:scaleType="fitCenter" android:minWidth="@dimen/rm" android:minHeight="@dimen/rk" android:layout_below="@+id/vq" android:layout_centerHorizontal="true"/>
+        <com.tencent.p177mm.p612ui.widget.ThreeDotsLoadingView android:id="@+id/vs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rh" android:layout_below="@+id/vr" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/rn" android:textColor="@color/h4" android:id="@+id/vt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:layout_below="@+id/vs" android:layout_centerHorizontal="true"/>
+        <include android:id="@+id/vu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@+id/vt" android:layout_centerHorizontal="true" layout="@layout/eo"/>
+        <ImageView android:id="@+id/vv" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginBottom="10dp" android:scaleType="fitCenter" android:layout_above="@+id/vq" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/rf" android:textColor="@color/gv" android:gravity="center" android:id="@+id/vw" android:paddingBottom="@dimen/re" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g5g" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.5"/>
+        <ImageView android:id="@+id/vx" android:layout_width="71dp" android:layout_height="21dp" android:layout_marginBottom="@dimen/rd" android:src="@c1318a/app_brand_loading_game" android:scaleType="fitCenter" android:layout_above="@+id/vw" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/vy" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/vz" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentStart="true"/>
+        <com.tencent.p177mm.plugin.appbrand.game.preload.p1470ui.BootstrapProgressBar android:id="@+id/w0" android:layout_width="@dimen/r_" android:layout_height="8dp" android:layout_marginBottom="@dimen/r9" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

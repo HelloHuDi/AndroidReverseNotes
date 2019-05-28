@@ -1,0 +1,34 @@
+precision highp float;
+varying vec2 textureCoordinate;
+uniform sampler2D inputImageTexture;
+void main()
+{
+
+    //vec2 diffPosition = textureCoordinate;
+    //float ddx = (diffPosition.x + 1.0) / 2.0;
+    //float ddy = (diffPosition.y + 1.0) / 2.0;
+    //diffPosition = vec2(ddx,ddy);
+    //vec2 a = fract(diffPosition * 255.0 / 256.0);
+    //vec2 b = fract(diffPosition * 255.0 * 255.0 / 256.0);
+    //gl_FragColor = vec4(a,b);
+
+    // 新版的 shader 颜色通道中记录的是位移偏移量，只有在最后 combinedFilter 才最终将所有 filter 的位移量叠加，去图上取点。这样的好处是：
+    // 1. 只有 128 * 128 个点
+    // 2. smoothstep 会更平滑，128 * 128 个点取插值，原来的处理方法会使像素点变模糊
+    // 3. 两个矩形交叠的地方，位移处理的先后顺序不影响结果（不能说这是好还是坏，因为 PS 的液化是作用在原图上的）
+
+    // 至于此处要改为 * 255 再 / 255 是为了提升精度（浮点纹理 iOS 不支持，而一个字节只能表示 256 个不同值）
+    // 本来小奇使用了浮点纹理，但是发现有机型不支持，不用浮点纹理又精度不够，所以采用这个方法，变成2个字节表示一个值，提升了精度。
+    vec2 diffPosition = textureCoordinate;
+    diffPosition = 0.5 * (diffPosition + 1.0) * 255.0;  // 0.5 * (diffPosition + 1.0) 是将(-1, 1)间的值转换到(0, 1)，
+    vec2 a = floor(diffPosition) / 255.0;
+    vec2 b = fract(diffPosition);
+    gl_FragColor = vec4(a, b);
+
+
+    //vec2 diffPosition = textureCoordinate;
+    //diffPosition = 0.5 * (diffPosition + 1.0) * 256.0;
+    //vec2 a = floor(diffPosition) / 256.0;
+    //vec2 b = fract(diffPosition);
+    //gl_FragColor = vec4(a, b);
+}

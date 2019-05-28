@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceTitleCategory app:title="@string/fhm"/>
+    <IconPreference app:title="@string/fh_" app:key="wallet_lock_fingerprint" app:layout="@layout/ae4"/>
+    <IconPreference app:title="@string/fh3" app:key="wallet_lock_faceid" app:layout="@layout/ae4"/>
+    <IconPreference app:title="@string/fhh" app:key="wallet_lock_gesture" app:layout="@layout/ae4"/>
+    <IconPreference app:title="@string/fh1" app:key="wallet_lock_close" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/c9g" app:key="wallet_lock_modify_gesture" app:layout="@layout/ae4"/>
+</PreferenceScreen>

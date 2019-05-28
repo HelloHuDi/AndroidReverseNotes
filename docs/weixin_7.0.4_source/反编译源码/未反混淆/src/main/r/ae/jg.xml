@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ah4" android:background="@drawable/gp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/ah5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16.7dp" android:layout_marginTop="10dp" android:layout_marginRight="13.3dp">
+            <LinearLayout android:layout_gravity="start" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2">
+                <TextView android:textSize="12.7dp" android:textColor="@color/is" android:gravity="start" android:id="@+id/ah6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/afg"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="12.7dp" android:textColor="@color/jl" android:gravity="end" android:id="@+id/ah7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/afd"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View android:background="@drawable/kz" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="16.7dp" android:layout_marginTop="10dp" android:layout_marginRight="13.3dp" android:layerType="software"/>
+        <TextView android:textSize="18dp" android:textColor="@color/is" android:id="@+id/ah8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.7dp" android:layout_marginTop="10dp" android:text="@string/afe"/>
+        <TextView android:textSize="12.7dp" android:textColor="@color/jl" android:id="@+id/ah9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.7dp" android:layout_marginTop="7.3dp" android:layout_marginBottom="16.3dp" android:text="@string/aff"/>
+    </LinearLayout>
+</LinearLayout>

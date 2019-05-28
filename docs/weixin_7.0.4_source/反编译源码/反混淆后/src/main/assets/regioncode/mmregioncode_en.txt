@@ -1,0 +1,3972 @@
+AL|Albania
+DZ|Algeria
+AD|Andorra
+AO|Angola
+AO_Bengo|Bengo
+AO_Benguela|Benguela
+AO_Bie|Bie
+AO_Cabinda|Cabinda
+AO_Cuando Cubango|Cuando Cubango
+AO_Cuanza Norte|Cuanza Norte
+AO_Cuanza Sul|Cuanza Sul
+AO_Cunene|Cunene
+AO_Huambo|Huambo
+AO_Huila|Huila
+AO_Luanda|Luanda
+AO_Lunda Norte|Lunda Norte
+AO_Lunda Sul|Lunda Sul
+AO_Malanje|Malanje
+AO_Moxico|Moxico
+AO_Namibe|Namibe
+AO_Uige|Uige
+AO_Zaire|Zaire
+AG|Antigua and Barbuda
+AR|Argentina
+AR_Bahia Blanca|Bahia Blanca
+AR_Buenos Aires|Buenos Aires
+AR_Catamarca|Catamarca
+AR_Comodoro Rivadavia|Comodoro Rivadavia
+AR_Concordia|Concordia
+AR_Cordoba|Cordoba
+AR_Corrientes|Corrientes
+AR_Formosa|Formosa
+AR_Jujuy|Jujuy
+AR_La Plata|La Plata
+AR_La Rioja|La Rioja
+AR_Mar del Plata|Mar del Plata
+AR_Mendoza|Mendoza
+AR_Neuquen|Neuquen
+AR_Parana|Parana
+AR_Posadas|Posadas
+AR_Rawson|Rawson
+AR_Resistencia|Resistencia
+AR_Rio Cuarto|Rio Cuarto
+AR_Rio Gallegos|Rio Gallegos
+AR_Rosario|Rosario
+AR_Salta|Salta
+AR_San Juan|San Juan
+AR_San Luis|San Luis
+AR_San Miguel de Tucuman|San Miguel de Tucuman
+AR_San Nicolas|San Nicolas
+AR_San Rafael|San Rafael
+AR_Santa Fe|Santa Fe
+AR_Santa Rosa|Santa Rosa
+AR_Santiago del Estero|Santiago del Estero
+AR_Trelew|Trelew
+AR_Ushuaia|Ushuaia
+AR_Viedma|Viedma
+AR_Villa Krause|Villa Krause
+AM|Armenia
+AW|Aruba
+AU|Australia
+AU_Canberra|Canberra
+AU_New South Wales|New South Wales
+AU_New South Wales_Newcastle|Newcastle
+AU_New South Wales_Sydney|Sydney
+AU_New South Wales_Wollongong|Wollongong
+AU_Northern Territory|Northern Territory
+AU_Northern Territory_Darwin|Darwin
+AU_Northern Territory_Palmerston|Palmerston
+AU_Queensland|Queensland
+AU_Queensland_Brisbane|Brisbane
+AU_Queensland_Cairns|Cairns
+AU_Queensland_Caloundra|Caloundra
+AU_Queensland_Gold Coast|Gold Coast
+AU_Queensland_Toowoomba|Toowoomba
+AU_Queensland_Townsville|Townsville
+AU_South Australia|South Australia
+AU_South Australia_Adelaide|Adelaide
+AU_South Australia_Mount Gambier|Mount Gambier
+AU_South Australia_Murray Bridge|Murray Bridge
+AU_South Australia_Port Augusta|Port Augusta
+AU_South Australia_Port Lincoln|Port Lincoln
+AU_South Australia_Port Pirie|Port Pirie
+AU_South Australia_Victor Harbor|Victor Harbor
+AU_South Australia_Whyalla|Whyalla
+AU_Tasmania|Tasmania
+AU_Tasmania_Burnie|Burnie
+AU_Tasmania_Devonport|Devonport
+AU_Tasmania_Hobart|Hobart
+AU_Tasmania_Launceston|Launceston
+AU_Victoria|Victoria
+AU_Victoria_Geelong|Geelong
+AU_Victoria_Melbourne|Melbourne
+AU_Western Australia|Western Australia
+AU_Western Australia_Albany|Albany
+AU_Western Australia_Bunbury|Bunbury
+AU_Western Australia_Fremantle|Fremantle
+AU_Western Australia_Geraldton|Geraldton
+AU_Western Australia_Kalgoorlie|Kalgoorlie
+AU_Western Australia_Mandurah|Mandurah
+AU_Western Australia_Perth|Perth
+AT|Austria
+AT_Burgenland|Burgenland
+AT_Carinthia|Carinthia
+AT_Lower Austria|Lower Austria
+AT_Salzburg|Salzburg
+AT_Styria|Styria
+AT_Tyrol|Tyrol
+AT_Upper Austria|Upper Austria
+AT_Vienna|Vienna
+AT_Vorarlberg|Vorarlberg
+AZ|Azerbaijan
+BS|Bahamas
+BH|Bahrain
+BD|Bangladesh
+BB|Barbados
+BE|Belgium
+BJ|Benin
+BM|Bermuda
+BT|Bhutan
+BO|Bolivia
+BA|Bosnia and Herzegovina
+BW|Botswana
+BR|Brazil
+BR_Acre|Acre
+BR_Alagoas|Alagoas
+BR_Amapa|Amapa
+BR_Amazonas|Amazonas
+BR_Bahia|Bahia
+BR_Brasilia|Brasilia
+BR_Ceara|Ceara
+BR_Espirito Santo|Espirito Santo
+BR_Goias|Goias
+BR_Maranhao|Maranhao
+BR_Mato Grosso|Mato Grosso
+BR_Mato Grosso do Sul|Mato Grosso do Sul
+BR_Minas Gerais|Minas Gerais
+BR_Para|Para
+BR_Paraiba|Paraiba
+BR_Parana|Parana
+BR_Pernambuco|Pernambuco
+BR_Piaui|Piaui
+BR_Rio Grande do Norte|Rio Grande do Norte
+BR_Rio Grande do Sul|Rio Grande do Sul
+BR_Rio de Janeiro|Rio de Janeiro
+BR_Rondonia|Rondonia
+BR_Roraima|Roraima
+BR_Santa Catarina|Santa Catarina
+BR_Sao Paulo|Sao Paulo
+BR_Sergipe|Sergipe
+BR_Tocantins|Tocantins
+BN|Brunei
+BG|Bulgaria
+BI|Burundi
+BY|Belarus
+KH|Cambodia
+KH_Banteay Mean Chey|Banteay Mean Chey
+KH_Bat Dambang|Bat Dambang
+KH_Kampong Cham|Kampong Cham
+KH_Kampong Chhnang|Kampong Chhnang
+KH_Kampong Spoe|Kampong Spoe
+KH_Kampong Thum|Kampong Thum
+KH_Kampot|Kampot
+KH_Kandal|Kandal
+KH_Kaoh Kong|Kaoh Kong
+KH_Kracheh|Kracheh
+KH_Krong Keb|Krong Keb
+KH_Krong Pailin|Krong Pailin
+KH_Krong Preah|Krong Preah
+KH_Mondol Kiri|Mondol Kiri
+KH_Otdar Mean Chey|Otdar  Mean  Chey
+KH_Phnum Penh|Phnum Penh
+KH_Pouth sat|Pouth  sat
+KH_Preah Vihear|Preah Vihear
+KH_Prey Veng|Prey Veng
+KH_Rotanak Kiri|Rotanak Kiri
+KH_Siem Reab|Siem Reab
+KH_Stoeng Treng|Stoeng Treng
+KH_Svay Rieng|Svay Rieng
+KH_Takev|Takev
+CM|Cameroon
+CA|Canada
+CA_British Columbia|British Columbia
+CA_British Columbia_Abbotsford|Abbotsford
+CA_British Columbia_Armstrong|Armstrong
+CA_British Columbia_Burnaby|Burnaby
+CA_British Columbia_Campbell River|Campbell River
+CA_British Columbia_Castlegar|Castlegar
+CA_British Columbia_Chilliwack|Chilliwack
+CA_British Columbia_Colwood|Colwood
+CA_British Columbia_Coquitlam|Coquitlam
+CA_British Columbia_Courtenay|Courtenay
+CA_British Columbia_Cranbrook|Cranbrook
+CA_British Columbia_Dawson Creek|Dawson Creek
+CA_British Columbia_Duncan|Duncan
+CA_British Columbia_Enderby|Enderby
+CA_British Columbia_Fernie|Fernie
+CA_British Columbia_Fort St. John|Fort St. John
+CA_British Columbia_Grand Forks|Grand Forks
+CA_British Columbia_Greenwood|Greenwood
+CA_British Columbia_Kamloops|Kamloops
+CA_British Columbia_Kelowna|Kelowna
+CA_British Columbia_Kimberley|Kimberley
+CA_British Columbia_Kitimat|Kitimat
+CA_British Columbia_Langford|Langford
+CA_British Columbia_Langley|Langley
+CA_British Columbia_Merritt|Merritt
+CA_British Columbia_Nanaimo|Nanaimo
+CA_British Columbia_Nelson|Nelson
+CA_British Columbia_New Westminster|New Westminster
+CA_British Columbia_North Vancouver|North Vancouver
+CA_British Columbia_Parksville|Parksville
+CA_British Columbia_Penticton|Penticton
+CA_British Columbia_Pitt Meadows|Pitt Meadows
+CA_British Columbia_Port Alberni|Port Alberni
+CA_British Columbia_Port Coquitlam|Port Coquitlam
+CA_British Columbia_Port Moody|Port Moody
+CA_British Columbia_Powell River|Powell River
+CA_British Columbia_Prince George|Prince George
+CA_British Columbia_Prince Rupert|Prince Rupert
+CA_British Columbia_Quesnel|Quesnel
+CA_British Columbia_Revelstoke|Revelstoke
+CA_British Columbia_Richmond|Richmond
+CA_British Columbia_Rossland|Rossland
+CA_British Columbia_Salmon Arm|Salmon Arm
+CA_British Columbia_Surrey|Surrey
+CA_British Columbia_Terrace|Terrace
+CA_British Columbia_Trail|Trail
+CA_British Columbia_Vancouver|Vancouver
+CA_British Columbia_Vernon|Vernon
+CA_British Columbia_Victoria|Victoria
+CA_British Columbia_White Rock|White Rock
+CA_British Columbia_Williams Lake|Williams Lake
+CA_Alberta|Alberta
+CA_Alberta_Airdrie|Airdrie
+CA_Alberta_Brooks|Brooks
+CA_Alberta_Calgary|Calgary
+CA_Alberta_Camrose|Camrose
+CA_Alberta_Chestermere|Chestermere
+CA_Alberta_Cold Lake|Cold Lake
+CA_Alberta_Edmonton|Edmonton
+CA_Alberta_Fort Saskatchewan|Fort Saskatchewan
+CA_Alberta_Grande Prairie|Grande Prairie
+CA_Alberta_Lacombe|Lacombe
+CA_Alberta_Leduc|Leduc
+CA_Alberta_Lethbridge|Lethbridge
+CA_Alberta_Lloydminster|Lloydminster
+CA_Alberta_Medicine Hat|Medicine Hat
+CA_Alberta_Red Deer|Red Deer
+CA_Alberta_Spruce Grove|Spruce Grove
+CA_Alberta_St. Albert|St. Albert
+CA_Alberta_Wetaskiwin|Wetaskiwin
+CA_Saskatchewan|Saskatchewan
+CA_Saskatchewan_Estevan|Estevan
+CA_Saskatchewan_Flin Flon|Flin Flon
+CA_Saskatchewan_Humboldt|Humboldt
+CA_Saskatchewan_Lloydminster|Lloydminster
+CA_Saskatchewan_Martensville|Martensville
+CA_Saskatchewan_Meadow Lake|Meadow Lake
+CA_Saskatchewan_Melfort|Melfort
+CA_Saskatchewan_Melville|Melville
+CA_Saskatchewan_Moose Jaw|Moose Jaw
+CA_Saskatchewan_North Battleford|North Battleford
+CA_Saskatchewan_Prince Albert|Prince Albert
+CA_Saskatchewan_Regina|Regina
+CA_Saskatchewan_Saskatoon|Saskatoon
+CA_Saskatchewan_Swift Current|Swift Current
+CA_Saskatchewan_Warman|Warman
+CA_Saskatchewan_Weyburn|Weyburn
+CA_Saskatchewan_Yorkton|Yorkton
+CA_Manitoba|Manitoba
+CA_Manitoba_Brandon|Brandon
+CA_Manitoba_Dauphin|Dauphin
+CA_Manitoba_Flin Flon|Flin Flon
+CA_Manitoba_Morden|Morden
+CA_Manitoba_Portage la Prairie|Portage la Prairie
+CA_Manitoba_Selkirk|Selkirk
+CA_Manitoba_Steinbach|Steinbach
+CA_Manitoba_Thompson|Thompson
+CA_Manitoba_Winkler|Winkler
+CA_Manitoba_Winnipeg|Winnipeg
+CA_Ontario|Ontario
+CA_Ontario_Barrie|Barrie
+CA_Ontario_Belleville|Belleville
+CA_Ontario_Brampton|Brampton
+CA_Ontario_Brant|Brant
+CA_Ontario_Brantford|Brantford
+CA_Ontario_Brockville|Brockville
+CA_Ontario_Burlington|Burlington
+CA_Ontario_Cambridge|Cambridge
+CA_Ontario_Clarence-Rockland|Clarence-Rockland
+CA_Ontario_Cornwall|Cornwall
+CA_Ontario_Dryden|Dryden
+CA_Ontario_Elliot Lake|Elliot Lake
+CA_Ontario_Greater Sudbury|Greater Sudbury
+CA_Ontario_Guelph|Guelph
+CA_Ontario_Haldimand County|Haldimand County
+CA_Ontario_Hamilton|Hamilton
+CA_Ontario_Kirkland Lake|Kirkland Lake
+CA_Ontario_Kenora|Kenora
+CA_Ontario_Kingston|Kingston
+CA_Ontario_Kitchener|Kitchener
+CA_Ontario_London|London
+CA_Ontario_Niagara Falls|Niagara Falls
+CA_Ontario_Norfolk County|Norfolk County
+CA_Ontario_North Bay|North Bay
+CA_Ontario_Mississauga|Mississauga
+CA_Ontario_Markham|Markham
+CA_Ontario_Orillia|Orillia
+CA_Ontario_Oshawa|Oshawa
+CA_Ontario_Ottawa|Ottawa
+CA_Ontario_Owen Sound|Owen Sound
+CA_Ontario_Pembroke|Pembroke
+CA_Ontario_Peterborough|Peterborough
+CA_Ontario_Pickering|Pickering
+CA_Ontario_Port Colborne|Port Colborne
+CA_Ontario_Prince Edward County|Prince Edward County
+CA_Ontario_Quinte West|Quinte West
+CA_Ontario_Sarnia|Sarnia
+CA_Ontario_Temiskaming Shores|Temiskaming Shores
+CA_Ontario_Thorold|Thorold
+CA_Ontario_Thunder Bay|Thunder Bay
+CA_Ontario_Timmins|Timmins
+CA_Ontario_Toronto|Toronto
+CA_Ontario_Vaughan|Vaughan
+CA_Ontario_Waterloo|Waterloo
+CA_Ontario_Welland|Welland
+CA_Ontario_Windsor|Windsor
+CA_Ontario_Woodstock|Woodstock
+CA_Ontario_St. Catharines|St. Catharines
+CA_Ontario_Stratford|Stratford
+CA_Ontario_Sault Sainte Marie|Sault Sainte Marie
+CA_Ontario_St. Thomas|St. Thomas
+CA_Quebec|Quebec
+CA_Quebec_Alma|Alma
+CA_Quebec_Châteauguay|Châteauguay
+CA_Quebec_Chibougamau|Chibougamau
+CA_Quebec_Chicoutimi|Chicoutimi
+CA_Quebec_Gaspé|Gaspé
+CA_Quebec_Gatineau|Gatineau
+CA_Quebec_Inukjuak|Inukjuak
+CA_Quebec_Ivujivik|Ivujivik
+CA_Quebec_Kangiqsujuaq|Kangiqsujuaq
+CA_Quebec_Sept-Îles|Sept-Îles
+CA_Quebec_Sherbrooke|Sherbrooke
+CA_Quebec_Saguenay|Saguenay
+CA_Quebec_Schefferville|Schefferville
+CA_Quebec_Kuujjuaq|Kuujjuaq
+CA_Quebec_Kuujjuarapik|Kuujjuarapik
+CA_Quebec_Eastmain|Eastmain
+CA_Quebec_Montréal|Montréal
+CA_Quebec_Natashquan|Natashquan
+CA_Quebec_Rivière-du-Loup|Rivière-du-Loup
+CA_Quebec_Trois-Rivières|Trois-Rivières
+CA_Quebec_Ville de Québec|Ville de Québec
+CA_New Brunswick|New Brunswick
+CA_New Brunswick_Saint John|Saint John
+CA_New Brunswick_Moncton|Moncton
+CA_New Brunswick_Fredericton|Fredericton
+CA_New Brunswick_Sackville|Sackville
+CA_Prince Edward Island|Prince Edward Island
+CA_Prince Edward Island_Charlottetow|Charlottetow
+CA_Prince Edward Island_Summerside|Summerside
+CA_Nova Scotia|Nova Scotia
+CA_Nova Scotia_Antigonish|Antigonish
+CA_Nova Scotia_Glace Bay|Glace Bay
+CA_Nova Scotia_Halifax|Halifax
+CA_Nova Scotia_Dartmouth|Dartmouth
+CA_Nova Scotia_Prince George|Prince George
+CA_Nova Scotia_Wolfville|Wolfville
+CA_Nova Scotia_Yarmouth|Yarmouth
+CA_Nova Scotia_Sydney|Sydney
+CA_Newfoundland and Labrador|Newfoundland and Labrador
+CA_Newfoundland and Labrador_Cartwright|Cartwright
+CA_Newfoundland and Labrador_Corner Brook|Corner Brook
+CA_Newfoundland and Labrador_Davis Inlet|Davis Inlet
+CA_Newfoundland and Labrador_Goose Bay|Goose Bay
+CA_Newfoundland and Labrador_Hopedale|Hopedale
+CA_Newfoundland and Labrador_Indian Harbour|Indian Harbour
+CA_Newfoundland and Labrador_St. Anthony|St. Anthony
+CA_Newfoundland and Labrador_St. John's|St. John's
+CA_Newfoundland and Labrador_Gander|Gander
+CA_Newfoundland and Labrador_Nain|Nain
+CA_Newfoundland and Labrador_Port-aux-Basques|Port-aux-Basques
+CA_Yukon|Yukon
+CA_Yukon_Beaver Creek|Beaver Creek
+CA_Yukon_Carmacks|Carmacks
+CA_Yukon_Dawson City|Dawson City
+CA_Yukon_Mayo|Mayo
+CA_Yukon_Old Crow|Old Crow
+CA_Yukon_Ross River|Ross River
+CA_Yukon_Whitehorse|Whitehorse
+CA_Northwest Territories|Northwest Territories
+CA_Northwest Territories_Arctic Red River|Arctic Red River
+CA_Northwest Territories_Fort Franklin|Fort Franklin
+CA_Northwest Territories_Fort Good Hope|Fort Good Hope
+CA_Northwest Territories_Hay River|Hay River
+CA_Northwest Territories_Holman|Holman
+CA_Northwest Territories_Inuvik|Inuvik
+CA_Northwest Territories_Fort Resolution|Fort Resolution
+CA_Northwest Territories_Nahanni Butte|Nahanni Butte
+CA_Northwest Territories_Reindeer Station|Reindeer Station
+CA_Northwest Territories_Sachs Harbour|Sachs Harbour
+CA_Northwest Territories_Wrigley|Wrigley
+CA_Northwest Territories_Yellowknife|Yellowknife
+CA_Northwest Territories_Sawmill Bay|Sawmill Bay
+CA_Nunavut|Nunavut
+CA_Nunavut_Alert|Alert
+CA_Nunavut_Arctic Bay|Arctic Bay
+CA_Nunavut_Baker Lake|Baker Lake
+CA_Nunavut_Bathurst Inlet|Bathurst Inlet
+CA_Nunavut_Broughton Island|Broughton Island
+CA_Nunavut_Cambridge Bay|Cambridge Bay
+CA_Nunavut_Cape Dyer|Cape Dyer
+CA_Nunavut_Chesterfield Inlet|Chesterfield Inlet
+CA_Nunavut_Clyde River|Clyde River
+CA_Nunavut_Coral Harbour|Coral Harbour
+CA_Nunavut_Eureka|Eureka
+CA_Nunavut_Umingmaktuuq|Umingmaktuuq
+CA_Nunavut_Grise Fiord|Grise Fiord
+CA_Nunavut_Hall Beach|Hall Beach
+CA_Nunavut_Igloolik|Igloolik
+CA_Nunavut_Gjoa Harbour|Gjoa Harbour
+CA_Nunavut_Iqaluit|Iqaluit
+CA_Nunavut_Pond Inlet|Pond Inlet
+CA_Nunavut_Rankin Inlet|Rankin Inlet
+CA_Nunavut_Resolute|Resolute
+KY|Cayman Islands
+CF|Central African Republic
+CL|Chile
+CN|China
+CN_Anhui|Anhui
+CN_Anhui_Anqing|Anqing
+CN_Anhui_Bengbu|Bengbu
+CN_Anhui_Bozhou|Bozhou
+CN_Anhui_Chaohu|Chaohu
+CN_Anhui_Chizhou|Chizhou
+CN_Anhui_Chuzhou|Chuzhou
+CN_Anhui_Fuyang|Fuyang
+CN_Anhui_Hefei|Hefei
+CN_Anhui_Huaibei|Huaibei
+CN_Anhui_Huainan|Huainan
+CN_Anhui_Huangshan|Huangshan
+CN_Anhui_Luan|Luan
+CN_Anhui_MOS|Ma'anshan
+CN_Anhui_Suzhou|Suzhou
+CN_Anhui_Tongling|Tongling
+CN_Anhui_Wuhu|Wuhu
+CN_Anhui_Xuancheng|Xuancheng
+CN_Beijing|Beijing
+CN_Beijing_Changping|Changping
+CN_Beijing_Chaoyang|Chaoyang
+CN_Beijing_Daxing|Daxing
+CN_Beijing_East|Dongcheng District
+CN_Beijing_Fangshan|Fangshan
+CN_Beijing_Fengtai|Fengtai
+CN_Beijing_Haidian|Haidian
+CN_Beijing_Huairou|Huairou
+CN_Beijing_Mentougou|Mentougou
+CN_Beijing_Miyun|Miyun
+CN_Beijing_Pinggu|Pinggu
+CN_Beijing_Shijingshan|Shijingshan
+CN_Beijing_Shunyi|Shunyi
+CN_Beijing_Tongzhou|Tongzhou
+CN_Beijing_West|Xicheng District
+CN_Beijing_Yanqing|Yanqing
+CN_Chongqing|Chongqing
+CN_Chongqing_Aikawa|Hechuan
+CN_Chongqing_Banan|Banan
+CN_Chongqing_Beibei|Beibei
+CN_Chongqing_Bishan|Bishan
+CN_Chongqing_Chengkou|Chengkou
+CN_Chongqing_Dadukou|Dadukou
+CN_Chongqing_Dazu|Dazu
+CN_Chongqing_Dianjiang|Dianjiang
+CN_Chongqing_Fengdu|Fengdu
+CN_Chongqing_Fengjie|Fengjie
+CN_Chongqing_Fuling|Fuling
+CN_Chongqing_Jiangbei|Jiangbei
+CN_Chongqing_Jiangjin|Jiangjin
+CN_Chongqing_Jiulongpo|Jiulongpo
+CN_Chongqing_Kaixian|Kaixian
+CN_Chongqing_Liangping|Liangping
+CN_Chongqing_Nanchuan|Nanchuan
+CN_Chongqing_Pengshui|Pengshui
+CN_Chongqing_Pine Valley|Wansheng
+CN_Chongqing_Qianjiang|Qianjiang
+CN_Chongqing_Qijiang|Qijiang
+CN_Chongqing_Rongchang|Rongchang
+CN_Chongqing_Shapingba|Shapingba
+CN_Chongqing_Shuangqiao|Shuangqiao
+CN_Chongqing_South Bank|Nan'an
+CN_Chongqing_Tongliang|Tongliang
+CN_Chongqing_Tongnan|Tongnan
+CN_Chongqing_Two Rivers|Liangjiang New Area
+CN_Chongqing_Wanzhou|Wanzhou
+CN_Chongqing_Wulong|Wulong
+CN_Chongqing_Wushan|Wushan
+CN_Chongqing_Wuxi|Wuxi
+CN_Chongqing_Xiushan|Xiushan
+CN_Chongqing_Yongchuan|Yongchuan
+CN_Chongqing_Youyang|Youyang
+CN_Chongqing_Yubei|Yubei
+CN_Chongqing_Yunyang|Yunyang
+CN_Chongqing_Yuzhong|Yuzhong
+CN_Chongqing_Zhongxian|Zhongxian
+CN_Chongqing_columns|Shizhu
+CN_Chongqing_longevity|Changshou
+CN_Fujian|Fujian
+CN_Fujian_Fuzhou|Fuzhou
+CN_Fujian_Longyan|Longyan
+CN_Fujian_Nanping|Nanping
+CN_Fujian_Ningde|Ningde
+CN_Fujian_Putian|Putian
+CN_Fujian_Quanzhou|Quanzhou
+CN_Fujian_Sanming|Sanming
+CN_Fujian_Xiamen|Xiamen
+CN_Fujian_Zhangzhou|Zhangzhou
+CN_Gansu|Gansu
+CN_Gansu_Dingxi|Dingxi
+CN_Gansu_Gannan|Gannan
+CN_Gansu_Jiayuguan|Jiayuguan
+CN_Gansu_Jinchang|Jinchang
+CN_Gansu_Jiuquan|Jiuquan
+CN_Gansu_Lanzhou|Lanzhou
+CN_Gansu_Linxia|Linxia
+CN_Gansu_Longnan|Longnan
+CN_Gansu_Pingliang|Pingliang
+CN_Gansu_Qingyang|Qingyang
+CN_Gansu_Silver|Baiyin
+CN_Gansu_Tin Shui|Tianshui
+CN_Gansu_Wuwei|Wuwei
+CN_Gansu_Zhangye|Zhangye
+CN_Guangdong|Guangdong
+CN_Guangdong_Chaozhou|Chaozhou
+CN_Guangdong_Dongguan|Dongguan
+CN_Guangdong_Foshan|Foshan
+CN_Guangdong_Guangzhou|Guangzhou
+CN_Guangdong_Heyuan|Heyuan
+CN_Guangdong_Huizhou|Huizhou
+CN_Guangdong_Jiangmen|Jiangmen
+CN_Guangdong_Jieyang|Jieyang
+CN_Guangdong_Maoming|Maoming
+CN_Guangdong_Meizhou|Meizhou
+CN_Guangdong_Qingyuan|Qingyuan
+CN_Guangdong_Shantou|Shantou
+CN_Guangdong_Shanwei|Shanwei
+CN_Guangdong_Shaoguan|Shaoguan
+CN_Guangdong_Shenzhen|Shenzhen
+CN_Guangdong_Yangjiang|Yangjiang
+CN_Guangdong_Yunfu|Yunfu
+CN_Guangdong_Zhanjiang|Zhanjiang
+CN_Guangdong_Zhaoqing|Zhaoqing
+CN_Guangdong_Zhongshan|Zhongshan
+CN_Guangdong_Zhuhai|Zhuhai
+CN_Guangxi|Guangxi
+CN_Guangxi_Baise|Baise
+CN_Guangxi_Beihai|Beihai
+CN_Guangxi_Chongzuo|Chongzuo
+CN_Guangxi_Chow|Qinzhou
+CN_Guangxi_Fangchenggang|Fangchenggang
+CN_Guangxi_Guigang|Guigang
+CN_Guangxi_Guilin|Guilin
+CN_Guangxi_Hechi|Hechi
+CN_Guangxi_Hezhou|Hezhou
+CN_Guangxi_Liuzhou|Liuzhou
+CN_Guangxi_Nanning|Nanning
+CN_Guangxi_Wuzhou|Wuzhou
+CN_Guangxi_Yulin|Yulin
+CN_Guangxi_guests|Laibin
+CN_Guizhou|Guizhou
+CN_Guizhou_Anshun|Anshun
+CN_Guizhou_Bijie|Bijie
+CN_Guizhou_Guiyang|Guiyang
+CN_Guizhou_Lawrence|Zunyi
+CN_Guizhou_Liupanshui|Liupanshui
+CN_Guizhou_South Guizhou|Qiannan
+CN_Guizhou_Southeast|Qiandongnan
+CN_Guizhou_Southwest Guizhou|Qianxinan
+CN_Guizhou_Tongren|Tongren
+CN_Hainan|Hainan
+CN_Hainan_Baoting|Baoting
+CN_Hainan_Changjiang|Changjiang
+CN_Hainan_Chengmai|Chengmai
+CN_Hainan_Danzhou|Danzhou
+CN_Hainan_East|Dongfang
+CN_Hainan_Fingers|Wuzhishan
+CN_Hainan_Haikou|Haikou
+CN_Hainan_Honour|Ding'an
+CN_Hainan_Lingshui|Lingshui
+CN_Hainan_Manning|Wanning
+CN_Hainan_Music East|Ledong
+CN_Hainan_Pro High|Lingao
+CN_Hainan_Qionghai|Qionghai
+CN_Hainan_Qiongzhong|Qiongzhong
+CN_Hainan_Sansha|Sansha
+CN_Hainan_Sanya|Sanya
+CN_Hainan_Tunchang|Tunchang
+CN_Hainan_Wenchang|Wenchang
+CN_Hainan_White Sands|Baisha
+CN_Hebei|Hebei
+CN_Hebei_Baoding|Baoding
+CN_Hebei_Cangzhou|Cangzhou
+CN_Hebei_Chengde|Chengde
+CN_Hebei_Handan|Handan
+CN_Hebei_Hengshui|Hengshui
+CN_Hebei_Langfang|Langfang
+CN_Hebei_Qinhuangdao|Qinhuangdao
+CN_Hebei_Shijiazhuang|Shijiazhuang
+CN_Hebei_Tangshan|Tangshan
+CN_Hebei_Xingtai|Xingtai
+CN_Hebei_Zhangjiakou|Zhangjiakou
+CN_Heilongjiang|Heilongjiang
+CN_Heilongjiang_Daqing|Daqing
+CN_Heilongjiang_Harbin|Harbin
+CN_Heilongjiang_Hegang|Hegang
+CN_Heilongjiang_Heihe|Heihe
+CN_Heilongjiang_Jiamusi|Jiamusi
+CN_Heilongjiang_Jixi|Jixi
+CN_Heilongjiang_Mountains|Mountains
+CN_Heilongjiang_Mudanjiang|Mudanjiang
+CN_Heilongjiang_Qiqihar|Qiqihar
+CN_Heilongjiang_Qitaihe|Qitaihe
+CN_Heilongjiang_Shuangyashan|Shuangyashan
+CN_Heilongjiang_Suihua|Suihua
+CN_Heilongjiang_Yichun|Yichun
+CN_Henan|Henan
+CN_Henan_Anyang|Anyang
+CN_Henan_Hebi|Hebi
+CN_Henan_Jiaozuo|Jiaozuo
+CN_Henan_Jiyuan|Jiyuan
+CN_Henan_Kaifeng|Kaifeng
+CN_Henan_Luohe|Luohe
+CN_Henan_Luoyang|Luoyang
+CN_Henan_Nanyang|Nanyang
+CN_Henan_Puyang|Puyang
+CN_Henan_Sanmenxia|Sanmenxia
+CN_Henan_Shangqiu|Shangqiu
+CN_Henan_Xinxiang|Xinxiang
+CN_Henan_Xinyang|Xinyang
+CN_Henan_Xuchang|Xuchang
+CN_Henan_Zhengzhou|Zhengzhou
+CN_Henan_Zhoukou|Zhoukou
+CN_Henan_Zhumadian|Zhumadian
+CN_Henan_mesa|Pingdingshan
+CN_Hong Kong|Hong Kong
+CN_Hong Kong_Central and Western|Central and Western
+CN_Hong Kong_Eastern|Eastern
+CN_Hong Kong_Islands|Islands
+CN_Hong Kong_Kowloon City|Kowloon City
+CN_Hong Kong_Kwai Tsing|Kwai Tsing
+CN_Hong Kong_Kwun Tong|Kwun Tong
+CN_Hong Kong_North|North
+CN_Hong Kong_Sai Kung|Sai Kung
+CN_Hong Kong_Sha Tin|Sha Tin
+CN_Hong Kong_Sham Shui Po|Sham Shui Po
+CN_Hong Kong_Southern|Southern
+CN_Hong Kong_Tai Po|Tai Po
+CN_Hong Kong_Tsuen Wan|Tsuen Wan
+CN_Hong Kong_Tuen Mun|Tuen Mun
+CN_Hong Kong_Wan Chai|Wan Chai
+CN_Hong Kong_Wong Tai Sin|Wong Tai Sin
+CN_Hong Kong_Yau Tsim Mong|Yau Tsim Mong
+CN_Hong Kong_Yuen Long|Yuen Long
+CN_Hubei|Hubei
+CN_Hubei_Bristol|Xiantao
+CN_Hubei_Enshi|Enshi
+CN_Hubei_Ezhou|Ezhou
+CN_Hubei_Huanggang|Huanggang
+CN_Hubei_Jingmen|Jingmen
+CN_Hubei_Jingzhou|Jingzhou
+CN_Hubei_Qianjiang|Qianjiang
+CN_Hubei_Shennongjia|Shennongjia
+CN_Hubei_Shiyan|Shiyan
+CN_Hubei_Suizhou|Suizhou
+CN_Hubei_Tianmen|Tianmen
+CN_Hubei_Wuhan|Wuhan
+CN_Hubei_Yangyang|Xiangyang
+CN_Hubei_Xianning|Xianning
+CN_Hubei_Xiaogan|Xiaogan
+CN_Hubei_Yellowstone|Huangshi
+CN_Hubei_Yichang|Yichang
+CN_Hunan|Hunan
+CN_Hunan_Changde|Changde
+CN_Hunan_Changsha|Changsha
+CN_Hunan_Chenzhou|Chenzhou
+CN_Hunan_Hengyang|Hengyang
+CN_Hunan_Huaihua|Huaihua
+CN_Hunan_Loudi|Loudi
+CN_Hunan_Shaoyang|Shaoyang
+CN_Hunan_Xiangtan|Xiangtan
+CN_Hunan_Xiangxi|Xiangxi
+CN_Hunan_Yiyang|Yiyang
+CN_Hunan_Yongzhou|Yongzhou
+CN_Hunan_Yueyang|Yueyang
+CN_Hunan_Zhangjiajie|Zhangjiajie
+CN_Hunan_Zhuzhou|Zhuzhou
+CN_Inner Mongolia|Inner Mongolia
+CN_Inner Mongolia_Alxa|Alxa
+CN_Inner Mongolia_Baotou|Baotou
+CN_Inner Mongolia_Bayannur|Bayannur
+CN_Inner Mongolia_Bu|Bu
+CN_Inner Mongolia_Chifeng|Chifeng
+CN_Inner Mongolia_Erdos|Erdos
+CN_Inner Mongolia_Gol|Gol
+CN_Inner Mongolia_Hohhot|Hohhot
+CN_Inner Mongolia_Hulunbeier|Hulunbeier
+CN_Inner Mongolia_Tongliao|Tongliao
+CN_Inner Mongolia_Wuhai|Wuhai
+CN_Inner Mongolia_Xing|Xing
+CN_Jiangsu|Jiangsu
+CN_Jiangsu_Changzhou|Changzhou
+CN_Jiangsu_Huai|Huaian
+CN_Jiangsu_Lianyungang|Lianyungang
+CN_Jiangsu_Nanjing|Nanjing
+CN_Jiangsu_Nantong|Nantong
+CN_Jiangsu_Suqian|Suqian
+CN_Jiangsu_Suzhou|Suzhou
+CN_Jiangsu_Taizhou|Taizhou
+CN_Jiangsu_Wuxi|Wuxi
+CN_Jiangsu_Xuzhou|Xuzhou
+CN_Jiangsu_Yancheng|Yancheng
+CN_Jiangsu_Yangzhou|Yangzhou
+CN_Jiangsu_Zhenjiang|Zhenjiang
+CN_Jiangxi|Jiangxi
+CN_Jiangxi_Fuzhou|Fuzhou
+CN_Jiangxi_Ganzhou|Ganzhou
+CN_Jiangxi_Jian|Ji'an
+CN_Jiangxi_Jingdezhen|Jingdezhen
+CN_Jiangxi_Jiujiang|Jiujiang
+CN_Jiangxi_Nanchang|Nanchang
+CN_Jiangxi_Pingxiang|Pingxiang
+CN_Jiangxi_Shangrao|Shangrao
+CN_Jiangxi_Xinyu|Xinyu
+CN_Jiangxi_Yichun|Yichun
+CN_Jiangxi_Yingtan|Yingtan
+CN_Jilin|Jilin
+CN_Jilin_Changchun|Changchun
+CN_Jilin_Jilin|Jilin
+CN_Jilin_Liaoyuan|Liaoyuan
+CN_Jilin_Matsubara|Songyuan
+CN_Jilin_Siping|Siping
+CN_Jilin_Tonghua|Tonghua
+CN_Jilin_White City|Baicheng
+CN_Jilin_White Mountains|Baishan
+CN_Jilin_Yanbian|Yanbian
+CN_Liaoning|Liaoning
+CN_Liaoning_Anshan|Anshan
+CN_Liaoning_Benxi|Benxi
+CN_Liaoning_Chaoyang|Chaoyang
+CN_Liaoning_Dalian|Dalian
+CN_Liaoning_Dandong|Dandong
+CN_Liaoning_Fushun|Fushun
+CN_Liaoning_Fuxin|Fuxin
+CN_Liaoning_Huludao|Huludao
+CN_Liaoning_Jinzhou|Jinzhou
+CN_Liaoning_Liaoyang|Liaoyang
+CN_Liaoning_Panjin|Panjin
+CN_Liaoning_Shenyang|Shenyang
+CN_Liaoning_Tieling|Tieling
+CN_Liaoning_Yingkou|Yingkou
+CN_Macao|Macao
+CN_Macao_Cathedral|Cathedral
+CN_Macao_Coloane|Coloane
+CN_Macao_Fatima|Fatima
+CN_Macao_St. Anthony|St. Anthony
+CN_Macao_St. Lawrence|St. Lawrence
+CN_Macao_St. Lazarus|St. Lazarus
+CN_Macao_Taipa|Taipa
+CN_Ningxia|Ningxia
+CN_Ningxia_Guyuan|Guyuan
+CN_Ningxia_Shizuishan|Shizuishan
+CN_Ningxia_Wuzhong|Wuzhong
+CN_Ningxia_Yinchuan|Yinchuan
+CN_Ningxia_Zhongwei|Zhongwei
+CN_Qinghai|Qinghai
+CN_Qinghai_Guoluo|Guoluo
+CN_Qinghai_Haidong|Haidong
+CN_Qinghai_Hainan|Hainan
+CN_Qinghai_Hercynian|Haixi
+CN_Qinghai_Huangnan|Huangnan
+CN_Qinghai_Xining|Xining
+CN_Qinghai_Yushu|Yushu
+CN_Qinghai_rambling|Haibei
+CN_Shaanxi|Shaanxi
+CN_Shaanxi_Ankang|Ankang
+CN_Shaanxi_Baoji|Baoji
+CN_Shaanxi_Hanzhong|Hanzhong
+CN_Shaanxi_Shangluo|Shangluo
+CN_Shaanxi_Tongchuan|Tongchuan
+CN_Shaanxi_Weinan|Weinan
+CN_Shaanxi_Xi'an|Xi'an
+CN_Shaanxi_Xianyang|Xianyang
+CN_Shaanxi_Yanan|Yanan
+CN_Shaanxi_Yulin|Yulin
+CN_Shandong|Shandong
+CN_Shandong_Binzhou|Binzhou
+CN_Shandong_Texas|Dezhou
+CN_Shandong_Dongying|Dongying
+CN_Shandong_Heze|Heze
+CN_Shandong_Jinan|Jinan
+CN_Shandong_Jining|Jining
+CN_Shandong_Laiwu|Laiwu
+CN_Shandong_Liaocheng|Liaocheng
+CN_Shandong_Linyi|Linyi
+CN_Shandong_Qingdao|Qingdao
+CN_Shandong_Rizhao|Rizhao
+CN_Shandong_Taian|Taian
+CN_Shandong_Weifang|Weifang
+CN_Shandong_Weihai|Weihai
+CN_Shandong_Yantai|Yantai
+CN_Shandong_Zaozhuang|Zaozhuang
+CN_Shandong_Zibo|Zibo
+CN_Shanghai|Shanghai
+CN_Shanghai_Baoshan|Baoshan
+CN_Shanghai_Changning|Changning
+CN_Shanghai_Chongming|Chongming
+CN_Shanghai_Fengxian|Fengxian
+CN_Shanghai_Hongkou|Hongkou
+CN_Shanghai_Huangpu|Huangpu
+CN_Shanghai_Jiading|Jiading
+CN_Shanghai_Jing|Jing'an
+CN_Shanghai_Jinshan|Jinshan
+CN_Shanghai_Luwan|Luwan
+CN_Shanghai_Minhang|Minhang
+CN_Shanghai_Po|Putuo
+CN_Shanghai_Pudong New District|Pudong New Area
+CN_Shanghai_Qingpu|Qingpu
+CN_Shanghai_Songjiang|Songjiang
+CN_Shanghai_Xuhui|Xuhui
+CN_Shanghai_Yangpu|Yangpu
+CN_Shanghai_Zhabei|Zhabei
+CN_Shanxi|Shanxi
+CN_Shanxi_Changzhi|Changzhi
+CN_Shanxi_Datong|Datong
+CN_Shanxi_Jincheng|Jincheng
+CN_Shanxi_Jinzhong|Jinzhong
+CN_Shanxi_Linfen|Linfen
+CN_Shanxi_Luliang|Luliang
+CN_Shanxi_Shuozhou|Shuozhou
+CN_Shanxi_Taiyuan|Taiyuan
+CN_Shanxi_Xinzhou|Xinzhou
+CN_Shanxi_Yangquan|Yangquan
+CN_Shanxi_Yuncheng|Yuncheng
+CN_Sichuan|Sichuan
+CN_Sichuan_Aba|Aba
+CN_Sichuan_Chengdu|Chengdu
+CN_Sichuan_Deyang|Deyang
+CN_Sichuan_Florida|Dazhou
+CN_Sichuan_Ganzi|Ganzi
+CN_Sichuan_Guangyuan|Guangyuan
+CN_Sichuan_Kwong|Guang'an
+CN_Sichuan_Leshan|Leshan
+CN_Sichuan_Liangshan|Liangshan
+CN_Sichuan_Luzhou|Luzhou
+CN_Sichuan_Meishan|Meishan
+CN_Sichuan_Mianyang|Mianyang
+CN_Sichuan_Nanchong|Nanchong
+CN_Sichuan_Neijiang|Neijiang
+CN_Sichuan_Pakistan|Bazhong
+CN_Sichuan_Panzhihua|Panzhihua
+CN_Sichuan_Suining|Suining
+CN_Sichuan_Yaan|Ya'an
+CN_Sichuan_Yibin|Yibin
+CN_Sichuan_Zigong|Zigong
+CN_Sichuan_Ziyang|Ziyang
+CN_Taiwan|Taiwan
+CN_Taiwan_Changhua County|Changhua County
+CN_Taiwan_Chiayi City|Chiayi City
+CN_Taiwan_Chiayi County|Chiayi County
+CN_Taiwan_Hsinchu City|Hsinchu City
+CN_Taiwan_Hsinchu County|Hsinchu County
+CN_Taiwan_Hualien County|Hualien County
+CN_Taiwan_Kaohsiung City|Kaohsiung City
+CN_Taiwan_Keelung City|Keelung City
+CN_Taiwan_Kinmen County|Kinmen County
+CN_Taiwan_Lianjiang County|Lianjiang County
+CN_Taiwan_Miaoli County|Miaoli County
+CN_Taiwan_Nantou County|Nantou County
+CN_Taiwan_New Taipei City|New Taipei City
+CN_Taiwan_Penghu County|Penghu County
+CN_Taiwan_Pingtung County|Pingtung County
+CN_Taiwan_Taichung City|Taichung City
+CN_Taiwan_Tainan City|Tainan City
+CN_Taiwan_Taipei|Taipei
+CN_Taiwan_Taitung County|Taitung County
+CN_Taiwan_Taoyuan County|Taoyuan County
+CN_Taiwan_Yilan County|Yilan County
+CN_Taiwan_Yunlin County|Yunlin County
+CN_Tianjin|Tianjin
+CN_Tianjin_Baodi|Baodi
+CN_Tianjin_Binhai New Area|Binhai New Area
+CN_Tianjin_Hebei|Hebei
+CN_Tianjin_Jinghai|Jinghai
+CN_Tianjin_Jinnan|Jinnan
+CN_Tianjin_Jixian|Jixian
+CN_Tianjin_Nankai|Nankai
+CN_Tianjin_Ninghe|Ninghe
+CN_Tianjin_North Star|Beichen
+CN_Tianjin_Peace|Heping
+CN_Tianjin_Red Bridge|Hongqiao
+CN_Tianjin_Toray|Dongli
+CN_Tianjin_West Green|Xiqing
+CN_Tianjin_Wuqing|Wuqing
+CN_Tianjin_east|Hedong
+CN_Tianjin_west|Hexi
+CN_Tibet|Tibet
+CN_Tibet_Ali|Ali
+CN_Tibet_Lhasa|Lhasa
+CN_Tibet_Nagqu|Nagqu
+CN_Tibet_Nyingchi|Nyingchi
+CN_Tibet_Qamdo|Qamdo
+CN_Tibet_Shannan|Shannan
+CN_Tibet_Shigatse|Shigatse
+CN_Xinjiang|Xinjiang
+CN_Xinjiang_Aksu|Aksu
+CN_Xinjiang_Altay|Altay
+CN_Xinjiang_Arar|Arar
+CN_Xinjiang_Bayingolin|Bayingolin
+CN_Xinjiang_Bortala|Bortala
+CN_Xinjiang_Changji|Changji
+CN_Xinjiang_Figure wooden Shook|Figure wooden Shook
+CN_Xinjiang_Hamilton|Hamilton
+CN_Xinjiang_Hotan|Hotan
+CN_Xinjiang_Ili|Ili
+CN_Xinjiang_Karamay|Karamay
+CN_Xinjiang_Kashgar|Kashgar
+CN_Xinjiang_Kizilsu|Kizilsu
+CN_Xinjiang_Shihezi|Shihezi
+CN_Xinjiang_Tacheng|Tacheng
+CN_Xinjiang_Turpan|Turpan
+CN_Xinjiang_Urumqi|Urumqi
+CN_Xinjiang_Wujiaqu|Wujiaqu
+CN_Yunnan|Yunnan
+CN_Yunnan_Baoshan|Baoshan
+CN_Yunnan_Chuxiong|Chuxiong
+CN_Yunnan_Dali|Dali
+CN_Yunnan_Devon|Dehong
+CN_Yunnan_Diqing|Diqing
+CN_Yunnan_Kunming|Kunming
+CN_Yunnan_Lijiang|Lijiang
+CN_Yunnan_Lincang|Lincang
+CN_Yunnan_Nu|Nujiang
+CN_Yunnan_Pu'er|Pu'er
+CN_Yunnan_Qujing|Qujing
+CN_Yunnan_Red|Honghe
+CN_Yunnan_Wenshan|Wenshan
+CN_Yunnan_Xishuangbanna|Xishuangbanna
+CN_Yunnan_Yuxi|Yuxi
+CN_Yunnan_Zhaotong|Zhaotong
+CN_Zhejiang|Zhejiang
+CN_Zhejiang_Hangzhou|Hangzhou
+CN_Zhejiang_Huzhou|Huzhou
+CN_Zhejiang_Jiaxing|Jiaxing
+CN_Zhejiang_Jinhua|Jinhua
+CN_Zhejiang_Lishui|Lishui
+CN_Zhejiang_Ningbo|Ningbo
+CN_Zhejiang_Quzhou|Quzhou
+CN_Zhejiang_Shaoxing|Shaoxing
+CN_Zhejiang_Taizhou|Taizhou
+CN_Zhejiang_Wenzhou|Wenzhou
+CN_Zhejiang_Zhoushan|Zhoushan
+CO|Columbia
+CG|Congo(DRC)
+CR|Costa Rica
+HR|Croatia
+CU|Cuba
+CZ|Czech Republic
+DK|Denmark
+DJ|Djibouti
+DO|Dominican Republic
+EC|Ecuador
+EE|Estonia
+EG|Egypt
+ER|Eritrea
+ET|Ethiopia
+FJ|Fiji Islands
+FI|Finland
+FR|France
+FR_Aix-en-Provence|Aix-en-Provence
+FR_Ajaccio|Ajaccio
+FR_Amiens|Amiens
+FR_Arles|Arles
+FR_Besancon|Besancon
+FR_Caen|Caen
+FR_Chalons-en-Champagne|Chalons-en-Champagne
+FR_Dijon|Dijon
+FR_Frejus|Fréjus
+FR_Lille|Lille
+FR_Limoges|Limoges
+FR_Lyon|Lyon
+FR_Marseille|Marseille
+FR_Metz|Metz
+FR_Montpellier|Montpellier
+FR_Nantes|Nantes
+FR_Nice|Nice
+FR_Orleans|Orleans
+FR_Paris|Paris
+FR_Rennes|Rennes
+FR_Rouen|Rouen
+FR_Toulouse|Toulouse
+FR_Valence|Valence
+GM|Gambia
+GE|Georgia
+DE|Germany
+DE_Ansbach|Ansbach
+DE_Arnsberg|Arnsberg
+DE_Augsburg|Augsburg
+DE_Bayreuth|Bayreuth
+DE_Berlin|Berlin
+DE_Bielefeld|Bielefeld
+DE_Bochum|Bochum
+DE_Bremen|Bremen
+DE_Brunswick|Brunswick
+DE_Chemnitz|Chemnitz
+DE_Cologne|Cologne
+DE_Darmstadt|Darmstadt
+DE_Dessau|Dessau
+DE_Detmold|Detmold
+DE_Dresden|Dresden
+DE_Dusseldorf|Dusseldorf
+DE_Erfurt|Erfurt
+DE_Frankfurt|Frankfurt
+DE_Freiburg|Freiburg
+DE_GieBen|GieBen
+DE_Halle|Halle
+DE_Hamburg|Hamburg
+DE_Hannover|Hannover
+DE_Karlsruhe|Karlsruhe
+DE_Kassel|Kassel
+DE_Kiel|Kiel
+DE_Koblenz|Koblenz
+DE_Landshut|Landshut
+DE_Leipzig|Leipzig
+DE_Luneburg|Luneburg
+DE_Magdeburg|Magdeburg
+DE_Mainz|Mainz
+DE_Mannheim|Mannheim
+DE_Muenster|Muenster
+DE_Munich|Munich
+DE_Nuremberg|Nuremberg
+DE_Potsdam|Potsdam
+DE_Schwerin|Schwerin
+DE_Stuttgart|Stuttgart
+DE_Trier|Trier
+DE_Wiesbaden|Wiesbaden
+DE_Wuerzburg|Wuerzburg
+GH|Ghana
+GI|Gibraltar
+GR|Greece
+GL|Greenland
+GD|Grenada
+GU|Guam
+GT|Guatemala
+GG|Guernsey
+HT|Haiti
+HN|Honduras
+HK|Hong Kong SAR (China)
+HK_Central and Western|Central and Western
+HK_Eastern|Eastern
+HK_Islands|Islands
+HK_Kowloon City|Kowloon City
+HK_Kwai Tsing|Kwai Tsing
+HK_Kwun Tong|Kwun Tong
+HK_North|North
+HK_Sai Kung|Sai Kung
+HK_Sha Tin|Sha Tin
+HK_Sham Shui Po|Sham Shui Po
+HK_Southern|Southern
+HK_Tai Po|Tai Po
+HK_Tsuen Wan|Tsuen Wan
+HK_Tuen Mun|Tuen Mun
+HK_Wan Chai|Wan Chai
+HK_Wong Tai Sin|Wong Tai Sin
+HK_Yau Tsim Mong|Yau Tsim Mong
+HK_Yuen Long|Yuen Long
+HU|Hungary
+HU_Bacs-Kiskun|Bacs-Kiskun
+HU_Baranya|Baranya
+HU_Bekes|Bekes
+HU_Borsod-Abauj-Zemplen|Borsod-Abauj-Zemplen
+HU_Budapest|Budapest
+HU_Csongrad|Csongrad
+HU_Fejer|Fejer
+HU_Gyor-Moson-Sopron|Gyor-Moson-Sopron
+HU_Hajdu-Bihar|Hajdú-Bihar
+HU_Heves|Heves
+HU_Jasz-Nagykun-Szolnok|Jasz-Nagykun-Szolnok
+HU_Komarom-Esztergom|Komarom-Esztergom
+HU_Nograd|Nograd
+HU_Pest|Pest
+HU_Somogy|Somogy
+HU_Szabolcs-Szatmar-Bereg|Szabolcs-Szatmar-Bereg
+HU_Tolna|Tolna
+HU_Vas|Vas
+HU_Veszprem|Veszprem
+HU_Zala|Zala
+IS|Iceland
+IN|India
+IN_Agartala|Agartala
+IN_Agra|Agra
+IN_Ahmedabad|Ahmedabad
+IN_Aizawl|Aizawl
+IN_Aligarh|Aligarh
+IN_Allahabad|Allahabad
+IN_Amritsar|Amritsar
+IN_Aurangabad|Aurangabad
+IN_Bangalore|Bangalore
+IN_Baroda|Baroda
+IN_Bhopal|Bhopal
+IN_Bhubaneswar|Bhubaneswar
+IN_Bokaro|Bokaro
+IN_Chandigarh|Chandigarh
+IN_Chennai|Chennai
+IN_Cochin|Cochin
+IN_Coimbatore|Coimbatore
+IN_Cuttack|Cuttack
+IN_Dehradun|Dehradun
+IN_Dimapur|Dimapur
+IN_Durgapur|Durgapur
+IN_Faridabad|Faridabad
+IN_Gandhinagar|Gandhinagar
+IN_Ghaziabad|Ghaziabad
+IN_Goa|Goa
+IN_Gurgaon|Gurgaon
+IN_Guwahati|Guwahati
+IN_Gwalior|Gwalior
+IN_Hyderabad|Hyderabad
+IN_Imphal|Imphal
+IN_Indore|Indore
+IN_Jabalpur|Jabalpur
+IN_Jaipur|Jaipur
+IN_Jammu|Jammu
+IN_Jamnagar|Jamnagar
+IN_Jamshedpur|Jamshedpur
+IN_Jodhpur|Jodhpur
+IN_Jullundhar|Jullundhar
+IN_Kanpur|Kanpur
+IN_Kolhapur|Kolhapur
+IN_Kolkata|Kolkata
+IN_Lucknow|Lucknow
+IN_Ludhiana|Ludhiana
+IN_Madurai|Madurai
+IN_Mangalore|Mangalore
+IN_Margao|Margao
+IN_Mumbai|Mumbai
+IN_Mysore|Mysore
+IN_Nagpur|Nagpur
+IN_Nasik|Nasik
+IN_New Delhi|New Delhi
+IN_Noida|Noida
+IN_Panjim|Panjim
+IN_Patna|Patna
+IN_Pondicherry|Pondicherry
+IN_Pune|Pune
+IN_Raipur|Raipur
+IN_Rajkot|Rajkot
+IN_Ranchi|Ranchi
+IN_Rourkela|Rourkela
+IN_Salem|Salem
+IN_Secunderabad|Secunderabad
+IN_Shillong|Shillong
+IN_Siliguri|Siliguri
+IN_Srinagar|Srinagar
+IN_Sura|Sura
+IN_Thane|Thane
+IN_Thiruvananthapuram|Thiruvananthapuram
+IN_Tiruchirappalli|Tiruchirappalli
+IN_Udaipur|Udaipur
+IN_Varanasi|Varanasi
+IN_Vellore|Vellore
+IN_Vijayawada|Vijayawada
+IN_Visakhapatnam|Visakhapatnam
+ID|Indonesia
+ID_Aceh|Aceh
+ID_Bali|Bali
+ID_Banten|Banten
+ID_Bengkulu|Bengkulu
+ID_Daerah Istimewa Yogyakarta|Daerah Istimewa Yogyakarta
+ID_Daerah Tingkat I Kalimantan Barat|Daerah Tingkat I Kalimantan Barat
+ID_Irian Jaya|Irian Jaya
+ID_Jakarta Raya|Jakarta Raya
+ID_Jambi|Jambi
+ID_Java Barat|Java Barat
+ID_Java Tengah|Java Tengah
+ID_Java Timur|Java Timur
+ID_Kalimantan Selatan|Kalimantan Selatan
+ID_Kalimantan Tengah|Kalimantan Tengah
+ID_Kalimantan Timur|Kalimantan Timur
+ID_Kepulauan Bangka Belitung|Kepulauan Bangka Belitung
+ID_Lampung|Lampung
+ID_Maluku|Maluku
+ID_Nusa Tenggara Barat|Nusa Tenggara Barat
+ID_Nusa Tenggara Timur|Nusa Tenggara Timur
+ID_Riau|Riau
+ID_Sulawesi Selatan|Sulawesi Selatan
+ID_Sulawesi Tengah|Sulawesi Tengah
+ID_Sulawesi Tenggara|Sulawesi Tenggara
+ID_Sulawesi Utara|Sulawesi Utara
+ID_Sumatera Barat|Sumatera Barat
+ID_Sumatera Selatan|Sumatera Selatan
+ID_Sumatera Utara|Sumatera Utara
+IR|Iran
+IQ|Iraq
+IE|Ireland
+IE_Carlow|Carlow
+IE_Cavan|Cavan
+IE_Clare|Clare
+IE_Cork|Cork
+IE_Donegal|Donegal
+IE_Dublin|Dublin
+IE_Galway|Galway
+IE_Kerry|Kerry
+IE_Kildare|Kildare
+IE_Kilkenny|Kilkenny
+IE_Laois|Laois
+IE_Leitrim|Leitrim
+IE_Limerick|Limerick
+IE_Longford|Longford
+IE_Louth|Louth
+IE_Mayo|Mayo
+IE_Meath|Meath
+IE_Monaghan|Monaghan
+IE_Offaly|Offaly
+IE_Roscommon|Roscommon
+IE_Sligo|Sligo
+IE_Tipperary|Tipperary
+IE_Waterford|Waterford
+IE_Westmeath|Westmeath
+IE_Wexford|Wexford
+IE_Wicklow|Wicklow
+IL|Israel
+IT|Italy
+IT_Agrigento|Agrigento
+IT_Alessandria|Alessandria
+IT_Ancona|Ancona
+IT_Aosta|Aosta
+IT_Arezzo|Arezzo
+IT_Ascoli Piceno|Ascoli Piceno
+IT_Asti|Asti
+IT_Bari|Bari
+IT_Barletta-Andria-Trani|Barletta-Andria-Trani
+IT_Belluno|Belluno
+IT_Benevento|Benevento
+IT_Bergamo|Bergamo
+IT_Biella|Biella
+IT_Bologna|Bologna
+IT_Bolzano|Bolzano
+IT_Brescia|Brescia
+IT_Brindisi|Brindisi
+IT_Cagliari|Cagliari
+IT_Campobasso|Campobasso
+IT_Carbonia-Iglesias|Carbonia-Iglesias
+IT_Caserta|Caserta
+IT_Catania|Catania
+IT_Catanzaro|Catanzaro
+IT_Chieti|Chieti
+IT_Como|Como
+IT_Cosenza|Cosenza
+IT_Crotone|Crotone
+IT_Cuneo|Cuneo
+IT_Enna|Enna
+IT_Fermo|Fermo
+IT_Ferrara|Ferrara
+IT_Firenze|Firenze
+IT_Foggia|Foggia
+IT_Forlì- Cesena|Forlì- Cesena
+IT_Frosinone|Frosinone
+IT_Genova|Genova
+IT_Gorizia|Gorizia
+IT_Grosseto|Grosseto
+IT_Imperia|Imperia
+IT_Isernia|Isernia
+IT_L'Aquila|L'Aquila
+IT_La Spezia|La Spezia
+IT_Latina|Latina
+IT_Lecce|Lecce
+IT_Lecco|Lecco
+IT_Livorno|Livorno
+IT_Lodi|Lodi
+IT_Lucca|Lucca
+IT_Macerata|Macerata
+IT_Mantova|Mantova
+IT_Massa-Carrara|Massa-Carrara
+IT_Matera|Matera
+IT_Messina|Messina
+IT_Milano|Milano
+IT_Modena|Modena
+IT_Monza e Brianza|Monza e Brianza
+IT_Naples|Napoli
+IT_Novara|Novara
+IT_Nuoro|Nuoro
+IT_Olbia-Tempio|Olbia-Tempio
+IT_Oristano|Oristano
+IT_Padova|Padova
+IT_Palermo|Palermo
+IT_Parma|Parma
+IT_Pavia|Pavia
+IT_Perugia|Perugia
+IT_Pesaro|Pesaro
+IT_Pescara|Pescara
+IT_Piacenza|Piacenza
+IT_Pisa|Pisa
+IT_Pistoia|Pistoia
+IT_Pordenone|Pordenone
+IT_Potenza|Potenza
+IT_Prato|Prato
+IT_Ragusa|Ragusa
+IT_Ravenna|Ravenna
+IT_Reggio Calabria|Reggio Calabria
+IT_Reggio Emilia|Reggio Emilia
+IT_Rieti|Rieti
+IT_Rimini|Rimini
+IT_Roma|Roma
+IT_Rovigo|Rovigo
+IT_Salerno|Salerno
+IT_Sassari|Sassari
+IT_Savona|Savona
+IT_Siena|Siena
+IT_Syracuse|Siracusa
+IT_Sondrio|Sondrio
+IT_Taranto|Taranto
+IT_Teramo|Teramo
+IT_Terni|Terni
+IT_Turin|Torino
+IT_Trapani|Trapani
+IT_Trento|Trento
+IT_Treviso|Treviso
+IT_Trieste|Trieste
+IT_Udine|Udine
+IT_Varese|Varese
+IT_Venice|Venezia
+IT_Verbano-Cusio-Ossola|Verbano-Cusio-Ossola
+IT_Vercelli|Vercelli
+IT_Verona|Verona
+IT_Vibo-valentia|Vibo-valentia
+IT_Vicenza|Vicenza
+IT_Viterbo|Viterbo
+JM|Jamaica
+JP|Japan
+JP_Aichi|Aichi
+JP_Akita|Akita
+JP_Aomori|Aomori
+JP_Chiba|Chiba
+JP_Ehime|Ehime
+JP_Fukui|Fukui
+JP_Fukuoka|Fukuoka
+JP_Fukushima|Fukushima
+JP_Gifu|Gifu
+JP_Gunma|Gunma
+JP_Hiroshima|Hiroshima
+JP_Hokkaido|Hokkaido
+JP_Hyogo|Hyogo
+JP_Ibaraki|Ibaraki
+JP_Ishikawa|Ishikawa
+JP_Iwate|Iwate
+JP_Kagawa|Kagawa
+JP_Kagoshima|Kagoshima
+JP_Kanagawa|Kanagawa
+JP_Kochi|Kochi
+JP_Kumamoto|Kumamoto
+JP_Kyoto|Kyoto
+JP_Mie|Mie
+JP_Miyagi|Miyagi
+JP_Miyazaki|Miyazaki
+JP_Nagano|Nagano
+JP_Nagasaki|Nagasaki
+JP_Nara|Nara
+JP_Niigata|Niigata
+JP_Oita|Oita
+JP_Okayama|Okayama
+JP_Okinawa|Okinawa
+JP_Osaka|Osaka
+JP_Saga|Saga
+JP_Saitama|Saitama
+JP_Shiga|Shiga
+JP_Shimane|Shimane
+JP_Shizuoka|Shizuoka
+JP_Tochigi|Tochigi
+JP_Tokushima|Tokushima
+JP_Tokyo|Tokyo
+JP_Tottori|Tottori
+JP_Toyama|Toyama
+JP_Wakayama|Wakayama
+JP_Yamagata|Yamagata
+JP_Yamaguchi|Yamaguchi
+JP_Yamanashi|Yamanashi
+JE|Jersey
+JO|Jordan
+KZ|Kazakhstan
+KE|Kenya
+KI|Kiribati
+KR|Korea
+KR_Busan|Busan
+KR_Chungcheongbuk-do|Chungcheongbuk-do
+KR_Chungcheongbuk-do_Andong|Andong
+KR_Chungcheongbuk-do_Bonghwa County|Bonghwa County
+KR_Chungcheongbuk-do_Cheongdo County|Cheongdo County
+KR_Chungcheongbuk-do_Cheongsong County|Cheongsong County
+KR_Chungcheongbuk-do_Chilgok County|Chilgok County
+KR_Chungcheongbuk-do_Gimcheon|Gimcheon
+KR_Chungcheongbuk-do_Goryeong County|Goryeong County
+KR_Chungcheongbuk-do_Gumi|Gumi
+KR_Chungcheongbuk-do_Gunwi County|Gunwi County
+KR_Chungcheongbuk-do_Gyeongju|Gyeongju
+KR_Chungcheongbuk-do_Gyeongsan|Gyeongsan
+KR_Chungcheongbuk-do_Mungyeong|Mungyeong
+KR_Chungcheongbuk-do_Pohang|Pohang
+KR_Chungcheongbuk-do_Sangju|Sangju
+KR_Chungcheongbuk-do_Seongju County|Seongju County
+KR_Chungcheongbuk-do_Uiseong County|Uiseong County
+KR_Chungcheongbuk-do_Uljin County|Uljin County
+KR_Chungcheongbuk-do_Ulleung County|Ulleung County
+KR_Chungcheongbuk-do_Yecheon County|Yecheon County
+KR_Chungcheongbuk-do_Yeongcheon|Yeongcheon
+KR_Chungcheongbuk-do_Yeongdeok County|Yeongdeok County
+KR_Chungcheongbuk-do_Yeongju|Yeongju
+KR_Chungcheongbuk-do_Yeongyang County|Yeongyang County
+KR_Chungcheongnam-do|Chungcheongnam-do
+KR_Chungcheongnam-do_Changnyeong County|Changnyeong County
+KR_Chungcheongnam-do_Changwon|Changwon
+KR_Chungcheongnam-do_Geochang County|Geochang County
+KR_Chungcheongnam-do_Geoje|Geoje
+KR_Chungcheongnam-do_Gimhae|Gimhae
+KR_Chungcheongnam-do_Goseong County|Goseong County
+KR_Chungcheongnam-do_Hadong County|Hadong County
+KR_Chungcheongnam-do_Haman County|Haman County
+KR_Chungcheongnam-do_Hamyang County|Hamyang County
+KR_Chungcheongnam-do_Hapcheon County|Hapcheon County
+KR_Chungcheongnam-do_Jinhae|Jinhae
+KR_Chungcheongnam-do_Jinju|Jinju
+KR_Chungcheongnam-do_Masan|Masan
+KR_Chungcheongnam-do_Miryang|Miryang
+KR_Chungcheongnam-do_Namhae County|Namhae County
+KR_Chungcheongnam-do_Sacheon|Sacheon
+KR_Chungcheongnam-do_Sancheong County|Sancheong County
+KR_Chungcheongnam-do_Tongyeong|Tongyeong
+KR_Chungcheongnam-do_Uiryeong County|Uiryeong County
+KR_Chungcheongnam-do_Yangsan|Yangsan
+KR_Daegu|Daegu
+KR_Daegu_Daegu|Daegu
+KR_Daegu_Dalseong-gun|Dalseong-gun
+KR_Daegu_Suseong-gu|Suseong-gu
+KR_Daejeon|Daejeon
+KR_Gangwon-do|Gangwon-do
+KR_Gangwon-do_Cheorwon County|Cheorwon County
+KR_Gangwon-do_Chuncheon|Chuncheon
+KR_Gangwon-do_Donghae|Donghae
+KR_Gangwon-do_Gangneung|Gangneung
+KR_Gangwon-do_Goseong County|Goseong County
+KR_Gangwon-do_Hoengseong County|Hoengseong County
+KR_Gangwon-do_Hongcheon County|Hongcheon County
+KR_Gangwon-do_Hwacheon County|Hwacheon County
+KR_Gangwon-do_Inje County|Inje County
+KR_Gangwon-do_Jeongseon County|Jeongseon County
+KR_Gangwon-do_Pyeongchang County|Pyeongchang County
+KR_Gangwon-do_Samcheok|Samcheok
+KR_Gangwon-do_Sokcho|Sokcho
+KR_Gangwon-do_Taebaek|Taebaek
+KR_Gangwon-do_Wonju|Wonju
+KR_Gangwon-do_Yanggu County|Yanggu County
+KR_Gangwon-do_Yangyang County|Yangyang County
+KR_Gangwon-do_Yeongwol County|Yeongwol County
+KR_Gwangju|Gwangju
+KR_Gyeonggi-do|Gyeonggi-do
+KR_Gyeongsangbuk-do|Gyeongsangbuk-do
+KR_Gyeongsangbuk-do_Buan County|Buan County
+KR_Gyeongsangbuk-do_Gimje|Gimje
+KR_Gyeongsangbuk-do_Gochang County|Gochang County
+KR_Gyeongsangbuk-do_Gunsan|Gunsan
+KR_Gyeongsangbuk-do_Iksan|Iksan
+KR_Gyeongsangbuk-do_Imsil County|Imsil County
+KR_Gyeongsangbuk-do_Jangsu County|Jangsu County
+KR_Gyeongsangbuk-do_Jeongeup|Jeongeup
+KR_Gyeongsangbuk-do_Jeonju|Jeonju
+KR_Gyeongsangbuk-do_Jinan County|Jinan County
+KR_Gyeongsangbuk-do_Muju County|Muju County
+KR_Gyeongsangbuk-do_Namwon|Namwon
+KR_Gyeongsangbuk-do_Sunchang County|Sunchang County
+KR_Gyeongsangbuk-do_Wanju County|Wanju County
+KR_Gyeongsangnam-do|Gyeongsangnam-do
+KR_Gyeongsangnam-do_Boseong County|Boseong County
+KR_Gyeongsangnam-do_Damyang County|Damyang County
+KR_Gyeongsangnam-do_Gangjin County|Gangjin County
+KR_Gyeongsangnam-do_Goheung County|Goheung County
+KR_Gyeongsangnam-do_Gokseong County|Gokseong County
+KR_Gyeongsangnam-do_Gurye County|Gurye County
+KR_Gyeongsangnam-do_Gwangyang|Gwangyang
+KR_Gyeongsangnam-do_Haenam County|Haenam County
+KR_Gyeongsangnam-do_Hampyeong County|Hampyeong County
+KR_Gyeongsangnam-do_Hwasun County|Hwasun County
+KR_Gyeongsangnam-do_Jangheung County|Jangheung County
+KR_Gyeongsangnam-do_Jangseong County|Jangseong County
+KR_Gyeongsangnam-do_Jindo County|Jindo County
+KR_Gyeongsangnam-do_Mokpo|Mokpo
+KR_Gyeongsangnam-do_Muan County|Muan County
+KR_Gyeongsangnam-do_Naju|Naju
+KR_Gyeongsangnam-do_Sinan County|Sinan County
+KR_Gyeongsangnam-do_Suncheon|Suncheon
+KR_Gyeongsangnam-do_Wando County|Wando County
+KR_Gyeongsangnam-do_Yeongam County|Yeongam County
+KR_Gyeongsangnam-do_Yeonggwang County|Yeonggwang County
+KR_Gyeongsangnam-do_Yeosu|Yeosu
+KR_Incheon|Incheon
+KR_Jeju-do|Jeju-do
+KR_Jeju-do_Ansan|Ansan
+KR_Jeju-do_Anseong|Anseong
+KR_Jeju-do_Anyang|Anyang
+KR_Jeju-do_Bucheon|Bucheon
+KR_Jeju-do_Dongducheon|Dongducheon
+KR_Jeju-do_Gapyeong County|Gapyeong County
+KR_Jeju-do_Gimpo|Gimpo
+KR_Jeju-do_Goyang|Goyang
+KR_Jeju-do_Gunpo|Gunpo
+KR_Jeju-do_Guri|Guri
+KR_Jeju-do_Gwacheon|Gwacheon
+KR_Jeju-do_Gwangju|Gwangju
+KR_Jeju-do_Gwangmyeong|Gwangmyeong
+KR_Jeju-do_Hanam|Hanam
+KR_Jeju-do_Hwaseong|Hwaseong
+KR_Jeju-do_Icheon|Icheon
+KR_Jeju-do_Namyangju|Namyangju
+KR_Jeju-do_Osan|Osan
+KR_Jeju-do_Paju|Paju
+KR_Jeju-do_Pocheon|Pocheon
+KR_Jeju-do_Pyeongtaek|Pyeongtaek
+KR_Jeju-do_Seongnam|Seongnam
+KR_Jeju-do_Siheung|Siheung
+KR_Jeju-do_Suwon|Suwon
+KR_Jeju-do_Uijeongbu|Uijeongbu
+KR_Jeju-do_Uiwang|Uiwang
+KR_Jeju-do_Yangju|Yangju
+KR_Jeju-do_Yangpyeong County|Yangpyeong County
+KR_Jeju-do_Yeoju County|Yeoju County
+KR_Jeju-do_Yeoncheon County|Yeoncheon County
+KR_Jeju-do_Yongin|Yongin
+KR_Jeollabuk-do|Jeollabuk-do
+KR_Jeollabuk-do_Boeun County|Boeun County
+KR_Jeollabuk-do_Cheongju|Cheongju
+KR_Jeollabuk-do_Cheongwon County|Cheongwon County
+KR_Jeollabuk-do_Chungju|Chungju
+KR_Jeollabuk-do_Danyang County|Danyang County
+KR_Jeollabuk-do_Eumseong County|Eumseong County
+KR_Jeollabuk-do_Goesan County|Goesan County
+KR_Jeollabuk-do_Jecheon|Jecheon
+KR_Jeollabuk-do_Jeungpyeong County|Jeungpyeong County
+KR_Jeollabuk-do_Jincheon County|Jincheon County
+KR_Jeollabuk-do_Okcheon County|Okcheon County
+KR_Jeollabuk-do_Yeongdong County|Yeongdong County
+KR_Jeollanam-do|Jeollanam-do
+KR_Jeollanam-do_Asan|Asan
+KR_Jeollanam-do_Boryeong|Boryeong
+KR_Jeollanam-do_Buyeo County|Buyeo County
+KR_Jeollanam-do_Cheonan|Cheonan
+KR_Jeollanam-do_Cheongyang County|Cheongyang County
+KR_Jeollanam-do_Dangjin County|Dangjin County
+KR_Jeollanam-do_Geumsan County|Geumsan County
+KR_Jeollanam-do_Gongju|Gongju
+KR_Jeollanam-do_Gyeryong|Gyeryong
+KR_Jeollanam-do_Hongseong County|Hongseong County
+KR_Jeollanam-do_Nonsan|Nonsan
+KR_Jeollanam-do_Seocheon County|Seocheon County
+KR_Jeollanam-do_Seosan|Seosan
+KR_Jeollanam-do_Taean County|Taean County
+KR_Jeollanam-do_Yeongi County|Yeongi County
+KR_Jeollanam-do_Yesan County|Yesan County
+KR_Seoul|Seoul
+KR_Ulsan|Ulsan
+KW|Kuwait
+KG|Kyrgyzstan
+LA|Laos
+LV|Latvia
+LB|Lebanon
+LS|Lesotho
+LR|Liberia
+LY|Libya
+LI|Liechtenstein
+LT|Lithuania
+LU|Luxembourg
+MO|Macao SAR (China)
+MO_Cathedral|Cathedral
+MO_Coloane|Coloane
+MO_Fatima|Fatima
+MO_St. Anthony|St. Anthony
+MO_St. Lawrence|St. Lawrence
+MO_St. Lazarus|St. Lazarus
+MO_Taipa|Taipa
+MK|Macedonia,Former Yugoslav Republic of
+MG|Madagascar
+MW|Malawi
+MY|Malaysia
+MY_Johor|Johor
+MY_Johor_Batu Pahat|Batu Pahat
+MY_Johor_Johor Bahru|Johor Bahru
+MY_Johor_Kluang|Kluang
+MY_Johor_Kota Tinggi|Kota Tinggi
+MY_Johor_Mersing|Mersing
+MY_Johor_Muar|Muar
+MY_Johor_Pontian|Pontian
+MY_Johor_Segamat|Segamat
+MY_Kedah|Kedah
+MY_Kedah_Baling|Baling
+MY_Kedah_Bandar Baharu|Bandar Baharu
+MY_Kedah_Kota Setar|Kota Setar
+MY_Kedah_Kuala Muda|Kuala Muda
+MY_Kedah_Kubang Pasu|Kubang Pasu
+MY_Kedah_Kulim|Kulim
+MY_Kedah_Langkawi|Langkawi
+MY_Kedah_Padang Terap|Padang Terap
+MY_Kedah_Pendang|Pendang
+MY_Kelantan|Kelantan
+MY_Kelantan_Bachok|Bachok
+MY_Kelantan_Gua Musang|Gua Musang
+MY_Kelantan_Jeli|Jeli
+MY_Kelantan_Kota Bharu|Kota Bharu
+MY_Kelantan_Kuala Krai|Kuala Krai
+MY_Kelantan_Machang|Machang
+MY_Kelantan_Pasir Mas|Pasir Mas
+MY_Kelantan_Pasir Putih|Pasir Putih
+MY_Kelantan_Tanah Merah|Tanah Merah
+MY_Kelantan_Tumpat|Tumpat
+MY_Kuala Lumpur|Kuala Lumpur
+MY_Kuala Lumpur_Kuala Lumpur|Kuala Lumpur
+MY_Labuan|Labuan
+MY_Labuan_Labuan|Labuan
+MY_Labuan_Victoria|Victoria
+MY_Malacca|Malacca
+MY_Malacca_Alor Gajah|Alor Gajah
+MY_Malacca_Jasin|Jasin
+MY_Malacca_Melaka|Melaka
+MY_Negeri Sembilan|Negeri Sembilan
+MY_Negeri Sembilan_Jelebu|Jelebu
+MY_Negeri Sembilan_Jempol|Jempol
+MY_Negeri Sembilan_Kuala Pilah|Kuala Pilah
+MY_Negeri Sembilan_Port Dickson|Port Dickson
+MY_Negeri Sembilan_Rembau|Rembau
+MY_Negeri Sembilan_Seremban|Seremban
+MY_Negeri Sembilan_Tampin|Tampin
+MY_Pahang|Pahang
+MY_Pahang_Bentong|Bentong
+MY_Pahang_Bera|Bera
+MY_Pahang_Cameron Highlands|Cameron Highlands
+MY_Pahang_Jerantut|Jerantut
+MY_Pahang_Kuala Lipis|Kuala Lipis
+MY_Pahang_Kuantan|Kuantan
+MY_Pahang_Maran|Maran
+MY_Pahang_Pekan|Pekan
+MY_Pahang_Raub|Raub
+MY_Pahang_Rompin|Rompin
+MY_Pahang_Temerloh|Temerloh
+MY_Perak|Perak
+MY_Perak_Batu Gajah|Batu Gajah
+MY_Perak_Ipoh|Ipoh
+MY_Perak_Kuala Kangsar|Kuala Kangsar
+MY_Perak_Lumut|Lumut
+MY_Perak_Sungai Siput|Sungai Siput
+MY_Perak_Taiping|Taiping
+MY_Perak_Tanjung Malim|Tanjung Malim
+MY_Perak_Teluk Intan|Teluk Intan
+MY_Perlis|Perlis
+MY_Perlis_Kangar|Kangar
+MY_Pulau Pinang|Pulau Pinang
+MY_Pulau Pinang_Bukit Mertajam|Bukit Mertajam
+MY_Pulau Pinang_Butterworth|Butterworth
+MY_Pulau Pinang_George Town|George Town
+MY_Pulau Pinang_Nibong Tebal|Nibong Tebal
+MY_Sabah|Sabah
+MY_Sabah_Beaufort|Beaufort
+MY_Sabah_Beluran|Beluran
+MY_Sabah_Keningau|Keningau
+MY_Sabah_Kinabatangan|Kinabatangan
+MY_Sabah_Kota Belud|Kota Belud
+MY_Sabah_Kota Kinabalu|Kota Kinabalu
+MY_Sabah_Kota Marudu|Kota Marudu
+MY_Sabah_Kuala Penyu|Kuala Penyu
+MY_Sabah_Kudat|Kudat
+MY_Sabah_Kunak|Kunak
+MY_Sabah_Lahad Datu|Lahad Datu
+MY_Sabah_Nabawan|Nabawan
+MY_Sabah_Papar|Papar
+MY_Sabah_Penampang|Penampang
+MY_Sabah_Pitas|Pitas
+MY_Sabah_Ranau|Ranau
+MY_Sabah_Sandakan|Sandakan
+MY_Sabah_Semporna|Semporna
+MY_Sabah_Sipitang|Sipitang
+MY_Sabah_Tambunan|Tambunan
+MY_Sabah_Tawau|Tawau
+MY_Sabah_Tenom|Tenom
+MY_Sabah_Tuaran|Tuaran
+MY_Sarawak|Sarawak
+MY_Sarawak_Betong|Betong
+MY_Sarawak_Bintulu|Bintulu
+MY_Sarawak_Kapit|Kapit
+MY_Sarawak_Kuching|Kuching
+MY_Sarawak_Limbang|Limbang
+MY_Sarawak_Miri|Miri
+MY_Sarawak_Mukah|Mukah
+MY_Sarawak_Samarahan|Samarahan
+MY_Sarawak_Sarikei|Sarikei
+MY_Sarawak_Sibu|Sibu
+MY_Sarawak_Sri Aman|Sri Aman
+MY_Selangor|Selangor
+MY_Selangor_Gombak|Gombak
+MY_Selangor_Hulu Langat|Hulu Langat
+MY_Selangor_Hulu Selangor|Hulu Selangor
+MY_Selangor_Kuala Langat|Kuala Langat
+MY_Selangor_Kuala Selangor|Kuala Selangor
+MY_Selangor_Petaling|Petaling
+MY_Selangor_Sabak Bernam|Sabak Bernam
+MY_Selangor_Sepang|Sepang
+MY_Terengganu|Terengganu
+MY_Terengganu_Besut|Besut
+MY_Terengganu_Dungun|Dungun
+MY_Terengganu_Hulu|Hulu
+MY_Terengganu_Kemaman|Kemaman
+MY_Terengganu_Kuala Terengganu|Kuala Terengganu
+MY_Terengganu_Marang|Marang
+MY_Terengganu_Setiu|Setiu
+MV|Maldives
+MV_Addu Atoll|Addu Atoll
+MV_Faadhippolhu|Faadhippolhu
+MV_Felidhu Atoll|Felidhu Atoll
+MV_Foammulah|Foammulah
+MV_Hadhdhunmathi|Hadhdhunmathi
+MV_Kolhumadulu|Kolhumadulu
+MV_Male|Male
+MV_Male Atoll|Male Atoll
+MV_Mulakatholhu|Mulakatholhu
+MV_North Ari Atoll|North Ari Atoll
+MV_North Huvadhu Atoll|North Huvadhu Atoll
+MV_North Maalhosmadhulu|North Maalhosmadhulu
+MV_North Miladhunmadhulu|North Miladhunmadhulu
+MV_North Nilandhe Atoll|North Nilandhe Atoll
+MV_North Thiladhunmathi|North Thiladhunmathi
+MV_South Ari Atoll|South Ari Atoll
+MV_South Huvadhu Atoll|South Huvadhu Atoll
+MV_South Maalhosmadulu|South Maalhosmadulu
+MV_South Miladhunmadhulu|South Miladhunmadhulu
+MV_South Nilandhe Atoll|South Nilandhe Atoll
+MV_South Thiladhunmathi|South Thiladhunmathi
+MH|Marshall Islands
+MR|Mauritania
+MU|Mauritius
+MX|Mexico
+MX_Acapulco|Acapulco
+MX_Aguascalientes|Aguascalientes
+MX_Benito Juurez|Benito Juárez
+MX_Campeche|Campeche
+MX_Carmen|Carmen
+MX_Celaya|Celaya
+MX_Cheturnal|Cheturnal
+MX_Chihuahua|Chihuahua
+MX_Chilpancingo|Chilpancingo
+MX_Coatzacoalcos|Coatzacoalcos
+MX_Colima|Colima
+MX_Cuernavaca|Cuernavaca
+MX_Culiacan|Culiacan
+MX_Durango|Durango
+MX_Ensenada|Ensenada
+MX_Guadalajara|Guadalajara
+MX_Guanajuato|Guanajuato
+MX_Hermosillo|Hermosillo
+MX_Irapuato|Irapuato
+MX_Jalapa|Jalapa
+MX_Juarez|Juarez
+MX_La Paz|La Paz
+MX_Leon|Leon
+MX_Los Mochis|Los Mochis
+MX_Matamoros|Matamoros
+MX_Mazatlan|Mazatlan
+MX_Merida|Merida
+MX_Mexicali|Mexicali
+MX_Mexico City|Mexico City
+MX_Monclova|Monclova
+MX_Monterrey|Monterrey
+MX_Morelia|Morelia
+MX_Nogales|Nogales
+MX_Nuevo Laredo|Nuevo Laredo
+MX_Oaxaca|Oaxaca
+MX_Obregon|Obregon
+MX_Orizaba|Orizaba
+MX_Pachuca|Pachuca
+MX_Poza Rica de Hidalgo|Poza Rica de Hidalgo
+MX_Puebla|Puebla
+MX_Puerto Vallarta|Puerto Vallarta
+MX_Queretaro|Queretaro
+MX_Reynosa|Reynosa
+MX_Saltillo|Saltillo
+MX_San Luis Potosi|San Luis Potosi
+MX_Tampico|Tampico
+MX_Tapachula|Tapachula
+MX_Tehuacan|Tehuacán
+MX_Tepic|Tepic
+MX_Tijuana|Tijuana
+MX_Tlaxcala|Tlaxcala
+MX_Toluca|Toluca
+MX_Torreon|Torreon
+MX_Tuxtla Gutierrez|Tuxtla Gutierrez
+MX_Uruapan|Uruapan
+MX_Valles|Valles
+MX_Veracruz|Veracruz
+MX_Victoria|Victoria
+MX_Villahermosa|Villahermosa
+MX_Zacatecas|Zacatecas
+MD|Moldova
+MC|Monaco
+MN|Mongolia
+ME|Montenegro
+MA|Morocco
+MZ|Mozambique
+MM|Myanmar
+NA|Namibia
+NP|Nepal
+NL|Netherlands
+NL_'s-Hertogenbosch|'s-Hertogenbosch
+NL_Almere|Almere
+NL_Amersfoort|Amersfoort
+NL_Amsterdam|Amsterdam
+NL_Apeldoorn|Apeldoorn
+NL_Arnhem|Arnhem
+NL_Assen|Assen
+NL_Breda|Breda
+NL_Dordrecht|Dordrecht
+NL_Ede|Ede
+NL_Eindhoven|Eindhoven
+NL_Emmen|Emmen
+NL_Enschede|Enschede
+NL_Groningen|Groningen
+NL_Haarlem|Haarlem
+NL_Hague|Hague
+NL_Hoofddorp|Hoofddorp
+NL_Leeuwarden|Leeuwarden
+NL_Leiden|Leiden
+NL_Lelystad|Lelystad
+NL_Maastricht|Maastricht
+NL_Middelburg|Middelburg
+NL_Nijmegen|Nijmegen
+NL_Rotterdam|Rotterdam
+NL_Tilburg|Tilburg
+NL_Utrecht|Utrecht
+NL_Zoetermeer|Zoetermeer
+NL_Zwolle|Zwolle
+NC|New Caledonia
+NZ|New Zealand
+NZ_Auckland|Auckland
+NZ_Blenheim|Blenheim
+NZ_Christchurch|Christchurch
+NZ_Dunedin|Dunedin
+NZ_Far North|Far North
+NZ_Gisborne|Gisborne
+NZ_Greymouth|Greymouth
+NZ_Hamilton|Hamilton
+NZ_Hastings|Hastings
+NZ_Invercargill|Invercargill
+NZ_Kaipara|Kaipara
+NZ_Manukau|Manukau
+NZ_Napier|Napier
+NZ_Nelson|Nelson
+NZ_New Plymouth|New Plymouth
+NZ_North Shore|North Shore
+NZ_Palmerston North|Palmerston North
+NZ_Richmond|Richmond
+NZ_Stratford|Stratford
+NZ_Taumarunui|Taumarunui
+NZ_Waitakere|Waitakere
+NZ_Wanganui|Wanganui
+NZ_Wellington|Wellington
+NZ_Whakatane|Whakatane
+NZ_Whangarei|Whangarei
+NI|Nicaragua
+NG|Nigeria
+KP|North Korea
+MP|Northern Mariana Islands
+NO|Norway
+OM|Oman
+PK|Pakistan
+PW|Palau
+PA|Panama
+PG|Papua New Guinea
+PE|Peru
+PH|Philippines
+PH_Caloocan|Caloocan
+PH_Cebu|Cebu
+PH_Davao|Davao
+PH_Manila|Manila
+PL|Poland
+PT|Portugal
+PT_Alentejo Central|Alentejo Central
+PT_Alentejo Litoral|Alentejo Litoral
+PT_Alto Alentejo|Alto Alentejo
+PT_Alto Tros-os-Montes|Alto Tros-os-Montes
+PT_Ave|Ave
+PT_Baixo Alentejo|Baixo Alentejo
+PT_Baixo Mondego|Baixo Mondego
+PT_Baixo Vouga|Baixo Vouga
+PT_Beira Interior Norte|Beira Interior Norte
+PT_Beira Interior Sul|Beira Interior Sul
+PT_Cavado|Cavado
+PT_Cova da Beira|Cova da Beira
+PT_Douro|Douro
+PT_Entre Douro e Vouga|Entre Douro e Vouga
+PT_Faro|Faro
+PT_Funchal|Funchal
+PT_Leziria do Tejo|Leziria do Tejo
+PT_Lisboa|Lisboa
+PT_Medio Tejo|Medio Tejo
+PT_Minho-Lima|Minho-Lima
+PT_Oeste|Oeste
+PT_Peninsula de Setubal|Peninsula de Setubal
+PT_Pinhal Interior Norte|Pinhal Interior Norte
+PT_Pinhal Interior Sul|Pinhal Interior Sul
+PT_Pinhal Litoral|Pinhal Litoral
+PT_Ponta Delgada|Ponta Delgada
+PT_Porto|Porto
+PT_Serra da Estrela|Serra da Estrela
+PT_Tamega|Tamega
+PR|Puerto Rico
+QA|Qatar
+RE|Reunion
+RO|Romania
+RU|Russia
+RU_Abakan|Abakan
+RU_Aginskoye|Aginskoye
+RU_Anadyr|Anadyr
+RU_Arkhangelsk|Arkhangelsk
+RU_Astrakhan|Astrakhan
+RU_Barnaul|Barnaul
+RU_Belgorod|Belgorod
+RU_Birobidzan|Birobidzan
+RU_Blagoveshchensk|Blagoveshchensk
+RU_Bryansk|Bryansk
+RU_Chabarovsk|Chabarovsk
+RU_Cheboksary|Cheboksary
+RU_Chelyabinsk|Chelyabinsk
+RU_Cherkessk|Cherkessk
+RU_Chita|Chita
+RU_Elista|Elista
+RU_Gorno-Altajsk|Gorno-Altajsk
+RU_Grozny|Grozny
+RU_Irkutsk|Irkutsk
+RU_Ivanovo|Ivanovo
+RU_Izhevsk|Izhevsk
+RU_Jakutsk|Jakutsk
+RU_Jaroslavl|Jaroslavl
+RU_Jekaterinburg|Jekaterinburg
+RU_Juzno-Sachalinsk|Juzno-Sachalinsk
+RU_Kaliningrad|Kaliningrad
+RU_Kaluga|Kaluga
+RU_Kazan|Kazan
+RU_Kemerovo|Kemerovo
+RU_Khanty-Mansiysk|Khanty-Mansiysk
+RU_Kirov|Kirov
+RU_Kostroma|Kostroma
+RU_Krasnodar|Krasnodar
+RU_Krasnojarsk|Krasnojarsk
+RU_Kudymkar|Kudymkar
+RU_Kurgan|Kurgan
+RU_Kursk|Kursk
+RU_Kyzyl|Kyzyl
+RU_Lipeck|Lipeck
+RU_Magadan|Magadan
+RU_Magas|Magas
+RU_Makhachkala|Makhachkala
+RU_Maykop|Maykop
+RU_Moscow|Moscow
+RU_Murmansk|Murmansk
+RU_Nalchik|Nalchik
+RU_Naryan-Mar|Naryan-Mar
+RU_Niznij Novgorod|Niznij Novgorod
+RU_Novosibirsk|Novosibirsk
+RU_Omsk|Omsk
+RU_Orel|Orel
+RU_Orenburg|Orenburg
+RU_Palana|Palana
+RU_Penza|Penza
+RU_Perm|Perm
+RU_Petropavlovsk-Kamchatskiy|Petropavlovsk-Kamchatskiy
+RU_Petrozavodsk|Petrozavodsk
+RU_Pskov|Pskov
+RU_Rostov-na-Donu|Rostov-na-Donu
+RU_Ryazan|Ryazan
+RU_Salekhard|Salekhard
+RU_Samara|Samara
+RU_Saransk|Saransk
+RU_Saratov|Saratov
+RU_Smolensk|Smolensk
+RU_St. Peterburg|St. Peterburg
+RU_Stavropol|Stavropol
+RU_Syktyvkar|Syktyvkar
+RU_Tambov|Tambov
+RU_Tomsk|Tomsk
+RU_Tula|Tula
+RU_Tver|Tver
+RU_Tyumen|Tyumen
+RU_Ufa|Ufa
+RU_Ulan-Ude|Ulan-Ude
+RU_Uljanovsk|Uljanovsk
+RU_Ust-Ordynsky|Ust-Ordynsky
+RU_Velikij Novgorod|Velikij Novgorod
+RU_Vladikavkaz|Vladikavkaz
+RU_Vladimir|Vladimir
+RU_Vladivostok|Vladivostok
+RU_Volgograd|Volgograd
+RU_Vologda|Vologda
+RU_Voronezh|Voronezh
+RU_Yoshkar-Ola|Yoshkar-Ola
+RW|Rwanda
+WS|Samoa
+SM|San Marino
+SA|Saudi Arabia
+SA_Abha|Abha
+SA_Al Bahah|Al Bahah
+SA_Al Hofuf|Al Hofuf
+SA_Al Jubail|Al Jubail
+SA_Al Kharj|Al Kharj
+SA_Al Mubarraz|Al Mubarraz
+SA_Arar|Arar
+SA_At Tarif|At Tarif
+SA_Buraydah|Buraydah
+SA_Dammam|Dammam
+SA_Hafar al-Batin|Hafar al-Batin
+SA_Hail|Hail
+SA_Jiddah|Jiddah
+SA_Jizan|Jizan
+SA_Khamis Mushayt|Khamis Mushayt
+SA_Makkah|Makkah
+SA_Medina|Medina
+SA_Najran|Najran
+SA_Riyad|Riyad
+SA_Sakaka|Sakaka
+SA_Tabuk|Tabuk
+SA_Yanbu al-Bahr|Yanbu al-Bahr
+SN|Senegal
+RS|Serbia
+SC|Seychelles
+SL|Sierra Leone
+SG|Singapore
+SK|Slovakia
+SI|Slovenia
+SB|Solomon Islands
+ZA|South Africa
+ZA_Barkley East|Barkley East
+ZA_Beaufort West|Beaufort West
+ZA_Bisho|Bisho
+ZA_Bloemfontein|Bloemfontein
+ZA_Bredasdorp|Bredasdorp
+ZA_Bronkhorstspruit|Bronkhorstspruit
+ZA_Cape Town|Cape Town
+ZA_De Aar|De Aar
+ZA_Dundee|Dundee
+ZA_Durban|Durban
+ZA_East London|East London
+ZA_George|George
+ZA_Giyani|Giyani
+ZA_Groblersdal|Groblersdal
+ZA_Ixopo|Ixopo
+ZA_Johannesburg|Johannesburg
+ZA_Kimberley|Kimberley
+ZA_Klerksdorp|Klerksdorp
+ZA_Kuruman|Kuruman
+ZA_Ladysmith|Ladysmith
+ZA_Middelburg|Middelburg
+ZA_Mkuze|Mkuze
+ZA_Moorreesburg|Moorreesburg
+ZA_Mount Ayliff|Mount Ayliff
+ZA_Nelspruit|Nelspruit
+ZA_Newcastle|Newcastle
+ZA_Nylstroom|Nylstroom
+ZA_Pietermaritzburg|Pietermaritzburg
+ZA_Pietersburg|Pietersburg
+ZA_Port Elizabeth|Port Elizabeth
+ZA_Port Shepstone|Port Shepstone
+ZA_Pretoria|Pretoria
+ZA_Queenstown|Queenstown
+ZA_Randfontein|Randfontein
+ZA_Richards Bay|Richards Bay
+ZA_Rustenburg|Rustenburg
+ZA_Sasolburg|Sasolburg
+ZA_Secunda|Secunda
+ZA_Springbok|Springbok
+ZA_Thohoyandou|Thohoyandou
+ZA_Thulamahashe|Thulamahashe
+ZA_Trompsburg|Trompsburg
+ZA_Ulundi|Ulundi
+ZA_Umtata|Umtata
+ZA_Upington|Upington
+ZA_Vereeniging|Vereeniging
+ZA_Vryburg|Vryburg
+ZA_Welkom|Welkom
+ZA_Witsieshoek|Witsieshoek
+ZA_Worcester|Worcester
+ES|Spain
+ES_Alava|Alava
+ES_Albacete|Albacete
+ES_Alicante|Alicante
+ES_Almeria|Almeria
+ES_Asturias|Asturias
+ES_Avila|Avila
+ES_Badajoz|Badajoz
+ES_Baleares|Baleares
+ES_Barcelona|Barcelona
+ES_Burgos|Burgos
+ES_Caceres|Caceres
+ES_Cadiz|Cadiz
+ES_Castellon|Castellon
+ES_Ciudad Real|Ciudad Real
+ES_Cordoba|Cordoba
+ES_Cuenca|Cuenca
+ES_Gerona|Gerona
+ES_Granada|Granada
+ES_Guadalajara|Guadalajara
+ES_Guipuzcoa|Guipuzcoa
+ES_Huelva|Huelva
+ES_Huesca|Huesca
+ES_Jaen|Jaen
+ES_La Coruna|La Coruna
+ES_La Rioja|La Rioja
+ES_Las Palmas|Las Palmas
+ES_Leon|Leon
+ES_Lleida|Lleida
+ES_Madrid|Madrid
+ES_Malaga|Malaga
+ES_Murcia|Murcia
+ES_Navarra|Navarra
+ES_Orense|Orense
+ES_Palencia|Palencia
+ES_Provincia de Lugo|Provincia de Lugo
+ES_Provincia de Pontevedra|Provincia de Pontevedra
+ES_Salamanca|Salamanca
+ES_Santa Cruz de Tenerife|Santa Cruz de Tenerife
+ES_Santander|Santander
+ES_Segovia|Segovia
+ES_Sevilla|Sevilla
+ES_Soria|Soria
+ES_Tarragona|Tarragona
+ES_Teruel|Teruel
+ES_Toledo|Toledo
+ES_Valencia|Valencia
+ES_Valladolid|Valladolid
+ES_Vizcaya|Vizcaya
+ES_Zamora|Zamora
+ES_Zaragoza|Zaragoza
+LK|Sri Lanka
+KN|St.Kitts and Nevis
+SD|Sudan
+SR|Surinam
+SZ|Swaziland
+SE|Sweden
+SE_Blekinge|Blekinge
+SE_Dalarnas|Dalarnas
+SE_Gavleborgs|Gavleborgs
+SE_Gotlands|Gotlands
+SE_Hallands|Hallands
+SE_Jamtlands|Jamtlands
+SE_Jonkopings|Jonkopings
+SE_Kalmar|Kalmar
+SE_Kronobergs|Kronobergs
+SE_Norrbottens|Norrbottens
+SE_Orebro|Orebro
+SE_Skane|Skane
+SE_Sodermanlands|Sodermanlands
+SE_Stockholms|Stockholms
+SE_Uppsala|Uppsala
+SE_Ustergotland|Ustergotland
+SE_Varmlands|Varmlands
+SE_Vasterbottens|Vasterbottens
+SE_Vasternorrlands|Vasternorrlands
+SE_Vastmanlands|Vastmanlands
+SE_Vastra Gotalands|Vastra Gotalands
+CH|Switzerland
+CH_Aargau|Aargau
+CH_Appenzell Ausserrhon|Appenzell Ausserrhon
+CH_Appenzell Innerrhodn|Appenzell Innerrhodn
+CH_Basel Landschaft|Basel Landschaft
+CH_Basel-stadt|Basel-stadt
+CH_Bern|Bern
+CH_Freiburg|Freiburg
+CH_Geneve|Geneve
+CH_Glarus|Glarus
+CH_Graubnden|Graub nden
+CH_Jura|Jura
+CH_Lausanne|Lausanne
+CH_Luzern|Luzern
+CH_Neuchatel|Neuchatel
+CH_Nidwalden|Nidwalden
+CH_Obwalden|Obwalden
+CH_Schaffhausen|Schaffhausen
+CH_Schwyz|Schwyz
+CH_Solothurn|Solothurn
+CH_St.Gallen|St.Gallen
+CH_Thurgau|Thurgau
+CH_Ticino|Ticino
+CH_Uri|Uri
+CH_Vaud|Vaud
+CH_Wallis|Wallis
+CH_Zug|Zug
+CH_Zurich|Zurich
+TW|Taiwan (China)
+TW_Changhua County|Changhua County
+TW_Chiayi City|Chiayi City
+TW_Chiayi County|Chiayi County
+TW_Hsinchu City|Hsinchu City
+TW_Hsinchu County|Hsinchu County
+TW_Hualien County|Hualien County
+TW_Kaohsiung City|Kaohsiung City
+TW_Keelung City|Keelung City
+TW_Kinmen County|Kinmen County
+TW_Lianjiang County|Lianjiang County
+TW_Miaoli County|Miaoli County
+TW_Nantou County|Nantou County
+TW_New Taipei City|New Taipei City
+TW_Penghu County|Penghu County
+TW_Pingtung County|Pingtung County
+TW_Taichung City|Taichung City
+TW_Tainan City|Tainan City
+TW_Taipei|Taipei
+TW_Taitung County|Taitung County
+TW_Taoyuan County|Taoyuan County
+TW_Yilan County|Yilan County
+TW_Yunlin County|Yunlin County
+TJ|Tajikistan
+TZ|Tanzania
+TH|Thailand
+TH_Amnat Charoen|Amnat Charoen
+TH_Ang Thong|Ang Thong
+TH_Bangkok|Bangkok
+TH_Buri Ram|Buri Ram
+TH_Chachoengsao|Chachoengsao
+TH_Chai Nat|Chai Nat
+TH_Chaiyaphum|Chaiyaphum
+TH_Chanthaburi|Chanthaburi
+TH_Chiang Mai|Chiang Mai
+TH_Chiang Rai|Chiang Rai
+TH_Chon Buri|Chon Buri
+TH_Chumphon|Chumphon
+TH_Kalasin|Kalasin
+TH_Kamphaeng Phet|Kamphaeng Phet
+TH_Kanchanaburi|Kanchanaburi
+TH_Khon Kaen|Khon Kaen
+TH_Krabi|Krabi
+TH_Lamphun|Lamphun
+TH_Loei|Loei
+TH_Lop Buri|Lop Buri
+TH_Mae Hong Son|Mae Hong Son
+TH_Maha Sarakham|Maha Sarakham
+TH_Mukdahan|Mukdahan
+TH_Nakhon Nayok|Nakhon Nayok
+TH_Nakhon Pathom|Nakhon Pathom
+TH_Nakhon Phanom|Nakhon Phanom
+TH_Nakhon Sawan|Nakhon Sawan
+TH_Nakhon Si Thammarat|Nakhon Si Thammarat
+TH_Nan|Nan
+TH_Narathiwat|Narathiwat
+TH_Nong Bua Lamphu|Nong Bua Lamphu
+TH_Nong Khai|Nong Khai
+TH_Nonthaburi|Nonthaburi
+TH_Pathum Thani|Pathum Thani
+TH_Pattani|Pattani
+TH_Phangnga|Phangnga
+TH_Phatthalung|Phatthalung
+TH_Phayao|Phayao
+TH_Phetchabun|Phetchabun
+TH_Phetchaburi|Phetchaburi
+TH_Phichit|Phichit
+TH_Phitsanulok|Phitsanulok
+TH_Phra Nakhon Si Ayutthaya|Phra Nakhon Si Ayutthaya
+TH_Phrae|Phrae
+TH_Phuket|Phuket
+TH_Prachin Buri|Prachin Buri
+TH_Prachuap Khiri Khan|Prachuap Khiri Khan
+TH_Ranong|Ranong
+TH_Ratchaburi|Ratchaburi
+TH_Rayong|Rayong
+TH_Roi Et|Roi Et
+TH_Sa Kaeo|Sa Kaeo
+TH_Sakon Nakhon|Sakon Nakhon
+TH_Samut Prakan|Samut Prakan
+TH_Samut Sakhon|Samut Sakhon
+TH_Samut Songkhram|Samut Songkhram
+TH_Saraburi|Saraburi
+TH_Satun|Satun
+TH_Si sa ket|Si sa ket
+TH_Sing Buri|Sing Buri
+TH_Songkhla|Songkhla
+TH_Sukhothai|Sukhothai
+TH_Suphan Buri|Suphan Buri
+TH_Surat Thani|Surat Thani
+TH_Surin|Surin
+TH_Tak|Tak
+TH_Trang|Trang
+TH_Trat|Trat
+TH_Ubon Ratchathani|Ubon Ratchathani
+TH_Udon Thani|Udon Thani
+TH_Uthai Thani|Uthai Thani
+TH_Uttaradit|Uttaradit
+TH_Yala|Yala
+TH_Yasothon|Yasothon
+TO|Tonga
+TT|Trinidad and Tobago
+TR|Turkey
+TR_Adana|Adana
+TR_Adiyaman|Adiyaman
+TR_Afyon|Afyon
+TR_Agri|Agri
+TR_Aksaray|Aksaray
+TR_Amasya|Amasya
+TR_Ankara|Ankara
+TR_Antalya|Antalya
+TR_Ardahan|Ardahan
+TR_Artvin|Artvin
+TR_Aydin|Aydin
+TR_Balikesir|Balikesir
+TR_Bartin|Bartin
+TR_Batman|Batman
+TR_Bayburt|Bayburt
+TR_Bilecik|Bilecik
+TR_Bingol|Bingol
+TR_Bitlis|Bitlis
+TR_Bolu|Bolu
+TR_Burdur|Burdur
+TR_Bursa|Bursa
+TR_Canakkale|Canakkale
+TR_Cankiri|Cankiri
+TR_Corum|Corum
+TR_Denizli|Denizli
+TR_Diyarbakir|Diyarbakir
+TR_Edirne|Edirne
+TR_Elazig|Elazig
+TR_Erzincan|Erzincan
+TR_Erzurum|Erzurum
+TR_Eskisehir|Eskisehir
+TR_Gaziantep|Gaziantep
+TR_Giresun|Giresun
+TR_Gumushane|Gumushane
+TR_Hakkari|Hakkari
+TR_Hatay|Hatay
+TR_Icel|Icel
+TR_Igdir|Igdir
+TR_Isparta|Isparta
+TR_Istanbul|Istanbul
+TR_Izmir|Izmir
+TR_Kahraman?Maras|Kahraman Maras
+TR_Karabuk|Karabuk
+TR_Karaman|Karaman
+TR_Kars|Kars
+TR_Kastamonu|Kastamonu
+TR_Kayseri|Kayseri
+TR_Kilis|Kilis
+TR_Kirikkale|Kirikkale
+TR_Kirklareli|Kirklareli
+TR_Kirsehir|Kirsehir
+TR_Kocaeli|Kocaeli
+TR_Konya|Konya
+TR_Kutahya|Kutahya
+TR_Malatya|Malatya
+TR_Manisa|Manisa
+TR_Mardin|Mardin
+TR_Mugla|Mugla
+TR_Mus|Mus
+TR_Nevsehir|Nevsehir
+TR_Nigde|Nigde
+TR_Ordu|Ordu
+TR_Rize|Rize
+TR_Sakarya|Sakarya
+TR_Samsun|Samsun
+TR_Siirt|Siirt
+TR_Sinop|Sinop
+TR_Sirnak|Sirnak
+TR_Sivas|Sivas
+TR_Tekirdag|Tekirdag
+TR_Tokat|Tokat
+TR_Trabzon|Trabzon
+TR_Tunceli|Tunceli
+TR_Urfa|Urfa
+TR_Usak|Usak
+TR_Van|Van
+TR_Yozgat|Yozgat
+TR_Zonguldak|Zonguldak
+UG|Uganda
+UA|Ukraine
+UA_Cherkasy|Cherkasy
+UA_Chernihiv|Chernihiv
+UA_Chernivtsi|Chernivtsi
+UA_Dnipropetrovsk|Dnipropetrovsk
+UA_Donetsk|Donetsk
+UA_Ivano-Frankivsk|Ivano-Frankivsk
+UA_Kharkiv|Kharkiv
+UA_Khersonsrka|Khersonsrka
+UA_Khmelnytsky|Khmelnytsky
+UA_Kirovohrad|Kirovohrad
+UA_Kyiv|Kyiv
+UA_Luhansk|Luhansk
+UA_Lviv|Lviv
+UA_Mykolayiv|Mykolayiv
+UA_Odessa|Odessa
+UA_Poltava|Poltava
+UA_Respublika Krym|Respublika Krym
+UA_Rivne|Rivne
+UA_Sumy|Sumy
+UA_Ternopil|Ternopil
+UA_Vinnytsya|Vinnytsya
+UA_Volyn|Volyn
+UA_Zakarpatska|Zakarpatska
+UA_Zaporizhzhya|Zaporizhzhya
+UA_Zhytomyr|Zhytomyr
+AE|United Arab Emirates
+AE_Abu Dhabi|Abu Dhabi
+AE_Al l'Ayn|Al l'Ayn
+AE_Ash Shariqah|Ash Shariqah
+AE_Dubayy|Dubai
+GB|United Kingdom
+GB_England|England
+GB_England_Bath|Bath
+GB_England_Birmingham|Birmingham
+GB_England_Bradford|Bradford
+GB_England_Brighton & Hove|Brighton & Hove
+GB_England_Bristol|Bristol
+GB_England_Cambridge|Cambridge
+GB_England_Canterbury|Canterbury
+GB_England_Carlisle|Carlisle
+GB_England_Chester|Chester
+GB_England_Chichester|Chichester
+GB_England_Coventry|Coventry
+GB_England_Derby|Derby
+GB_England_Durham|Durham
+GB_England_Ely|Ely
+GB_England_Exeter|Exeter
+GB_England_Gloucester|Gloucester
+GB_England_Hereford|Hereford
+GB_England_Kingston upon Hull|Kingston upon Hull
+GB_England_Lancaster|Lancaster
+GB_England_Leeds|Leeds
+GB_England_Leicester|Leicester
+GB_England_Lichfield|Lichfield
+GB_England_Lincoln|Lincoln
+GB_England_Liverpool|Liverpool
+GB_England_London|London
+GB_England_Manchester|Manchester
+GB_England_Newcastle|Newcastle
+GB_England_Norwich|Norwich
+GB_England_Nottingham|Nottingham
+GB_England_Oxford|Oxford
+GB_England_Peterborough|Peterborough
+GB_England_Plymouth|Plymouth
+GB_England_Portsmouth|Portsmouth
+GB_England_Preston|Preston
+GB_England_Ripon|Ripon
+GB_England_Saint Albans|Saint Albans
+GB_England_Salford|Salford
+GB_England_Salisbury|Salisbury
+GB_England_Sheffield|Sheffield
+GB_England_Southampton|Southampton
+GB_England_Stoke-on-Trent|Stoke-on-Trent
+GB_England_Sunderland|Sunderland
+GB_England_Truro|Truro
+GB_England_Wakefield|Wakefield
+GB_England_Wells|Wells
+GB_England_Winchester|Winchester
+GB_England_Wolverhampton|Wolverhampton
+GB_England_Worcester|Worcester
+GB_England_York|York
+GB_Northern Ireland|Northern Ireland
+GB_Northern Ireland_Belfast|Belfast
+GB_Northern Ireland_Derry|Derry
+GB_Northern Ireland_Lisburn|Lisburn
+GB_Northern Ireland_Newry|Newry
+GB_Scotland|Scotland
+GB_Scotland_Aberdeen|Aberdeen
+GB_Scotland_Dundee|Dundee
+GB_Scotland_Edinburgh|Edinburgh
+GB_Scotland_Glasgow|Glasgow
+GB_Scotland_Inverness|Inverness
+GB_Scotland_Stirling|Stirling
+GB_Wales|Wales
+GB_Wales_Bangor|Bangor
+GB_Wales_Cardiff|Cardiff
+GB_Wales_Newport|Newport
+GB_Wales_Swansea|Swansea
+US|United States
+US_Alabama|Alabama
+US_Alabama_Auburn City|Auburn City
+US_Alabama_Baldwin County|Baldwin County
+US_Alabama_Birmingham City|Birmingham City
+US_Alabama_Calhoun County|Calhoun County
+US_Alabama_Cullman County|Cullman County
+US_Alabama_Decatur City|Decatur City
+US_Alabama_Dothan City|Dothan City
+US_Alabama_Hoover City|Hoover City
+US_Alabama_Huntsville City|Huntsville City
+US_Alabama_Jefferson County|Jefferson County
+US_Alabama_Lee County|Lee County
+US_Alabama_Limestone County|Limestone County
+US_Alabama_Madison County|Madison County
+US_Alabama_Mobile City|Mobile City
+US_Alabama_Mobile County|Mobile County
+US_Alabama_Montgomery City|Montgomery City
+US_Alabama_Shelby County|Shelby County
+US_Alabama_Tuscaloosa City|Tuscaloosa City
+US_Alabama_Tuscaloosa County|Tuscaloosa County
+US_Alaska|Alaska
+US_Alaska_Anchorage Municipality|Anchorage Municipality
+US_Alaska_Fairbanks North Star Borough|Fairbanks North Star Borough
+US_Alaska_Matanuska-Susitna Borough|Matanuska-Susitna Borough
+US_Arizona|Arizona
+US_Arizona_Apache County|Apache County
+US_Arizona_Avondale City|Avondale City
+US_Arizona_Buckeye Town|Buckeye Town
+US_Arizona_Casa Grande City|Casa Grande City
+US_Arizona_Chandler City|Chandler City
+US_Arizona_Coconino County|Coconino County
+US_Arizona_Flagstaff City|Flagstaff City
+US_Arizona_Gilbert Town|Gilbert Town
+US_Arizona_Glendale City|Glendale City
+US_Arizona_Goodyear City|Goodyear City
+US_Arizona_Lake Havasu City|Lake Havasu City
+US_Arizona_Maricopa County|Maricopa County
+US_Arizona_Mesa City|Mesa City
+US_Arizona_Mohave County|Mohave County
+US_Arizona_Navajo County|Navajo County
+US_Arizona_Peoria City|Peoria City
+US_Arizona_Phoenix City|Phoenix City
+US_Arizona_Pima County|Pima County
+US_Arizona_Pinal County|Pinal County
+US_Arizona_Scottsdale City|Scottsdale City
+US_Arizona_Surprise City|Surprise City
+US_Arizona_Tempe City|Tempe City
+US_Arizona_Tucson City|Tucson City
+US_Arizona_Yavapai County|Yavapai County
+US_Arizona_Yuma City|Yuma City
+US_Arizona_Yuma County|Yuma County
+US_Arkansas|Arkansas
+US_Arkansas_Conway City|Conway City
+US_Arkansas_Fayetteville City|Fayetteville City
+US_Arkansas_Fort Smith City|Fort Smith City
+US_Arkansas_Jonesboro City|Jonesboro City
+US_Arkansas_Little Rock City|Little Rock City
+US_Arkansas_North Little Rock City|North Little Rock City
+US_Arkansas_Pine Bluff City|Pine Bluff City
+US_Arkansas_Rogers City|Rogers City
+US_Arkansas_Springdale City|Springdale City
+US_California|California
+US_California_Alameda City|Alameda City
+US_California_Alameda County|Alameda County
+US_California_Alhambra City|Alhambra City
+US_California_Aliso Viejo City|Aliso Viejo City
+US_California_Anaheim City|Anaheim City
+US_California_Antioch City|Antioch City
+US_California_Apple Valley Town|Apple Valley Town
+US_California_Arcadia City|Arcadia City
+US_California_Bakersfield City|Bakersfield City
+US_California_Baldwin Park City|Baldwin Park City
+US_California_Bellflower City|Bellflower City
+US_California_Berkeley City|Berkeley City
+US_California_Brentwood City|Brentwood City
+US_California_Buena Park City|Buena Park City
+US_California_Burbank City|Burbank City
+US_California_Butte County|Butte County
+US_California_Camarillo City|Camarillo City
+US_California_Carlsbad City|Carlsbad City
+US_California_Carson City|Carson City
+US_California_Cathedral City|Cathedral City
+US_California_Cerritos City|Cerritos City
+US_California_Chico City|Chico City
+US_California_Chino City|Chino City
+US_California_Chino Hills City|Chino Hills City
+US_California_Chula Vista City|Chula Vista City
+US_California_Citrus Heights City|Citrus Heights City
+US_California_Clovis City|Clovis City
+US_California_Colton City|Colton City
+US_California_Compton City|Compton City
+US_California_Concord City|Concord City
+US_California_Contra Costa County|Contra Costa County
+US_California_Corona City|Corona City
+US_California_Costa Mesa City|Costa Mesa City
+US_California_Cupertino City|Cupertino City
+US_California_Daly City|Daly City
+US_California_Davis City|Davis City
+US_California_Delano City|Delano City
+US_California_Diamond Bar City|Diamond Bar City
+US_California_Downey City|Downey City
+US_California_Dublin City|Dublin City
+US_California_Eastvale City|Eastvale City
+US_California_El Cajon City|El Cajon City
+US_California_El Dorado County|El Dorado County
+US_California_El Monte City|El Monte City
+US_California_Elk Grove City|Elk Grove City
+US_California_Encinitas City|Encinitas City
+US_California_Escondido City|Escondido City
+US_California_Fairfield City|Fairfield City
+US_California_Folsom City|Folsom City
+US_California_Fontana City|Fontana City
+US_California_Fountain Valley City|Fountain Valley City
+US_California_Fremont City|Fremont City
+US_California_Fresno City|Fresno City
+US_California_Fresno County|Fresno County
+US_California_Fullerton City|Fullerton City
+US_California_Garden Grove City|Garden Grove City
+US_California_Gardena City|Gardena City
+US_California_Gilroy City|Gilroy City
+US_California_Glendale City|Glendale City
+US_California_Glendora City|Glendora City
+US_California_Hanford City|Hanford City
+US_California_Hawthorne City|Hawthorne City
+US_California_Hayward City|Hayward City
+US_California_Hemet City|Hemet City
+US_California_Hesperia City|Hesperia City
+US_California_Highland City|Highland City
+US_California_Humboldt County|Humboldt County
+US_California_Huntington Beach City|Huntington Beach City
+US_California_Huntington Park City|Huntington Park City
+US_California_Indio City|Indio City
+US_California_Inglewood City|Inglewood City
+US_California_Irvine City|Irvine City
+US_California_Jurupa Valley City|Jurupa Valley City
+US_California_Kern County|Kern County
+US_California_La Habra City|La Habra City
+US_California_La Mesa City|La Mesa City
+US_California_Laguna Niguel City|Laguna Niguel City
+US_California_Lake Elsinore City|Lake Elsinore City
+US_California_Lake Forest City|Lake Forest City
+US_California_Lakewood City|Lakewood City
+US_California_Lancaster City|Lancaster City
+US_California_Livermore City|Livermore City
+US_California_Lodi City|Lodi City
+US_California_Long Beach City|Long Beach City
+US_California_Los Angeles City|Los Angeles City
+US_California_Los Angeles County|Los Angeles County
+US_California_Lynwood City|Lynwood City
+US_California_Madera City|Madera City
+US_California_Madera County|Madera County
+US_California_Manteca City|Manteca City
+US_California_Marin County|Marin County
+US_California_Mendocino County|Mendocino County
+US_California_Menifee City|Menifee City
+US_California_Merced City|Merced City
+US_California_Merced County|Merced County
+US_California_Milpitas City|Milpitas City
+US_California_Mission Viejo City|Mission Viejo City
+US_California_Modesto City|Modesto City
+US_California_Montebello City|Montebello City
+US_California_Monterey County|Monterey County
+US_California_Monterey Park City|Monterey Park City
+US_California_Moreno Valley City|Moreno Valley City
+US_California_Mountain View City|Mountain View City
+US_California_Murrieta City|Murrieta City
+US_California_Napa City|Napa City
+US_California_National City|National City
+US_California_Nevada County|Nevada County
+US_California_Newport Beach City|Newport Beach City
+US_California_Norwalk City|Norwalk City
+US_California_Novato City|Novato City
+US_California_Oakland City|Oakland City
+US_California_Oceanside City|Oceanside City
+US_California_Ontario City|Ontario City
+US_California_Orange City|Orange City
+US_California_Orange County|Orange County
+US_California_Oxnard City|Oxnard City
+US_California_Palm Desert City|Palm Desert City
+US_California_Palmdale City|Palmdale City
+US_California_Palo Alto City|Palo Alto City
+US_California_Paramount City|Paramount City
+US_California_Pasadena City|Pasadena City
+US_California_Perris City|Perris City
+US_California_Petaluma City|Petaluma City
+US_California_Pico Rivera City|Pico Rivera City
+US_California_Pittsburg City|Pittsburg City
+US_California_Placentia City|Placentia City
+US_California_Placer County|Placer County
+US_California_Pleasanton City|Pleasanton City
+US_California_Pomona City|Pomona City
+US_California_Porterville City|Porterville City
+US_California_Rancho Cordova City|Rancho Cordova City
+US_California_Rancho Cucamonga City|Rancho Cucamonga City
+US_California_Redding City|Redding City
+US_California_Redlands City|Redlands City
+US_California_Redondo Beach City|Redondo Beach City
+US_California_Redwood City|Redwood City
+US_California_Rialto City|Rialto City
+US_California_Richmond City|Richmond City
+US_California_Riverside City|Riverside City
+US_California_Riverside County|Riverside County
+US_California_Rocklin City|Rocklin City
+US_California_Rosemead City|Rosemead City
+US_California_Roseville City|Roseville City
+US_California_Sacramento City|Sacramento City
+US_California_Sacramento County|Sacramento County
+US_California_Salinas City|Salinas City
+US_California_San Bernardino City|San Bernardino City
+US_California_San Bernardino County|San Bernardino County
+US_California_San Buenaventura City|San Buenaventura City
+US_California_San Clemente City|San Clemente City
+US_California_San Diego City|San Diego City
+US_California_San Diego County|San Diego County
+US_California_San Francisco City|San Francisco City
+US_California_San Joaquin County|San Joaquin County
+US_California_San Jose City|San Jose City
+US_California_San Leandro City|San Leandro City
+US_California_San Luis Obispo County|San Luis Obispo County
+US_California_San Marcos City|San Marcos City
+US_California_San Mateo City|San Mateo City
+US_California_San Mateo County|San Mateo County
+US_California_San Rafael City|San Rafael City
+US_California_San Ramon City|San Ramon City
+US_California_Santa Ana City|Santa Ana City
+US_California_Santa Barbara City|Santa Barbara City
+US_California_Santa Barbara County|Santa Barbara County
+US_California_Santa Clara City|Santa Clara City
+US_California_Santa Clara County|Santa Clara County
+US_California_Santa Clarita City|Santa Clarita City
+US_California_Santa Cruz City|Santa Cruz City
+US_California_Santa Cruz County|Santa Cruz County
+US_California_Santa Maria City|Santa Maria City
+US_California_Santa Monica City|Santa Monica City
+US_California_Santa Rosa City|Santa Rosa City
+US_California_Santee City|Santee City
+US_California_Shasta County|Shasta County
+US_California_Simi Valley City|Simi Valley City
+US_California_Sonoma County|Sonoma County
+US_California_South Gate City|South Gate City
+US_California_South San Francisco City|South San Francisco City
+US_California_Stanislaus County|Stanislaus County
+US_California_Stockton City|Stockton City
+US_California_Sunnyvale City|Sunnyvale City
+US_California_Temecula City|Temecula City
+US_California_Thousand Oaks City|Thousand Oaks City
+US_California_Torrance City|Torrance City
+US_California_Tracy City|Tracy City
+US_California_Tulare City|Tulare City
+US_California_Tulare County|Tulare County
+US_California_Turlock City|Turlock City
+US_California_Tustin City|Tustin City
+US_California_Union City|Union City
+US_California_Upland City|Upland City
+US_California_Vacaville City|Vacaville City
+US_California_Vallejo City|Vallejo City
+US_California_Ventura County|Ventura County
+US_California_Victorville City|Victorville City
+US_California_Visalia City|Visalia City
+US_California_Vista City|Vista City
+US_California_Walnut Creek City|Walnut Creek City
+US_California_Watsonville City|Watsonville City
+US_California_West Covina City|West Covina City
+US_California_West Sacramento City|West Sacramento City
+US_California_Westminster City|Westminster City
+US_California_Whittier City|Whittier City
+US_California_Woodland City|Woodland City
+US_California_Yorba Linda City|Yorba Linda City
+US_California_Yuba City|Yuba City
+US_California_Yuba County|Yuba County
+US_California_Yucaipa City|Yucaipa City
+US_Colorado|Colorado
+US_Colorado_Adams County|Adams County
+US_Colorado_Arapahoe County|Arapahoe County
+US_Colorado_Arvada City|Arvada City
+US_Colorado_Aurora City|Aurora City
+US_Colorado_Boulder City|Boulder City
+US_Colorado_Broomfield City|Broomfield City
+US_Colorado_Castle Rock Town|Castle Rock Town
+US_Colorado_Centennial City|Centennial City
+US_Colorado_Colorado Springs City|Colorado Springs City
+US_Colorado_CommerceCity|CommerceCity
+US_Colorado_Denver City|Denver City
+US_Colorado_Douglas County|Douglas County
+US_Colorado_El Paso County|El Paso County
+US_Colorado_Fort Collins City|Fort Collins City
+US_Colorado_Grand Junction City|Grand Junction City
+US_Colorado_Greeley City|Greeley City
+US_Colorado_Jefferson County|Jefferson County
+US_Colorado_Lakewood City|Lakewood City
+US_Colorado_Larimer County|Larimer County
+US_Colorado_Longmont City|Longmont City
+US_Colorado_Loveland City|Loveland City
+US_Colorado_Mesa County|Mesa County
+US_Colorado_Pueblo City|Pueblo City
+US_Colorado_Pueblo County|Pueblo County
+US_Colorado_Thornton City|Thornton City
+US_Colorado_Westminster City|Westminster City
+US_Connecticut|Connecticut
+US_Connecticut_Bridgeport City|Bridgeport City
+US_Connecticut_Bridgeport Town|Bridgeport Town
+US_Connecticut_Bristol City|Bristol City
+US_Connecticut_Bristol Town|Bristol Town
+US_Connecticut_Danbury City|Danbury City
+US_Connecticut_Danbury Town|Danbury Town
+US_Connecticut_East Hartford Town|East Hartford Town
+US_Connecticut_Fairfield County|Fairfield County
+US_Connecticut_Fairfield Town|Fairfield Town
+US_Connecticut_Greenwich Town|Greenwich Town
+US_Connecticut_Hamden Town|Hamden Town
+US_Connecticut_Hartford City|Hartford City
+US_Connecticut_Hartford County|Hartford County
+US_Connecticut_Hartford Town|Hartford Town
+US_Connecticut_Litchfield County|Litchfield County
+US_Connecticut_Manchester Town|Manchester Town
+US_Connecticut_Meriden City|Meriden City
+US_Connecticut_Meriden Town|Meriden Town
+US_Connecticut_Middlesex County|Middlesex County
+US_Connecticut_Milford City|Milford City
+US_Connecticut_Milford Town|Milford Town
+US_Connecticut_New Britain City|New Britain City
+US_Connecticut_New Britain Town|New Britain Town
+US_Connecticut_New Haven City|New Haven City
+US_Connecticut_New Haven County|New Haven County
+US_Connecticut_New Haven Town|New Haven Town
+US_Connecticut_New London County|New London County
+US_Connecticut_Norwalk City|Norwalk City
+US_Connecticut_Norwalk Town|Norwalk Town
+US_Connecticut_Stamford City|Stamford City
+US_Connecticut_Stamford Town|Stamford Town
+US_Connecticut_Stratford Town|Stratford Town
+US_Connecticut_Waterbury City|Waterbury City
+US_Connecticut_Waterbury Town|Waterbury Town
+US_Connecticut_West Hartford Town|West Hartford Town
+US_Connecticut_West Haven City|West Haven City
+US_Connecticut_West Haven Town|West Haven Town
+US_Connecticut_Windham County|Windham County
+US_Delaware|Delaware
+US_Delaware_Kent County|Kent County
+US_Delaware_New Castle County|New Castle County
+US_Delaware_Sussex County|Sussex County
+US_Delaware_Wilmington City|Wilmington City
+US_District of Columbia|District of Columbia
+US_District of Columbia_Washington City|Washington City
+US_Florida|Florida
+US_Florida_Alachua County|Alachua County
+US_Florida_Bay County|Bay County
+US_Florida_Boca Raton City|Boca Raton City
+US_Florida_Boynton Beach City|Boynton Beach City
+US_Florida_Bradenton City|Bradenton City
+US_Florida_Brevard County|Brevard County
+US_Florida_Cape Coral City|Cape Coral City
+US_Florida_Charlotte County|Charlotte County
+US_Florida_Citrus County|Citrus County
+US_Florida_Clay County|Clay County
+US_Florida_Clearwater City|Clearwater City
+US_Florida_Coconut Creek City|Coconut Creek City
+US_Florida_Collier County|Collier County
+US_Florida_Columbia County|Columbia County
+US_Florida_Coral Gables City|Coral Gables City
+US_Florida_Coral Springs City|Coral Springs City
+US_Florida_Davie Town|Davie Town
+US_Florida_Daytona Beach City|Daytona Beach City
+US_Florida_Deerfield Beach City|Deerfield Beach City
+US_Florida_Delray Beach City|Delray Beach City
+US_Florida_Deltona City|Deltona City
+US_Florida_Doral City|Doral City
+US_Florida_Escambia County|Escambia County
+US_Florida_Fort Lauderdale City|Fort Lauderdale City
+US_Florida_Fort Myers City|Fort Myers City
+US_Florida_Gainesville City|Gainesville City
+US_Florida_Hernando County|Hernando County
+US_Florida_Hialeah City|Hialeah City
+US_Florida_Highlands County|Highlands County
+US_Florida_Hillsborough County|Hillsborough County
+US_Florida_Hollywood City|Hollywood City
+US_Florida_Homestead City|Homestead City
+US_Florida_Indian River County|Indian River County
+US_Florida_Jacksonville City|Jacksonville City
+US_Florida_Jupiter Town|Jupiter Town
+US_Florida_Kissimmee City|Kissimmee City
+US_Florida_Lake County|Lake County
+US_Florida_Lakeland City|Lakeland City
+US_Florida_Largo City|Largo City
+US_Florida_Lauderhill City|Lauderhill City
+US_Florida_Lee County|Lee County
+US_Florida_Leon County|Leon County
+US_Florida_Manatee County|Manatee County
+US_Florida_Margate City|Margate City
+US_Florida_Marion County|Marion County
+US_Florida_Martin County|Martin County
+US_Florida_Melbourne City|Melbourne City
+US_Florida_Miami Beach City|Miami Beach City
+US_Florida_Miami City|Miami City
+US_Florida_Miami Gardens City|Miami Gardens City
+US_Florida_Miami-Dade County|Miami-Dade County
+US_Florida_Miramar City|Miramar City
+US_Florida_Nassau County|Nassau County
+US_Florida_North Miami City|North Miami City
+US_Florida_North Port City|North Port City
+US_Florida_Ocala City|Ocala City
+US_Florida_Okaloosa County|Okaloosa County
+US_Florida_Orange County|Orange County
+US_Florida_Orlando City|Orlando City
+US_Florida_Osceola County|Osceola County
+US_Florida_Palm Bay City|Palm Bay City
+US_Florida_Palm Beach County|Palm Beach County
+US_Florida_Palm Beach Gardens City|Palm Beach Gardens City
+US_Florida_Palm Coast City|Palm Coast City
+US_Florida_Pasco County|Pasco County
+US_Florida_Pembroke Pines City|Pembroke Pines City
+US_Florida_Pensacola City|Pensacola City
+US_Florida_Pinellas County|Pinellas County
+US_Florida_Pinellas Park City|Pinellas Park City
+US_Florida_Plantation City|Plantation City
+US_Florida_Polk County|Polk County
+US_Florida_Pompano Beach City|Pompano Beach City
+US_Florida_Port Orange City|Port Orange City
+US_Florida_Port St. Lucie City|Port St. Lucie City
+US_Florida_Putnam County|Putnam County
+US_Florida_Sanford City|Sanford City
+US_Florida_Santa Rosa County|Santa Rosa County
+US_Florida_Sarasota City|Sarasota City
+US_Florida_Sarasota County|Sarasota County
+US_Florida_Seminole County|Seminole County
+US_Florida_St. Johns County|St. Johns County
+US_Florida_St. Lucie County|St. Lucie County
+US_Florida_St. Petersburg City|St. Petersburg City
+US_Florida_Sumter County|Sumter County
+US_Florida_Sunrise City|Sunrise City
+US_Florida_Tallahassee City|Tallahassee City
+US_Florida_Tamarac City|Tamarac City
+US_Florida_Tampa City|Tampa City
+US_Florida_Volusia County|Volusia County
+US_Florida_Walton County|Walton County
+US_Florida_Wellington Village|Wellington Village
+US_Florida_West Palm Beach City|West Palm Beach City
+US_Florida_Weston City|Weston City
+US_Georgia|Georgia
+US_Georgia_Albany City|Albany City
+US_Georgia_Alpharetta City|Alpharetta City
+US_Georgia_Athens-Clarke County Unified Government|Athens-Clarke County Unified Government
+US_Georgia_Atlanta City|Atlanta City
+US_Georgia_Augusta-Richmond County Consolidated Government|Augusta-Richmond County Consolidated Government
+US_Georgia_Bartow County|Bartow County
+US_Georgia_Brookhaven City|Brookhaven City
+US_Georgia_Carroll County|Carroll County
+US_Georgia_Catoosa County|Catoosa County
+US_Georgia_Chatham County|Chatham County
+US_Georgia_Cherokee County|Cherokee County
+US_Georgia_Clayton County|Clayton County
+US_Georgia_Cobb County|Cobb County
+US_Georgia_Columbia County|Columbia County
+US_Georgia_Columbus City|Columbus City
+US_Georgia_Coweta County|Coweta County
+US_Georgia_Dekalb County|Dekalb County
+US_Georgia_Douglas County|Douglas County
+US_Georgia_Fayette County|Fayette County
+US_Georgia_Floyd County|Floyd County
+US_Georgia_Forsyth County|Forsyth County
+US_Georgia_Fulton County|Fulton County
+US_Georgia_Glynn County|Glynn County
+US_Georgia_Gwinnett County|Gwinnett County
+US_Georgia_Hall County|Hall County
+US_Georgia_Henry County|Henry County
+US_Georgia_Houston County|Houston County
+US_Georgia_Johns Creek City|Johns Creek City
+US_Georgia_Lowndes County|Lowndes County
+US_Georgia_Macon-Bibb County|Macon-Bibb County
+US_Georgia_Marietta City|Marietta City
+US_Georgia_Newton County|Newton County
+US_Georgia_Paulding County|Paulding County
+US_Georgia_Rockdale County|Rockdale County
+US_Georgia_Roswell City|Roswell City
+US_Georgia_Sandy Springs City|Sandy Springs City
+US_Georgia_Savannah City|Savannah City
+US_Georgia_Smyrna City|Smyrna City
+US_Georgia_Valdosta City|Valdosta City
+US_Georgia_Walker County|Walker County
+US_Georgia_Walton County|Walton County
+US_Georgia_Warner Robins City|Warner Robins City
+US_Georgia_Whitfield County|Whitfield County
+US_Hawaii|Hawaii
+US_Hawaii_Honolulu County|Honolulu County
+US_Hawaii_Urban Honolulu|Urban Honolulu
+US_Idaho|Idaho
+US_Idaho_Ada County|Ada County
+US_Idaho_BoiseCity|BoiseCity
+US_Idaho_Caldwell City|Caldwell City
+US_Idaho_Canyon County|Canyon County
+US_Idaho_Idaho Falls City|Idaho Falls City
+US_Idaho_Meridian City|Meridian City
+US_Idaho_Nampa City|Nampa City
+US_Idaho_Pocatello City|Pocatello City
+US_Illinois|Illinois
+US_Illinois_Addison Township|Addison Township
+US_Illinois_Algonquin Township|Algonquin Township
+US_Illinois_Arlington Heights Village|Arlington Heights Village
+US_Illinois_Aurora City|Aurora City
+US_Illinois_Aurora Township|Aurora Township
+US_Illinois_Avon Township|Avon Township
+US_Illinois_Berwyn City|Berwyn City
+US_Illinois_Berwyn Township|Berwyn Township
+US_Illinois_Bloom Township|Bloom Township
+US_Illinois_Bloomingdale Township|Bloomingdale Township
+US_Illinois_Bloomington City|Bloomington City
+US_Illinois_Bloomington Township|Bloomington Township
+US_Illinois_Bolingbrook Village|Bolingbrook Village
+US_Illinois_Bremen Township|Bremen Township
+US_Illinois_Capital Township|Capital Township
+US_Illinois_Champaign City|Champaign City
+US_Illinois_Champaign Township|Champaign Township
+US_Illinois_Chicago City|Chicago City
+US_Illinois_Cicero Town|Cicero Town
+US_Illinois_Cicero Township|Cicero Township
+US_Illinois_Cook County|Cook County
+US_Illinois_Decatur City|Decatur City
+US_Illinois_Decatur Township|Decatur Township
+US_Illinois_Des Plaines City|Des Plaines City
+US_Illinois_Downers Grove Township|Downers Grove Township
+US_Illinois_Du Page Township|Du Page Township
+US_Illinois_Dundee Township|Dundee Township
+US_Illinois_Dupage County|Dupage County
+US_Illinois_Elgin City|Elgin City
+US_Illinois_Elgin Township|Elgin Township
+US_Illinois_Elk Grove Township|Elk Grove Township
+US_Illinois_Evanston City|Evanston City
+US_Illinois_Evanston Township|Evanston Township
+US_Illinois_Frankfort Township|Frankfort Township
+US_Illinois_Grafton Township|Grafton Township
+US_Illinois_Hanover Township|Hanover Township
+US_Illinois_Hoffman Estates Village|Hoffman Estates Village
+US_Illinois_Joliet City|Joliet City
+US_Illinois_Joliet Township|Joliet Township
+US_Illinois_Kane County|Kane County
+US_Illinois_Lake County|Lake County
+US_Illinois_Leyden Township|Leyden Township
+US_Illinois_Libertyville Township|Libertyville Township
+US_Illinois_Lisle Township|Lisle Township
+US_Illinois_Lockport Township|Lockport Township
+US_Illinois_Lyons Township|Lyons Township
+US_Illinois_Madison County|Madison County
+US_Illinois_Maine Township|Maine Township
+US_Illinois_Mchenry County|Mchenry County
+US_Illinois_Milton Township|Milton Township
+US_Illinois_Mount Prospect Village|Mount Prospect Village
+US_Illinois_Naperville City|Naperville City
+US_Illinois_Naperville Township|Naperville Township
+US_Illinois_New Trier Township|New Trier Township
+US_Illinois_Niles Township|Niles Township
+US_Illinois_Normal Town|Normal Town
+US_Illinois_Normal Township|Normal Township
+US_Illinois_Northfield Township|Northfield Township
+US_Illinois_Oak Lawn Village|Oak Lawn Village
+US_Illinois_Oak Park Township|Oak Park Township
+US_Illinois_Oak Park Village|Oak Park Village
+US_Illinois_Orland Park Village|Orland Park Village
+US_Illinois_Orland Township|Orland Township
+US_Illinois_Oswego Township|Oswego Township
+US_Illinois_Palatine Township|Palatine Township
+US_Illinois_Palatine Village|Palatine Village
+US_Illinois_Palos Township|Palos Township
+US_Illinois_Peoria City|Peoria City
+US_Illinois_Peoria Township|Peoria Township
+US_Illinois_Plainfield Township|Plainfield Township
+US_Illinois_Proviso Township|Proviso Township
+US_Illinois_Rich Township|Rich Township
+US_Illinois_Rockford City|Rockford City
+US_Illinois_Rockford Township|Rockford Township
+US_Illinois_Schaumburg Township|Schaumburg Township
+US_Illinois_Schaumburg Village|Schaumburg Village
+US_Illinois_Skokie Village|Skokie Village
+US_Illinois_Springfield City|Springfield City
+US_Illinois_St. Charles Township|St. Charles Township
+US_Illinois_St. Clair County|St. Clair County
+US_Illinois_Thornton Township|Thornton Township
+US_Illinois_Tinley Park Village|Tinley Park Village
+US_Illinois_Vernon Township|Vernon Township
+US_Illinois_Warren Township|Warren Township
+US_Illinois_Waukegan City|Waukegan City
+US_Illinois_Waukegan Township|Waukegan Township
+US_Illinois_Wayne Township|Wayne Township
+US_Illinois_Wheatland Township|Wheatland Township
+US_Illinois_Wheaton City|Wheaton City
+US_Illinois_Wheeling Township|Wheeling Township
+US_Illinois_Will County|Will County
+US_Illinois_Winnebago County|Winnebago County
+US_Illinois_Worth Township|Worth Township
+US_Illinois_York Township|York Township
+US_Indiana|Indiana
+US_Indiana_Allen County|Allen County
+US_Indiana_Anderson City|Anderson City
+US_Indiana_Anderson Township|Anderson Township
+US_Indiana_Bloomington City|Bloomington City
+US_Indiana_Calumet Township|Calumet Township
+US_Indiana_Carmel City|Carmel City
+US_Indiana_Center Township|Center Township
+US_Indiana_Clay Township|Clay Township
+US_Indiana_Concord Township|Concord Township
+US_Indiana_Elkhart City|Elkhart City
+US_Indiana_Elkhart County|Elkhart County
+US_Indiana_Evansville City|Evansville City
+US_Indiana_Fairfield Township|Fairfield Township
+US_Indiana_Fall Creek Township|Fall Creek Township
+US_Indiana_Fishers Town|Fishers Town
+US_Indiana_Fort Wayne City|Fort Wayne City
+US_Indiana_Franklin Township|Franklin Township
+US_Indiana_Gary City|Gary City
+US_Indiana_Greenwood City|Greenwood City
+US_Indiana_Hammond City|Hammond City
+US_Indiana_Harrison Township|Harrison Township
+US_Indiana_Hendricks County|Hendricks County
+US_Indiana_Indianapolis City|Indianapolis City
+US_Indiana_Jeffersonville Township|Jeffersonville Township
+US_Indiana_Knight Township|Knight Township
+US_Indiana_Kokomo City|Kokomo City
+US_Indiana_Lafayette City|Lafayette City
+US_Indiana_Lawrence Township|Lawrence Township
+US_Indiana_Monroe County|Monroe County
+US_Indiana_Muncie City|Muncie City
+US_Indiana_Noblesville City|Noblesville City
+US_Indiana_Noblesville Township|Noblesville Township
+US_Indiana_North Township|North Township
+US_Indiana_Penn Township|Penn Township
+US_Indiana_Perry Township|Perry Township
+US_Indiana_Pike Township|Pike Township
+US_Indiana_Pleasant Township|Pleasant Township
+US_Indiana_Portage Township|Portage Township
+US_Indiana_Porter County|Porter County
+US_Indiana_South Bend City|South Bend City
+US_Indiana_St. John Township|St. John Township
+US_Indiana_St. Joseph County|St. Joseph County
+US_Indiana_St. Joseph Township|St. Joseph Township
+US_Indiana_Terre Haute City|Terre Haute City
+US_Indiana_Tippecanoe County|Tippecanoe County
+US_Indiana_Vanderburgh County|Vanderburgh County
+US_Indiana_Wabash Township|Wabash Township
+US_Indiana_Warren Township|Warren Township
+US_Indiana_Washington Township|Washington Township
+US_Indiana_Wayne Township|Wayne Township
+US_Iowa|Iowa
+US_Iowa_Ames City|Ames City
+US_Iowa_Ankeny City|Ankeny City
+US_Iowa_Cedar Rapids City|Cedar Rapids City
+US_Iowa_Council Bluffs City|Council Bluffs City
+US_Iowa_Davenport City|Davenport City
+US_Iowa_Des Moines City|Des Moines City
+US_Iowa_Dubuque City|Dubuque City
+US_Iowa_Iowa City|Iowa City
+US_Iowa_Sioux City|Sioux City
+US_Iowa_Waterloo City|Waterloo City
+US_Iowa_West Des Moines City|West Des Moines City
+US_Kansas|Kansas
+US_Kansas_Kansas City|Kansas City
+US_Kansas_Lawrence City|Lawrence City
+US_Kansas_Lenexa City|Lenexa City
+US_Kansas_Manhattan City|Manhattan City
+US_Kansas_Olathe City|Olathe City
+US_Kansas_Overland Park City|Overland Park City
+US_Kansas_Shawnee City|Shawnee City
+US_Kansas_Topeka City|Topeka City
+US_Kansas_Wichita City|Wichita City
+US_Kentucky|Kentucky
+US_Kentucky_Boone County|Boone County
+US_Kentucky_Bowling Green City|Bowling Green City
+US_Kentucky_Laurel County|Laurel County
+US_Kentucky_Lexington-Fayette Urban County|Lexington-Fayette Urban County
+US_Kentucky_Louisville/Jefferson County Metro Government|Louisville/Jefferson County Metro Government
+US_Kentucky_Owensboro City|Owensboro City
+US_Kentucky_Pike County|Pike County
+US_Kentucky_Warren County|Warren County
+US_Louisiana|Louisiana
+US_Louisiana_Ascension Parish|Ascension Parish
+US_Louisiana_Baton Rouge City|Baton Rouge City
+US_Louisiana_Bossier City|Bossier City
+US_Louisiana_Calcasieu Parish|Calcasieu Parish
+US_Louisiana_East Baton Rouge Parish|East Baton Rouge Parish
+US_Louisiana_Jefferson Parish|Jefferson Parish
+US_Louisiana_Kenner City|Kenner City
+US_Louisiana_Lafayette City|Lafayette City
+US_Louisiana_Lafayette Parish|Lafayette Parish
+US_Louisiana_Lafourche Parish|Lafourche Parish
+US_Louisiana_Lake Charles City|Lake Charles City
+US_Louisiana_Livingston Parish|Livingston Parish
+US_Louisiana_New Orleans City|New Orleans City
+US_Louisiana_Ouachita Parish|Ouachita Parish
+US_Louisiana_Rapides Parish|Rapides Parish
+US_Louisiana_Shreveport City|Shreveport City
+US_Louisiana_St. Tammany Parish|St. Tammany Parish
+US_Louisiana_Tangipahoa Parish|Tangipahoa Parish
+US_Louisiana_Terrebonne Parish|Terrebonne Parish
+US_Maine|Maine
+US_Maine_Aroostook County|Aroostook County
+US_Maine_Cumberland County|Cumberland County
+US_Maine_Kennebec County|Kennebec County
+US_Maine_Penobscot County|Penobscot County
+US_Maine_Portland City|Portland City
+US_Maine_York County|York County
+US_Maryland|Maryland
+US_Maryland_Anne Arundel County|Anne Arundel County
+US_Maryland_Baltimore City|Baltimore City
+US_Maryland_Bowie City|Bowie City
+US_Maryland_Calvert County|Calvert County
+US_Maryland_Carroll County|Carroll County
+US_Maryland_Cecil County|Cecil County
+US_Maryland_Charles County|Charles County
+US_Maryland_Frederick City|Frederick City
+US_Maryland_Frederick County|Frederick County
+US_Maryland_Gaithersburg City|Gaithersburg City
+US_Maryland_Harford County|Harford County
+US_Maryland_Montgomery County|Montgomery County
+US_Maryland_Prince George'S County|Prince George'S County
+US_Maryland_Rockville City|Rockville City
+US_Maryland_St. Mary'S County|St. Mary'S County
+US_Maryland_Washington County|Washington County
+US_Maryland_Wicomico County|Wicomico County
+US_Massachusetts|Massachusetts
+US_Massachusetts_Barnstable County|Barnstable County
+US_Massachusetts_Berkshire County|Berkshire County
+US_Massachusetts_Boston City|Boston City
+US_Massachusetts_Bristol County|Bristol County
+US_Massachusetts_Brockton City|Brockton City
+US_Massachusetts_Brookline Town|Brookline Town
+US_Massachusetts_Cambridge City|Cambridge City
+US_Massachusetts_Chicopee City|Chicopee City
+US_Massachusetts_Essex County|Essex County
+US_Massachusetts_Fall River City|Fall River City
+US_Massachusetts_Framingham Town|Framingham Town
+US_Massachusetts_Franklin County|Franklin County
+US_Massachusetts_Hampden County|Hampden County
+US_Massachusetts_Hampshire County|Hampshire County
+US_Massachusetts_Haverhill City|Haverhill City
+US_Massachusetts_Lawrence City|Lawrence City
+US_Massachusetts_Lowell City|Lowell City
+US_Massachusetts_Lynn City|Lynn City
+US_Massachusetts_Malden City|Malden City
+US_Massachusetts_Medford City|Medford City
+US_Massachusetts_Middlesex County|Middlesex County
+US_Massachusetts_New Bedford City|New Bedford City
+US_Massachusetts_Newton City|Newton City
+US_Massachusetts_Norfolk County|Norfolk County
+US_Massachusetts_Peabody City|Peabody City
+US_Massachusetts_Plymouth County|Plymouth County
+US_Massachusetts_Plymouth Town|Plymouth Town
+US_Massachusetts_Quincy City|Quincy City
+US_Massachusetts_Revere City|Revere City
+US_Massachusetts_Somerville City|Somerville City
+US_Massachusetts_Springfield City|Springfield City
+US_Massachusetts_Taunton City|Taunton City
+US_Massachusetts_Waltham City|Waltham City
+US_Massachusetts_Weymouth Town City|Weymouth Town City
+US_Massachusetts_Worcester City|Worcester City
+US_Massachusetts_Worcester County|Worcester County
+US_Michigan|Michigan
+US_Michigan_Allegan County|Allegan County
+US_Michigan_Ann Arbor City|Ann Arbor City
+US_Michigan_Battle Creek City|Battle Creek City
+US_Michigan_Bay County|Bay County
+US_Michigan_Berrien County|Berrien County
+US_Michigan_Calhoun County|Calhoun County
+US_Michigan_Canton Charter Township|Canton Charter Township
+US_Michigan_Clinton Charter Township|Clinton Charter Township
+US_Michigan_Clinton County|Clinton County
+US_Michigan_Dearborn City|Dearborn City
+US_Michigan_Dearborn Heights City|Dearborn Heights City
+US_Michigan_Detroit City|Detroit City
+US_Michigan_Eaton County|Eaton County
+US_Michigan_Farmington Hills City|Farmington Hills City
+US_Michigan_Flint City|Flint City
+US_Michigan_Genesee County|Genesee County
+US_Michigan_Grand Rapids City|Grand Rapids City
+US_Michigan_Grand Traverse County|Grand Traverse County
+US_Michigan_Ingham County|Ingham County
+US_Michigan_Jackson County|Jackson County
+US_Michigan_Kalamazoo City|Kalamazoo City
+US_Michigan_Kalamazoo County|Kalamazoo County
+US_Michigan_Kent County|Kent County
+US_Michigan_Kentwood City|Kentwood City
+US_Michigan_Lansing City|Lansing City
+US_Michigan_Lapeer County|Lapeer County
+US_Michigan_Lenawee County|Lenawee County
+US_Michigan_Livingston County|Livingston County
+US_Michigan_Livonia City|Livonia City
+US_Michigan_Macomb County|Macomb County
+US_Michigan_Macomb Township|Macomb Township
+US_Michigan_Monroe County|Monroe County
+US_Michigan_Muskegon County|Muskegon County
+US_Michigan_Novi City|Novi City
+US_Michigan_Oakland County|Oakland County
+US_Michigan_Ottawa County|Ottawa County
+US_Michigan_Pontiac City|Pontiac City
+US_Michigan_Rochester Hills City|Rochester Hills City
+US_Michigan_Royal Oak City|Royal Oak City
+US_Michigan_Saginaw County|Saginaw County
+US_Michigan_Shelby Charter Township|Shelby Charter Township
+US_Michigan_Southfield City|Southfield City
+US_Michigan_St. Clair County|St. Clair County
+US_Michigan_St. Clair Shores City|St. Clair Shores City
+US_Michigan_Sterling Heights City|Sterling Heights City
+US_Michigan_Taylor City|Taylor City
+US_Michigan_Troy City|Troy City
+US_Michigan_Van Buren County|Van Buren County
+US_Michigan_Warren City|Warren City
+US_Michigan_Washtenaw County|Washtenaw County
+US_Michigan_Waterford Charter Township|Waterford Charter Township
+US_Michigan_Wayne County|Wayne County
+US_Michigan_West Bloomfield Charter Township|West Bloomfield Charter Township
+US_Michigan_Westland City|Westland City
+US_Michigan_Wyoming City|Wyoming City
+US_Michigan_Ypsilanti Charter Township|Ypsilanti Charter Township
+US_Minnesota|Minnesota
+US_Minnesota_Apple Valley City|Apple Valley City
+US_Minnesota_Blaine City|Blaine City
+US_Minnesota_Bloomington City|Bloomington City
+US_Minnesota_Brooklyn Park City|Brooklyn Park City
+US_Minnesota_Burnsville City|Burnsville City
+US_Minnesota_Coon Rapids City|Coon Rapids City
+US_Minnesota_Duluth City|Duluth City
+US_Minnesota_Eagan City|Eagan City
+US_Minnesota_Eden Prairie City|Eden Prairie City
+US_Minnesota_Lakeville City|Lakeville City
+US_Minnesota_Maple Grove City|Maple Grove City
+US_Minnesota_Minneapolis City|Minneapolis City
+US_Minnesota_Minnetonka City|Minnetonka City
+US_Minnesota_Plymouth City|Plymouth City
+US_Minnesota_Rochester City|Rochester City
+US_Minnesota_St. Cloud City|St. Cloud City
+US_Minnesota_St. Louis County|St. Louis County
+US_Minnesota_St. Paul City|St. Paul City
+US_Minnesota_Woodbury City|Woodbury City
+US_Mississippi|Mississippi
+US_Mississippi_Gulfport City|Gulfport City
+US_Mississippi_Harrison County|Harrison County
+US_Mississippi_Jackson City|Jackson City
+US_Mississippi_Jackson County|Jackson County
+US_Mississippi_Rankin County|Rankin County
+US_Mississippi_Southaven City|Southaven City
+US_Missouri|Missouri
+US_Missouri_Blue Springs City|Blue Springs City
+US_Missouri_Columbia City|Columbia City
+US_Missouri_Florissant City|Florissant City
+US_Missouri_Franklin County|Franklin County
+US_Missouri_Greene County|Greene County
+US_Missouri_Independence City|Independence City
+US_Missouri_Jefferson County|Jefferson County
+US_Missouri_Joplin City|Joplin City
+US_Missouri_Kansas City|Kansas City
+US_Missouri_Lee'S Summit City|Lee'S Summit City
+US_Missouri_O'Fallon City|O'Fallon City
+US_Missouri_Springfield City|Springfield City
+US_Missouri_St. Charles City|St. Charles City
+US_Missouri_St. Charles County|St. Charles County
+US_Missouri_St. Joseph City|St. Joseph City
+US_Missouri_St. Louis City|St. Louis City
+US_Missouri_St. Louis County|St. Louis County
+US_Missouri_St. Peters City|St. Peters City
+US_Montana|Montana
+US_Montana_Billings City|Billings City
+US_Montana_Flathead County|Flathead County
+US_Montana_Great Falls City|Great Falls City
+US_Montana_Missoula City|Missoula City
+US_Nebraska|Nebraska
+US_Nebraska_Bellevue City|Bellevue City
+US_Nebraska_Douglas County|Douglas County
+US_Nebraska_Grand Island City|Grand Island City
+US_Nebraska_Lincoln City|Lincoln City
+US_Nebraska_Omaha City|Omaha City
+US_Nebraska_Sarpy County|Sarpy County
+US_Nevada|Nevada
+US_Nevada_Carson City|Carson City
+US_Nevada_Clark County|Clark County
+US_Nevada_Henderson City|Henderson City
+US_Nevada_Las Vegas City|Las Vegas City
+US_Nevada_North Las Vegas City|North Las Vegas City
+US_Nevada_Reno City|Reno City
+US_Nevada_Sparks City|Sparks City
+US_Nevada_Washoe County|Washoe County
+US_New Hampshire|New Hampshire
+US_New Hampshire_Cheshire County|Cheshire County
+US_New Hampshire_Grafton County|Grafton County
+US_New Hampshire_Hillsborough County|Hillsborough County
+US_New Hampshire_Manchester City|Manchester City
+US_New Hampshire_Merrimack County|Merrimack County
+US_New Hampshire_Nashua City|Nashua City
+US_New Hampshire_Rockingham County|Rockingham County
+US_New Hampshire_Strafford County|Strafford County
+US_New Jersey|New Jersey
+US_New Jersey_Atlantic County|Atlantic County
+US_New Jersey_Bayonne City|Bayonne City
+US_New Jersey_Bergen County|Bergen County
+US_New Jersey_Brick Township|Brick Township
+US_New Jersey_Burlington County|Burlington County
+US_New Jersey_Camden City|Camden City
+US_New Jersey_Camden County|Camden County
+US_New Jersey_Cape May County|Cape May County
+US_New Jersey_Cherry Hill Township|Cherry Hill Township
+US_New Jersey_Clifton City|Clifton City
+US_New Jersey_East Orange City|East Orange City
+US_New Jersey_Edison Township|Edison Township
+US_New Jersey_Elizabeth City|Elizabeth City
+US_New Jersey_Essex County|Essex County
+US_New Jersey_Franklin Township|Franklin Township
+US_New Jersey_Gloucester County|Gloucester County
+US_New Jersey_Gloucester Township|Gloucester Township
+US_New Jersey_Hamilton Township|Hamilton Township
+US_New Jersey_Hoboken City|Hoboken City
+US_New Jersey_Howell Township|Howell Township
+US_New Jersey_Hudson County|Hudson County
+US_New Jersey_Hunterdon County|Hunterdon County
+US_New Jersey_Irvington Township|Irvington Township
+US_New Jersey_Jackson Township|Jackson Township
+US_New Jersey_Jersey City|Jersey City
+US_New Jersey_Lakewood Township|Lakewood Township
+US_New Jersey_Mercer County|Mercer County
+US_New Jersey_Middlesex County|Middlesex County
+US_New Jersey_Middletown Township|Middletown Township
+US_New Jersey_Monmouth County|Monmouth County
+US_New Jersey_Morris County|Morris County
+US_New Jersey_New Brunswick City|New Brunswick City
+US_New Jersey_Newark City|Newark City
+US_New Jersey_North Bergen Township|North Bergen Township
+US_New Jersey_Ocean County|Ocean County
+US_New Jersey_Old Bridge Township|Old Bridge Township
+US_New Jersey_Parsippany-Troy Hills Township|Parsippany-Troy Hills Township
+US_New Jersey_Passaic City|Passaic City
+US_New Jersey_Passaic County|Passaic County
+US_New Jersey_Paterson City|Paterson City
+US_New Jersey_Perth Amboy City|Perth Amboy City
+US_New Jersey_Piscataway Township|Piscataway Township
+US_New Jersey_Plainfield City|Plainfield City
+US_New Jersey_Somerset County|Somerset County
+US_New Jersey_Sussex County|Sussex County
+US_New Jersey_Toms River Township|Toms River Township
+US_New Jersey_Trenton City|Trenton City
+US_New Jersey_Union City|Union City
+US_New Jersey_Union County|Union County
+US_New Jersey_Union Township|Union Township
+US_New Jersey_Vineland City|Vineland City
+US_New Jersey_Warren County|Warren County
+US_New Jersey_Wayne Township|Wayne Township
+US_New Jersey_West New York Town|West New York Town
+US_New Jersey_Woodbridge Township|Woodbridge Township
+US_New Mexico|New Mexico
+US_New Mexico_Albuquerque City|Albuquerque City
+US_New Mexico_Bernalillo County|Bernalillo County
+US_New Mexico_Dona Ana County|Dona Ana County
+US_New Mexico_Las Cruces City|Las Cruces City
+US_New Mexico_Mckinley County|Mckinley County
+US_New Mexico_Rio Rancho City|Rio Rancho City
+US_New Mexico_San Juan County|San Juan County
+US_New Mexico_Santa Fe City|Santa Fe City
+US_New Mexico_Santa Fe County|Santa Fe County
+US_New York|New York
+US_New York_Albany City|Albany City
+US_New York_Albany County|Albany County
+US_New York_Amherst Town|Amherst Town
+US_New York_Babylon Town|Babylon Town
+US_New York_Brookhaven Town|Brookhaven Town
+US_New York_Broome County|Broome County
+US_New York_Buffalo City|Buffalo City
+US_New York_Chautauqua County|Chautauqua County
+US_New York_Cheektowaga Town|Cheektowaga Town
+US_New York_Clarkstown Town|Clarkstown Town
+US_New York_Clay Town|Clay Town
+US_New York_Clinton County|Clinton County
+US_New York_Colonie Town|Colonie Town
+US_New York_Dutchess County|Dutchess County
+US_New York_Erie County|Erie County
+US_New York_Greece Town|Greece Town
+US_New York_Greenburgh Town|Greenburgh Town
+US_New York_Hamburg Town|Hamburg Town
+US_New York_Hempstead Town|Hempstead Town
+US_New York_Hempstead Village|Hempstead Village
+US_New York_Huntington Town|Huntington Town
+US_New York_Irondequoit Town|Irondequoit Town
+US_New York_Islip Town|Islip Town
+US_New York_Jefferson County|Jefferson County
+US_New York_Monroe County|Monroe County
+US_New York_Mount Vernon City|Mount Vernon City
+US_New York_Nassau County|Nassau County
+US_New York_New Rochelle City|New Rochelle City
+US_New York_New York City|New York City
+US_New York_Niagara County|Niagara County
+US_New York_North Hempstead Town|North Hempstead Town
+US_New York_Oneida County|Oneida County
+US_New York_Onondaga County|Onondaga County
+US_New York_Ontario County|Ontario County
+US_New York_Orange County|Orange County
+US_New York_Orangetown Town|Orangetown Town
+US_New York_Oswego County|Oswego County
+US_New York_Oyster Bay Town|Oyster Bay Town
+US_New York_Putnam County|Putnam County
+US_New York_Ramapo Town|Ramapo Town
+US_New York_Rensselaer County|Rensselaer County
+US_New York_Rochester City|Rochester City
+US_New York_Rockland County|Rockland County
+US_New York_Saratoga County|Saratoga County
+US_New York_Schenectady City|Schenectady City
+US_New York_Schenectady County|Schenectady County
+US_New York_Smithtown Town|Smithtown Town
+US_New York_Southampton Town|Southampton Town
+US_New York_St. Lawrence County|St. Lawrence County
+US_New York_Steuben County|Steuben County
+US_New York_Suffolk County|Suffolk County
+US_New York_Sullivan County|Sullivan County
+US_New York_Syracuse City|Syracuse City
+US_New York_Tompkins County|Tompkins County
+US_New York_Tonawanda Town|Tonawanda Town
+US_New York_Ulster County|Ulster County
+US_New York_Union Town|Union Town
+US_New York_Utica City|Utica City
+US_New York_Wayne County|Wayne County
+US_New York_Westchester County|Westchester County
+US_New York_White Plains City|White Plains City
+US_New York_Yonkers City|Yonkers City
+US_North Carolina|North Carolina
+US_North Carolina_Alamance County|Alamance County
+US_North Carolina_Asheville City|Asheville City
+US_North Carolina_Brunswick County|Brunswick County
+US_North Carolina_Buncombe County|Buncombe County
+US_North Carolina_Burke County|Burke County
+US_North Carolina_Burlington City|Burlington City
+US_North Carolina_Cabarrus County|Cabarrus County
+US_North Carolina_Cary Town|Cary Town
+US_North Carolina_Catawba County|Catawba County
+US_North Carolina_Chapel Hill Town|Chapel Hill Town
+US_North Carolina_Charlotte City|Charlotte City
+US_North Carolina_Chatham County|Chatham County
+US_North Carolina_Cleveland County|Cleveland County
+US_North Carolina_Concord City|Concord City
+US_North Carolina_Cumberland County|Cumberland County
+US_North Carolina_Davidson County|Davidson County
+US_North Carolina_Durham City|Durham City
+US_North Carolina_Fayetteville City|Fayetteville City
+US_North Carolina_Forsyth County|Forsyth County
+US_North Carolina_Franklin County|Franklin County
+US_North Carolina_Gaston County|Gaston County
+US_North Carolina_Gastonia City|Gastonia City
+US_North Carolina_Greensboro City|Greensboro City
+US_North Carolina_Greenville City|Greenville City
+US_North Carolina_Guilford County|Guilford County
+US_North Carolina_Harnett County|Harnett County
+US_North Carolina_Henderson County|Henderson County
+US_North Carolina_High Point City|High Point City
+US_North Carolina_Huntersville Town|Huntersville Town
+US_North Carolina_Iredell County|Iredell County
+US_North Carolina_Jacksonville City|Jacksonville City
+US_North Carolina_Johnston County|Johnston County
+US_North Carolina_Lincoln County|Lincoln County
+US_North Carolina_New Hanover County|New Hanover County
+US_North Carolina_Onslow County|Onslow County
+US_North Carolina_Orange County|Orange County
+US_North Carolina_Pitt County|Pitt County
+US_North Carolina_Raleigh City|Raleigh City
+US_North Carolina_Randolph County|Randolph County
+US_North Carolina_Robeson County|Robeson County
+US_North Carolina_Rockingham County|Rockingham County
+US_North Carolina_Rocky Mount City|Rocky Mount City
+US_North Carolina_Rowan County|Rowan County
+US_North Carolina_Sampson County|Sampson County
+US_North Carolina_Surry County|Surry County
+US_North Carolina_Union County|Union County
+US_North Carolina_Wake County|Wake County
+US_North Carolina_Wayne County|Wayne County
+US_North Carolina_Wilkes County|Wilkes County
+US_North Carolina_Wilmington City|Wilmington City
+US_North Carolina_Winston-Salem City|Winston-Salem City
+US_North Dakota|North Dakota
+US_North Dakota_Bismarck City|Bismarck City
+US_North Dakota_Fargo City|Fargo City
+US_North Dakota_Grand Forks City|Grand Forks City
+US_Ohio|Ohio
+US_Ohio_Akron City|Akron City
+US_Ohio_Allen County|Allen County
+US_Ohio_Beavercreek Township|Beavercreek Township
+US_Ohio_Butler County|Butler County
+US_Ohio_Canton City|Canton City
+US_Ohio_Cincinnati City|Cincinnati City
+US_Ohio_Clark County|Clark County
+US_Ohio_Clermont County|Clermont County
+US_Ohio_Cleveland City|Cleveland City
+US_Ohio_Colerain Township|Colerain Township
+US_Ohio_Columbiana County|Columbiana County
+US_Ohio_Columbus City|Columbus City
+US_Ohio_Dayton City|Dayton City
+US_Ohio_Delaware County|Delaware County
+US_Ohio_Elyria City|Elyria City
+US_Ohio_Fairfield County|Fairfield County
+US_Ohio_Franklin County|Franklin County
+US_Ohio_Geauga County|Geauga County
+US_Ohio_Green Township|Green Township
+US_Ohio_Hamilton City|Hamilton City
+US_Ohio_Hamilton County|Hamilton County
+US_Ohio_Kettering City|Kettering City
+US_Ohio_Lake County|Lake County
+US_Ohio_Lakewood City|Lakewood City
+US_Ohio_Licking County|Licking County
+US_Ohio_Lorain City|Lorain City
+US_Ohio_Lorain County|Lorain County
+US_Ohio_Lucas County|Lucas County
+US_Ohio_Mahoning County|Mahoning County
+US_Ohio_Medina County|Medina County
+US_Ohio_Miami Township|Miami Township
+US_Ohio_Montgomery County|Montgomery County
+US_Ohio_Muskingum County|Muskingum County
+US_Ohio_Parma City|Parma City
+US_Ohio_Plain Township|Plain Township
+US_Ohio_Portage County|Portage County
+US_Ohio_Richland County|Richland County
+US_Ohio_Ross County|Ross County
+US_Ohio_Scioto County|Scioto County
+US_Ohio_Springfield City|Springfield City
+US_Ohio_Stark County|Stark County
+US_Ohio_Summit County|Summit County
+US_Ohio_Toledo City|Toledo City
+US_Ohio_Trumbull County|Trumbull County
+US_Ohio_Warren County|Warren County
+US_Ohio_Washington Township|Washington Township
+US_Ohio_Wayne County|Wayne County
+US_Ohio_West Chester Township|West Chester Township
+US_Ohio_Youngstown City|Youngstown City
+US_Oklahoma|Oklahoma
+US_Oklahoma_Broken Arrow City|Broken Arrow City
+US_Oklahoma_Edmond City|Edmond City
+US_Oklahoma_Enid City|Enid City
+US_Oklahoma_Lawton City|Lawton City
+US_Oklahoma_Midwest City|Midwest City
+US_Oklahoma_Moore City|Moore City
+US_Oklahoma_Norman City|Norman City
+US_Oklahoma_Oklahoma City|Oklahoma City
+US_Oklahoma_Rogers County|Rogers County
+US_Oklahoma_Tulsa City|Tulsa City
+US_Oregon|Oregon
+US_Oregon_Albany City|Albany City
+US_Oregon_Beaverton City|Beaverton City
+US_Oregon_Bend City|Bend City
+US_Oregon_Clackamas County|Clackamas County
+US_Oregon_Corvallis City|Corvallis City
+US_Oregon_Deschutes County|Deschutes County
+US_Oregon_Douglas County|Douglas County
+US_Oregon_Eugene City|Eugene City
+US_Oregon_Gresham City|Gresham City
+US_Oregon_Hillsboro City|Hillsboro City
+US_Oregon_Jackson County|Jackson County
+US_Oregon_Lane County|Lane County
+US_Oregon_Marion County|Marion County
+US_Oregon_Medford City|Medford City
+US_Oregon_Portland City|Portland City
+US_Oregon_Salem City|Salem City
+US_Oregon_Springfield City|Springfield City
+US_Oregon_Tigard City|Tigard City
+US_Oregon_Washington County|Washington County
+US_Pennsylvania|Pennsylvania
+US_Pennsylvania_Abington Township|Abington Township
+US_Pennsylvania_Adams County|Adams County
+US_Pennsylvania_Allegheny County|Allegheny County
+US_Pennsylvania_Allentown City|Allentown City
+US_Pennsylvania_Beaver County|Beaver County
+US_Pennsylvania_Bensalem Township|Bensalem Township
+US_Pennsylvania_Berks County|Berks County
+US_Pennsylvania_Bethlehem City|Bethlehem City
+US_Pennsylvania_Blair County|Blair County
+US_Pennsylvania_Bristol Township|Bristol Township
+US_Pennsylvania_Bucks County|Bucks County
+US_Pennsylvania_Butler County|Butler County
+US_Pennsylvania_Cambria County|Cambria County
+US_Pennsylvania_Centre County|Centre County
+US_Pennsylvania_Chester County|Chester County
+US_Pennsylvania_Clearfield County|Clearfield County
+US_Pennsylvania_Crawford County|Crawford County
+US_Pennsylvania_Cumberland County|Cumberland County
+US_Pennsylvania_Dauphin County|Dauphin County
+US_Pennsylvania_Delaware County|Delaware County
+US_Pennsylvania_Erie City|Erie City
+US_Pennsylvania_Erie County|Erie County
+US_Pennsylvania_Fayette County|Fayette County
+US_Pennsylvania_Franklin County|Franklin County
+US_Pennsylvania_Indiana County|Indiana County
+US_Pennsylvania_Lancaster City|Lancaster City
+US_Pennsylvania_Lancaster County|Lancaster County
+US_Pennsylvania_Lawrence County|Lawrence County
+US_Pennsylvania_Lebanon County|Lebanon County
+US_Pennsylvania_Lehigh County|Lehigh County
+US_Pennsylvania_Lower Merion Township|Lower Merion Township
+US_Pennsylvania_Luzerne County|Luzerne County
+US_Pennsylvania_Lycoming County|Lycoming County
+US_Pennsylvania_Mercer County|Mercer County
+US_Pennsylvania_Millcreek Township|Millcreek Township
+US_Pennsylvania_Monroe County|Monroe County
+US_Pennsylvania_Montgomery County|Montgomery County
+US_Pennsylvania_Northampton County|Northampton County
+US_Pennsylvania_Northumberland County|Northumberland County
+US_Pennsylvania_Philadelphia City|Philadelphia City
+US_Pennsylvania_Pike County|Pike County
+US_Pennsylvania_Pittsburgh City|Pittsburgh City
+US_Pennsylvania_Reading City|Reading City
+US_Pennsylvania_Schuylkill County|Schuylkill County
+US_Pennsylvania_Scranton City|Scranton City
+US_Pennsylvania_Somerset County|Somerset County
+US_Pennsylvania_Upper Darby Township|Upper Darby Township
+US_Pennsylvania_Washington County|Washington County
+US_Pennsylvania_Westmoreland County|Westmoreland County
+US_Pennsylvania_York County|York County
+US_Rhode Island|Rhode Island
+US_Rhode Island_Cranston City|Cranston City
+US_Rhode Island_Kent County|Kent County
+US_Rhode Island_Newport County|Newport County
+US_Rhode Island_Pawtucket City|Pawtucket City
+US_Rhode Island_Providence City|Providence City
+US_Rhode Island_Providence County|Providence County
+US_Rhode Island_Warwick City|Warwick City
+US_South Carolina|South Carolina
+US_South Carolina_Aiken County|Aiken County
+US_South Carolina_Anderson County|Anderson County
+US_South Carolina_Beaufort County|Beaufort County
+US_South Carolina_Berkeley County|Berkeley County
+US_South Carolina_Charleston City|Charleston City
+US_South Carolina_Charleston County|Charleston County
+US_South Carolina_Columbia City|Columbia City
+US_South Carolina_Darlington County|Darlington County
+US_South Carolina_Dorchester County|Dorchester County
+US_South Carolina_Florence County|Florence County
+US_South Carolina_Greenville City|Greenville City
+US_South Carolina_Greenville County|Greenville County
+US_South Carolina_Horry County|Horry County
+US_South Carolina_Kershaw County|Kershaw County
+US_South Carolina_Lancaster County|Lancaster County
+US_South Carolina_Lexington County|Lexington County
+US_South Carolina_Mount Pleasant Town|Mount Pleasant Town
+US_South Carolina_North Charleston City|North Charleston City
+US_South Carolina_Oconee County|Oconee County
+US_South Carolina_Orangeburg County|Orangeburg County
+US_South Carolina_Pickens County|Pickens County
+US_South Carolina_Richland County|Richland County
+US_South Carolina_Rock Hill City|Rock Hill City
+US_South Carolina_Spartanburg County|Spartanburg County
+US_South Carolina_Sumter County|Sumter County
+US_South Carolina_York County|York County
+US_South Dakota|South Dakota
+US_South Dakota_Rapid City|Rapid City
+US_South Dakota_Sioux Falls City|Sioux Falls City
+US_Tennessee|Tennessee
+US_Tennessee_Bartlett City|Bartlett City
+US_Tennessee_Blount County|Blount County
+US_Tennessee_Bradley County|Bradley County
+US_Tennessee_Chattanooga City|Chattanooga City
+US_Tennessee_Clarksville City|Clarksville City
+US_Tennessee_Franklin City|Franklin City
+US_Tennessee_Hamilton County|Hamilton County
+US_Tennessee_Hendersonville City|Hendersonville City
+US_Tennessee_Jackson City|Jackson City
+US_Tennessee_Johnson City|Johnson City
+US_Tennessee_Kingsport City|Kingsport City
+US_Tennessee_Knox County|Knox County
+US_Tennessee_Knoxville City|Knoxville City
+US_Tennessee_Memphis City|Memphis City
+US_Tennessee_Murfreesboro City|Murfreesboro City
+US_Tennessee_Nashville-Davidson Metropolitan Government|Nashville-Davidson Metropolitan Government
+US_Tennessee_Rutherford County|Rutherford County
+US_Tennessee_Sevier County|Sevier County
+US_Tennessee_Shelby County|Shelby County
+US_Tennessee_Sullivan County|Sullivan County
+US_Tennessee_Sumner County|Sumner County
+US_Tennessee_Washington County|Washington County
+US_Tennessee_Wilson County|Wilson County
+US_Texas|Texas
+US_Texas_Abilene City|Abilene City
+US_Texas_Allen City|Allen City
+US_Texas_Amarillo City|Amarillo City
+US_Texas_Arlington City|Arlington City
+US_Texas_Austin City|Austin City
+US_Texas_Bastrop County|Bastrop County
+US_Texas_Baytown City|Baytown City
+US_Texas_Beaumont City|Beaumont City
+US_Texas_Bell County|Bell County
+US_Texas_Bexar County|Bexar County
+US_Texas_Brazoria County|Brazoria County
+US_Texas_Brownsville City|Brownsville City
+US_Texas_Bryan City|Bryan City
+US_Texas_Cameron County|Cameron County
+US_Texas_Carrollton City|Carrollton City
+US_Texas_Cedar Park City|Cedar Park City
+US_Texas_College Station City|College Station City
+US_Texas_Comal County|Comal County
+US_Texas_Conroe City|Conroe City
+US_Texas_Corpus Christi City|Corpus Christi City
+US_Texas_Dallas City|Dallas City
+US_Texas_Denton City|Denton City
+US_Texas_Denton County|Denton County
+US_Texas_Desoto City|Desoto City
+US_Texas_Edinburg City|Edinburg City
+US_Texas_El Paso City|El Paso City
+US_Texas_El Paso County|El Paso County
+US_Texas_Ellis County|Ellis County
+US_Texas_Euless City|Euless City
+US_Texas_Flower Mound Town|Flower Mound Town
+US_Texas_Fort Bend County|Fort Bend County
+US_Texas_Fort Worth City|Fort Worth City
+US_Texas_Frisco City|Frisco City
+US_Texas_Garland City|Garland City
+US_Texas_Georgetown City|Georgetown City
+US_Texas_Grand Prairie City|Grand Prairie City
+US_Texas_Grapevine City|Grapevine City
+US_Texas_Harlingen City|Harlingen City
+US_Texas_Harris County|Harris County
+US_Texas_Hays County|Hays County
+US_Texas_Hidalgo County|Hidalgo County
+US_Texas_Houston City|Houston City
+US_Texas_Irving City|Irving City
+US_Texas_Johnson County|Johnson County
+US_Texas_Kaufman County|Kaufman County
+US_Texas_Killeen City|Killeen City
+US_Texas_Laredo City|Laredo City
+US_Texas_League City|League City
+US_Texas_Lewisville City|Lewisville City
+US_Texas_Longview City|Longview City
+US_Texas_Lubbock City|Lubbock City
+US_Texas_Mansfield City|Mansfield City
+US_Texas_Mcallen City|Mcallen City
+US_Texas_Mckinney City|Mckinney City
+US_Texas_Mesquite City|Mesquite City
+US_Texas_Midland City|Midland City
+US_Texas_Mission City|Mission City
+US_Texas_Missouri City|Missouri City
+US_Texas_Montgomery County|Montgomery County
+US_Texas_New Braunfels City|New Braunfels City
+US_Texas_North Richland Hills City|North Richland Hills City
+US_Texas_Odessa City|Odessa City
+US_Texas_Parker County|Parker County
+US_Texas_Pasadena City|Pasadena City
+US_Texas_Pearland City|Pearland City
+US_Texas_Pflugerville City|Pflugerville City
+US_Texas_Pharr City|Pharr City
+US_Texas_Plano City|Plano City
+US_Texas_Port Arthur City|Port Arthur City
+US_Texas_Richardson City|Richardson City
+US_Texas_Round Rock City|Round Rock City
+US_Texas_Rowlett City|Rowlett City
+US_Texas_San Angelo City|San Angelo City
+US_Texas_San Antonio City|San Antonio City
+US_Texas_San Marcos City|San Marcos City
+US_Texas_Smith County|Smith County
+US_Texas_Sugar Land City|Sugar Land City
+US_Texas_Tarrant County|Tarrant County
+US_Texas_Temple City|Temple City
+US_Texas_Travis County|Travis County
+US_Texas_Tyler City|Tyler City
+US_Texas_Victoria City|Victoria City
+US_Texas_Waco City|Waco City
+US_Texas_Wichita Falls City|Wichita Falls City
+US_Texas_Williamson County|Williamson County
+US_Utah|Utah
+US_Utah_Layton City|Layton City
+US_Utah_Lehi City|Lehi City
+US_Utah_Ogden City|Ogden City
+US_Utah_Orem City|Orem City
+US_Utah_Provo City|Provo City
+US_Utah_Salt Lake City|Salt Lake City
+US_Utah_Salt Lake County|Salt Lake County
+US_Utah_Sandy City|Sandy City
+US_Utah_South Jordan City|South Jordan City
+US_Utah_St. George City|St. George City
+US_Utah_Taylorsville City|Taylorsville City
+US_Utah_West Jordan City|West Jordan City
+US_Utah_West Valley City|West Valley City
+US_Vermont|Vermont
+US_Vermont_Chittenden County|Chittenden County
+US_Vermont_Windsor County|Windsor County
+US_Virginia|Virginia
+US_Virginia_Albemarle County|Albemarle County
+US_Virginia_Alexandria City|Alexandria City
+US_Virginia_Augusta County|Augusta County
+US_Virginia_Bedford County|Bedford County
+US_Virginia_Campbell County|Campbell County
+US_Virginia_Chesapeake City|Chesapeake City
+US_Virginia_Fairfax County|Fairfax County
+US_Virginia_Fauquier County|Fauquier County
+US_Virginia_Franklin County|Franklin County
+US_Virginia_Frederick County|Frederick County
+US_Virginia_Hampton City|Hampton City
+US_Virginia_Hanover County|Hanover County
+US_Virginia_Harrisonburg City|Harrisonburg City
+US_Virginia_Henry County|Henry County
+US_Virginia_Loudoun County|Loudoun County
+US_Virginia_Lynchburg City|Lynchburg City
+US_Virginia_Newport News City|Newport News City
+US_Virginia_Norfolk City|Norfolk City
+US_Virginia_Pittsylvania County|Pittsylvania County
+US_Virginia_Portsmouth City|Portsmouth City
+US_Virginia_Prince William County|Prince William County
+US_Virginia_Richmond City|Richmond City
+US_Virginia_Roanoke City|Roanoke City
+US_Virginia_Roanoke County|Roanoke County
+US_Virginia_Rockingham County|Rockingham County
+US_Virginia_Suffolk City|Suffolk City
+US_Virginia_Virginia Beach City|Virginia Beach City
+US_Washington|Washington
+US_Washington_Auburn City|Auburn City
+US_Washington_Bellevue City|Bellevue City
+US_Washington_Bellingham City|Bellingham City
+US_Washington_Burien City|Burien City
+US_Washington_Clark County|Clark County
+US_Washington_Everett City|Everett City
+US_Washington_Federal Way City|Federal Way City
+US_Washington_Island County|Island County
+US_Washington_Kennewick City|Kennewick City
+US_Washington_Kent City|Kent City
+US_Washington_King County|King County
+US_Washington_Kirkland City|Kirkland City
+US_Washington_Kitsap County|Kitsap County
+US_Washington_Lakewood City|Lakewood City
+US_Washington_Marysville City|Marysville City
+US_Washington_Mason County|Mason County
+US_Washington_Pasco City|Pasco City
+US_Washington_Pierce County|Pierce County
+US_Washington_Redmond City|Redmond City
+US_Washington_Renton City|Renton City
+US_Washington_Richland City|Richland City
+US_Washington_Sammamish City|Sammamish City
+US_Washington_Seattle City|Seattle City
+US_Washington_Shoreline City|Shoreline City
+US_Washington_Snohomish County|Snohomish County
+US_Washington_Spokane City|Spokane City
+US_Washington_Spokane County|Spokane County
+US_Washington_Spokane Valley City|Spokane Valley City
+US_Washington_Tacoma City|Tacoma City
+US_Washington_Thurston County|Thurston County
+US_Washington_Vancouver City|Vancouver City
+US_Washington_Whatcom County|Whatcom County
+US_Washington_Yakima City|Yakima City
+US_Washington_Yakima County|Yakima County
+US_West Virginia|West Virginia
+US_West Virginia_Berkeley County|Berkeley County
+US_West Virginia_Charleston City|Charleston City
+US_West Virginia_Kanawha County|Kanawha County
+US_West Virginia_Monongalia County|Monongalia County
+US_West Virginia_Raleigh County|Raleigh County
+US_Wisconsin|Wisconsin
+US_Wisconsin_Appleton City|Appleton City
+US_Wisconsin_Dane County|Dane County
+US_Wisconsin_Eau Claire City|Eau Claire City
+US_Wisconsin_Green Bay City|Green Bay City
+US_Wisconsin_Janesville City|Janesville City
+US_Wisconsin_Kenosha City|Kenosha City
+US_Wisconsin_La Crosse City|La Crosse City
+US_Wisconsin_Madison City|Madison City
+US_Wisconsin_Marathon County|Marathon County
+US_Wisconsin_Milwaukee City|Milwaukee City
+US_Wisconsin_Oshkosh City|Oshkosh City
+US_Wisconsin_Outagamie County|Outagamie County
+US_Wisconsin_Racine City|Racine City
+US_Wisconsin_Waukesha City|Waukesha City
+US_Wisconsin_Waukesha County|Waukesha County
+US_Wisconsin_West Allis City|West Allis City
+US_Wisconsin_Winnebago County|Winnebago County
+US_Wyoming|Wyoming
+US_Wyoming_Casper City|Casper City
+US_Wyoming_Cheyenne City|Cheyenne City
+UY|Uruguay
+UZ|Uzbekistan
+VU|Vanuatu
+VE|Venezuela
+VE_Amazonas|Amazonas
+VE_Anzoategui|Anzoategui
+VE_Apure|Apure
+VE_Aragua|Aragua
+VE_Barinas|Barinas
+VE_Bolivar|Bolivar
+VE_Carabobo|Carabobo
+VE_Caracas|Caracas
+VE_Cojedes|Cojedes
+VE_Delta Amacuro|Delta Amacuro
+VE_Dependencias Federales|Dependencias Federales
+VE_Estado Nueva Esparta|Estado Nueva Esparta
+VE_Falcon|Falcon
+VE_Guarico|Guarico
+VE_Lara|Lara
+VE_Merida|Merida
+VE_Miranda|Miranda
+VE_Monagas|Monagas
+VE_Portuguesa|Portuguesa
+VE_Sucre|Sucre
+VE_Tachira|Tachira
+VE_Trujillo|Trujillo
+VE_Yaracuy|Yaracuy
+VE_Zulia|Zulia
+VN|Vietnam
+VN_Haiphong|Haiphong
+VN_Hanoi|Hanoi
+VN_Ho Chi Minh City|Ho Chi Minh City
+YE|Yemen
+ZM|Zambia

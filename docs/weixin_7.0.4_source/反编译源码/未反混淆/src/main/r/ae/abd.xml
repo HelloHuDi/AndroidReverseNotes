@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="58dp">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d2o" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="58dp">
+            <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/d2p" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/ad2"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_weight="1">
+                <TextView android:textSize="@dimen/dz" android:textColor="@color/h6" android:id="@+id/d2q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{dddd}"/>
+                <TextView android:textSize="@dimen/fi" android:textColor="@color/h5" android:id="@+id/d2r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{dddd}"/>
+            </LinearLayout>
+            <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@+id/d2s" android:layout_width="@dimen/nr" android:layout_height="@dimen/no"/>
+        </LinearLayout>
+        <View android:id="@+id/d2t" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignLeft="@+id/d2o" android:layout_alignTop="@+id/d2o" android:layout_alignRight="@+id/d2o" android:layout_alignBottom="@+id/d2o" android:alpha="0.7"/>
+    </RelativeLayout>
+    <View android:id="@+id/d2u" android:background="@color/k" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="40dp"/>
+</LinearLayout>

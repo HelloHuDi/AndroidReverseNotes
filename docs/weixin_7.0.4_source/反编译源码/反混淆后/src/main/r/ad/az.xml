@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceTitleCategory app:title="@string/dee"/>
+    <com.tencent.p177mm.plugin.label.p445ui.widget.InputClearablePreference app:key="contact_label_name" app:layout="@layout/afu"/>
+    <PreferenceTitleCategory app:title="@string/ded"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.applet.ContactListExpandPreference app:key="contact_label_contact_list"/>
+    <PreferenceTitleCategory app:title=" " app:key="contact_label_empty_category"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/ckw" app:key="contact_label_delete" app:layout="@layout/a_e"/>
+    <PreferenceSmallCategory/>
+</PreferenceScreen>

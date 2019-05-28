@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/jb" android:layout_width="48dp" android:layout_height="48dp" android:src="@drawable/ad2" android:layout_centerVertical="true"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/yp" android:background="@drawable/bz" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerVertical="true"/>
+        <TextView android:textSize="8dp" android:textColor="@color/o" android:ellipsize="end" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/yq" android:background="@drawable/c0" android:padding="1dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_marginTop="36dp" android:text="@string/deg" android:singleLine="true"/>
+    </FrameLayout>
+    <TextView android:textSize="12dp" android:textColor="@color/n" android:ellipsize="end" android:gravity="center" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="58dp" android:maxLines="1" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

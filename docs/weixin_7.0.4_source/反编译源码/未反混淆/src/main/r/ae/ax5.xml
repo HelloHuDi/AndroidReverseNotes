@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/aex" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    <RelativeLayout android:id="@+id/aey" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textSize="@dimen/dt" android:textColor="#ccf2f2f2" android:id="@+id/aez" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:layout_marginBottom="8dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <com.tencent.mm.ui.widget.MMPinProgressBtn android:id="@+id/af0" android:visibility="gone" android:layout_width="@dimen/a7a" android:layout_height="@dimen/a7a" android:layout_centerInParent="true"/>
+    <ProgressBar android:layout_gravity="center" android:id="@+id/a9d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/zp"/>
+    <TextView android:textColor="@color/xy" android:id="@+id/af2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</RelativeLayout>

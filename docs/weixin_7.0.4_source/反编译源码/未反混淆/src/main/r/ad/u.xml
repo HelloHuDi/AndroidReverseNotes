@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.mm.pluginsdk.ui.preference.HelperHeaderPreference app:key="contact_info_header_helper" app:layout="@layout/akh"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/b7_" app:key="contact_info_go_to_downloader" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/b78" app:key="contact_info_downloader_manager" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/b77" app:key="contact_info_common_problem" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/b7d" app:key="contact_info_top_downloader" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/b7b" app:key="contact_info_not_disturb" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/av9" app:key="contact_info_clear_data" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e_9" app:key="contact_info_downloader_install" app:layout="@layout/a82"/>
+    <Preference app:title="@string/e_e" app:key="contact_info_downloader_uninstall" app:layout="@layout/a_e"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

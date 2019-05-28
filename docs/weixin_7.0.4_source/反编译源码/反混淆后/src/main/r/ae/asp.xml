@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="@dimen/ly" android:layout_height="@dimen/ly" android:layout_marginTop="@dimen/l5" android:layout_marginBottom="@dimen/nc">
+        <ImageView android:id="@+id/ed3" android:layout_width="@dimen/ly" android:layout_height="@dimen/ly" android:scaleType="fitXY"/>
+        <ImageView android:id="@+id/ed4" android:background="@color/rr" android:layout_width="@dimen/ly" android:layout_height="@dimen/ly" android:scaleType="fitXY"/>
+        <ImageView android:id="@+id/ed5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aym" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/nk" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:id="@+id/c5a" android:layout_width="76dp" android:layout_height="wrap_content" android:singleLine="true"/>
+    <TextView android:textSize="@dimen/nk" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:id="@+id/ed6" android:layout_width="76dp" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc" android:singleLine="true"/>
+</LinearLayout>

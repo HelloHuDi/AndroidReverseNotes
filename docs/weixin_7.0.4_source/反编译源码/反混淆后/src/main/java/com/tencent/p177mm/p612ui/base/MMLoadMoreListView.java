@@ -1,0 +1,147 @@
+package com.tencent.p177mm.p612ui.base;
+
+import android.content.Context;
+import android.util.AttributeSet;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.AbsListView;
+import android.widget.AbsListView.OnScrollListener;
+import android.widget.ListView;
+import android.widget.TextView;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.p177mm.sdk.platformtools.C4990ab;
+
+/* renamed from: com.tencent.mm.ui.base.MMLoadMoreListView */
+public class MMLoadMoreListView extends ListView {
+    private View kZq = null;
+    private C36055a yvO = null;
+    private boolean yvP = false;
+    private TextView yvQ;
+    private boolean yvR = false;
+
+    /* renamed from: com.tencent.mm.ui.base.MMLoadMoreListView$1 */
+    class C303691 implements OnScrollListener {
+        C303691() {
+        }
+
+        public final void onScrollStateChanged(AbsListView absListView, int i) {
+            AppMethodBeat.m2504i(106686);
+            if (absListView.getLastVisiblePosition() == absListView.getCount() - 1 && MMLoadMoreListView.this.yvO != null) {
+                MMLoadMoreListView.this.yvO.mo8166KB();
+            }
+            AppMethodBeat.m2505o(106686);
+        }
+
+        public final void onScroll(AbsListView absListView, int i, int i2, int i3) {
+            AppMethodBeat.m2504i(106687);
+            if (i == 0 && MMLoadMoreListView.this.getChildAt(0) != null && MMLoadMoreListView.this.getChildAt(0).getTop() == MMLoadMoreListView.this.getPaddingTop()) {
+                MMLoadMoreListView.this.yvR = true;
+            } else {
+                MMLoadMoreListView.this.yvR = false;
+            }
+            C4990ab.m7411d("MMLoadMoreListView", "newpoi scroll2Top %s", MMLoadMoreListView.this.yvR);
+            AppMethodBeat.m2505o(106687);
+        }
+    }
+
+    /* renamed from: com.tencent.mm.ui.base.MMLoadMoreListView$a */
+    public interface C36055a {
+        /* renamed from: KB */
+        void mo8166KB();
+    }
+
+    public MMLoadMoreListView(Context context, AttributeSet attributeSet) {
+        super(context, attributeSet);
+        AppMethodBeat.m2504i(106688);
+        init();
+        AppMethodBeat.m2505o(106688);
+    }
+
+    public MMLoadMoreListView(Context context, AttributeSet attributeSet, int i) {
+        super(context, attributeSet, i);
+        AppMethodBeat.m2504i(106689);
+        init();
+        AppMethodBeat.m2505o(106689);
+    }
+
+    private void ctT() {
+        AppMethodBeat.m2504i(106690);
+        this.kZq = View.inflate(getContext(), 2130970112, null);
+        this.yvQ = (TextView) this.kZq.findViewById(2131825998);
+        this.kZq.setVisibility(8);
+        AppMethodBeat.m2505o(106690);
+    }
+
+    private void init() {
+        AppMethodBeat.m2504i(106691);
+        if (this.kZq == null) {
+            ctT();
+            addFooterView(this.kZq);
+            this.kZq.setVisibility(8);
+        }
+        AppMethodBeat.m2505o(106691);
+    }
+
+    public final void dzM() {
+        AppMethodBeat.m2504i(106692);
+        if (this.kZq == null) {
+            ctT();
+        }
+        try {
+            removeFooterView(this.kZq);
+            addFooterView(this.kZq);
+            AppMethodBeat.m2505o(106692);
+        } catch (Exception e) {
+            AppMethodBeat.m2505o(106692);
+        }
+    }
+
+    public void setOnLoadMoreListener(C36055a c36055a) {
+        this.yvO = c36055a;
+    }
+
+    public final void dzN() {
+        AppMethodBeat.m2504i(106693);
+        this.yvP = true;
+        setOnScrollListener(new C303691());
+        AppMethodBeat.m2505o(106693);
+    }
+
+    public boolean getScroll2Top() {
+        return this.yvR;
+    }
+
+    public void setOnFootrClickListener(OnClickListener onClickListener) {
+        AppMethodBeat.m2504i(106694);
+        this.yvQ.setOnClickListener(onClickListener);
+        AppMethodBeat.m2505o(106694);
+    }
+
+    public void setFooterTips(String str) {
+        AppMethodBeat.m2504i(106695);
+        this.yvQ.setText(str);
+        AppMethodBeat.m2505o(106695);
+    }
+
+    public final void dzO() {
+        AppMethodBeat.m2504i(106696);
+        if (this.kZq != null) {
+            this.yvQ.setVisibility(8);
+            this.kZq.setVisibility(8);
+        }
+        AppMethodBeat.m2505o(106696);
+    }
+
+    public final void dzP() {
+        AppMethodBeat.m2504i(106697);
+        this.yvQ.setVisibility(0);
+        this.kZq.setVisibility(0);
+        AppMethodBeat.m2505o(106697);
+    }
+
+    public final void dzQ() {
+        AppMethodBeat.m2504i(106698);
+        removeFooterView(this.kZq);
+        AppMethodBeat.m2505o(106698);
+    }
+}

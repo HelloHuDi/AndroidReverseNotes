@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/a8g" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/blh" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:layout_gravity="center_horizontal" layout="@layout/ak1"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/d91" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/m5" android:textColor="@color/a61" android:id="@+id/azz" android:background="@drawable/b_" android:visibility="visible" android:layout_width="0dp" android:layout_height="@dimen/lz" android:text="@string/or" android:layout_weight="1"/>
+                <ImageView android:id="@+id/b0j" android:background="@color/v9" android:layout_width="@dimen/ft" android:layout_height="match_parent"/>
+                <Button android:textSize="@dimen/m5" android:textColor="@color/a61" android:id="@+id/b00" android:background="@drawable/b_" android:visibility="visible" android:layout_width="0dp" android:layout_height="@dimen/lz" android:text="@string/fq1" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/azi"/>
+</LinearLayout>

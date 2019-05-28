@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/um" android:background="@drawable/c1" android:layout_width="match_parent" android:layout_height="70dp">
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/h4" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:text="@string/l5"/>
+        <FrameLayout android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginRight="20dp" android:layout_weight="1">
+            <RelativeLayout android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/ui" android:layout_width="match_parent" android:layout_height="match_parent">
+                <com.tencent.p177mm.plugin.appbrand.widget.AppBrandNearbyShowcaseView android:id="@+id/uj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.7dp" android:layout_marginRight="5.7dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                <TextView android:textSize="@dimen/nd" android:textColor="#ff8a00" android:ellipsize="end" android:id="@+id/uk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_toLeftOf="@+id/uj" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <com.tencent.p177mm.p612ui.widget.ThreeDotsLoadingView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/un" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/uo" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@c1318a/app_brand_nearby_refresh" android:scaleType="fitCenter"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/ul" android:visibility="gone" android:layout_width="12dp" android:layout_height="24dp" android:layout_marginRight="18dp" android:src="@c1318a/arrow_right" android:scaleType="center"/>
+    </LinearLayout>
+</FrameLayout>

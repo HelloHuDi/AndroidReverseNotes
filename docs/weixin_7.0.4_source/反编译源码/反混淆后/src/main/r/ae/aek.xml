@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/a_q" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:id="@android:id/title" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" style="@style/l9"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/d9v" android:layout_width="@dimen/i8" android:layout_height="wrap_content" android:layout_marginRight="@dimen/le" android:singleLine="true" style="@style/l9"/>
+        <RelativeLayout android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc">
+            <com.tencent.p177mm.p612ui.widget.QDisFadeImageView android:id="@+id/d_5" android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/d_6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_marginBottom="@dimen/do" android:src="@c1318a/sns_sight_icon_mark" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc">
+            <com.tencent.p177mm.p612ui.widget.QDisFadeImageView android:id="@+id/d_7" android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/d_8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_marginBottom="@dimen/do" android:src="@c1318a/sns_sight_icon_mark" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc">
+            <com.tencent.p177mm.p612ui.widget.QDisFadeImageView android:id="@+id/d_9" android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/d__" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_marginBottom="@dimen/do" android:src="@c1318a/sns_sight_icon_mark" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/nc" android:layout_marginBottom="@dimen/nc">
+            <com.tencent.p177mm.p612ui.widget.QDisFadeImageView android:id="@+id/d_a" android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/d_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_marginBottom="@dimen/do" android:src="@c1318a/sns_sight_icon_mark" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

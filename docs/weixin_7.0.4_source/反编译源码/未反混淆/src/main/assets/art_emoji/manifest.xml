@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<emojis>
+	<catalog id="0x20" md5="0" name="emoji_art_group">
+		<emoji md5="843645c468dd93288dbedcf36cb4da12" name="1" type="0x1">34</emoji>
+		<emoji md5="2c0bc250271814216417c9404ec7aa3c" name="2" type="0x1">35</emoji>
+		<emoji md5="52d48a07a5181ba1ca5b629901635c18" name="3" type="0x1">36</emoji>
+		<emoji md5="9d59ad18e8f7f11d8d1b343a2b7d2d05" name="4" type="0x1">37</emoji>
+		<emoji md5="e1faea15b3bd6210b61b7ae8e879723d" name="5" type="0x1">38</emoji>
+		<emoji md5="65f6c85ca180ec7cb54399aee374e1ac" name="0" type="0x1">33</emoji>
+	</catalog>
+	<catalog id="0x21" md5="0" name="emoji_art_favorite">
+	</catalog>
+	<catalog id="0x22" md5="1" name="emoji_art_bless">
+		<emoji md5="a37b7c6e8ced4b16aff0bb508735021b" name="emoji_art_bless_merry" type="0x4">7oSX7oSX7oSX7oy17oSX7oSX7oSXCu6MriAgICAgICAg7oCz7oCzICDujK4KICAgICAgICAgICDugLPukYjugLMKICAgICAgICAg7oCz7oyl7oyl7oCzCu6MriDugLPujJLugLPujJLugLPujK4KICAg7oCz7oyQ7oyQ7oyQ7oyQ7oCzCiDuhJLuhJLuhJLuhJLuhJLuhJLuhJI=</emoji>
+		<emoji md5="01da53a9ca8397a1908798ab966c91d9" name="emoji_art_bless_family" type="0x4">7oy17oyQ7oSX7oSX7oSX7oyQ7oy1CiAgICAgICAgICAg7pGL7oyN7pGLCu6MriAgICAg7pGA7pGA7pGAICAgIO6MrgogICAgICDukLcgICAgICAgICAgICAgIO6QtyAgCiAgIO6Mru6AhO6Agu6Age6Ahe6MrgrujITujITugLDujIXugLDujIPujIM=</emoji>
+	</catalog>
+	<catalog id="0x23" md5="2" name="emoji_art_love">
+		<emoji md5="26cf1e9810f8a04e74508b73ce2f7427" name="emoji_art_love_iloveyou" type="0x4">7oCy7oCy7oCy7oSm7oCi7oSm7oCi7oSmCu6Epu6Asu6Epu6Aou6Aou6Aou6Aou6AogruhKbugLLuhKbuhKbugKLugKLugKLuhKYK7oCy7oCy7oCy7oSm7oSm7oCi7oSm7oSmCu6Epu6Epu6Epu6Epu6Epu6Epu6Epu6EpgruhKbuhKbugLLuhKbuhKbugLLuhKbuhKYK7oSm7oSm7oCy7oSm7oSm7oCy7oSm7oSmCu6Epu6Epu6Asu6Epu6Epu6Asu6Epu6EpgruhKbuhKbuhKbugLLugLLuhKbuhKbuhKY=</emoji>
+		<emoji md5="406cd22e32bba1649be2131918833bb5" name="emoji_art_love_lovemail" type="0x4">7oSD7oSD7oSD7oSD7oSD7oSD7oSD7oSDCu6Eg+6Eg+6IjO6IjO6IjO6IjO6Eg+6EgwruhIMgICAg7oSD7oiM7oiM7oSDICAgICAgIO6EgwruhIMgICAgICAgICAgICDuhIMgICAgICAgICAgICAgICDuhIMK7oSDICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAg7oSDCu6Eg+6Eg+6Eg+6Eg+6Eg+6Eg+6Eg+6EgwogIO6Aon7uhIJ+7pClfu6Egn7ugKI=</emoji>
+		<emoji md5="9cc582ae4514609809b35cc5dccd500f" name="emoji_art_love_flower" type="0x4">7oyu7oyD7oyDICAgIO6Mg+6Mg+6MrgogIO6Mg+6Mg+6Mg+6Mg+6Mg+6MgwogICAg7oyD7oyD7oyD7oyD7oyDCiAgICAgICAg7oyD7oyD7oyD7oyuCiAgICAgICAgICAgICDujIMgICAgICAg7oSQCu6Mru6EkCAgICDujIggICAg7oSQ7oSQCiAgICDuhJDuhJAgIO6MiO6EkO6EkAogICAgIO6Mru6EkO6MiO6EkA==</emoji>
+	</catalog>
+	<catalog id="0x24" md5="3" name="emoji_art_funny">
+		<emoji md5="a47105860901bdc1ab6998031b5a71ad" name="emoji_art_funny_whale" type="0x4">ICAgICAgICAgICAgICAgICDimIYKICAgICAgICDjgILimIbuhI7imIYgIOOAgiAKICAgIO6Uou6UoO6Uou6UoO6Uou6UoArulKLulKDulKLulKDulKLulKDugLDujIMK7pSgIC4uICAgICAgICAgICAgICAgICAgICAgLi7ugLAK7pSiKCrimLstICAgIO6AgyAgICAgLeKYuyop7pSgCu6UoO6Uou6UoO6Uou6UoO6Uou6UoO6Uogp+Ku6Mrn4qfirujK5+Kn4q7oyuKn4K7oyufip+7oyufip+Ku6Mrn4qfu6Mrg==</emoji>
+		<emoji md5="1780dad523ae1ab9ea98ef34f649bf1a" name="emoji_art_funny_manther" type="0x4">7oyuICAgICDukYPukYPukYPukYMKICAgICDukYPukYPukYPukYPukYPukYPujK4KICAgICDukYMgICAgICAgICAgICAgICAgICAgICAg7pGDCu6MriAgIHwg7oCwLiAgICAgICAg7oCwLiB8CiAgICAgICAgfCAg7oyOX19fX18gICAgICB8CiAgICAgICAgXC4uLi4uIHwgfCB8IHwgfCAuLi4uLi8KICDuhYwgICAgICAgICAgICAgICAgICAgICAgICAg7oCO</emoji>
+	</catalog>
+	<catalog id="0x25" md5="4" name="emoji_art_popular">
+		<emoji md5="65c4b9f9e787e4711044d677e76f00df" name="emoji_art_popular_holmd5ay" type="0x4">7oGJICAgIO6Bie6Bie6Biu6Bie6Bie6BiQogICAgICAgICAgICAgICAgICAgICAgICAgICAg7pGHCiAgICAg7pSEICAgICAg7pGHCiAgICAg7oC4ICAgICAgICAgICAgICAgICAg7oCi7oCiCu6Mh+6AuCDuhZPukL0gICDuhLbukKjuhY0=</emoji>
+		<emoji md5="bb200d8ac96348f04c954be42ac94bbf" name="emoji_art_popular_travel" type="0x4">7pGDICAg7oGJICAg7pGD7pGDICAgIO6AnSAgCu6BiSDugYogICAgICAgICDugYnugYnukYMKICAgICDukYcKICAgICAgICAg7oSZCiAgICAg7oSZ7pGHICAgICAgICAgICDukYfuhJkK7pC17oCe7pSd7oCe7pSJ7oCe7pSF7oCe</emoji>
+	</catalog>
+	<catalog id="0x26" md5="5" name="emoji_art_stuff">
+		<emoji md5="9cac7f859ac9f8a2d3b05db09eaa6e64" name="emoji_art_stuff_diamond" type="0x4">ICAgICAgICAg7oyuIO6Ate6Ate6MrgogICAgICAgICAgICDugLXugLXugLUK7oyuICAgIO6EpiDugLXugLXuhKYg7oyuCiAgICAgIO6EpiAgICAgICAgICAgICAgICAgIO6EpgogICAg7oSmICAgICAgICAgICAgICAgICAgICAg7oSmCiAgICAg7oSmICAgICAgICAgICAgICAgICAgIO6EpiAKICAgICAgICDuhKYgICAgICAgICAgICAg7oSmCiAgICAgIO6MriAg7oSmIO6Epu6Mrg==</emoji>
+		<emoji md5="0053759829555dfcb2c960c64af2ef5d" name="emoji_art_stuff_beer" type="0x4">7oyuICAgIO6Bie6Bie6BiQogICAg7oGJ7oGJ7oGJ7oGJ7oGJ7oGJCu6Bie6Bh+6Bh+6Bh+6Bh+6Bh+6Bh+6BhwrugYnugYfugYfugYfugYfugYcgICAg7oGHCu6Bie6Bh+6Bh+6Bh+6Bh+6BhyAgICDugYcKICAgICDugYfugYfugYfugYfugYcgICDugYcKICAgICDugYfugYfugYfugYfugYfugYcKICAgICDugYfugYfugYfugYfugYcK7oyS7oCY7oWS7pSV7oCB7oCE7oCY7oyS</emoji>
+	</catalog>
+</emojis>

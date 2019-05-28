@@ -1,0 +1,24 @@
+<root id="0">
+    <node id="1024" desc="通讯录" reset="1">
+        <node id="1025" desc="搜索框">
+            <node id="1" desc="进行关键字搜索"></node>
+            <node id="2" desc="点击语音搜索按钮，启动语音搜索">
+                <node id="4" desc="点击取消语音搜索" jumpto="1024" ></node>
+                <node id="5" desc="搜索到结果，点击返回" jumpto="1024" ></node>
+                <node id="6" desc="搜索到结果，点击选择联系人呢" jumpto="0" ></node>
+            </node>
+            <node id="3" desc="点击空白处取消" jumpto="1024" ></node>
+            <node id="7" desc="耳听模式，启动语音搜索">
+                <node id="4" desc="点击取消语音搜索" jumpto="1024" ></node>
+                <node id="5" desc="搜索到结果，点击返回" jumpto="1024" ></node>
+                <node id="6" desc="搜索到结果，点击选择联系人呢" jumpto="0" ></node>
+            </node>
+        </node>
+        
+        <node id="7" desc="耳听模式，启动语音搜索">
+            <node id="4" desc="点击取消语音搜索" jumpto="1024" ></node>
+            <node id="5" desc="搜索到结果，点击返回" jumpto="1024" ></node>
+            <node id="6" desc="搜索到结果，点击选择联系人呢" jumpto="0" ></node>
+        </node>
+    </node>
+</root>

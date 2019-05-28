@@ -1,0 +1,49 @@
+precision highp float;
+attribute vec4 position;
+attribute vec2 inputTextureCoordinate;
+varying vec2 textureCoordinate;
+
+uniform vec2 canvasSize;
+uniform vec2 texAnchor;
+uniform vec2 texOffset;
+uniform float texScale;
+uniform float texXAdjustScale;
+uniform float texYAdjustScale;
+
+mat4 texMatTranslateBefore = mat4(1.0, 0.0, 0.0, 0.0,
+                                  0.0, 1.0, 0.0, 0.0,
+                                  0.0, 0.0, 1.0, 0.0,
+                                  0.0, 0.0, 0.0, 1.0);
+
+mat4 texMatScale = mat4(1.0, 0.0, 0.0, 0.0,
+                        0.0, 1.0, 0.0, 0.0,
+                        0.0, 0.0, 1.0, 0.0,
+                        0.0, 0.0, 0.0, 1.0);
+
+mat4 texMatTranslateAfter = mat4(1.0, 0.0, 0.0, 0.0,
+                                 0.0, 1.0, 0.0, 0.0,
+                                 0.0, 0.0, 1.0, 0.0,
+                                 0.0, 0.0, 0.0, 1.0);
+
+void main(){
+    vec4 framePos = position;
+    framePos.x = framePos.x * canvasSize.x * 0.5;
+    framePos.y = framePos.y * canvasSize.y * 0.5;
+
+    texMatTranslateBefore[3][0] = -texAnchor.x;
+    texMatTranslateBefore[3][1] = -texAnchor.y;
+
+    texMatScale[0][0] = texScale * texXAdjustScale;
+    texMatScale[1][1] = texScale * texYAdjustScale;
+
+    texMatTranslateAfter[3][0] = texAnchor.x + texOffset.x;
+    texMatTranslateAfter[3][1] = texAnchor.y + texOffset.y;
+
+    framePos = texMatTranslateAfter * texMatScale * texMatTranslateBefore * framePos;
+
+    framePos.x = framePos.x * 2.0 / canvasSize.x;
+    framePos.y = framePos.y * 2.0 / canvasSize.y;
+
+    gl_Position = framePos;
+    textureCoordinate = inputTextureCoordinate;
+}

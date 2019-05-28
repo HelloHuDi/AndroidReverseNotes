@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/bna" android:background="@color/o2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bnb" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <RelativeLayout android:id="@+id/blf" android:background="@color/o2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/blg" android:layout_width="155dp" android:layout_height="155dp" android:layout_marginTop="148dp" android:src="@drawable/b34" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="21dp" android:textColor="@color/a69" android:id="@+id/blh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="328dp" android:text="@string/blv" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/blk" android:background="@color/o2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bll" android:layout_width="155dp" android:layout_height="155dp" android:layout_marginTop="148dp" android:src="@drawable/b3w" android:layout_centerHorizontal="true"/>
+            <ImageView android:id="@+id/blm" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="237dp" android:layout_marginTop="253dp" android:src="@drawable/b3v"/>
+            <TextView android:textSize="24dp" android:textColor="@color/a69" android:id="@+id/bln" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26dp" android:text="@string/blw" android:layout_below="@+id/bll" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/blo" android:background="@color/o2" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/blp" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="148dp" android:src="@drawable/b3t" android:layout_centerHorizontal="true"/>
+            <ImageView android:id="@+id/blq" android:layout_width="155dp" android:layout_height="155dp" android:layout_marginTop="148dp" android:src="@drawable/b40" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="21dp" android:textColor="@color/a69" android:id="@+id/blr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="323dp" android:text="@string/blt" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <Button android:textSize="18dp" android:textColor="@color/a69" android:id="@+id/bnc" android:background="@drawable/mo" android:layout_width="200dp" android:layout_height="44dp" android:layout_marginBottom="150dp" android:text="@string/qt" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="#6587cf" android:id="@+id/bnd" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l5" android:text="@string/bke" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <Button android:id="@+id/bne" android:visibility="visible" style="@style/i6"/>
+    </RelativeLayout>
+</merge>

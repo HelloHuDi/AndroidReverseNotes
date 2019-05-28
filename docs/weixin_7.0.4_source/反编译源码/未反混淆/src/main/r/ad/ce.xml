@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <CheckBoxPreference app:persistent="false" app:summary="@string/end" app:title="@string/ena" app:key="sns_outside_permiss" app:defaultValue="false"/>
+    <CheckBoxPreference app:persistent="false" app:summary="@string/ejw" app:title="@string/ejt" app:key="sns_black_permiss" app:defaultValue="false"/>
+</PreferenceScreen>

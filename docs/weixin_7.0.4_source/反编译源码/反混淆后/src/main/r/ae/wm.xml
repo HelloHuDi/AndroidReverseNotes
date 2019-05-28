@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:gravity="center" android:id="@+id/bkj" android:background="@drawable/adc" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/bhl" android:shadowColor="@color/h4" android:shadowDx="1" android:shadowDy="1" android:shadowRadius="1" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</merge>

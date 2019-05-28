@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ac">6dp</dimen>
+    <dimen name="ad">5dp</dimen>
+    <dimen name="ae">24dp</dimen>
+    <dimen name="af">180dp</dimen>
+    <dimen name="ag">45dp</dimen>
+    <dimen name="ah">45dp</dimen>
+    <dimen name="ab5">36dp</dimen>
+    <dimen name="ab6">6dp</dimen>
+    <dimen name="ab7">40dp</dimen>
+    <dimen name="ab8">32dp</dimen>
+    <dimen name="ab9">30dp</dimen>
+</resources>

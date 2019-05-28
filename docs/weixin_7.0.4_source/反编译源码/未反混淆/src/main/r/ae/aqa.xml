@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.applet.SecurityImage xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout style="@style/ks">
+        <LinearLayout android:gravity="bottom" android:padding="5dp" style="@style/mb">
+            <FrameLayout android:background="#000000" android:padding="1px" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="40dp">
+                <ImageView android:id="@+id/e7i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="150dp" android:maxHeight="80dp" android:minWidth="130dp" android:minHeight="53dp"/>
+                <ProgressBar android:layout_gravity="center" android:id="@+id/e7j" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+            </FrameLayout>
+            <View style="@style/nr"/>
+            <Button android:id="@+id/e7k" android:minHeight="40dp" android:text="@string/wt" android:singleLine="true" style="@style/k6"/>
+        </LinearLayout>
+        <View style="@style/nr"/>
+        <EditText android:textColor="@color/w4" android:id="@+id/e7l" android:hint="@string/wu" style="@style/md"/>
+    </LinearLayout>
+</com.tencent.mm.ui.applet.SecurityImage>

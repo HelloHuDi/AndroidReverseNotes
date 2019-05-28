@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/l0" android:textColor="@color/w4" android:textColorHint="#4d000000" android:id="@+id/l3" android:background="@drawable/b77" android:padding="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="false" android:maxLength="128" android:inputType="text" android:textCursorDrawable="@null"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/f5i" android:background="#f6f6f6" android:layout_width="match_parent" android:layout_height="@dimen/a_s" android:layout_marginTop="@dimen/l5">
+        <ImageView android:id="@+id/f5j" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginLeft="@dimen/ds" android:src="@a/actionbar_icon_dark_add"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="#ff0c4f8e" android:id="@+id/f5k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/cm1" android:background="#f6f6f6" android:paddingLeft="@dimen/ds" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds">
+            <TextView android:textSize="@dimen/m5" android:textColor="#80000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:text="地址信息"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="#ff0c4f8e" android:id="@+id/f5l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="更换" android:layout_toLeftOf="@+id/f5m"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="#ff0c4f8e" android:id="@+id/f5m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ds" android:text="删除" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/m5" android:textColor="#e6000000" android:id="@+id/e0g" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_marginTop="@dimen/ds"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="#e6000000" android:id="@+id/e0h" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_marginTop="@dimen/do" android:layout_marginRight="@dimen/do" android:layout_marginBottom="@dimen/ds"/>
+    </LinearLayout>
+</LinearLayout>

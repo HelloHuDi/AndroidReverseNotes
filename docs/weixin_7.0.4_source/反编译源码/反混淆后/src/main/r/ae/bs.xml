@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.p612ui.widget.sortlist.DragSortListView android:id="@android:id/list" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" app:collapsed_height="2dp" app:drag_scroll_start="0.33" app:max_drag_scroll_speed="0.5" app:remove_mode="1" app:track_drag_sort="false" app:float_alpha="0.4" app:slide_shuffle_speed="0.3" app:drag_enabled="true" app:sort_enabled="true" app:remove_enabled="false" app:drag_start_mode="0" app:drag_handle_id="@+id/g" app:use_default_controller="true"/>
+</FrameLayout>

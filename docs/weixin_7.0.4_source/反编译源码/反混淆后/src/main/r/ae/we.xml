@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bka" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@color/le" android:scaleType="centerCrop"/>
+        <ImageView android:background="@drawable/kt" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bkb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="64dp" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:src="@drawable/atc" android:contentDescription="@string/bfb"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bhp"/>
+    </LinearLayout>
+    <com.tencent.p177mm.p612ui.base.MMPullDownView android:id="@+id/b64" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/bkc" android:background="@null" android:scrollbars="none" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/a3p" android:cacheColorHint="#00000000" android:overScrollHeader="@android:color/transparent" android:overScrollFooter="@android:color/transparent"/>
+    </com.tencent.p177mm.p612ui.base.MMPullDownView>
+    <com.tencent.p177mm.plugin.exdevice.p393ui.ExdeviceProfileAffectedUserView android:id="@+id/bkd" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</RelativeLayout>

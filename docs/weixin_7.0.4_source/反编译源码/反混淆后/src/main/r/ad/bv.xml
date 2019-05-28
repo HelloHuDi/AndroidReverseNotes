@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <CheckBoxPreference android:persistent="true" app:summary="@string/e5h" app:title="@string/e5f" app:key="settings_active_silence_time"/>
+    <CheckBoxPreference android:persistent="true" app:summary="@string/e5h" app:title="@string/e5g" app:key="settings_active_time_full"/>
+    <Preference app:title="@string/e5d" app:key="settings_active_begin_time" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e5e" app:key="settings_active_end_time" app:layout="@layout/ae4"/>
+</PreferenceScreen>

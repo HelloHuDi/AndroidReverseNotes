@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/al9" android:background="@drawable/acc" android:paddingTop="15dp" android:paddingBottom="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center_horizontal" android:id="@+id/al_" android:layout_width="65dp" android:layout_height="65dp" android:src="@drawable/ad2"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="#000000" android:ellipsize="end" android:gravity="center" android:id="@+id/ala" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:singleLine="true"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="#9f9e9f" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/dvc"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="#9f9e9f" android:gravity="center" android:id="@+id/alb" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/dvd"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dt" android:textColor="#000000" android:gravity="center" android:id="@+id/alc" android:paddingLeft="20dp" android:paddingRight="20dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_below="@+id/al9" android:layout_centerHorizontal="true"/>
+    <TextView android:gravity="center" android:id="@+id/ald" android:visibility="gone" android:layout_marginLeft="10dp" android:layout_marginTop="15dp" android:layout_marginRight="10dp" android:layout_below="@+id/alc" android:layout_centerHorizontal="true" style="@style/fy"/>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/nk" android:textColor="#848386" android:gravity="center" android:id="@+id/ale" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:lineSpacingExtra="0dp"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a7s" android:gravity="center" android:id="@+id/alf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="20dp" android:layout_marginTop="14dp" android:text="@string/dv8" android:lineSpacingExtra="0dp"/>
+    </LinearLayout>
+</RelativeLayout>

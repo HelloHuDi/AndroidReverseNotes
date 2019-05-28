@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <EditText android:textSize="@dimen/m5" android:textColor="@color/w4" android:gravity="center" android:id="@+id/a4y" android:background="@drawable/b77" android:layout_width="70dp" android:layout_height="match_parent" android:text="@string/b3a" android:inputType="phone"/>
+    <com.tencent.mm.ui.base.MMClearEditText android:textSize="@dimen/m5" android:textColorHint="@color/pf" android:id="@+id/d9i" android:background="@drawable/b77" android:paddingLeft="26dp" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/d0g" android:inputType="phone"/>
+</merge>

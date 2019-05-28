@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/nb">
+    <RelativeLayout android:background="@drawable/pz" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4" android:minHeight="@dimen/nb">
+        <TextView android:textColor="@color/a3t" android:id="@android:id/title" android:paddingLeft="@dimen/lo" android:layout_width="wrap_content" android:layout_height="match_parent" android:maxEms="6" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/l9"/>
+        <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nj" android:layout_alignParentRight="true">
+            <ImageView android:id="@+id/ezk" android:visibility="gone" android:scaleType="centerCrop" style="@style/rs"/>
+            <ImageView android:id="@+id/ezl" android:visibility="gone" android:scaleType="centerCrop" style="@style/rs"/>
+            <ImageView android:id="@+id/ezm" android:visibility="gone" android:scaleType="centerCrop" style="@style/rs"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@drawable/a4d" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4"/>
+</LinearLayout>

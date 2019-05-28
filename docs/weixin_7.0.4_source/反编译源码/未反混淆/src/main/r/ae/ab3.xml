@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" style="@style/pt">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/d1e" android:layout_width="match_parent" android:layout_height="@dimen/nb">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/aa2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:gravity="center" android:id="@+id/d1f" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/ddp" android:layout_weight="1"/>
+            <View android:id="@+id/d1g" android:background="@color/a61" android:layout_width="match_parent" android:layout_height="@dimen/nj"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:background="@drawable/aa2" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:gravity="center" android:id="@+id/d1h" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/ddq" android:layout_weight="1"/>
+            <View android:id="@+id/d1i" android:background="@color/a61" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="@dimen/nj"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ListView android:id="@+id/d1j" android:layout_weight="1" style="@style/mf"/>
+</LinearLayout>

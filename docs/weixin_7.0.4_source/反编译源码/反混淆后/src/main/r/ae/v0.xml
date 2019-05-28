@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <com.tencent.p177mm.p612ui.base.MMPullDownView android:orientation="vertical" android:id="@+id/bhb" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.p177mm.plugin.emoji.p384ui.p385v2.PreViewListGridView android:gravity="center" android:id="@+id/l9" android:background="@color/a3p" android:focusable="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/a8g" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none"/>
+    </com.tencent.p177mm.p612ui.base.MMPullDownView>
+    <com.tencent.p177mm.p612ui.contact.LabelContainerView android:orientation="vertical" android:id="@+id/iy" android:background="#f7ffffff" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/do" android:paddingRight="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include layout="@layout/aqg"/>
+            <com.tencent.p177mm.p612ui.base.MMTagPanel android:id="@+id/iz" android:paddingTop="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/nc" app:verticalSpacing="@dimen/do"/>
+        </LinearLayout>
+    </com.tencent.p177mm.p612ui.contact.LabelContainerView>
+</FrameLayout>

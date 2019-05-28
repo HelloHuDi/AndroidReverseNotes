@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/x7" style="@style/pt">
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/pg" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/bop" android:paddingLeft="@dimen/m4" android:paddingTop="102dp" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/l5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dh0" android:layout_centerHorizontal="true"/>
+    <com.tencent.p177mm.plugin.pwdgroup.p1013ui.widget.MMCallBackScrollView android:id="@+id/boq" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/bor" android:layout_alignParentTop="true">
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:paddingTop="70dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/pg" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/bos" android:paddingLeft="@dimen/m4" android:paddingTop="32dp" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/l5" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dh0"/>
+            <com.tencent.p177mm.plugin.pwdgroup.p1013ui.widget.MMPwdInputView android:layout_gravity="center_horizontal" android:id="@+id/bot" android:paddingTop="@dimen/m4" android:paddingBottom="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:inputType="number"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/bou" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/a2z" android:gravity="center_horizontal" android:id="@+id/bov" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <View android:background="@color/a2z" android:paddingBottom="@dimen/l9" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4"/>
+                <com.tencent.p177mm.p612ui.widget.MMScrollGridView android:id="@+id/bow" android:paddingLeft="@dimen/nc" android:paddingTop="@dimen/m4" android:paddingRight="@dimen/nc" android:paddingBottom="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@color/a3p" android:horizontalSpacing="@dimen/nc" android:verticalSpacing="@dimen/m4" android:numColumns="4"/>
+            </LinearLayout>
+        </LinearLayout>
+    </com.tencent.p177mm.plugin.pwdgroup.p1013ui.widget.MMCallBackScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/box" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/boq" android:layout_centerHorizontal="true">
+        <ProgressBar android:id="@+id/boy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a03" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/boz" android:paddingLeft="@dimen/l8" android:paddingRight="@dimen/l8" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.tencent.p177mm.plugin.pwdgroup.p1013ui.widget.MMKeyBoardView android:layout_gravity="center_horizontal" android:id="@+id/bp0" android:layout_width="match_parent" android:layout_height="@dimen/af" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/bor" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <View android:id="@+id/bp1" android:background="@color/a2z" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1px"/>
+        <Button android:gravity="center" android:id="@+id/bp2" android:layout_margin="@dimen/l5" android:layout_marginBottom="@dimen/l8" android:text="@string/bn0" style="@style/ni"/>
+    </LinearLayout>
+</RelativeLayout>

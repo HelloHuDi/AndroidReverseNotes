@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ListView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:scrollbarStyle="outsideOverlay" android:id="@+id/e8e" android:background="@color/vs" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent"/>

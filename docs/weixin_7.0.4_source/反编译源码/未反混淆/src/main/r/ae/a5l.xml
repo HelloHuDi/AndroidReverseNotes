@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="#ffffff" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ListView android:id="@+id/bai" android:background="#f7ffffff" android:focusable="false" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:transcriptMode="disabled" style="@style/mf"/>
+    <ListView android:id="@+id/c9_" android:background="#f7ffffff" android:focusable="false" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:transcriptMode="disabled" style="@style/mf"/>
+    <RelativeLayout android:id="@+id/al1" android:background="#f7ffffff" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/baj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/zo"/>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/s0" android:gravity="center_horizontal" android:id="@+id/a9r" android:background="#f7ffffff" android:paddingTop="@dimen/la" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/c7u"/>
+</FrameLayout>

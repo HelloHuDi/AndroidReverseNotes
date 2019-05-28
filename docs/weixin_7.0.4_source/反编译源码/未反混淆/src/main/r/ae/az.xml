@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/zf" android:baselineAligned="false" style="@style/pt">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1">
+        <ListView android:id="@+id/n3" android:focusable="true" android:scrollbars="none" android:transcriptMode="disabled" android:overScrollMode="never" style="@style/mf"/>
+        <TextView android:textColor="@color/w4" android:gravity="center_horizontal" android:layout_gravity="center_vertical" android:id="@+id/n4" android:paddingTop="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/l8"/>
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@+id/n5" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="MMFontPreferenceLarge"/>
+        <RelativeLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <com.tencent.mm.ui.base.AlphabetScrollBar android:id="@+id/n6" android:layout_width="@dimen/dm" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <TextView android:id="@+id/n7" android:background="@color/vs" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/dz" android:singleLine="false" style="@style/l8"/>
+        <include layout="@layout/aza"/>
+    </FrameLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/n8" android:background="@drawable/ay1" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/nb">
+        <HorizontalScrollView android:orientation="horizontal" android:scrollbars="none" android:layout_width="0dp" android:layout_height="@dimen/nb" android:fillViewport="true" android:layout_weight="1">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/n9" android:layout_width="match_parent" android:layout_height="match_parent">
+                <ImageView android:id="@+id/n_" android:layout_width="@dimen/n5" android:layout_height="@dimen/n5" android:layout_marginRight="@dimen/do" android:src="@drawable/awy"/>
+            </LinearLayout>
+        </HorizontalScrollView>
+        <Button android:id="@+id/na" android:visibility="gone" android:layout_marginLeft="@dimen/nc" android:text="@string/s6" style="@style/nk"/>
+    </LinearLayout>
+</LinearLayout>

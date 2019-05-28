@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/dcz" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.plugin.brandservice.p349ui.timeline.video.MPVideoHeaderView android:orientation="vertical" android:id="@+id/dd0" android:background="@color/gy" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <FrameLayout android:id="@+id/dd1" android:layout_width="match_parent" android:layout_height="0dp"/>
+    <com.tencent.p177mm.plugin.brandservice.p349ui.timeline.video.MPVideoCommentView android:orientation="vertical" android:id="@+id/dd2" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

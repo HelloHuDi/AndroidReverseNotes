@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/fhb" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/l5" android:layout_weight="1">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/h7" android:id="@+id/fhc" android:layout_width="match_parent" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/rb" android:ellipsize="middle" android:id="@+id/fhd" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:layout_marginRight="@dimen/l8" android:text="" android:maxLines="2"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/fhe" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginRight="@dimen/l8" android:src="@a/radio_off"/>
+    </LinearLayout>
+    <View android:background="@color/hh" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

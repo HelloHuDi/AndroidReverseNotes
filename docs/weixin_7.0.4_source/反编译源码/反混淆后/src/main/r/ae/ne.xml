@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/ag" style="@style/gg"/>
+    <LinearLayout style="@style/g8">
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/g_">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/asb" style="@style/gh"/>
+                <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/at6" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/at7" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/chatting_status_tick"/>
+                <LinearLayout android:layout_gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.tencent.p177mm.pluginsdk.p597ui.emoji.RTChattingEmojiViewTo android:id="@+id/aqy" android:layout_marginLeft="@dimen/a0_" android:layout_marginRight="@dimen/a0_" style="@style/hb"/>
+                    <FrameLayout android:id="@+id/arj" android:paddingLeft="@dimen/a0_" android:paddingTop="8dp" android:paddingRight="@dimen/a0_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <LinearLayout android:gravity="center" android:layout_gravity="start" android:orientation="horizontal" android:background="@drawable/cn" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:id="@+id/ark" android:layout_width="12dp" android:layout_height="12dp" android:src="@c1318a/emoticonstore_capture_icon" android:layout_marginEnd="3dp"/>
+                            <TextView android:textSize="@dimen/nt" android:textColor="@color/a69" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ac9"/>
+                        </LinearLayout>
+                    </FrameLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <ViewStub android:layout_gravity="right" android:id="@+id/ata" android:layout="@layout/nf" android:inflatedId="@+id/at_" android:layout_width="120dp" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <include layout="@layout/ll"/>
+    </LinearLayout>
+</LinearLayout>

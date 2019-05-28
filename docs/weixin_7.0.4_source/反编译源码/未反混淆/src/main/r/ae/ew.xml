@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/l_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+        <com.tencent.mm.ui.MMImageView android:layout_gravity="center_horizontal" android:id="@+id/zf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20dp"/>
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/zg" android:paddingLeft="30dp" android:paddingRight="30dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ProgressBar android:id="@+id/zh" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+            <ImageView android:id="@+id/zi" android:background="@drawable/xc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a7k"/>
+            <ImageView android:id="@+id/zj" android:background="@drawable/ade" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-8dp"/>
+        </LinearLayout>
+        <TextView android:textColor="@color/a69" android:layout_gravity="center_horizontal" android:id="@+id/zk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/zl" android:visibility="visible" android:layout_width="220dp" android:text="@string/cuz" style="@style/ni"/>
+        <Button android:layout_gravity="center_horizontal" android:id="@+id/zm" android:visibility="gone" android:layout_width="220dp" android:text="@string/cuv" style="@style/ni"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/zn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="120dp">
+        <TextView android:textSize="@dimen/kr" android:textColor="#777777" android:gravity="center_horizontal" android:id="@+id/zo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cuw"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="#4b8ee1" android:id="@+id/zp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</FrameLayout>

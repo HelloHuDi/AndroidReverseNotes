@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp">
+    <FrameLayout android:layout_gravity="center_vertical" android:layout_width="48dp" android:layout_height="48dp">
+        <CheckBox android:gravity="center" android:layout_gravity="center" android:id="@+id/a1b" android:focusable="false" android:clickable="false" android:layout_width="@dimen/ex" android:layout_height="@dimen/ex" style="@style/ky"/>
+        <View android:id="@+id/avj" android:layout_width="48dp" android:layout_height="48dp"/>
+        <ProgressBar android:layout_gravity="center" android:id="@+id/a1n" android:focusable="false" android:visibility="gone" android:clickable="false" android:layout_width="@dimen/ex" android:layout_height="@dimen/ex" style="@style/a0h"/>
+        <ImageView android:layout_gravity="center" android:id="@+id/amv" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/avn"/>
+    </FrameLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/jb" android:padding="@dimen/le" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/rq" android:layout_width="45dp" android:layout_height="45dp" android:scaleType="centerCrop"/>
+            <com.tencent.p177mm.p612ui.widget.MMPinProgressBtn android:id="@+id/as0" android:visibility="gone" android:layout_width="45dp" android:layout_height="45dp" android:layout_centerInParent="true" app:circleColor="@color/a3p" app:progressColor="#66000000" app:innerSize="65dp" app:style="1"/>
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="12dp">
+            <TextView android:id="@+id/qm" android:maxLines="2" android:singleLine="false" android:lineSpacingExtra="3dp" style="@style/lf"/>
+            <TextView android:id="@+id/lf" android:layout_marginTop="3dp" android:maxLines="1" android:singleLine="false" android:lineSpacingExtra="3dp" style="@style/le"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

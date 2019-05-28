@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.p177mm.plugin.profile.p483ui.NormalProfileHeaderPreference app:key="contact_profile_header_normal" app:layout="@layout/qy"/>
+    <PreferenceSmallCategory app:key="contact_profile_set_des_category"/>
+    <Preference app:title="@string/b2n" app:key="contact_profile_setting_desc" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.PhoneNumPreference app:key="contact_profile_phone" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.LabelPreference app:key="contact_profile_label" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ProfileDescribePreference app:key="contact_profile_desc" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory app:key="contact_info_category_1"/>
+    <KeyValuePreference app:title="@string/b0a" app:key="contact_info_signature" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.SnsPreference app:title="@string/b0b" app:key="contact_profile_sns" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.plugin.story.p536ui.view.StoryPreference app:title="@string/g6m" app:key="contact_profile_story" app:layout="@layout/ae4"/>
+    <KeyValuePreference app:title="@string/b1p" app:key="contact_profile_source" app:layout="@layout/ae4"/>
+    <KeyValuePreference app:title="@string/awv" app:key="contact_info_invite_source" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ay0" app:key="contact_profile_info_more" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:icon_color="@color/hi" app:btn_icon="@c1318a/profile_chat_icon" app:title_color="@color/hi" app:btn_title="@string/dev" app:key="contact_profile_send" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:title_color="@color/hi" app:btn_title="@string/azt" app:key="contact_profile_say_hi" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:icon_color="@color/hi" app:btn_icon="@c1318a/profile_video_icon" app:title_color="@color/hi" app:btn_title="@string/dez" app:key="contact_profile_voip" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:title_color="@color/hi" app:btn_title="@string/atu" app:key="contact_profile_add_contact" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:title_color="@color/hi" app:btn_title="@string/b21" app:key="contact_profile_accept_contact" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.pluginsdk.p597ui.preference.ButtonPreference app:title_color="@color/hi" app:btn_title="@string/b22" app:key="contact_profile_accept_contact_by_wework" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.p177mm.p612ui.base.preference.TextPreference app:key="contact_profile_hint"/>
+    <PreferenceCategory/>
+    <com.tencent.p177mm.plugin.profile.p483ui.MultiButtonPreference app:key="contact_profile_multi_button"/>
+</PreferenceScreen>

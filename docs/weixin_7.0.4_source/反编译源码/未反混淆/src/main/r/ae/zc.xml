@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/ib">
+    <com.tencent.mm.plugin.fav.ui.FavChatVoiceView android:textSize="14sp" android:textColor="#353535" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bsj" android:background="@drawable/n0" android:paddingLeft="@dimen/l5" android:clickable="true" android:layout_width="match_parent" android:layout_height="56dp" android:text="00:00" android:drawableLeft="@a/chatfrom_voice_playing_new" android:drawablePadding="@dimen/nc"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/y3"/>
+</LinearLayout>

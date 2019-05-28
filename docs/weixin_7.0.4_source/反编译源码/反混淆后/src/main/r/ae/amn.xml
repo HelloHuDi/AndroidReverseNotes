@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/zd" android:background="@color/k6" style="@style/pt">
+    <TextView android:ellipsize="none" android:id="@+id/a74" android:padding="10dp" android:visibility="gone" android:singleLine="false" style="@style/l8"/>
+    <com.tencent.p177mm.p612ui.base.MMPullDownView android:id="@+id/dui" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/duj" android:background="@null" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/u_" android:transcriptMode="alwaysScroll" android:cacheColorHint="#00000000" android:divider="@null"/>
+    </com.tencent.p177mm.p612ui.base.MMPullDownView>
+</LinearLayout>

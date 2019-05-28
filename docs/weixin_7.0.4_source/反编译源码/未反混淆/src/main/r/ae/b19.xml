@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <TextView android:gravity="center" android:id="@+id/f07" android:layout_marginTop="26dp" style="@style/me"/>
+    <TextView android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/f08" android:layout_width="wrap_content" android:layout_marginTop="10dp" android:text="xxx@gmail.com" style="@style/me"/>
+    <com.tencent.mm.ui.base.MMAutoSwitchEditTextView android:gravity="center" android:orientation="horizontal" android:id="@+id/f09" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="14dp" app:edit_text_count="3" app:max_input_count="4" app:edit_text_digits="0123456789"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:layout_marginRight="10dp">
+        <Button android:textSize="13dp" android:id="@+id/f0_" android:paddingLeft="10dp" android:text="@string/dk9" android:layout_alignParentLeft="true" style="@style/k6"/>
+        <Button android:textSize="13dp" android:id="@+id/f0a" android:paddingRight="10dp" android:text="@string/dkb" android:layout_alignParentRight="true" style="@style/k6"/>
+    </RelativeLayout>
+</LinearLayout>

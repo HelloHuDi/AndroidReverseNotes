@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_horizontal" android:background="#eeeeee" android:paddingTop="@dimen/l9" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bia" android:layout_width="@dimen/l7" android:layout_height="@dimen/l7" android:src="@drawable/ax_" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/m5" android:id="@+id/bib" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l9" android:text="@string/bf4" android:layout_below="@+id/bia" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/bic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="" android:layout_below="@+id/bib" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/bid" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/a46" android:background="@color/n9" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/a3p" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="1px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:textColor="@color/s0" android:gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/bie" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l9" android:maxLines="2" android:singleLine="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/l_" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/ay1" android:paddingLeft="6dp" android:paddingTop="6dp" android:paddingRight="6dp" android:paddingBottom="6dp" style="@style/lg">
+        <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:background="@drawable/b77" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.tencent.mm.ui.widget.MMEditText android:textColor="@color/h4" android:id="@+id/d0k" android:background="@null" android:layout_width="0dp" android:layout_marginBottom="@dimen/m7" android:maxHeight="@dimen/ek" android:minHeight="@dimen/em" android:singleLine="false" android:layout_weight="1" android:inputType="none|text|textCapSentences|textMultiLine" style="@style/l4"/>
+            <ImageButton android:id="@+id/d0l" android:background="@null" android:padding="@dimen/nc" android:layout_width="@dimen/ep" android:layout_height="@dimen/ep" android:layout_marginLeft="@dimen/do" android:layout_marginBottom="@dimen/m7" android:src="@drawable/iv" android:contentDescription="@string/aiu"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp">
+            <TextView android:gravity="top" android:id="@+id/amn" android:visibility="gone" style="@style/go"/>
+            <Button android:textColor="@color/a73" android:id="@+id/d0m" android:background="@drawable/ru" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="wrap_content" android:layout_height="@dimen/ep" android:minWidth="@dimen/er" android:text="@string/cq_"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,204 @@
+7767517
+202 240
+Input            data             0 1 data 0=384 1=384 2=3
+BatchNorm        data/bn          1 1 data data_data/bn 0=3
+Scale            data/bn/scale    1 1 data_data/bn data_data/bn/scale 0=3 1=1
+Split            splitncnn_0      1 6 data_data/bn/scale data_data/bn/scale_splitncnn_0 data_data/bn/scale_splitncnn_1 data_data/bn/scale_splitncnn_2 data_data/bn/scale_splitncnn_3 data_data/bn/scale_splitncnn_4 data_data/bn/scale_splitncnn_5
+Convolution      stage1           1 1 data_data/bn/scale_splitncnn_5 stage1 0=24 1=3 2=1 3=2 4=1 5=1 6=648
+ReLU             stage1/relu      1 1 stage1 stage1_stage1/relu
+Pooling          stage2           1 1 stage1_stage1/relu stage2 0=0 1=3 2=2 3=0 4=0
+Convolution      stage3_1/conv1   1 1 stage2 stage3_1/conv1 0=16 1=1 2=1 3=1 4=0 5=1 6=384
+ReLU             stage3_1/conv1/relu 1 1 stage3_1/conv1 stage3_1/conv1_stage3_1/conv1/relu
+ConvolutionDepthWise stage3_1/conv2   1 1 stage3_1/conv1_stage3_1/conv1/relu stage3_1/conv2 0=16 1=3 2=1 3=2 4=1 5=1 6=144 7=16
+Convolution      stage3_1/conv3   1 1 stage3_1/conv2 stage3_1/conv3 0=64 1=1 2=1 3=1 4=0 5=1 6=1024
+ReLU             stage3_1/relu    1 1 stage3_1/conv3 stage3_1/conv3_stage3_1/relu
+Split            splitncnn_1      1 2 stage3_1/conv3_stage3_1/relu stage3_1/conv3_stage3_1/relu_splitncnn_0 stage3_1/conv3_stage3_1/relu_splitncnn_1
+Convolution      stage3_2/conv1   1 1 stage3_1/conv3_stage3_1/relu_splitncnn_1 stage3_2/conv1 0=16 1=1 2=1 3=1 4=0 5=1 6=1024
+ReLU             stage3_2/conv1/relu 1 1 stage3_2/conv1 stage3_2/conv1_stage3_2/conv1/relu
+ConvolutionDepthWise stage3_2/conv2   1 1 stage3_2/conv1_stage3_2/conv1/relu stage3_2/conv2 0=16 1=3 2=1 3=1 4=1 5=1 6=144 7=16
+Convolution      stage3_2/conv3   1 1 stage3_2/conv2 stage3_2/conv3 0=64 1=1 2=1 3=1 4=0 5=1 6=1024
+Eltwise          stage3_2/sum     2 1 stage3_1/conv3_stage3_1/relu_splitncnn_0 stage3_2/conv3 stage3_2/sum 0=1 -23301=0
+ReLU             stage3_2/relu    1 1 stage3_2/sum stage3_2/sum_stage3_2/relu
+Split            splitncnn_2      1 2 stage3_2/sum_stage3_2/relu stage3_2/sum_stage3_2/relu_splitncnn_0 stage3_2/sum_stage3_2/relu_splitncnn_1
+Convolution      stage3_3/conv1   1 1 stage3_2/sum_stage3_2/relu_splitncnn_1 stage3_3/conv1 0=16 1=1 2=1 3=1 4=0 5=1 6=1024
+ReLU             stage3_3/conv1/relu 1 1 stage3_3/conv1 stage3_3/conv1_stage3_3/conv1/relu
+ConvolutionDepthWise stage3_3/conv2   1 1 stage3_3/conv1_stage3_3/conv1/relu stage3_3/conv2 0=16 1=3 2=1 3=1 4=1 5=1 6=144 7=16
+Convolution      stage3_3/conv3   1 1 stage3_3/conv2 stage3_3/conv3 0=64 1=1 2=1 3=1 4=0 5=1 6=1024
+Eltwise          stage3_3/sum     2 1 stage3_2/sum_stage3_2/relu_splitncnn_0 stage3_3/conv3 stage3_3/sum 0=1 -23301=0
+ReLU             stage3_3/relu    1 1 stage3_3/sum stage3_3/sum_stage3_3/relu
+Split            splitncnn_3      1 2 stage3_3/sum_stage3_3/relu stage3_3/sum_stage3_3/relu_splitncnn_0 stage3_3/sum_stage3_3/relu_splitncnn_1
+Convolution      stage3_4/conv1   1 1 stage3_3/sum_stage3_3/relu_splitncnn_1 stage3_4/conv1 0=16 1=1 2=1 3=1 4=0 5=1 6=1024
+ReLU             stage3_4/conv1/relu 1 1 stage3_4/conv1 stage3_4/conv1_stage3_4/conv1/relu
+ConvolutionDepthWise stage3_4/conv2   1 1 stage3_4/conv1_stage3_4/conv1/relu stage3_4/conv2 0=16 1=3 2=1 3=1 4=1 5=1 6=144 7=16
+Convolution      stage3_4/conv3   1 1 stage3_4/conv2 stage3_4/conv3 0=64 1=1 2=1 3=1 4=0 5=1 6=1024
+Eltwise          stage3_4/sum     2 1 stage3_3/sum_stage3_3/relu_splitncnn_0 stage3_4/conv3 stage3_4/sum 0=1 -23301=0
+ReLU             stage3_4/relu    1 1 stage3_4/sum stage3_4/sum_stage3_4/relu
+Convolution      stage4_1/conv1   1 1 stage3_4/sum_stage3_4/relu stage4_1/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=2048
+ReLU             stage4_1/conv1/relu 1 1 stage4_1/conv1 stage4_1/conv1_stage4_1/conv1/relu
+ConvolutionDepthWise stage4_1/conv2   1 1 stage4_1/conv1_stage4_1/conv1/relu stage4_1/conv2 0=32 1=3 2=1 3=2 4=1 5=1 6=288 7=32
+Convolution      stage4_1/conv3   1 1 stage4_1/conv2 stage4_1/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage4_1/relu    1 1 stage4_1/conv3 stage4_1/conv3_stage4_1/relu
+Split            splitncnn_4      1 2 stage4_1/conv3_stage4_1/relu stage4_1/conv3_stage4_1/relu_splitncnn_0 stage4_1/conv3_stage4_1/relu_splitncnn_1
+Convolution      stage4_2/conv1   1 1 stage4_1/conv3_stage4_1/relu_splitncnn_1 stage4_2/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage4_2/conv1/relu 1 1 stage4_2/conv1 stage4_2/conv1_stage4_2/conv1/relu
+ConvolutionDepthWise stage4_2/conv2   1 1 stage4_2/conv1_stage4_2/conv1/relu stage4_2/conv2 0=32 1=3 2=1 3=1 4=1 5=1 6=288 7=32
+Convolution      stage4_2/conv3   1 1 stage4_2/conv2 stage4_2/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage4_2/sum     2 1 stage4_1/conv3_stage4_1/relu_splitncnn_0 stage4_2/conv3 stage4_2/sum 0=1 -23301=0
+ReLU             stage4_2/relu    1 1 stage4_2/sum stage4_2/sum_stage4_2/relu
+Split            splitncnn_5      1 2 stage4_2/sum_stage4_2/relu stage4_2/sum_stage4_2/relu_splitncnn_0 stage4_2/sum_stage4_2/relu_splitncnn_1
+Convolution      stage4_3/conv1   1 1 stage4_2/sum_stage4_2/relu_splitncnn_1 stage4_3/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage4_3/conv1/relu 1 1 stage4_3/conv1 stage4_3/conv1_stage4_3/conv1/relu
+ConvolutionDepthWise stage4_3/conv2   1 1 stage4_3/conv1_stage4_3/conv1/relu stage4_3/conv2 0=32 1=3 2=1 3=1 4=1 5=1 6=288 7=32
+Convolution      stage4_3/conv3   1 1 stage4_3/conv2 stage4_3/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage4_3/sum     2 1 stage4_2/sum_stage4_2/relu_splitncnn_0 stage4_3/conv3 stage4_3/sum 0=1 -23301=0
+ReLU             stage4_3/relu    1 1 stage4_3/sum stage4_3/sum_stage4_3/relu
+Split            splitncnn_6      1 2 stage4_3/sum_stage4_3/relu stage4_3/sum_stage4_3/relu_splitncnn_0 stage4_3/sum_stage4_3/relu_splitncnn_1
+Convolution      stage4_4/conv1   1 1 stage4_3/sum_stage4_3/relu_splitncnn_1 stage4_4/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage4_4/conv1/relu 1 1 stage4_4/conv1 stage4_4/conv1_stage4_4/conv1/relu
+ConvolutionDepthWise stage4_4/conv2   1 1 stage4_4/conv1_stage4_4/conv1/relu stage4_4/conv2 0=32 1=3 2=1 3=1 4=1 5=1 6=288 7=32
+Convolution      stage4_4/conv3   1 1 stage4_4/conv2 stage4_4/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage4_4/sum     2 1 stage4_3/sum_stage4_3/relu_splitncnn_0 stage4_4/conv3 stage4_4/sum 0=1 -23301=0
+ReLU             stage4_4/relu    1 1 stage4_4/sum stage4_4/sum_stage4_4/relu
+Split            splitncnn_7      1 2 stage4_4/sum_stage4_4/relu stage4_4/sum_stage4_4/relu_splitncnn_0 stage4_4/sum_stage4_4/relu_splitncnn_1
+Convolution      stage4_5/conv1   1 1 stage4_4/sum_stage4_4/relu_splitncnn_1 stage4_5/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage4_5/conv1/relu 1 1 stage4_5/conv1 stage4_5/conv1_stage4_5/conv1/relu
+ConvolutionDepthWise stage4_5/conv2   1 1 stage4_5/conv1_stage4_5/conv1/relu stage4_5/conv2 0=32 1=3 2=1 3=1 4=1 5=1 6=288 7=32
+Convolution      stage4_5/conv3   1 1 stage4_5/conv2 stage4_5/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage4_5/sum     2 1 stage4_4/sum_stage4_4/relu_splitncnn_0 stage4_5/conv3 stage4_5/sum 0=1 -23301=0
+ReLU             stage4_5/relu    1 1 stage4_5/sum stage4_5/sum_stage4_5/relu
+Split            splitncnn_8      1 2 stage4_5/sum_stage4_5/relu stage4_5/sum_stage4_5/relu_splitncnn_0 stage4_5/sum_stage4_5/relu_splitncnn_1
+Convolution      stage4_6/conv1   1 1 stage4_5/sum_stage4_5/relu_splitncnn_1 stage4_6/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage4_6/conv1/relu 1 1 stage4_6/conv1 stage4_6/conv1_stage4_6/conv1/relu
+ConvolutionDepthWise stage4_6/conv2   1 1 stage4_6/conv1_stage4_6/conv1/relu stage4_6/conv2 0=32 1=3 2=1 3=1 4=1 5=1 6=288 7=32
+Convolution      stage4_6/conv3   1 1 stage4_6/conv2 stage4_6/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage4_6/sum     2 1 stage4_5/sum_stage4_5/relu_splitncnn_0 stage4_6/conv3 stage4_6/sum 0=1 -23301=0
+ReLU             stage4_6/relu    1 1 stage4_6/sum stage4_6/sum_stage4_6/relu
+Split            splitncnn_9      1 2 stage4_6/sum_stage4_6/relu stage4_6/sum_stage4_6/relu_splitncnn_0 stage4_6/sum_stage4_6/relu_splitncnn_1
+Convolution      stage4_7/conv1   1 1 stage4_6/sum_stage4_6/relu_splitncnn_1 stage4_7/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage4_7/conv1/relu 1 1 stage4_7/conv1 stage4_7/conv1_stage4_7/conv1/relu
+ConvolutionDepthWise stage4_7/conv2   1 1 stage4_7/conv1_stage4_7/conv1/relu stage4_7/conv2 0=32 1=3 2=1 3=1 4=1 5=1 6=288 7=32
+Convolution      stage4_7/conv3   1 1 stage4_7/conv2 stage4_7/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage4_7/sum     2 1 stage4_6/sum_stage4_6/relu_splitncnn_0 stage4_7/conv3 stage4_7/sum 0=1 -23301=0
+ReLU             stage4_7/relu    1 1 stage4_7/sum stage4_7/sum_stage4_7/relu
+Split            splitncnn_10     1 2 stage4_7/sum_stage4_7/relu stage4_7/sum_stage4_7/relu_splitncnn_0 stage4_7/sum_stage4_7/relu_splitncnn_1
+Convolution      stage4_8/conv1   1 1 stage4_7/sum_stage4_7/relu_splitncnn_1 stage4_8/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage4_8/conv1/relu 1 1 stage4_8/conv1 stage4_8/conv1_stage4_8/conv1/relu
+ConvolutionDepthWise stage4_8/conv2   1 1 stage4_8/conv1_stage4_8/conv1/relu stage4_8/conv2 0=32 1=3 2=1 3=1 4=1 5=1 6=288 7=32
+Convolution      stage4_8/conv3   1 1 stage4_8/conv2 stage4_8/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage4_8/sum     2 1 stage4_7/sum_stage4_7/relu_splitncnn_0 stage4_8/conv3 stage4_8/sum 0=1 -23301=0
+ReLU             stage4_8/relu    1 1 stage4_8/sum stage4_8/sum_stage4_8/relu
+Split            splitncnn_11     1 4 stage4_8/sum_stage4_8/relu stage4_8/sum_stage4_8/relu_splitncnn_0 stage4_8/sum_stage4_8/relu_splitncnn_1 stage4_8/sum_stage4_8/relu_splitncnn_2 stage4_8/sum_stage4_8/relu_splitncnn_3
+Convolution      stage5_1/conv1   1 1 stage4_8/sum_stage4_8/relu_splitncnn_3 stage5_1/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage5_1/conv1/relu 1 1 stage5_1/conv1 stage5_1/conv1_stage5_1/conv1/relu
+ConvolutionDepthWise stage5_1/conv2   1 1 stage5_1/conv1_stage5_1/conv1/relu stage5_1/conv2 0=32 1=3 2=2 3=2 4=2 5=1 6=288 7=32
+Convolution      stage5_1/conv3   1 1 stage5_1/conv2 stage5_1/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage5_1/relu    1 1 stage5_1/conv3 stage5_1/conv3_stage5_1/relu
+Split            splitncnn_12     1 2 stage5_1/conv3_stage5_1/relu stage5_1/conv3_stage5_1/relu_splitncnn_0 stage5_1/conv3_stage5_1/relu_splitncnn_1
+Convolution      stage5_2/conv1   1 1 stage5_1/conv3_stage5_1/relu_splitncnn_1 stage5_2/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage5_2/conv1/relu 1 1 stage5_2/conv1 stage5_2/conv1_stage5_2/conv1/relu
+ConvolutionDepthWise stage5_2/conv2   1 1 stage5_2/conv1_stage5_2/conv1/relu stage5_2/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage5_2/conv3   1 1 stage5_2/conv2 stage5_2/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage5_2/sum     2 1 stage5_1/conv3_stage5_1/relu_splitncnn_0 stage5_2/conv3 stage5_2/sum 0=1 -23301=0
+ReLU             stage5_2/relu    1 1 stage5_2/sum stage5_2/sum_stage5_2/relu
+Split            splitncnn_13     1 2 stage5_2/sum_stage5_2/relu stage5_2/sum_stage5_2/relu_splitncnn_0 stage5_2/sum_stage5_2/relu_splitncnn_1
+Convolution      stage5_3/conv1   1 1 stage5_2/sum_stage5_2/relu_splitncnn_1 stage5_3/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage5_3/conv1/relu 1 1 stage5_3/conv1 stage5_3/conv1_stage5_3/conv1/relu
+ConvolutionDepthWise stage5_3/conv2   1 1 stage5_3/conv1_stage5_3/conv1/relu stage5_3/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage5_3/conv3   1 1 stage5_3/conv2 stage5_3/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage5_3/sum     2 1 stage5_2/sum_stage5_2/relu_splitncnn_0 stage5_3/conv3 stage5_3/sum 0=1 -23301=0
+ReLU             stage5_3/relu    1 1 stage5_3/sum stage5_3/sum_stage5_3/relu
+Split            splitncnn_14     1 2 stage5_3/sum_stage5_3/relu stage5_3/sum_stage5_3/relu_splitncnn_0 stage5_3/sum_stage5_3/relu_splitncnn_1
+Convolution      stage5_4/conv1   1 1 stage5_3/sum_stage5_3/relu_splitncnn_1 stage5_4/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage5_4/conv1/relu 1 1 stage5_4/conv1 stage5_4/conv1_stage5_4/conv1/relu
+ConvolutionDepthWise stage5_4/conv2   1 1 stage5_4/conv1_stage5_4/conv1/relu stage5_4/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage5_4/conv3   1 1 stage5_4/conv2 stage5_4/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage5_4/sum     2 1 stage5_3/sum_stage5_3/relu_splitncnn_0 stage5_4/conv3 stage5_4/sum 0=1 -23301=0
+ReLU             stage5_4/relu    1 1 stage5_4/sum stage5_4/sum_stage5_4/relu
+Split            splitncnn_15     1 5 stage5_4/sum_stage5_4/relu stage5_4/sum_stage5_4/relu_splitncnn_0 stage5_4/sum_stage5_4/relu_splitncnn_1 stage5_4/sum_stage5_4/relu_splitncnn_2 stage5_4/sum_stage5_4/relu_splitncnn_3 stage5_4/sum_stage5_4/relu_splitncnn_4
+Convolution      stage6_1/conv4   1 1 stage5_4/sum_stage5_4/relu_splitncnn_4 stage6_1/conv4 0=128 1=1 2=1 3=1 4=0 5=1 6=16384
+Convolution      stage6_1/conv1   1 1 stage5_4/sum_stage5_4/relu_splitncnn_3 stage6_1/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage6_1/conv1/relu 1 1 stage6_1/conv1 stage6_1/conv1_stage6_1/conv1/relu
+ConvolutionDepthWise stage6_1/conv2   1 1 stage6_1/conv1_stage6_1/conv1/relu stage6_1/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage6_1/conv3   1 1 stage6_1/conv2 stage6_1/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage6_1/sum     2 1 stage6_1/conv4 stage6_1/conv3 stage6_1/sum 0=1 -23301=0
+ReLU             stage6_1/relu    1 1 stage6_1/sum stage6_1/sum_stage6_1/relu
+Split            splitncnn_16     1 2 stage6_1/sum_stage6_1/relu stage6_1/sum_stage6_1/relu_splitncnn_0 stage6_1/sum_stage6_1/relu_splitncnn_1
+Convolution      stage6_2/conv1   1 1 stage6_1/sum_stage6_1/relu_splitncnn_1 stage6_2/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage6_2/conv1/relu 1 1 stage6_2/conv1 stage6_2/conv1_stage6_2/conv1/relu
+ConvolutionDepthWise stage6_2/conv2   1 1 stage6_2/conv1_stage6_2/conv1/relu stage6_2/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage6_2/conv3   1 1 stage6_2/conv2 stage6_2/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage6_2/sum     2 1 stage6_1/sum_stage6_1/relu_splitncnn_0 stage6_2/conv3 stage6_2/sum 0=1 -23301=0
+ReLU             stage6_2/relu    1 1 stage6_2/sum stage6_2/sum_stage6_2/relu
+Split            splitncnn_17     1 5 stage6_2/sum_stage6_2/relu stage6_2/sum_stage6_2/relu_splitncnn_0 stage6_2/sum_stage6_2/relu_splitncnn_1 stage6_2/sum_stage6_2/relu_splitncnn_2 stage6_2/sum_stage6_2/relu_splitncnn_3 stage6_2/sum_stage6_2/relu_splitncnn_4
+Convolution      stage7_1/conv4   1 1 stage6_2/sum_stage6_2/relu_splitncnn_4 stage7_1/conv4 0=128 1=1 2=1 3=1 4=0 5=1 6=16384
+Convolution      stage7_1/conv1   1 1 stage6_2/sum_stage6_2/relu_splitncnn_3 stage7_1/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage7_1/conv1/relu 1 1 stage7_1/conv1 stage7_1/conv1_stage7_1/conv1/relu
+ConvolutionDepthWise stage7_1/conv2   1 1 stage7_1/conv1_stage7_1/conv1/relu stage7_1/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage7_1/conv3   1 1 stage7_1/conv2 stage7_1/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage7_1/sum     2 1 stage7_1/conv4 stage7_1/conv3 stage7_1/sum 0=1 -23301=0
+ReLU             stage7_1/relu    1 1 stage7_1/sum stage7_1/sum_stage7_1/relu
+Split            splitncnn_18     1 2 stage7_1/sum_stage7_1/relu stage7_1/sum_stage7_1/relu_splitncnn_0 stage7_1/sum_stage7_1/relu_splitncnn_1
+Convolution      stage7_2/conv1   1 1 stage7_1/sum_stage7_1/relu_splitncnn_1 stage7_2/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage7_2/conv1/relu 1 1 stage7_2/conv1 stage7_2/conv1_stage7_2/conv1/relu
+ConvolutionDepthWise stage7_2/conv2   1 1 stage7_2/conv1_stage7_2/conv1/relu stage7_2/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage7_2/conv3   1 1 stage7_2/conv2 stage7_2/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage7_2/sum     2 1 stage7_1/sum_stage7_1/relu_splitncnn_0 stage7_2/conv3 stage7_2/sum 0=1 -23301=0
+ReLU             stage7_2/relu    1 1 stage7_2/sum stage7_2/sum_stage7_2/relu
+Split            splitncnn_19     1 5 stage7_2/sum_stage7_2/relu stage7_2/sum_stage7_2/relu_splitncnn_0 stage7_2/sum_stage7_2/relu_splitncnn_1 stage7_2/sum_stage7_2/relu_splitncnn_2 stage7_2/sum_stage7_2/relu_splitncnn_3 stage7_2/sum_stage7_2/relu_splitncnn_4
+Convolution      stage8_1/conv4   1 1 stage7_2/sum_stage7_2/relu_splitncnn_4 stage8_1/conv4 0=128 1=1 2=1 3=1 4=0 5=1 6=16384
+Convolution      stage8_1/conv1   1 1 stage7_2/sum_stage7_2/relu_splitncnn_3 stage8_1/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage8_1/conv1/relu 1 1 stage8_1/conv1 stage8_1/conv1_stage8_1/conv1/relu
+ConvolutionDepthWise stage8_1/conv2   1 1 stage8_1/conv1_stage8_1/conv1/relu stage8_1/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage8_1/conv3   1 1 stage8_1/conv2 stage8_1/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage8_1/sum     2 1 stage8_1/conv4 stage8_1/conv3 stage8_1/sum 0=1 -23301=0
+ReLU             stage8_1/relu    1 1 stage8_1/sum stage8_1/sum_stage8_1/relu
+Split            splitncnn_20     1 2 stage8_1/sum_stage8_1/relu stage8_1/sum_stage8_1/relu_splitncnn_0 stage8_1/sum_stage8_1/relu_splitncnn_1
+Convolution      stage8_2/conv1   1 1 stage8_1/sum_stage8_1/relu_splitncnn_1 stage8_2/conv1 0=32 1=1 2=1 3=1 4=0 5=1 6=4096
+ReLU             stage8_2/conv1/relu 1 1 stage8_2/conv1 stage8_2/conv1_stage8_2/conv1/relu
+ConvolutionDepthWise stage8_2/conv2   1 1 stage8_2/conv1_stage8_2/conv1/relu stage8_2/conv2 0=32 1=3 2=2 3=1 4=2 5=1 6=288 7=32
+Convolution      stage8_2/conv3   1 1 stage8_2/conv2 stage8_2/conv3 0=128 1=1 2=1 3=1 4=0 5=1 6=4096
+Eltwise          stage8_2/sum     2 1 stage8_1/sum_stage8_1/relu_splitncnn_0 stage8_2/conv3 stage8_2/sum 0=1 -23301=0
+ReLU             stage8_2/relu    1 1 stage8_2/sum stage8_2/sum_stage8_2/relu
+Split            splitncnn_21     1 3 stage8_2/sum_stage8_2/relu stage8_2/sum_stage8_2/relu_splitncnn_0 stage8_2/sum_stage8_2/relu_splitncnn_1 stage8_2/sum_stage8_2/relu_splitncnn_2
+Convolution      cls1/conv        1 1 stage4_8/sum_stage4_8/relu_splitncnn_2 cls1/conv 0=36 1=1 2=1 3=1 4=0 5=1 6=4608
+Permute          cls1/permute     1 1 cls1/conv cls1/permute 0=3
+Flatten          cls1/flatten     1 1 cls1/permute cls1/flatten
+Convolution      loc1/conv        1 1 stage4_8/sum_stage4_8/relu_splitncnn_1 loc1/conv 0=24 1=1 2=1 3=1 4=0 5=1 6=3072
+Permute          loc1/permute     1 1 loc1/conv loc1/permute 0=3
+Flatten          loc1/flatten     1 1 loc1/permute loc1/flatten
+PriorBox         stage4_8/sum/prior_box 2 1 stage4_8/sum_stage4_8/relu_splitncnn_0 data_data/bn/scale_splitncnn_4 stage4_8/sum/prior_box -23300=1,50.000000 -23301=1,100.000000 -23302=4,2.000000,0.500000,3.000000,0.333333 3=0.100000 4=0.100000 5=0.200000 6=0.200000 7=0 8=0 9=-233 10=-233 11=16.000000 12=16.000000 13=0.500000
+Convolution      cls2/conv        1 1 stage5_4/sum_stage5_4/relu_splitncnn_2 cls2/conv 0=36 1=1 2=1 3=1 4=0 5=1 6=4608
+Permute          cls2/permute     1 1 cls2/conv cls2/permute 0=3
+Flatten          cls2/flatten     1 1 cls2/permute cls2/flatten
+Convolution      loc2/conv        1 1 stage5_4/sum_stage5_4/relu_splitncnn_1 loc2/conv 0=24 1=1 2=1 3=1 4=0 5=1 6=3072
+Permute          loc2/permute     1 1 loc2/conv loc2/permute 0=3
+Flatten          loc2/flatten     1 1 loc2/permute loc2/flatten
+PriorBox         stage5_4/sum/prior_box 2 1 stage5_4/sum_stage5_4/relu_splitncnn_0 data_data/bn/scale_splitncnn_3 stage5_4/sum/prior_box -23300=1,100.000000 -23301=1,150.000000 -23302=4,2.000000,0.500000,3.000000,0.333333 3=0.100000 4=0.100000 5=0.200000 6=0.200000 7=0 8=0 9=-233 10=-233 11=32.000000 12=32.000000 13=0.500000
+Convolution      cls3/conv        1 1 stage6_2/sum_stage6_2/relu_splitncnn_2 cls3/conv 0=36 1=1 2=1 3=1 4=0 5=1 6=4608
+Permute          cls3/permute     1 1 cls3/conv cls3/permute 0=3
+Flatten          cls3/flatten     1 1 cls3/permute cls3/flatten
+Convolution      loc3/conv        1 1 stage6_2/sum_stage6_2/relu_splitncnn_1 loc3/conv 0=24 1=1 2=1 3=1 4=0 5=1 6=3072
+Permute          loc3/permute     1 1 loc3/conv loc3/permute 0=3
+Flatten          loc3/flatten     1 1 loc3/permute loc3/flatten
+PriorBox         stage6_2/sum/prior_box 2 1 stage6_2/sum_stage6_2/relu_splitncnn_0 data_data/bn/scale_splitncnn_2 stage6_2/sum/prior_box -23300=1,150.000000 -23301=1,200.000000 -23302=4,2.000000,0.500000,3.000000,0.333333 3=0.100000 4=0.100000 5=0.200000 6=0.200000 7=0 8=0 9=-233 10=-233 11=32.000000 12=32.000000 13=0.500000
+Convolution      cls4/conv        1 1 stage7_2/sum_stage7_2/relu_splitncnn_2 cls4/conv 0=36 1=1 2=1 3=1 4=0 5=1 6=4608
+Permute          cls4/permute     1 1 cls4/conv cls4/permute 0=3
+Flatten          cls4/flatten     1 1 cls4/permute cls4/flatten
+Convolution      loc4/conv        1 1 stage7_2/sum_stage7_2/relu_splitncnn_1 loc4/conv 0=24 1=1 2=1 3=1 4=0 5=1 6=3072
+Permute          loc4/permute     1 1 loc4/conv loc4/permute 0=3
+Flatten          loc4/flatten     1 1 loc4/permute loc4/flatten
+PriorBox         stage7_2/sum/prior_box 2 1 stage7_2/sum_stage7_2/relu_splitncnn_0 data_data/bn/scale_splitncnn_1 stage7_2/sum/prior_box -23300=1,200.000000 -23301=1,300.000000 -23302=4,2.000000,0.500000,3.000000,0.333333 3=0.100000 4=0.100000 5=0.200000 6=0.200000 7=0 8=0 9=-233 10=-233 11=32.000000 12=32.000000 13=0.500000
+Convolution      cls5/conv        1 1 stage8_2/sum_stage8_2/relu_splitncnn_2 cls5/conv 0=36 1=1 2=1 3=1 4=0 5=1 6=4608
+Permute          cls5/permute     1 1 cls5/conv cls5/permute 0=3
+Flatten          cls5/flatten     1 1 cls5/permute cls5/flatten
+Convolution      loc5/conv        1 1 stage8_2/sum_stage8_2/relu_splitncnn_1 loc5/conv 0=24 1=1 2=1 3=1 4=0 5=1 6=3072
+Permute          loc5/permute     1 1 loc5/conv loc5/permute 0=3
+Flatten          loc5/flatten     1 1 loc5/permute loc5/flatten
+PriorBox         stage8_2/sum/prior_box 2 1 stage8_2/sum_stage8_2/relu_splitncnn_0 data_data/bn/scale_splitncnn_0 stage8_2/sum/prior_box -23300=1,300.000000 -23301=1,400.000000 -23302=4,2.000000,0.500000,3.000000,0.333333 3=0.100000 4=0.100000 5=0.200000 6=0.200000 7=0 8=0 9=-233 10=-233 11=32.000000 12=32.000000 13=0.500000
+Concat           mbox_conf        5 1 cls1/flatten cls2/flatten cls3/flatten cls4/flatten cls5/flatten mbox_conf 0=0
+Concat           mbox_loc         5 1 loc1/flatten loc2/flatten loc3/flatten loc4/flatten loc5/flatten mbox_loc 0=0
+Concat           mbox_priorbox    5 1 stage4_8/sum/prior_box stage5_4/sum/prior_box stage6_2/sum/prior_box stage7_2/sum/prior_box stage8_2/sum/prior_box mbox_priorbox 0=1
+Reshape          mbox_conf_reshape 1 1 mbox_conf mbox_conf_reshape 0=6 1=-1 2=0 3=0
+Softmax          mbox_conf_softmax 1 1 mbox_conf_reshape mbox_conf_softmax 0=1
+Flatten          mbox_conf_flatten 1 1 mbox_conf_softmax mbox_conf_flatten
+DetectionOutput  detection_out 3 1 mbox_loc mbox_conf_flatten mbox_priorbox detection_out 0=6 1=0.450000 2=100 3=100 4=0.200000

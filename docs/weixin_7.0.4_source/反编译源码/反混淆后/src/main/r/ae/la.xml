@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="95dp" android:layout_height="wrap_content" android:minHeight="120dp">
+    <RelativeLayout android:background="#f8f8f8" android:layout_width="74dp" android:layout_height="60dp" android:layout_marginLeft="15dp" android:layout_marginBottom="14dp" android:layout_alignBottom="@+id/amt">
+        <ImageView android:id="@+id/aga" android:layout_width="74dp" android:layout_height="60dp" android:scaleType="centerCrop"/>
+        <ProgressBar android:id="@+id/amu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/zo"/>
+        <ImageView android:id="@+id/amv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/error_image_sub" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/amt" android:background="@drawable/hs" android:layout_width="95dp" android:layout_height="wrap_content" android:minHeight="120dp">
+        <TextView android:textSize="11sp" android:textColor="#858585" android:orientation="vertical" android:id="@+id/amw" android:layout_width="82dp" android:layout_height="wrap_content" android:text="@string/nq"/>
+        <TextView android:textSize="11sp" android:textColor="#858585" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/amx" android:layout_width="82dp" android:layout_height="wrap_content" android:text="@string/nr" android:drawableLeft="@c1318a/app_brand_service_bubble_logo"/>
+    </LinearLayout>
+</RelativeLayout>

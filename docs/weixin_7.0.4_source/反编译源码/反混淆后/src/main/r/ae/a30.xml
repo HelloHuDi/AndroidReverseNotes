@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.plugin.game.p433ui.GameInfoViewForeign android:id="@+id/c2z" android:background="@drawable/oy" android:paddingTop="@dimen/do" android:paddingBottom="@dimen/ds" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/c30" android:layout_width="34dp" android:layout_height="36dp" android:layout_marginRight="@dimen/do">
+            <ImageView android:id="@+id/c31" android:layout_width="28dp" android:layout_height="28dp" android:src="@drawable/af1" android:layout_alignParentBottom="true"/>
+            <TextView android:textSize="11dp" android:textStyle="bold" android:textColor="@color/a69" android:gravity="center" android:id="@+id/c2t" android:background="@drawable/a4f" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:gravity="center" android:id="@+id/c32" android:layout_width="wrap_content" android:layout_height="28dp" android:text="@string/c7e" android:layout_toRightOf="@+id/c30" android:layout_alignBottom="@+id/c30" android:layout_toEndOf="@+id/c30"/>
+    </com.tencent.p177mm.plugin.game.p433ui.GameInfoViewForeign>
+</LinearLayout>

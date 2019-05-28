@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_below="@+id/ag" style="@style/fz">
+    <FrameLayout android:paddingLeft="14dp" android:paddingRight="14dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/ap9" android:background="@drawable/a4r" android:padding="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="16dp" android:textColor="@color/a44" android:id="@+id/atq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp">
+                <TextView android:textSize="46dp" android:textColor="@color/a44" android:id="@+id/atr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <TextView android:textSize="16dp" android:textColor="@color/a44" android:ellipsize="end" android:gravity="left" android:id="@+id/apr" android:paddingBottom="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:maxLines="2" android:layout_toRightOf="@+id/atr" android:layout_alignBottom="@+id/atr"/>
+            </RelativeLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:background="#00ffffff" android:paddingTop="8dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:id="@+id/ats" android:background="@drawable/a4t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="30dp" android:contentDescription="@string/sq"/>
+                <Button android:id="@+id/att" android:background="@drawable/a4q" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:contentDescription="@string/p4"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:layout_gravity="right" android:id="@+id/atu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ar0"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/q5" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="10dp" android:layout_marginRight="7dp" android:minHeight="133dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="37dp">
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/cet" android:visibility="gone" android:layout_width="17dp" android:layout_height="17dp" android:layout_marginRight="4dp" android:scaleType="centerInside"/>
+        <TextView android:textSize="12dp" android:textColor="@color/w0" android:id="@+id/ceu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+    </LinearLayout>
+    <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="1px"/>
+    <LinearLayout android:orientation="vertical" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/cev" android:layout_width="36dp" android:layout_height="36dp" android:src="@drawable/ad2"/>
+            <TextView android:textSize="15dp" android:textColor="@color/h4" android:id="@+id/cew" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:text="aaa" android:layout_weight="1"/>
+            <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="30dp" android:textColor="@color/h4" android:layout_gravity="right" android:id="@+id/cex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="600" app:walletTypeFace="0"/>
+        </LinearLayout>
+        <TextView android:textSize="13dp" android:textColor="@color/w4" android:layout_gravity="right" android:id="@+id/cey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:text="aaa"/>
+    </LinearLayout>
+    <View android:id="@+id/cez" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.35"/>
+</LinearLayout>

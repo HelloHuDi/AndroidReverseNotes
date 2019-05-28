@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/ks">
+    <AutoCompleteTextView android:textSize="@dimen/m5" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/dor" android:layout_width="match_parent" android:layout_height="wrap_content" android:minWidth="120dp" android:completionThreshold="1" android:dropDownSelector="@color/vs" android:dropDownWidth="match_parent" android:dropDownHeight="wrap_content" android:dropDownHorizontalOffset="-20dp" android:dropDownVerticalOffset="-5dp" style="@style/md"/>
+</LinearLayout>

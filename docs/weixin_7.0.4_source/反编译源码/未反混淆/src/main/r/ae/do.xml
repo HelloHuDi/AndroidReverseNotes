@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/w3" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/w2" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/w4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/w5" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="12dp" android:scaleType="fitCenter"/>
+        <TextView android:textSize="@dimen/dk" android:textColor="@color/h4" android:gravity="center" android:id="@+id/w6" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.tencent.mm.ui.widget.ThreeDotsLoadingView android:id="@+id/w7" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="32dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/eo"/>
+</RelativeLayout>

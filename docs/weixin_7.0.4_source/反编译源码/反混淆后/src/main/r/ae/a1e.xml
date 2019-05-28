@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="@dimen/a1h" android:layout_height="@dimen/a1h">
+                <com.tencent.p177mm.plugin.gif.MMAnimateView android:id="@+id/byf" android:layout_width="@dimen/a1h" android:layout_height="@dimen/a1h" android:layout_centerInParent="true"/>
+                <ProgressBar android:gravity="center" android:id="@+id/a1n" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <Button android:id="@+id/byg" android:layout_width="wrap_content" android:layout_marginTop="15dp" android:minWidth="200dp" android:text="@string/dr8" android:maxLines="1" style="@style/p4"/>
+                <Button android:id="@+id/byh" android:layout_width="wrap_content" android:layout_marginTop="25dp" android:minWidth="200dp" android:text="@string/d3" android:maxLines="1" style="@style/p7"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    <View android:background="@color/zf" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="20dp"/>
+    <RelativeLayout android:id="@+id/bi7" android:layout_width="match_parent" android:layout_height="80dp" android:layout_marginLeft="20dp" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a73" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b_7" android:layout_centerVertical="true"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_alignParentRight="true">
+            <TextView android:textSize="@dimen/m5" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@+id/byi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:maxWidth="150dp" android:text="{emoji_from_title_tv}" android:lines="1"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/byj" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginRight="10dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

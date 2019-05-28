@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/r1" android:textColor="@color/ff" android:gravity="center" android:id="@+id/pw" android:paddingTop="@dimen/do" android:paddingBottom="@dimen/do" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/div" android:includeFontPadding="false"/>
+        <com.tencent.p177mm.p612ui.widget.imageview.WeImageView android:id="@+id/px" android:paddingLeft="3.6dp" android:paddingRight="3.6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/app_brand_desktop_arrow_more" app:iconColor="@color/ff"/>
+    </LinearLayout>
+    <FrameLayout android:id="@+id/py" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@+id/pz" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.tencent.p177mm.plugin.appbrand.widget.recentview.ConversationAppBrandRecentView android:orientation="horizontal" android:id="@+id/q0" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</LinearLayout>

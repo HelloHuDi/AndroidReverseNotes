@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.game.ui.GameFeedQipaiView android:orientation="vertical" android:id="@+id/c5t" android:padding="@dimen/ju" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/k0" android:textColor="@color/qf" android:id="@+id/cx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <ImageView android:id="@+id/by3" android:layout_width="6dp" android:layout_height="12dp" android:layout_marginLeft="@dimen/k1" android:src="@drawable/afz" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="@dimen/k0" android:textColor="@color/qe" android:id="@+id/c5u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/by3" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/c5v" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </com.tencent.mm.plugin.game.ui.GameFeedQipaiView>
+</FrameLayout>

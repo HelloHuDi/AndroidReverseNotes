@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/d74" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <ProgressBar android:layout_gravity="center" android:id="@+id/cpw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:layout_marginBottom="5dp" style="@style/a0h"/>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:background="@drawable/b83" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:maxWidth="230dp" android:minWidth="40dp" android:layout_weight="1">
+            <TextView android:textSize="14dp" android:textStyle="bold" android:textColor="@color/a69" android:id="@+id/d75" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:maxLines="4"/>
+            <TextView android:textColor="@color/a69" android:id="@+id/cpx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200dp" android:minWidth="40dp" android:maxLines="4"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@+id/d76" android:background="@drawable/rc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cne"/>
+    </LinearLayout>
+</FrameLayout>

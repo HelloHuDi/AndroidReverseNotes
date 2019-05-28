@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/xv" android:background="@color/kb" android:layout_width="match_parent" android:layout_height="215dp">
+        <com.tencent.mm.ui.base.MMFlipper android:gravity="center" android:layout_gravity="center" android:id="@+id/xw" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <com.tencent.mm.ui.base.MMDotView android:gravity="center" android:orientation="horizontal" android:id="@+id/xx" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:left="-1px" android:top="-1px" android:right="-1px">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/a35"/>
+            <stroke android:width="1px" android:color="@color/t_"/>
+        </shape>
+    </item>
+</layer-list>

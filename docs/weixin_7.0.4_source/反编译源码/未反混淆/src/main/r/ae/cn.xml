@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="@dimen/lp">
+    <ImageView android:layout_width="match_parent" android:layout_height="@dimen/uq" android:layout_marginTop="38dp" android:src="#e5e5e5"/>
+    <com.tencent.mm.ui.base.MMFormVerifyCodeInputView android:id="@+id/sb" android:focusableInTouchMode="false" android:layout_height="60dp" app:form_layout="@layout/adu" app:form_title="@string/w4" app:form_hint="@string/w2" app:form_btn_title="@string/w3" style="@style/ll"/>
+    <com.tencent.mm.ui.base.MMFormInputView android:id="@+id/sc" android:focusableInTouchMode="false" android:layout_height="60dp" app:form_layout="@layout/adq" app:form_title="@string/wb" app:form_hint="@string/w_" style="@style/ll"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="60dp">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:gravity="center" android:paddingLeft="8dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/vr"/>
+        <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@+id/sd" android:layout_width="@dimen/nr" android:layout_height="@dimen/no" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="@dimen/uq" android:src="#e5e5e5"/>
+    <Button android:enabled="false" android:layout_gravity="center" android:id="@+id/se" android:layout_marginTop="40dp" android:text="@string/vz" style="@style/nj"/>
+</LinearLayout>

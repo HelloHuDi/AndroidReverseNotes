@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/um" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:id="@+id/bs7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/rj" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:layout_centerInParent="true" style="@style/zo"/>
+    <RelativeLayout android:id="@+id/d3c" android:background="@color/e7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <FrameLayout android:id="@+id/f0r" android:padding="10dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+            <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/actionbar_quit_webview_icon"/>
+        </FrameLayout>
+        <ImageView android:id="@+id/f0s" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/uu" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <include layout="@layout/atc"/>
+</RelativeLayout>

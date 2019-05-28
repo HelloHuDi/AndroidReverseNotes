@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.plugin.facedetect.views.FaceDetectCameraView android:id="@+id/eop" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/eoq" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.plugin.facedetect.views.FaceDetectDecorView android:id="@+id/eor" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

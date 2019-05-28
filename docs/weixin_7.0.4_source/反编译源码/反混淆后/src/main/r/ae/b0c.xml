@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a3p" android:layout_width="wrap_content" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:textSize="17dp" android:textStyle="bold" android:textColor="@color/a3j" android:ellipsize="end" android:gravity="center" android:id="@+id/ey_" android:paddingLeft="8dp" android:paddingTop="2dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="" android:maxLines="1"/>
+        <RelativeLayout android:paddingTop="1dp" android:layout_width="36dp" android:layout_height="match_parent" android:layout_toRightOf="@+id/ey_">
+            <TextView android:textSize="13sp" android:textColor="@android:color/white" android:gravity="center" android:id="@+id/eya" android:background="@drawable/a4f" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="18dp" android:text="1"/>
+            <ImageView android:id="@+id/eyb" android:visibility="gone" android:layout_alignParentTop="true" style="@style/uy"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@+id/eyc" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginRight="28dp"/>
+</LinearLayout>

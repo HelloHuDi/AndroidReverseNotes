@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@drawable/a2r" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/f71" android:layout_width="@dimen/m2" android:layout_height="@dimen/m2" android:layout_marginLeft="@dimen/do" android:layout_marginTop="10dp" android:scaleType="fitXY"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingTop="7dp" android:paddingBottom="7dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_weight="1">
+        <TextView android:textAppearance="@style/n0" android:textColor="@color/w4" android:ellipsize="marquee" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:ellipsize="end" android:id="@+id/a81" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="10"/>
+            <com.tencent.mm.plugin.wallet_core.ui.view.FavourLayout android:orientation="vertical" android:id="@+id/f9r" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+    <CheckedTextView android:gravity="center" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/da1" android:background="@null" android:layout_width="wrap_content" android:layout_height="54dp" android:checkMark="@drawable/yu"/>
+</LinearLayout>

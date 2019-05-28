@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="f">
+        <item name="rk">1</item>
+        <item name="rl">1</item>
+    </style>
+</resources>

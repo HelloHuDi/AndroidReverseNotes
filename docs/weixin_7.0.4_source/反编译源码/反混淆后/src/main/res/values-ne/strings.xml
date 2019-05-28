@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">विविध</string>
+    <string name="c">माथि खोज्नुहोस्</string>
+    <string name="abc_action_menu_overflow_description">थप विकल्पहरू</string>
+    <string name="d">सम्पन्न भयो</string>
+    <string name="e">सबै हेर्नुहोस्</string>
+    <string name="f">एउटा अनुप्रयोग छान्नुहोस्</string>
+    <string name="g">निष्क्रिय पार्नुहोस्</string>
+    <string name="h">सक्रिय गर्नुहोस्</string>
+    <string name="i">खोज्नुहोस्...</string>
+    <string name="j">प्रश्‍न हटाउनुहोस्</string>
+    <string name="l">खोज्नुहोस्</string>
+    <string name="m">जिज्ञासा पेस गर्नुहोस्</string>
+    <string name="n">भ्वाइस खोजी</string>
+    <string name="q">संक्षिप्त पार्नुहोस्</string>
+    <string name="common_google_play_services_enable_button">सक्रिय गर्नुहोस्</string>
+    <string name="common_google_play_services_enable_text">%1$s ले तपाईँले Google Play सेवाहरू सक्षम नगरेसम्म काम गर्दैन।</string>
+    <string name="common_google_play_services_enable_title">Google Play सेवाहरू सक्षम पार्नुहोस्</string>
+    <string name="common_google_play_services_install_button">स्थापना गर्नुहोस्</string>
+    <string name="common_google_play_services_install_text">%1$s Google Play services बिना सञ्चालन हुने छैन र तपाईँको यन्त्रमा Google Play services उपलब्ध छैनन्।</string>
+    <string name="common_google_play_services_install_title">Google Play सेवाहरू प्राप्त गर्नुहोस्</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play सेवाको उपलब्धता</string>
+    <string name="common_google_play_services_notification_ticker">Google Play सेवाहरूका त्रुटि</string>
+    <string name="common_google_play_services_unknown_issue">%1$s लाई Google Play services सँग सहकार्य गर्न समस्या भइरहेको छ। कृपया फेरि प्रयास गर्नुहोस्।</string>
+    <string name="common_google_play_services_unsupported_text">%1$s Google Play services बिना सञ्चालन हुने छैन र तपाईँको यन्त्रले Google Play services लाई समर्थन गर्दैन।</string>
+    <string name="common_google_play_services_update_button">अद्यावधिक गर्नुहोस्</string>
+    <string name="common_google_play_services_update_text">%1$s तपाईंले Google प्ले सेवाहरू अद्यावधिक नगरेसम्म सञ्चालन हुँदैन।</string>
+    <string name="common_google_play_services_update_title">Google Play सेवाहरू अद्यावधिक गर्नुहोस्</string>
+    <string name="common_google_play_services_updating_text">Google Play सेवाहरू %1$s बिना सञ्‍चालन हुँदैन, जुन हाल अद्यावधिक भइरहेका छन्।</string>
+    <string name="common_google_play_services_wear_update_text">Google Play सेवाहरूको नयाँ संस्करण आवश्यक छ। यो आफै छिट्टै नै अद्यावधिक हुनेछ।</string>
+    <string name="common_open_on_phone">फोनमा खोल्नुहोस्</string>
+    <string name="common_signin_button_text">साइन इन गर्नुहोस्</string>
+    <string name="common_signin_button_text_long">Google मार्फत साइन‍ इन गर्नुहोस्</string>
+    <string name="r">विविध</string>
+    <string name="b">गृह खोज्नुहोस्</string>
+    <string name="k">जिज्ञासाको खोज गर्नुहोस्</string>
+    <string name="o">साझेदारी गर्नुहोस्...</string>
+    <string name="p">%s सँग आदान-प्रदान गर्नुहोस्</string>
+    <string name="s">खोज्नुहोस्</string>
+    <string name="t">९९९+</string>
+</resources>

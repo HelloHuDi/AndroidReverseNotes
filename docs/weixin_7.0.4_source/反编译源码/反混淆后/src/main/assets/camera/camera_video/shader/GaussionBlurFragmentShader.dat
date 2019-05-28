@@ -1,0 +1,15 @@
+precision mediump float;
+varying vec2 textureCoordinate;
+uniform sampler2D inputImageTexture;
+uniform float stepX;
+uniform float stepY;
+void main() {
+    vec4 result = vec4(0.0, 0.0, 0.0, 0.0);
+    for (int i = -2; i <= 2; i++) {
+        for (int j = -2; j <= 2; j++) {
+            result += texture2D(inputImageTexture, textureCoordinate.xy + vec2(float(i) * stepX, float(j) * stepY));
+        }
+    }
+    result /= 25.0;
+    gl_FragColor = vec4(result.rgb, 1.0);
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/wz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m_" android:layout_marginRight="@dimen/m_" android:minWidth="@dimen/lr">
+    <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/boh" android:background="@drawable/my" android:paddingTop="20dp" android:paddingBottom="20dp" android:layout_width="160dp" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.fingerprint.faceid.auth.FrameAnimatorImageView android:layout_gravity="center_horizontal" android:id="@+id/boi" android:layout_width="64dp" android:layout_height="64dp" android:src="@drawable/b41"/>
+        <TextView android:textSize="@dimen/fi" android:textColor="#111111" android:layout_gravity="center_horizontal" android:id="@+id/boj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17dp" android:text="@string/bmn"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bok" android:paddingLeft="@dimen/ld" android:paddingTop="@dimen/l5" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/l5" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:gravity="right" android:id="@+id/bol" android:background="@color/a69" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/or" android:layout_weight="1" style="@style/nq"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/r8" android:id="@+id/bom" android:background="@color/a69" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="queding" style="@style/nq"/>
+    </LinearLayout>
+</LinearLayout>

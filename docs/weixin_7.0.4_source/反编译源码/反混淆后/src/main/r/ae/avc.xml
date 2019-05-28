@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="4dp">
+    <RelativeLayout android:id="@+id/ejb" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/ejc" android:layout_width="match_parent" android:layout_height="360dp" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/ejd" android:layout_width="match_parent" android:layout_height="150dp"/>
+    </RelativeLayout>
+    <LinearLayout android:background="@drawable/aoq" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ejb"/>
+    <com.tencent.p177mm.plugin.sns.p520ui.TouchImageView android:layout_gravity="right" android:id="@+id/qk" android:layout_width="84dp" android:layout_height="84dp" android:layout_marginTop="309dp" android:layout_marginRight="12dp" android:layout_alignParentRight="true"/>
+    <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/a69" android:id="@+id/b6e" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="327dp" android:layout_marginRight="12dp" android:singleLine="true" android:shadowColor="@color/h4" android:shadowDx="0" android:shadowDy="1" android:shadowRadius="1" android:layout_toLeftOf="@+id/qk"/>
+    <TextView android:textSize="@dimen/ni" android:textColor="@color/a1a" android:gravity="right" android:layout_gravity="right" android:id="@+id/eje" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="93dp" android:layout_marginTop="4dp" android:layout_below="@+id/qk" android:layout_alignRight="@+id/qk"/>
+    <com.tencent.p177mm.plugin.sns.p520ui.view.SnsStoryHeaderView android:id="@+id/ejf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/qk"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ejg" android:background="@drawable/aoq" android:paddingBottom="13dp" android:visibility="gone" android:duplicateParentState="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ejf">
+        <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ejh" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="13dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/eji" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/ejg"/>
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center_horizontal" android:id="@+id/ejj" android:background="@drawable/oj" android:paddingLeft="6dp" android:paddingTop="6dp" android:paddingBottom="6dp" android:duplicateParentState="false" android:clipChildren="false" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp">
+            <ImageView android:id="@+id/ejk" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="fitCenter"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:id="@+id/eja" android:paddingLeft="18dp" android:paddingRight="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="116dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ejl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="290dp">
+        <TextView android:textSize="13dp" android:textColor="#131313" android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/eq4" android:shadowDx="2"/>
+    </LinearLayout>
+</RelativeLayout>

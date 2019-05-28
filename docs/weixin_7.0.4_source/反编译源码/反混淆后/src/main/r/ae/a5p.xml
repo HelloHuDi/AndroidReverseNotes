@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/c95" style="@style/ju">
+        <ImageView android:id="@+id/c96" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:layout_marginRight="@dimen/my" android:layout_alignParentLeft="true"/>
+        <TextView android:id="@+id/c97" android:layout_marginLeft="5dp" android:minHeight="24dp" android:layout_alignTop="@+id/c96" android:layout_alignParentRight="true" style="@style/le"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/c98" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="24dp" android:layout_toLeftOf="@+id/c97" android:layout_toRightOf="@+id/c96" android:layout_alignTop="@+id/c96" style="@style/lf"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/c99" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:minHeight="24dp" android:singleLine="true" android:layout_toRightOf="@+id/c96" android:layout_alignLeft="@+id/c98" android:layout_alignBottom="@+id/c96" style="@style/le"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/c9e" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="3dp" android:maxLines="2" android:singleLine="false" android:layout_below="@+id/c96" android:layout_alignParentLeft="true" style="@style/le"/>
+    </RelativeLayout>
+</FrameLayout>

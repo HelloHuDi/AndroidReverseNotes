@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:id="@+id/abc" layout="@layout/kn"/>
+    <ImageView android:id="@+id/aaq" android:visibility="visible" android:layout_width="@dimen/vg" android:layout_height="@dimen/vg" android:src="@drawable/bcm" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <View android:id="@+id/abd" android:background="@drawable/kz" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/dy" android:layout_marginRight="@dimen/dy" android:layout_marginBottom="0dp" android:layout_alignBottom="@+id/abc" android:layerType="software"/>
+    <ImageView android:id="@+id/abe" android:background="@drawable/gd" android:padding="4dp" android:visibility="gone" android:layout_width="26.6dp" android:layout_height="26.6dp" android:layout_marginTop="@dimen/ld" android:layout_marginRight="@dimen/ld" android:src="@drawable/ayq" android:layout_alignTop="@+id/abc" android:layout_alignRight="@+id/abc"/>
+</RelativeLayout>

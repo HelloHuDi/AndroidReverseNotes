@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/fy" android:paddingRight="@dimen/fy" android:paddingBottom="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/b1s" android:focusable="false" android:visibility="visible" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/b1t" android:layout_marginTop="@dimen/nc" android:text="@string/b21" style="@style/ni"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/b1t">
+            <Button android:id="@+id/b1u" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:focusable="true" android:clickable="true" android:text="@string/ay1" android:layout_weight="1" style="@style/no"/>
+            <View android:id="@+id/b1v" android:layout_width="@dimen/nc" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/b1w" android:focusable="true" android:clickable="true" android:text="@string/avr" android:layout_weight="1" style="@style/no"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b1x" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:id="@+id/b1y" android:text="@string/azt" android:layout_weight="1" style="@style/ni"/>
+        <Button android:id="@+id/b1z" android:layout_marginTop="@dimen/nc" android:text="@string/avr" android:layout_weight="1" style="@style/no"/>
+    </LinearLayout>
+    <Button android:id="@+id/b20" android:visibility="gone" android:layout_marginTop="@dimen/nc" android:text="@string/a6f" style="@style/nl"/>
+    <Button android:id="@+id/b21" android:text="@string/atu" style="@style/ni"/>
+    <Button android:id="@+id/b22" android:text="@string/azv" style="@style/ni"/>
+    <Button android:id="@+id/b23" android:layout_marginTop="@dimen/l5" android:text="@string/qi" style="@style/no"/>
+    <Button android:id="@+id/b24" android:visibility="gone" android:layout_marginTop="@dimen/nc" android:text="@string/avr" style="@style/no"/>
+    <Button android:id="@+id/b25" android:visibility="gone" android:layout_marginTop="@dimen/l5" android:text="@string/axz" style="@style/no"/>
+    <TextView android:gravity="center_horizontal" android:id="@+id/b26" android:paddingTop="@dimen/l5" android:layout_width="match_parent" android:text="@string/ay5" android:singleLine="false" style="@style/la"/>
+    <TextView android:textColor="@color/t7" android:gravity="center_horizontal" android:id="@+id/b27" android:paddingTop="@dimen/l5" android:visibility="gone" android:layout_width="match_parent" android:text="@string/awx" android:singleLine="false" style="@style/la"/>
+</LinearLayout>

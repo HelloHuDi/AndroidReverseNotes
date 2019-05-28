@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:paddingTop="@dimen/le" android:paddingBottom="@dimen/do" android:focusable="false" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="32dp" android:textColor="#888888" android:layout_gravity="center" android:id="@+id/aa7" android:layout_width="252dp" android:layout_height="37dp" android:layout_marginTop="20dp" android:scaleType="fitXY"/>
+    <View android:id="@+id/aah" android:background="#efefef" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="35dp" android:layerType="software"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/aai" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="35dp">
+        <View android:background="#efefef" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layerType="software"/>
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.5dp" android:layout_marginBottom="15.5dp" android:layout_centerInParent="true">
+            <TextView android:textSize="17dp" android:textColor="#545bbc" android:layout_gravity="center_horizontal" android:id="@+id/aaj" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:textSize="13dp" android:textColor="#888888" android:layout_gravity="center_horizontal" android:id="@+id/aak" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+        </LinearLayout>
+        <View android:layout_gravity="bottom" android:background="#efefef" android:visibility="visible" android:layout_width="match_parent" android:layout_height="1dp" android:layout_alignParentBottom="true" android:layerType="software"/>
+    </LinearLayout>
+</LinearLayout>

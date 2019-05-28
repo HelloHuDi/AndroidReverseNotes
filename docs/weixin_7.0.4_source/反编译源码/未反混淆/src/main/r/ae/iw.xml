@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/gp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="84dp">
+    <com.tencent.mm.plugin.card.widget.MemberCardTopCropImageView android:id="@+id/afk" android:layout_width="match_parent" android:layout_height="84dp" android:src="#dc6f49" android:scaleType="centerCrop" android:minHeight="84dp"/>
+    <ImageView android:id="@+id/afl" android:background="@drawable/az7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="84dp"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_centerVertical="true">
+        <TextView android:textSize="22dp" android:textColor="@color/a69" android:id="@+id/afm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        <TextView android:textSize="14dp" android:textColor="@color/a69" android:id="@+id/afn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="" android:layout_below="@+id/afm" android:layout_alignLeft="@+id/afm"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/afo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <ImageView android:background="@drawable/gs" android:layout_width="match_parent" android:layout_height="84dp"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/a8o" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="70dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a8p" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.p177mm.p612ui.widget.MMNeat7extView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="left" android:id="@+id/qm" android:paddingLeft="24dp" android:paddingTop="20dp" android:paddingRight="24dp" android:paddingBottom="16dp" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="164dp" android:text="text" android:maxLines="5" android:lineSpacingExtra="5dp"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/dd" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5">
+            <View android:background="@color/jy" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc">
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:layout_gravity="left" android:id="@+id/a8q" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/a9q" android:layout_weight="1"/>
+                <include android:layout_gravity="center_vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/h9"/>
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="11dp" android:layout_marginLeft="@dimen/lo" android:src="@drawable/axg"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <CheckBoxPreference app:title="@string/e7q" app:key="settings_landscape_mode" app:defaultValue="false"/>
+    <CheckBoxPreference app:title="@string/e9i" app:key="settings_nfc_switch" app:defaultValue="false"/>
+    <Preference app:title="@string/eam" app:key="settings_silence_update_mode" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e7r" app:key="settings_language" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ebq" app:key="settings_text_size" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e9y" app:key="settings_take_photo" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e85" app:key="settings_manage_findmoreui" app:layout="@layout/ae4"/>
+    <IconPreference app:title="@string/e_5" app:key="settings_plugins"/>
+    <Preference app:title="@string/ebw" app:key="settings_traffic_statistic" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e9b" app:key="settngs_clean" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

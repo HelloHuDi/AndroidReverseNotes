@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:scrollbars="none" style="@style/pt">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" style="@style/ks">
+            <ImageView android:id="@+id/e7_" android:paddingBottom="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/accounts_saftphone_icon"/>
+            <TextView android:gravity="center" android:id="@+id/e7a" android:text="@string/dw3" style="@style/kt"/>
+        </LinearLayout>
+        <TextView android:id="@+id/e7d" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" style="@style/ni"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_marginTop="3dp" android:layout_marginRight="5dp" style="@style/kr">
+            <Button android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/a67" android:paddingTop="10dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_marginLeft="10dp" android:text="@string/dwj" style="@style/qo"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

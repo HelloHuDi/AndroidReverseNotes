@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.webview.fts.ui.FtsVideoWrapper android:id="@+id/wh" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:id="@+id/bzx" android:background="#66000000" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/wx" android:background="@null" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/actionbar_icon_light_back"/>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bzy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@+id/bzz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b6k"/>
+            <TextView android:textSize="15dp" android:textColor="@color/a69" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f1q"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/c00" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/c01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <TextView android:textSize="15dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/c02" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="13dp"/>
+                <Button android:textSize="15dp" android:textColor="@color/a69" android:id="@+id/c03" android:background="@drawable/ou" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/f10"/>
+                <TextView android:textSize="15dp" android:textColor="@color/a69" android:id="@+id/c04" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/f0x"/>
+            </LinearLayout>
+            <ProgressBar android:layout_gravity="center" android:id="@+id/a9d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/zp"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/wo" android:background="@drawable/ox" android:visibility="gone" android:layout_width="130dp" android:layout_height="130dp" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/wp" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="21dp" android:scaleType="fitCenter"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:id="@+id/wq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/c2z"/>
+        <com.tencent.mm.plugin.websearch.ui.WebSearchDotPercentIndicator android:id="@+id/wr" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:gravity="center" android:id="@+id/vm" android:background="@drawable/ox" android:paddingLeft="@dimen/nc" android:paddingTop="@dimen/m4" android:paddingRight="@dimen/nc" android:paddingBottom="@dimen/m4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+</RelativeLayout>

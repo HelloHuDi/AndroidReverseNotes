@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginBottom="@dimen/l5" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/b0_" style="@style/gy"/>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/m5" android:ellipsize="end" android:id="@+id/b0a" android:layout_marginTop="0dp" android:text="message" android:maxLines="3" style="@style/gw"/>
+            </ScrollView>
+        </LinearLayout>
+        <TextView android:id="@+id/b0b" android:layout_marginLeft="0dp" android:text="source" style="@style/gx"/>
+        <com.tencent.p177mm.p612ui.widget.edittext.PasterEditText android:id="@+id/b09" style="@style/gu"/>
+    </LinearLayout>
+</LinearLayout>

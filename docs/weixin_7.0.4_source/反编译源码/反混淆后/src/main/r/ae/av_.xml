@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:id="@+id/ej4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/ej5" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/bl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/rj" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" style="@style/zo"/>
+        <TextView android:textSize="18dp" android:textStyle="bold" android:textColor="@color/h4" android:gravity="center" android:layout_gravity="center" android:id="@+id/ej6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+</LinearLayout>

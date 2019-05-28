@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:background="@color/vs" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/l5" android:paddingRight="@dimen/m4" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/a6l" android:layout_width="@dimen/x2" android:layout_height="@dimen/x2" android:layout_marginTop="@dimen/l9"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:gravity="center" android:id="@+id/a6m" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="@string/f23"/>
+        <Button android:id="@+id/a6n" android:visibility="visible" android:layout_marginTop="@dimen/l8" android:layout_marginBottom="@dimen/nc" android:text="@string/f24" style="@style/ni"/>
+        <Button android:id="@+id/a6o" android:visibility="visible" android:layout_marginTop="@dimen/l8" android:layout_marginBottom="@dimen/nc" android:text="@string/a92" style="@style/ni"/>
+    </LinearLayout>
+</RelativeLayout>

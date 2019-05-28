@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="328dp" android:layout_height="wrap_content" android:layout_marginRight="13dp">
+        <ImageView android:id="@+id/ewc" android:layout_width="12dp" android:layout_height="7dp" android:layout_marginRight="9dp" android:src="@drawable/a3x" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/ewd" android:background="@drawable/a3z" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="50dp">
+                <TextView android:textSize="14sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/ewe" android:background="@drawable/a43" android:layout_width="88dp" android:layout_height="34dp" android:text="@string/ex0" android:layout_alignParentRight="true"/>
+                <TextView android:textSize="15sp" android:textColor="#333333" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ex3" android:layout_alignBaseline="@+id/ewe"/>
+                <TextView android:textSize="12sp" android:textColor="#cccccc" android:id="@+id/o7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:text="@string/ex2" android:layout_below="@+id/cx"/>
+            </RelativeLayout>
+            <View android:background="#1f000000" android:layout_width="match_parent" android:layout_height="1px"/>
+            <com.tencent.p177mm.p612ui.base.FlowLayout android:id="@+id/ewf" android:paddingTop="15dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="10dp" app:verticalSpacing="10dp"/>
+        </LinearLayout>
+        <View android:id="@+id/ewg" android:layout_width="match_parent" android:layout_height="5dp" android:src="@drawable/a3y" android:layout_below="@+id/ewd"/>
+        <ImageView android:id="@+id/ewh" android:layout_width="12dp" android:layout_height="7dp" android:layout_marginRight="9dp" android:src="@drawable/a3y" android:layout_alignBottom="@+id/ewg" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

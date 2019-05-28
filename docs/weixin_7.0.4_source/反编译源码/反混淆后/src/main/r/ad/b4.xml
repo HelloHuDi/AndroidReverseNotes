@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Preference app:title="@string/d5c" app:layout="@layout/afn"/>
+    <com.tencent.p177mm.p612ui.base.preference.ChoicePreference app:title="@string/eac" app:entries="@array/ae" app:entryValues="@array/af" app:key="settings_sex" app:layout="@layout/afz"/>
+    <com.tencent.p177mm.p612ui.base.preference.KeyValuePreference app:title="@string/e6i" app:key="settings_district" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.KeyValuePreference app:title="@string/eak" app:key="settings_signature" app:layout="@layout/ae4"/>
+</PreferenceScreen>

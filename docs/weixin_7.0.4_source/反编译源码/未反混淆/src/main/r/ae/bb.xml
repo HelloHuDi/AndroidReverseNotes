@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@drawable/o7" android:layout_width="match_parent" android:layout_height="@dimen/m3" android:baselineAligned="false" android:minHeight="@dimen/m3">
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="@dimen/ly" android:layout_height="@dimen/ly" android:layout_marginLeft="@dimen/nc" android:layout_marginRight="@dimen/nh">
+        <com.tencent.mm.ui.MMImageView android:id="@+id/of" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:src="@a/default_avatar" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="@dimen/nc">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="-1.5dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/og" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lf"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/t3" android:ellipsize="end" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/oh" android:layout_width="110dp" android:layout_height="wrap_content" style="@style/ld"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5.5dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/oi" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/le"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

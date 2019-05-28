@@ -1,0 +1,34 @@
+varying highp vec2 textureCoordinate;
+
+uniform sampler2D inputImageTexture;
+uniform sampler2D inputAlgoTexture;
+
+uniform lowp float whiteTeeth;
+uniform lowp float eyePouch;
+uniform lowp float radius;
+uniform lowp vec2 center;
+
+bool isTeeth(vec2 i,vec2 c,float r)
+{
+    lowp float t = (i.x - c.x)*(i.x - c.x) + (i.y - c.y)*(i.y - c.y);
+    if ( t <= r*r )
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+void main()
+{
+    lowp vec4 color = texture2D(inputImageTexture, textureCoordinate);
+    lowp vec4 algoColor = texture2D(inputAlgoTexture, textureCoordinate);
+
+    if (isTeeth(textureCoordinate,center,radius)) {
+        gl_FragColor = vec4(mix(color.rgb, algoColor.rgb, whiteTeeth), 1.0);
+    } else {
+        gl_FragColor = vec4(mix(color.rgb, algoColor.rgb, eyePouch), 1.0);
+    }
+}

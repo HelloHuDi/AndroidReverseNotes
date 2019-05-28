@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/p7" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.p612ui.base.MMTagPanelScrollView android:background="@drawable/b7p" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false">
+        <com.tencent.p177mm.plugin.fav.p410ui.widget.FavTagPanel android:id="@+id/brh" android:paddingLeft="@dimen/i4" android:paddingTop="@dimen/nc" android:paddingRight="@dimen/i4" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/nc" app:verticalSpacing="@dimen/nc"/>
+    </com.tencent.p177mm.p612ui.base.MMTagPanelScrollView>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/xy" android:gravity="center" android:id="@+id/brn" android:padding="@dimen/do" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <ListView android:id="@+id/brj" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/mf"/>
+    <ListView android:id="@+id/bro" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/mf"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:id="@+id/ava" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.p612ui.tools.MMGestureGallery android:id="@+id/adi" android:focusable="false" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:spacing="0dp" android:unselectedAlpha="1.2"/>
+</LinearLayout>

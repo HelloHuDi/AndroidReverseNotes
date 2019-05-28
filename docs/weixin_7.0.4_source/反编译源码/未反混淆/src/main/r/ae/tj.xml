@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.emoji.view.BaseEmojiView android:id="@+id/bd6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.4"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bd7" android:background="@drawable/emoji_capture_sticker_hint_bg" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bd8" android:layout_width="56dp" android:layout_height="56dp"/>
+        <TextView android:textSize="@dimen/dz" android:textColor="@color/a69" android:gravity="center_horizontal" android:id="@+id/bd9" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:shadowColor="@color/n" android:shadowRadius="3"/>
+    </LinearLayout>
+    <com.tencent.mm.plugin.emojicapture.ui.editor.TextEditorItemView android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/bd_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/zx"/>
+</merge>

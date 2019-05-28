@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="#ffcccac6" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="15dp" android:textColor="#8a8a8a" android:id="@+id/dnh" android:layout_width="wrap_content" android:layout_height="24dp" android:layout_marginLeft="8dp" android:layout_centerVertical="true"/>
+    <com.tencent.p177mm.plugin.location.p446ui.SimpleImageView android:id="@+id/dni" android:layout_width="wrap_content" android:layout_height="13dp" android:layout_marginRight="5dp" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/b73" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pt">
+    <com.tencent.p177mm.p612ui.tools.CropImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/b74" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent" android:cacheColorHint="#00000000" android:scaleType="matrix"/>
+    <View android:gravity="center" android:layout_gravity="center" android:id="@+id/b70" android:layout_width="312dp" android:layout_height="312dp"/>
+    <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/b71" android:background="@drawable/aih" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerInside"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/b75" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/b76" android:paddingLeft="8dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/b77" style="@style/qu"/>
+            <View android:layout_width="8dp" style="@style/nr"/>
+            <Button android:id="@+id/b78" style="@style/z0"/>
+            <Button android:id="@+id/b79" style="@style/yz"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/b7_" android:background="@drawable/bek" android:padding="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:layout_gravity="center_vertical" android:id="@+id/b7a" android:minWidth="@dimen/m0" android:text="@string/b3u" style="@style/nk"/>
+        </LinearLayout>
+    </LinearLayout>
+    <com.tencent.p177mm.p612ui.tools.FilterImageView android:id="@+id/b7b" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</FrameLayout>

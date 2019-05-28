@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="a">
+        <item>%d groups</item>
+        <item>%d group</item>
+    </plurals>
+    <plurals name="b">
+        <item>%d contacts</item>
+        <item>%d contact</item>
+        <item>%d contact</item>
+    </plurals>
+    <plurals name="c">
+        <item>%d seconds left</item>
+        <item>%d second left</item>
+    </plurals>
+    <plurals name="d">
+        <item>Voice %d seconds</item>
+        <item>Voice %d second</item>
+    </plurals>
+    <plurals name="e">
+        <item>%d unread messages</item>
+        <item>%d unread message</item>
+    </plurals>
+    <plurals name="f">
+        <item>%d friends added</item>
+        <item>%d friend added</item>
+    </plurals>
+    <plurals name="g">
+        <item>%d invitations sent</item>
+        <item>%d invitation sent</item>
+    </plurals>
+    <plurals name="h">
+        <item>%d contacts found</item>
+        <item>%d contact found</item>
+    </plurals>
+    <plurals name="i">
+        <item>%d friends on WeChat</item>
+        <item>%d friend on WeChat</item>
+    </plurals>
+    <plurals name="j">
+        <item>%d hrs ago</item>
+        <item>%d hr ago</item>
+    </plurals>
+    <plurals name="k">
+        <item>%d mins ago</item>
+        <item>%d min ago</item>
+    </plurals>
+    <plurals name="l">
+        <item>%d days ago</item>
+        <item>%d day ago</item>
+    </plurals>
+    <plurals name="m">
+        <item>Up to %s photos can be selected</item>
+        <item>Up to %s photo can be selected</item>
+    </plurals>
+    <plurals name="n">
+        <item>Select up to %s images or videos</item>
+        <item>Select up to %s image or video</item>
+    </plurals>
+    <plurals name="o">
+        <item>Up to %s videos can be selected</item>
+        <item>Up to %s video can be selected</item>
+    </plurals>
+    <plurals name="q">
+        <item>You are inviting %d friends to WeChat</item>
+        <item>You are inviting %d friend to WeChat</item>
+    </plurals>
+    <plurals name="r">
+        <item>%s recipients</item>
+        <item>%s recipient</item>
+    </plurals>
+    <plurals name="s">
+        <item>You&apos;ll send the message to %s friends</item>
+        <item>You&apos;ll send the message to %s friend</item>
+    </plurals>
+    <plurals name="t">
+        <item>Your SMS should arrive in %d seconds</item>
+        <item>Your SMS should arrive in %d second</item>
+    </plurals>
+    <plurals name="u">
+        <item>%s persons</item>
+        <item>%s person</item>
+    </plurals>
+    <plurals name="v">
+        <item>%d bottles got reply</item>
+        <item>%d bottle got reply</item>
+    </plurals>
+    <plurals name="w">
+        <item>[%d]</item>
+        <item>[%d]</item>
+    </plurals>
+    <plurals name="x">
+        <item>%1$d friend(s) sent you %2$d message(s)</item>
+        <item>%1$d friend(s) sent you %2$d message(s)</item>
+    </plurals>
+    <plurals name="y">
+        <item>%1$d attachments (%2$s)</item>
+        <item>%1$d attachment (%2$s)</item>
+    </plurals>
+    <plurals name="z">
+        <item>%s persons</item>
+        <item>%s member(s)</item>
+    </plurals>
+    <plurals name="a0">
+        <item>%d persons</item>
+        <item>%d person</item>
+    </plurals>
+    <plurals name="a1">
+        <item>%d new greetings</item>
+        <item>%d new greeting</item>
+    </plurals>
+    <plurals name="a2">
+        <item>%d posts</item>
+        <item>%d post</item>
+    </plurals>
+    <plurals name="a3">
+        <item>%d new messages</item>
+        <item>%d new message</item>
+    </plurals>
+    <plurals name="a5">
+        <item>%d unread messages</item>
+        <item>%d unread message</item>
+    </plurals>
+    <plurals name="a6">
+        <item>Tab %2$d of %1$d</item>
+        <item>Tab 1 of %d</item>
+        <item>Tab 2 of %d</item>
+        <item>Tab 3 of %d</item>
+    </plurals>
+    <plurals name="a7">
+        <item>Real-time Location (%d)</item>
+        <item>Real-time Location (%d)</item>
+    </plurals>
+    <plurals name="a8">
+        <item>%s seconds left</item>
+        <item>%s second left</item>
+    </plurals>
+    <plurals name="p">
+        <item>%s new message(s)</item>
+        <item>%s new message(s)</item>
+    </plurals>
+    <plurals name="a4">
+        <item>%d posts</item>
+        <item>%d post</item>
+    </plurals>
+</resources>

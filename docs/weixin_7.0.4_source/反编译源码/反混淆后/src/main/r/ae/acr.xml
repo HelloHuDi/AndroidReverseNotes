@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" style="@style/pt">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <View android:id="@+id/it" android:layout_width="match_parent" android:layout_height="@dimen/m4"/>
+        <ListView android:id="@+id/iu" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/it" style="@style/mf"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d7t" android:background="#f3ffffff" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/it">
+            <com.tencent.p177mm.pluginsdk.p597ui.MultiSelectContactView android:id="@+id/iv" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <Button android:id="@+id/d7u" android:layout_marginRight="@dimen/nc" android:text="@string/cz3" style="@style/nq"/>
+        </LinearLayout>
+        <ImageView android:id="@+id/iw" android:background="@drawable/b2m" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/d7t"/>
+        <com.tencent.p177mm.p612ui.base.AlphabetScrollBar android:id="@+id/ix" android:visibility="gone" android:layout_width="@dimen/dm" android:layout_height="wrap_content" android:layout_below="@+id/d7t" android:layout_alignParentRight="true"/>
+        <com.tencent.p177mm.p612ui.contact.LabelContainerView android:orientation="vertical" android:id="@+id/iy" android:background="#f7ffffff" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/do" android:paddingRight="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d7t">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <include layout="@layout/aqg"/>
+                <com.tencent.p177mm.p612ui.base.MMTagPanel android:id="@+id/iz" android:paddingTop="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/nc" app:verticalSpacing="@dimen/do"/>
+            </LinearLayout>
+        </com.tencent.p177mm.p612ui.contact.LabelContainerView>
+        <LinearLayout android:gravity="center_horizontal" android:id="@+id/j0" android:background="#f7ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/d7t">
+            <TextView android:id="@+id/j1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/cw6"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/ev5" android:background="#ff1d1e1d" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:background="@drawable/aps" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="match_parent" android:layout_height="43dp">
+        <Button android:id="@+id/ev6" android:background="@drawable/a32" android:visibility="invisible" android:layout_width="39dp" android:layout_height="39dp" android:contentDescription="@string/ev1"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:textSize="15sp" android:textStyle="bold" android:textColor="#bfbfbf" android:id="@+id/qm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:shadowColor="#222222" style="@style/a11"/>
+        </LinearLayout>
+        <Button android:id="@+id/ev7" android:background="@drawable/a33" android:layout_width="39dp" android:layout_height="39dp" android:contentDescription="@string/ev2"/>
+    </LinearLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="114dp">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/ap9" android:paddingLeft="3dp" android:paddingTop="6dp" android:paddingRight="3dp" android:paddingBottom="6dp" android:layout_width="290dp" android:layout_height="103dp" android:layout_marginTop="5dp">
+            <com.tencent.mm.plugin.talkroom.ui.TalkRoomAvatarsFrame android:layout_gravity="center_horizontal" android:id="@+id/ev8" android:layout_width="290dp" android:layout_height="58dp" android:layout_marginTop="6dp"/>
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="27dp">
+                <ImageView android:id="@+id/ev9" android:layout_width="15dp" android:layout_height="15dp" android:layout_marginLeft="10dp" android:src="@drawable/apr" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@null"/>
+                <TextView android:textSize="13sp" android:id="@+id/b6n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:singleLine="true" android:layout_toRightOf="@+id/ev9" android:layout_centerVertical="true" style="@style/a11"/>
+                <TextView android:textSize="13sp" android:textStyle="bold" android:textColor="@color/a2n" android:id="@+id/ev_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/euq" android:singleLine="true" android:shadowColor="#222222" android:layout_centerInParent="true" style="@style/a11"/>
+                <Chronometer android:textSize="13sp" android:textStyle="bold" android:textColor="#79ffc5" android:id="@+id/dkg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:layout_gravity="center_horizontal" android:background="@drawable/ap_" android:layout_width="320dp" android:layout_height="114dp"/>
+    </FrameLayout>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="58dp">
+        <com.tencent.mm.plugin.talkroom.ui.TalkRoomVolumeMeter android:layout_gravity="center" android:id="@+id/c_r" android:layout_width="320dp" android:layout_height="58dp"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <FrameLayout android:layout_gravity="center" android:layout_width="245dp" android:layout_height="252dp">
+            <ImageView android:layout_gravity="top|right|center_vertical|center_horizontal|center" android:id="@+id/eva" android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/api" android:scaleType="fitXY" android:contentDescription="@null"/>
+        </FrameLayout>
+        <ImageButton android:layout_gravity="center" android:id="@+id/evb" android:background="@null" android:layout_width="245dp" android:layout_height="252dp" android:scaleType="fitXY" android:contentDescription="@string/ev5"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Бусад</string>
+    <string name="c">Дээш шилжих</string>
+    <string name="abc_action_menu_overflow_description">Нэмэлт сонголтууд</string>
+    <string name="d">Дууссан</string>
+    <string name="e">Бүгдийг харах</string>
+    <string name="f">Апп сонгох</string>
+    <string name="g">ИДЭВХГҮЙ</string>
+    <string name="h">ИДЭВХТЭЙ</string>
+    <string name="i">Хайх...</string>
+    <string name="j">Асуулгыг цэвэрлэх</string>
+    <string name="l">Хайх</string>
+    <string name="m">Асуулгыг илгээх</string>
+    <string name="n">Дуут хайлт</string>
+    <string name="q">Хумих</string>
+    <string name="common_google_play_services_enable_button">Идэвхжүүлэх</string>
+    <string name="common_google_play_services_enable_text">%1$s нь Google Play үйлчилгээг идэвхжүүлэх хүртэл ажиллахгүй.</string>
+    <string name="common_google_play_services_enable_title">Google Play үйлчилгээг идэвхжүүлэх</string>
+    <string name="common_google_play_services_install_button">Суулгах</string>
+    <string name="common_google_play_services_install_text">Таны төхөөрөмжид Google Play үйлчилгээ байхгүй тул %1$s ажиллахгүй.</string>
+    <string name="common_google_play_services_install_title">Google Play үйлчилгээг авах</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play-н үйлчилгээнүүдийн боломжит байдал</string>
+    <string name="common_google_play_services_notification_ticker">Google Наадаан үйлчилгээний алдаа</string>
+    <string name="common_google_play_services_unknown_issue">%1$s-г Google Play-н үйлчилгээгээр ашиглахад асуудал гарлаа. Дахин оролдоно уу.</string>
+    <string name="common_google_play_services_unsupported_text">Таны төхөөрөмж Google Play үйлчилгээг дэмждэггүй учир %1$s ажиллахгүй.</string>
+    <string name="common_google_play_services_update_button">Шинэчлэх</string>
+    <string name="common_google_play_services_update_text">%1$s нь таныг Google Play үйлчилгээнүүдийг шинэчлэхээс нааш ажиллахгүй.</string>
+    <string name="common_google_play_services_update_title">Google Play үйлчилгээг шинэчлэх</string>
+    <string name="common_google_play_services_updating_text">%1$s нь одоогоор шинэчилж буй Google Play үйлчилгээгүйгээр ажиллахгүй.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play үйлчилгээний шинэ хувилбар хэрэгтэй. Энэ нь удахгүй өөрөө өөрийгөө шинэчлэх болно.</string>
+    <string name="common_open_on_phone">Утсаар нээх</string>
+    <string name="common_signin_button_text">Нэвтрэх</string>
+    <string name="common_signin_button_text_long">Google-р нэвтрэх:</string>
+    <string name="r">Бусад</string>
+    <string name="b">Нүүр хуудас руу шилжих</string>
+    <string name="k">Хайх асуулга</string>
+    <string name="o">Хуваалцах</string>
+    <string name="p">%s-тай хуваалцах</string>
+    <string name="s">Хайлт</string>
+    <string name="t">999+</string>
+</resources>

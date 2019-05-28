@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp">
+        <ImageView android:background="@color/fj" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/l8"/>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/b6o" android:background="@drawable/xa" android:paddingTop="@dimen/lo" android:paddingRight="@dimen/l8" android:paddingBottom="10.5dp" android:clickable="true" android:layout_width="match_parent" android:layout_height="64.5dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="44dp" android:layout_marginLeft="@dimen/l8">
+                <TextView android:textSize="17dp" android:textColor="@color/h4" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="23dp" android:text="@string/b3i"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/b6p" android:layout_width="44dp" android:layout_height="44dp" android:src="@c1318a/default_avatar"/>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+                <ImageView android:layout_gravity="center" android:layout_width="8dp" android:layout_height="13dp" android:src="@c1318a/app_brand_search_nearby_more_arrow"/>
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:background="@color/fj" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/l8"/>
+        <LinearLayout android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l8" android:layout_marginRight="@dimen/l8">
+            <TextView android:textSize="17dp" android:textColor="@color/h4" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginRight="23dp" android:layout_marginBottom="21dp" android:text="@string/b3h"/>
+            <EditText android:textSize="17dp" android:textColor="@color/h4" android:layout_gravity="center" android:id="@+id/b6q" android:background="@null" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="10dp" android:layout_marginBottom="11dp" android:hint="@string/b3g" android:singleLine="true" android:maxLength="16" android:imeOptions="actionDone" android:textCursorDrawable="@drawable/kw"/>
+        </LinearLayout>
+        <ImageView android:background="@color/fj" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/l8"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l8" android:layout_marginTop="16dp" android:layout_marginRight="@dimen/l8">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/b6r" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:id="@+id/b6s" android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_width="17dp" android:layout_height="30dp" android:layout_marginRight="@dimen/lo" android:src="@c1318a/app_brand_nearby_refresh"/>
+                <TextView android:textSize="14dp" android:textColor="@drawable/xv" android:layout_gravity="center" android:id="@+id/b6t" android:paddingTop="5dp" android:paddingBottom="5dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="30dp" android:text="@string/b3j"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l8" android:layout_marginTop="60dp" android:layout_marginRight="@dimen/l8" android:layout_marginBottom="@dimen/m4">
+            <Button android:enabled="false" android:id="@+id/b6u" android:text="@string/b3e" style="@style/nj"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

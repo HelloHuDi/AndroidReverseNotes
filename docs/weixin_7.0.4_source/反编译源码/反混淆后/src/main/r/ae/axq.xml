@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="8dp" android:layout_marginRight="8dp" android:layout_marginBottom="8dp">
+    <TextView android:textSize="@dimen/dx" android:textColor="@color/h4" android:id="@+id/epg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="@dimen/l5" android:layout_marginBottom="@dimen/l5"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/eph" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginBottom="@dimen/l5">
+        <TextView android:textSize="@dimen/l0" android:textColor="@color/h4" android:id="@+id/epi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/dx" android:textColor="@color/h4" android:id="@+id/epj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <android.support.p069v7.widget.RecyclerView android:id="@+id/epk" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</LinearLayout>

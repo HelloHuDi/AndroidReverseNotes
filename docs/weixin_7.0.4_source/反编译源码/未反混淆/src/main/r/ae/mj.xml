@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/ag" style="@style/gg"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ap9" android:background="@drawable/iq" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/m4" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/m4" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="@dimen/nc" android:layout_marginRight="@dimen/nc" android:layout_marginBottom="@dimen/l5" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20dp" android:id="@+id/od" android:paddingBottom="2dp" android:layout_width="0dp" android:layout_weight="1" style="@style/gc"/>
+            <ImageView android:id="@+id/arx" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/qqmail_attach_icon_pressed"/>
+        </LinearLayout>
+        <TextView android:textStyle="bold" android:ellipsize="end" android:id="@+id/ary" android:singleLine="true" style="@style/gl"/>
+        <TextView android:textColor="@color/ra" android:ellipsize="end" android:id="@+id/oe" android:maxLines="2" style="@style/gl"/>
+    </LinearLayout>
+</LinearLayout>

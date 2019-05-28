@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/blv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+    <com.tencent.mm.plugin.facedetectlight.ui.PreviewFrameLayout android:gravity="center" android:id="@+id/blt" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true">
+        <com.tencent.mm.ui.base.MMTextureView android:id="@+id/blu" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    </com.tencent.mm.plugin.facedetectlight.ui.PreviewFrameLayout>
+    <com.tencent.mm.plugin.facedetectlight.ui.FaceReflectMask android:id="@+id/blx" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/bmi" android:visibility="invisible" android:layout_width="320dp" android:layout_height="320dp" android:layout_marginTop="135dp" android:src="@drawable/b3s" android:layout_centerHorizontal="true"/>
+    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/bmj" android:visibility="invisible" android:layout_width="278dp" android:layout_height="278dp" android:layout_marginTop="145dp" android:src="@drawable/b37" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="24dp" android:textColor="@color/a69" android:id="@+id/bly" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/bld" android:layout_below="@+id/bmi" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/a1s" android:textColor="@color/a69" android:id="@+id/bmb" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a1r" android:layout_centerHorizontal="true" android:fontFamily="sans-serif-thin"/>
+</merge>

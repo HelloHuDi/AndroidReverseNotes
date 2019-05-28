@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:paddingLeft="20dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="match_parent" android:layout_height="@dimen/uq" android:layout_marginTop="38dp" android:src="#e5e5e5"/>
+        <android.support.p069v7.widget.RecyclerView android:gravity="center" android:id="@+id/sz" android:layout_width="match_parent" android:layout_height="wrap_content" android:overScrollMode="always"/>
+        <TextView android:gravity="center_vertical" android:id="@+id/t0" android:layout_width="match_parent" android:layout_height="60dp" android:text="@string/vs"/>
+        <ImageView android:id="@+id/t1" android:layout_width="match_parent" android:layout_height="@dimen/uq" android:src="#e5e5e5"/>
+        <TextView android:gravity="center" android:id="@+id/t2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="60dp" android:text="@string/vt"/>
+    </LinearLayout>
+    <TextView android:gravity="center" android:id="@+id/t3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="60dp" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

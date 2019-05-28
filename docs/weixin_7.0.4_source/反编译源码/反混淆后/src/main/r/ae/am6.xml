@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:scrollbarAlwaysDrawVerticalTrack="false" android:id="@+id/dri" android:background="@color/vs" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:fadeScrollbars="true">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a7z" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/drj" style="@style/a0c">
+            <TextView android:id="@+id/drk" android:text="@string/ddn" style="@style/d"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/drl" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0dp" android:layout_height="0dp"/>
+            <com.tencent.p177mm.plugin.qqmail.p487ui.MailAddrsViewControl android:id="@+id/drm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <AutoCompleteTextView style="@style/a0b"/>
+                </FrameLayout>
+            </com.tencent.p177mm.plugin.qqmail.p487ui.MailAddrsViewControl>
+            <ImageView android:id="@+id/drn" style="@style/b"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dro" style="@style/a0c">
+            <TextView android:text="@string/ddg" style="@style/d"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/drp" android:visibility="gone" style="@style/a0c">
+            <TextView android:text="@string/dde" style="@style/d"/>
+            <com.tencent.p177mm.plugin.qqmail.p487ui.MailAddrsViewControl android:id="@+id/drq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <AutoCompleteTextView style="@style/a0b"/>
+                </FrameLayout>
+            </com.tencent.p177mm.plugin.qqmail.p487ui.MailAddrsViewControl>
+            <ImageView android:id="@+id/drr" android:visibility="invisible" style="@style/b"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/drs" android:visibility="gone" style="@style/a0c">
+            <TextView android:text="@string/ddc" style="@style/d"/>
+            <com.tencent.p177mm.plugin.qqmail.p487ui.MailAddrsViewControl android:id="@+id/drt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <AutoCompleteTextView style="@style/a0b"/>
+                </FrameLayout>
+            </com.tencent.p177mm.plugin.qqmail.p487ui.MailAddrsViewControl>
+            <ImageView android:id="@+id/dru" android:visibility="invisible" style="@style/b"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/drv" style="@style/a0c">
+            <TextView android:text="@string/ddl" style="@style/d"/>
+            <EditText android:id="@+id/drw" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+            <ImageView android:id="@+id/drx" android:visibility="gone" android:src="@drawable/ti" style="@style/e"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dry" android:background="@drawable/xp" android:focusable="true" style="@style/a0c">
+            <TextView android:textSize="@dimen/dt" android:textColor="@color/wp" android:id="@+id/drz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dd7" android:layout_weight="1"/>
+            <ImageView android:id="@+id/ds0" android:src="@c1318a/qqmail_attach_icon_normal" style="@style/a0a"/>
+        </LinearLayout>
+        <LinearLayout android:visibility="gone" style="@style/c">
+            <LinearLayout android:orientation="vertical" android:id="@+id/ds1" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView android:id="@+id/ds2" android:background="@drawable/aoc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/ddk"/>
+        <EditText android:textSize="@dimen/kr" android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/ds3" android:background="@null" android:padding="5dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="100dp" android:layout_weight="1"/>
+        <com.tencent.p177mm.p612ui.widget.MMWebView android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/ds4" android:background="@null" android:padding="5dp" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="100dp"/>
+        <LinearLayout android:gravity="top|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/ds5" android:background="@drawable/lx" android:padding="12dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="20dp" android:layout_marginBottom="15dp" android:minHeight="100dp">
+            <TextView android:textSize="20sp" android:textColor="@color/h4" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/dty"/>
+            <TextView android:textSize="15sp" android:textColor="#454545" android:id="@+id/ds6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/du0" android:maxLines="6" android:singleLine="false"/>
+            <ImageView android:id="@+id/ds7" android:layout_width="220dp" android:layout_height="220dp" android:layout_marginTop="23dp" android:src="@drawable/aa_"/>
+            <TextView android:textSize="12sp" android:textColor="#888888" android:gravity="center" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginTop="33dp" android:text="@string/dtz"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

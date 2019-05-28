@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/bd1" android:visibility="invisible" android:layout_width="@dimen/g" android:layout_height="@dimen/g" android:layout_marginTop="@dimen/h" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <FrameLayout android:id="@+id/bd2" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.plugin.emojicapture.p389ui.editor.EditorOutsideView android:id="@+id/bd3" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <TextView android:textColor="@color/mv" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/bd4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/e" android:text="@string/b8l" android:drawableTop="@drawable/l3" android:drawablePadding="@dimen/a06" android:layout_below="@+id/bd1"/>
+</merge>

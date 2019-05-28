@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:id="@+id/l5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/dq8" android:paddingTop="@dimen/g7" android:layout_width="@dimen/i8" android:layout_height="match_parent" android:layout_marginRight="@dimen/le" android:text="@string/axv" style="@style/n0"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dq9" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/pw" android:showDividers="middle">
+        <include layout="@layout/alr"/>
+        <include layout="@layout/alr"/>
+        <include layout="@layout/alr"/>
+        <include layout="@layout/alr"/>
+        <include layout="@layout/alr"/>
+    </LinearLayout>
+</LinearLayout>

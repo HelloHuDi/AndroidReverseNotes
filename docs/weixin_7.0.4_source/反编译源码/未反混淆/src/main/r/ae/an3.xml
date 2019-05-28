@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView android:scrollbars="none" style="@style/na">
+        <LinearLayout android:gravity="center_horizontal" android:paddingLeft="13dp" android:paddingRight="13dp" style="@style/ks">
+            <ImageView android:id="@+id/dv8" android:paddingBottom="33dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView android:gravity="center" android:id="@+id/dv9" android:paddingBottom="20dp" android:lineSpacingExtra="4dp" style="@style/kt"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

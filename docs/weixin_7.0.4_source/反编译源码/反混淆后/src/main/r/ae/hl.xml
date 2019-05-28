@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="#292c2d" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/a9g" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/h4" android:gravity="center_vertical" android:id="@+id/a9h" android:background="@drawable/k5" android:padding="5dp" android:layout_width="match_parent" android:layout_height="48dp" android:text="@string/ab9"/>
+    </LinearLayout>
+    <com.tencent.p177mm.plugin.brandservice.p349ui.base.BrandServiceSortView android:id="@+id/a9i" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

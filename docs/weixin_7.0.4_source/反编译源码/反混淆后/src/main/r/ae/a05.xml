@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/bug" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:paddingLeft="@dimen/fy" android:paddingRight="@dimen/dm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/e2" style="@style/mg"/>
+    <LinearLayout android:background="@drawable/zj" android:paddingLeft="@dimen/fy" android:paddingRight="@dimen/dm" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/buh" android:background="@drawable/a_q" android:layout_width="match_parent" android:layout_height="@dimen/f4">
+            <com.tencent.p177mm.p612ui.base.MaskLayout android:id="@+id/bui" android:visibility="gone" android:layout_width="@dimen/f2" android:layout_height="@dimen/f2">
+                <ImageView android:id="@+id/m5" android:layout_width="@dimen/f1" android:layout_height="@dimen/f1" android:src="@c1318a/default_avatar" android:layout_centerVertical="true"/>
+            </com.tencent.p177mm.p612ui.base.MaskLayout>
+            <com.tencent.p177mm.p612ui.base.MaskLayout android:id="@+id/buk" android:visibility="gone" android:layout_width="@dimen/f2" android:layout_height="@dimen/f2" android:layout_marginLeft="@dimen/nc">
+                <ImageView android:id="@+id/m5" android:layout_width="@dimen/f1" android:layout_height="@dimen/f1" android:src="@c1318a/default_avatar" android:layout_centerVertical="true"/>
+            </com.tencent.p177mm.p612ui.base.MaskLayout>
+            <com.tencent.p177mm.p612ui.base.MaskLayout android:id="@+id/bul" android:visibility="gone" android:layout_width="@dimen/f2" android:layout_height="@dimen/f2" android:layout_marginLeft="@dimen/nc">
+                <ImageView android:id="@+id/m5" android:layout_width="@dimen/f1" android:layout_height="@dimen/f1" android:src="@c1318a/default_avatar" android:layout_centerVertical="true"/>
+            </com.tencent.p177mm.p612ui.base.MaskLayout>
+            <com.tencent.p177mm.p612ui.base.MaskLayout android:id="@+id/bum" android:visibility="gone" android:layout_width="@dimen/f2" android:layout_height="@dimen/f2" android:layout_marginLeft="@dimen/nc">
+                <ImageView android:id="@+id/m5" android:layout_width="@dimen/f1" android:layout_height="@dimen/f1" android:src="@c1318a/default_avatar" android:layout_centerVertical="true"/>
+            </com.tencent.p177mm.p612ui.base.MaskLayout>
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <TextView android:id="@+id/buj" android:visibility="visible" style="@style/ux"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

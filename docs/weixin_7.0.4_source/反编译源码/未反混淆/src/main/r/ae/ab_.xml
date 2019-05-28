@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/li" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.multitalk.ui.widget.MultiTalkVideoView android:id="@+id/d27" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <View android:id="@+id/d28" android:background="#dd1f2127" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ImageView android:id="@+id/d29" android:background="@drawable/vk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/a69" android:gravity="center" android:id="@+id/d2_" android:background="#dd1f2127" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/d3m"/>
+    <ImageView android:id="@+id/d2a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:src="@drawable/bck" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <ImageView android:id="@+id/d2b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:src="@a/multitalk_network_mark" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

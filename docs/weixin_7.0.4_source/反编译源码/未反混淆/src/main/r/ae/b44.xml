@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:background="@drawable/a8g" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/blh" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:id="@+id/f_w" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="22dp" android:textColor="@color/a61" android:id="@+id/f_x" android:paddingLeft="@dimen/nc" android:paddingTop="@dimen/m4" android:paddingBottom="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/ft" android:src="@color/a04"/>
+            </LinearLayout>
+            <com.tencent.mm.ui.base.MaxListView android:id="@+id/f_y" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:divider="@null"/>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/f_z" android:background="@drawable/k5" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="@dimen/ft" android:src="@color/a04"/>
+                <TextView android:textSize="20dp" android:textColor="@color/a61" android:id="@+id/f_x" android:paddingTop="@dimen/m4" android:paddingBottom="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qt"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

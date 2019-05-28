@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a5z" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/b9u" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h7" android:layout_gravity="center_horizontal" android:id="@+id/fko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19dp" android:text="@string/g02"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:layout_gravity="center_horizontal" android:id="@+id/fkp" android:paddingTop="6dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g00"/>
+        <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="54dp">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/fkq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60dp">
+                <ImageButton android:id="@+id/fkr" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bm2"/>
+                <TextView android:textSize="10sp" android:textColor="@color/s0" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/fks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:maxWidth="80dp" android:minWidth="48dp" android:text="@string/fzl"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/fkt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="60dp">
+                <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageButton android:id="@+id/fku" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bm4"/>
+                    <com.tencent.p177mm.p612ui.widget.progress.MMProgressWheel android:id="@+id/fkv" android:visibility="invisible" android:layout_width="54dp" android:layout_height="54dp" app:matProg_progressIndeterminate="true" app:matProg_barColor="@color/hy" app:matProg_fillRadius="true" app:matProg_barWidth="1dp"/>
+                </FrameLayout>
+                <TextView android:textSize="10sp" android:textColor="@color/s0" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/fkw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:minWidth="48dp" android:text="@string/fzp"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageButton android:id="@+id/fkx" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/bm3"/>
+                <TextView android:textSize="10sp" android:textColor="@color/s0" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:minWidth="48dp" android:text="@string/fzo"/>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="24dp">
+            <Button android:ellipsize="end" android:gravity="center" android:id="@+id/fky" android:padding="4dp" android:layout_marginBottom="16dp" android:text="@string/g01" android:singleLine="true" android:layout_alignParentBottom="true" style="@style/p5"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

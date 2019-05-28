@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/eli" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:paddingStart="12dp" android:paddingEnd="12dp">
+        <View android:background="@color/a11" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/elj" android:padding="2dp" android:layout_width="12dp" android:layout_height="24dp" android:src="@c1318a/arrow_right" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_marginEnd="16dp" android:layout_alignParentEnd="true"/>
+            <TextView android:textSize="@dimen/dz" android:textColor="#e6000000" android:id="@+id/elk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:minHeight="24dp" android:layout_centerVertical="true" android:paddingStart="4dp" android:paddingEnd="4dp" android:layout_toStartOf="@+id/elj"/>
+            <com.tencent.p177mm.p612ui.widget.StoryAvatarDotsView android:id="@+id/ell" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/elk"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/ell">
+                <TextView android:textSize="@dimen/dz" android:textColor="#e6000000" android:id="@+id/elm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="16dp" android:minHeight="24dp" android:layout_marginStart="16dp"/>
+                <TextView android:id="@+id/eln" android:background="@drawable/a1k" android:visibility="gone" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" style="@style/ux"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:background="@color/a11" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    </LinearLayout>
+</merge>

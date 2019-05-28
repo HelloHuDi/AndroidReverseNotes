@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:id="@+id/l6" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/kw" android:background="@drawable/al" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/kx" android:background="@null" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@c1318a/actionbar_icon_dark_back" android:contentDescription="@string/g1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/l7" android:background="@null" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/actionbar_icon_dark_close" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dy" android:singleLine="true" android:layout_centerVertical="true" style="@style/kl"/>
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@android:id/text2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dy" android:singleLine="true" style="@style/kk"/>
+    </LinearLayout>
+</LinearLayout>

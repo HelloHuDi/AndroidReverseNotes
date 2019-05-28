@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/w8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/jb" android:layout_width="28dp" android:layout_height="28dp" android:scaleType="fitCenter"/>
+        <TextView android:textSize="12sp" android:id="@+id/ct" android:paddingLeft="4dp" android:paddingRight="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView android:textSize="13dp" android:id="@+id/w9" android:background="@drawable/cf" android:layout_marginLeft="-10dp" android:layout_alignTop="@+id/w8" android:layout_toEndOf="@+id/w8" style="@style/ux"/>
+    <ImageView android:id="@+id/w_" android:layout_marginLeft="-3dp" android:layout_marginTop="1dp" android:layout_alignTop="@+id/w8" android:layout_toEndOf="@+id/w8" style="@style/uy"/>
+    <View android:id="@+id/wa" android:layout_width="match_parent" android:layout_height="3dp" android:layout_alignParentBottom="true" android:layout_alignStart="@+id/w8" android:layout_alignEnd="@+id/w8"/>
+</RelativeLayout>

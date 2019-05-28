@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/ti">
+    <ImageView android:id="@+id/jb" android:layout_width="48dp" android:layout_height="48dp" android:layout_centerHorizontal="true"/>
+    <ImageView android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/be" android:layout_alignTop="@+id/jb" android:layout_alignBottom="@+id/jb" android:layout_alignStart="@+id/jb" android:layout_alignEnd="@+id/jb"/>
+    <TextView android:textSize="12dp" android:textColor="@color/h4" android:ellipsize="end" android:gravity="top|center_vertical|center_horizontal|center" android:id="@+id/eg" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:lines="2" android:includeFontPadding="false" android:layout_below="@+id/jb" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="8dp" android:textColor="@color/a69" android:id="@+id/pr" android:background="@drawable/ce" android:padding="1dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignRight="@+id/jb" android:layout_alignBottom="@+id/jb"/>
+</RelativeLayout>

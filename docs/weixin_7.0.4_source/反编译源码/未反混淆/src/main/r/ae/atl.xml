@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:layout_gravity="center" android:id="@+id/ee4" android:layout_width="wrap_content" android:layout_height="@dimen/a12">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/a12" android:layout_centerInParent="true">
+        <com.tencent.mm.ui.MMImageView android:layout_gravity="center" android:id="@+id/yw" android:padding="@dimen/nh" android:layout_width="65dp" android:layout_height="65dp" android:scaleType="fitCenter"/>
+        <TextView android:textSize="12sp" android:textColor="?attr/t" android:id="@+id/ee5" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <TextView android:id="@+id/ee6" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/pu"/>
+    <LinearLayout android:gravity="center" android:id="@+id/bet" android:background="#46ffffff" android:visibility="gone" android:layout_width="62dp" android:layout_height="62dp" android:layout_centerInParent="true">
+        <ProgressBar android:id="@+id/beu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+        <ImageView android:id="@+id/bev" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a1w"/>
+    </LinearLayout>
+</RelativeLayout>

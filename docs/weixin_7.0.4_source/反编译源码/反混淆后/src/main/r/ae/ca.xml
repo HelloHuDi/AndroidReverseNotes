@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/gd">
+        <LinearLayout android:orientation="vertical" android:id="@+id/qz" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/r0" android:layout_width="68dp" android:layout_height="68dp" android:layout_marginTop="50dp" android:layout_marginBottom="35dp"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:id="@+id/r1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5"/>
+            <View android:id="@+id/r2" android:background="@color/a04" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/lo" android:layout_marginRight="@dimen/l5" android:layout_marginBottom="@dimen/l5"/>
+            <android.support.p069v7.widget.RecyclerView android:id="@+id/r3" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5"/>
+            <TextView android:textSize="@dimen/nd" android:textColor="@color/w4" android:id="@+id/r4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/fy" android:layout_marginRight="@dimen/l5"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/l9" android:layout_marginRight="@dimen/l5">
+                <CheckBox android:textSize="@dimen/nd" android:id="@+id/r5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ze" style="@style/nt"/>
+                <TextView android:textSize="@dimen/nd" android:textColor="@color/t7" android:id="@+id/r6" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <Button android:id="@+id/r7" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" android:layout_below="@+id/r4" style="@style/ni"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/qw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textColor="@color/t7" android:id="@+id/r8" android:padding="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <View android:id="@+id/r9" android:background="@color/t7" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="@dimen/m7" android:layout_marginBottom="@dimen/m7"/>
+        <TextView android:textColor="@color/t7" android:id="@+id/r_" android:padding="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</RelativeLayout>

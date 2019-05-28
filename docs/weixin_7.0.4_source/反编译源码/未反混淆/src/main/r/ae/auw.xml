@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a17" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:background="@drawable/acx" android:layout_width="275dp" android:layout_height="320dp" android:layout_marginTop="23dp">
+                    <GridView android:gravity="center" android:id="@+id/eh8" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="match_parent" android:layout_height="200dp" android:layout_marginTop="8dp" android:listSelector="@drawable/uv" android:horizontalSpacing="4dp" android:verticalSpacing="1dp" android:stretchMode="columnWidth" android:numColumns="4"/>
+                    <TextView android:textSize="12dp" android:textColor="@color/a19" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="50dp" android:text="@string/ejq" android:singleLine="false" android:shadowColor="@color/a69" android:shadowDx="2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:gravity="right" android:layout_width="295dp" android:layout_height="320dp" android:layout_marginTop="15dp">
+                    <ImageButton android:id="@+id/eh9" android:background="@drawable/fn" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

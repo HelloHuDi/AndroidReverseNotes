@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt" android:oneshot="true">
+    <item android:duration="67" android:drawable="@drawable/b4e"/>
+    <item android:duration="67" android:drawable="@drawable/b4p"/>
+    <item android:duration="67" android:drawable="@drawable/b52"/>
+    <item android:duration="67" android:drawable="@drawable/b53"/>
+    <item android:duration="67" android:drawable="@drawable/b55"/>
+    <item android:duration="67" android:drawable="@drawable/b56"/>
+    <item android:duration="67" android:drawable="@drawable/b4f"/>
+    <item android:duration="67" android:drawable="@drawable/b4g"/>
+    <item android:duration="67" android:drawable="@drawable/b4i"/>
+    <item android:duration="67" android:drawable="@drawable/b4j"/>
+    <item android:duration="67" android:drawable="@drawable/b4l"/>
+    <item android:duration="67" android:drawable="@drawable/b4m"/>
+    <item android:duration="67" android:drawable="@drawable/b4o"/>
+    <item android:duration="67" android:drawable="@drawable/b4q"/>
+    <item android:duration="67" android:drawable="@drawable/b4s"/>
+    <item android:duration="67" android:drawable="@drawable/b4t"/>
+    <item android:duration="67" android:drawable="@drawable/b4v"/>
+    <item android:duration="67" android:drawable="@drawable/b4w"/>
+    <item android:duration="67" android:drawable="@drawable/b4y"/>
+    <item android:duration="67" android:drawable="@drawable/b4z"/>
+    <item android:duration="67" android:drawable="@drawable/b51"/>
+</animation-list>

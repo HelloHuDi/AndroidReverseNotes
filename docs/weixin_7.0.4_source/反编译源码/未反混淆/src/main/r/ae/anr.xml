@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/qb">
+    <ImageView style="@style/qc"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include layout="@layout/anm"/> //暂时注掉\10
+        <include layout="@layout/ans"/>
+        <TextView android:textColor="@color/s0" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/dx5" android:text="@string/bqz" android:drawableLeft="@a/chatfrom_voice_playing_new" android:drawablePadding="20dp" style="@style/qj"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="1px" style="@style/qf"/>
+    </LinearLayout>
+</LinearLayout>

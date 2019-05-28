@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<inset xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt" android:insetLeft="@dimen/pk" android:insetRight="@dimen/pk" android:insetTop="@dimen/pk" android:insetBottom="@dimen/pk">
+    <selector>
+        <item android:state_checked="false" android:state_pressed="false">
+            <layer-list>
+                <item android:drawable="@drawable/a_2"/>
+                <item android:drawable="@drawable/a9s"/>
+            </layer-list>
+        </item>
+        <item>
+            <layer-list>
+                <item android:drawable="@drawable/a_1"/>
+                <item android:drawable="@drawable/a9s"/>
+            </layer-list>
+        </item>
+    </selector>
+</inset>

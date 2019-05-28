@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/j7" android:paddingLeft="8dp" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="16dp" android:contentDescription="@string/d" android:paddingStart="8dp" android:layout_marginEnd="16dp" app:srcCompat="?attr/e6" style="?attr/e3"/>

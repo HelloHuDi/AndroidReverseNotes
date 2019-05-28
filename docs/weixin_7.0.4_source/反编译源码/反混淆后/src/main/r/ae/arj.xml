@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <EditText android:id="@+id/e9j" android:layout_marginLeft="18dp" android:layout_marginRight="18dp" android:hint="@string/cdt" android:inputType="textPassword" style="@style/md"/>
+</LinearLayout>

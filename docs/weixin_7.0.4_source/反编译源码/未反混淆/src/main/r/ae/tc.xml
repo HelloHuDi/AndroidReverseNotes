@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:id="@+id/bbw" android:layout_width="match_parent" android:layout_height="@dimen/a_y">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/a_y" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/gc" android:gravity="center" android:id="@+id/bbx" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/bby" android:background="@drawable/b2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/a_y" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/gc" android:gravity="center" android:id="@+id/bbz" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/bc0" android:background="@drawable/b2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/a_y" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/gc" android:gravity="center" android:id="@+id/bc1" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/bc2" android:background="@drawable/b2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/a_y" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/gc" android:gravity="center" android:id="@+id/bc3" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/bc4" android:background="@drawable/b2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/a_y" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/gc" android:gravity="center" android:id="@+id/bc5" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/bc6" android:background="@drawable/b2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="center" android:layout_width="0dp" android:layout_height="@dimen/a_y" android:layout_weight="1">
+            <TextView android:textSize="30sp" android:textColor="@color/gc" android:gravity="center" android:id="@+id/bc7" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+            <ImageView android:id="@+id/bc8" android:background="@drawable/b2x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <EditText android:id="@+id/bc9" android:background="@null" android:layout_width="match_parent" android:layout_height="@dimen/a_y" android:cursorVisible="false" android:maxLines="1" android:maxLength="6" android:digits="1234567890" android:layout_centerVertical="true" android:inputType="phone"/>
+</RelativeLayout>

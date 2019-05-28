@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="left|center_vertical|center_horizontal|center" android:orientation="vertical" android:background="@drawable/ul" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/h4" android:id="@+id/bt6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/buy" android:layout_centerHorizontal="true"/>
+        <Button android:id="@+id/bt9" android:layout_width="match_parent" android:layout_marginLeft="30dp" android:layout_marginTop="10dp" android:layout_marginRight="30dp" android:layout_below="@+id/bt6" style="@style/ni"/>
+        <TextView android:textColor="#ff646464" android:id="@+id/bt7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_below="@+id/bt9" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <TextView android:textColor="#ffa5a5a5" android:id="@+id/bt_" android:background="#fff0f0f0" android:paddingLeft="15dp" android:paddingTop="3dp" android:paddingBottom="3dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/buz"/>
+</LinearLayout>

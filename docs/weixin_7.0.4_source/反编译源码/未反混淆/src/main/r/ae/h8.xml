@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@drawable/ej" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ImageView android:id="@+id/qk" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:src="@drawable/ad2" android:scaleType="centerCrop"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a7p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lo">
+        <TextView android:textColor="@color/rr" android:id="@+id/a76" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/nu"/>
+        <TextView android:textColor="@color/w4" android:id="@+id/qm" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le" style="@style/nu"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="#4c000000" android:id="@+id/la" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le"/>
+        <View android:id="@+id/a77" android:background="@color/jy" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="@dimen/l5"/>
+    </LinearLayout>
+</LinearLayout>

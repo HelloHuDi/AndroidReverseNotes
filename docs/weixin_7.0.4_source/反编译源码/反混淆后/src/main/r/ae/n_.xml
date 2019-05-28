@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" style="@style/fz">
+    <include android:id="@+id/ani" android:layout_alignParentTop="true" android:layout_alignParentRight="true" layout="@layout/ll" style="@style/g5"/>
+    <TextView android:id="@+id/od" android:visibility="gone" android:text="{user}" android:layout_toLeftOf="@+id/ani" style="@style/gd"/>
+    <LinearLayout android:id="@+id/aa" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toLeftOf="@+id/ani" style="@style/g_">
+        <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/asb" android:layout_marginRight="6dp" style="@style/gh"/>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/at6" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.tencent.p177mm.p612ui.widget.MMNeat7extView android:id="@+id/oe" android:background="@drawable/j4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/ej" style="@style/gj"/>
+                <TextView android:id="@+id/aq0" android:layout_marginLeft="0dp" style="@style/g0"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

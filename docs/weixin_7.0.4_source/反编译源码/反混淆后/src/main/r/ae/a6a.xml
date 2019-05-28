@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/l_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/m5" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:id="@+id/c_i" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c_j" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <ViewStub android:id="@+id/c_k" android:layout="@layout/aiu" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <RelativeLayout android:id="@+id/c_l" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </LinearLayout>
+                <com.tencent.p177mm.plugin.location.p446ui.MyLocationButton android:id="@+id/c_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginBottom="@dimen/l8" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:gravity="center" android:id="@+id/c_n" android:background="@drawable/wy" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="42dp" android:layout_marginLeft="@dimen/ds" android:layout_marginBottom="@dimen/l8" android:text="@string/f1y" android:layout_toRightOf="@+id/c_m" android:layout_alignParentBottom="true"/>
+                <TextView android:textSize="12dp" android:textColor="@color/h4" android:id="@+id/c_o" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:text="@string/d1i" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+                <Button android:textSize="@dimen/kr" android:id="@+id/c_p" android:background="@drawable/wy" android:visibility="gone" android:layout_width="150dp" android:layout_height="42dp" android:layout_marginRight="@dimen/l5" android:layout_marginBottom="@dimen/l8" android:text="@string/cnv" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+                <RelativeLayout android:id="@+id/c_q" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.tencent.p177mm.plugin.location.p446ui.VolumeMeter android:id="@+id/c_r" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+                <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l8" android:layout_alignParentBottom="true" layout="@layout/b0q"/>
+                <com.tencent.p177mm.plugin.location.p446ui.TipSayingWidget android:id="@+id/c_s" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </FrameLayout>
+        <RelativeLayout android:id="@+id/c_t" android:background="@color/a3o" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24dp" android:layout_centerInParent="true" style="@style/zg"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/c_u" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:id="@+id/c_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <TextView android:textColor="@color/h4" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d4w" android:layout_below="@+id/c_v" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </FrameLayout>
+    <include layout="@layout/ad0"/>
+    <com.tencent.p177mm.plugin.location.p446ui.ShareHeader android:id="@+id/c_w" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+</RelativeLayout>

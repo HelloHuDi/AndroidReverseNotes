@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:id="@+id/a4c" android:layout_width="match_parent" android:layout_height="match_parent">
+        <SurfaceView android:id="@+id/ed9" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/f0u" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/f0v" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/f0w" android:background="@drawable/aiw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5">
+            <ImageView android:id="@+id/f0x" android:layout_width="10dp" android:layout_height="10dp" android:layout_margin="@dimen/nc" android:src="@drawable/a4h"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/f0y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc"/>
+        </LinearLayout>
+        <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l9">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/f10" android:background="@drawable/aiw" android:padding="@dimen/nc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:gravity="center" android:id="@+id/f11" android:background="@drawable/aiw" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/f12" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/nc"/>
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/f13" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="bottom|left|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageButton android:id="@+id/f0z" android:background="@null" android:focusable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/l8" android:src="@drawable/aqf"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageButton android:id="@+id/aun" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l8" android:src="@drawable/aqn"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageButton android:id="@+id/f14" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aqm"/>
+    </LinearLayout>
+</FrameLayout>

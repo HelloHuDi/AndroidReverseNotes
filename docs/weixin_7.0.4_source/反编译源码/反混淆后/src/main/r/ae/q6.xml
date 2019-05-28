@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gc" android:baselineAligned="false">
+    <View android:background="@color/t6" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lp">
+        <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/m5" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/nb" android:layout_weight="1">
+            <TextView android:id="@android:id/title" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" style="@style/l9"/>
+            <TextView android:id="@android:id/summary" android:paddingTop="@dimen/nc" android:paddingRight="@dimen/lu" android:paddingBottom="@dimen/nc" android:singleLine="true" style="@style/lb"/>
+        </LinearLayout>
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/b1n" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <com.tencent.p177mm.plugin.appbrand.widget.AppBrandNearbyShowcaseView android:id="@+id/b1o" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <com.tencent.p177mm.p612ui.widget.ThreeDotsLoadingView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/b1p" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </FrameLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/z_" android:paddingTop="@dimen/le" android:paddingBottom="@dimen/le" android:layout_width="wrap_content" android:layout_height="@dimen/g9" android:src="@c1318a/arrow_right" android:scaleType="centerCrop" android:adjustViewBounds="true" android:tint="@color/v" android:layout_marginStart="@dimen/nc" android:layout_marginEnd="@dimen/l5"/>
+    </LinearLayout>
+    <View android:background="@color/t6" android:layout_width="match_parent" android:layout_height="0.5dp"/>
+</LinearLayout>

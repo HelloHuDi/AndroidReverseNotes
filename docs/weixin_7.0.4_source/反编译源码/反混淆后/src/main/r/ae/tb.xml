@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="top" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/bbs" android:background="@color/eb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.view.PhotoEditText android:textSize="@dimen/zk" android:textColor="@android:color/white" android:gravity="top" android:id="@+id/bbt" android:background="@null" android:paddingLeft="@dimen/zi" android:paddingTop="50dp" android:paddingRight="@dimen/zi" android:layout_width="match_parent" android:layout_height="wrap_content" android:height="800dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Switch android:id="@+id/bbu" android:background="@drawable/hg" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginLeft="20dp" android:thumb="@android:color/transparent" android:track="@android:color/transparent"/>
+        <com.tencent.p177mm.view.footer.SelectColorBar android:gravity="top" android:id="@+id/bbv" android:layout_width="match_parent" android:layout_height="@dimen/xe"/>
+    </LinearLayout>
+</LinearLayout>

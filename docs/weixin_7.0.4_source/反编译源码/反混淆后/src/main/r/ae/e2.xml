@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <FrameLayout android:layout_width="82dp" android:layout_height="90dp">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="82dp" android:layout_height="90dp">
+            <RelativeLayout android:layout_width="56dp" android:layout_height="56dp">
+                <ImageView android:id="@+id/xh" android:background="@drawable/cp" android:visibility="gone" android:layout_width="56dp" android:layout_height="56dp" android:layout_centerInParent="true"/>
+                <ImageView android:id="@+id/xi" android:layout_width="56dp" android:layout_height="56dp" android:scaleType="center" android:layout_centerInParent="true"/>
+            </RelativeLayout>
+            <TextView android:textColor="@color/lk" android:ellipsize="end" android:id="@+id/xj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:maxWidth="78dp" android:singleLine="true" style="@style/z5"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="top|right|center_vertical|center_horizontal|center" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="10dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/xk" android:background="@drawable/w3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40dp" android:text="@string/s0"/>
+            <TextView android:textColor="@color/a69" android:gravity="center" android:id="@+id/xl" android:background="@drawable/a4h" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginTop="3dp" android:layout_marginRight="8dp"/>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

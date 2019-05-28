@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/z3" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/r2">
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/dnx" android:paddingLeft="9dp" android:paddingTop="15dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/dny" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="12dp"/>
+        <LinearLayout android:gravity="top|left|center_vertical|center_horizontal|center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+            <TextView android:textSize="14dp" android:textColor="#acaaaa" android:ellipsize="end" android:id="@+id/dnz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="14dp" android:textColor="#aaaaaa" android:ellipsize="end" android:gravity="left" android:id="@+id/do0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

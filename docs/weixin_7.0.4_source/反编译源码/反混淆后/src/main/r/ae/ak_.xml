@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.wallet_core.p650ui.CustomerScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:background="@color/vs" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.p177mm.plugin.wallet_payu.create.p569ui.WalletPayUOpenIntroView android:id="@+id/dmd" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <com.tencent.p177mm.p612ui.base.MMFormMobileInputView android:orientation="horizontal" android:id="@+id/dme" android:layout_width="match_parent" android:layout_height="@dimen/nb" android:layout_marginTop="@dimen/l8"/>
+        <Button android:id="@+id/b7r" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="@string/fpn" style="@style/or"/>
+        <TextView android:textColor="@color/s0" android:gravity="center" android:id="@+id/dm5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="@string/fpm"/>
+        <TextView android:layout_gravity="bottom" android:id="@+id/dmf" android:layout_height="match_parent" android:layout_marginBottom="@dimen/nc" style="@style/w2"/>
+    </LinearLayout>
+</com.tencent.p177mm.wallet_core.p650ui.CustomerScrollView>

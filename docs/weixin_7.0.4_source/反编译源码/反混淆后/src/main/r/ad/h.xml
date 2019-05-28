@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.p177mm.plugin.subapp.p537ui.openapi.AppHeaderPreference app:key="app_profile_header" app:layout="@layout/e7"/>
+    <PreferenceCategory/>
+    <Preference app:title="@string/sw" app:key="app_profile_add" app:layout="@layout/a82"/>
+    <Preference app:title="@string/sx" app:key="app_profile_remove" app:layout="@layout/a_e"/>
+    <PreferenceCategory app:key="app_profile_cat"/>
+</PreferenceScreen>

@@ -1,0 +1,15 @@
+attribute float a_stickerIndex;
+attribute vec4 position;
+attribute vec2 inputTextureCoordinate;
+attribute vec4 aColor;
+
+varying vec2 vTexCoords;
+varying vec4 vColor;
+varying float stickerIndex;
+
+void main() {
+    gl_Position = position;
+    vTexCoords  = inputTextureCoordinate;
+    vColor = aColor;
+    stickerIndex = a_stickerIndex;
+}

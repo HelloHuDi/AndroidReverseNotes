@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/zf" android:paddingTop="@dimen/l8" android:layout_width="match_parent" android:layout_height="match_parent" android:divider="@drawable/pw" android:showDividers="middle">
+    <com.tencent.p177mm.plugin.profile.p483ui.ProfileNormalItemView android:id="@+id/b3s" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" app:title="@string/avc"/>
+    <com.tencent.p177mm.plugin.profile.p483ui.ProfileNormalItemView android:id="@+id/b3t" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/b0a"/>
+    <com.tencent.p177mm.plugin.profile.p483ui.ProfileNormalItemView android:id="@+id/b3u" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/b1p"/>
+    <com.tencent.p177mm.plugin.profile.p483ui.ProfileNormalItemView android:id="@+id/mv" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/avm"/>
+    <com.tencent.p177mm.plugin.profile.p483ui.ProfileNormalItemView android:id="@+id/b3v" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/ca_"/>
+    <com.tencent.p177mm.plugin.profile.p483ui.ProfileNormalItemView android:id="@+id/b3w" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/b0j"/>
+    <com.tencent.p177mm.plugin.profile.p483ui.ProfileNormalItemView android:id="@+id/b3x" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/b0d"/>
+    <com.tencent.p177mm.plugin.profile.p483ui.ProfileNormalItemView android:id="@+id/b3y" android:layout_width="match_parent" android:layout_height="wrap_content" app:title="@string/b0h"/>
+    <View android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="@dimen/gc" android:layout_marginLeft="@dimen/g7" android:layout_marginRight="@dimen/g7"/>
+</LinearLayout>

@@ -1,0 +1,29 @@
+precision highp float;
+attribute vec4 position;
+attribute vec2 inputTextureCoordinate;
+varying vec2 textureCoordinate;
+
+uniform vec2 canvasSize;
+uniform vec2 texOffset;
+
+mat4 texMatTranslate = mat4(1.0, 0.0, 0.0, 0.0,
+                                 0.0, 1.0, 0.0, 0.0,
+                                 0.0, 0.0, 1.0, 0.0,
+                                 0.0, 0.0, 0.0, 1.0);
+
+void main(){
+    vec4 framePos = position;
+    framePos.x = framePos.x * canvasSize.x * 0.5;
+    framePos.y = framePos.y * canvasSize.y * 0.5;
+
+    texMatTranslate[3][0] = texOffset.x;
+    texMatTranslate[3][1] = texOffset.y;
+
+    framePos = texMatTranslate * framePos;
+
+    framePos.x = framePos.x * 2.0 / canvasSize.x;
+    framePos.y = framePos.y * 2.0 / canvasSize.y;
+
+    gl_Position = framePos;
+    textureCoordinate = inputTextureCoordinate;
+}

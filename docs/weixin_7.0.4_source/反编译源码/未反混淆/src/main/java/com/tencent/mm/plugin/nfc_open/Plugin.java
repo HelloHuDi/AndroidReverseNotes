@@ -1,0 +1,24 @@
+package com.tencent.mm.plugin.nfc_open;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.mm.model.at;
+import com.tencent.mm.pluginsdk.b.b;
+import com.tencent.mm.pluginsdk.b.c;
+import com.tencent.mm.pluginsdk.o;
+
+public class Plugin implements c {
+    public o createApplication() {
+        return null;
+    }
+
+    public b getContactWidgetFactory() {
+        return null;
+    }
+
+    public at createSubCore() {
+        AppMethodBeat.i(23052);
+        a aVar = new a();
+        AppMethodBeat.o(23052);
+        return aVar;
+    }
+}

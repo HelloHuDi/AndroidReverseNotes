@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="60dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/su" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/sv" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:src="@a/app_brand_star_delete" android:scaleType="fitCenter" android:layout_marginEnd="15dp"/>
+        <TextView android:textSize="15dp" android:textColor="@color/w4" android:id="@+id/sw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="15dp"/>
+        <TextView android:textSize="14dp" android:textColor="@color/s0" android:id="@+id/sx" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/wd" android:layout_weight="1" android:layout_marginEnd="15dp"/>
+        <ImageView android:id="@+id/sy" android:visibility="gone" android:layout_width="15dp" android:layout_height="12dp" android:src="@drawable/aw8"/>
+    </LinearLayout>
+    <ImageView android:layout_width="match_parent" android:layout_height="@dimen/uq" android:src="#e5e5e5" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

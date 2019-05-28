@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:background="@drawable/rk" android:layout_width="280dp" android:layout_height="290dp">
+        <ImageView android:id="@+id/csl" android:background="@drawable/bag" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/csm" android:background="@a/sns_luckymoney_post_title" android:layout_width="210dp" android:layout_height="117dp" android:layout_marginTop="30dp" android:layout_centerHorizontal="true">
+            <TextView android:textSize="26dp" android:textColor="#ebcd9b" android:id="@+id/csn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emk"/>
+            <TextView android:textSize="8dp" android:textColor="#ebcd9b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/emm"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/m5" android:textColor="#ffe2b1" android:gravity="center" android:id="@+id/cso" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="20dp" android:layout_marginRight="30dp" android:text="@string/ema" android:layout_below="@+id/csm" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="#d84e43" android:gravity="center" android:id="@+id/csp" android:background="@drawable/a1_" android:layout_width="match_parent" android:layout_height="48dp" android:layout_marginTop="30dp" android:text="@string/cpx" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

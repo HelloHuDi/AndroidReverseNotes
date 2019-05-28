@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/fz">
+    <include android:id="@+id/ani" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/g5" layout="@layout/ll"/>
+    <TextView android:id="@+id/od" android:visibility="gone" android:text="{user}" android:layout_toLeftOf="@+id/ani" style="@style/gd"/>
+    <LinearLayout android:gravity="center_vertical" android:id="@+id/a9f" android:paddingLeft="14dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:layout_toLeftOf="@+id/ani" android:layout_below="@+id/od" style="@style/g_">
+        <ImageView android:id="@+id/asb" android:layout_marginRight="6dp" style="@style/gh"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <FrameLayout android:layout_gravity="right" android:id="@+id/ap9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="240dp">
+                <ImageView android:layout_gravity="center" android:id="@+id/apt" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon" android:adjustViewBounds="true" android:maxWidth="240dp" android:minWidth="100dp" android:minHeight="100dp"/>
+                <ImageView android:id="@+id/aq_" android:background="@drawable/hk" android:layout_width="0dp" android:layout_height="0dp"/>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/at8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+                    <TextView android:textColor="#ffffff" android:id="@+id/at9" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </FrameLayout>
+            <TextView android:ellipsize="end" android:id="@+id/aq0" android:layout_marginLeft="0dp" android:singleLine="true" style="@style/g0"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

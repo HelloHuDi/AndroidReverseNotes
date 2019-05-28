@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bg5" style="@style/pt">
+    <LinearLayout android:orientation="vertical" android:id="@+id/bg9" android:background="@color/zf" android:paddingTop="@dimen/ld" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bg_" android:background="@color/zf" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/nb" style="@style/pt">
+            <TextView android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bga" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bba" android:layout_weight="1" style="@style/mq"/>
+        </LinearLayout>
+        <com.tencent.p177mm.plugin.emoji.p384ui.p385v2.PreViewListGridView android:gravity="center" android:id="@+id/bgb" android:background="@color/vs" android:paddingBottom="@dimen/m4" android:focusable="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/a8g" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0dp" android:choiceMode="none"/>
+        <LinearLayout android:background="@color/vs" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <View android:id="@+id/bgc" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bgd" android:background="@drawable/emoji_store_v2_single_bar" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="@dimen/nb" style="@style/pt">
+            <TextView android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bge" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/bb_" android:layout_weight="1" style="@style/mq"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

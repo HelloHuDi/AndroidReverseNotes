@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/um" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/efu" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/efv" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:gravity="center" android:id="@+id/edz" android:paddingBottom="20dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" android:singleLine="true" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="0.8"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:layout_marginBottom="13dp" android:layout_alignParentBottom="true">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@+id/efq" android:layout_width="39dp" android:layout_height="39dp" android:src="@c1318a/icon_volume_off" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/efw" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/efu" android:layout_centerHorizontal="true">
+        <Button android:textColor="@color/a69" android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/efx" android:background="@color/a3p" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="44dp" android:text="" android:maxLines="1"/>
+        <View android:id="@+id/efy" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"/>
+    </LinearLayout>
+</RelativeLayout>

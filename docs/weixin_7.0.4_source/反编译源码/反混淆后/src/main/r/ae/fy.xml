@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/dd" android:paddingLeft="112dp" android:paddingRight="20dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/a3q" android:layout_width="match_parent" android:layout_height="68dp">
+        <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/a3r" android:background="@color/a3p" android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerCrop"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp">
+            <TextView android:textSize="14dp" android:textColor="@color/w0" android:id="@+id/a3s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+            <TextView android:textSize="14dp" android:textColor="@color/w0" android:id="@+id/a3t" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+        </LinearLayout>
+    </LinearLayout>
+    <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="1px" android:layout_below="@+id/a3q" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

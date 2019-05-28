@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="#f0eff4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/l5" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4" style="@style/lp">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb">
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m4" android:text="@string/g3x" android:layout_weight="1"/>
+                <com.tencent.p177mm.p612ui.widget.MMSwitchBtn android:id="@+id/dmi" android:layout_width="@dimen/nr" android:layout_height="@dimen/no"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4" style="@style/lp">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb">
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m4" android:text="@string/g3p" android:layout_weight="1"/>
+                <com.tencent.p177mm.p612ui.widget.MMSwitchBtn android:id="@+id/dmj" android:layout_width="@dimen/nr" android:layout_height="@dimen/no"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/g3r"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4" style="@style/lp">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb">
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m4" android:text="@string/g3t" android:layout_weight="1"/>
+                <com.tencent.p177mm.p612ui.widget.MMSwitchBtn android:id="@+id/dmk" android:layout_width="@dimen/nr" android:layout_height="@dimen/no"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/g3r"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m4" style="@style/lp">
+            <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb">
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m4" android:text="@string/g3s" android:layout_weight="1"/>
+                <com.tencent.p177mm.p612ui.widget.MMSwitchBtn android:id="@+id/dml" android:layout_width="@dimen/nr" android:layout_height="@dimen/no"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/g3q"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dy" android:layout_marginTop="24dp" android:layout_marginRight="@dimen/dy" android:weightSum="2">
+            <Button android:id="@+id/dmm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g3y" android:layout_weight="1" style="@style/no"/>
+            <Button android:id="@+id/kz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nh" android:text="@string/g3o" android:layout_weight="1" style="@style/no"/>
+        </LinearLayout>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/dmn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/dy" android:layout_marginTop="24dp" android:layout_marginRight="@dimen/dy" android:layout_marginBottom="24dp" android:lineSpacingExtra="@dimen/nc"/>
+    </LinearLayout>
+</ScrollView>

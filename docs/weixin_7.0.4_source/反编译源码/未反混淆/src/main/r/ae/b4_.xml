@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a4h" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+        <LinearLayout android:paddingLeft="0dp" android:paddingTop="0dp" android:paddingRight="0dp" style="@style/v5">
+            <TextView android:id="@+id/fa4" android:text="@string/fm9" style="@style/vh"/>
+            <com.tencent.mm.ui.base.MaxListView android:id="@+id/fa5" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@android:color/transparent" android:divider="#00000000" android:dividerHeight="0.5dp"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/fa6" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                <LinearLayout style="@style/vx">
+                    <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/f7y" android:visibility="visible" android:clickable="false" app:titleText="@string/fct" app:contentHint="@string/fcq" app:contentTextColor="@color/s0" app:contentEnabled="false" app:contentFocusable="false" app:contentClickable="false" style="@style/vy"/>
+                    <com.tencent.mm.wallet_core.ui.formview.WalletFormView android:id="@+id/fa7" app:titleText="@string/fm6" app:contentHint="@string/fm5" style="@style/v3"/>
+                </LinearLayout>
+            </LinearLayout>
+            <ViewStub android:id="@+id/fa8" android:layout="@layout/b48" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ViewStub android:id="@+id/fa9" android:layout="@layout/b49" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <Button android:id="@+id/ay8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/s1" style="@style/vu"/>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="@dimen/kr" android:textColor="#1766be" android:gravity="center_horizontal" android:id="@+id/fa_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l5" android:text="@string/fxl" android:layout_alignParentBottom="true"/>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/azi"/>
+</RelativeLayout>

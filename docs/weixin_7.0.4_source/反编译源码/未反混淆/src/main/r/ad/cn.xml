@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.mm.plugin.scanner.ui.VcardContactUserHeaderPreference app:key="v_contact_info_header" app:layout="@layout/b18"/>
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference app:title="@string/f08" app:key="v_contact_info_photo_uri" app:layout="@layout/ae4"/>
+    <PreferenceCategory app:key="v_category_photo_uri"/>
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference app:title="@string/f00" app:key="v_contact_info_email" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/f07" app:key="v_contact_info_org" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/ezx" app:key="v_contact_info_agent" app:layout="@layout/ae4"/>
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference app:title="@string/f0c" app:key="c_contact_info_wx_id" app:layout="@layout/ae4"/>
+    <PreferenceCategory app:key="v_category_main"/>
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference app:title="@string/f02" app:key="v_contact_info_home_page" app:layout="@layout/ae4"/>
+    <PreferenceCategory app:key="v_category_home_page"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/ezy" app:key="v_contact_info_birthday" app:layout="@layout/ae4"/>
+    <PreferenceCategory app:key="v_category_birthday"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/f09" app:key="v_contact_info_remark" app:layout="@layout/ae4"/>
+    <PreferenceCategory app:key="v_category_remark"/>
+    <com.tencent.mm.plugin.scanner.ui.VcardContactLinkPreference app:title="@string/f04" app:key="v_contact_info_logo" app:layout="@layout/ae4"/>
+    <PreferenceCategory app:key="v_category_logo"/>
+    <Preference app:title="@string/ezt" app:key="add_vcard_contact" app:layout="@layout/ax"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

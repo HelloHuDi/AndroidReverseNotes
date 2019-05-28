@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/ra" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/m5" android:id="@+id/rb" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/lo" android:layout_marginRight="@dimen/l5"/>
+        <TextView android:textSize="@dimen/nd" android:textStyle="bold" android:id="@+id/rc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/lo" android:layout_marginRight="@dimen/l5" android:layout_below="@+id/rb"/>
+        <TextView android:textSize="@dimen/nd" android:textColor="@color/t7" android:id="@+id/rd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/lo" android:layout_marginRight="@dimen/l5" android:text="@string/jq" android:layout_toRightOf="@+id/rc" android:layout_below="@+id/rb"/>
+        <com.tencent.p177mm.p612ui.base.MMFormVerifyCodeInputView android:id="@+id/re" android:focusableInTouchMode="false" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/lo" android:layout_marginRight="@dimen/l5" android:layout_below="@+id/rc" app:form_layout="@layout/adu" app:form_title="@string/ju" app:form_hint="@string/jr" app:form_btn_title="@string/jn" style="@style/ll"/>
+        <Button android:id="@+id/r7" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/l5" android:layout_marginRight="@dimen/l5" android:layout_marginBottom="@dimen/l5" android:text="@string/jm" android:layout_below="@+id/re" style="@style/ni"/>
+        <com.tenpay.android.wechat.MyKeyboardWindow android:id="@+id/rf" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

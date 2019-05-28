@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/b5j" android:scrollX="0dp" android:scrollY="0dp" android:background="@color/n9" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/nc" android:paddingBottom="@dimen/m4" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.ui.base.MaxListView android:id="@+id/a46" android:focusable="false" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@color/a3p" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="1px" android:overScrollMode="never"/>
+            <include android:id="@+id/bkg" android:visibility="gone" layout="@layout/wj"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

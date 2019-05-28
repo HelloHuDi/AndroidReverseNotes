@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/as" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.collect.ui.CollectPullDownView android:id="@+id/axu" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ListView android:id="@+id/axv" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/uv" android:cacheColorHint="#00000000" android:divider="@color/as" android:dividerHeight="@dimen/lo" android:headerDividersEnabled="false" android:footerDividersEnabled="true" android:overScrollMode="never"/>
+        <LinearLayout android:gravity="center_horizontal" android:id="@+id/axw" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="14dp" android:textColor="@color/w0" android:id="@+id/axx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/arf"/>
+        </LinearLayout>
+    </com.tencent.mm.plugin.collect.ui.CollectPullDownView>
+</LinearLayout>

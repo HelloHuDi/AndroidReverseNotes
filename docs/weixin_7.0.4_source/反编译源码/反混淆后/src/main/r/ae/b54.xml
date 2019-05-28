@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.wallet_core.p650ui.CustomerScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/fcz" android:background="@color/a4t" android:fitsSystemWindows="true" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:overScrollMode="never">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:ellipsize="end" android:gravity="left" android:id="@+id/a2f" android:background="#1a000000" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/m4" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+        <include android:id="@+id/fd0" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/b53"/>
+    </LinearLayout>
+</com.tencent.p177mm.wallet_core.p650ui.CustomerScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/lo">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@+id/bsy" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/l9"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="12dp" android:textColor="#ff818181" android:id="@+id/bsz" android:paddingTop="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bui" style="@style/l9"/>
+            <TextView android:textSize="12dp" android:textColor="#ff586b95" android:id="@+id/bt0" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="10dp" android:paddingBottom="5dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bup" style="@style/l9"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <Button android:id="@+id/bt1" android:layout_width="70dp" android:text="@string/c10" style="@style/nq"/>
+        <Button android:id="@+id/bt2" android:layout_width="70dp" android:text="@string/c12" style="@style/nq"/>
+        <TextView android:id="@+id/bt3" android:background="@drawable/aok" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25dp"/>
+    </LinearLayout>
+</LinearLayout>

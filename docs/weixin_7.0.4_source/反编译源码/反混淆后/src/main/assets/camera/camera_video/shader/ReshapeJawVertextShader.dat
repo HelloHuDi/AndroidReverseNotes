@@ -1,0 +1,62 @@
+//uniform highp mat4 projection;
+//uniform highp mat4 faceFrame;
+//uniform highp mat4 stableToImage;
+uniform highp vec3 jawCenterOfGravity;
+uniform highp vec2 jawSize;
+uniform highp vec3 lipsCenter;
+uniform highp vec2 lipsPlainSize;
+uniform highp float faceJaw;
+attribute highp vec4 position;
+//attribute highp float jawWeight;
+//attribute highp float faceIndex;
+//attribute highp float depthValue;
+varying highp vec2 textureCoordinate;
+uniform vec3 angles; // angles.x: pitch, angles.y: yaw, angles.z: roll
+uniform vec2 size;
+
+uniform sampler2D inputImageTexture;
+
+highp float getElipseMask2(in highp vec2 sigmaScaling, in highp vec2 point,
+    in highp vec2 center, in highp vec2 boundingSize) {
+    highp vec2 sigmas = boundingSize / sigmaScaling;
+    highp vec2 lengths = (point - center) / sigmas;
+    highp float mask = exp(-dot(lengths, lengths));
+    return smoothstep(0.2, 0.8, mask);
+}
+float getElipseMask(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize) {
+    // un-normalization
+    boundingSize = boundingSize * size;
+    point = point * size;
+    center = center * size;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 translate = (point - center);
+    // rotate and scale
+    vec2 v = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) * sigmaScaling;
+
+    float d2 = sqrt(dot(v / boundingSize, v / boundingSize));
+    float a1 = 0.5;
+    float a2 = 1.2;
+
+    return 1.0 - smoothstep(a1, a2, d2);
+}
+highp float getLipsMask() {
+    const highp vec2 sigmaScaling = vec2(1.4, 1.0);
+    return getElipseMask(sigmaScaling, position.xy, lipsCenter.xy, lipsPlainSize);
+}
+highp float getJawMask() {
+    const highp vec2 sigmaScaling = vec2(1.2, 1.1);
+    return getElipseMask(sigmaScaling, position.xy, jawCenterOfGravity.xy, jawSize);
+}
+void main() {
+    highp float lipsMask = getLipsMask();
+    highp float jawMask = getJawMask();
+    const highp vec3 kLiftingFactors = vec3(1.1, 1.1, 1.1);
+    highp vec3 displacedPoint = jawCenterOfGravity + kLiftingFactors * (position.xyz - jawCenterOfGravity);
+    displacedPoint = mix(position.xyz, displacedPoint, jawMask * (1.0 - 0.9 * lipsMask));
+    highp vec2 originalPosition = position.xy;
+    highp vec2 displacedPosition = originalPosition + faceJaw * (displacedPoint.xy - originalPosition);
+    textureCoordinate = displacedPosition.xy;
+    gl_Position = vec4(originalPosition.x*2.0-1.0, originalPosition.y*2.0-1.0, 0.0, 1.0);
+}

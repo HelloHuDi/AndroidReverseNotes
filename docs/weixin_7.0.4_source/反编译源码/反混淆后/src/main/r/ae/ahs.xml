@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <Button android:textSize="@dimen/m5" android:textColor="@color/im" android:id="@+id/axh" android:background="@drawable/b9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/f0" android:minHeight="48dp" android:text="@string/abn" android:layout_alignParentLeft="true"/>
+        <Button android:textSize="@dimen/m5" android:textColor="@color/hi" android:id="@+id/b7o" android:background="@drawable/b9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/f0" android:minHeight="48dp" android:text="@string/abo" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <ImageView android:layout_gravity="bottom" style="@style/h7"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/de7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/w4" android:gravity="center_vertical" android:id="@+id/br4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uv" android:minHeight="@dimen/uu"/>
+        <ImageView android:layout_gravity="bottom" android:id="@+id/p3" style="@style/h7"/>
+    </LinearLayout>
+    <ListView android:id="@+id/de8" android:background="@color/a3p" android:layout_height="wrap_content" style="@style/mf"/>
+</LinearLayout>

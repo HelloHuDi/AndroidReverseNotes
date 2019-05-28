@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Askotarikoak</string>
+    <string name="c">Joan gora</string>
+    <string name="abc_action_menu_overflow_description">Aukera gehiago</string>
+    <string name="d">Eginda</string>
+    <string name="e">Ikusi guztiak</string>
+    <string name="f">Aukeratu aplikazio bat</string>
+    <string name="g">DESAKTIBATUTA</string>
+    <string name="h">AKTIBATUTA</string>
+    <string name="i">Bilatu…</string>
+    <string name="j">Garbitu kontsulta</string>
+    <string name="l">Bilatu</string>
+    <string name="m">Bidali kontsulta</string>
+    <string name="n">Ahozko bilaketa</string>
+    <string name="q">Tolestu</string>
+    <string name="common_google_play_services_enable_button">Gaitu</string>
+    <string name="common_google_play_services_enable_text">%1$s aplikazioak ez du funtzionatuko Google Play zerbitzuak gaitzen ez badituzu.</string>
+    <string name="common_google_play_services_enable_title">Gaitu Google Play zerbitzuak</string>
+    <string name="common_google_play_services_install_button">Instalatu</string>
+    <string name="common_google_play_services_install_text">%1$s ez da exekutatuko Google Play zerbitzurik gabe, baina ez dituzu gailuan.</string>
+    <string name="common_google_play_services_install_title">Lortu Google Play zerbitzuak</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play zerbitzuen erabilgarritasuna</string>
+    <string name="common_google_play_services_notification_ticker">Google Play zerbitzuen errorea</string>
+    <string name="common_google_play_services_unknown_issue">%1$s aplikazioak arazoak ditu Google Play zerbitzuekin. Saiatu berriro.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s aplikazioa ezin da erabili Google Play zerbitzurik gabe, eta zure gailua ez da zerbitzuokin bateragarria.</string>
+    <string name="common_google_play_services_update_button">Eguneratu</string>
+    <string name="common_google_play_services_update_text">%1$s ez da exekutatuko Google Play zerbitzuak eguneratzen ez badituzu.</string>
+    <string name="common_google_play_services_update_title">Eguneratu Google Play zerbitzuak</string>
+    <string name="common_google_play_services_updating_text">%1$s ez da exekutatuko Google Play zerbitzurik gabe; une honetan eguneratzen ari dira zerbitzuok.</string>
+    <string name="common_google_play_services_wear_update_text">Google Play zerbitzuen bertsio berria behar da. Berehala eguneratuko da automatikoki.</string>
+    <string name="common_open_on_phone">Ireki telefonoan</string>
+    <string name="common_signin_button_text">Hasi saioa</string>
+    <string name="common_signin_button_text_long">Hasi saioa Google-n</string>
+    <string name="r">Askotarikoak</string>
+    <string name="b">Joan orri nagusira</string>
+    <string name="k">Bilaketa-kontsulta</string>
+    <string name="o">Partekatu hauekin</string>
+    <string name="p">Partekatu %s aplikazioarekin</string>
+    <string name="s">Bilatu</string>
+    <string name="t">999+</string>
+</resources>

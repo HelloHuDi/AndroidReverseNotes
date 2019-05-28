@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <CheckBoxPreference app:summary="@string/fj" app:title="@string/fi" app:key="allow_by_identity" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/dv0" app:key="room_transfer_room_ower" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.chatroom.ui.preference.RoomManagerPreference app:title="@string/dt2" app:key="room_manager" app:layout="@layout/aoz"/>
+</PreferenceScreen>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingTop="0dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentTop="true" style="@style/v5">
+        <TextView android:textColor="@color/rb" android:id="@+id/f55" android:layout_marginBottom="@dimen/ds" android:text="@string/fqb" style="@style/vh"/>
+        <LinearLayout style="@style/vx">
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:gravity="right|center_vertical|center_horizontal|center" android:id="@+id/f7y" android:clickable="false" app:titleText="@string/fqe" app:contentHint="@string/fqf" app:contentTextColor="@color/s0" app:contentFocusable="false" style="@style/q7"/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/dm0" android:minHeight="45dp" app:titleText="@string/fq9" app:contentHint="@string/fqd" style="@style/vo"/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/f94" app:titleText="@string/fcf" app:contentHint="@string/fce" style="@style/gq"/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/f95" app:titleText="@string/fc_" app:contentHint="@string/fc9" style="@style/gq"/>
+        </LinearLayout>
+        <Button android:id="@+id/ay8" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="@string/s1" style="@style/vu"/>
+        <LinearLayout android:orientation="horizontal" android:layout_marginTop="8dp" android:layout_marginBottom="38dp" style="@style/mb">
+            <CheckBox android:textSize="@dimen/kr" android:textColor="@color/h4" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/f9i" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nz" android:checked="true" android:minHeight="22dp" android:text="@string/fcv" style="@style/nt"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/a8k" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/fgc" android:paddingRight="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0dp" android:text="@string/fcu" android:singleLine="true"/>
+        </LinearLayout>
+        <TextView android:layout_gravity="bottom" android:id="@+id/dm6" android:paddingTop="5dp" android:layout_height="match_parent" android:layout_margin="0dp" style="@style/w2"/>
+    </LinearLayout>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/azi"/>
+</RelativeLayout>

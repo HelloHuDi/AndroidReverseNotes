@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/azs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/chl" android:background="@drawable/qh" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.p177mm.pluginsdk.p597ui.tools.VideoPlayerSeekBar android:id="@+id/azt" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:onClick="onClick"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="60dp" style="@style/lp">
+    <RelativeLayout android:gravity="center_vertical" android:id="@+id/nc" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="60dp">
+        <ImageView android:id="@+id/bi9" android:paddingRight="@dimen/m4" android:layout_width="@dimen/a9s" android:layout_height="@dimen/a9s" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/dcc" android:paddingLeft="@dimen/m4" android:layout_width="wrap_content" android:layout_height="@dimen/a9s" android:src="@a/drag_sort_icon" android:maxHeight="@dimen/a9s" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <com.tencent.mm.ui.widget.MMSwitchBtn android:id="@+id/dcd" android:visibility="gone" android:layout_width="@dimen/nr" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/dcc"/>
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/bi8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/dcd" android:layout_toRightOf="@+id/bi9" android:layout_centerVertical="true" style="@style/lf"/>
+    </RelativeLayout>
+</LinearLayout>

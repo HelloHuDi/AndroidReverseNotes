@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="26dp" android:textStyle="bold" android:textColor="@color/h4" android:id="@+id/f_e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="@string/fu1"/>
+    <TextView android:textSize="17dp" android:textColor="@color/h4" android:gravity="center" android:id="@+id/f_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/fty"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:minHeight="56dp">
+        <TextView android:textSize="17dp" android:textColor="@color/h4" android:id="@+id/f_g" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/ftz" android:layout_weight="1"/>
+        <com.tencent.p177mm.p612ui.widget.MMSwitchBtn android:id="@+id/f_h" android:layout_width="@dimen/nr" android:layout_height="@dimen/no"/>
+    </LinearLayout>
+    <View android:background="@color/h4" android:layout_width="match_parent" android:layout_height="1px" android:alpha="0.1"/>
+    <TextView android:textSize="14dp" android:textColor="#8c8c8c" android:id="@+id/f_i" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:layout_marginBottom="16dp" android:text="@string/fu0"/>
+</LinearLayout>

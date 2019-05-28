@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <Button android:id="@+id/c39" android:layout_width="60dp" android:layout_height="30dp" android:text="@string/c6f" style="@style/jw"/>
+    <com.tencent.mm.plugin.game.widget.TextProgressBar android:id="@+id/c3_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:max="100" style="@style/jv"/>
+</merge>

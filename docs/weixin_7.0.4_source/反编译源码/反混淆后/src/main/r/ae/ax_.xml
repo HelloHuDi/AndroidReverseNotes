@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/l2" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="0px" android:layout_height="0px"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/byb" android:paddingLeft="1dp" android:layout_width="match_parent" android:layout_height="48dp" android:layout_centerVertical="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/jb" android:layout_width="16dp" android:layout_height="16dp" android:layout_marginRight="8.7dp" android:src="@c1318a/sos_search_icon" android:layout_weight="0"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/r8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/byc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5dp" android:maxWidth="100dp" android:maxLines="1" android:layout_weight="0"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/r8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/byd" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5dp" android:maxWidth="100dp" android:maxLines="1" android:layout_weight="0"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/r8" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/bye" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginRight="5dp" android:maxWidth="100dp" android:maxLines="1" android:layout_weight="0"/>
+        <EditText android:textSize="16sp" android:id="@+id/l3" android:background="@null" android:paddingRight="@dimen/m2" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/te" android:singleLine="true" android:drawableLeft="@c1318a/websearch_icon_baike" android:drawablePadding="8dp" android:layout_weight="1" android:inputType="text" android:imeOptions="actionSearch"/>
+        <LinearLayout android:id="@+id/eo5" android:paddingLeft="13dp" android:paddingRight="13dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/c05" android:layout_width="16dp" android:layout_height="16dp" android:src="@c1318a/websearch_voice" android:layout_weight="0"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/eo6" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <View android:background="@color/a5r" android:layout_width="1px" android:layout_height="19dp"/>
+            <TextView android:textSize="@dimen/dz" android:textColor="@color/hi" android:id="@+id/eo7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:text="@string/or"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageButton android:id="@+id/kz" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aur" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

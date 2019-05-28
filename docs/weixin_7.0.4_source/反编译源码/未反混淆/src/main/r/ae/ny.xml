@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:background="@drawable/ay1" android:layout_width="match_parent" android:layout_height="@dimen/m3" android:minHeight="@dimen/m3">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/au5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:text="@string/ao8" android:maxLines="2" android:layout_weight="1"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/k5" android:id="@+id/au6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:text="@string/ao7"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/au7" android:padding="8dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/list_deletetext_icon"/>
+</LinearLayout>

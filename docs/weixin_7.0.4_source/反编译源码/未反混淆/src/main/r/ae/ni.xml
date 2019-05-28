@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/g8">
+    <View android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/g_">
+        <TextView android:layout_gravity="right" android:id="@+id/od" android:visibility="gone" style="@style/gd"/>
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/at7" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/chatting_status_tick"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/asb" android:visibility="gone" style="@style/gh"/>
+            <FrameLayout android:id="@+id/ap9" android:background="@drawable/hk" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/aqy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/ec"/>
+                <ImageView android:id="@+id/aq_" android:background="@drawable/hk" android:layout_width="0dp" android:layout_height="0dp"/>
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/arz" android:background="@drawable/hk" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ProgressBar android:id="@+id/at6" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/zq"/>
+                    <TextView android:textColor="#ffffff" android:id="@+id/atd" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:ellipsize="end" android:id="@+id/aq0" android:layout_marginLeft="0dp" android:text="{source}" android:singleLine="true" style="@style/g0"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/ll"/>
+</LinearLayout>

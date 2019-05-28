@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/e6u" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+        <TextView android:textSize="@dimen/a3e" android:textColor="@color/sp" android:id="@+id/e6v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b7q" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/a3e" android:textColor="@color/sp" android:id="@+id/e6w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b7f" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/e6x" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="16dp" android:layout_marginRight="16dp">
+        <ImageView android:id="@+id/e6y" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/atn" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <ImageView android:id="@+id/e6z" android:layout_width="16dp" android:layout_height="16dp" android:src="@drawable/atm" android:scaleType="fitXY" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@dimen/a3i" android:textColor="#323232" android:id="@+id/e70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12dp" android:layout_toLeftOf="@+id/e6z" android:layout_toRightOf="@+id/e6y" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/e71" android:background="@drawable/jc" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/xb" android:layout_width="@dimen/a3h" android:layout_height="@dimen/a3h" android:layout_marginLeft="@dimen/a3j" android:layout_marginTop="12dp" android:layout_marginRight="12dp" android:src="@drawable/asj" android:layout_alignParentLeft="true"/>
+        <Button android:textSize="13sp" android:textColor="@color/ii" android:id="@+id/e72" android:background="@drawable/ls" android:layout_width="60dp" android:layout_height="30dp" android:layout_marginLeft="5dp" android:layout_marginTop="22dp" android:layout_marginRight="16dp" android:text="下载" android:layout_alignParentRight="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/e73" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a3j" android:layout_marginBottom="12dp" android:layout_toLeftOf="@+id/e72" android:layout_toRightOf="@+id/xb">
+            <TextView android:textSize="@dimen/a3i" android:textColor="@color/sp" android:id="@+id/pc" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/e74" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+            <TextView android:textSize="14sp" android:textColor="@color/a1e" android:id="@+id/e75" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp"/>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

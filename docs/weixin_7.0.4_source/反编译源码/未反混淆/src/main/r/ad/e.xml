@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceTitleCategory app:title="@string/d5"/>
+    <com.tencent.mm.plugin.subapp.ui.openapi.AppPreference app:btn_visibility="8" app:can_delete="true" app:empty_wording="@string/d7" app:key="addapp_added" app:layout="@layout/e6"/>
+    <PreferenceCategory app:key="addapp_cat2"/>
+    <PreferenceTitleCategory app:title="@string/d6"/>
+    <com.tencent.mm.plugin.subapp.ui.openapi.AppPreference app:btn_visibility="8" app:empty_wording="@string/d8" app:key="addapp_available" app:layout="@layout/e6"/>
+    <PreferenceCategory app:key="addapp_cat3"/>
+</PreferenceScreen>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/m5" android:background="@color/a0_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <View android:id="@+id/egy" android:layout_width="match_parent" android:layout_height="30dp"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/egz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp">
+        <TextView android:textSize="20dp" android:textColor="@color/a0b" android:gravity="top" android:layout_gravity="top" android:id="@+id/eh0" android:visibility="gone" android:layout_width="73dp" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:text="Landscape" android:shadowColor="#000000" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.5"/>
+        <TextView android:textSize="16dp" android:textColor="@color/a0b" android:gravity="top" android:layout_gravity="top" android:id="@+id/eh1" android:layout_width="73dp" android:layout_height="wrap_content" android:layout_marginLeft="13dp" android:text="Landscape" android:shadowColor="#000000" android:shadowDx="1.2" android:shadowDy="1.2" android:shadowRadius="1.5"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3dp">
+            <ImageView android:id="@+id/eh2" android:layout_width="73dp" android:layout_height="73dp" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/eh3" android:layout_width="73dp" android:layout_height="73dp" android:layout_marginLeft="5dp" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/eh4" android:layout_width="73dp" android:layout_height="73dp" android:layout_marginLeft="5dp" android:scaleType="fitXY"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

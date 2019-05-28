@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:id="@+id/asw" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/asx" android:layout_width="100dp" android:layout_height="@dimen/ee" android:scaleType="centerCrop"/>
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/asy" android:layout_width="@dimen/ee" android:layout_height="@dimen/ee" android:layout_marginRight="@dimen/nc" android:scaleType="centerCrop"/>
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/asz" android:layout_width="@dimen/ee" android:layout_height="@dimen/ee" android:layout_marginRight="@dimen/nc" android:scaleType="centerCrop"/>
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/at0" android:layout_width="@dimen/ee" android:layout_height="@dimen/ee" android:layout_marginRight="@dimen/nc" android:scaleType="centerCrop"/>
+    <RelativeLayout android:layout_width="@dimen/ee" android:layout_height="@dimen/ee">
+        <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/at1" android:layout_width="@dimen/ee" android:layout_height="@dimen/ee" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/at2" android:background="@drawable/hl" android:visibility="gone" android:layout_width="@dimen/ee" android:layout_height="22dp" android:scaleType="centerCrop" android:layout_alignParentBottom="true"/>
+        <TextView android:textSize="@dimen/m5" android:typeface="monospace" android:textColor="@color/a69" android:id="@+id/at3" android:paddingRight="5dp" android:paddingBottom="5dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+</LinearLayout>

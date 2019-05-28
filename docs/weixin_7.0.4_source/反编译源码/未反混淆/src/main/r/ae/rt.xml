@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:gravity="center" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginTop="40dp" android:src="@a/fix_tools_recover"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/b7q" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp">
+            <TextView android:textSize="18dp" android:textColor="@color/h4" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginRight="25dp" android:text="@string/b48"/>
+            <Button android:id="@+id/b7r" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fy" android:layout_marginTop="32dp" android:layout_marginRight="@dimen/fy" android:text="@string/b49" style="@style/ni"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/b7s" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="32dp">
+            <TextView android:textSize="18dp" android:textColor="@color/h4" android:gravity="center" android:id="@+id/b7t" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="25dp" android:layout_marginRight="25dp"/>
+            <ProgressBar android:id="@+id/oa" android:paddingLeft="40dp" android:paddingRight="40dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:progress="0" style="@style/n3"/>
+            <Button android:id="@+id/axh" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fy" android:layout_marginTop="32dp" android:layout_marginRight="@dimen/fy" android:text="@string/b4a" style="@style/nl"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

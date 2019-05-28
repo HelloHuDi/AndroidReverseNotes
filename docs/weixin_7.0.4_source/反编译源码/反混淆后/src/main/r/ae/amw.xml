@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <LinearLayout android:id="@+id/dv4" android:minHeight="77dp" style="@style/q3">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/dv5" android:visibility="gone" android:layout_width="53dp" android:layout_height="54dp" android:layout_marginLeft="8dp"/>
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/dv6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" style="@style/a0h"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:minHeight="77dp" android:layout_weight="1">
+            <TextView android:textSize="16dp" android:textStyle="bold" android:textColor="@color/le" android:ellipsize="end" android:id="@+id/dum" android:paddingRight="18dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+            <TextView android:textSize="14dp" android:id="@+id/dv7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/la"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

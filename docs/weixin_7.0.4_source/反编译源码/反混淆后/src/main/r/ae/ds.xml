@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/fp" android:textColor="#888888" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/we" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/jb"/>
+    <com.tencent.p177mm.plugin.appbrand.widget.sms.EditVerifyCodeView android:id="@+id/wf" android:layout_width="match_parent" android:layout_height="@dimen/a_y" android:layout_marginTop="20dp"/>
+    <TextView android:textSize="@dimen/fp" android:textColor="#888888" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/wg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:text="@string/j2"/>
+</LinearLayout>

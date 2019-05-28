@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="left" android:id="@+id/btd" android:background="#fff3f3f3" style="@style/pt">
+    <TextView android:textColor="@color/a69" android:id="@+id/bte" android:background="@drawable/bhx" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buw" style="@style/kt"/>
+</RelativeLayout>

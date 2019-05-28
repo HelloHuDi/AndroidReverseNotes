@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/emoji_bubble" android:padding="@dimen/lo" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <com.tencent.mm.ui.base.HorizontalListView android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/an8" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@drawable/k7" android:cacheColorHint="@color/a3p"/>
+</LinearLayout>

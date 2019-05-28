@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/l_" android:paddingLeft="@dimen/lo" android:paddingRight="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+    <RelativeLayout android:gravity="bottom" android:orientation="horizontal" android:background="@color/h4" android:layout_height="wrap_content" android:minHeight="50dp" style="@style/lg">
+        <ImageButton android:id="@+id/d0w" android:background="@null" android:layout_width="@dimen/m2" android:layout_height="@dimen/m2" android:src="@c1318a/sight_icon_emoji" android:minWidth="0dp" android:layout_centerVertical="true" android:contentDescription="@string/aiu" style="@style/ng"/>
+        <com.tencent.p177mm.plugin.sns.p520ui.SightLocationWidget android:id="@+id/eld" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="14dp" android:layout_toRightOf="@+id/d0w"/>
+        <com.tencent.p177mm.plugin.sns.p520ui.SightRangeWidget android:id="@+id/d0x" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.plugin.fav.p410ui.widget.FavDetailScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bsd" android:background="@color/oo" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ib">
+        <RelativeLayout android:layout_gravity="center" android:id="@+id/bsf" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.p177mm.pluginsdk.p597ui.tools.VideoPlayerTextureView android:id="@+id/wh" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+            <ImageView android:id="@+id/aex" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+            <ViewStub android:id="@+id/as2" android:layout="@layout/at9" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <ImageView android:id="@+id/l4" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+            <com.tencent.p177mm.p612ui.widget.MMPinProgressBtn android:id="@+id/af0" android:visibility="gone" android:layout_width="@dimen/a7a" android:layout_height="@dimen/a7a" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/y3"/>
+    </LinearLayout>
+</com.tencent.p177mm.plugin.fav.p410ui.widget.FavDetailScrollView>

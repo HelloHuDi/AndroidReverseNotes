@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bxq" android:background="@color/x" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="onClickBg">
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/s0" android:gravity="center_horizontal" android:id="@+id/j0" android:background="#f7ffffff" android:paddingTop="@dimen/la" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ListView android:id="@+id/bxr" android:background="#f7ffffff" android:focusable="false" android:visibility="gone" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:transcriptMode="disabled" style="@style/mf"/>
+    <RelativeLayout android:id="@+id/bxs" android:background="#f7ffffff" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/bxt" android:paddingTop="20dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+        <TextView android:textSize="14dp" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/cn5"/>
+    </LinearLayout>
+    <include layout="@layout/a10"/>
+</FrameLayout>

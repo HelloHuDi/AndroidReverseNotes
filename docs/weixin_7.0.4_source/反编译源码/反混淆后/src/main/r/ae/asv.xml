@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16dp" android:textColor="#ffffffff" android:gravity="center" android:id="@+id/edi" android:background="@drawable/a80" android:paddingLeft="8dp" android:paddingTop="12dp" android:paddingRight="8dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/edj" android:background="@drawable/a80" android:layout_width="130dp" android:layout_height="130dp" android:layout_centerInParent="true">
+        <ImageView android:id="@+id/edk" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="21dp" android:scaleType="fitCenter"/>
+        <TextView android:textSize="16dp" android:textColor="#ffffff" android:id="@+id/edl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp"/>
+        <com.tencent.xweb.extension.video.VideoDotPercentIndicator android:id="@+id/edm" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp"/>
+    </LinearLayout>
+</RelativeLayout>

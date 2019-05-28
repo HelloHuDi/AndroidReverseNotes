@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_below="@+id/ag" style="@style/g8">
+    <View android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/g_">
+        <TextView android:layout_gravity="right" android:id="@+id/od" android:visibility="gone" style="@style/gd"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/asb" style="@style/gh"/>
+            <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/at6" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+            <ImageView android:layout_gravity="center_vertical" android:id="@+id/at7" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/chatting_status_tick"/>
+            <com.tencent.p177mm.p612ui.widget.MMTextView android:id="@+id/oe" android:background="@drawable/j4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/x7" android:minHeight="@dimen/ej" style="@style/gj"/>
+        </LinearLayout>
+    </LinearLayout>
+    <include layout="@layout/ll"/>
+</LinearLayout>

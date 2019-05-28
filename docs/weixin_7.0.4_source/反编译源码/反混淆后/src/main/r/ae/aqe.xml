@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/zd" android:background="@color/a69" style="@style/pt">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/l_" android:background="@drawable/b78" android:paddingLeft="@dimen/dy" android:paddingTop="@dimen/nc" android:paddingRight="@dimen/dy" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="2dp">
+        <ImageView android:id="@+id/b97" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/searchbar_icon"/>
+        <com.tencent.p177mm.p612ui.widget.MMEditText android:textSize="@dimen/m5" android:textColor="@color/w4" android:textColorHint="@color/rz" android:gravity="center_vertical" android:id="@+id/b98" android:background="@null" android:layout_width="0dp" android:layout_height="match_parent" android:layout_marginLeft="@dimen/do" android:minHeight="@dimen/ky" android:hint="@string/te" android:singleLine="true" android:layout_weight="1"/>
+    </LinearLayout>
+    <GridView android:id="@+id/e7t" android:background="@color/vs" android:paddingLeft="@dimen/ld" android:paddingTop="@dimen/lo" android:paddingRight="@dimen/ld" android:paddingBottom="@dimen/lo" android:scrollbars="vertical" android:numColumns="5" style="@style/mf"/>
+</LinearLayout>

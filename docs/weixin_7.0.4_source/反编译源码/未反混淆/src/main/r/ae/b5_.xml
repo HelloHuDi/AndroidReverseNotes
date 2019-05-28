@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:background="@color/a69" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/ai9" android:padding="14dp" android:visibility="gone" android:persistentDrawingCache="all" android:alwaysDrawnWithCache="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:gravity="center" android:layout_width="250dp" android:layout_height="250dp">
+            <ImageView android:id="@+id/ai_" android:layout_width="250dp" android:layout_height="250dp" android:scaleType="fitCenter" android:layout_centerInParent="true" android:contentDescription="@string/fw5"/>
+            <ImageView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/wallet_offline_icon" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/aic" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:visibility="visible" android:persistentDrawingCache="all" android:alwaysDrawnWithCache="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="53dp" android:layout_marginTop="53dp" android:layout_marginRight="53dp" android:layout_marginBottom="53dp">
+        <com.tencent.mm.ui.base.MMVerticalTextView android:id="@+id/aie" android:tag="1" android:focusable="true" android:clickable="true" android:layout_width="24dp" android:layout_height="match_parent" android:layout_marginRight="@dimen/le" app:text="" app:textColor="@color/h4" app:textSize="@dimen/dt" app:direction="top_to_bottom"/>
+        <ImageView android:id="@+id/aif" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:contentDescription="@string/fv4"/>
+    </LinearLayout>
+</LinearLayout>

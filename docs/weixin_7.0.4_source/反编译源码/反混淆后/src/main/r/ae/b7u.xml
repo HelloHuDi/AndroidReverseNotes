@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@drawable/a76" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:textSize="14sp" android:textColor="#454545" android:id="@+id/fli" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g14"/>
+    <ImageView android:background="#26000000" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <TextView android:textSize="14sp" android:textColor="#454545" android:id="@+id/flj" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g12"/>
+    <ImageView android:background="#26000000" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <TextView android:textSize="14sp" android:textColor="#454545" android:id="@+id/flk" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g13"/>
+    <ImageView android:background="#26000000" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <TextView android:textSize="14sp" android:textColor="#454545" android:id="@+id/fll" android:paddingLeft="16dp" android:paddingTop="12dp" android:paddingRight="16dp" android:paddingBottom="12dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g18"/>
+</LinearLayout>

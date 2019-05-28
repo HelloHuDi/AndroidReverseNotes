@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/da2" style="@style/my">
+    <com.tencent.p177mm.p612ui.widget.listview.PullDownListView android:id="@android:id/list" android:cacheColorHint="#00000000" android:layout_alignParentTop="true" android:overScrollMode="never" style="@style/mf"/>
+    <include layout="@layout/aza"/>
+    <RelativeLayout android:id="@+id/da3" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/da4" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <ImageView android:layout_gravity="left|center_vertical|center_horizontal|center|start" android:id="@+id/da5" android:layout_marginTop="136dp" android:layout_marginRight="24dp" android:layout_marginBottom="@dimen/gg" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" style="@style/uy"/>
+    </RelativeLayout>
+</RelativeLayout>

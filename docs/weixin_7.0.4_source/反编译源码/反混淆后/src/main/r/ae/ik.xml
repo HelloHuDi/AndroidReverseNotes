@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/acw" android:background="@color/j5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/acq" android:background="@drawable/gh" android:padding="0dp" android:layout_width="335dp" android:layout_height="wrap_content" android:layout_marginTop="124dp" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@+id/acv" android:paddingLeft="15dp" android:paddingTop="15dp" android:paddingRight="15dp" android:paddingBottom="15dp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/az1" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+                <ImageView android:id="@+id/acr" android:layout_width="22.5dp" android:layout_height="22dp" android:layout_marginRight="9dp" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                <TextView android:textSize="14dp" android:id="@+id/acs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.6"/>
+            </LinearLayout>
+            <TextView android:textSize="24dp" android:textColor="#000000" android:gravity="center" android:layout_gravity="center" android:id="@+id/act" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="18dp" android:layout_marginRight="20dp"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/acx" android:layout_width="165dp" android:layout_height="110dp" android:layout_marginTop="30.5dp" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <Button android:textSize="15dp" android:textColor="#c09d64" android:layout_gravity="center" android:id="@+id/acu" android:background="@drawable/gf" android:padding="14.5dp" android:visibility="visible" android:layout_width="205dp" android:layout_height="wrap_content" android:layout_marginTop="54dp"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/acy" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="21dp" android:layout_marginBottom="28dp">
+                <TextView android:textSize="15dp" android:textColor="#c09d64" android:gravity="center" android:id="@+id/acz" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <ImageView android:gravity="center" android:id="@+id/ad0" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ayr"/>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/ad1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="53.5dp">
+                <TextView android:textSize="17dp" android:textColor="#c19e64" android:gravity="center" android:id="@+id/ad2" android:padding="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <ImageView android:gravity="center" android:id="@+id/ad3" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ayr"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

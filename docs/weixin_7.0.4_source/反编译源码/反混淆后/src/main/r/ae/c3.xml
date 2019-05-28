@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/ok" android:layout_width="64dp" android:layout_height="64dp" android:layout_marginTop="48dp" android:layout_marginBottom="24dp" android:scaleType="fitCenter"/>
+    <TextView android:textSize="@dimen/dx" android:textColor="@color/h4" android:gravity="center" android:id="@+id/ol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cu4"/>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/s0" android:gravity="center" android:id="@+id/q_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:layout_marginTop="12dp" android:layout_marginRight="24dp"/>
+    <Button android:textSize="@dimen/m5" android:gravity="center" android:id="@+id/qa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:text="进入首页" style="@style/p5"/>
+</LinearLayout>

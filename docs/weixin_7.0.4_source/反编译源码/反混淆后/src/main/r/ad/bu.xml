@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <Preference app:title="@string/ecn" app:key="settings_username" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.IconSwitchKeyValuePreference app:title="@string/e8g" app:key="settings_mobile" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.PluginTextPreference app:key="settings_about_vusertitle"/>
+    <com.tencent.p177mm.plugin.setting.p505ui.setting.SelfVuserPreference app:key="settings_about_vuserinfo"/>
+    <Preference app:title="@string/b25" app:key="settings_about_vuser_about" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/e7h" app:key="settings_independent_password" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.IconPreference app:title="@string/ecs" app:key="settings_voiceprint_title" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.IconPreference app:title="@string/e7a" app:key="settings_fingerprint_title" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.IconPreference app:title="@string/bks" app:key="settings_facedect_title" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/ec0" app:key="settings_trust_friend" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e87" app:key="settings_manage_login_device" app:layout="@layout/ae4"/>
+    <com.tencent.p177mm.p612ui.base.preference.IconPreference app:title="@string/e8w" app:key="settings_more_safe"/>
+    <PreferenceSmallCategory/>
+    <SummaryBelowPreference app:summary="@string/ea7" app:title="@string/ea6" app:key="settings_security_center"/>
+</PreferenceScreen>

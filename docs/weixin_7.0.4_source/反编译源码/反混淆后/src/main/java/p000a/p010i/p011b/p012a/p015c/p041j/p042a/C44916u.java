@@ -1,0 +1,90 @@
+package p000a.p010i.p011b.p012a.p015c.p041j.p042a;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import p000a.p010i.p011b.p012a.p015c.p018b.C25085b.C8063a;
+import p000a.p010i.p011b.p012a.p015c.p018b.C36964f;
+import p000a.p010i.p011b.p012a.p015c.p018b.C44879w;
+import p000a.p010i.p011b.p012a.p015c.p033e.C37009a.C0086q;
+import p000a.p010i.p011b.p012a.p015c.p033e.C37009a.C0088r;
+import p000a.p010i.p011b.p012a.p015c.p033e.C37009a.C25133aa.C25136a.C8152b;
+import p000a.p010i.p011b.p012a.p015c.p033e.C37009a.C31687ao;
+import p000a.p010i.p011b.p012a.p015c.p033e.C37009a.C37000c.C31689b;
+import p000a.p010i.p011b.p012a.p015c.p033e.C37009a.C37014ae.C36998b;
+
+/* renamed from: a.i.b.a.c.j.a.u */
+public final /* synthetic */ class C44916u {
+    public static final /* synthetic */ int[] BCe;
+    public static final /* synthetic */ int[] BCf;
+    public static final /* synthetic */ int[] BHA;
+    public static final /* synthetic */ int[] BHB;
+    public static final /* synthetic */ int[] BHy;
+    public static final /* synthetic */ int[] BHz;
+    public static final /* synthetic */ int[] eQZ;
+    public static final /* synthetic */ int[] pCY;
+    public static final /* synthetic */ int[] pEv;
+
+    static {
+        AppMethodBeat.m2504i(122298);
+        int[] iArr = new int[C0086q.values().length];
+        eQZ = iArr;
+        iArr[C0086q.DECLARATION.ordinal()] = 1;
+        eQZ[C0086q.FAKE_OVERRIDE.ordinal()] = 2;
+        eQZ[C0086q.DELEGATION.ordinal()] = 3;
+        eQZ[C0086q.SYNTHESIZED.ordinal()] = 4;
+        iArr = new int[C8063a.values().length];
+        pCY = iArr;
+        iArr[C8063a.DECLARATION.ordinal()] = 1;
+        pCY[C8063a.FAKE_OVERRIDE.ordinal()] = 2;
+        pCY[C8063a.DELEGATION.ordinal()] = 3;
+        pCY[C8063a.SYNTHESIZED.ordinal()] = 4;
+        iArr = new int[C0088r.values().length];
+        pEv = iArr;
+        iArr[C0088r.FINAL.ordinal()] = 1;
+        pEv[C0088r.OPEN.ordinal()] = 2;
+        pEv[C0088r.ABSTRACT.ordinal()] = 3;
+        pEv[C0088r.SEALED.ordinal()] = 4;
+        iArr = new int[C44879w.values().length];
+        BCe = iArr;
+        iArr[C44879w.FINAL.ordinal()] = 1;
+        BCe[C44879w.OPEN.ordinal()] = 2;
+        BCe[C44879w.ABSTRACT.ordinal()] = 3;
+        BCe[C44879w.SEALED.ordinal()] = 4;
+        iArr = new int[C31687ao.values().length];
+        BCf = iArr;
+        iArr[C31687ao.INTERNAL.ordinal()] = 1;
+        BCf[C31687ao.PRIVATE.ordinal()] = 2;
+        BCf[C31687ao.PRIVATE_TO_THIS.ordinal()] = 3;
+        BCf[C31687ao.PROTECTED.ordinal()] = 4;
+        BCf[C31687ao.PUBLIC.ordinal()] = 5;
+        BCf[C31687ao.LOCAL.ordinal()] = 6;
+        iArr = new int[C31689b.values().length];
+        BHy = iArr;
+        iArr[C31689b.CLASS.ordinal()] = 1;
+        BHy[C31689b.INTERFACE.ordinal()] = 2;
+        BHy[C31689b.ENUM_CLASS.ordinal()] = 3;
+        BHy[C31689b.ENUM_ENTRY.ordinal()] = 4;
+        BHy[C31689b.ANNOTATION_CLASS.ordinal()] = 5;
+        BHy[C31689b.OBJECT.ordinal()] = 6;
+        BHy[C31689b.COMPANION_OBJECT.ordinal()] = 7;
+        iArr = new int[C36964f.values().length];
+        BHz = iArr;
+        iArr[C36964f.CLASS.ordinal()] = 1;
+        BHz[C36964f.INTERFACE.ordinal()] = 2;
+        BHz[C36964f.ENUM_CLASS.ordinal()] = 3;
+        BHz[C36964f.ENUM_ENTRY.ordinal()] = 4;
+        BHz[C36964f.ANNOTATION_CLASS.ordinal()] = 5;
+        BHz[C36964f.OBJECT.ordinal()] = 6;
+        iArr = new int[C36998b.values().length];
+        BHA = iArr;
+        iArr[C36998b.IN.ordinal()] = 1;
+        BHA[C36998b.OUT.ordinal()] = 2;
+        BHA[C36998b.INV.ordinal()] = 3;
+        iArr = new int[C8152b.values().length];
+        BHB = iArr;
+        iArr[C8152b.IN.ordinal()] = 1;
+        BHB[C8152b.OUT.ordinal()] = 2;
+        BHB[C8152b.INV.ordinal()] = 3;
+        BHB[C8152b.STAR.ordinal()] = 4;
+        AppMethodBeat.m2505o(122298);
+    }
+}

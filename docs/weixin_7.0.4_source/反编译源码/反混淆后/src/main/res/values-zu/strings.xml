@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Okwahlukahlukene</string>
+    <string name="c">Zulazulela phezulu</string>
+    <string name="abc_action_menu_overflow_description">Izinketho eziningi</string>
+    <string name="d">Kwenziwe</string>
+    <string name="e">Buka konke</string>
+    <string name="f">Khetha uhlelo lokusebenza</string>
+    <string name="g">VALIWE</string>
+    <string name="h">VULIWE</string>
+    <string name="i">Iyasesha...</string>
+    <string name="j">Sula inkinga</string>
+    <string name="l">Sesha</string>
+    <string name="m">Hambisa umbuzo</string>
+    <string name="n">Ukusesha ngezwi</string>
+    <string name="q">Goqa</string>
+    <string name="common_google_play_services_enable_button">Nika amandla</string>
+    <string name="common_google_play_services_enable_text">I-%1$s ngeke isebenze ngaphandle kokuthi unike amandla amasevisi we-Google Play.</string>
+    <string name="common_google_play_services_enable_title">Nika amandla amasevisi we-Google Play</string>
+    <string name="common_google_play_services_install_button">Faka</string>
+    <string name="common_google_play_services_install_text">I-%1$s ngeke ize iqalise ngaphandle kwamasevisi we-Google Play, angekho kusukela kudivayisi yakho.</string>
+    <string name="common_google_play_services_install_title">Thola amasevisi we-Google Play</string>
+    <string name="common_google_play_services_notification_channel_name">Ukungatholakali kwamasevisi e-Google Play</string>
+    <string name="common_google_play_services_notification_ticker">Iphutha lamasevisi we-Google Play</string>
+    <string name="common_google_play_services_unknown_issue">%1$s inenkinga ngamasevisi e-Google Play. Sicela uzame futhi.</string>
+    <string name="common_google_play_services_unsupported_text">%1$s ngeke isebenze ngaphandle kwamasevisi e-Google Play, angasekelwa idivayisi yakho.</string>
+    <string name="common_google_play_services_update_button">Isibuyekezo</string>
+    <string name="common_google_play_services_update_text">I-%1$s ngeke ize iqalise ngaphandle kokuthi ubuyekeze i-Google Play.</string>
+    <string name="common_google_play_services_update_title">Buyekeza amasevisi we-Google Play</string>
+    <string name="common_google_play_services_updating_text">I-%1$s ngeke ize iqalise ngaphandle kwamasevisi we-Google Play, okwamanje abuyekezwayo.</string>
+    <string name="common_google_play_services_wear_update_text">Kudingeka inguqulo entsha yamasevisi we-Google Play. Izozibuyekeza ngokwayo maduze.</string>
+    <string name="common_open_on_phone">Vula kufoni</string>
+    <string name="common_signin_button_text">Ngena ngemvume</string>
+    <string name="common_signin_button_text_long">Ngena ngemvume nge-Google</string>
+    <string name="r">Okwahlukahlukene</string>
+    <string name="b">Zulazulela ekhaya</string>
+    <string name="k">Umbuzo wosesho</string>
+    <string name="o">Yabelana no-</string>
+    <string name="p">Yabelana ne-%s</string>
+    <string name="s">Sesha</string>
+    <string name="t">999+</string>
+</resources>

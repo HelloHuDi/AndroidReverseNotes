@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.ui.base.MaskLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/ani" android:focusable="false" android:clipChildren="false" style="@style/g4">
+    <com.tencent.mm.ui.chatting.view.AvatarImageView android:id="@+id/oc" android:focusable="false" style="@style/g3"/>
+    <ViewStub android:id="@+id/anj" android:layout="@layout/lk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="4dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+</com.tencent.mm.ui.base.MaskLayout>

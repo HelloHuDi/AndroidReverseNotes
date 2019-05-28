@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/g7" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/g7" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/dcq" android:layout_width="@dimen/a69" android:layout_height="@dimen/a69" android:layout_marginTop="2dp" android:src="@drawable/ad2" android:scaleType="centerCrop"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/dcr" android:paddingLeft="@dimen/gg" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/dcs" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/ahd"/>
+            <include android:id="@+id/dct" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" layout="@layout/ahd"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/dcu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g9" android:layout_marginBottom="@dimen/g9">
+        <ImageView android:layout_gravity="center_vertical" android:background="@color/h0" android:layout_width="40dp" android:layout_height="1px"/>
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="3dp" android:layout_height="3dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:src="@drawable/v_"/>
+        <ImageView android:layout_gravity="center_vertical" android:background="@color/h0" android:layout_width="40dp" android:layout_height="1px"/>
+    </LinearLayout>
+</LinearLayout>

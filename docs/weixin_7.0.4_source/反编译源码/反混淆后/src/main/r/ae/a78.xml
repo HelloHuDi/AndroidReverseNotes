@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/s3" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp">
+            <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginRight="30dp">
+                <TextView android:textSize="15dp" android:textColor="@color/w4" android:id="@+id/cgj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="36dp" android:text=""/>
+                <TextView android:textSize="15dp" android:textColor="@color/h4" android:id="@+id/cgk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text=""/>
+                <TextView android:textSize="13dp" android:textColor="@color/w0" android:id="@+id/cgl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:text=""/>
+                <TextView android:textSize="13dp" android:textColor="@color/t7" android:id="@+id/cgm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="36dp">
+                    <TextView android:textSize="15dp" android:textColor="@color/w4" android:gravity="right" android:id="@+id/cgn" android:layout_width="0dp" android:layout_height="wrap_content" android:text="" android:layout_weight="1"/>
+                    <ImageView android:id="@+id/cgo" android:layout_width="36dp" android:layout_height="36dp" android:layout_marginLeft="12dp" android:src="@drawable/ad2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <FrameLayout android:background="@drawable/qa" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="20dp" android:layout_marginRight="15dp" android:minHeight="120dp">
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/cgp" android:background="@color/a3p" android:visibility="visible" android:layout_width="112dp" android:layout_height="102dp" android:layout_marginRight="16dp" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+                </RelativeLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cgq" android:background="@color/a3p" android:paddingLeft="20dp" android:paddingTop="16dp" android:paddingBottom="24dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="36dp" android:layout_height="36dp" android:src="@c1318a/honey_pay_bank_logo" android:scaleType="centerCrop"/>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp">
+                        <TextView android:textSize="14dp" android:textColor="@color/a69" android:id="@+id/cgr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                        <TextView android:textSize="13dp" android:textColor="@color/a69" android:id="@+id/cgs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/cd1" android:alpha="0.5"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+            <View android:background="#eaeaea" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginTop="24dp"/>
+            <TextView android:textSize="17dp" android:textColor="@drawable/q3" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@+id/cgt" android:paddingTop="20dp" android:paddingBottom="25dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cd0"/>
+        </LinearLayout>
+        <TextView android:textSize="13dp" android:textColor="@color/w0" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/cgu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="24dp" android:layout_marginRight="15dp" android:layout_marginBottom="25dp" android:text=""/>
+    </LinearLayout>
+</ScrollView>

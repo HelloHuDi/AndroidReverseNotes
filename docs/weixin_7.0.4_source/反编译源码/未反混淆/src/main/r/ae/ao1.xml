@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView style="@style/na">
+        <LinearLayout style="@style/ks">
+            <TextView android:text="@string/dl2" android:layout_weight="1" style="@style/me"/>
+            <EditText android:id="@+id/dxe" android:hint="@string/dkv" style="@style/mc"/>
+            <View style="@style/nr"/>
+            <EditText android:id="@+id/dxf" android:hint="@string/dkw" style="@style/mc"/>
+            <View style="@style/nr"/>
+            <TextView android:text="@string/dkx" android:layout_weight="1" style="@style/me"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

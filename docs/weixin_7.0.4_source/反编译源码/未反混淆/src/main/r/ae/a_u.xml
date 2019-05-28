@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ct5" android:background="@null" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/ct6" android:layout_width="match_parent" android:layout_height="wrap_content" android:scaleType="fitXY" android:minHeight="200dp"/>
+    <ImageView android:id="@+id/ct7" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginTop="20dp" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="16dp" android:textColor="@color/to" android:ellipsize="end" android:gravity="center" android:id="@+id/ct8" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:includeFontPadding="false"/>
+    <TextView android:textSize="14dp" android:textColor="@color/tp" android:ellipsize="end" android:gravity="center" android:id="@+id/ct9" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:includeFontPadding="false"/>
+    <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/ct_" android:paddingLeft="@dimen/a4_" android:paddingRight="@dimen/a4_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="22dp">
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="60dp" android:textColor="@color/u3" android:id="@+id/cta" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="60dp" android:includeFontPadding="false"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/u3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginBottom="1dp" android:text="@string/cq3" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ctb" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/ctc" android:visibility="gone" android:layout_width="@dimen/l5" android:layout_height="@dimen/l5" android:layout_marginRight="@dimen/nh" android:src="@drawable/b7o"/>
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/u3" android:id="@+id/ctd" android:paddingBottom="2dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cte" android:paddingBottom="0dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="48dp">
+            <RelativeLayout android:id="@+id/ctf" android:visibility="gone" style="@style/k_">
+                <LinearLayout android:id="@+id/ctg" style="@style/k9"/>
+                <View android:id="@+id/cth" android:visibility="gone" style="@style/ka"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/cti" android:visibility="gone" style="@style/k_">
+                <LinearLayout android:id="@+id/ctj" style="@style/k9"/>
+                <View android:id="@+id/ctk" android:visibility="gone" style="@style/ka"/>
+            </RelativeLayout>
+            <RelativeLayout android:id="@+id/ctl" android:visibility="gone" style="@style/k_">
+                <LinearLayout android:id="@+id/ctm" style="@style/k9"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/nk" android:textColor="@color/tp" android:ellipsize="end" android:gravity="left" android:id="@+id/ctn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="34dp" android:layout_marginBottom="6dp" android:singleLine="true" android:includeFontPadding="false"/>
+</LinearLayout>

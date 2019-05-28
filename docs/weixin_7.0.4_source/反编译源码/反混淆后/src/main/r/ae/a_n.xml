@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:orientation="vertical" android:id="@+id/cs3" android:background="@color/a69" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/fi" android:textColor="@color/h4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text="@string/fjd"/>
+            <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/cs4" android:padding="0dp" android:layout_marginTop="16dp" app:walletTypeFace="0" app:layoutRes="@layout/b4v" app:titleText="¥" app:contentMaxSize="10" style="@style/vw"/>
+            <View android:background="#e2e2e2" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cs5" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp">
+                <TextView android:textSize="@dimen/fi" android:textColor="@color/w0" android:gravity="center_vertical" android:id="@+id/cs6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=""/>
+                <ImageView android:id="@+id/cs7" android:layout_width="17dp" android:layout_height="17dp" android:layout_marginTop="1.2dp" android:src="@c1318a/lqt_plan_info"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/cs8" android:background="@drawable/a7p" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:minHeight="56dp">
+                <TextView android:textSize="17dp" android:textColor="@color/h4" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fiw" android:layout_weight="1"/>
+                <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/cs9" android:layout_width="19dp" android:layout_height="19dp"/>
+                <TextView android:textSize="17dp" android:textColor="#7f7f7f" android:id="@+id/cs_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text=""/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:src="@drawable/bkf"/>
+            </LinearLayout>
+            <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+            <LinearLayout android:gravity="center_vertical" android:id="@+id/csa" android:background="@drawable/a7p" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="56dp">
+                <TextView android:textSize="17dp" android:textColor="@color/h4" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fjc" android:layout_weight="1"/>
+                <TextView android:textSize="17dp" android:textColor="#7f7f7f" android:id="@+id/csb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text=""/>
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:src="@drawable/bkf"/>
+            </LinearLayout>
+            <View android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="1px"/>
+            <Space android:layout_width="match_parent" android:layout_height="0dp" android:minHeight="20dp" android:layout_weight="1"/>
+            <Button android:enabled="false" android:layout_gravity="center_horizontal" android:id="@+id/csc" android:layout_width="184dp" android:layout_height="40dp" android:layout_marginBottom="8dp" android:text="@string/s6" style="@style/nj"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/csd" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp">
+                <CheckBox android:id="@+id/cse" android:background="@drawable/ub" android:layout_width="13dp" android:layout_height="13dp" android:checked="true"/>
+                <TextView android:textSize="13dp" android:textColor="#9b9b9b" android:id="@+id/csf" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/azi"/>
+</LinearLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="#cdf2f2f2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:id="@+id/cxl" android:background="@drawable/b_m" android:padding="0dp" android:layout_width="290dp" android:layout_height="480dp" android:scaleType="centerInside">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="210dp">
+                    <ImageView android:id="@+id/cxm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/b_l" android:scaleType="fitXY"/>
+                    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/cxn" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/cxo" android:layout_width="100dp" android:layout_height="100dp" android:layout_marginTop="58dp" android:src="@drawable/sj" android:scaleType="fitXY"/>
+                        <TextView android:textSize="16dp" android:textColor="#be2f2f" android:id="@+id/cxp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/cpy" android:includeFontPadding="false"/>
+                    </LinearLayout>
+                    <RelativeLayout android:id="@+id/cxq" android:visibility="gone" android:layout_width="150dp" android:layout_height="150dp" android:layout_marginTop="40dp" android:layout_marginBottom="21dp">
+                        <ImageView android:id="@+id/cxr" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_centerInParent="true"/>
+                        <com.tencent.mm.emoji.view.BaseEmojiView android:id="@+id/cxs" android:background="@drawable/sm" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/hb"/>
+                        <ImageView android:id="@+id/cxt" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="6dp" android:layout_marginBottom="6dp" android:src="@drawable/sk" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+                        <TextView android:textSize="13dp" android:textColor="#ebcd9a" android:gravity="center" android:id="@+id/cxu" android:background="@drawable/s1" android:layout_width="101dp" android:layout_height="30dp" android:text="@string/crw" android:layout_centerInParent="true"/>
+                        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cxv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                            <com.tencent.mm.plugin.gif.MMAnimateView android:gravity="center_horizontal" android:id="@+id/cxw" android:layout_width="40dp" android:layout_height="40dp"/>
+                            <TextView android:textSize="16dp" android:textColor="#be2f2f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/crr" android:includeFontPadding="false"/>
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+                <TextView android:textSize="@dimen/a4y" android:textColor="@color/uc" android:ellipsize="end" android:gravity="center" android:id="@+id/cxx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4" android:layout_marginBottom="@dimen/a4w" android:text="" android:singleLine="true" android:includeFontPadding="false"/>
+                <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.tencent.mm.plugin.luckymoney.ui.LuckyMoneyAutoScrollView android:id="@+id/cxy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a4r"/>
+                    <TextView android:textSize="15dp" android:textColor="@color/uc" android:id="@+id/cxz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/cq3" android:includeFontPadding="false"/>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/cy0" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a4u">
+                    <ImageView android:background="@drawable/sg" android:layout_width="14dp" android:layout_height="14dp" android:scaleType="fitXY"/>
+                    <TextView android:textSize="@dimen/nk" android:textColor="@color/a7n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/csr" android:includeFontPadding="false"/>
+                </LinearLayout>
+            </LinearLayout>
+            <Button android:textSize="@dimen/m5" android:textColor="@color/u_" android:id="@+id/cy1" android:background="@drawable/sb" android:layout_width="match_parent" android:layout_height="40dp" android:layout_marginLeft="30dp" android:layout_marginRight="30dp" android:layout_marginBottom="51dp" android:text="@string/ctk" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/cy2" android:visibility="visible" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginTop="24dp" android:src="@drawable/rw"/>
+    </LinearLayout>
+</RelativeLayout>

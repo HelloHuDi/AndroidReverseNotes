@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/ey1" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/ey2" android:layout_width="match_parent" android:layout_height="48dp">
+        <include layout="@layout/b0b"/>
+        <View android:id="@+id/ey3" android:background="#99d8d8d8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.tencent.mm.plugin.topstory.ui.widget.TopStoryViewPager android:id="@+id/ey4" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

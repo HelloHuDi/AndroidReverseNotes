@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/h4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/dx" android:textColor="@color/a69" android:id="@+id/bnw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:text="@string/blr" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="80dp" android:layout_marginTop="48dp" android:layout_below="@+id/bnw">
+        <ImageView android:id="@+id/bnx" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/b3y" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:id="@+id/bny" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:text="@string/blo" android:layout_toRightOf="@+id/bnx" android:layout_alignTop="@+id/bnx"/>
+        <ImageView android:id="@+id/bnz" android:layout_width="65dp" android:layout_height="65dp" android:layout_marginTop="@dimen/l5" android:src="@drawable/b39" android:layout_below="@+id/bny" android:layout_alignLeft="@+id/bny"/>
+        <ImageView android:id="@+id/bo0" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginTop="36dp" android:src="@drawable/b3z" android:layout_below="@+id/bnz"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/a69" android:id="@+id/bo1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="11dp" android:text="@string/blq" android:layout_toRightOf="@+id/bo0" android:layout_alignTop="@+id/bo0"/>
+        <ImageView android:layout_width="1dp" android:layout_height="wrap_content" android:layout_marginLeft="9dp" android:src="@color/ok" android:layout_above="@+id/bo1" android:layout_below="@+id/bnx"/>
+    </RelativeLayout>
+    <Button android:textSize="@dimen/lm" android:textColor="@color/a74" android:id="@+id/bo2" android:layout_marginBottom="71dp" android:text="@string/bls" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/p5"/>
+</RelativeLayout>

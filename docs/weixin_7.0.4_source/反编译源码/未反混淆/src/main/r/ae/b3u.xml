@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/f9t" android:scrollbars="none" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never" style="@style/pt">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@+id/f9u" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="vertical" android:id="@+id/f9v" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/l5">
+                        <ImageView android:layout_gravity="left" android:id="@+id/f9w" android:background="@a/actionbar_icon_close_black" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginLeft="@dimen/dy" android:layout_marginTop="@dimen/l8"/>
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/kt" android:textColor="#353535" android:gravity="center_horizontal" android:id="@+id/cfp" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="44dp" android:layout_marginRight="@dimen/l5" android:text="@string/gar" style="@style/vr"/>
+                    <TextView android:textSize="@dimen/kk" android:textColor="@color/h4" android:gravity="center_horizontal" android:id="@+id/f9x" android:layout_marginLeft="69dp" android:layout_marginTop="18dp" android:layout_marginRight="69dp" android:layout_marginBottom="69dp" android:text="@string/fdd" style="@style/vr"/>
+                </LinearLayout>
+                <com.tencent.mm.wallet_core.ui.formview.EditHintPasswdView android:id="@+id/cfs" android:visibility="visible" android:layout_marginLeft="47dp" android:layout_marginRight="47dp" app:format="1" style="@style/oz"/>
+                <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/f9y" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_gravity="center_horizontal" android:id="@+id/f9z" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/b62" android:scaleType="fitXY"/>
+                    <TextView android:textSize="@dimen/kr" android:textColor="@color/xy" android:ellipsize="end" android:gravity="center" android:id="@+id/f_0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="@dimen/nc" android:layout_marginRight="@dimen/nc" android:text="@string/fex" android:maxLines="2"/>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="15dp" android:textColor="#ff576b95" android:gravity="bottom" android:id="@+id/f_1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="40dp" android:text="@string/fd5" android:layout_below="@+id/f9u" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </ScrollView>
+    <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/azi"/>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_horizontal" android:id="@+id/yh" android:background="@color/p7" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textSize="15dp" android:textColor="@color/h4" android:gravity="center" android:id="@+id/yi" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lz"/>
+        <RelativeLayout android:id="@+id/bqv" android:background="@color/p7" android:layout_width="match_parent" android:layout_height="48dp" android:layout_alignParentBottom="true">
+            <View android:background="@color/dz" android:layout_width="match_parent" android:layout_height="1px" android:layout_alignParentTop="true"/>
+            <TextView android:textSize="15dp" android:textColor="@color/a61" android:gravity="center" android:id="@+id/bqw" android:paddingLeft="10dp" android:paddingRight="5dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/exz" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+            <TextView android:textSize="15dp" android:textColor="@color/a61" android:gravity="center" android:id="@+id/bqx" android:paddingLeft="5dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/bne" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <android.support.v7.widget.RecyclerView android:id="@+id/yj" android:background="@color/p7" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bqv"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/a6x" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/bqy" android:background="@color/rr" android:paddingLeft="@dimen/nc" android:paddingTop="@dimen/nj" android:paddingRight="@dimen/nc" android:paddingBottom="@dimen/nj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</RelativeLayout>

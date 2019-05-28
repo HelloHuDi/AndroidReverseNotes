@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/fkj" android:background="@drawable/ay1" android:paddingLeft="9dp" android:paddingTop="10dp" android:paddingRight="9dp" android:paddingBottom="9dp" style="@style/lg">
+        <TextView android:textSize="@dimen/m5" android:textColor="#6f7378" android:id="@+id/eh9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m4" android:text="@string/ar5"/>
+        <LinearLayout android:layout_gravity="bottom" android:id="@+id/fkk" android:background="@drawable/ly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/l5" android:layout_weight="1">
+            <com.tencent.mm.ui.widget.MMEditText android:textSize="@dimen/m5" android:textColor="@color/h4" android:id="@+id/l3" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="3dp" android:maxLines="1" android:layout_weight="1" android:textCursorDrawable="@drawable/a6l" style="@style/l4"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="#6f7378" android:id="@+id/fkl" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageButton android:id="@+id/fkm" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a6r"/>
+        <ImageButton android:id="@+id/fkn" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:src="@drawable/a6q"/>
+    </LinearLayout>
+</LinearLayout>

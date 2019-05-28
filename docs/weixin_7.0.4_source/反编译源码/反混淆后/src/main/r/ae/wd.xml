@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/bk3" android:layout_width="0dp" android:layout_height="0dp"/>
+    <View android:id="@+id/bk4" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="43dp"/>
+    <RelativeLayout android:id="@+id/bk5" android:background="@color/nb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/bk4">
+        <com.tencent.p177mm.plugin.sport.p1030ui.SportChartView android:id="@+id/bk6" android:background="@drawable/md" android:layout_width="match_parent" android:layout_height="210dp" android:layout_marginLeft="@dimen/nc" android:layout_marginTop="60.5dp" android:layout_marginRight="@dimen/nc"/>
+        <View android:layout_width="match_parent" android:layout_height="30dp" android:layout_below="@+id/bk6"/>
+        <com.tencent.p177mm.p612ui.widget.MMSwitchBtn android:id="@+id/bk7" android:visibility="gone" android:layout_width="@dimen/nr" android:layout_height="@dimen/no" android:layout_marginLeft="16dp" android:layout_marginTop="68.5dp" app:on_color="#089f71" app:off_color="#089f71" app:slide_color="#76fef3" app:on_text="月" app:off_text="周"/>
+    </RelativeLayout>
+    <ImageView android:id="@+id/bk8" android:layout_width="@dimen/h1" android:layout_height="@dimen/h1" android:src="@drawable/m9" android:layout_below="@+id/bk3" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@+id/bk9" android:layout_width="@dimen/h3" android:layout_height="@dimen/h3" android:src="@drawable/ad2" android:layout_alignBottom="@+id/bk8" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:gravity="center" android:id="@+id/bk_" android:visibility="gone" android:layout_marginTop="@dimen/nc" android:layout_below="@+id/bk9" android:layout_alignLeft="@+id/bk5" android:layout_alignRight="@+id/bk5" style="@style/mb"/>
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb">
+    <View android:layout_gravity="top" android:background="@color/m_" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/fy" android:layout_marginRight="@dimen/fy"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lp">
+        <TextView android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g7" android:singleLine="true" android:layout_weight="1" style="@style/l9"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g7" android:layout_marginBottom="@dimen/g7">
+            <ImageView android:id="@+id/e3t" android:visibility="gone" android:layout_width="@dimen/nn" android:layout_height="@dimen/nn" android:layout_marginRight="@dimen/gg"/>
+            <ImageView android:id="@+id/e3u" android:visibility="gone" android:layout_width="@dimen/nn" android:layout_height="@dimen/nn" android:layout_marginRight="@dimen/gg"/>
+            <ImageView android:id="@+id/e3v" android:visibility="gone" android:layout_width="@dimen/nn" android:layout_height="@dimen/nn"/>
+            <ImageView android:id="@+id/e3w" android:visibility="gone" android:layout_width="@dimen/nn" android:layout_height="@dimen/nn"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

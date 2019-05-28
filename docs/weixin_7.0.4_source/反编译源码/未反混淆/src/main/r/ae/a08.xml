@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="vertical" android:background="@color/a3p" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mh">
+    <TextView android:id="@+id/bup" android:paddingLeft="@dimen/g7" android:paddingTop="@dimen/gg" android:paddingBottom="@dimen/gg" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/buq" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@+id/bur" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:layout_marginLeft="@dimen/g7" android:layout_marginRight="@dimen/g7" android:layout_centerVertical="true">
+            <ImageView android:id="@+id/m5" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:layout_centerInParent="true"/>
+        </com.tencent.mm.ui.base.MaskLayout>
+        <LinearLayout android:gravity="center_vertical" android:id="@+id/bus" android:background="@drawable/a_q" android:paddingRight="@dimen/g7" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/m3" android:layout_weight="1">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingTop="@dimen/g2" android:paddingRight="@dimen/gg" android:paddingBottom="@dimen/g2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+                <TextView android:id="@+id/but" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nickname}" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/lf"/>
+                <TextView android:gravity="bottom" android:id="@+id/buu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{digest}" android:singleLine="true" android:layout_below="@+id/but" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/le"/>
+            </LinearLayout>
+            <RelativeLayout android:id="@+id/buv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+                <Button android:textSize="@dimen/n8" android:id="@+id/buw" android:focusable="false" android:focusableInTouchMode="false" android:text="@string/bw1" style="@style/nq"/>
+                <Button android:id="@+id/bux" android:focusable="false" android:focusableInTouchMode="false" android:text="@string/bwi" style="@style/nq"/>
+                <TextView android:textSize="@dimen/n8" android:id="@+id/buy" android:visibility="gone" android:text="@string/e3" style="@style/le"/>
+                <TextView android:textSize="@dimen/n8" android:id="@+id/buz" android:background="@null" android:visibility="gone" android:text="@string/e1" style="@style/h1"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

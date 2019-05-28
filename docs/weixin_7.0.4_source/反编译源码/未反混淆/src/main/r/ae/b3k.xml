@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/d3v" android:background="@color/a69" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:id="@+id/f8j" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/f8k" android:background="@a/bind_done_icon" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginTop="70dp" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="18dp" android:textColor="@color/h4" android:id="@+id/f8l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:layout_below="@+id/f8k" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="14sp" android:textColor="@color/ro" android:id="@+id/f8m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="" android:layout_below="@+id/f8l" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <FrameLayout android:id="@+id/e2i" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="32dp" android:layout_marginTop="100dp" android:layout_marginRight="32dp">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <View android:id="@+id/dz8" android:background="#c7c7c7" android:layout_width="match_parent" android:layout_height="1px"/>
+                <RelativeLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+                    <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:id="@+id/e2j" android:layout_width="40dp" android:layout_height="40dp" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                    <TextView android:textSize="12dp" android:textColor="#949494" android:id="@+id/e2k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:drawableLeft="@a/wxpay_mini_program_icon" android:drawablePadding="4dp" android:layout_toRightOf="@+id/e2j"/>
+                    <TextView android:textSize="18dp" android:textColor="#353535" android:id="@+id/e2l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="4dp" android:layout_toRightOf="@+id/e2j" android:layout_below="@+id/e2k"/>
+                    <Button android:textSize="13dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/e2m" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="70dp" android:minHeight="30dp" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ni"/>
+                </RelativeLayout>
+                <View android:id="@+id/dzc" android:background="#c7c7c7" android:layout_width="match_parent" android:layout_height="1px"/>
+            </LinearLayout>
+            <View android:id="@+id/dzd" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:alpha="0.5"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/f8n" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="100dp">
+            <Button android:textSize="14dp" android:id="@+id/f8o" android:layout_width="wrap_content" android:layout_height="32dp" android:minWidth="163dp" style="@style/p4"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,31 @@
+precision mediump float;
+varying vec2 textureCoordinate;
+
+uniform sampler2D inputImageTexture;
+uniform vec2 offset1;
+uniform vec2 offset2;
+
+void main(void) {
+     mediump vec4 base = texture2D(inputImageTexture, textureCoordinate);
+
+     mediump vec2 coordinate1 = textureCoordinate+offset1;
+     mediump vec2 coordinate2 = textureCoordinate+offset2;
+
+     mediump vec4 tex = base;
+
+     if (coordinate1.x >= 0.0 && coordinate1.x <= 1.0 && coordinate1.y >= 0.0 && coordinate1.y <= 1.0) {
+
+         mediump vec4 overlay = texture2D(inputImageTexture, coordinate1);
+
+         tex = vec4(mix(base.rgb, overlay.rgb, overlay.a * 0.5), base.a);
+     }
+
+     if (coordinate2.x >= 0.0 && coordinate2.x <= 1.0 && coordinate2.y >= 0.0 && coordinate2.y <= 1.0) {
+
+        mediump vec4 overlay = texture2D(inputImageTexture, coordinate2);
+
+        tex = vec4(mix(base.rgb, overlay.rgb, overlay.a * 0.5), base.a);
+     }
+
+     gl_FragColor = tex;
+}

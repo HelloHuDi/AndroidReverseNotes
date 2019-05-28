@@ -1,0 +1,31 @@
+precision highp float;
+uniform sampler2D inputImageTexture;
+uniform sampler2D inputImageTexture2;
+
+uniform vec2 vectorMapSize;
+uniform vec2 size;
+attribute vec4 position;
+attribute vec2 inputTextureCoordinate;
+varying vec2 textureCoordinate;
+
+void main() {
+
+    //vec4 color = texture2D(inputImageTexture2, inputTextureCoordinate);
+    //vec2 trueDiff = color.xy * 256.0 / 255.0 + color.zw * 256.0 / 255.0 / 255.0;
+    //float ddx = (trueDiff.x - 0.5) * 2.0;
+    //float ddy = (trueDiff.y - 0.5) * 2.0;
+    //trueDiff = vec2(ddx,ddy) * vectorMapSize / size;
+    //vec2 offset = trueDiff;
+
+    vec4 color = texture2D(inputImageTexture2, inputTextureCoordinate);
+    vec2 offset = (color.xy * 255.0 + color.zw) / 127.5 - 1.0;
+    offset = offset * vectorMapSize / size;
+
+    //vec4 color = texture2D(inputImageTexture2, inputTextureCoordinate);
+    //vec2 offset = (color.xy * 256.0 + color.zw) / 128.0 - 1.0;
+    //offset = offset * vectorMapSize / size;
+
+    vec2 displacedPosition = position.xy + offset;
+    textureCoordinate = displacedPosition;
+    gl_Position = vec4(position.x*2.0-1.0, position.y*2.0-1.0, 0.0, 1.0);
+}

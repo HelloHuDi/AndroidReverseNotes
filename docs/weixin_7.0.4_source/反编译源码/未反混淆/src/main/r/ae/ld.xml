@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="82dp" android:layout_height="wrap_content" android:minHeight="120dp">
+    <ImageView android:id="@+id/an6" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="15dp" android:layout_marginBottom="14dp" android:src="@drawable/aa5" android:scaleType="centerCrop" android:layout_alignBottom="@+id/an7"/>
+    <TextView android:textSize="11sp" android:textColor="#858585" android:id="@+id/an7" android:background="@drawable/hs" android:layout_width="82dp" android:layout_height="wrap_content" android:minHeight="120dp" android:text="@string/ann"/>
+</RelativeLayout>

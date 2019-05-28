@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/g8">
+    <include android:id="@+id/ani" android:layout_alignParentLeft="true" layout="@layout/lj" style="@style/g4"/>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ani" android:layout_alignTop="@+id/ani" style="@style/g9">
+        <TextView android:id="@+id/od" android:visibility="gone" style="@style/gd"/>
+        <TextView android:id="@+id/as6" android:visibility="gone" android:text="@string/ap4" android:layout_below="@+id/od" android:layout_alignLeft="@+id/od" style="@style/gb"/>
+        <com.tencent.mm.ui.base.AnimImageView android:orientation="horizontal" android:id="@+id/as7" android:background="@drawable/hz" android:layout_width="100dp" android:layout_height="wrap_content" android:minHeight="@dimen/ej" android:layout_below="@+id/as6" android:layout_alignLeft="@+id/od"/>
+        <FrameLayout android:id="@+id/as8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/as7" android:layout_alignLeft="@+id/od">
+            <FrameLayout android:id="@+id/as9" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@+id/as_" android:background="@drawable/hz" android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="@dimen/ej" android:drawableLeft="@a/chatfrom_voice_playing"/>
+                <com.tencent.mm.ui.base.AnimImageView android:id="@+id/asa" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="@dimen/ej"/>
+                <TextView android:layout_gravity="center_vertical" android:id="@+id/oe" android:layout_marginLeft="29dp" android:layout_alignLeft="@+id/as_" style="@style/gn"/>
+            </FrameLayout>
+        </FrameLayout>
+        <ViewStub android:id="@+id/ap4" android:layout="@layout/np" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="@dimen/le" android:layout_below="@+id/as8" android:layout_alignLeft="@+id/od"/>
+        <ImageView android:id="@+id/asb" android:background="@null" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="@dimen/gg" android:src="@drawable/a4h" android:layout_toRightOf="@+id/as8" android:layout_alignTop="@+id/as8" android:layout_alignBottom="@+id/as8"/>
+        <TextView android:id="@+id/anl" android:visibility="gone" android:layout_marginRight="5dp" android:text="@string/ak_" android:layout_below="@+id/as8" android:layout_alignRight="@+id/as8" style="@style/g0"/>
+    </RelativeLayout>
+</RelativeLayout>

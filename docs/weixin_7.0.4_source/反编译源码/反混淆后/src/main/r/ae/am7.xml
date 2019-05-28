@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/dr3" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="56dp">
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:id="@+id/dr4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/lf"/>
+            <TextView android:id="@+id/dr5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+        </LinearLayout>
+        <CheckBox android:id="@+id/dr6" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="15dp"/>
+    </LinearLayout>
+</LinearLayout>

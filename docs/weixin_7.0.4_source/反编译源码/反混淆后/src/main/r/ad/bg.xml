@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceSmallCategory/>
+    <com.tencent.p177mm.pluginsdk.p597ui.applet.ContactListExpandPreference app:key="roominfo_contact_anchor"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/dum" app:key="room_search_chatting_content" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:title="@string/dtd" app:key="room_notify_new_msg"/>
+    <CheckBoxPreference app:title="@string/dtv" app:key="room_placed_to_the_top" app:layout="@layout/ae4"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/bz_" app:key="force_notify"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/dut" app:key="room_set_chatting_background" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/drt" app:key="room_clear_chatting_history" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/dsh" app:key="room_expose" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

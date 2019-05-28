@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/g8">
+    <include style="@style/g4" layout="@layout/lj"/>
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/g9">
+        <TextView android:id="@+id/od" android:visibility="gone" style="@style/gd"/>
+        <FrameLayout android:id="@+id/ap9" android:layout_width="@dimen/x3" android:layout_height="@dimen/x2">
+            <LinearLayout android:orientation="vertical" android:background="@drawable/b0m" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:layout_width="match_parent" android:layout_height="54dp">
+                    <LinearLayout android:orientation="vertical" android:id="@+id/arr" android:paddingLeft="@dimen/lo" android:paddingTop="@dimen/lo" android:paddingRight="@dimen/lo" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:ellipsize="end" android:id="@+id/ars" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/x3" android:text="abcdefg" android:maxLines="1"/>
+                        <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:ellipsize="end" android:id="@+id/art" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="@dimen/x3" android:text="abcdefg" android:maxLines="1"/>
+                    </LinearLayout>
+                    <ProgressBar android:layout_gravity="center" android:id="@+id/aru" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+                </FrameLayout>
+                <ImageView android:layout_gravity="center_vertical" android:background="@color/jv" android:layout_width="match_parent" android:layout_height="2px"/>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <ImageView android:id="@+id/arv" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <ImageView android:layout_gravity="center" android:id="@+id/arw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/kr" android:src="@drawable/bcp" android:scaleType="fitCenter"/>
+                    <ProgressBar android:layout_gravity="center" android:id="@+id/afz" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+                </FrameLayout>
+            </LinearLayout>
+            <ImageView android:id="@+id/aq_" android:background="@drawable/hi" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="r">
+        <item name="android:textAlignment">viewStart</item>
+    </style>
+    <style name="s">
+        <item name="android:layout_gravity">right|center_horizontal|clip_horizontal</item>
+        <item name="android:paddingEnd">8dp</item>
+    </style>
+    <style name="u">
+        <item name="android:paddingEnd">16dp</item>
+    </style>
+    <style name="v">
+        <item name="android:layout_marginStart">16dp</item>
+    </style>
+    <style name="w">
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="x">
+        <item name="android:paddingStart">@dimen/pu</item>
+        <item name="android:paddingEnd">4dp</item>
+    </style>
+    <style name="y">
+        <item name="android:layout_alignParentStart">true</item>
+    </style>
+    <style name="z">
+        <item name="android:layout_toStartOf">@id/k3</item>
+    </style>
+    <style name="a0">
+        <item name="android:layout_alignParentEnd">true</item>
+    </style>
+    <style name="a1">
+        <item name="android:layout_toStartOf">@android:id/icon2</item>
+        <item name="android:layout_toEndOf">@android:id/icon1</item>
+    </style>
+    <style name="a2">
+        <item name="android:layout_marginStart">@dimen/pu</item>
+    </style>
+    <style name="a3">
+        <item name="android:paddingStart">12dp</item>
+        <item name="android:paddingEnd">12dp</item>
+    </style>
+    <style name="a4">
+        <item name="android:paddingStart">@dimen/p6</item>
+        <item name="android:paddingEnd">@dimen/p5</item>
+    </style>
+    <style name="t">
+        <item name="android:layout_marginEnd">8dp</item>
+    </style>
+</resources>

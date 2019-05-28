@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceTitleCategory app:key="settings_netstat_info"/>
+    <Preference app:title="@string/e97" app:key="settings_netstat_mobile" app:layout="@layout/ae4"/>
+    <com.tencent.mm.plugin.setting.ui.setting.NetStatPreference app:srcType="0" app:key="settings_netstat_mobile_detail" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+    <Preference app:title="@string/e9a" app:key="settings_netstat_wifi" app:layout="@layout/ae4"/>
+    <com.tencent.mm.plugin.setting.ui.setting.NetStatPreference app:srcType="1" app:key="settings_netstat_wifi_detail" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/ebv" app:key="settings_netstat_tip" app:layout="@layout/afn"/>
+</PreferenceScreen>

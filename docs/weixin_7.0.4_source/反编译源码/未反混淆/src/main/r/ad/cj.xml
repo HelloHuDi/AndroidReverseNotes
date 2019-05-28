@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceSmallCategory app:key="settings_tag_name_category"/>
+    <Preference app:title="@string/ep1" app:key="settings_tag_name" app:layout="@layout/ae4"/>
+    <PreferenceTitleCategory app:title="@string/ep3" app:key="outside"/>
+    <PreferenceTitleCategory app:title="@string/ep2" app:key="black"/>
+    <PreferenceTitleCategory app:title="@string/ep0" app:key="group"/>
+    <com.tencent.mm.pluginsdk.ui.applet.ContactListExpandPreference app:key="roominfo_contact_anchor"/>
+    <PreferenceSmallCategory app:key="delete_tag_name_category"/>
+    <Preference app:title="@string/e3x" app:key="delete_tag_name" app:layout="@layout/a_e"/>
+    <PreferenceSmallCategory/>
+</PreferenceScreen>

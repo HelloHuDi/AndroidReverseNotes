@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:background="@color/z6" android:paddingLeft="15dp" android:paddingRight="15dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/beq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/d8q" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/l5" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/d8r" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/db_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ars"/>
+                <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:id="@+id/d8s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/f6n"/>
+            </LinearLayout>
+            <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/c6c" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/m5" android:textColor="@color/s0" android:gravity="left" android:id="@+id/c6d" android:paddingLeft="7dp" android:paddingTop="13dp" android:paddingBottom="2dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/f6w"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <FrameLayout android:id="@+id/d8y" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/d90" android:paddingLeft="18dp" android:paddingRight="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/b00" android:layout_marginTop="14dp" android:text="@string/f6v" style="@style/ni"/>
+            <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:gravity="center" android:id="@+id/c6e" android:paddingTop="2dp" android:paddingBottom="6dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/f5z"/>
+            <Button android:id="@+id/azz" android:layout_marginTop="10dp" android:layout_marginBottom="14dp" android:text="@string/or" style="@style/nl"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

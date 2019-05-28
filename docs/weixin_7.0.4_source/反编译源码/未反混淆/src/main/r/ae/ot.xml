@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/aq" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="200dp">
+    <include android:id="@+id/axm" layout="@layout/p7"/>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/h4" android:layout_gravity="center" android:id="@+id/axn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:text=""/>
+    <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+        <TextView android:textSize="27dp" android:textColor="@color/h4" android:layout_gravity="top" android:id="@+id/axo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="¥" android:includeFontPadding="false"/>
+        <com.tencent.mm.wallet_core.ui.WalletTextView android:textSize="36dp" android:textColor="@color/h4" android:id="@+id/axp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text=""/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/w0" android:layout_gravity="center" android:id="@+id/axq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:layout_marginBottom="40dp" android:text=""/>
+</LinearLayout>

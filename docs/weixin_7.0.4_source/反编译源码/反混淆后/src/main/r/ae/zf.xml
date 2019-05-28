@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bs7" android:background="@color/lh" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/bs8" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@c1318a/app_attach_file_icon_unknow" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/rq" android:layout_width="@dimen/l7" android:layout_height="@dimen/l7" android:layout_marginTop="@dimen/kx" android:scaleType="centerCrop" android:layout_centerHorizontal="true" android:contentDescription="@string/fy"/>
+    <TextView android:gravity="center" android:id="@+id/rr" android:layout_marginLeft="@dimen/do" android:layout_marginTop="@dimen/n3" android:layout_marginRight="@dimen/do" android:text="{name}" android:layout_below="@+id/rq" android:layout_centerHorizontal="true" style="@style/nu"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/zg" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/rr">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l9">
+            <ProgressBar android:id="@+id/zh" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" style="?android:attr/progressBarStyleHorizontal"/>
+            <ImageView android:id="@+id/zi" android:background="@drawable/xc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a7k"/>
+        </LinearLayout>
+        <TextView android:id="@+id/bsa" android:layout_width="wrap_content" android:layout_marginTop="@dimen/ds" style="@style/kt"/>
+    </LinearLayout>
+    <Button android:id="@+id/bsb" android:layout_width="match_parent" android:layout_marginTop="@dimen/l9" android:text="@string/bpf" android:layout_below="@+id/rr" android:layout_centerHorizontal="true" style="@style/ni"/>
+    <Button android:id="@+id/bsc" android:layout_width="match_parent" android:layout_marginTop="@dimen/l9" android:text="@string/bpe" android:layout_below="@+id/bsb" android:layout_centerHorizontal="true" style="@style/ni"/>
+    <TextView android:gravity="center" android:id="@+id/bn0" android:layout_width="wrap_content" android:layout_marginTop="@dimen/ds" android:text="@string/bpc" android:layout_below="@+id/bsc" android:layout_centerHorizontal="true" style="@style/kt"/>
+    <Button android:id="@+id/at4" android:layout_marginTop="@dimen/l9" android:text="@string/bpd" android:layout_below="@+id/rr" android:layout_centerHorizontal="true" style="@style/ni"/>
+</RelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<host-apdu-service xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:description="@string/ru" android:requireDeviceUnlock="true" android:apduServiceBanner="@drawable/icon">
+    <aid-group android:description="@string/ru" android:category="payment">
+        <aid-filter android:name="F123456789"/>
+    </aid-group>
+</host-apdu-service>

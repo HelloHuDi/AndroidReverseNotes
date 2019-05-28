@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/clh" android:padding="10dp" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true">
+        <ImageView android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ao"/>
+    </FrameLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="54dp" android:layout_marginRight="54dp">
+        <RelativeLayout android:id="@+id/cli" android:layout_width="wrap_content" android:layout_height="@dimen/m">
+            <TextView android:textSize="30dp" android:textColor="#000000" android:gravity="center" android:id="@+id/clj" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/m" android:maxLines="3" android:layout_alignParentBottom="true" android:layout_centerInParent="true" android:fontFamily="sans-serif-light"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/clk" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_below="@+id/cli">
+            <TextView android:textSize="16dp" android:textColor="#000000" android:gravity="center" android:id="@+id/cll" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <com.tencent.mm.pluginsdk.ui.applet.CdnImageView android:layout_gravity="center" android:id="@+id/clm" android:layout_width="140dp" android:layout_height="140dp" android:layout_marginTop="@dimen/n" android:layout_below="@+id/clk" android:layout_centerHorizontal="true"/>
+        <Button android:gravity="center" android:id="@+id/cln" android:layout_marginBottom="@dimen/l" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/p5"/>
+    </RelativeLayout>
+</RelativeLayout>

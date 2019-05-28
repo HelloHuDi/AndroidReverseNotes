@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="120dp">
+    <View android:layout_gravity="center" android:id="@+id/brp" android:background="#20000000" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="50dp"/>
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="horizontal" android:id="@+id/brq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginBottom="10dp">
+        <TextView android:textSize="11dp" android:textColor="#4d000000" android:id="@+id/brr" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bn3"/>
+        <ImageButton android:id="@+id/brs" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_marginRight="@dimen/lo" android:src="@c1318a/fav_capacity_foot_arrow"/>
+    </LinearLayout>
+</LinearLayout>

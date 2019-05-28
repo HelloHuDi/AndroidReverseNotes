@@ -1,0 +1,92 @@
+precision highp float;
+varying vec2 canvasCoordinate;
+varying vec2 textureCoordinate;
+varying vec2 alphaCoordinate;
+
+uniform sampler2D inputImageTexture;
+uniform sampler2D inputImageTexture2;
+uniform int blendMode;
+
+ vec4 blendColor(vec4 texColor, vec4 canvasColor)
+ {
+     vec3 vOne = vec3(1.0, 1.0, 1.0);
+     vec3 vZero = vec3(0.0, 0.0, 0.0);
+
+     vec3 resultFore = texColor.rgb;
+     if (blendMode <= 1 || blendMode > 12){ //default, since used most, put on top
+
+     } else if (blendMode == 2) {  //multiply
+         resultFore = canvasColor.rgb * texColor.rgb;
+     } else if (blendMode == 3){    //screen
+         resultFore = vOne - (vOne - canvasColor.rgb) * (vOne - texColor.rgb);
+     } else if (blendMode == 4){    //overlay
+         resultFore = 2.0 * canvasColor.rgb * texColor.rgb;
+         if (canvasColor.r >= 0.5) {
+             resultFore.r = 1.0 - 2.0 * (1.0 - canvasColor.r) * (1.0 - texColor.r);
+         }
+         if (canvasColor.g >= 0.5) {
+             resultFore.g = 1.0 - 2.0 * (1.0 - canvasColor.g) * (1.0 - texColor.g);
+         }
+         if (canvasColor.b >= 0.5) {
+             resultFore.b = 1.0 - 2.0 * (1.0 - canvasColor.b) * (1.0 - texColor.b);
+         }
+     } else if (blendMode == 5){    //hardlight
+         resultFore = 2.0 * canvasColor.rgb * texColor.rgb;
+         if (texColor.r >= 0.5) {
+             resultFore.r = 1.0 - 2.0 * (1.0 - canvasColor.r) * (1.0 - texColor.r);
+         }
+         if (texColor.g >= 0.5) {
+             resultFore.g = 1.0 - 2.0 * (1.0 - canvasColor.g) * (1.0 - texColor.g);
+         }
+         if (texColor.b >= 0.5) {
+             resultFore.b = 1.0 - 2.0 * (1.0 - canvasColor.b) * (1.0 - texColor.b);
+         }
+     } else if (blendMode == 6){    //softlight
+         resultFore = 2.0 * canvasColor.rgb * texColor.rgb + canvasColor.rgb * canvasColor.rgb * (vOne - 2.0 * texColor.rgb);
+         if (texColor.r >= 0.5) {
+             resultFore.r = 2.0 * canvasColor.r * (1.0 - texColor.r) + (2.0 * texColor.r - 1.0) * sqrt(canvasColor.r);
+         }
+         if (texColor.g >= 0.5) {
+             resultFore.g = 2.0 * canvasColor.g * (1.0 - texColor.g) + (2.0 * texColor.g - 1.0) * sqrt(canvasColor.g);
+         }
+         if (texColor.b >= 0.5) {
+             resultFore.b = 2.0 * canvasColor.b * (1.0 - texColor.b) + (2.0 * texColor.b - 1.0) * sqrt(canvasColor.b);
+         }
+     } else if (blendMode == 7){    //divide
+         resultFore = vOne;
+         if (texColor.r > 0.0) {
+             resultFore.r = canvasColor.r / texColor.r;
+         }
+         if (texColor.g > 0.0) {
+             resultFore.g = canvasColor.g / texColor.g;
+         }
+         if (texColor.b > 0.0) {
+             resultFore.b = canvasColor.b / texColor.b;
+         }
+         resultFore = min(vOne, resultFore);
+     } else if (blendMode == 8){    //add
+         resultFore = canvasColor.rgb + texColor.rgb;
+         resultFore = min(vOne, resultFore);
+     } else if (blendMode == 9){    //substract
+         resultFore = canvasColor.rgb - texColor.rgb;
+         resultFore = max(vZero, resultFore);
+     } else if (blendMode == 10){   //diff
+         resultFore = abs(canvasColor.rgb - texColor.rgb);
+     } else if (blendMode == 11){   //darken
+         resultFore = min(canvasColor.rgb, texColor.rgb);
+     } else if (blendMode == 12){   //lighten
+         resultFore = max(canvasColor.rgb, texColor.rgb);
+     }
+     //pre multiply for glBlendFunc
+     vec4 resultColor = vec4(resultFore * texColor.a, texColor.a);
+     return resultColor;
+ }
+
+void main(void)
+{
+    vec4 canvasColor = texture2D(inputImageTexture, canvasCoordinate);
+    vec4 texColor = texture2D(inputImageTexture2, textureCoordinate);
+    vec4 alpha = texture2D (inputImageTexture2, alphaCoordinate);
+    texColor.a = alpha.r;
+    gl_FragColor = blendColor(texColor, canvasColor);
+}

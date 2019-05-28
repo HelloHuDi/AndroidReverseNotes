@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="20dp" android:paddingRight="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:layout_marginBottom="20dp">
+        <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/eyu" android:layout_width="109dp" android:layout_height="63dp" android:src="@color/rn"/>
+            <ImageView android:layout_gravity="center" android:layout_width="24dp" android:layout_height="24dp" android:src="@a/top_story_upload_play"/>
+        </FrameLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="13dp">
+            <TextView android:textSize="15dp" android:textColor="@color/h4" android:ellipsize="end" android:gravity="top" android:id="@+id/eyv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="titile" android:maxLines="2" android:minLines="2" android:layout_alignParentTop="true"/>
+            <TextView android:textSize="14dp" android:textColor="#4c000000" android:ellipsize="end" android:id="@+id/c63" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="desc" android:maxLines="1" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="#ededed" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="18dp"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/ens" android:background="@color/a69" android:paddingLeft="19dp" android:paddingRight="19dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.plugin.sns.ui.SnsEditText android:textSize="17dp" android:textColor="@color/h4" android:gravity="top" android:id="@+id/ewo" android:background="@null" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/gac" android:maxLines="4" android:minLines="4" android:singleLine="false" android:inputType="none|text|textCapSentences|textMultiLine" android:textCursorDrawable="@drawable/pt" style="@style/l4"/>
+        <RelativeLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="13dp" android:textColor="#4c000000" android:id="@+id/eyw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="/200" android:layout_alignParentRight="true"/>
+            <TextView android:textSize="13dp" android:textColor="@color/a3k" android:id="@+id/eyx" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:layout_toLeftOf="@+id/eyw"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="14dp" android:gravity="center" android:id="@+id/eyy" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="66dp" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</LinearLayout>

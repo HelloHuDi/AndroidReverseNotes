@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.mm.plugin.wallet.pwd.ui.WalletSecuritySettingHeaderPref app:key="wallet_security_basic_info"/>
+    <PreferenceTitleCategory app:title="@string/fs7" app:key="wallet_security_more_title"/>
+    <NormalIconPreference app:title="@string/fs5" app:icon="@a/wallet_security_digital_certificate" app:key="wallet_security_digital_certificate"/>
+    <NormalIconPreference app:title="@string/fs9" app:icon="@a/wallet_security_pay_guard" app:key="wallet_security_pay_guard"/>
+    <NormalIconPreference app:title="@string/fsm" app:icon="@a/wallet_security_wallet_lock" app:key="wallet_security_wallet_lock"/>
+    <NormalIconPreference app:title="@string/fs0" app:icon="@drawable/ax7" app:key="balance_privacy_info"/>
+    <NormalIconPreference app:title="@string/fsc" app:icon="@a/wallet_security_safety_insurance" app:key="wallet_security_safety_insurance"/>
+</PreferenceScreen>

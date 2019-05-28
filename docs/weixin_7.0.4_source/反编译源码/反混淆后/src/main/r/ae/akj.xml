@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/l_" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.p612ui.tools.ActionBarSearchView android:id="@+id/dn9" android:visibility="gone" android:layout_width="match_parent" android:layout_height="@dimen/fd"/>
+    <include layout="@layout/ad0"/>
+    <FrameLayout android:id="@+id/d78" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+                <FrameLayout android:id="@+id/dn_" android:layout_width="match_parent" android:layout_height="280dp">
+                    <FrameLayout android:id="@+id/c_i" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                    <FrameLayout android:gravity="center" android:layout_gravity="center" android:id="@+id/c_j" android:layout_width="match_parent" android:layout_height="match_parent"/>
+                </FrameLayout>
+                <RelativeLayout android:id="@+id/c_l" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+            </RelativeLayout>
+            <ImageButton android:layout_gravity="right" android:id="@+id/c_m" android:background="@drawable/w1" android:layout_width="49dp" android:layout_height="49dp" android:layout_marginTop="215dp" android:layout_marginRight="@dimen/a6s"/>
+            <RelativeLayout android:id="@+id/dna" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="@dimen/a83" android:layout_marginTop="280dp">
+                <com.tencent.p177mm.plugin.location.p446ui.PoiHeaderView android:id="@+id/dnb" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                <com.tencent.p177mm.p612ui.base.MMLoadMoreListView android:id="@+id/dnc" android:background="@color/a69" android:layoutAnimation="@anim/bm" android:layout_width="match_parent" android:layout_height="wrap_content" android:cacheColorHint="#00000000" android:layout_below="@+id/dnb"/>
+                <RelativeLayout android:id="@+id/dnd" android:background="@drawable/k5" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true">
+                    <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/zg"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </FrameLayout>
+        <com.tencent.p177mm.p612ui.base.MMLoadMoreListView android:id="@+id/dne" android:background="@color/a69" android:focusable="true" android:visibility="gone" android:layoutAnimation="@anim/bm" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@color/a3p" android:transcriptMode="disabled" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="0px"/>
+        <TextView android:gravity="center" android:id="@+id/dnf" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/cng"/>
+        <RelativeLayout android:id="@+id/dng" android:background="@color/a69" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/zg"/>
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/dsy" android:background="@color/a69" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true">
+        <LinearLayout android:id="@+id/dsz" android:background="@color/a69" android:layout_width="384dp" android:layout_height="384dp">
+            <RelativeLayout android:background="@color/a69" android:layout_width="384dp" android:layout_height="384dp">
+                <ImageView android:id="@+id/dt0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="7dp" android:layout_marginTop="7dp" android:src="@drawable/bfa" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                <ImageView android:id="@+id/dt1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:layout_marginRight="7dp" android:src="@drawable/bfa" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+                <View android:background="@color/cq" android:layout_width="match_parent" android:layout_height="1dp" android:layout_marginLeft="5dp" android:layout_marginTop="8dp" android:layout_marginRight="5dp" android:layout_toLeftOf="@+id/dt1" android:layout_toRightOf="@+id/dt0" android:layout_alignParentTop="true" android:alpha="0.3"/>
+                <View android:background="@color/cq" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginLeft="8dp" android:layout_marginTop="5dp" android:layout_below="@+id/dt0" android:layout_alignParentLeft="true" android:alpha="0.3"/>
+                <View android:background="@color/cq" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="5dp" android:layout_marginRight="8dp" android:layout_below="@+id/dt1" android:layout_alignParentRight="true" android:alpha="0.3"/>
+                <RelativeLayout android:id="@+id/dt2" android:layout_width="160dp" android:layout_height="160dp" android:layout_marginTop="60dp" android:layout_centerHorizontal="true">
+                    <ImageView android:id="@+id/dt3" android:layout_width="160dp" android:layout_height="160dp"/>
+                </RelativeLayout>
+                <TextView android:textSize="20dp" android:textColor="@color/h4" android:gravity="center_horizontal" android:id="@+id/dt4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp" android:layout_below="@+id/dt2" android:layout_centerHorizontal="true"/>
+                <ImageView android:background="@drawable/bf_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+                <TextView android:textSize="16dp" android:textColor="@color/a69" android:id="@+id/dt5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layout_marginBottom="19dp" android:text="" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</ScrollView>

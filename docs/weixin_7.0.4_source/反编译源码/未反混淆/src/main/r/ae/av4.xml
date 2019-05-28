@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/vs" android:padding="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <ScrollView android:background="@drawable/b77" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/lu" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.tencent.mm.plugin.sns.ui.SnsEditText android:gravity="top" android:id="@+id/m5" android:background="@null" android:paddingRight="@dimen/nc" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1" android:textCursorDrawable="@drawable/pt" style="@style/l4"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

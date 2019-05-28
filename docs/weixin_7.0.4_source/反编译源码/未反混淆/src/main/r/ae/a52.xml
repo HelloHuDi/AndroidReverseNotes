@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/btw" android:background="@drawable/a_q" android:padding="@dimen/dy" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/rq" android:layout_width="@dimen/k4" android:layout_height="@dimen/k4" android:scaleType="fitXY"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/c7v" android:paddingLeft="@dimen/lo" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/kj" android:textColor="@color/a7f" android:ellipsize="end" android:id="@+id/b6e" android:background="@drawable/zj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                <ImageView android:id="@+id/c2q" android:visibility="gone" android:layout_width="18dp" android:layout_height="18dp"/>
+                <TextView android:textSize="@dimen/kj" android:textColor="@color/q3" android:ellipsize="end" android:id="@+id/bn0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+            </LinearLayout>
+            <TextView android:textSize="@dimen/kj" android:textColor="@color/q3" android:ellipsize="end" android:id="@+id/c7w" android:paddingTop="@dimen/lo" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2"/>
+            <com.tencent.mm.plugin.game.ui.GameMessageListContainerView android:orientation="vertical" android:id="@+id/c7x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lo"/>
+            <LinearLayout android:id="@+id/c7y" android:background="@drawable/p2" android:visibility="gone" android:layout_width="match_parent" android:layout_height="47dp" android:layout_marginTop="@dimen/lo">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/c7z" android:visibility="gone" android:layout_width="@dimen/iw" android:layout_height="@dimen/iw" android:layout_marginLeft="@dimen/do"/>
+                <TextView android:enabled="true" android:textSize="@dimen/kj" android:textColor="@color/q3" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/c80" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/dy" android:layout_marginRight="@dimen/dy" android:maxLines="2"/>
+            </LinearLayout>
+            <ImageView android:id="@+id/c81" android:background="@drawable/zj" android:visibility="gone" android:layout_width="245dp" android:layout_height="90dp" android:layout_marginTop="@dimen/lo" android:scaleType="fitXY"/>
+            <LinearLayout android:descendantFocusability="blocksDescendants" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/lo">
+                <TextView android:id="@+id/c82" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/dy" style="@style/m6"/>
+                <TextView android:id="@+id/c83" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/m2"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/c84" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/c7g" style="@style/m8"/>
+        <ImageView android:layout_width="match_parent" android:layout_height="1px" android:src="@color/qh"/>
+    </LinearLayout>
+</LinearLayout>

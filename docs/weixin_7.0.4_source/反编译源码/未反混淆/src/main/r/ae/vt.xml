@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:gravity="center_horizontal" android:background="#eeeeee" android:paddingTop="@dimen/l9" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bia" android:layout_width="@dimen/l7" android:layout_height="@dimen/l7" android:src="@drawable/ax_" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/m5" android:id="@+id/bib" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l9" android:text="@string/bf7" android:layout_below="@+id/bia" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/bic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="" android:layout_below="@+id/bib" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <ScrollView android:id="@+id/bil" android:background="#eeeeee" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="@dimen/ld" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.mm.ui.base.MaxListView android:id="@+id/bim" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:listSelector="@color/a3p" android:cacheColorHint="#00000000" android:divider="@null" android:dividerHeight="@dimen/o0" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <Button android:id="@+id/bin" android:layout_marginLeft="@dimen/m4" android:layout_marginTop="@dimen/ld" android:layout_marginRight="@dimen/m4" android:text="@string/bfr" style="@style/ni"/>
+            <Button android:id="@+id/bio" android:layout_marginLeft="@dimen/m4" android:layout_marginTop="@dimen/m4" android:layout_marginRight="@dimen/m4" android:text="@string/ben" style="@style/no"/>
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

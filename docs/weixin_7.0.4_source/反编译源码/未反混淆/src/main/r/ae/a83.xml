@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:layout_marginBottom="7dp">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ciu" android:background="@null" android:paddingTop="@dimen/j_" android:paddingBottom="@dimen/j_" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" style="@style/lw">
+        <RelativeLayout android:id="@+id/a04" android:duplicateParentState="true" android:layout_width="@dimen/io" android:layout_height="@dimen/io">
+            <ImageView android:id="@+id/zr" android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/aau" android:scaleType="fitXY"/>
+            <ImageView android:background="@drawable/p7" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/a05" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:gravity="center" android:id="@+id/zt" android:layout_marginTop="@dimen/iv" style="@style/lx"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:id="@+id/civ" android:layout_marginTop="@dimen/iv" style="@style/ls"/>
+                <ImageView android:id="@+id/ciw" android:visibility="gone" android:layout_width="@dimen/nk" android:layout_height="@dimen/nk"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

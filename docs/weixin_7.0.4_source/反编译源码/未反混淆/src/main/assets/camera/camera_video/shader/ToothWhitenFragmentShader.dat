@@ -1,0 +1,35 @@
+varying highp vec2 textureCoordinate;
+varying highp vec2 textureCoordinate2;
+
+uniform sampler2D inputImageTexture;
+uniform sampler2D inputMaskTexture;
+uniform sampler2D inputWhiteTeethLutTexture;
+
+uniform lowp float whiteTeeth;
+void main()
+{
+    lowp vec4 color = texture2D(inputImageTexture, textureCoordinate);
+    lowp vec4 maskColor = texture2D(inputMaskTexture, textureCoordinate2);
+    lowp vec4 resultColor = color;
+    if(maskColor.a < 0.995)
+    {
+        mediump vec2 quad1;
+        mediump vec2 quad2;
+        mediump vec2 texPos1;
+        mediump vec2 texPos2;
+        mediump float blueColor = color.b * 63.0;
+        quad1.y = floor(floor(blueColor) / 8.0);
+        quad1.x = floor(blueColor) - (quad1.y * 8.0);
+        quad2.y = floor(ceil(blueColor)  / 8.0);
+        quad2.x = ceil(blueColor) - (quad2.y * 8.0);
+        texPos1.x = (quad1.x * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * color.r);
+        texPos1.y = (quad1.y * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * color.g);
+        texPos2.x = (quad2.x * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * color.r);
+        texPos2.y = (quad2.y * 0.125) + 0.5/512.0 + ((0.125 - 1.0/512.0) * color.g);
+        lowp vec3 newColor1 = texture2D(inputWhiteTeethLutTexture, texPos1).rgb;
+        lowp vec3 newColor2 = texture2D(inputWhiteTeethLutTexture, texPos2).rgb;
+        lowp vec3 newColor = mix(newColor1, newColor2, fract(blueColor));
+        resultColor = vec4(mix(color.rgb, newColor, whiteTeeth * (1.0 - maskColor.a)), 1.0);
+    }
+    gl_FragColor = resultColor;
+}

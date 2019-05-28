@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.p612ui.base.sortview.CatalogView android:id="@+id/a42" android:background="@color/gr" android:paddingLeft="15dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mg"/>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a43" android:background="@drawable/zj" android:paddingLeft="20dp" android:layout_width="match_parent" android:layout_height="50dp">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:layout_gravity="center_vertical" android:id="@+id/a44" android:background="@color/a3p" android:layout_width="26dp" android:layout_height="26dp" android:scaleType="fitCenter"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:ellipsize="end" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/a45" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds" android:text="" android:maxLines="2"/>
+        </LinearLayout>
+        <View android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="1px"/>
+    </LinearLayout>
+</LinearLayout>

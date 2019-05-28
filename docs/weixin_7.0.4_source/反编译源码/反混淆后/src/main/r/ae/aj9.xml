@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <TextView android:id="@+id/djp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7w" style="@style/a09"/>
+    <TextView android:id="@+id/djq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d8d" style="@style/a09"/>
+    <TextView android:id="@+id/djr" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d8_" style="@style/a09"/>
+    <TextView android:id="@+id/djs" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d8a" style="@style/a09"/>
+    <TextView android:id="@+id/djt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7y" style="@style/a09"/>
+    <TextView android:id="@+id/dju" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7x" style="@style/a09"/>
+    <TextView android:id="@+id/djv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d86" style="@style/a09"/>
+    <TextView android:id="@+id/djw" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d7z" style="@style/a09"/>
+</LinearLayout>

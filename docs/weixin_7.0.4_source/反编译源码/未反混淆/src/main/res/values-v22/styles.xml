@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="b7">
+    </style>
+    <style name="b9">
+    </style>
+    <style name="a1d">
+        <item name="ea">?android:attr/actionModeShareDrawable</item>
+        <item name="f2">?android:attr/editTextBackground</item>
+    </style>
+    <style name="a1e">
+        <item name="ea">?android:attr/actionModeShareDrawable</item>
+        <item name="f2">?android:attr/editTextBackground</item>
+    </style>
+    <style name="ll">
+        <item name="android:orientation">@null</item>
+        <item name="android:focusable">true</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minHeight">@dimen/nb</item>
+        <item name="?0x1010558">8</item>
+    </style>
+</resources>

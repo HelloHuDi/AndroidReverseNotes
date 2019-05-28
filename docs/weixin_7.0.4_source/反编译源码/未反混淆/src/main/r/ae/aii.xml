@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp">
+        <include layout="@layout/a6b"/>
+    </LinearLayout>
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_marginBottom="66dp" android:src="@drawable/ah_"/>
+    <Button android:textSize="20dp" android:id="@+id/dgk" android:layout_marginLeft="50dp" android:layout_marginRight="50dp" android:text="@string/ehz" style="@style/ni"/>
+</LinearLayout>

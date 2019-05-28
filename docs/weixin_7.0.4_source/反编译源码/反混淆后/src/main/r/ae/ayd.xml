@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/es_" android:background="@drawable/do" android:layout_width="match_parent" android:layout_height="520dp" android:layout_alignParentBottom="true">
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/esa" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds" android:layout_marginStart="@dimen/l5" android:layout_marginEnd="@dimen/l5">
+            <TextView android:textSize="@dimen/dt" android:textColor="@color/d4" android:id="@+id/esb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/or" android:layout_centerVertical="true" android:layout_alignParentStart="true"/>
+            <TextView android:textSize="@dimen/dt" android:textColor="@color/d4" android:id="@+id/esc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g_b" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+            <Button android:id="@+id/esd" android:background="@drawable/dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qt" android:layout_centerVertical="true" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_alignParentEnd="true" style="@style/nk"/>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/ese" android:background="@drawable/dr" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="28dp" android:layout_marginStart="@dimen/l5" android:layout_marginEnd="@dimen/l5">
+            <ImageView android:id="@+id/esf" android:layout_width="18dp" android:layout_height="18dp" android:layout_centerVertical="true" android:layout_marginStart="8dp" android:layout_alignParentStart="true"/>
+            <ImageView android:id="@+id/esg" android:visibility="gone" android:layout_width="18dp" android:layout_height="18dp" android:src="@drawable/z7" android:layout_centerVertical="true" android:layout_marginEnd="8dp" android:layout_alignParentEnd="true"/>
+            <EditText android:textSize="@dimen/dt" android:textColor="@color/d4" android:textColorHint="@color/a1z" android:id="@+id/esh" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:layout_marginBottom="8dp" android:hint="@string/g__" android:singleLine="true" android:layout_centerVertical="true" android:imeOptions="actionSearch" android:textCursorDrawable="@drawable/a2_" android:layout_marginStart="8dp" android:layout_marginEnd="8dp" android:layout_toStartOf="@+id/esg" android:layout_toEndOf="@+id/esf"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/esi" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <RelativeLayout android:orientation="horizontal" android:id="@+id/esj" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:id="@+id/esk" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46dp" android:text="@string/g_a" android:layout_centerHorizontal="true"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/esl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46dp" android:layout_centerHorizontal="true">
+                <ProgressBar android:id="@+id/esm" android:layout_width="24dp" android:layout_height="24dp" android:layout_centerInParent="true" android:layout_marginEnd="@dimen/le" style="@style/zq"/>
+                <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:id="@+id/esn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/g_c"/>
+            </LinearLayout>
+            <android.support.p069v7.widget.RecyclerView android:id="@+id/eso" android:paddingTop="@dimen/l5" android:paddingBottom="@dimen/l5" android:visibility="gone" android:fadingEdge="vertical" android:fadingEdgeLength="50dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:requiresFadingEdge="vertical" android:layout_marginStart="@dimen/l5" android:layout_marginEnd="@dimen/l5"/>
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@+id/esp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/es_"/>
+</merge>

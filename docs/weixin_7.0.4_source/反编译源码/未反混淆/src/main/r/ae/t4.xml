@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:layout_width="54dp" android:layout_height="54dp" android:layout_marginTop="53dp" android:src="@a/remittance_received"/>
+    <TextView android:textSize="@dimen/ks" android:textStyle="bold" android:textColor="@color/h4" android:id="@+id/ld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="37dp" android:text="@string/b8a"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <Button android:id="@+id/bbd" android:layout_width="184dp" android:layout_height="40dp" android:layout_marginBottom="96dp" android:text="@string/b8_" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/ni"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/im">
+    <LinearLayout android:orientation="horizontal" android:padding="@dimen/i0" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ie">
+        <LinearLayout android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/bq6" android:src="@c1318a/fav_list_img_default" style="@style/id"/>
+            <include layout="@layout/yh"/>
+            <include layout="@layout/yg"/>
+        </LinearLayout>
+        <include layout="@layout/yf"/>
+    </LinearLayout>
+</FrameLayout>

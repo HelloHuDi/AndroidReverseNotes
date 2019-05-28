@@ -1,0 +1,131 @@
+precision highp float;
+//uniform mat4 projection;
+//uniform mat4 faceFrame;
+//uniform mat4 stableToImage;
+uniform vec2 leftEyePlainSize;
+uniform vec3 leftEyeCenter;
+uniform vec2 rightEyePlainSize;
+uniform vec3 rightEyeCenter;
+
+uniform vec2 leftEyebrowPlainSize;
+uniform vec3 leftEyebrowCenter;
+uniform vec2 rightEyebrowPlainSize;
+uniform vec3 rightEyebrowCenter;
+
+uniform vec3 lipsCenter;
+uniform vec2 lipsPlainSize;
+uniform vec3 nose3DCenter; // 鼻子中心
+uniform vec2 nosePlainSize; //
+uniform vec2 facePlainSize;
+uniform vec3 faceCenter;
+uniform vec2 faceInnerPlainSize;
+uniform vec3 faceInnerCenter;
+uniform float faceWidth;
+attribute vec4 position;
+//attribute float faceIndex;
+//attribute float depthValue;
+varying vec2 textureCoordinate;
+uniform vec3 angles; // angles.x: pitch, angles.y: yaw, angles.z: roll
+uniform vec2 size;
+
+uniform sampler2D inputImageTexture;
+
+float getElipseMask(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize) {
+    // un-normalization
+    boundingSize = boundingSize * size;
+    point = point * size;
+    center = center * size;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 translate = (point - center);
+    // rotate and scale
+    vec2 v = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) * sigmaScaling;
+
+    float d2 = sqrt(dot(v / boundingSize, v / boundingSize));
+    float a1 = 0.5;
+    float a2 = 1.2;
+
+    return 1.0 - smoothstep(a1, a2, d2);
+}
+
+float getElipseMask2(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize) {
+    // un-normalization
+    boundingSize = boundingSize * size;
+    point = point * size;
+    center = center * size;
+
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 translate = (point - center);
+    // rotate and scale
+    vec2 v = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) * sigmaScaling;
+
+    float d2 = sqrt(dot(v / boundingSize, v / boundingSize));
+    float a1 = 0.6;
+    float a2 = 0.9;
+
+    return 1.0 - smoothstep(a1, a2, d2);
+}
+
+float getLeftEyeMask() {
+    const vec2 sigmaScaling = vec2(1.5, 0.9);
+    return getElipseMask(sigmaScaling, position.xy, leftEyeCenter.xy, leftEyePlainSize);
+}
+float getRightEyeMask() {
+    const vec2 sigmaScaling = vec2(1.5, 0.9);
+    return getElipseMask(sigmaScaling, position.xy, rightEyeCenter.xy, rightEyePlainSize);
+}
+float getLeftEyebrowMask() {
+    const vec2 sigmaScaling = vec2(1.0, 1.0);
+    return getElipseMask(sigmaScaling, position.xy, leftEyebrowCenter.xy, leftEyebrowPlainSize);
+}
+float getRightEyebrowMask() {
+    const vec2 sigmaScaling = vec2(1.0, 1.0);
+    return getElipseMask(sigmaScaling, position.xy, rightEyebrowCenter.xy, rightEyebrowPlainSize);
+}
+highp float getLipsMask() {
+    const highp vec2 sigmaScaling = vec2(1.5, 1.5);
+    return getElipseMask(sigmaScaling, position.xy, lipsCenter.xy, lipsPlainSize);
+}
+float getNoseMask() {
+    const vec2 sigmaScaling = vec2(1.1, 1.0);
+    return getElipseMask(sigmaScaling, position.xy, nose3DCenter.xy, nosePlainSize);
+}
+float getFaceMask() {
+    const vec2 sigmaScaling = vec2(1.0, 1.0);
+    return getElipseMask2(sigmaScaling, position.xy, faceCenter.xy, facePlainSize);
+}
+float getFaceInnerMask() {
+    const vec2 sigmaScaling = vec2(1.0, 1.0);
+    return getElipseMask(sigmaScaling, position.xy, faceInnerCenter.xy, faceInnerPlainSize);
+}
+vec3 getScaledFacePoint2(vec3 originalPoint, float scalingFactor, float theta, float faceCoarseMask) {
+    if (scalingFactor == 0.0) {
+        return originalPoint;
+    }
+    float sin_t = sin(theta);
+    float cos_t = cos(theta);
+    vec2 v = (originalPoint - faceCenter).xy;
+    float d = dot(v, vec2(cos_t, sin_t));
+    d = d * 0.3 * faceCoarseMask * scalingFactor;
+    vec2 sc = d * vec2(cos_t, sin_t);
+    return vec3(originalPoint.xy+sc, originalPoint.z);
+}
+
+void main() {
+    const float pi = 3.1415926;
+
+    float faceNegativeRegionsMask = (1.0 - 0.8*getLeftEyeMask()) * (1.0 - 0.8*getRightEyeMask()) * (1.0 - 0.5*getLeftEyebrowMask()) * (1.0 - 0.5*getRightEyebrowMask()) * (1.0 - 0.6*getLipsMask()) * (1.0 - 0.9*getNoseMask());
+    //float faceNegativeRegionsMask = (1.0 - getFaceInnerMask());
+    float faceCoarseMask   = getFaceMask();
+    vec3 displacedFacePoint   = position.xyz;
+
+    // width
+    displacedFacePoint = getScaledFacePoint2(displacedFacePoint, faceWidth, angles.z, faceCoarseMask*faceNegativeRegionsMask);
+
+    vec2 originalPosition = (vec4(position.xyz, 1.0)).xy;
+    vec2 displacedPosition = (vec4(displacedFacePoint, 1.0)).xy;
+    textureCoordinate = displacedPosition;
+    gl_Position = vec4(originalPosition.x*2.0-1.0, originalPosition.y*2.0-1.0, 0.0, 1.0);
+}

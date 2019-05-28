@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:duration="100" android:drawable="@drawable/b2h"/>
+    <item android:duration="100" android:drawable="@drawable/b2i"/>
+    <item android:duration="100" android:drawable="@drawable/b2j"/>
+    <item android:duration="100" android:drawable="@drawable/b2k"/>
+    <item android:duration="100" android:drawable="@drawable/b2l"/>
+</animation-list>

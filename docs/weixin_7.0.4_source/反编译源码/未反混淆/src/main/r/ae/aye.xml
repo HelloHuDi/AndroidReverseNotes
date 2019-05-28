@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/esq" android:background="@drawable/dv" android:layout_width="match_parent" android:layout_height="180dp">
+        <ImageView android:id="@+id/esr" android:layout_width="@dimen/a_a" android:layout_height="@dimen/a_a" android:layout_marginTop="40dp" android:layout_marginStart="24dp" android:layout_alignParentStart="true"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginTop="40dp" android:layout_marginEnd="24dp" android:layout_alignParentEnd="true">
+            <ImageView android:id="@+id/ess" android:layout_width="@dimen/a_a" android:layout_height="@dimen/a_a" android:src="@drawable/uu"/>
+            <ImageView android:id="@+id/est" android:visibility="gone" android:layout_width="@dimen/a_a" android:layout_height="@dimen/a_a" android:layout_marginTop="@dimen/l5"/>
+            <ImageView android:id="@+id/esu" android:visibility="gone" android:layout_width="@dimen/a_a" android:layout_height="@dimen/a_a" android:layout_marginTop="@dimen/l5"/>
+        </LinearLayout>
+    </RelativeLayout>
+    <FrameLayout android:layout_gravity="bottom" android:id="@+id/esv" android:background="@drawable/ds" android:layout_width="match_parent" android:layout_height="144dp">
+        <RelativeLayout android:layout_gravity="bottom" android:id="@+id/esw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a9y">
+            <Button android:textStyle="bold" android:id="@+id/esx" android:background="@drawable/a2l" android:layout_width="wrap_content" android:layout_height="56dp" android:text="@string/esp" android:layout_centerVertical="true" android:paddingStart="12dp" android:paddingEnd="12dp" android:layout_marginStart="@dimen/a9w" android:layout_marginEnd="@dimen/a9x" android:layout_alignParentEnd="true" style="@style/nk"/>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/esy" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/esx">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/esz" android:layout_width="@dimen/a_a" android:layout_height="@dimen/a_a" android:layout_weight="1" android:layout_marginStart="@dimen/a9x"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/et0" android:layout_width="@dimen/a_a" android:layout_height="@dimen/a_a" android:layout_weight="1" android:layout_marginStart="@dimen/a9x"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/et1" android:layout_width="@dimen/a_a" android:layout_height="@dimen/a_a" android:layout_weight="1" android:layout_marginStart="@dimen/a9x"/>
+                <ImageView android:id="@+id/et2" android:layout_width="12dp" android:layout_height="12dp" android:layout_below="@+id/et1" android:layout_alignEnd="@+id/et1"/>
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/et3" android:layout_width="@dimen/a_a" android:layout_height="@dimen/a_a" android:layout_weight="1" android:layout_marginStart="@dimen/a9x"/>
+                <ImageView android:id="@+id/et4" android:layout_width="12dp" android:layout_height="12dp" android:layout_below="@+id/et3" android:layout_alignEnd="@+id/et3"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</merge>

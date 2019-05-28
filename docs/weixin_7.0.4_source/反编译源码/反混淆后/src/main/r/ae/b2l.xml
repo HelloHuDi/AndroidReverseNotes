@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@drawable/bjz" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.plugin.voip.video.OpenGlView android:id="@+id/f51" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <com.tencent.p177mm.p612ui.base.MMTextureView android:id="@+id/f52" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <com.tencent.p177mm.plugin.voip.video.OpenGlView android:id="@+id/f53" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginRight="2dp" android:layout_marginBottom="2dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <ImageView android:id="@+id/f54" android:layout_width="18dp" android:layout_height="18dp" android:layout_marginLeft="8dp" android:layout_marginTop="6dp" android:src="@drawable/bjt"/>
+</RelativeLayout>

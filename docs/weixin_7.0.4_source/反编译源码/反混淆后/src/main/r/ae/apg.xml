@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/e59" android:visibility="invisible" android:layout_centerHorizontal="true" style="@style/r1"/>
+    <TextView android:id="@+id/e5_" android:layout_below="@+id/e59" android:layout_centerHorizontal="true" style="@style/r0"/>
+    <TextView android:id="@+id/e56" android:text="@string/dy_" android:layout_centerHorizontal="true" style="@style/r3"/>
+</RelativeLayout>

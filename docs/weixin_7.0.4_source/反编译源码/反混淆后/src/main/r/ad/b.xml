@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceSmallCategory/>
+    <com.tencent.p177mm.plugin.subapp.p537ui.pluginapp.AddFriendSearchPreference app:key="find_friends_by_input"/>
+    <com.tencent.p177mm.p612ui.base.preference.PreferenceInfoCategory app:key="find_friends_info"/>
+    <PreferenceCategory/>
+    <com.tencent.p177mm.plugin.subapp.p537ui.pluginapp.AddFriendItemPreference app:summary="@string/btq" app:title="@string/btp" app:icon="@c1318a/avatar_radar" app:key="find_friends_by_radar"/>
+    <com.tencent.p177mm.plugin.subapp.p537ui.pluginapp.AddFriendItemPreference app:summary="@string/btt" app:title="@string/bts" app:icon="@c1318a/default_chatroom" app:key="find_friends_create_pwdgroup"/>
+    <com.tencent.p177mm.plugin.subapp.p537ui.pluginapp.AddFriendItemPreference app:summary="@string/bto" app:title="@string/btn" app:icon="@c1318a/avatar_scan" app:key="find_friends_by_qrcode"/>
+    <com.tencent.p177mm.plugin.subapp.p537ui.pluginapp.AddFriendItemPreference app:summary="@string/btl" app:title="@string/btj" app:icon="@c1318a/default_fmessage" app:key="find_friends_by_other_way"/>
+    <com.tencent.p177mm.plugin.subapp.p537ui.pluginapp.AddFriendItemPreference app:summary="@string/btr" app:title="@string/bip" app:icon="@c1318a/default_servicebrand_contact" app:key="find_friends_by_web"/>
+    <com.tencent.p177mm.plugin.subapp.p537ui.pluginapp.AddFriendItemPreference app:summary="@string/ck" app:title="@string/cl" app:icon="@c1318a/default_wework" app:key="find_friends_by_ww"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.plugin.fav.p410ui.widget.FavSearchActionView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/l0" android:background="@drawable/al" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/l1" android:background="@null" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@c1318a/actionbar_icon_dark_back" android:contentDescription="@string/g1"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="6dp" android:paddingRight="0dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:layout_marginRight="@dimen/nc" android:layout_marginBottom="4dp" android:layout_weight="1">
+        <ScrollView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:overScrollMode="never">
+            <com.tencent.p177mm.plugin.fav.p410ui.widget.FavTagPanel android:id="@+id/brh" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="@dimen/ds" app:verticalSpacing="@dimen/ds"/>
+        </ScrollView>
+        <ImageButton android:id="@+id/bri" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nc" android:src="@drawable/z7" android:contentDescription="@string/aqw"/>
+    </LinearLayout>
+</com.tencent.p177mm.plugin.fav.p410ui.widget.FavSearchActionView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:id="@+id/jw" android:background="@color/x" android:layout_width="match_parent" android:layout_height="match_parent" android:minHeight="?attr/dx">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/kw" android:background="@drawable/al" android:paddingLeft="@dimen/gg" android:paddingRight="@dimen/gg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/kx" android:background="@null" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@drawable/ai" android:contentDescription="@string/c8"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/l5" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_toRightOf="@+id/kw">
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/ey5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/kl"/>
+        <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/cu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" style="@style/kk"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerHorizontal="true">
+        <View android:id="@+id/ey6" android:layout_width="28dp" android:layout_height="match_parent"/>
+        <android.support.design.widget.TabLayout android:id="@+id/ey7" android:layout_width="wrap_content" android:layout_height="match_parent" app:tabIndicatorHeight="0dp" app:tabBackground="@color/x" app:tabMode="1" app:tabGravity="1" app:tabTextColor="#7f7f7f" app:tabSelectedTextColor="#191919" app:tabPaddingStart="0dp" app:tabPaddingEnd="0dp"/>
+    </LinearLayout>
+    <RelativeLayout android:visibility="visible" android:layout_width="56dp" android:layout_height="match_parent" android:layout_alignParentRight="true">
+        <ImageButton android:id="@+id/ey8" android:background="@drawable/al" android:paddingLeft="@dimen/g7" android:paddingRight="@dimen/g7" android:layout_width="56dp" android:layout_height="match_parent" android:src="@a/actionbar_icon_dark_search"/>
+        <ImageView android:id="@+id/ey9" android:visibility="gone" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/uy"/>
+    </RelativeLayout>
+</RelativeLayout>

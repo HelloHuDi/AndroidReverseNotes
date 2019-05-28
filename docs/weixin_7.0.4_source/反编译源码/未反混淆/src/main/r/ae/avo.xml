@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@drawable/a1d" android:padding="3dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="50dp">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="50dp">
+            <FrameLayout android:layout_width="wrap_content" android:layout_height="match_parent" android:minHeight="50dp">
+                <com.tencent.mm.ui.MMImageView android:id="@+id/d11" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="3dp" android:scaleType="centerCrop" android:maxHeight="350dp"/>
+                <ImageView android:layout_gravity="center" android:id="@+id/c9m" android:visibility="gone" android:layout_width="50dp" android:layout_height="50dp" android:layout_margin="3dp" android:src="@drawable/aql" android:scaleType="center" android:maxHeight="350dp"/>
+            </FrameLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/d12" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="6dp" android:minHeight="50dp">
+            <TextView android:textSize="14dp" android:textColor="@color/h4" android:ellipsize="end" android:gravity="center_vertical" android:id="@+id/d13" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+            <TextView android:textSize="14dp" android:textColor="@color/a1a" android:ellipsize="end" android:id="@+id/d14" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

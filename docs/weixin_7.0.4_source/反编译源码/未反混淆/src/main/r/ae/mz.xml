@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:focusable="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:id="@+id/ag" android:layout_marginBottom="@dimen/m4" style="@style/gg"/>
+    <LinearLayout android:gravity="center" style="@style/g8">
+        <com.tencent.mm.ui.widget.MMNeat7extView android:gravity="left" android:id="@+id/oe" android:background="@drawable/hv" android:paddingLeft="@dimen/le" android:paddingRight="@dimen/le" android:clickable="true" android:layout_marginLeft="@dimen/l8" android:layout_marginRight="@dimen/l8" style="@style/gi"/>
+    </LinearLayout>
+</LinearLayout>

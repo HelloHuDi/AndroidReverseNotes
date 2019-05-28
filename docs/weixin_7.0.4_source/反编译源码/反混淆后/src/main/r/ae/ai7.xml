@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageButton android:id="@+id/dfv" android:background="@drawable/wy" android:layout_width="42dp" android:layout_height="42dp" android:src="@drawable/ali" android:contentDescription="@string/cn6"/>
+    <LinearLayout android:gravity="center" android:id="@+id/oa" android:background="@drawable/wy" android:visibility="gone" android:layout_width="42dp" android:layout_height="42dp">
+        <ProgressBar android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+    </LinearLayout>
+</FrameLayout>

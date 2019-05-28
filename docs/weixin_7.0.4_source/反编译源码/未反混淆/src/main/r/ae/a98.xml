@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.plugin.ipcall.ui.IPCallShareSquareLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bz0" android:background="@drawable/a02" android:clickable="true" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="5">
+            <ImageView android:layout_gravity="center" android:id="@+id/cnp" android:layout_width="48dp" android:layout_height="48dp"/>
+        </FrameLayout>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="2"/>
+        <FrameLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <TextView android:textSize="@dimen/nk" android:textColor="#000000" android:gravity="center" android:layout_gravity="center" android:id="@+id/cnq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.54"/>
+        </FrameLayout>
+    </LinearLayout>
+</com.tencent.mm.plugin.ipcall.ui.IPCallShareSquareLayout>

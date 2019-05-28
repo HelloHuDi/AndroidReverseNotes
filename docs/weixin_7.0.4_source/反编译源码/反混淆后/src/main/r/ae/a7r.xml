@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/ci4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ImageView android:id="@+id/ci5" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_centerVertical="true"/>
+    <ImageView android:id="@+id/ci6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/media_btn_play" android:layout_centerInParent="true"/>
+    <com.tencent.p177mm.p612ui.widget.MMPinProgressBtn android:id="@+id/ci7" android:visibility="gone" android:layout_width="@dimen/a7a" android:layout_height="@dimen/a7a" android:layout_centerInParent="true"/>
+</RelativeLayout>

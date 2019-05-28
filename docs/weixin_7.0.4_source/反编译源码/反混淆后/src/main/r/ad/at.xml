@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.p177mm.p612ui.FriendSnsPreference app:title="@string/ekb" app:key="album_dyna_photo_ui_title"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/btn" app:icon="@c1318a/icons_outlined_scan" app:iconColor="@color/bb" app:key="find_friends_by_qrcode"/>
+    <NormalIconPreference app:title="@string/efr" app:icon="@c1318a/icons_outlined_shake" app:iconColor="@color/bb" app:key="find_friends_by_shake"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/btu" app:icon="@c1318a/icons_outlined_news" app:iconColor="@color/c4" app:key="find_friends_by_look"/>
+    <NormalIconPreference app:title="@string/bty" app:icon="@c1318a/icons_outlined_searchlogo" app:iconColor="@color/ct" app:key="find_friends_by_search"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/d57" app:icon="@c1318a/icons_outlined_nearby" app:iconColor="@color/bb" app:key="find_friends_by_near"/>
+    <NormalIconPreference app:title="@string/FF_Entry_Nearby" app:icon="@c1318a/my_life_around_default_icon" app:key="my_life_around"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:icon="@c1318a/icons_outlined_shop" app:iconColor="@color/ct" app:key="jd_market_entrance"/>
+    <NormalIconPreference app:title="@string/c7m" app:icon="@c1318a/icons_outlined_colorful_game" app:key="more_tab_game_recommend"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/i9" app:icon="@c1318a/icons_outlined_miniprogram" app:iconColor="@color/cd" app:key="app_brand_entrance"/>
+    <PreferenceSmallCategory/>
+    <NormalIconPreference app:title="@string/cgr" app:icon="@c1318a/icons_outlined_wechatout" app:iconColor="@color/ag" app:key="ip_call_entrance"/>
+</PreferenceScreen>

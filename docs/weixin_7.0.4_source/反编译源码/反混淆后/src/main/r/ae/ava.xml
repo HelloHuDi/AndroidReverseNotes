@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.plugin.sns.p520ui.PhotosContent xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/ej7" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.plugin.sns.p520ui.MaskImageView android:id="@+id/ej8" android:layout_width="73dp" android:layout_height="73dp" android:layout_margin="1dp" android:scaleType="centerCrop" android:maxHeight="160dp"/>
+</com.tencent.p177mm.plugin.sns.p520ui.PhotosContent>

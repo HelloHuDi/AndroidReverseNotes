@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.p177mm.plugin.setting.p505ui.setting.SettingsAboutMMHeaderPreference app:key="settings_about_mm_header" app:layout="@layout/arm"/>
+    <IconPreference app:title="@string/edp" app:key="funtion_about_wechat"/>
+    <IconPreference app:title="@string/eci" app:key="settings_update"/>
+    <Preference app:title="@string/e_w" app:key="settings_report" app:layout="@layout/ae4"/>
+    <IconSummaryPreference app:title="@string/c32" app:key="funtion_update"/>
+    <IconPreference app:title="@string/c30" app:key="funtion_check_update"/>
+    <IconPreference app:title="@string/c31" app:key="funtion_crowdtest_update"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

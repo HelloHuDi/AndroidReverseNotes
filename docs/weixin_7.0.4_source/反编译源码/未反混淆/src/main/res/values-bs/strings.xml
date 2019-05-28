@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Razno</string>
+    <string name="c">Navigiraj prema gore</string>
+    <string name="abc_action_menu_overflow_description">Više opcija</string>
+    <string name="d">Gotovo</string>
+    <string name="e">Prikaži sve</string>
+    <string name="f">Odaberite aplikaciju</string>
+    <string name="g">ISKLJUČI</string>
+    <string name="h">UKLJUČI</string>
+    <string name="i">Pretraži...</string>
+    <string name="j">Obriši upit</string>
+    <string name="l">Traži</string>
+    <string name="m">Pošalji upit</string>
+    <string name="n">Glasovno pretraživanje</string>
+    <string name="q">Skupi</string>
+    <string name="common_google_play_services_enable_button">Omogući</string>
+    <string name="common_google_play_services_enable_text">Aplikacija %1$s neće raditi ako ne omogućite Google Play usluge.</string>
+    <string name="common_google_play_services_enable_title">Omogućite Google Play usluge</string>
+    <string name="common_google_play_services_install_button">Instaliraj</string>
+    <string name="common_google_play_services_install_text">Aplikacija %1$s neće raditi bez Google Play usluga, kojih na vašem uređaju nema.</string>
+    <string name="common_google_play_services_install_title">Nabavite Google Play usluge</string>
+    <string name="common_google_play_services_notification_channel_name">Dostupnost Google Play usluga</string>
+    <string name="common_google_play_services_notification_ticker">Greška Google Play usluge</string>
+    <string name="common_google_play_services_unknown_issue">Aplikacija %1$s ima problema s Google Play uslugama. Pokušajte ponovo.</string>
+    <string name="common_google_play_services_unsupported_text">Aplikacija %1$s neće raditi bez Google Play usluga, koje vaš uređaj ne podržava.</string>
+    <string name="common_google_play_services_update_button">Ažuriraj</string>
+    <string name="common_google_play_services_update_text">Aplikacija %1$s neće raditi ako ne ažurirate Google Play usluge.</string>
+    <string name="common_google_play_services_update_title">Ažuriranje Google Play usluga</string>
+    <string name="common_google_play_services_updating_text">Aplikacija %1$s neće raditi bez Google Play usluga, koje se trenutno ažuriraju.</string>
+    <string name="common_google_play_services_wear_update_text">Potrebna je nova verzija Google Play usluga. Ubrzo će se samo ažurirati.</string>
+    <string name="common_open_on_phone">Otvori na telefonu</string>
+    <string name="common_signin_button_text">Prijavi se</string>
+    <string name="common_signin_button_text_long">Prijavi se pomoću Googlea</string>
+    <string name="r">Razno</string>
+    <string name="b">Vrati se na početnu stranicu</string>
+    <string name="k">Pretraži upit</string>
+    <string name="o">Podijeli sa</string>
+    <string name="p">Podijeli koristeći aplikaciju %s</string>
+    <string name="s">Pretraži</string>
+    <string name="t">&gt;999</string>
+</resources>

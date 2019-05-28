@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/ul" android:paddingTop="70dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <LinearLayout android:id="@+id/d3c" android:background="@color/ul" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:ellipsize="end" android:gravity="left" android:id="@+id/a2f" android:background="#1a000000" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/m4" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="aslfasjldfljsaflsjlf" android:maxLines="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@color/ul" android:layout_width="match_parent" android:layout_height="0dp" android:baselineAligned="false" android:layout_weight="1">
+        <RelativeLayout android:id="@+id/d3d" style="@style/pi">
+            <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/d3e" android:layout_width="35dp" android:layout_height="35dp" android:src="@c1318a/mall_index_offline_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/pj"/>
+            <TextView android:id="@+id/d3f" android:text="@string/fg7" android:layout_below="@+id/d3e" style="@style/pk"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/uh" android:ellipsize="end" android:id="@+id/d3g" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/d3f" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/d3h" style="@style/pi">
+            <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/d3i" android:layout_width="35dp" android:layout_height="35dp" android:src="@c1318a/mall_index_balance_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/pj"/>
+            <TextView android:id="@+id/d3j" android:text="@string/ffv" android:layout_below="@+id/d3i" style="@style/pk"/>
+            <com.tencent.p177mm.wallet_core.p650ui.WalletTextView android:textSize="@dimen/kr" android:textColor="@color/uh" android:ellipsize="end" android:id="@+id/d3k" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:singleLine="true" android:layout_below="@+id/d3j" android:layout_centerHorizontal="true"/>
+            <ImageView android:id="@+id/d3l" android:visibility="gone" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginLeft="-7dp" android:src="@drawable/a4h" android:layout_toRightOf="@+id/d3i" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/d3m" android:visibility="gone" style="@style/pi">
+            <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/d3n" android:layout_width="35dp" android:layout_height="35dp" android:src="@c1318a/mall_index_lqt_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/pj"/>
+            <TextView android:id="@+id/d3o" android:text="@string/fg6" android:layout_below="@+id/d3n" style="@style/pk"/>
+            <ImageView android:id="@+id/d3p" android:visibility="gone" android:layout_width="9dp" android:layout_height="9dp" android:layout_marginLeft="-7dp" android:src="@drawable/a4h" android:layout_toRightOf="@+id/d3n" android:layout_alignParentTop="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/d3q" style="@style/pi">
+            <com.tencent.p177mm.pluginsdk.p597ui.applet.CdnImageView android:id="@+id/d3r" android:layout_width="35dp" android:layout_height="35dp" android:src="@c1318a/mall_index_bankcard_icon_normal" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/pj"/>
+            <TextView android:id="@+id/d3s" android:text="@string/ffx" android:layout_below="@+id/d3r" style="@style/pk"/>
+            <ImageView android:id="@+id/d3t" android:visibility="gone" android:layout_width="10dp" android:layout_height="10dp" android:layout_marginLeft="-6dp" android:layout_marginTop="1dp" android:layout_marginRight="1dp" android:src="@drawable/a4h" android:layout_toRightOf="@+id/d3r" android:layout_alignParentTop="true"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/uh" android:ellipsize="end" android:id="@+id/d3u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@+id/d3s" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

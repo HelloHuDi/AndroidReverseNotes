@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:background="@drawable/ay1" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="48dp">
+    <com.tencent.p177mm.plugin.appbrand.game.widget.input.WAGamePanelInputEditText android:textColor="@color/h4" android:layout_gravity="bottom" android:id="@+id/qo" android:layout_width="0dp" android:layout_marginTop="8dp" android:maxHeight="@dimen/ek" android:minHeight="@dimen/em" android:hint="@null" android:singleLine="false" android:layout_weight="1" android:inputType="none|text|textCapSentences|textMultiLine" style="@style/l4"/>
+    <Button android:id="@+id/qp" android:layout_width="wrap_content" android:layout_height="@dimen/ep" android:layout_marginLeft="2dp" android:layout_marginTop="8dp" android:layout_marginRight="2dp" android:layout_marginBottom="8dp" android:minWidth="@dimen/er" style="@style/nk"/>
+</LinearLayout>

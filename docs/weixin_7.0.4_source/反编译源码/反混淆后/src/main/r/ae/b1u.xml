@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="14dp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/f1f" android:background="#e64340" android:layout_width="match_parent" android:layout_height="30dp" android:text="@string/cfq"/>
+</FrameLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/akp" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_weight="1">
+    <ImageView android:id="@+id/aga" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="40dp"/>
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+        <TextView android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:layout_marginRight="6dp" android:singleLine="true" style="@style/l9"/>
+    </LinearLayout>
+    <TextView android:textSize="12dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/aks" android:paddingLeft="6dp" android:paddingRight="6dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6sp"/>
+    <RelativeLayout android:id="@+id/akt" android:background="@null" android:layout_width="43dp" android:layout_height="43dp">
+        <ImageView android:id="@+id/aku" android:layout_width="30dp" android:layout_height="30dp" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+        <TextView android:id="@+id/akv" android:visibility="gone" android:layout_alignParentTop="true" android:layout_alignParentRight="true" style="@style/uy"/>
+    </RelativeLayout>
+    <TextView android:textSize="10dp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/akq" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/s0"/>
+</LinearLayout>

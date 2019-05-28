@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:state_pressed="true">
+        <shape>
+            <solid android:color="#6ca479"/>
+            <corners android:bottomLeftRadius="3dp" android:bottomRightRadius="3dp"/>
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="#5b9a6a"/>
+            <corners android:bottomLeftRadius="3dp" android:bottomRightRadius="3dp"/>
+        </shape>
+    </item>
+</selector>

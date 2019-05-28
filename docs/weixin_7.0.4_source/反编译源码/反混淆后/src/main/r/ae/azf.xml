@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/evf" android:background="@drawable/a3j" android:layout_width="match_parent" android:layout_height="@dimen/a_h"/>
+    <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/evg" android:layout_width="match_parent" android:layout_height="@dimen/a_h">
+            <FrameLayout android:layout_width="@dimen/a_i" android:layout_height="@dimen/a_i" android:layout_marginLeft="10dp">
+                <ImageView android:id="@+id/evh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/tipsbar_icon_location" android:scaleType="fitXY" android:contentDescription="@null"/>
+                <ImageView android:id="@+id/evi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY" android:contentDescription="@null"/>
+            </FrameLayout>
+            <TextView android:textSize="@dimen/a_j" android:textColor="@color/a6a" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/evj" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:singleLine="true" android:layout_weight="1"/>
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8dp" android:src="@c1318a/tipsbar_icon_arrow_light" android:scaleType="fitCenter" android:contentDescription="@null"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/evk" android:visibility="gone" android:layout_width="match_parent" android:layout_height="132dp">
+            <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="60dp">
+                <ImageView android:layout_width="30dp" android:layout_height="30dp" android:layout_marginTop="7dp" android:src="@c1318a/tipsbar_icon_location" android:scaleType="fitXY" android:contentDescription="@null"/>
+                <TextView android:textSize="14sp" android:textStyle="bold" android:textColor="#ffffff" android:gravity="center_vertical" android:id="@+id/evl" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/evm" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="24dp">
+                <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/evn" android:background="@drawable/apa" android:layout_width="143dp" android:layout_height="48dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/or" android:layout_weight="1"/>
+                <Button android:textStyle="bold" android:textColor="#ffffffff" android:id="@+id/evo" android:background="@drawable/apd" android:layout_width="143dp" android:layout_height="48dp" android:layout_marginLeft="8dp" android:layout_marginRight="8dp" android:text="@string/eue" android:layout_weight="1"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

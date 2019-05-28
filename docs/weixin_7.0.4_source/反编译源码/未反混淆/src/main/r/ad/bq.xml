@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.mm.plugin.facedetect.ui.FaceHeaderPreference app:key="settings_faceprint_header"/>
+    <PreferenceCategory/>
+    <PreferenceCategory/>
+    <com.tencent.mm.ui.base.preference.CheckBoxPreference app:summary="@string/e6u" app:title="@string/e6t" app:key="settings_faceprint_title"/>
+    <SummaryBelowPreference app:title="@string/e6w" app:key="settings_faceprint_create"/>
+    <Preference app:title="@string/e6z" app:key="settings_faceeprint_reset" app:layout="@layout/ae4"/>
+    <Preference app:title="@string/e70" app:key="settings_faceprint_unlock" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:paddingTop="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/bq4" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:layout_width="wrap_content" android:layout_marginRight="10dp" android:text="@string/bsc" android:layout_weight="0" style="@style/ii"/>
+        <View android:background="@color/p4" android:layout_width="1dp" android:layout_height="match_parent" android:layout_marginTop="2dp" android:layout_marginRight="10dp" android:layout_marginBottom="2dp"/>
+    </LinearLayout>
+    <TextView android:ellipsize="end" android:id="@+id/b4" android:layout_width="wrap_content" android:layout_marginRight="10dp" android:maxWidth="200dp" android:text="{name}" style="@style/ii"/>
+    <TextView android:gravity="center_vertical" android:id="@+id/ba" android:layout_width="0dp" android:text="{time}" android:layout_weight="1" style="@style/ii"/>
+    <ImageView android:id="@+id/bq5" android:visibility="gone" android:layout_width="14dp" android:layout_height="14dp" android:src="@a/fav_list_tag"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <PreferenceSmallCategory/>
+    <PreferenceSmallCategory/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/eb4" app:key="settings_voip_sound" app:defaultValue="true"/>
+    <CheckBoxPreference app:persistent="false" app:title="@string/ead" app:key="settings_voip_shake" app:defaultValue="true"/>
+    <PreferenceSmallCategory/>
+</PreferenceScreen>

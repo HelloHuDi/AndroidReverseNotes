@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bc_" android:background="@color/a22" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="17sp" android:textColor="@color/a69" android:gravity="center" android:id="@+id/bca" android:layout_width="wrap_content" android:layout_height="32dp" android:layout_marginTop="32dp" android:text="@string/or" android:layout_marginStart="@dimen/a_2"/>
+    <Button android:textSize="17sp" android:id="@+id/bcb" android:background="@drawable/a1z" android:layout_marginTop="32dp" android:text="@string/qt" android:layout_marginEnd="@dimen/a_2" android:layout_alignParentEnd="true" style="@style/nk"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/bcc" android:paddingBottom="12dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/bcd" android:layout_width="24dp" android:layout_height="24dp" android:src="@drawable/a2j" android:layout_marginStart="@dimen/a_2" android:layout_marginEnd="@dimen/a_2"/>
+        <View android:background="#33ffffff" android:layout_width="1dp" android:layout_height="match_parent"/>
+        <com.tencent.mm.media.editor.view.TextColorSelector android:layout_gravity="center_vertical" android:id="@+id/bce" android:layout_width="match_parent" android:layout_height="match_parent" android:paddingStart="@dimen/a_2" android:paddingEnd="@dimen/a_2"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@+id/bcf" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/bcc" android:layout_below="@+id/bcb">
+        <com.tencent.mm.plugin.story.ui.view.editor.PhotoEditText android:textSize="32dp" android:textColor="@color/a69" android:gravity="center_vertical" android:id="@+id/bcg" android:background="@null" android:paddingLeft="16dp" android:paddingTop="8dp" android:paddingRight="16dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:textCursorDrawable="@drawable/pt"/>
+    </RelativeLayout>
+</merge>

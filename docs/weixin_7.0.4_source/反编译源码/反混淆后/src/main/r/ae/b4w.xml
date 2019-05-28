@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/fc0" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="0dp" android:fillViewport="true" android:layout_weight="1" android:overScrollMode="never">
+        <LinearLayout android:orientation="vertical" android:id="@+id/c6f" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/fc1" android:paddingLeft="32dp" android:paddingTop="32dp" android:paddingRight="32dp" android:paddingBottom="32dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/h6" android:gravity="left" android:layout_gravity="left" android:id="@+id/dc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fjt"/>
+                <LinearLayout android:orientation="vertical" android:id="@+id/f5z" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="24dp">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ImageView android:id="@+id/f60" android:background="@color/a3p" android:layout_width="16dp" android:layout_height="16dp"/>
+                        <TextView android:textSize="14dp" android:textColor="@color/h6" android:id="@+id/fc2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:text="{ddddd}" android:layout_weight="1"/>
+                        <ImageView android:layout_width="8dp" android:layout_height="16dp" android:src="@drawable/bkf" android:scaleType="centerCrop"/>
+                    </LinearLayout>
+                    <TextView android:textSize="14dp" android:textColor="@color/rr" android:id="@+id/f62" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="4dp"/>
+                    <TextView android:textSize="14dp" android:textColor="@color/rr" android:id="@+id/f63" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="4dp"/>
+                </LinearLayout>
+                <View android:id="@+id/fc3" android:background="#e2e2e2" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="1px"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:background="@drawable/yr" android:paddingLeft="32dp" android:paddingRight="32dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14dp" android:textColor="@color/h6" android:id="@+id/fc4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/fjq"/>
+                <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                    <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/fc5" android:padding="0dp" android:layout_marginTop="0dp" app:walletTypeFace="0" app:layoutRes="@layout/b4v" app:contentMaxSize="10" app:contentClickable="false" style="@style/vw"/>
+                </LinearLayout>
+                <View android:background="#e2e2e2" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="8dp"/>
+                <LinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="14dp" android:textColor="@color/rr" android:id="@+id/fc6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp"/>
+                    <ImageView android:id="@+id/fc7" android:visibility="gone" android:layout_width="14dp" android:layout_height="14dp" android:layout_marginLeft="10dp" android:layout_marginTop="8dp" android:src="@drawable/akp"/>
+                </LinearLayout>
+                <TextView android:textSize="14dp" android:textColor="@color/rr" android:id="@+id/fc8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text=""/>
+                <com.tencent.p177mm.plugin.wallet.balance.p552ui.lqt.WalletLqtArriveTimeLayout android:orientation="vertical" android:id="@+id/fc9" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_weight="1"/>
+                <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@+id/fc_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp">
+                    <CheckBox android:id="@+id/fca" android:background="@drawable/ub" android:layout_width="13dp" android:layout_height="13dp"/>
+                    <TextView android:textSize="12dp" android:textColor="@color/rr" android:id="@+id/fcb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <include android:visibility="gone" layout="@layout/b6y"/>
+</LinearLayout>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <scale android:duration="@integer/j" android:pivotX="50%" android:pivotY="0%" android:fromXScale="1" android:toXScale="0.83" android:fromYScale="1" android:toYScale="0.83"/>
+</set>

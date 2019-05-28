@@ -1,0 +1,184 @@
+package com.facebook.login;
+
+import android.app.Activity;
+import android.content.ComponentName;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.p057v4.app.Fragment;
+import android.support.p057v4.app.FragmentActivity;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import com.facebook.login.LoginClient.OnCompletedListener;
+import com.facebook.login.LoginClient.Request;
+import com.facebook.login.LoginClient.Result;
+import com.tencent.matrix.trace.core.AppMethodBeat;
+
+public class LoginFragment extends Fragment {
+    static final String EXTRA_REQUEST = "request";
+    private static final String NULL_CALLING_PKG_ERROR_MSG = "Cannot call LoginFragment with a null calling package. This can occur if the launchMode of the caller is singleInstance.";
+    static final String REQUEST_KEY = "com.facebook.LoginFragment:Request";
+    static final String RESULT_KEY = "com.facebook.LoginFragment:Result";
+    private static final String SAVED_LOGIN_CLIENT = "loginClient";
+    private static final String TAG = "LoginFragment";
+    private String callingPackage;
+    private LoginClient loginClient;
+    private Request request;
+
+    /* renamed from: com.facebook.login.LoginFragment$1 */
+    class C176091 implements OnCompletedListener {
+        C176091() {
+        }
+
+        public void onCompleted(Result result) {
+            AppMethodBeat.m2504i(96843);
+            LoginFragment.access$000(LoginFragment.this, result);
+            AppMethodBeat.m2505o(96843);
+        }
+    }
+
+    static /* synthetic */ void access$000(LoginFragment loginFragment, Result result) {
+        AppMethodBeat.m2504i(96856);
+        loginFragment.onLoginClientCompleted(result);
+        AppMethodBeat.m2505o(96856);
+    }
+
+    public void onCreate(Bundle bundle) {
+        AppMethodBeat.m2504i(96846);
+        super.onCreate(bundle);
+        if (bundle != null) {
+            this.loginClient = (LoginClient) bundle.getParcelable(SAVED_LOGIN_CLIENT);
+            this.loginClient.setFragment(this);
+        } else {
+            this.loginClient = createLoginClient();
+        }
+        this.loginClient.setOnCompletedListener(new C176091());
+        FragmentActivity activity = getActivity();
+        if (activity == null) {
+            AppMethodBeat.m2505o(96846);
+            return;
+        }
+        initializeCallingPackage(activity);
+        Intent intent = activity.getIntent();
+        if (intent != null) {
+            Bundle bundleExtra = intent.getBundleExtra(REQUEST_KEY);
+            if (bundleExtra != null) {
+                this.request = (Request) bundleExtra.getParcelable("request");
+            }
+        }
+        AppMethodBeat.m2505o(96846);
+    }
+
+    /* Access modifiers changed, original: protected */
+    public LoginClient createLoginClient() {
+        AppMethodBeat.m2504i(96847);
+        LoginClient loginClient = new LoginClient((Fragment) this);
+        AppMethodBeat.m2505o(96847);
+        return loginClient;
+    }
+
+    public void onDestroy() {
+        AppMethodBeat.m2504i(96848);
+        this.loginClient.cancelCurrentHandler();
+        super.onDestroy();
+        AppMethodBeat.m2505o(96848);
+    }
+
+    public View onCreateView(LayoutInflater layoutInflater, ViewGroup viewGroup, Bundle bundle) {
+        AppMethodBeat.m2504i(96849);
+        View inflate = layoutInflater.inflate(getLayoutResId(), viewGroup, false);
+        final View findViewById = inflate.findViewById(2131822896);
+        this.loginClient.setBackgroundProcessingListener(new BackgroundProcessingListener() {
+            public void onBackgroundProcessingStarted() {
+                AppMethodBeat.m2504i(96844);
+                findViewById.setVisibility(0);
+                AppMethodBeat.m2505o(96844);
+            }
+
+            public void onBackgroundProcessingStopped() {
+                AppMethodBeat.m2504i(96845);
+                findViewById.setVisibility(8);
+                AppMethodBeat.m2505o(96845);
+            }
+        });
+        AppMethodBeat.m2505o(96849);
+        return inflate;
+    }
+
+    /* Access modifiers changed, original: protected */
+    public int getLayoutResId() {
+        return 2130969169;
+    }
+
+    private void onLoginClientCompleted(Result result) {
+        AppMethodBeat.m2504i(96850);
+        this.request = null;
+        int i = result.code == Code.CANCEL ? 0 : -1;
+        Bundle bundle = new Bundle();
+        bundle.putParcelable(RESULT_KEY, result);
+        Intent intent = new Intent();
+        intent.putExtras(bundle);
+        if (isAdded()) {
+            getActivity().setResult(i, intent);
+            getActivity().finish();
+        }
+        AppMethodBeat.m2505o(96850);
+    }
+
+    public void onResume() {
+        AppMethodBeat.m2504i(96851);
+        super.onResume();
+        if (this.callingPackage == null) {
+            getActivity().finish();
+            AppMethodBeat.m2505o(96851);
+            return;
+        }
+        this.loginClient.startOrContinueAuth(this.request);
+        AppMethodBeat.m2505o(96851);
+    }
+
+    public void onPause() {
+        View view;
+        AppMethodBeat.m2504i(96852);
+        super.onPause();
+        if (getView() == null) {
+            view = null;
+        } else {
+            view = getView().findViewById(2131822896);
+        }
+        if (view != null) {
+            view.setVisibility(8);
+        }
+        AppMethodBeat.m2505o(96852);
+    }
+
+    public void onActivityResult(int i, int i2, Intent intent) {
+        AppMethodBeat.m2504i(96853);
+        super.onActivityResult(i, i2, intent);
+        this.loginClient.onActivityResult(i, i2, intent);
+        AppMethodBeat.m2505o(96853);
+    }
+
+    public void onSaveInstanceState(Bundle bundle) {
+        AppMethodBeat.m2504i(96854);
+        super.onSaveInstanceState(bundle);
+        bundle.putParcelable(SAVED_LOGIN_CLIENT, this.loginClient);
+        AppMethodBeat.m2505o(96854);
+    }
+
+    private void initializeCallingPackage(Activity activity) {
+        AppMethodBeat.m2504i(96855);
+        ComponentName callingActivity = activity.getCallingActivity();
+        if (callingActivity == null) {
+            AppMethodBeat.m2505o(96855);
+            return;
+        }
+        this.callingPackage = callingActivity.getPackageName();
+        AppMethodBeat.m2505o(96855);
+    }
+
+    /* Access modifiers changed, original: 0000 */
+    public LoginClient getLoginClient() {
+        return this.loginClient;
+    }
+}

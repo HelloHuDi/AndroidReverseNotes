@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="#ffffffff" style="@style/pt">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="18dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="#ff3e3e3e" android:gravity="center" android:id="@+id/a5w" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/bug" style="@style/kt"/>
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="20dp" android:id="@+id/bta" android:background="@drawable/a0e" android:paddingLeft="50dp" android:text="@string/bu4" style="@style/ni"/>
+                <ImageView android:layout_gravity="center_vertical" android:paddingLeft="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aof"/>
+                <ImageView android:layout_gravity="center_vertical" android:paddingLeft="62dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/aog"/>
+            </FrameLayout>
+        </LinearLayout>
+        <RelativeLayout android:orientation="vertical" android:background="#fff3f3f3" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:gravity="left" android:id="@+id/btb" android:paddingLeft="14dp" android:paddingTop="20dp" android:paddingRight="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="20dp" android:text="@string/bu5" style="@style/kt"/>
+            <TextView android:gravity="center" android:id="@+id/btc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/m4" android:text="@string/buj" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/k6"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

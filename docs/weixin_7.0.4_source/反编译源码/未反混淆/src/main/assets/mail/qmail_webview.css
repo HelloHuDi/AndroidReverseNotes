@@ -1,0 +1,98 @@
+html,body {
+    word-break: break-word;
+    font-size: 19px;
+	background-color: white;
+}
+
+h1,h2,h3,h4 {
+	font-size: 22px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+}
+
+blockquote {
+	-webkit-margin-before: 0 !important;
+	-webkit-margin-after: 0 !important;
+	-webkit-margin-start: 0 !important;
+	-webkit-margin-end: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+a {
+	color: #138cdf;
+	text-decoration: underline;
+}
+
+ul {
+	padding-right: 0 !important;
+	width: auto !important;
+}
+
+.qmTableArea {
+	overflow: auto;
+}
+
+.qmFixedTableArea > table {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.qmFixedTableWidthForAll table {
+	width: auto !important;
+}
+
+.qmFixedTableWidthForAll  td {
+	width: auto !important;
+}
+
+table img {
+	max-width: none !important;
+}
+
+.qmTableArea .qmTableArea {
+	overflow: visible;
+}
+
+.qmNoTableScale .qmTableArea {
+	overflow: visible;
+}
+
+body {
+	margin: 10px 10px 5px !important;
+}
+
+body:after {
+	content: " ";
+	display: block;
+	height: 0;
+	clear: both;
+}
+
+body img {
+	vertical-align: middle;
+}
+
+body_beforescale img {
+	max-width: 40px;
+	max-height: 40px;
+}
+
+body_scale img {
+	max-width: 100%;
+}
+
+.qqmail_nobgimg {
+	background-image: none;
+}
+
+.qqmail_img_spacer {
+	border: 1px solid #aaa;
+	min-height: 10px;
+	min-width: 10px
+}
+
+table .qqmail_img_spacer {
+	border: none;
+}

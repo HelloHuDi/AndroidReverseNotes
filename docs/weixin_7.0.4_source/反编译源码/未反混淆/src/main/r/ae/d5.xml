@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/c7" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/t5" android:layout_marginTop="@dimen/t4" android:layout_marginRight="@dimen/t5">
+    <include layout="@layout/d9"/>
+    <View android:background="@color/g1" android:layout_width="match_parent" android:layout_height="@dimen/tc" android:layout_marginTop="2dp" android:layout_marginBottom="18dp" android:layout_marginStart="@dimen/t3" android:layout_marginEnd="@dimen/t3"/>
+    <LinearLayout android:id="@+id/up" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/t3" android:layout_marginEnd="@dimen/t3">
+        <android.support.constraint.ConstraintLayout android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dt" android:textColor="#ff000000" android:ellipsize="end" android:id="@+id/us" android:layout_width="0dp" android:layout_height="0dp" android:layout_marginTop="0dp" android:layout_marginBottom="@dimen/t2" android:maxLines="2" android:layout_marginStart="0dp" android:layout_marginEnd="8dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/ut" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" app:layout_constraintVertical_bias="0.555"/>
+            <com.tencent.mm.plugin.appbrand.ui.recommend.AppBrandCombinationLayout android:layout_width="72dp" android:layout_height="72dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0">
+                <ImageView android:layout_gravity="center" android:id="@+id/uu" android:padding="1dp" android:layout_width="32dp" android:layout_height="32dp"/>
+                <ImageView android:id="@+id/ur" android:layout_width="72dp" android:layout_height="72dp" android:scaleType="centerCrop"/>
+            </com.tencent.mm.plugin.appbrand.ui.recommend.AppBrandCombinationLayout>
+            <android.support.constraint.Guideline android:orientation="vertical" android:id="@+id/ut" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.75"/>
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+    <include layout="@layout/d7"/>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <IconPreference app:title="@string/e2u" app:key="share_micromsg_qzone"/>
+    <IconPreference app:title="@string/e2v" app:key="share_micromsg_to_sina"/>
+    <IconPreference app:title="@string/e2t" app:key="share_micromsg_to_fuckbook"/>
+</PreferenceScreen>

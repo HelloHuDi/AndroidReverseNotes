@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="u">Visita &lt;b&gt;facebook.com/device&lt;/b&gt; e introduce el código que se muestra más arriba.</string>
+    <string name="w">El inicio de sesión en WebView requiere permisos de INTERNET</string>
+    <string name="x">Error de AndroidManifest</string>
+    <string name="y">Te gusta</string>
+    <string name="z">Me gusta</string>
+    <string name="a0">Cargando…</string>
+    <string name="a1">Cancelar</string>
+    <string name="a2">Entrar</string>
+    <string name="a3">Continuar con Facebook</string>
+    <string name="a5">Salir</string>
+    <string name="a6">Salir</string>
+    <string name="a7">Sesión iniciada como: %1$s</string>
+    <string name="a8">Has iniciado sesión con Facebook</string>
+    <string name="aa">Para conectar tu cuenta, abre la aplicación de Facebook en tu dispositivo móvil y comprueba las notificaciones.</string>
+    <string name="ab">- O -</string>
+    <string name="ac">¿No eres tú?</string>
+    <string name="ad">Continuar como %1$s</string>
+    <string name="ae">Confirmar inicio de sesión</string>
+    <string name="af">Tú decides qué información quieres compartir con las aplicaciones.</string>
+    <string name="v">Se ha producido un error inesperado al descargar una imagen.</string>
+    <string name="a4">Inicia sesión con Facebook</string>
+    <string name="a9">Enviar</string>
+    <string name="a_">Compartir</string>
+</resources>

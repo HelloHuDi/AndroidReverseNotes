@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d80" android:background="@color/vy" android:layout_width="match_parent" android:layout_height="@dimen/fd">
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/d81" android:background="@drawable/al" android:clickable="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/d82" android:paddingLeft="@dimen/gg" android:paddingRight="@dimen/gg" android:layout_width="wrap_content" android:layout_height="match_parent" android:src="@c1318a/actionbar_icon_dark_back" android:contentDescription="@string/g1"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dt" android:textColor="@color/e4" android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/d83" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/cnb" android:singleLine="true"/>
+    <View android:id="@+id/d84" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+    <ImageButton android:id="@+id/d85" android:background="@drawable/al" android:focusable="true" android:layout_width="@dimen/fd" android:layout_height="@dimen/fd" android:src="@c1318a/actionbar_icon_dark_search"/>
+    <ImageButton android:id="@+id/d86" android:background="@drawable/al" android:focusable="true" android:visibility="gone" android:layout_width="@dimen/fd" android:layout_height="@dimen/fd"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d87" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <TextView android:id="@+id/kh" android:layout_marginRight="@dimen/fy" android:text="send" style="@style/nk"/>
+    </LinearLayout>
+</LinearLayout>

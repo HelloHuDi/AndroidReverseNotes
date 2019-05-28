@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/abc" android:background="@drawable/azx" android:paddingLeft="@dimen/l5" android:paddingTop="@dimen/ld" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/ld" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="160dp">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/aaq" android:layout_width="@dimen/wh" android:layout_height="@dimen/wh" android:src="@drawable/bcm" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lo" android:layout_marginRight="@dimen/lo">
+            <TextView android:textSize="@dimen/m5" android:textStyle="bold" android:textColor="@color/jd" android:ellipsize="end" android:id="@+id/xc" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/w0" android:ellipsize="end" android:id="@+id/abf" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/do" android:singleLine="true"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l9">
+        <ImageView android:id="@+id/akh" android:layout_width="@dimen/wh" android:layout_height="@dimen/wh" android:src="@drawable/azs" android:scaleType="fitCenter"/>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lo" android:layout_marginRight="@dimen/lo">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/aki" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/w0" android:ellipsize="end" android:id="@+id/akj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:maxLines="2" android:lineSpacingExtra="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/akk" android:background="@drawable/gt" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l9">
+        <RelativeLayout android:gravity="center" android:layout_width="@dimen/wh" android:layout_height="@dimen/wh">
+            <ImageView android:id="@+id/akl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/azt" android:scaleType="fitCenter" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/lo" android:layout_marginRight="@dimen/lo">
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/akm" android:layout_width="match_parent" android:layout_height="wrap_content" android:singleLine="true"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/w0" android:ellipsize="end" android:id="@+id/akn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:maxLines="2" android:lineSpacingExtra="2dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/iu" android:ellipsize="end" android:id="@+id/ako" android:background="@drawable/gt" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="48dp" android:layout_marginTop="@dimen/l8" android:text="@string/acy" android:singleLine="true"/>
+</LinearLayout>

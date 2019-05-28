@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/a0c" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="@dimen/m4" android:layout_marginBottom="@dimen/m4">
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1">
+            <ImageView android:id="@+id/a0d" android:layout_width="48dp" android:layout_height="48dp" android:layout_marginRight="@dimen/lo" android:src="@a/login_app_default_avatar"/>
+            <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:textSize="17dp" android:textColor="@color/h4" android:id="@+id/a0e" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="14dp" android:textColor="@color/t1" android:id="@+id/a0f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/a0g" android:visibility="invisible" android:layout_width="15dp" android:layout_height="15dp" android:src="@a/avatar_choose"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:background="@color/fj" android:layout_width="match_parent" android:layout_height="1px"/>
+</LinearLayout>

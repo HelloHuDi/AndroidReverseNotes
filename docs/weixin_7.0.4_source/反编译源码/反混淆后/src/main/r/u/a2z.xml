@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" xmlns:aapt="http://schemas.android.com/aapt" android:shape="rectangle">
+    <corners android:topLeftRadius="12dp" android:topRightRadius="12dp" android:bottomLeftRadius="12dp" android:bottomRightRadius="12dp"/>
+    <solid android:color="#ffffff"/>
+    <padding android:left="12dp" android:right="12dp"/>
+    <stroke android:width="2px" android:color="#d9d9d9"/>
+    <size android:height="24dp"/>
+</shape>

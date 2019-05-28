@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/l_" android:background="@drawable/zc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/uu">
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/jb" android:layout_width="@dimen/uw" android:layout_height="@dimen/uw" android:layout_marginLeft="@dimen/uv" android:scaleType="fitCenter"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/uz" android:textColor="@color/w4" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uv"/>
+            <TextView android:textSize="@dimen/uy" android:textColor="@color/hg" android:id="@+id/o7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/uv" android:layout_marginTop="2dp"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:layout_gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <RadioButton android:textSize="0dp" android:id="@+id/ju" android:background="@drawable/yu" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/uv" android:button="@null" android:text="" android:drawablePadding="0dp"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ImageView android:layout_gravity="bottom" android:id="@+id/p3" android:layout_marginLeft="@dimen/uv" style="@style/h7"/>
+</LinearLayout>

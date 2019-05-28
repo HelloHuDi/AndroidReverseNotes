@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" style="@style/hz">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ap9" android:background="@drawable/iq" android:padding="0dp" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/gm">
+        <TextView android:textSize="@dimen/kr" android:id="@+id/ard" android:paddingLeft="15dp" android:paddingTop="10dp" android:paddingRight="4dp" android:paddingBottom="4dp" style="@style/ga"/>
+        <LinearLayout android:gravity="center_horizontal" android:paddingLeft="4dp" android:paddingRight="9dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="80dp" android:layout_weight="1">
+            <com.tencent.p177mm.p612ui.chatting.view.AvatarImageView android:id="@+id/oc" android:background="@drawable/ad2" android:layout_width="50dp" android:layout_height="50dp"/>
+            <RelativeLayout android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="center" android:orientation="horizontal" android:paddingLeft="10dp" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textColor="@color/h4" android:gravity="top" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/arc" android:maxWidth="100dp" style="@style/ga"/>
+                    <TextView android:textSize="@dimen/ni" android:gravity="center" android:layout_gravity="left" android:id="@+id/arl" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                    <TextView android:textSize="@dimen/ni" android:gravity="center" android:layout_gravity="left" android:id="@+id/oe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:gravity="right" android:id="@+id/arm" android:background="@drawable/in" android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/arn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="11dp" android:layout_marginRight="3dp" android:src="@drawable/ac9" android:layout_toLeftOf="@+id/aro"/>
+            <TextView android:textSize="@dimen/ni" android:textColor="@color/ra" android:id="@+id/aro" android:layout_width="wrap_content" android:layout_height="30dp" android:layout_marginTop="3dp" android:layout_marginRight="1dp" android:text="@string/c10" android:layout_toLeftOf="@+id/arp" style="@style/ga"/>
+            <ImageView android:id="@+id/arp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="9dp" android:src="@c1318a/mm_submenu_normal"/>
+            <View android:id="@+id/arq" android:layout_width="10dp" android:layout_height="4dp" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

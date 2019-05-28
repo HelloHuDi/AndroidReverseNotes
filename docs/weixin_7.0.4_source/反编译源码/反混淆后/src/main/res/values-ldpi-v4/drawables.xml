@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <drawable name="emoji_grid_item_bottom">r/s/emoji_grid_item_bottom.9.png</drawable>
+    <drawable name="emoji_grid_item_left">r/s/emoji_grid_item_left.9.png</drawable>
+    <drawable name="emoji_grid_item_middle">r/s/emoji_grid_item_middle.9.png</drawable>
+</resources>

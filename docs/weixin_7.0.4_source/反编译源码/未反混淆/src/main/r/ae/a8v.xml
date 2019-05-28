@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/cmb" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:orientation="vertical" android:id="@+id/cmc" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="vertical" android:id="@+id/cmd" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/q1">
+            <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/l8" android:paddingBottom="@dimen/l8" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+                <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/l8" android:paddingRight="@dimen/l8" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/fr" android:id="@+id/b0f" android:layout_marginBottom="@dimen/l8" android:text="@string/cir" style="@style/gz"/>
+                    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l8">
+                        <RelativeLayout android:id="@+id/cme" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="@a/ipcall_feedback_star"/>
+                            <ImageView android:id="@+id/cmf" android:visibility="invisible" android:layout_width="30dp" android:layout_height="30dp" android:src="@a/ipcall_feedback_star_hl"/>
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@+id/cmg" android:paddingLeft="@dimen/ld" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="@a/ipcall_feedback_star"/>
+                            <ImageView android:id="@+id/cmh" android:visibility="invisible" android:layout_width="30dp" android:layout_height="30dp" android:src="@a/ipcall_feedback_star_hl"/>
+                        </RelativeLayout>
+                        <RelativeLayout android:id="@+id/cmi" android:paddingLeft="@dimen/ld" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="30dp" android:layout_height="30dp" android:src="@a/ipcall_feedback_star"/>
+                            <ImageView android:id="@+id/cmj" android:visibility="invisible" android:layout_width="30dp" android:layout_height="30dp" android:src="@a/ipcall_feedback_star_hl"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout android:id="@+id/cmk" android:layout_width="match_parent" android:layout_height="0dp">
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <com.tencent.mm.plugin.ipcall.ui.IPCallFeedbackScrollView android:id="@+id/bsd" android:layout_width="match_parent" android:layout_height="wrap_content" android:fadeScrollbars="false">
+                            <com.tencent.mm.ui.base.FlowLayout android:id="@+id/cml" android:paddingLeft="@dimen/l8" android:paddingRight="@dimen/l8" android:layout_width="match_parent" android:layout_height="wrap_content" app:horizontalSpacing="10dp" app:verticalSpacing="10dp"/>
+                        </com.tencent.mm.plugin.ipcall.ui.IPCallFeedbackScrollView>
+                        <com.tencent.mm.ui.widget.edittext.PasterEditText android:id="@+id/b09" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l8" android:layout_marginTop="@dimen/l5" android:layout_marginRight="@dimen/l8" android:hint="@string/cim" style="@style/gu"/>
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="@dimen/ld" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <Button android:textSize="@dimen/m5" android:textColor="@color/im" android:id="@+id/cmm" android:background="@drawable/b9" android:layout_width="wrap_content" android:minWidth="@dimen/f0" android:text="@string/cil" style="@style/nq"/>
+                <Button android:textSize="@dimen/m5" android:textColor="@color/a74" android:id="@+id/cmn" android:background="@drawable/b9" android:layout_width="wrap_content" android:minWidth="@dimen/f0" android:text="@string/cin" style="@style/nq"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@+id/cmo" android:paddingTop="@dimen/ld" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/q1">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:paddingLeft="@dimen/ld" android:paddingRight="@dimen/ld" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginTop="@dimen/l5" android:layout_marginBottom="@dimen/l5" android:layout_weight="1">
+            <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/dialogs_successful"/>
+            <TextView android:textSize="@dimen/fr" android:textColor="@color/w4" android:gravity="center" android:id="@+id/cmp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc" android:text="@string/ciq"/>
+            <TextView android:textSize="@dimen/fo" android:textColor="#999999" android:gravity="center" android:id="@+id/cmq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ld" android:layout_marginBottom="@dimen/l5"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="right" android:orientation="horizontal" android:paddingLeft="@dimen/ld" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:textSize="@dimen/m5" android:textColor="@color/im" android:id="@+id/cmr" android:background="@drawable/b9" android:layout_width="wrap_content" android:minWidth="@dimen/f0" android:text="@string/cil" style="@style/nq"/>
+            <Button android:textSize="@dimen/m5" android:textColor="@color/r8" android:id="@+id/cms" android:background="@drawable/b9" android:layout_width="wrap_content" android:minWidth="@dimen/f0" android:text="@string/cip" style="@style/nq"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

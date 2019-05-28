@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.p177mm.plugin.game.p433ui.GameBestSellingMore android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/k0" android:textColor="@color/qe" android:layout_gravity="center_vertical" android:id="@+id/c0h" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/k1"/>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/c0i" android:visibility="gone" android:layout_width="6dp" android:layout_height="12dp" android:src="@drawable/afz" android:scaleType="fitXY"/>
+    </com.tencent.p177mm.plugin.game.p433ui.GameBestSellingMore>
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:paddingLeft="@dimen/l5" android:paddingRight="@dimen/l5" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:id="@+id/aqs" android:background="@drawable/iq" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@+id/a3u" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/l5" android:layout_marginRight="@dimen/l5" android:layout_marginBottom="20dp">
+            <TextView android:textSize="14sp" android:textColor="@color/h4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b7h"/>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp">
+                <ImageView android:id="@+id/xb" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginRight="12dp" android:src="@drawable/asj" android:scaleType="fitXY"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:textSize="16sp" android:textColor="@color/h4" android:id="@+id/xc" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                    <TextView android:textSize="14sp" android:textColor="@color/w0" android:id="@+id/aqt" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5">
+                <ImageView android:layout_width="14dp" android:layout_height="14dp" android:src="@drawable/bgx" android:scaleType="fitXY"/>
+                <TextView android:textSize="14sp" android:textColor="@color/w0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:text="@string/b7r"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/aqu" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="match_parent" android:layout_height="54dp" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5">
+                <ImageView android:id="@+id/aqv" android:layout_width="25dp" android:layout_height="25dp" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+                <TextView android:textSize="16sp" android:textColor="@color/h4" android:id="@+id/aqw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_toRightOf="@+id/aqv" android:layout_centerVertical="true"/>
+            </RelativeLayout>
+            <ImageView android:background="@color/jy" android:visibility="gone" android:layout_width="match_parent" android:layout_height="1px"/>
+            <TextView android:textSize="18dp" android:textColor="@color/h4" android:id="@+id/aqx" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="20dp" android:layout_marginRight="@dimen/l5" android:layout_marginBottom="20dp" android:singleLine="false"/>
+        </LinearLayout>
+        <ImageView android:background="@color/jy" android:layout_width="match_parent" android:layout_height="1px"/>
+        <TextView android:textSize="16sp" android:textColor="#1aad19" android:gravity="center" android:id="@+id/dd" android:layout_width="match_parent" android:layout_height="48dp"/>
+    </LinearLayout>
+</LinearLayout>

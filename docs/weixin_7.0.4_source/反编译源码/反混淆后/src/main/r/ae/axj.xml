@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:background="@color/a23" android:layout_width="match_parent" android:layout_height="156dp">
+    <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/ep5" android:layout_width="18dp" android:layout_height="18dp"/>
+    <com.tencent.p177mm.p612ui.widget.MMTextView android:textSize="@dimen/nk" android:textColor="@color/a24" android:id="@+id/ep6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7dp" android:text="@string/g_r"/>
+</LinearLayout>

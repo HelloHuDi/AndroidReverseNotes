@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="@dimen/s_">
+    <ImageView android:id="@+id/ps" android:paddingLeft="20dp" android:paddingRight="16dp" android:layout_width="56dp" android:layout_height="match_parent" android:src="@a/app_brand_star_delete" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@+id/g" android:paddingLeft="16dp" android:paddingRight="20dp" android:layout_width="52dp" android:layout_height="match_parent" android:src="@a/app_brand_collection_sort_handle_mark" android:scaleType="fitCenter" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <View android:id="@+id/pt" android:layout_alignLeft="@+id/g" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/wl"/>
+    <ViewStub android:id="@+id/pu" android:background="@null" android:layout="@layout/cf" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_toLeftOf="@+id/g" android:layout_toRightOf="@+id/ps" android:layout_alignParentTop="true"/>
+</RelativeLayout>

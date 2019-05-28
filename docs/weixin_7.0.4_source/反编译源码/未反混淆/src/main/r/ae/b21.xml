@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/vs" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:background="@drawable/a4n" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/pt">
+        <ImageView android:id="@+id/bm9" android:background="@a/success_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100dp" android:layout_centerHorizontal="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/f1w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/bm9" android:layout_centerHorizontal="true">
+            <TextView android:textSize="@dimen/dx" android:textColor="@color/h4" android:gravity="center" android:id="@+id/f1x" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l9" android:text="{title}"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:gravity="center" android:id="@+id/bm_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" android:text="{title_tip}"/>
+        </LinearLayout>
+        <RelativeLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:layout_below="@+id/f1w">
+            <Button android:textSize="@dimen/dt" android:id="@+id/bma" android:padding="@dimen/do" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" android:text="@string/qt" style="@style/ni"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

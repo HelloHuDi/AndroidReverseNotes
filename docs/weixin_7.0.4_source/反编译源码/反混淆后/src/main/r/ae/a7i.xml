@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/chg" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <View android:id="@+id/chh" android:background="@drawable/u7" android:layout_width="32dp" android:layout_height="32dp" android:layout_marginRight="2dp" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

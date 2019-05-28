@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:id="@+id/cpl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp">
+        <ProgressBar android:layout_gravity="center" android:id="@+id/ai4" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+        <TextView android:textSize="14dp" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:text="@string/rd"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="center" android:id="@+id/ai5" android:paddingTop="5dp" android:paddingBottom="25dp" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/aky"/>
+    <TextView android:textSize="14dp" android:gravity="center" android:layout_gravity="center" android:id="@+id/cpm" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:text="@string/ab8"/>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/di7" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <include android:id="@+id/di8" layout="@layout/b2b"/>
+    <ImageView android:id="@+id/di9" android:background="@drawable/au8" android:layout_width="@dimen/x2" android:layout_height="@dimen/x2" android:layout_marginTop="@dimen/l9" android:layout_below="@+id/di8" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l9" android:layout_below="@+id/di9" android:layout_centerHorizontal="true">
+        <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/di_" android:layout_width="30dp" android:layout_height="30dp"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/h4" android:gravity="center" android:layout_gravity="center_vertical" android:id="@+id/dia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:text="@string/f2n"/>
+    </LinearLayout>
+    <TextView android:textSize="@dimen/dx" android:textColor="@color/hy" android:id="@+id/dib" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80dp" android:text="@string/ta" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

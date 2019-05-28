@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:orientation="vertical" android:background="@color/lh" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bak" android:paddingLeft="@dimen/m4" android:paddingRight="@dimen/m4" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <com.tencent.p177mm.p612ui.MMImageView android:id="@+id/zf" android:layout_width="@dimen/dp" android:layout_height="@dimen/dp" android:layout_marginTop="@dimen/g0"/>
+        <TextView android:ellipsize="end" android:gravity="center" android:id="@+id/bal" android:background="@drawable/o8" android:layout_marginLeft="@dimen/g9" android:layout_marginTop="@dimen/ga" android:layout_marginRight="@dimen/g9" android:text="{name}" android:maxLines="2" style="@style/k5"/>
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/p" android:ellipsize="end" android:gravity="center" android:id="@+id/bam" android:visibility="gone" android:layout_marginLeft="@dimen/g9" android:layout_marginTop="@dimen/g7" android:layout_marginRight="@dimen/g9" android:text="{name}" android:maxLines="2" style="@style/k5"/>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/ban" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ds">
+            <TextView android:layout_width="wrap_content" android:text="@string/b6s" style="@style/uq"/>
+            <TextView android:id="@+id/bao" android:visibility="gone" android:layout_width="wrap_content" style="@style/uq"/>
+        </LinearLayout>
+        <TextView android:gravity="center" android:id="@+id/bap" android:visibility="gone" android:layout_width="wrap_content" android:layout_marginLeft="@dimen/g9" android:layout_marginTop="@dimen/ds" android:layout_marginRight="@dimen/g9" android:text="@string/b6s" style="@style/uq"/>
+    </LinearLayout>
+    <com.tencent.p177mm.p612ui.widget.progress.RoundProgressBtn android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/baq" android:visibility="gone" android:layout_width="@dimen/gc" android:layout_height="@dimen/gc" android:layout_marginBottom="64dp" app:progress="0"/>
+    <Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/bar" android:visibility="gone" android:text="@string/b6n" style="@style/nj"/>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/p" android:id="@+id/bas" android:layout_width="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_marginTop="@dimen/l5" android:layout_marginRight="@dimen/n3" android:layout_marginBottom="@dimen/g1" android:text="@string/g7g" style="@style/kt"/>
+    <Button android:layout_gravity="bottom|center_vertical|center_horizontal|center" android:id="@+id/bat" android:visibility="gone" android:layout_marginBottom="@dimen/g1" android:text="@string/b6v" style="@style/nj"/>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/bau" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/bav" android:layout_width="@dimen/l7" android:layout_height="@dimen/l7" android:layout_marginTop="@dimen/kx" android:src="@c1318a/image_download_fail_icon"/>
+        <TextView android:textSize="@dimen/m5" android:id="@+id/baw" android:layout_width="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_marginTop="@dimen/ds" android:layout_marginRight="@dimen/n3" android:text="@string/bt0" style="@style/kt"/>
+    </LinearLayout>
+</LinearLayout>

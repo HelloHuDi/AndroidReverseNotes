@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:id="@+id/nj" android:background="@drawable/k5" android:layout_width="match_parent" android:layout_height="@dimen/m3">
+        <TextView android:textSize="@dimen/m5" android:id="@+id/nr" android:paddingLeft="@dimen/nc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nick}" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/lf"/>
+    </RelativeLayout>
+</RelativeLayout>

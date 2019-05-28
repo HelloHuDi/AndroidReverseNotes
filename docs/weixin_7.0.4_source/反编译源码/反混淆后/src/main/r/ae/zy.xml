@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="16dp" android:textColor="@color/hy" android:layout_gravity="left" android:id="@+id/bu0" android:background="@drawable/a3a" android:padding="16dp" android:text="@string/g1" style="@style/ng"/>
+    <TextView android:textSize="16dp" android:textColor="@color/hy" android:id="@+id/bu1" android:background="@drawable/a3a" android:padding="16dp" android:text="@string/fhr" android:layout_alignParentRight="true" style="@style/ng"/>
+    <View android:id="@+id/bu2" android:background="@color/a3p" android:layout_width="1dp" android:layout_height="1dp" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/dy" android:src="@drawable/b5x" android:layout_above="@+id/bu2" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/w4" android:gravity="center" android:id="@+id/bu3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ds" android:layout_marginTop="18dp" android:layout_marginRight="@dimen/ds" android:text="@string/fhd" android:layout_below="@+id/bu2" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="@dimen/ni" android:textColor="@color/a7l" android:id="@+id/bu4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15dp" android:text="@string/fhr" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

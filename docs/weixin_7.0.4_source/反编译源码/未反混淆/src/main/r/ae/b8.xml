@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:background="#f2f2f2" android:layout_width="match_parent" android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView android:id="@+id/o_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <ProgressBar android:id="@+id/oa" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/zo"/>
+    <TextView android:id="@+id/ob" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/dn9"/>
+</LinearLayout>

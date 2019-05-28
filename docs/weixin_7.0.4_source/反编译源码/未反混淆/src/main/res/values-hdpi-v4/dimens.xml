@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="l">70dp</dimen>
+    <dimen name="m">130dp</dimen>
+    <dimen name="n">40dp</dimen>
+    <dimen name="p">42dp</dimen>
+    <dimen name="q">16dp</dimen>
+    <dimen name="v">30dp</dimen>
+    <dimen name="w">30dp</dimen>
+    <dimen name="x">20dp</dimen>
+    <dimen name="z">10dp</dimen>
+    <dimen name="a0">60dp</dimen>
+    <dimen name="a1">70dp</dimen>
+    <dimen name="j">70dp</dimen>
+    <dimen name="k">240dp</dimen>
+    <dimen name="o">40dp</dimen>
+    <dimen name="r">2dp</dimen>
+    <dimen name="s">1dp</dimen>
+    <dimen name="t">0dp</dimen>
+    <dimen name="u">32dp</dimen>
+    <dimen name="y">12dp</dimen>
+</resources>

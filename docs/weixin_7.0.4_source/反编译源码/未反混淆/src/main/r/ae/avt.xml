@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="top|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@drawable/k5" android:paddingLeft="@dimen/le" android:clipChildren="false" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.sns.ui.widget.SnsAvatarImageView android:layout_gravity="top" android:id="@+id/ek4" android:layout_marginTop="10dp" android:layout_marginRight="2dp" style="@style/g3"/>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/a_q" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:layout_gravity="top" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g7" android:layout_marginBottom="2dp" android:layout_weight="1">
+            <TextView android:textSize="14dp" android:textColor="@color/a0k" android:gravity="top|left|center_vertical|center_horizontal|center" android:layout_gravity="top|left|center_vertical|center_horizontal|center" android:id="@+id/ek5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:lineSpacingExtra="0dp"/>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:layout_marginBottom="3dp">
+                <ImageView android:layout_gravity="center_vertical" android:id="@+id/ek6" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+                <TextView android:textSize="14dp" android:textColor="@color/h4" android:id="@+id/ek7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp"/>
+            </LinearLayout>
+            <TextView android:textSize="12dp" android:textColor="@color/a1a" android:layout_gravity="center_vertical" android:id="@+id/ek8" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center" android:id="@+id/ek9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:src="@a/sns_comment_silence" android:scaleType="center"/>
+        <FrameLayout android:id="@+id/ek_" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="6dp" android:layout_marginTop="11dp" android:layout_marginRight="13dp" android:layout_marginBottom="13dp">
+            <com.tencent.mm.ui.MMImageView android:layout_gravity="top" android:id="@+id/eka" android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:maxHeight="60dp"/>
+            <ImageView android:layout_gravity="bottom|left|center_vertical|center_horizontal|center" android:id="@+id/ekb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginBottom="5dp" android:src="@a/sns_sight_icon_mark" android:scaleType="fitXY"/>
+        </FrameLayout>
+        <TextView android:textSize="12dp" android:textColor="@color/a1a" android:gravity="center" android:layout_gravity="top" android:id="@+id/ekc" android:background="@color/a0l" android:visibility="gone" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="13dp" android:layout_marginTop="11dp" android:layout_marginRight="13dp" android:layout_marginBottom="13dp" android:maxHeight="60dp" android:text="" android:maxLines="3"/>
+    </LinearLayout>
+</LinearLayout>

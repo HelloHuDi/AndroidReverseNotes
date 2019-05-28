@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <RelativeLayout android:id="@+id/bnf" android:background="@drawable/b3u" android:layout_width="match_parent" android:layout_height="match_parent">
+        <View android:id="@+id/bng" android:background="@drawable/mk" android:layout_width="62dp" android:layout_height="match_parent" android:alpha="0.75"/>
+        <RelativeLayout android:background="@drawable/b3o" android:layout_width="match_parent" android:layout_height="match_parent">
+            <ImageView android:id="@+id/bnh" android:layout_marginLeft="@dimen/a1x" style="@style/i8"/>
+            <ImageView android:id="@+id/bni" android:layout_marginRight="@dimen/a1x" android:layout_alignParentRight="true" style="@style/i8"/>
+            <ImageView android:id="@+id/bnj" android:layout_marginLeft="@dimen/a1x" android:layout_alignParentBottom="true" style="@style/i8"/>
+            <ImageView android:id="@+id/bnk" android:layout_marginRight="@dimen/a1x" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/i8"/>
+            <ImageView android:id="@+id/bnl" android:layout_marginTop="@dimen/a1x" style="@style/i9"/>
+            <ImageView android:id="@+id/bnm" android:layout_marginBottom="@dimen/a1x" android:layout_alignParentBottom="true" style="@style/i9"/>
+            <ImageView android:id="@+id/bnn" android:layout_marginTop="@dimen/a1x" android:layout_alignParentRight="true" style="@style/i9"/>
+            <ImageView android:id="@+id/bno" android:layout_marginBottom="@dimen/a1x" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" style="@style/i9"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@+id/bnp" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </RelativeLayout>
+</merge>

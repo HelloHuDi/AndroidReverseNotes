@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:background="@drawable/uv" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/nj">
+    <com.tencent.mm.ui.MMImageView android:layout_gravity="center" android:id="@+id/ee2" android:background="?attr/s" android:padding="@dimen/nc" android:layout_width="46dp" android:layout_height="46dp" android:scaleType="fitCenter"/>
+    <com.tencent.mm.ui.MMImageView android:layout_gravity="center" android:id="@+id/ee3" android:background="?attr/s" android:padding="@dimen/nc" android:layout_width="46dp" android:layout_height="46dp" android:scaleType="fitCenter"/>
+</FrameLayout>

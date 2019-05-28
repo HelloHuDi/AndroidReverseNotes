@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/vs" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <include android:id="@+id/d4e" android:visibility="gone" layout="@layout/ac3"/>
+            <include android:id="@+id/d4f" android:visibility="gone" layout="@layout/ac2"/>
+            <include android:id="@+id/d4g" android:visibility="gone" layout="@layout/aca"/>
+            <include android:id="@+id/d4h" android:visibility="gone" layout="@layout/ac8"/>
+            <include android:id="@+id/d4i" android:visibility="gone" layout="@layout/ac9"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/d4j" android:background="@drawable/zj" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/d4k" android:layout_height="@dimen/nb" style="@style/pn">
+                <TextView android:textSize="@dimen/m5" android:textColor="@color/uq" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cx3" android:layout_weight="1"/>
+                <TextView android:textSize="@dimen/kr" android:textColor="@color/uo" android:id="@+id/d4l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5"/>
+            </LinearLayout>
+        </LinearLayout>
+        <com.tencent.p177mm.p612ui.base.MaxListView android:id="@+id/d4m" android:background="@color/vs" android:focusable="true" android:layout_height="wrap_content" android:transcriptMode="disabled" style="@style/mf"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/d4n" android:background="@color/a69" android:paddingLeft="@dimen/l8" android:paddingRight="@dimen/l8" android:layout_width="match_parent" android:layout_height="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/t7" android:gravity="center" android:id="@+id/d4o" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cx1" android:layout_weight="1"/>
+            <TextView android:id="@+id/d4p" android:background="#eeeeee" android:layout_width="2px" android:layout_height="32dp"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="@color/t7" android:gravity="center" android:id="@+id/d4q" android:clickable="true" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cxb" android:layout_weight="1"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

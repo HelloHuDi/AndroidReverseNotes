@@ -1,0 +1,327 @@
+7767517
+325 346
+Input            data             0 1 data 0=512 1=512 2=3
+Convolution      stage1/conv      1 1 data stage1/conv 0=24 1=3 2=1 3=2 4=1 5=0 6=648
+BatchNorm        stage1/conv/bn   1 1 stage1/conv stage1/conv_stage1/conv/bn 0=24
+Scale            stage1/conv/bn/scale 1 1 stage1/conv_stage1/conv/bn stage1/conv_stage1/conv/bn/scale 0=24 1=1
+ReLU             stage1/conv/relu 1 1 stage1/conv_stage1/conv/bn/scale stage1/conv_stage1/conv/relu
+Pooling          stage1/pool      1 1 stage1/conv_stage1/conv/relu stage1/pool 0=0 1=3 2=2 3=0 4=0
+Split            splitncnn_0      1 3 stage1/pool stage1/pool_splitncnn_0 stage1/pool_splitncnn_1 stage1/pool_splitncnn_2
+ConvolutionDepthWise stage2_1/conv4   1 1 stage1/pool_splitncnn_2 stage2_1/conv4 0=24 1=3 2=1 3=2 4=1 5=0 6=216 7=24
+BatchNorm        stage2_1/conv4/bn 1 1 stage2_1/conv4 stage2_1/conv4_stage2_1/conv4/bn 0=24
+Scale            stage2_1/conv4/bn/scale 1 1 stage2_1/conv4_stage2_1/conv4/bn stage2_1/conv4_stage2_1/conv4/bn/scale 0=24 1=1
+Convolution      stage2_1/conv5   1 1 stage2_1/conv4_stage2_1/conv4/bn/scale stage2_1/conv5 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_1/conv5/bn 1 1 stage2_1/conv5 stage2_1/conv5_stage2_1/conv5/bn 0=24
+Scale            stage2_1/conv5/bn/scale 1 1 stage2_1/conv5_stage2_1/conv5/bn stage2_1/conv5_stage2_1/conv5/bn/scale 0=24 1=1
+ReLU             stage2_1/conv5/relu 1 1 stage2_1/conv5_stage2_1/conv5/bn/scale stage2_1/conv5_stage2_1/conv5/relu
+Convolution      stage2_1/conv1   1 1 stage1/pool_splitncnn_1 stage2_1/conv1 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_1/conv1/bn 1 1 stage2_1/conv1 stage2_1/conv1_stage2_1/conv1/bn 0=24
+Scale            stage2_1/conv1/bn/scale 1 1 stage2_1/conv1_stage2_1/conv1/bn stage2_1/conv1_stage2_1/conv1/bn/scale 0=24 1=1
+ReLU             stage2_1/conv1/relu 1 1 stage2_1/conv1_stage2_1/conv1/bn/scale stage2_1/conv1_stage2_1/conv1/relu
+ConvolutionDepthWise stage2_1/conv2   1 1 stage2_1/conv1_stage2_1/conv1/relu stage2_1/conv2 0=24 1=3 2=1 3=2 4=1 5=0 6=216 7=24
+BatchNorm        stage2_1/conv2/bn 1 1 stage2_1/conv2 stage2_1/conv2_stage2_1/conv2/bn 0=24
+Scale            stage2_1/conv2/bn/scale 1 1 stage2_1/conv2_stage2_1/conv2/bn stage2_1/conv2_stage2_1/conv2/bn/scale 0=24 1=1
+Convolution      stage2_1/conv3   1 1 stage2_1/conv2_stage2_1/conv2/bn/scale stage2_1/conv3 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_1/conv3/bn 1 1 stage2_1/conv3 stage2_1/conv3_stage2_1/conv3/bn 0=24
+Scale            stage2_1/conv3/bn/scale 1 1 stage2_1/conv3_stage2_1/conv3/bn stage2_1/conv3_stage2_1/conv3/bn/scale 0=24 1=1
+ReLU             stage2_1/conv3/relu 1 1 stage2_1/conv3_stage2_1/conv3/bn/scale stage2_1/conv3_stage2_1/conv3/relu
+Concat           stage2_1/concat  2 1 stage2_1/conv5_stage2_1/conv5/relu stage2_1/conv3_stage2_1/conv3/relu stage2_1/concat 0=0
+ShuffleChannel   stage2_1/shuffle 1 1 stage2_1/concat stage2_1/shuffle 0=2
+Slice            stage2_2/slice1  1 2 stage2_1/shuffle stage2_2/slice1 stage2_2/slice2 -23300=2,24,-233 1=0
+Convolution      stage2_2/conv1   1 1 stage2_2/slice2 stage2_2/conv1 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_2/conv1/bn 1 1 stage2_2/conv1 stage2_2/conv1_stage2_2/conv1/bn 0=24
+Scale            stage2_2/conv1/bn/scale 1 1 stage2_2/conv1_stage2_2/conv1/bn stage2_2/conv1_stage2_2/conv1/bn/scale 0=24 1=1
+ReLU             stage2_2/conv1/relu 1 1 stage2_2/conv1_stage2_2/conv1/bn/scale stage2_2/conv1_stage2_2/conv1/relu
+ConvolutionDepthWise stage2_2/conv2   1 1 stage2_2/conv1_stage2_2/conv1/relu stage2_2/conv2 0=24 1=3 2=1 3=1 4=1 5=0 6=216 7=24
+BatchNorm        stage2_2/conv2/bn 1 1 stage2_2/conv2 stage2_2/conv2_stage2_2/conv2/bn 0=24
+Scale            stage2_2/conv2/bn/scale 1 1 stage2_2/conv2_stage2_2/conv2/bn stage2_2/conv2_stage2_2/conv2/bn/scale 0=24 1=1
+Convolution      stage2_2/conv3   1 1 stage2_2/conv2_stage2_2/conv2/bn/scale stage2_2/conv3 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_2/conv3/bn 1 1 stage2_2/conv3 stage2_2/conv3_stage2_2/conv3/bn 0=24
+Scale            stage2_2/conv3/bn/scale 1 1 stage2_2/conv3_stage2_2/conv3/bn stage2_2/conv3_stage2_2/conv3/bn/scale 0=24 1=1
+ReLU             stage2_2/conv3/relu 1 1 stage2_2/conv3_stage2_2/conv3/bn/scale stage2_2/conv3_stage2_2/conv3/relu
+Concat           stage2_2/concat  2 1 stage2_2/slice1 stage2_2/conv3_stage2_2/conv3/relu stage2_2/concat 0=0
+ShuffleChannel   stage2_2/shuffle 1 1 stage2_2/concat stage2_2/shuffle 0=2
+Slice            stage2_3/slice1  1 2 stage2_2/shuffle stage2_3/slice1 stage2_3/slice2 -23300=2,24,-233 1=0
+Convolution      stage2_3/conv1   1 1 stage2_3/slice2 stage2_3/conv1 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_3/conv1/bn 1 1 stage2_3/conv1 stage2_3/conv1_stage2_3/conv1/bn 0=24
+Scale            stage2_3/conv1/bn/scale 1 1 stage2_3/conv1_stage2_3/conv1/bn stage2_3/conv1_stage2_3/conv1/bn/scale 0=24 1=1
+ReLU             stage2_3/conv1/relu 1 1 stage2_3/conv1_stage2_3/conv1/bn/scale stage2_3/conv1_stage2_3/conv1/relu
+ConvolutionDepthWise stage2_3/conv2   1 1 stage2_3/conv1_stage2_3/conv1/relu stage2_3/conv2 0=24 1=3 2=1 3=1 4=1 5=0 6=216 7=24
+BatchNorm        stage2_3/conv2/bn 1 1 stage2_3/conv2 stage2_3/conv2_stage2_3/conv2/bn 0=24
+Scale            stage2_3/conv2/bn/scale 1 1 stage2_3/conv2_stage2_3/conv2/bn stage2_3/conv2_stage2_3/conv2/bn/scale 0=24 1=1
+Convolution      stage2_3/conv3   1 1 stage2_3/conv2_stage2_3/conv2/bn/scale stage2_3/conv3 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_3/conv3/bn 1 1 stage2_3/conv3 stage2_3/conv3_stage2_3/conv3/bn 0=24
+Scale            stage2_3/conv3/bn/scale 1 1 stage2_3/conv3_stage2_3/conv3/bn stage2_3/conv3_stage2_3/conv3/bn/scale 0=24 1=1
+ReLU             stage2_3/conv3/relu 1 1 stage2_3/conv3_stage2_3/conv3/bn/scale stage2_3/conv3_stage2_3/conv3/relu
+Concat           stage2_3/concat  2 1 stage2_3/slice1 stage2_3/conv3_stage2_3/conv3/relu stage2_3/concat 0=0
+ShuffleChannel   stage2_3/shuffle 1 1 stage2_3/concat stage2_3/shuffle 0=2
+Slice            stage2_4/slice1  1 2 stage2_3/shuffle stage2_4/slice1 stage2_4/slice2 -23300=2,24,-233 1=0
+Convolution      stage2_4/conv1   1 1 stage2_4/slice2 stage2_4/conv1 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_4/conv1/bn 1 1 stage2_4/conv1 stage2_4/conv1_stage2_4/conv1/bn 0=24
+Scale            stage2_4/conv1/bn/scale 1 1 stage2_4/conv1_stage2_4/conv1/bn stage2_4/conv1_stage2_4/conv1/bn/scale 0=24 1=1
+ReLU             stage2_4/conv1/relu 1 1 stage2_4/conv1_stage2_4/conv1/bn/scale stage2_4/conv1_stage2_4/conv1/relu
+ConvolutionDepthWise stage2_4/conv2   1 1 stage2_4/conv1_stage2_4/conv1/relu stage2_4/conv2 0=24 1=3 2=1 3=1 4=1 5=0 6=216 7=24
+BatchNorm        stage2_4/conv2/bn 1 1 stage2_4/conv2 stage2_4/conv2_stage2_4/conv2/bn 0=24
+Scale            stage2_4/conv2/bn/scale 1 1 stage2_4/conv2_stage2_4/conv2/bn stage2_4/conv2_stage2_4/conv2/bn/scale 0=24 1=1
+Convolution      stage2_4/conv3   1 1 stage2_4/conv2_stage2_4/conv2/bn/scale stage2_4/conv3 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        stage2_4/conv3/bn 1 1 stage2_4/conv3 stage2_4/conv3_stage2_4/conv3/bn 0=24
+Scale            stage2_4/conv3/bn/scale 1 1 stage2_4/conv3_stage2_4/conv3/bn stage2_4/conv3_stage2_4/conv3/bn/scale 0=24 1=1
+ReLU             stage2_4/conv3/relu 1 1 stage2_4/conv3_stage2_4/conv3/bn/scale stage2_4/conv3_stage2_4/conv3/relu
+Concat           stage2_4/concat  2 1 stage2_4/slice1 stage2_4/conv3_stage2_4/conv3/relu stage2_4/concat 0=0
+ShuffleChannel   stage2_4/shuffle 1 1 stage2_4/concat stage2_4/shuffle 0=2
+Split            splitncnn_1      1 3 stage2_4/shuffle stage2_4/shuffle_splitncnn_0 stage2_4/shuffle_splitncnn_1 stage2_4/shuffle_splitncnn_2
+ConvolutionDepthWise stage3_1/conv4   1 1 stage2_4/shuffle_splitncnn_2 stage3_1/conv4 0=48 1=3 2=1 3=2 4=1 5=0 6=432 7=48
+BatchNorm        stage3_1/conv4/bn 1 1 stage3_1/conv4 stage3_1/conv4_stage3_1/conv4/bn 0=48
+Scale            stage3_1/conv4/bn/scale 1 1 stage3_1/conv4_stage3_1/conv4/bn stage3_1/conv4_stage3_1/conv4/bn/scale 0=48 1=1
+Convolution      stage3_1/conv5   1 1 stage3_1/conv4_stage3_1/conv4/bn/scale stage3_1/conv5 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_1/conv5/bn 1 1 stage3_1/conv5 stage3_1/conv5_stage3_1/conv5/bn 0=48
+Scale            stage3_1/conv5/bn/scale 1 1 stage3_1/conv5_stage3_1/conv5/bn stage3_1/conv5_stage3_1/conv5/bn/scale 0=48 1=1
+ReLU             stage3_1/conv5/relu 1 1 stage3_1/conv5_stage3_1/conv5/bn/scale stage3_1/conv5_stage3_1/conv5/relu
+Convolution      stage3_1/conv1   1 1 stage2_4/shuffle_splitncnn_1 stage3_1/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_1/conv1/bn 1 1 stage3_1/conv1 stage3_1/conv1_stage3_1/conv1/bn 0=48
+Scale            stage3_1/conv1/bn/scale 1 1 stage3_1/conv1_stage3_1/conv1/bn stage3_1/conv1_stage3_1/conv1/bn/scale 0=48 1=1
+ReLU             stage3_1/conv1/relu 1 1 stage3_1/conv1_stage3_1/conv1/bn/scale stage3_1/conv1_stage3_1/conv1/relu
+ConvolutionDepthWise stage3_1/conv2   1 1 stage3_1/conv1_stage3_1/conv1/relu stage3_1/conv2 0=48 1=3 2=1 3=2 4=1 5=0 6=432 7=48
+BatchNorm        stage3_1/conv2/bn 1 1 stage3_1/conv2 stage3_1/conv2_stage3_1/conv2/bn 0=48
+Scale            stage3_1/conv2/bn/scale 1 1 stage3_1/conv2_stage3_1/conv2/bn stage3_1/conv2_stage3_1/conv2/bn/scale 0=48 1=1
+Convolution      stage3_1/conv3   1 1 stage3_1/conv2_stage3_1/conv2/bn/scale stage3_1/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_1/conv3/bn 1 1 stage3_1/conv3 stage3_1/conv3_stage3_1/conv3/bn 0=48
+Scale            stage3_1/conv3/bn/scale 1 1 stage3_1/conv3_stage3_1/conv3/bn stage3_1/conv3_stage3_1/conv3/bn/scale 0=48 1=1
+ReLU             stage3_1/conv3/relu 1 1 stage3_1/conv3_stage3_1/conv3/bn/scale stage3_1/conv3_stage3_1/conv3/relu
+Concat           stage3_1/concat  2 1 stage3_1/conv5_stage3_1/conv5/relu stage3_1/conv3_stage3_1/conv3/relu stage3_1/concat 0=0
+ShuffleChannel   stage3_1/shuffle 1 1 stage3_1/concat stage3_1/shuffle 0=2
+Slice            stage3_2/slice1  1 2 stage3_1/shuffle stage3_2/slice1 stage3_2/slice2 -23300=2,48,-233 1=0
+Convolution      stage3_2/conv1   1 1 stage3_2/slice2 stage3_2/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_2/conv1/bn 1 1 stage3_2/conv1 stage3_2/conv1_stage3_2/conv1/bn 0=48
+Scale            stage3_2/conv1/bn/scale 1 1 stage3_2/conv1_stage3_2/conv1/bn stage3_2/conv1_stage3_2/conv1/bn/scale 0=48 1=1
+ReLU             stage3_2/conv1/relu 1 1 stage3_2/conv1_stage3_2/conv1/bn/scale stage3_2/conv1_stage3_2/conv1/relu
+ConvolutionDepthWise stage3_2/conv2   1 1 stage3_2/conv1_stage3_2/conv1/relu stage3_2/conv2 0=48 1=3 2=1 3=1 4=1 5=0 6=432 7=48
+BatchNorm        stage3_2/conv2/bn 1 1 stage3_2/conv2 stage3_2/conv2_stage3_2/conv2/bn 0=48
+Scale            stage3_2/conv2/bn/scale 1 1 stage3_2/conv2_stage3_2/conv2/bn stage3_2/conv2_stage3_2/conv2/bn/scale 0=48 1=1
+Convolution      stage3_2/conv3   1 1 stage3_2/conv2_stage3_2/conv2/bn/scale stage3_2/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_2/conv3/bn 1 1 stage3_2/conv3 stage3_2/conv3_stage3_2/conv3/bn 0=48
+Scale            stage3_2/conv3/bn/scale 1 1 stage3_2/conv3_stage3_2/conv3/bn stage3_2/conv3_stage3_2/conv3/bn/scale 0=48 1=1
+ReLU             stage3_2/conv3/relu 1 1 stage3_2/conv3_stage3_2/conv3/bn/scale stage3_2/conv3_stage3_2/conv3/relu
+Concat           stage3_2/concat  2 1 stage3_2/slice1 stage3_2/conv3_stage3_2/conv3/relu stage3_2/concat 0=0
+ShuffleChannel   stage3_2/shuffle 1 1 stage3_2/concat stage3_2/shuffle 0=2
+Slice            stage3_3/slice1  1 2 stage3_2/shuffle stage3_3/slice1 stage3_3/slice2 -23300=2,48,-233 1=0
+Convolution      stage3_3/conv1   1 1 stage3_3/slice2 stage3_3/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_3/conv1/bn 1 1 stage3_3/conv1 stage3_3/conv1_stage3_3/conv1/bn 0=48
+Scale            stage3_3/conv1/bn/scale 1 1 stage3_3/conv1_stage3_3/conv1/bn stage3_3/conv1_stage3_3/conv1/bn/scale 0=48 1=1
+ReLU             stage3_3/conv1/relu 1 1 stage3_3/conv1_stage3_3/conv1/bn/scale stage3_3/conv1_stage3_3/conv1/relu
+ConvolutionDepthWise stage3_3/conv2   1 1 stage3_3/conv1_stage3_3/conv1/relu stage3_3/conv2 0=48 1=3 2=1 3=1 4=1 5=0 6=432 7=48
+BatchNorm        stage3_3/conv2/bn 1 1 stage3_3/conv2 stage3_3/conv2_stage3_3/conv2/bn 0=48
+Scale            stage3_3/conv2/bn/scale 1 1 stage3_3/conv2_stage3_3/conv2/bn stage3_3/conv2_stage3_3/conv2/bn/scale 0=48 1=1
+Convolution      stage3_3/conv3   1 1 stage3_3/conv2_stage3_3/conv2/bn/scale stage3_3/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_3/conv3/bn 1 1 stage3_3/conv3 stage3_3/conv3_stage3_3/conv3/bn 0=48
+Scale            stage3_3/conv3/bn/scale 1 1 stage3_3/conv3_stage3_3/conv3/bn stage3_3/conv3_stage3_3/conv3/bn/scale 0=48 1=1
+ReLU             stage3_3/conv3/relu 1 1 stage3_3/conv3_stage3_3/conv3/bn/scale stage3_3/conv3_stage3_3/conv3/relu
+Concat           stage3_3/concat  2 1 stage3_3/slice1 stage3_3/conv3_stage3_3/conv3/relu stage3_3/concat 0=0
+ShuffleChannel   stage3_3/shuffle 1 1 stage3_3/concat stage3_3/shuffle 0=2
+Slice            stage3_4/slice1  1 2 stage3_3/shuffle stage3_4/slice1 stage3_4/slice2 -23300=2,48,-233 1=0
+Convolution      stage3_4/conv1   1 1 stage3_4/slice2 stage3_4/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_4/conv1/bn 1 1 stage3_4/conv1 stage3_4/conv1_stage3_4/conv1/bn 0=48
+Scale            stage3_4/conv1/bn/scale 1 1 stage3_4/conv1_stage3_4/conv1/bn stage3_4/conv1_stage3_4/conv1/bn/scale 0=48 1=1
+ReLU             stage3_4/conv1/relu 1 1 stage3_4/conv1_stage3_4/conv1/bn/scale stage3_4/conv1_stage3_4/conv1/relu
+ConvolutionDepthWise stage3_4/conv2   1 1 stage3_4/conv1_stage3_4/conv1/relu stage3_4/conv2 0=48 1=3 2=1 3=1 4=1 5=0 6=432 7=48
+BatchNorm        stage3_4/conv2/bn 1 1 stage3_4/conv2 stage3_4/conv2_stage3_4/conv2/bn 0=48
+Scale            stage3_4/conv2/bn/scale 1 1 stage3_4/conv2_stage3_4/conv2/bn stage3_4/conv2_stage3_4/conv2/bn/scale 0=48 1=1
+Convolution      stage3_4/conv3   1 1 stage3_4/conv2_stage3_4/conv2/bn/scale stage3_4/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_4/conv3/bn 1 1 stage3_4/conv3 stage3_4/conv3_stage3_4/conv3/bn 0=48
+Scale            stage3_4/conv3/bn/scale 1 1 stage3_4/conv3_stage3_4/conv3/bn stage3_4/conv3_stage3_4/conv3/bn/scale 0=48 1=1
+ReLU             stage3_4/conv3/relu 1 1 stage3_4/conv3_stage3_4/conv3/bn/scale stage3_4/conv3_stage3_4/conv3/relu
+Concat           stage3_4/concat  2 1 stage3_4/slice1 stage3_4/conv3_stage3_4/conv3/relu stage3_4/concat 0=0
+ShuffleChannel   stage3_4/shuffle 1 1 stage3_4/concat stage3_4/shuffle 0=2
+Slice            stage3_5/slice1  1 2 stage3_4/shuffle stage3_5/slice1 stage3_5/slice2 -23300=2,48,-233 1=0
+Convolution      stage3_5/conv1   1 1 stage3_5/slice2 stage3_5/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_5/conv1/bn 1 1 stage3_5/conv1 stage3_5/conv1_stage3_5/conv1/bn 0=48
+Scale            stage3_5/conv1/bn/scale 1 1 stage3_5/conv1_stage3_5/conv1/bn stage3_5/conv1_stage3_5/conv1/bn/scale 0=48 1=1
+ReLU             stage3_5/conv1/relu 1 1 stage3_5/conv1_stage3_5/conv1/bn/scale stage3_5/conv1_stage3_5/conv1/relu
+ConvolutionDepthWise stage3_5/conv2   1 1 stage3_5/conv1_stage3_5/conv1/relu stage3_5/conv2 0=48 1=3 2=1 3=1 4=1 5=0 6=432 7=48
+BatchNorm        stage3_5/conv2/bn 1 1 stage3_5/conv2 stage3_5/conv2_stage3_5/conv2/bn 0=48
+Scale            stage3_5/conv2/bn/scale 1 1 stage3_5/conv2_stage3_5/conv2/bn stage3_5/conv2_stage3_5/conv2/bn/scale 0=48 1=1
+Convolution      stage3_5/conv3   1 1 stage3_5/conv2_stage3_5/conv2/bn/scale stage3_5/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_5/conv3/bn 1 1 stage3_5/conv3 stage3_5/conv3_stage3_5/conv3/bn 0=48
+Scale            stage3_5/conv3/bn/scale 1 1 stage3_5/conv3_stage3_5/conv3/bn stage3_5/conv3_stage3_5/conv3/bn/scale 0=48 1=1
+ReLU             stage3_5/conv3/relu 1 1 stage3_5/conv3_stage3_5/conv3/bn/scale stage3_5/conv3_stage3_5/conv3/relu
+Concat           stage3_5/concat  2 1 stage3_5/slice1 stage3_5/conv3_stage3_5/conv3/relu stage3_5/concat 0=0
+ShuffleChannel   stage3_5/shuffle 1 1 stage3_5/concat stage3_5/shuffle 0=2
+Slice            stage3_6/slice1  1 2 stage3_5/shuffle stage3_6/slice1 stage3_6/slice2 -23300=2,48,-233 1=0
+Convolution      stage3_6/conv1   1 1 stage3_6/slice2 stage3_6/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_6/conv1/bn 1 1 stage3_6/conv1 stage3_6/conv1_stage3_6/conv1/bn 0=48
+Scale            stage3_6/conv1/bn/scale 1 1 stage3_6/conv1_stage3_6/conv1/bn stage3_6/conv1_stage3_6/conv1/bn/scale 0=48 1=1
+ReLU             stage3_6/conv1/relu 1 1 stage3_6/conv1_stage3_6/conv1/bn/scale stage3_6/conv1_stage3_6/conv1/relu
+ConvolutionDepthWise stage3_6/conv2   1 1 stage3_6/conv1_stage3_6/conv1/relu stage3_6/conv2 0=48 1=3 2=1 3=1 4=1 5=0 6=432 7=48
+BatchNorm        stage3_6/conv2/bn 1 1 stage3_6/conv2 stage3_6/conv2_stage3_6/conv2/bn 0=48
+Scale            stage3_6/conv2/bn/scale 1 1 stage3_6/conv2_stage3_6/conv2/bn stage3_6/conv2_stage3_6/conv2/bn/scale 0=48 1=1
+Convolution      stage3_6/conv3   1 1 stage3_6/conv2_stage3_6/conv2/bn/scale stage3_6/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_6/conv3/bn 1 1 stage3_6/conv3 stage3_6/conv3_stage3_6/conv3/bn 0=48
+Scale            stage3_6/conv3/bn/scale 1 1 stage3_6/conv3_stage3_6/conv3/bn stage3_6/conv3_stage3_6/conv3/bn/scale 0=48 1=1
+ReLU             stage3_6/conv3/relu 1 1 stage3_6/conv3_stage3_6/conv3/bn/scale stage3_6/conv3_stage3_6/conv3/relu
+Concat           stage3_6/concat  2 1 stage3_6/slice1 stage3_6/conv3_stage3_6/conv3/relu stage3_6/concat 0=0
+ShuffleChannel   stage3_6/shuffle 1 1 stage3_6/concat stage3_6/shuffle 0=2
+Slice            stage3_7/slice1  1 2 stage3_6/shuffle stage3_7/slice1 stage3_7/slice2 -23300=2,48,-233 1=0
+Convolution      stage3_7/conv1   1 1 stage3_7/slice2 stage3_7/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_7/conv1/bn 1 1 stage3_7/conv1 stage3_7/conv1_stage3_7/conv1/bn 0=48
+Scale            stage3_7/conv1/bn/scale 1 1 stage3_7/conv1_stage3_7/conv1/bn stage3_7/conv1_stage3_7/conv1/bn/scale 0=48 1=1
+ReLU             stage3_7/conv1/relu 1 1 stage3_7/conv1_stage3_7/conv1/bn/scale stage3_7/conv1_stage3_7/conv1/relu
+ConvolutionDepthWise stage3_7/conv2   1 1 stage3_7/conv1_stage3_7/conv1/relu stage3_7/conv2 0=48 1=3 2=1 3=1 4=1 5=0 6=432 7=48
+BatchNorm        stage3_7/conv2/bn 1 1 stage3_7/conv2 stage3_7/conv2_stage3_7/conv2/bn 0=48
+Scale            stage3_7/conv2/bn/scale 1 1 stage3_7/conv2_stage3_7/conv2/bn stage3_7/conv2_stage3_7/conv2/bn/scale 0=48 1=1
+Convolution      stage3_7/conv3   1 1 stage3_7/conv2_stage3_7/conv2/bn/scale stage3_7/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_7/conv3/bn 1 1 stage3_7/conv3 stage3_7/conv3_stage3_7/conv3/bn 0=48
+Scale            stage3_7/conv3/bn/scale 1 1 stage3_7/conv3_stage3_7/conv3/bn stage3_7/conv3_stage3_7/conv3/bn/scale 0=48 1=1
+ReLU             stage3_7/conv3/relu 1 1 stage3_7/conv3_stage3_7/conv3/bn/scale stage3_7/conv3_stage3_7/conv3/relu
+Concat           stage3_7/concat  2 1 stage3_7/slice1 stage3_7/conv3_stage3_7/conv3/relu stage3_7/concat 0=0
+ShuffleChannel   stage3_7/shuffle 1 1 stage3_7/concat stage3_7/shuffle 0=2
+Slice            stage3_8/slice1  1 2 stage3_7/shuffle stage3_8/slice1 stage3_8/slice2 -23300=2,48,-233 1=0
+Convolution      stage3_8/conv1   1 1 stage3_8/slice2 stage3_8/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_8/conv1/bn 1 1 stage3_8/conv1 stage3_8/conv1_stage3_8/conv1/bn 0=48
+Scale            stage3_8/conv1/bn/scale 1 1 stage3_8/conv1_stage3_8/conv1/bn stage3_8/conv1_stage3_8/conv1/bn/scale 0=48 1=1
+ReLU             stage3_8/conv1/relu 1 1 stage3_8/conv1_stage3_8/conv1/bn/scale stage3_8/conv1_stage3_8/conv1/relu
+ConvolutionDepthWise stage3_8/conv2   1 1 stage3_8/conv1_stage3_8/conv1/relu stage3_8/conv2 0=48 1=3 2=1 3=1 4=1 5=0 6=432 7=48
+BatchNorm        stage3_8/conv2/bn 1 1 stage3_8/conv2 stage3_8/conv2_stage3_8/conv2/bn 0=48
+Scale            stage3_8/conv2/bn/scale 1 1 stage3_8/conv2_stage3_8/conv2/bn stage3_8/conv2_stage3_8/conv2/bn/scale 0=48 1=1
+Convolution      stage3_8/conv3   1 1 stage3_8/conv2_stage3_8/conv2/bn/scale stage3_8/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        stage3_8/conv3/bn 1 1 stage3_8/conv3 stage3_8/conv3_stage3_8/conv3/bn 0=48
+Scale            stage3_8/conv3/bn/scale 1 1 stage3_8/conv3_stage3_8/conv3/bn stage3_8/conv3_stage3_8/conv3/bn/scale 0=48 1=1
+ReLU             stage3_8/conv3/relu 1 1 stage3_8/conv3_stage3_8/conv3/bn/scale stage3_8/conv3_stage3_8/conv3/relu
+Concat           stage3_8/concat  2 1 stage3_8/slice1 stage3_8/conv3_stage3_8/conv3/relu stage3_8/concat 0=0
+ShuffleChannel   stage3_8/shuffle 1 1 stage3_8/concat stage3_8/shuffle 0=2
+Split            splitncnn_2      1 3 stage3_8/shuffle stage3_8/shuffle_splitncnn_0 stage3_8/shuffle_splitncnn_1 stage3_8/shuffle_splitncnn_2
+ConvolutionDepthWise stage4_1/conv4   1 1 stage3_8/shuffle_splitncnn_2 stage4_1/conv4 0=96 1=3 2=1 3=2 4=1 5=0 6=864 7=96
+BatchNorm        stage4_1/conv4/bn 1 1 stage4_1/conv4 stage4_1/conv4_stage4_1/conv4/bn 0=96
+Scale            stage4_1/conv4/bn/scale 1 1 stage4_1/conv4_stage4_1/conv4/bn stage4_1/conv4_stage4_1/conv4/bn/scale 0=96 1=1
+Convolution      stage4_1/conv5   1 1 stage4_1/conv4_stage4_1/conv4/bn/scale stage4_1/conv5 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_1/conv5/bn 1 1 stage4_1/conv5 stage4_1/conv5_stage4_1/conv5/bn 0=96
+Scale            stage4_1/conv5/bn/scale 1 1 stage4_1/conv5_stage4_1/conv5/bn stage4_1/conv5_stage4_1/conv5/bn/scale 0=96 1=1
+ReLU             stage4_1/conv5/relu 1 1 stage4_1/conv5_stage4_1/conv5/bn/scale stage4_1/conv5_stage4_1/conv5/relu
+Convolution      stage4_1/conv1   1 1 stage3_8/shuffle_splitncnn_1 stage4_1/conv1 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_1/conv1/bn 1 1 stage4_1/conv1 stage4_1/conv1_stage4_1/conv1/bn 0=96
+Scale            stage4_1/conv1/bn/scale 1 1 stage4_1/conv1_stage4_1/conv1/bn stage4_1/conv1_stage4_1/conv1/bn/scale 0=96 1=1
+ReLU             stage4_1/conv1/relu 1 1 stage4_1/conv1_stage4_1/conv1/bn/scale stage4_1/conv1_stage4_1/conv1/relu
+ConvolutionDepthWise stage4_1/conv2   1 1 stage4_1/conv1_stage4_1/conv1/relu stage4_1/conv2 0=96 1=3 2=1 3=2 4=1 5=0 6=864 7=96
+BatchNorm        stage4_1/conv2/bn 1 1 stage4_1/conv2 stage4_1/conv2_stage4_1/conv2/bn 0=96
+Scale            stage4_1/conv2/bn/scale 1 1 stage4_1/conv2_stage4_1/conv2/bn stage4_1/conv2_stage4_1/conv2/bn/scale 0=96 1=1
+Convolution      stage4_1/conv3   1 1 stage4_1/conv2_stage4_1/conv2/bn/scale stage4_1/conv3 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_1/conv3/bn 1 1 stage4_1/conv3 stage4_1/conv3_stage4_1/conv3/bn 0=96
+Scale            stage4_1/conv3/bn/scale 1 1 stage4_1/conv3_stage4_1/conv3/bn stage4_1/conv3_stage4_1/conv3/bn/scale 0=96 1=1
+ReLU             stage4_1/conv3/relu 1 1 stage4_1/conv3_stage4_1/conv3/bn/scale stage4_1/conv3_stage4_1/conv3/relu
+Concat           stage4_1/concat  2 1 stage4_1/conv5_stage4_1/conv5/relu stage4_1/conv3_stage4_1/conv3/relu stage4_1/concat 0=0
+ShuffleChannel   stage4_1/shuffle 1 1 stage4_1/concat stage4_1/shuffle 0=2
+Slice            stage4_2/slice1  1 2 stage4_1/shuffle stage4_2/slice1 stage4_2/slice2 -23300=2,96,-233 1=0
+Convolution      stage4_2/conv1   1 1 stage4_2/slice2 stage4_2/conv1 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_2/conv1/bn 1 1 stage4_2/conv1 stage4_2/conv1_stage4_2/conv1/bn 0=96
+Scale            stage4_2/conv1/bn/scale 1 1 stage4_2/conv1_stage4_2/conv1/bn stage4_2/conv1_stage4_2/conv1/bn/scale 0=96 1=1
+ReLU             stage4_2/conv1/relu 1 1 stage4_2/conv1_stage4_2/conv1/bn/scale stage4_2/conv1_stage4_2/conv1/relu
+ConvolutionDepthWise stage4_2/conv2   1 1 stage4_2/conv1_stage4_2/conv1/relu stage4_2/conv2 0=96 1=3 2=1 3=1 4=1 5=0 6=864 7=96
+BatchNorm        stage4_2/conv2/bn 1 1 stage4_2/conv2 stage4_2/conv2_stage4_2/conv2/bn 0=96
+Scale            stage4_2/conv2/bn/scale 1 1 stage4_2/conv2_stage4_2/conv2/bn stage4_2/conv2_stage4_2/conv2/bn/scale 0=96 1=1
+Convolution      stage4_2/conv3   1 1 stage4_2/conv2_stage4_2/conv2/bn/scale stage4_2/conv3 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_2/conv3/bn 1 1 stage4_2/conv3 stage4_2/conv3_stage4_2/conv3/bn 0=96
+Scale            stage4_2/conv3/bn/scale 1 1 stage4_2/conv3_stage4_2/conv3/bn stage4_2/conv3_stage4_2/conv3/bn/scale 0=96 1=1
+ReLU             stage4_2/conv3/relu 1 1 stage4_2/conv3_stage4_2/conv3/bn/scale stage4_2/conv3_stage4_2/conv3/relu
+Concat           stage4_2/concat  2 1 stage4_2/slice1 stage4_2/conv3_stage4_2/conv3/relu stage4_2/concat 0=0
+ShuffleChannel   stage4_2/shuffle 1 1 stage4_2/concat stage4_2/shuffle 0=2
+Slice            stage4_3/slice1  1 2 stage4_2/shuffle stage4_3/slice1 stage4_3/slice2 -23300=2,96,-233 1=0
+Convolution      stage4_3/conv1   1 1 stage4_3/slice2 stage4_3/conv1 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_3/conv1/bn 1 1 stage4_3/conv1 stage4_3/conv1_stage4_3/conv1/bn 0=96
+Scale            stage4_3/conv1/bn/scale 1 1 stage4_3/conv1_stage4_3/conv1/bn stage4_3/conv1_stage4_3/conv1/bn/scale 0=96 1=1
+ReLU             stage4_3/conv1/relu 1 1 stage4_3/conv1_stage4_3/conv1/bn/scale stage4_3/conv1_stage4_3/conv1/relu
+ConvolutionDepthWise stage4_3/conv2   1 1 stage4_3/conv1_stage4_3/conv1/relu stage4_3/conv2 0=96 1=3 2=1 3=1 4=1 5=0 6=864 7=96
+BatchNorm        stage4_3/conv2/bn 1 1 stage4_3/conv2 stage4_3/conv2_stage4_3/conv2/bn 0=96
+Scale            stage4_3/conv2/bn/scale 1 1 stage4_3/conv2_stage4_3/conv2/bn stage4_3/conv2_stage4_3/conv2/bn/scale 0=96 1=1
+Convolution      stage4_3/conv3   1 1 stage4_3/conv2_stage4_3/conv2/bn/scale stage4_3/conv3 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_3/conv3/bn 1 1 stage4_3/conv3 stage4_3/conv3_stage4_3/conv3/bn 0=96
+Scale            stage4_3/conv3/bn/scale 1 1 stage4_3/conv3_stage4_3/conv3/bn stage4_3/conv3_stage4_3/conv3/bn/scale 0=96 1=1
+ReLU             stage4_3/conv3/relu 1 1 stage4_3/conv3_stage4_3/conv3/bn/scale stage4_3/conv3_stage4_3/conv3/relu
+Concat           stage4_3/concat  2 1 stage4_3/slice1 stage4_3/conv3_stage4_3/conv3/relu stage4_3/concat 0=0
+ShuffleChannel   stage4_3/shuffle 1 1 stage4_3/concat stage4_3/shuffle 0=2
+Slice            stage4_4/slice1  1 2 stage4_3/shuffle stage4_4/slice1 stage4_4/slice2 -23300=2,96,-233 1=0
+Convolution      stage4_4/conv1   1 1 stage4_4/slice2 stage4_4/conv1 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_4/conv1/bn 1 1 stage4_4/conv1 stage4_4/conv1_stage4_4/conv1/bn 0=96
+Scale            stage4_4/conv1/bn/scale 1 1 stage4_4/conv1_stage4_4/conv1/bn stage4_4/conv1_stage4_4/conv1/bn/scale 0=96 1=1
+ReLU             stage4_4/conv1/relu 1 1 stage4_4/conv1_stage4_4/conv1/bn/scale stage4_4/conv1_stage4_4/conv1/relu
+ConvolutionDepthWise stage4_4/conv2   1 1 stage4_4/conv1_stage4_4/conv1/relu stage4_4/conv2 0=96 1=3 2=1 3=1 4=1 5=0 6=864 7=96
+BatchNorm        stage4_4/conv2/bn 1 1 stage4_4/conv2 stage4_4/conv2_stage4_4/conv2/bn 0=96
+Scale            stage4_4/conv2/bn/scale 1 1 stage4_4/conv2_stage4_4/conv2/bn stage4_4/conv2_stage4_4/conv2/bn/scale 0=96 1=1
+Convolution      stage4_4/conv3   1 1 stage4_4/conv2_stage4_4/conv2/bn/scale stage4_4/conv3 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        stage4_4/conv3/bn 1 1 stage4_4/conv3 stage4_4/conv3_stage4_4/conv3/bn 0=96
+Scale            stage4_4/conv3/bn/scale 1 1 stage4_4/conv3_stage4_4/conv3/bn stage4_4/conv3_stage4_4/conv3/bn/scale 0=96 1=1
+ReLU             stage4_4/conv3/relu 1 1 stage4_4/conv3_stage4_4/conv3/bn/scale stage4_4/conv3_stage4_4/conv3/relu
+Concat           stage4_4/concat  2 1 stage4_4/slice1 stage4_4/conv3_stage4_4/conv3/relu stage4_4/concat 0=0
+ShuffleChannel   stage4_4/shuffle 1 1 stage4_4/concat stage4_4/shuffle 0=2
+Split            splitncnn_3      1 2 stage4_4/shuffle stage4_4/shuffle_splitncnn_0 stage4_4/shuffle_splitncnn_1
+Convolution      fc/conv1         1 1 stage4_4/shuffle_splitncnn_1 fc/conv1 0=96 1=1 2=1 3=1 4=0 5=0 6=18432
+BatchNorm        fc/conv1/bn      1 1 fc/conv1 fc/conv1_fc/conv1/bn 0=96
+Scale            fc/conv1/bn/scale 1 1 fc/conv1_fc/conv1/bn fc/conv1_fc/conv1/bn/scale 0=96 1=1
+ReLU             fc/conv1/relu    1 1 fc/conv1_fc/conv1/bn/scale fc/conv1_fc/conv1/relu
+Split            splitncnn_4      1 2 fc/conv1_fc/conv1/relu fc/conv1_fc/conv1/relu_splitncnn_0 fc/conv1_fc/conv1/relu_splitncnn_1
+ConvolutionDepthWise stage5/conv2/conv1 1 1 fc/conv1_fc/conv1/relu_splitncnn_1 stage5/conv2/conv1 0=96 1=1 11=7 2=1 3=1 4=0 14=3 5=0 6=672 7=96
+BatchNorm        stage5/conv2/conv1/bn 1 1 stage5/conv2/conv1 stage5/conv2/conv1_stage5/conv2/conv1/bn 0=96
+Scale            stage5/conv2/conv1/bn/scale 1 1 stage5/conv2/conv1_stage5/conv2/conv1/bn stage5/conv2/conv1_stage5/conv2/conv1/bn/scale 0=96 1=1
+ConvolutionDepthWise stage5/conv2/conv2 1 1 fc/conv1_fc/conv1/relu_splitncnn_0 stage5/conv2/conv2 0=96 1=7 11=1 2=1 3=1 4=3 14=0 5=0 6=672 7=96
+BatchNorm        stage5/conv2/conv2/bn 1 1 stage5/conv2/conv2 stage5/conv2/conv2_stage5/conv2/conv2/bn 0=96
+Scale            stage5/conv2/conv2/bn/scale 1 1 stage5/conv2/conv2_stage5/conv2/conv2/bn stage5/conv2/conv2_stage5/conv2/conv2/bn/scale 0=96 1=1
+Eltwise          stage5/conv2     2 1 stage5/conv2/conv1_stage5/conv2/conv1/bn/scale stage5/conv2/conv2_stage5/conv2/conv2/bn/scale stage5/conv2 0=1 -23301=0
+Convolution      fc/conv3         1 1 stage5/conv2 fc/conv3 0=192 1=1 2=1 3=1 4=0 5=0 6=18432
+BatchNorm        fc/conv3/bn      1 1 fc/conv3 fc/conv3_fc/conv3/bn 0=192
+Scale            fc/conv3/bn/scale 1 1 fc/conv3_fc/conv3/bn fc/conv3_fc/conv3/bn/scale 0=192 1=1
+ReLU             fc/conv3/relu    1 1 fc/conv3_fc/conv3/bn/scale fc/conv3_fc/conv3/relu
+Eltwise          fc/conv3/add     2 1 stage4_4/shuffle_splitncnn_0 fc/conv3_fc/conv3/relu fc/conv3/add 0=1 -23301=0
+DeconvolutionDepthWise merge1/deconv    1 1 fc/conv3/add merge1/deconv 0=192 1=2 2=1 3=2 4=0 5=0 6=768 7=192
+BatchNorm        merge1/deconv/bn 1 1 merge1/deconv merge1/deconv_merge1/deconv/bn 0=192
+Scale            merge1/deconv/bn/scale 1 1 merge1/deconv_merge1/deconv/bn merge1/deconv_merge1/deconv/bn/scale 0=192 1=1
+Concat           merge1/concat    2 1 merge1/deconv_merge1/deconv/bn/scale stage3_8/shuffle_splitncnn_0 merge1/concat 0=0
+Convolution      merge1/conv1     1 1 merge1/concat merge1/conv1 0=96 1=1 2=1 3=1 4=0 5=0 6=27648
+BatchNorm        merge1/conv1/bn  1 1 merge1/conv1 merge1/conv1_merge1/conv1/bn 0=96
+Scale            merge1/conv1/bn/scale 1 1 merge1/conv1_merge1/conv1/bn merge1/conv1_merge1/conv1/bn/scale 0=96 1=1
+ReLU             merge1/conv1/relu 1 1 merge1/conv1_merge1/conv1/bn/scale merge1/conv1_merge1/conv1/relu
+ConvolutionDepthWise merge1/conv2     1 1 merge1/conv1_merge1/conv1/relu merge1/conv2 0=96 1=3 2=1 3=1 4=1 5=0 6=864 7=96
+BatchNorm        merge1/conv2/bn  1 1 merge1/conv2 merge1/conv2_merge1/conv2/bn 0=96
+Scale            merge1/conv2/bn/scale 1 1 merge1/conv2_merge1/conv2/bn merge1/conv2_merge1/conv2/bn/scale 0=96 1=1
+Convolution      merge1/conv3     1 1 merge1/conv2_merge1/conv2/bn/scale merge1/conv3 0=96 1=1 2=1 3=1 4=0 5=0 6=9216
+BatchNorm        merge1/conv3/bn  1 1 merge1/conv3 merge1/conv3_merge1/conv3/bn 0=96
+Scale            merge1/conv3/bn/scale 1 1 merge1/conv3_merge1/conv3/bn merge1/conv3_merge1/conv3/bn/scale 0=96 1=1
+ReLU             merge1/conv3/relu 1 1 merge1/conv3_merge1/conv3/bn/scale merge1/conv3_merge1/conv3/relu
+DeconvolutionDepthWise merge2/deconv    1 1 merge1/conv3_merge1/conv3/relu merge2/deconv 0=96 1=2 2=1 3=2 4=0 5=0 6=384 7=96
+BatchNorm        merge2/deconv/bn 1 1 merge2/deconv merge2/deconv_merge2/deconv/bn 0=96
+Scale            merge2/deconv/bn/scale 1 1 merge2/deconv_merge2/deconv/bn merge2/deconv_merge2/deconv/bn/scale 0=96 1=1
+Concat           merge2/concat    2 1 merge2/deconv_merge2/deconv/bn/scale stage2_4/shuffle_splitncnn_0 merge2/concat 0=0
+Convolution      merge2/conv1     1 1 merge2/concat merge2/conv1 0=48 1=1 2=1 3=1 4=0 5=0 6=6912
+BatchNorm        merge2/conv1/bn  1 1 merge2/conv1 merge2/conv1_merge2/conv1/bn 0=48
+Scale            merge2/conv1/bn/scale 1 1 merge2/conv1_merge2/conv1/bn merge2/conv1_merge2/conv1/bn/scale 0=48 1=1
+ReLU             merge2/conv1/relu 1 1 merge2/conv1_merge2/conv1/bn/scale merge2/conv1_merge2/conv1/relu
+ConvolutionDepthWise merge2/conv2     1 1 merge2/conv1_merge2/conv1/relu merge2/conv2 0=48 1=3 2=1 3=1 4=1 5=0 6=432 7=48
+BatchNorm        merge2/conv2/bn  1 1 merge2/conv2 merge2/conv2_merge2/conv2/bn 0=48
+Scale            merge2/conv2/bn/scale 1 1 merge2/conv2_merge2/conv2/bn merge2/conv2_merge2/conv2/bn/scale 0=48 1=1
+Convolution      merge2/conv3     1 1 merge2/conv2_merge2/conv2/bn/scale merge2/conv3 0=48 1=1 2=1 3=1 4=0 5=0 6=2304
+BatchNorm        merge2/conv3/bn  1 1 merge2/conv3 merge2/conv3_merge2/conv3/bn 0=48
+Scale            merge2/conv3/bn/scale 1 1 merge2/conv3_merge2/conv3/bn merge2/conv3_merge2/conv3/bn/scale 0=48 1=1
+ReLU             merge2/conv3/relu 1 1 merge2/conv3_merge2/conv3/bn/scale merge2/conv3_merge2/conv3/relu
+DeconvolutionDepthWise merge3/deconv    1 1 merge2/conv3_merge2/conv3/relu merge3/deconv 0=48 1=2 2=1 3=2 4=0 5=0 6=192 7=48
+BatchNorm        merge3/deconv/bn 1 1 merge3/deconv merge3/deconv_merge3/deconv/bn 0=48
+Scale            merge3/deconv/bn/scale 1 1 merge3/deconv_merge3/deconv/bn merge3/deconv_merge3/deconv/bn/scale 0=48 1=1
+Concat           merge3/concat    2 1 merge3/deconv_merge3/deconv/bn/scale stage1/pool_splitncnn_0 merge3/concat 0=0
+Convolution      merge3/conv1     1 1 merge3/concat merge3/conv1 0=24 1=1 2=1 3=1 4=0 5=0 6=1728
+BatchNorm        merge3/conv1/bn  1 1 merge3/conv1 merge3/conv1_merge3/conv1/bn 0=24
+Scale            merge3/conv1/bn/scale 1 1 merge3/conv1_merge3/conv1/bn merge3/conv1_merge3/conv1/bn/scale 0=24 1=1
+ReLU             merge3/conv1/relu 1 1 merge3/conv1_merge3/conv1/bn/scale merge3/conv1_merge3/conv1/relu
+ConvolutionDepthWise merge3/conv2     1 1 merge3/conv1_merge3/conv1/relu merge3/conv2 0=24 1=3 2=1 3=1 4=1 5=0 6=216 7=24
+BatchNorm        merge3/conv2/bn  1 1 merge3/conv2 merge3/conv2_merge3/conv2/bn 0=24
+Scale            merge3/conv2/bn/scale 1 1 merge3/conv2_merge3/conv2/bn merge3/conv2_merge3/conv2/bn/scale 0=24 1=1
+Convolution      merge3/conv3     1 1 merge3/conv2_merge3/conv2/bn/scale merge3/conv3 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        merge3/conv3/bn  1 1 merge3/conv3 merge3/conv3_merge3/conv3/bn 0=24
+Scale            merge3/conv3/bn/scale 1 1 merge3/conv3_merge3/conv3/bn merge3/conv3_merge3/conv3/bn/scale 0=24 1=1
+ReLU             merge3/conv3/relu 1 1 merge3/conv3_merge3/conv3/bn/scale merge3/conv3_merge3/conv3/relu
+ConvolutionDepthWise final/conv1      1 1 merge3/conv3_merge3/conv3/relu final/conv1 0=24 1=3 2=1 3=1 4=1 5=0 6=216 7=24
+BatchNorm        final/conv1/bn   1 1 final/conv1 final/conv1_final/conv1/bn 0=24
+Scale            final/conv1/bn/scale 1 1 final/conv1_final/conv1/bn final/conv1_final/conv1/bn/scale 0=24 1=1
+Convolution      final/conv2      1 1 final/conv1_final/conv1/bn/scale final/conv2 0=24 1=1 2=1 3=1 4=0 5=0 6=576
+BatchNorm        final/conv2/bn   1 1 final/conv2 final/conv2_final/conv2/bn 0=24
+Scale            final/conv2/bn/scale 1 1 final/conv2_final/conv2/bn final/conv2_final/conv2/bn/scale 0=24 1=1
+ReLU             final/conv2/relu 1 1 final/conv2_final/conv2/bn/scale final/conv2_final/conv2/relu
+DeconvolutionDepthWise final/deconv3    1 1 final/conv2_final/conv2/relu final/deconv3 0=24 1=2 2=1 3=2 4=0 5=0 6=96 7=24
+BatchNorm        final/deconv3/bn 1 1 final/deconv3 final/deconv3_final/deconv3/bn 0=24
+Scale            final/deconv3/bn/scale 1 1 final/deconv3_final/deconv3/bn final/deconv3_final/deconv3/bn/scale 0=24 1=1
+Convolution      fc_cls           1 1 final/deconv3_final/deconv3/bn/scale fc_cls 0=3 1=1 2=1 3=1 4=0 5=1 6=72

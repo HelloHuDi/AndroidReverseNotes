@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/k5" android:paddingLeft="@dimen/ds" android:paddingRight="0dp" android:layout_width="match_parent" android:layout_height="@dimen/m3" style="@style/lp">
+    <ImageView android:id="@+id/be7" android:padding="@dimen/nh" android:layout_width="@dimen/dq" android:layout_height="@dimen/dq" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <RelativeLayout android:id="@+id/be8" android:paddingLeft="@dimen/lo" android:paddingRight="@dimen/lo" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@+id/bud" android:layout_toRightOf="@+id/be7" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/l0" android:id="@+id/bgm" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2" style="@style/lf"/>
+        <TextView android:id="@+id/ba5" android:paddingRight="@dimen/m4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/bgm" android:layout_alignParentLeft="true" style="@style/le"/>
+        <TextView android:id="@+id/bue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toRightOf="@+id/ba5" android:layout_below="@+id/bgm" style="@style/le"/>
+    </RelativeLayout>
+    <FrameLayout android:id="@+id/bud" android:layout_width="@dimen/m3" android:layout_height="@dimen/m3" android:layout_alignParentRight="true">
+        <View android:layout_gravity="center_vertical" android:background="#18000000" android:layout_width="1dp" android:layout_height="32dp"/>
+        <CheckBox android:layout_gravity="center" android:id="@+id/buf" android:focusable="false" android:clickable="false" android:layout_width="@dimen/ex" android:layout_height="@dimen/ex" style="@style/ky"/>
+    </FrameLayout>
+</RelativeLayout>

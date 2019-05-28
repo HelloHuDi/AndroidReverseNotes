@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/lm" android:id="@+id/dbd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true"/>
+    <com.tencent.p177mm.plugin.mmsight.api.MMSightRecordView android:id="@+id/dbe" android:layout_width="300dp" android:layout_height="450dp" android:layout_centerInParent="true"/>
+    <ImageView android:id="@+id/aga" android:layout_width="125dp" android:layout_height="78dp" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <Button android:id="@+id/dbf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="take picture" android:layout_below="@+id/dbe" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/dbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="start record" android:layout_below="@+id/dbf" android:layout_centerHorizontal="true"/>
+    <Button android:id="@+id/dbh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="switch camera" android:layout_below="@+id/dbg" android:layout_centerHorizontal="true"/>
+</RelativeLayout>

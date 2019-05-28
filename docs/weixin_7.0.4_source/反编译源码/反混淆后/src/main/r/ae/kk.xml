@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/gp" android:layout_width="match_parent" android:layout_height="94dp" android:minHeight="94dp">
+    <com.tencent.p177mm.plugin.card.widget.MemberCardTopCropImageView android:id="@+id/ak3" android:background="#dc6f49" android:layout_width="match_parent" android:layout_height="94dp" android:scaleType="centerCrop" android:minHeight="94dp"/>
+    <ImageView android:id="@+id/ak4" android:background="@drawable/az7" android:visibility="gone" android:layout_width="match_parent" android:layout_height="94dp"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="94dp">
+        <com.tencent.p177mm.plugin.card.p355ui.p356v2.CardCdnImageView android:id="@+id/ak5" android:layout_width="@dimen/vx" android:layout_height="@dimen/vx" android:layout_marginLeft="@dimen/vq" android:src="@drawable/bcm" android:scaleType="fitCenter"/>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vr" android:layout_marginRight="@dimen/do">
+            <TextView android:textSize="@dimen/kr" android:textColor="#555555" android:ellipsize="end" android:id="@+id/ak6" android:layout_marginBottom="5dp" android:singleLine="true" style="@style/fg"/>
+            <TextView android:textSize="21dp" android:textColor="#555555" android:ellipsize="end" android:id="@+id/ak7" android:singleLine="true" style="@style/fg"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/ak8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="13dp" android:layout_marginRight="@dimen/lo" android:layout_alignParentTop="true" android:layout_alignParentRight="true"/>
+    <ImageView android:background="@drawable/gs" android:layout_width="match_parent" android:layout_height="94dp"/>
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="10" style="@style/v5">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="6">
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/wallet_wxcredit_open_card"/>
+            <TextView android:textSize="@dimen/dt" android:textStyle="bold" android:textColor="@color/s1" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:text="@string/fwx"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="47dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/wallet_wxcredit_open_shoppingbag"/>
+            <TextView android:textSize="@dimen/dt" android:textStyle="bold" android:textColor="@color/s1" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:text="@string/fx7"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="47dp">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/wallet_wxcredit_open_free"/>
+            <TextView android:textSize="@dimen/dt" android:textStyle="bold" android:textColor="@color/s1" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:text="@string/fwy"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:gravity="top" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="4">
+        <LinearLayout android:gravity="left" android:layout_marginTop="30dp" style="@style/mb">
+            <CheckBox android:textSize="@dimen/m5" android:textColor="@color/h4" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/f9i" android:paddingLeft="24dp" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:minHeight="22dp" android:text="@string/fcv" style="@style/nt"/>
+            <Button android:textSize="@dimen/m5" android:textColor="@color/a8k" android:ellipsize="marquee" android:gravity="left|center_vertical|center_horizontal|center" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/daa" android:paddingTop="5dp" android:paddingRight="0dp" android:paddingBottom="5dp" android:layout_marginLeft="0dp" android:minHeight="30dp" android:text="@string/fcu" android:singleLine="true" style="@style/vn"/>
+        </LinearLayout>
+        <Button android:id="@+id/ay8" android:layout_width="match_parent" android:layout_marginTop="16dp" android:text="@string/fx8" style="@style/ni"/>
+    </LinearLayout>
+</LinearLayout>

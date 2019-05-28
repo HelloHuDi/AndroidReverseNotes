@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/be6" android:background="@color/a69" android:descendantFocusability="blocksDescendants" android:layout_width="match_parent" android:layout_height="@dimen/a0i">
+    <ImageView android:id="@+id/be7" android:padding="@dimen/m4" android:layout_width="@dimen/a0k" android:layout_height="@dimen/a0k" android:scaleType="fitXY"/>
+    <ImageView android:id="@+id/bgg" android:background="@drawable/emoji_grid_item_fg" android:layout_width="@dimen/a0k" android:layout_height="@dimen/a0k"/>
+    <ProgressBar android:layout_gravity="center_vertical" android:id="@+id/beg" android:visibility="gone" android:layout_width="@dimen/a0k" android:layout_height="@dimen/a0g" android:max="100" android:progress="0" android:layout_below="@+id/be7" style="@style/l6"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="@dimen/a0k" android:layout_height="@dimen/a0g" android:layout_below="@+id/be7">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@+id/be8" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="0dp" android:layout_height="@dimen/a0g" android:layout_weight="1">
+            <TextView android:textSize="@dimen/ni" android:ellipsize="end" android:id="@+id/ba3" android:layout_width="wrap_content" android:layout_height="0dp" android:text="{xxxxxx}" android:layout_weight="1" style="@style/lf"/>
+            <TextView android:textSize="@dimen/nt" android:textColor="@color/s0" android:ellipsize="end" android:id="@+id/be_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{Y6.00}" android:singleLine="true"/>
+            <TextView android:id="@+id/bea" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/le"/>
+        </LinearLayout>
+        <FrameLayout android:gravity="center" android:id="@+id/be9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/a0g">
+            <LinearLayout android:orientation="vertical" android:id="@+id/beb" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                <TextView android:textSize="14dp" android:textColor="@color/t4" android:gravity="center" android:id="@+id/bec" android:background="@drawable/emoji_download_item" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:shadowRadius="1.2"/>
+            </LinearLayout>
+            <ImageView android:gravity="center" android:layout_gravity="center" android:id="@+id/bed" android:paddingRight="@dimen/nc" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/emoji_download_item"/>
+            <ProgressBar android:gravity="center" android:layout_gravity="center" android:id="@+id/bee" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/a0h"/>
+        </FrameLayout>
+    </LinearLayout>
+</RelativeLayout>

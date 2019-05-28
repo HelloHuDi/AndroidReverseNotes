@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="b7">
+    </style>
+    <style name="b9">
+    </style>
+    <style name="c9">
+    </style>
+    <style name="a1k">
+        <item name="gi">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="a1l">
+        <item name="gi">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="a1m">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="a1n">
+        <item name="android:touchscreenBlocksFocus">true</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="d0">
+    </style>
+</resources>

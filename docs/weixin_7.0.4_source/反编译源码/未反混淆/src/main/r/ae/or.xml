@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/aq" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textSize="@dimen/nk" android:textColor="@color/a69" android:ellipsize="end" android:gravity="left" android:id="@+id/axc" android:background="@drawable/a3m" android:paddingLeft="@dimen/m4" android:paddingTop="@dimen/m4" android:paddingRight="@dimen/m4" android:paddingBottom="@dimen/m4" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxLines="2"/>
+    <ListView android:id="@+id/axd" android:background="@color/a69" android:visibility="gone" android:scrollbars="none" android:fadingEdge="none" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@drawable/uv" android:cacheColorHint="#00000000" android:overScrollMode="never"/>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/axe" android:layout_width="match_parent" android:layout_height="match_parent">
+        <include android:id="@+id/axf" layout="@layout/p7"/>
+        <TextView android:textSize="14dp" android:textColor="@color/w0" android:id="@+id/axg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp" android:text="@string/ar_"/>
+    </LinearLayout>
+</LinearLayout>

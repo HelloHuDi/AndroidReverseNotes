@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.p177mm.plugin.story.p536ui.view.gallery.StoryVideoPlayTextureView android:id="@+id/eta" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.plugin.story.p536ui.view.editor.item.EditorItemContainer android:id="@+id/bdp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true"/>
+    <com.tencent.p177mm.plugin.story.p536ui.view.editor.EditorControlPanel android:id="@+id/etb" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.plugin.story.p536ui.view.editor.EditorInputView android:id="@+id/bc_" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <com.tencent.p177mm.plugin.story.p536ui.view.editor.EditorAudioView android:id="@+id/etc" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</merge>

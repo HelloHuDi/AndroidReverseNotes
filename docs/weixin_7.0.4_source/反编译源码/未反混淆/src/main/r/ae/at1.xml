@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/edc" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/dk" android:textColor="@color/h7" android:gravity="center" android:id="@+id/edd" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/dem"/>
+    </FrameLayout>
+    <com.tencent.mm.ui.widget.MMWebView android:id="@+id/edf" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <RelativeLayout android:background="@color/zf" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="16dp" android:textColor="@color/ro" android:id="@+id/edg" android:background="@drawable/a3a" android:padding="16dp" android:text="@string/p7" android:layout_alignParentLeft="true" style="@style/ng"/>
+        <TextView android:textSize="16dp" android:textColor="@color/hy" android:id="@+id/edh" android:background="@drawable/a3a" android:padding="16dp" android:text="@string/fw" android:layout_alignParentRight="true" style="@style/ng"/>
+    </RelativeLayout>
+</LinearLayout>

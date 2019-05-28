@@ -1,0 +1,82 @@
+ precision mediump float;
+ varying highp vec2 textureCoordinate;
+ varying highp vec2 textureCoordinate2;
+ varying highp vec2 textureCoordinate3;
+ uniform sampler2D inputImageTexture;
+ uniform sampler2D inputImageTexture2;
+ uniform sampler2D inputImageTexture3;
+
+ uniform int drawTypeFragment;
+ uniform float alphaBlend;
+
+ uniform vec3 userColor1;
+ uniform vec3 userColor2;
+ uniform vec3 modelColor1;
+ uniform vec3 modelColor2;
+
+ vec3 refineColorOld(vec3 userColor) {
+     float resR;
+     float resG;
+     float resB;
+     if (userColor.r <= userColor1.r) {
+         resR = userColor.r + (modelColor1.r - userColor1.r) * (userColor.r / userColor1.r);
+     } else {
+         resR = userColor.r + (modelColor1.r - userColor1.r) * ((1.0 - userColor.r) / (1.0 - userColor1.r));
+     }
+     if (userColor.g <= userColor1.g) {
+         resG = userColor.g + (modelColor1.g - userColor1.g) * (userColor.g / userColor1.g);
+     } else {
+         resG = userColor.g + (modelColor1.g - userColor1.g) * ((1.0 - userColor.g) / (1.0 - userColor1.g));
+     }
+     if (userColor.b <= userColor1.b) {
+         resB = userColor.b + (modelColor1.b - userColor1.b) * (userColor.b / userColor1.b);
+     } else {
+         resB = userColor.b + (modelColor1.b - userColor1.b) * ((1.0 - userColor.b) / (1.0 - userColor1.b));
+     }
+     return vec3(resR,resG,resB);
+ }
+ vec3 refineColorNew(vec3 userColor) {
+     float resR;
+     float resG;
+     float resB;
+     if (userColor.r <= userColor1.r) {
+         resR = modelColor1.r * userColor.r / userColor1.r;
+     } else {
+         resR = modelColor1.r + (modelColor2.r - modelColor1.r) * (userColor.r - userColor1.r) / (userColor2.r - userColor1.r);
+     }
+     if (userColor.g <= userColor1.g) {
+         resG = modelColor1.g * userColor.g / userColor1.g;
+     } else {
+         resG = modelColor1.g + (modelColor2.g - modelColor1.g) * (userColor.g - userColor1.g) / (userColor2.g - userColor1.g);
+     }
+     if (userColor.b <= userColor1.b) {
+         resB = modelColor1.b * userColor.b / userColor1.b;
+     } else {
+         resB = modelColor1.b + (modelColor2.b - modelColor1.b) * (userColor.b - userColor1.b) / (userColor2.b - userColor1.b);
+     }
+     return vec3(resR,resG,resB);
+ }
+ void main(void) {
+     if (drawTypeFragment == 0){
+         gl_FragColor = texture2D(inputImageTexture, textureCoordinate);
+         return;
+     }
+
+     vec4 modelColor = texture2D(inputImageTexture, textureCoordinate);
+     vec4 userColor = texture2D(inputImageTexture2, textureCoordinate2);
+
+     vec3 uColor = userColor.rgb;
+     if (drawTypeFragment == 1) {
+         uColor = refineColorOld(userColor.rgb);
+     } else if (drawTypeFragment == 2) {
+         uColor = refineColorNew(userColor.rgb);
+     }
+     userColor = vec4(clamp(uColor, 0.0, 1.0), 1.0);
+
+     vec4 grayColor = texture2D(inputImageTexture3, textureCoordinate3);
+
+     float xAlpha = alphaBlend + (1.0 - alphaBlend) * grayColor.r;
+     vec3 resultColor = userColor.rgb * (1.0 - xAlpha) + modelColor.rgb * xAlpha;
+
+     gl_FragColor = vec4(resultColor, 1.0);
+ }

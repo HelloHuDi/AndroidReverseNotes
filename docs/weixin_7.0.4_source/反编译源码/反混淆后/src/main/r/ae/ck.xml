@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/dy" android:paddingTop="@dimen/ld" android:paddingRight="@dimen/dy" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/s3" android:layout_width="@dimen/dp" android:layout_height="@dimen/dp"/>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_weight="1">
+            <TextView android:id="@+id/s4" android:text="{nick name}" style="@style/l_"/>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nc">
+                <TextView android:id="@+id/s5" android:text="{installed|uninstalled|hide}" style="@style/la"/>
+                <View android:layout_width="match_parent" android:layout_weight="1" style="@style/nr"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/dy" android:paddingRight="@dimen/dy" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <View android:layout_marginTop="@dimen/ld" style="@style/h7"/>
+        <TextView android:id="@+id/s6" android:layout_marginTop="@dimen/l5" android:text="@string/lc" android:singleLine="false" style="@style/nu"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:id="@+id/s7" android:paddingTop="@dimen/dy" android:paddingBottom="@dimen/nc" android:text="@string/lb" android:singleLine="false" style="@style/nu"/>
+        <TextView android:id="@+id/s8" android:layout_marginTop="@dimen/l9" android:layout_marginBottom="@dimen/nc" style="@style/ni"/>
+    </LinearLayout>
+</LinearLayout>

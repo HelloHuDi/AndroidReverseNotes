@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.tencent.mm.plugin.mmsight.segment.RecyclerThumbSeekBar android:id="@+id/f16" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="@dimen/a_z"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="25dp" android:layout_marginTop="25dp">
+        <Button android:textSize="@dimen/dt" android:textColor="@color/a6y" android:gravity="center" android:id="@+id/dn5" android:background="@android:color/transparent" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/or"/>
+        <View android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1"/>
+        <Button android:textSize="@dimen/dt" android:textColor="@color/a61" android:gravity="center" android:id="@+id/dn6" android:background="@android:color/transparent" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="match_parent" android:text="@string/qt"/>
+    </LinearLayout>
+</LinearLayout>

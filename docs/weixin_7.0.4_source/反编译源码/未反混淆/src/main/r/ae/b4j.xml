@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="@drawable/a7u" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="20dp" android:layout_marginRight="20dp">
+        <ImageView android:id="@+id/au3" android:layout_width="12dp" android:layout_height="12dp" android:layout_marginTop="20dp" android:src="@drawable/b73" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <ImageView android:id="@+id/f5r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:src="@drawable/b74" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="17dp" android:textColor="#484848" android:id="@+id/f5s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:text="" android:layout_below="@+id/f5r" android:layout_centerHorizontal="true"/>
+        <View android:id="@+id/faf" android:background="#d8d8d8" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginTop="15dp" android:layout_below="@+id/f5s"/>
+        <TextView android:textSize="16dp" android:textColor="#484848" android:id="@+id/fag" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:layout_marginBottom="15dp" android:text="" android:layout_below="@+id/faf" android:layout_centerHorizontal="true"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/fah" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/fag"/>
+        <Button android:textSize="17dp" android:id="@+id/fai" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginTop="25dp" android:text="" android:layout_below="@+id/fah" android:layout_centerHorizontal="true" style="@style/ni"/>
+        <TextView android:textSize="14dp" android:textColor="#888888" android:gravity="center" android:id="@+id/faj" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:layout_marginBottom="11dp" android:text="" android:layout_below="@+id/fai" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <RelativeLayout android:orientation="vertical" android:background="#fff1a555" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="right" android:layout_width="89dp" android:layout_height="87dp" android:layout_marginTop="47dp" android:src="@c1318a/welab_bg_left" android:scaleType="centerCrop" android:layout_alignParentLeft="true"/>
+        <ImageView android:layout_gravity="left" android:layout_width="231dp" android:layout_height="231dp" android:layout_marginTop="47dp" android:src="@c1318a/welab_bg_right" android:scaleType="centerCrop" android:layout_alignParentRight="true"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/m5" android:paddingTop="31dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/nb">
+            <LinearLayout android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@+id/fkz" android:layout_width="34dp" android:layout_height="34dp" android:layout_marginRight="6dp" android:src="@c1318a/welab_icon" android:scaleType="centerInside"/>
+                <TextView android:textSize="24sp" android:textColor="#ffffff" android:id="@+id/cx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edo" android:singleLine="true"/>
+            </LinearLayout>
+            <TextView android:textSize="13sp" android:textColor="#ffffff" android:gravity="center" android:id="@+id/a81" android:paddingLeft="30dp" android:paddingRight="30dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/edn" android:lineSpacingExtra="5dp"/>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/fl7" android:paddingTop="60dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp">
+                <View android:background="#b2ffffff" android:layout_width="25.9dp" android:layout_height="1px"/>
+                <TextView android:textSize="12sp" android:textColor="#b2ffffff" android:id="@android:id/title" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edf"/>
+                <View android:background="#b2ffffff" android:layout_width="25.9dp" android:layout_height="1px"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/fl8" android:paddingTop="60dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp">
+                    <View android:background="#b2ffffff" android:layout_width="25.9dp" android:layout_height="1px"/>
+                    <TextView android:textSize="12sp" android:textColor="#b2ffffff" android:id="@android:id/title" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/eda"/>
+                    <View android:background="#b2ffffff" android:layout_width="25.9dp" android:layout_height="1px"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/fl9" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/fl_" android:paddingTop="60dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="14dp">
+                    <View android:background="#b2ffffff" android:layout_width="25.9dp" android:layout_height="1px"/>
+                    <TextView android:textSize="12sp" android:textColor="#b2ffffff" android:id="@android:id/title" android:paddingLeft="10dp" android:paddingRight="10dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edj"/>
+                    <View android:background="#b2ffffff" android:layout_width="25.9dp" android:layout_height="1px"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:id="@+id/fla" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="bottom|center_vertical|center_horizontal|center" android:layout_gravity="bottom" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:layout_marginBottom="30dp" android:layout_below="@+id/m5" android:layout_alignParentBottom="true">
+            <TextView android:textSize="13sp" android:textColor="#b2ffffff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edb" style="@style/kt"/>
+            <TextView android:textSize="13sp" android:id="@+id/flb" android:padding="0dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0dp" android:text="@string/edh" style="@style/k6"/>
+        </LinearLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="top|left|center_vertical|center_horizontal|center" android:orientation="horizontal" android:background="@color/a69" android:paddingLeft="@dimen/a4_" android:paddingTop="@dimen/lo" android:paddingRight="@dimen/a4_" android:paddingBottom="@dimen/lo" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nj" android:layout_weight="1">
+        <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/cxb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+        <ImageView android:id="@+id/cxc" android:paddingBottom="2dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="6dp" android:src="@drawable/b9r" android:layout_toRightOf="@+id/cxb" android:layout_alignBottom="@+id/cxb"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/tw" android:ellipsize="end" android:id="@+id/cxd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@+id/cxb" android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/m5" android:textColor="@color/h4" android:gravity="right" android:id="@+id/cxe" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

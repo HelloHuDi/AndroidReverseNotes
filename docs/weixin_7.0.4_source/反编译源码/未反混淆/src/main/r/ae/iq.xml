@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/ae3" android:background="@color/ja" android:layout_width="match_parent" android:layout_height="wrap_content" android:fillViewport="false">
+    <LinearLayout android:orientation="vertical" android:id="@+id/ae4" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@+id/ae5" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp">
+                <ImageView android:layout_gravity="center" android:id="@+id/ae6" android:visibility="gone" android:layout_width="22dp" android:layout_height="22dp" android:layout_marginRight="14dp"/>
+                <TextView android:textSize="24dp" android:textColor="#333333" android:ellipsize="end" android:gravity="center" android:id="@+id/ae7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:includeFontPadding="false"/>
+            </LinearLayout>
+            <android.support.v7.widget.CardView android:layout_gravity="center" android:clickable="true" android:layout_width="140dp" android:layout_height="84dp" android:layout_marginTop="20dp" app:cardCornerRadius="4dp" app:cardElevation="4dp" app:cardPreventCornerOverlap="false">
+                <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@+id/ae8" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                    <ImageView android:id="@+id/ae9" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_alignRight="@+id/ae8"/>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <TextView android:textSize="15dp" android:textColor="#cc333333" android:gravity="center" android:id="@+id/ae_" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:layout_marginRight="20dp" android:includeFontPadding="false"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@+id/aea" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:layout_gravity="left" android:id="@+id/aeb" android:background="@drawable/ayw" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="8dp"/>
+                <RelativeLayout android:layout_gravity="right" android:id="@+id/aec" android:background="@drawable/ayx" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="20dp"/>
+                <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <android.support.v7.widget.CardView android:layout_gravity="center" android:id="@+id/adr" android:clickable="true" android:layout_width="140dp" android:layout_height="84dp" android:layout_marginTop="30dp" app:cardCornerRadius="4dp" app:cardElevation="4dp" app:cardPreventCornerOverlap="false">
+                            <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                                <ImageView android:id="@+id/ads" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+                                <ImageView android:id="@+id/adt" android:layout_width="35dp" android:layout_height="35dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:layout_alignRight="@+id/ads"/>
+                            </RelativeLayout>
+                        </android.support.v7.widget.CardView>
+                        <TextView android:textSize="15dp" android:textColor="#333333" android:gravity="center" android:id="@+id/adm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp" android:includeFontPadding="false" android:alpha="0.8"/>
+                        <LinearLayout android:layout_gravity="center" android:id="@+id/adn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="8dp" android:layout_marginRight="20dp">
+                            <ImageView android:id="@+id/ado" android:visibility="gone" android:layout_width="20dp" android:layout_height="20dp" android:layout_marginRight="10dp"/>
+                            <TextView android:textSize="24dp" android:textColor="#333333" android:ellipsize="end" android:gravity="center" android:id="@+id/adp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="3" android:includeFontPadding="false"/>
+                        </LinearLayout>
+                        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp">
+                            <TextView android:textSize="24dp" android:textColor="#2c9f67" android:gravity="center" android:id="@+id/adq" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="2dp" android:includeFontPadding="false"/>
+                            <TextView android:textSize="14dp" android:textColor="#2c9f67" android:id="@+id/aed" android:layout_width="match_parent" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:id="@+id/aee" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="10dp">
+                            <ImageView android:id="@+id/aef" android:layout_width="17dp" android:layout_height="17dp" android:layout_marginRight="6dp"/>
+                            <TextView android:textSize="15dp" android:textColor="#555555" android:id="@+id/aeg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </FrameLayout>
+            </FrameLayout>
+        </LinearLayout>
+        <View android:id="@+id/aeh" android:background="@drawable/gl" android:visibility="gone" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginRight="20dp" android:layerType="software"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/aei" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <ListView android:id="@+id/aej" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="match_parent" android:transcriptMode="disabled"/>
+        <TextView android:textSize="15dp" android:textColor="#4ea582" android:gravity="left" android:id="@+id/aek" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:text="@string/ael" android:includeFontPadding="false"/>
+        <RelativeLayout android:id="@+id/ael" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60dp">
+            <LinearLayout android:orientation="vertical" android:id="@+id/aem" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <View android:background="@drawable/gl" android:visibility="visible" android:layout_width="match_parent" android:layout_height="2dp" android:layout_marginLeft="20dp" android:layout_marginRight="20dp" android:layerType="software"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/aen" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp">
+                    <ImageView android:layout_gravity="right" android:id="@+id/ae0" android:layout_width="34dp" android:layout_height="34dp" android:layout_marginLeft="20dp" android:layout_marginRight="13dp"/>
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20dp" android:layout_weight="1">
+                        <TextView android:textSize="15dp" android:textColor="#000000" android:ellipsize="end" android:layout_gravity="left" android:id="@+id/ae1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:includeFontPadding="false"/>
+                        <TextView android:textSize="15dp" android:textColor="#555555" android:ellipsize="end" android:layout_gravity="bottom" android:id="@+id/aeo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:includeFontPadding="false" android:lineSpacingExtra="10dp"/>
+                        <RelativeLayout android:layout_gravity="right" android:id="@+id/aep" android:background="@drawable/ayz" android:visibility="gone" android:layout_width="80dp" android:layout_height="80dp" android:layout_marginTop="20dp" android:layout_marginBottom="20dp" android:rotation="5">
+                            <android.support.v7.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:rotationX="5" app:cardCornerRadius="2dp" app:cardElevation="0px" app:cardUseCompatPadding="true" app:cardPreventCornerOverlap="false">
+                                <ImageView android:layout_gravity="center" android:id="@+id/adx" android:background="@drawable/ayy" android:layout_width="68dp" android:layout_height="68dp" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+                            </android.support.v7.widget.CardView>
+                            <RelativeLayout android:id="@+id/aeq" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+                                <ImageView android:background="@a/card_video_play" android:layout_width="60dp" android:layout_height="60dp" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+                            </RelativeLayout>
+                            <ProgressBar android:layout_gravity="center" android:id="@+id/adj" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" style="@style/zo"/>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:orientation="vertical" android:id="@+id/aer" android:background="@color/j8" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="60dp">
+            <View android:id="@+id/aes" android:background="@drawable/gl" android:layout_width="match_parent" android:layout_height="2dp" android:layerType="software"/>
+            <TextView android:textSize="12dp" android:textColor="#888888" android:ellipsize="end" android:id="@+id/aet" android:background="@color/j8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="30dp" android:layout_marginBottom="14dp" android:singleLine="true" android:includeFontPadding="false" android:layout_below="@+id/aes"/>
+            <ListView android:id="@+id/aeu" android:visibility="gone" android:clickable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:transcriptMode="disabled" android:layout_below="@+id/aet"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

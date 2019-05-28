@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/de_" android:background="@color/li" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/dea" android:background="@color/li" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="80dp">
+            <ImageView android:id="@+id/deb" android:layout_width="@dimen/a5l" android:layout_height="@dimen/a5k" android:contentDescription="main_avatar"/>
+            <TextView android:textSize="24dp" android:textColor="#fff" android:ellipsize="end" android:id="@+id/dec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="10dp" android:layout_marginRight="20dp" android:text="{invite_main_nickname_tv}"/>
+            <TextView android:textSize="12dp" android:textColor="#888" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6dp" android:text="@string/d2q"/>
+        </LinearLayout>
+        <TextView android:textSize="12dp" android:textColor="#888" android:id="@+id/ded" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="245dp" android:text="{introduce_tv}" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="205dp" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:id="@+id/dee" android:layout_width="wrap_content" android:layout_height="@dimen/a5q" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="@dimen/a5j" android:layout_alignParentBottom="true">
+            <ImageButton android:id="@+id/def" android:background="@drawable/vj" android:layout_width="@dimen/a5n" android:layout_height="@dimen/a5m" android:layout_marginLeft="50dp" android:layout_marginBottom="23dp" android:layout_alignParentBottom="true"/>
+            <ImageButton android:id="@+id/deg" android:background="@drawable/vm" android:layout_width="@dimen/a5n" android:layout_height="@dimen/a5m" android:layout_marginRight="50dp" android:layout_marginBottom="23dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/deh" android:background="@color/li" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:id="@+id/dei" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+            <FrameLayout android:orientation="vertical" android:id="@+id/dej" android:background="@color/li" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <FrameLayout android:orientation="vertical" android:id="@+id/dek" android:background="@color/li" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ImageView android:background="@drawable/bcg" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <ImageButton android:id="@+id/del" android:background="@color/a3p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="10dp" android:src="@c1318a/multitalk_mini_action"/>
+            <ImageButton android:id="@+id/dem" android:background="@color/a3p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:layout_marginRight="10dp" android:src="@c1318a/multitalk_add_action" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="bottom" android:id="@+id/den" android:layout_width="match_parent" android:layout_height="27dp">
+            <TextView android:textSize="11dp" android:textColor="@color/a69" android:id="@+id/la" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/d3o" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="bottom" android:layout_width="match_parent" android:layout_height="@dimen/a5j">
+            <RelativeLayout android:layout_width="@dimen/a5p" android:layout_height="@dimen/a5o" android:layout_marginLeft="20dp" android:layout_marginBottom="28dp">
+                <com.tencent.p177mm.plugin.voip.p546ui.MMCheckBox android:id="@+id/deo" android:background="@drawable/vl" android:layout_width="60dp" android:layout_height="match_parent" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="12dp" android:textColor="@color/a69" android:ellipsize="middle" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d2z" android:singleLine="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="@dimen/a5p" android:layout_height="@dimen/a5o" android:layout_marginRight="20dp" android:layout_alignParentRight="true">
+                <com.tencent.p177mm.plugin.voip.p546ui.MMCheckBox android:id="@+id/dep" android:background="@drawable/vp" android:layout_width="60dp" android:layout_height="match_parent" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="12dp" android:textColor="@color/a69" android:ellipsize="middle" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d3n" android:singleLine="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="@dimen/a5p" android:layout_height="@dimen/a5o" android:layout_marginRight="20dp" android:layout_marginBottom="28dp" android:layout_centerHorizontal="true">
+                <com.tencent.p177mm.plugin.voip.p546ui.MMCheckBox android:id="@+id/deq" android:background="@drawable/vi" android:layout_width="60dp" android:layout_height="match_parent" android:layout_centerHorizontal="true"/>
+                <TextView android:textSize="12dp" android:textColor="@color/a69" android:ellipsize="middle" android:gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/d2m" android:singleLine="true" android:layout_alignParentBottom="true"/>
+            </RelativeLayout>
+            <ImageButton android:id="@+id/der" android:background="@drawable/vj" android:layout_width="@dimen/a5n" android:layout_height="@dimen/a5m" android:layout_marginBottom="23dp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <ImageButton android:id="@+id/des" android:background="@drawable/vg" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginRight="35dp" android:layout_marginBottom="23dp" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

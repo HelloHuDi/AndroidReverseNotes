@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:paddingBottom="12dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="58dp">
+        <TextView android:textSize="17dp" android:textColor="@color/h4" android:id="@+id/epf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:text="@string/g6m" android:layout_centerVertical="true"/>
+        <TextView android:textSize="14dp" android:textColor="#4d000000" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="4dp" android:layout_marginBottom="17dp" android:text="@string/g9t" android:layout_below="@+id/epf"/>
+        <ImageView android:layout_width="7dp" android:layout_height="13dp" android:layout_marginRight="19dp" android:src="@a/arrow_right" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <include android:layout_width="match_parent" android:layout_height="12dp" layout="@layout/afh"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.wallet_core.p650ui.CustomerScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <LinearLayout android:orientation="vertical" android:background="@color/zf" android:paddingTop="@dimen/l8" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/dlm" android:background="@color/vs" android:layout_width="1dp" android:layout_height="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fls" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/kr" android:id="@+id/dln" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dlo" android:background="@color/vs" android:layout_width="1dp" android:layout_height="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fl6" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/kr" android:id="@+id/dlp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dlq" android:background="@color/vs" android:layout_width="1dp" android:layout_height="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fks" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/kr" android:id="@+id/dlr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dls" android:background="@color/vs" android:layout_width="1dp" android:layout_height="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/cx3" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/kr" android:id="@+id/dlt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dlu" android:background="@color/vs" android:layout_width="1dp" android:layout_height="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fll" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/kr" android:id="@+id/dlv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dlw" android:background="@color/vs" android:layout_width="1dp" android:layout_height="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fp_" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/kr" android:id="@+id/dlx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5"/>
+        </LinearLayout>
+        <LinearLayout android:id="@+id/dly" android:background="@color/vs" android:layout_width="1dp" android:layout_height="@dimen/nb">
+            <TextView android:textSize="@dimen/m5" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/fkn" android:layout_weight="1"/>
+            <TextView android:textSize="@dimen/kr" android:id="@+id/dlz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5"/>
+        </LinearLayout>
+    </LinearLayout>
+</com.tencent.p177mm.wallet_core.p650ui.CustomerScrollView>

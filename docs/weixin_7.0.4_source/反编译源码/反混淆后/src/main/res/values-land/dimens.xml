@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="a2">48dp</dimen>
+    <dimen name="a3">12dp</dimen>
+    <dimen name="a4">14dp</dimen>
+    <dimen name="a5">@dimen/fc</dimen>
+    <dimen name="ab4">32dp</dimen>
+</resources>

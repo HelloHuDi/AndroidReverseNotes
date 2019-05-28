@@ -1,0 +1,90 @@
+precision highp float;
+//uniform mat4 projection;
+//uniform mat4 faceFrame;
+//uniform mat4 stableToImage;
+uniform vec2 leftEyePlainSize;
+uniform vec3 leftEyeCenter;
+uniform vec2 rightEyePlainSize;
+uniform vec3 rightEyeCenter;
+uniform vec2 leftFacePlainSize;
+uniform vec3 leftFaceCenter;
+uniform vec2 rightFacePlainSize;
+uniform vec3 rightFaceCenter;
+uniform float faceWidth;
+uniform vec3 scaleCenter;
+attribute vec4 position;
+//attribute float faceIndex;
+//attribute float depthValue;
+varying vec2 textureCoordinate;
+uniform vec3 angles; // angles.x: pitch, angles.y: yaw, angles.z: roll
+
+float getElipseMask(in vec2 sigmaScaling, in vec2 point,in vec2 center, in vec2 boundingSize) {
+    float cos_t = cos(angles.z);
+    float sin_t = sin(angles.z);
+    vec2 sigmas = boundingSize / sigmaScaling;
+    vec2 translate = point - center;
+    //float len = dot(point - center, vec2(cos_t, sin_t));
+    vec2 lengths = vec2(dot(translate, vec2(cos_t, sin_t)), dot(translate, vec2(-sin_t, cos_t))) / sigmas;
+    float mask = exp(-dot(lengths, lengths));
+    return smoothstep(0.2, 0.8, mask);
+}
+float getLeftEyeFineMask(in vec2 point) {
+    const vec2 sigmaScaling = vec2(1.25, 0.7);
+    return getElipseMask(sigmaScaling, point, leftEyeCenter.xy, leftEyePlainSize);
+}
+float getRightEyeFineMask(in vec2 point) {
+    const vec2 sigmaScaling = vec2(1.25, 0.7);
+    return getElipseMask(sigmaScaling, point, rightEyeCenter.xy, rightEyePlainSize);
+}
+float getLeftFaceMask(in vec2 point) {
+    const vec2 sigmaScaling = vec2(0.9, 0.8);
+    return getElipseMask(sigmaScaling, point, leftFaceCenter.xy, leftFacePlainSize);
+}
+float getRightFaceMask(in vec2 point) {
+    const vec2 sigmaScaling = vec2(0.9, 0.8);
+    return getElipseMask(sigmaScaling, point, rightFaceCenter.xy, rightFacePlainSize);
+}
+
+vec3 getScaledEyesPoint(vec3 originalPoint, vec3 scalingFactors,float scalingFactor,float leftEyeMask, float rightEyeMask) {
+    if (scalingFactor == 0.0) {
+        return originalPoint;
+    }
+    vec3 eyesScaledPoint = originalPoint;
+    vec3 leftEyeScaledPoint = leftEyeCenter + scalingFactors * (originalPoint - leftEyeCenter);
+    eyesScaledPoint = mix(eyesScaledPoint, leftEyeScaledPoint, leftEyeMask);
+    vec3 rightEyeScaledPoint = rightEyeCenter + scalingFactors * (originalPoint - rightEyeCenter);
+    eyesScaledPoint = mix(eyesScaledPoint, rightEyeScaledPoint, rightEyeMask);
+    return mix(originalPoint, eyesScaledPoint, scalingFactor);
+}
+
+vec2 getFaceDistanceFactors() {
+    const float kEyesDistanceXRatio = 0.03662283339;
+    return kEyesDistanceXRatio * vec2(leftFaceCenter.x - rightFaceCenter.x, leftFaceCenter.y - rightFaceCenter.y);
+}
+
+vec2 getFaceDistanceFactors2() {
+    const float kEyesDistanceXRatio = 0.03662283339;
+    return kEyesDistanceXRatio * vec2(abs(position.x - scaleCenter.x), abs(position.y - scaleCenter.y));
+}
+
+void main() {
+    const float pi = 3.1415926;
+    //faceIndex;
+    float leftEyeFineMask     = getLeftEyeFineMask(position.xy);
+    float rightEyeFineMask    = getRightEyeFineMask(position.xy);
+    float leftFaceCoarseMask   = getLeftFaceMask(position.xy);
+    float rightFaceCoarseMask  = getRightFaceMask(position.xy);
+    vec3 displacedFacePoint   = position.xyz;
+
+    // width
+    vec2 faceDistanceFactors = getFaceDistanceFactors2();
+    vec3 leftEyeDistancePoint = vec3(displacedFacePoint.xy + faceWidth * faceDistanceFactors, displacedFacePoint.z);
+    displacedFacePoint = mix(displacedFacePoint, leftEyeDistancePoint, leftFaceCoarseMask * (1.0-leftEyeFineMask));
+    vec3 rightEyeDistancePoint = vec3(displacedFacePoint.xy - faceWidth * faceDistanceFactors, displacedFacePoint.z);
+    displacedFacePoint = mix(displacedFacePoint, rightEyeDistancePoint, rightFaceCoarseMask * (1.0-rightEyeFineMask));
+
+    vec2 originalPosition = (vec4(position.xyz, 1.0)).xy;
+    vec2 displacedPosition = (vec4(displacedFacePoint, 1.0)).xy;
+    textureCoordinate = displacedPosition;
+    gl_Position = vec4(originalPosition.x*2.0-1.0, originalPosition.y*2.0-1.0, 0.0, 1.0);
+}

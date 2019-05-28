@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <ScrollView android:scrollbars="none" style="@style/na">
+        <LinearLayout android:gravity="center_horizontal" android:paddingLeft="@dimen/ds" android:paddingTop="@dimen/l9" android:paddingRight="@dimen/ds" android:paddingBottom="@dimen/l9" style="@style/ks">
+            <ImageView android:id="@+id/a58" android:paddingBottom="@dimen/l9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/mobile_unbind_icon"/>
+            <TextView android:textSize="@dimen/dk" android:textColor="@color/w4" android:gravity="center" android:id="@+id/a59" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l5" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/n0"/>
+            <TextView android:textSize="@dimen/kr" android:textColor="@color/s0" android:gravity="center" android:id="@+id/a62" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/l9" android:maxLines="4" android:singleLine="false" android:lineSpacingExtra="4dp" style="@style/n0"/>
+            <Button android:id="@+id/a5a" android:layout_marginBottom="@dimen/l5" android:text="@string/a78" style="@style/ni"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

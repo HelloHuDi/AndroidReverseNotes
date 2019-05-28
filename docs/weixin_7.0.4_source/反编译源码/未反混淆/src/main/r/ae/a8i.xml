@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/zf" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/bz0" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cjd" android:background="@color/a2q" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_above="@+id/cje"/>
+        <ListView android:id="@+id/cje" android:layout_width="match_parent" android:layout_height="match_parent" style="@style/mf"/>
+        <com.tencent.mm.plugin.ipcall.ui.IPCallAddressScrollbar android:id="@+id/n6" android:layout_width="@dimen/bd" android:layout_height="match_parent" android:layout_alignParentRight="true"/>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/cjf" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="15dp" android:textColor="@color/ed" android:gravity="center" android:id="@+id/cji" android:layout_width="match_parent" android:layout_height="0dp" android:text="@string/cg7" android:layout_weight="0.5"/>
+            <View android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.5"/>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

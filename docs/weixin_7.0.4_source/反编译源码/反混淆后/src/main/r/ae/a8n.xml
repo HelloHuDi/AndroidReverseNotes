@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center" android:orientation="vertical" android:background="@color/a69" android:clipChildren="false" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/ckh" android:layout_width="match_parent" android:layout_height="176dp">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/cki" android:paddingLeft="@dimen/c1" android:paddingRight="@dimen/c1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="34dp">
+            <TextView android:textSize="@dimen/bv" android:textColor="@color/m4" android:gravity="center" android:layout_gravity="center" android:id="@+id/ckj" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <EditText android:textSize="@dimen/bv" android:gravity="left" android:layout_gravity="center_horizontal" android:id="@+id/ckk" android:background="@color/a3p" android:paddingLeft="@dimen/bx" android:paddingRight="@dimen/bx" android:layout_width="0dp" android:layout_height="wrap_content" android:cursorVisible="false" android:maxLines="1" android:singleLine="true" android:editable="false" android:layout_weight="0.6" android:inputType="phone"/>
+            <LinearLayout android:gravity="center" android:id="@+id/ckl" android:clickable="true" android:longClickable="true" android:layout_width="wrap_content" android:layout_height="match_parent" android:minWidth="35dp">
+                <Button android:layout_gravity="center" android:background="@drawable/wu" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:longClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="fitXY"/>
+            </LinearLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/ckm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/c1" android:layout_below="@+id/cki">
+            <TextView android:textSize="12dp" android:textColor="@color/m4" android:gravity="center" android:layout_gravity="center" android:id="@+id/ckn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/c2" android:textColor="@color/m6" android:id="@+id/cko" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10dp" android:singleLine="true" android:layout_below="@+id/cki" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="13dp" android:textColor="#888888" android:id="@+id/ckp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/cjy" android:layout_below="@+id/cko" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/ckq" android:background="#f9f9f9" android:clipChildren="true" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_below="@+id/ckh" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@+id/ckr" android:background="@color/m5" android:layout_width="match_parent" android:layout_height="1dp"/>
+        <ImageButton android:id="@+id/b_n" android:background="@null" android:layout_width="60dp" android:layout_height="60dp" android:layout_marginBottom="14dp" android:src="@drawable/l9" android:scaleType="center" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        <com.tencent.p177mm.plugin.ipcall.p442ui.DialPad android:id="@+id/cks" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_above="@+id/b_n" android:layout_below="@+id/ckr" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

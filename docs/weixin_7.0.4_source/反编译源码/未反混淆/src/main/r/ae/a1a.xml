@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    <LinearLayout android:id="@+id/qj" style="@style/nc">
+        <ImageView android:layout_gravity="center_vertical" android:background="@a/mm_select_create_chatroom" android:layout_width="@dimen/lw" android:layout_height="@dimen/lw" android:layout_marginRight="@dimen/g7"/>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:background="@drawable/a_q" android:paddingLeft="@dimen/nh" android:paddingRight="@dimen/g7" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/e1b" style="@style/lf"/>
+            <TextView android:textColor="#555555" android:id="@+id/ld" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="3dp" android:text="{desc}" android:singleLine="true" style="@style/le"/>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

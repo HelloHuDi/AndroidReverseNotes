@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <com.tencent.mm.plugin.wallet.pwd.ui.WalletBalancePrivacyMMHeaderPreference app:key="wallet_balance_privacy_header" app:layout="@layout/b2z"/>
+    <CheckBoxPreference app:summary="@string/frz" app:title="@string/fry" app:key="wallet_banlance_privacy_cb" app:layout="@layout/ae4"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

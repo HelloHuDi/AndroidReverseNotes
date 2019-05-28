@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="64dp">
+    <ImageView android:layout_gravity="center_vertical" android:id="@+id/e39" android:padding="10dp" android:layout_width="@dimen/a6y" android:layout_height="@dimen/a6x"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:paddingLeft="14dp" android:paddingTop="2dp" android:paddingBottom="2dp" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textAppearance="@style/ca" android:ellipsize="end" android:id="@+id/e3_" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+        <TextView android:textAppearance="@style/c_" android:ellipsize="end" android:id="@+id/e3a" android:layout_width="match_parent" android:layout_height="match_parent" android:maxLines="1"/>
+    </LinearLayout>
+    <LinearLayout android:paddingLeft="@dimen/fy" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:id="@+id/e3b" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center"/>
+        <ImageView android:id="@+id/e3c" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/fy" android:scaleType="center"/>
+        <ImageView android:id="@+id/e3d" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/fy" android:scaleType="center"/>
+        <ImageView android:id="@+id/e3e" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="@dimen/fy" android:scaleType="center"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/vt" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="43dp" android:paddingTop="33dp" android:paddingRight="43dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/dt" android:textColor="@color/a69" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/b5w" android:drawableBottom="@drawable/ak0" android:drawablePadding="20dp"/>
+            <TextView android:visibility="gone" android:text="@string/b5u" style="@style/zz"/>
+            <TextView android:text="@string/b5o" style="@style/zz"/>
+            <TextView android:visibility="gone" android:text="@string/dek" style="@style/zz"/>
+        </LinearLayout>
+        <com.tencent.mm.ui.base.MMProgressBar android:id="@+id/dhl" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="30dp" android:layout_marginTop="50dp" android:layout_marginRight="30dp"/>
+        <TextView android:id="@+id/dhm" android:layout_marginBottom="20dp" android:text="@string/b5n" style="@style/a02"/>
+    </LinearLayout>
+</ScrollView>

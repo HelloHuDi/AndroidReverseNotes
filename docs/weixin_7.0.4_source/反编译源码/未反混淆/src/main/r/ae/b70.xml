@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="match_parent" android:onClick="onClickNoCheck">
+    <LinearLayout android:orientation="vertical" android:background="@color/a69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <RelativeLayout android:layout_width="217dp" android:layout_height="220dp">
+            <ImageView android:id="@+id/fjh" android:background="@drawable/blx" android:layout_width="@dimen/dr" android:layout_height="@dimen/dr" android:layout_marginTop="64dp" android:layout_centerHorizontal="true"/>
+            <ImageView android:id="@+id/fji" android:background="@drawable/blx" android:layout_width="@dimen/dr" android:layout_height="@dimen/dr" android:layout_marginTop="64dp" android:layout_centerHorizontal="true"/>
+            <ImageView android:id="@+id/fjj" android:background="@drawable/blx" android:layout_width="@dimen/dr" android:layout_height="@dimen/dr" android:layout_marginTop="64dp" android:layout_centerHorizontal="true"/>
+            <ImageView android:id="@+id/qk" android:layout_width="@dimen/dr" android:layout_height="@dimen/dr" android:layout_marginTop="64dp" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="#4a4a4a" android:id="@+id/b6e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="{nickname}" android:layout_below="@+id/qk" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@dimen/m5" android:textColor="#afafaf" android:id="@+id/ld" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2dp" android:text="@string/fxs" android:layout_below="@+id/b6e" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <View android:background="#e0e0e0" android:layout_width="217dp" android:layout_height="1px"/>
+        <ImageButton android:id="@+id/fjk" android:background="@drawable/a6j" android:layout_width="217dp" android:layout_height="44dp" android:src="@drawable/blw" android:onClick="onClickCheck"/>
+    </LinearLayout>
+</RelativeLayout>

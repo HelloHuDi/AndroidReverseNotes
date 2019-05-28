@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.tencent.mm.plugin.exdevice.ui.DeviceProfileHeaderPreference app:key="device_profile_header" app:layout="@layout/w0"/>
+    <Preference app:title="@string/bib" app:key="sub_device_desc" app:layout="@layout/wv"/>
+    <PreferenceSmallCategory/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/bgs" app:key="message_manage" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/bfq" app:key="connect_setting" app:layout="@layout/ae4"/>
+    <com.tencent.mm.ui.base.preference.KeyValuePreference app:title="@string/big" app:key="user_list" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/aug" app:key="contact_info_biz_go_chatting" app:layout="@layout/ae4"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/beo" app:key="bind_device" app:layout="@layout/a82"/>
+    <Preference app:title="@string/bgz" app:key="open_device_panel" app:layout="@layout/a82"/>
+    <PreferenceSmallCategory/>
+    <Preference app:title="@string/bic" app:key="unbind_device" app:layout="@layout/b7x"/>
+    <PreferenceCategory/>
+</PreferenceScreen>

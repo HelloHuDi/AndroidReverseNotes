@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout android:id="@+id/blf" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/blg" android:layout_width="155dp" android:layout_height="155dp" android:layout_marginTop="130dp" android:src="@drawable/b34" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="21dp" android:textColor="@color/oh" android:id="@+id/blh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="@string/bje" android:layout_below="@+id/blg" android:layout_centerHorizontal="true"/>
+        <Button android:textSize="18dp" android:layout_gravity="center_horizontal" android:id="@+id/bli" android:layout_width="match_parent" android:layout_height="43dp" android:layout_marginLeft="80dp" android:layout_marginTop="73dp" android:layout_marginRight="80dp" android:text="@string/bll" android:layout_below="@+id/blh" android:layout_centerHorizontal="true" style="@style/ni"/>
+        <Button android:textSize="18dp" android:layout_gravity="center_horizontal" android:id="@+id/blj" android:layout_width="match_parent" android:layout_height="44dp" android:layout_marginLeft="80dp" android:layout_marginTop="11dp" android:layout_marginRight="80dp" android:layout_below="@+id/bli" android:layout_centerHorizontal="true" style="@style/np"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/blk" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/bll" android:layout_width="155dp" android:layout_height="155dp" android:layout_marginTop="130dp" android:src="@drawable/b3w" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/blm" android:layout_width="40dp" android:layout_height="40dp" android:layout_marginLeft="237dp" android:layout_marginTop="233dp" android:src="@drawable/b3v"/>
+        <TextView android:textSize="20dp" android:textColor="@color/og" android:id="@+id/bln" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="22dp" android:text="@string/blw" android:layout_below="@+id/bll" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/blo" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@+id/blp" android:layout_width="100dp" android:layout_height="wrap_content" android:layout_marginTop="130dp" android:src="@drawable/b3t" android:layout_centerHorizontal="true"/>
+        <ImageView android:id="@+id/blq" android:layout_width="155dp" android:layout_height="155dp" android:layout_marginTop="130dp" android:src="@drawable/b40" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="20dp" android:textColor="@color/og" android:id="@+id/blr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20dp" android:text="@string/blt" android:layout_below="@+id/blq" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@+id/bls" android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.plugin.facedetectlight.ui.PreviewFrameLayout android:id="@+id/blt" android:layout_width="match_parent" android:layout_height="match_parent">
+            <com.tencent.mm.ui.base.MMTextureView android:id="@+id/blu" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        </com.tencent.mm.plugin.facedetectlight.ui.PreviewFrameLayout>
+        <ImageView android:id="@+id/blv" android:background="@color/oc" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+        <ImageView android:id="@+id/blw" android:layout_width="24dp" android:layout_height="7dp" android:layout_marginTop="213dp" android:src="@drawable/b38" android:layout_centerHorizontal="true"/>
+        <com.tencent.mm.plugin.facedetectaction.ui.FaceActionMask android:id="@+id/blx" android:layout_width="match_parent" android:layout_height="match_parent"/>
+        <TextView android:textSize="20dp" android:textColor="@color/og" android:id="@+id/bly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bld" android:layout_below="@+id/blw" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <TextView android:textSize="17dp" android:textColor="@color/oi" android:id="@+id/blz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="17dp" android:layout_marginTop="40dp" android:text="@string/bjf"/>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="left" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/ezu" android:background="@color/t_" android:paddingLeft="@dimen/ld" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/mg"/>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@+id/be8" android:background="@drawable/ul" android:paddingLeft="@dimen/ld" android:paddingRight="@dimen/ld" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="@dimen/li">
+        <com.tencent.mm.ui.base.MaskLayout android:id="@+id/ezv" android:layout_width="@dimen/n6" android:layout_height="@dimen/n6">
+            <ImageView android:id="@+id/m5" android:layout_width="@dimen/n5" android:layout_height="@dimen/n5" android:src="@a/default_avatar" android:layout_centerVertical="true"/>
+        </com.tencent.mm.ui.base.MaskLayout>
+        <TextView android:ellipsize="end" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/ezw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nh" android:text="{nick}" android:maxLines="1" android:layout_weight="1" style="@style/lf"/>
+        <ImageView android:id="@+id/ezx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/do" android:src="@a/circle_notreceive"/>
+        <ImageView android:id="@+id/ezy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@a/circle_notvisible"/>
+        <LinearLayout android:gravity="center" android:id="@+id/ezz" android:paddingLeft="@dimen/le" android:paddingRight="@dimen/ld" android:layout_width="wrap_content" android:layout_height="match_parent">
+            <CheckBox android:gravity="center" android:id="@+id/js" android:background="@drawable/ub" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="@dimen/ex" android:layout_height="@dimen/ex"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/a8x" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="horizontal" android:id="@+id/a8y" android:background="@drawable/in" android:paddingLeft="@dimen/ug" android:paddingTop="20dp" android:paddingRight="@dimen/ug" android:paddingBottom="@dimen/ug" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="104dp">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:paddingRight="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+            <com.tencent.p177mm.p612ui.widget.MMNeat7extView android:textSize="@dimen/ww" android:textColor="@color/h4" android:ellipsize="end" android:layout_gravity="left" android:id="@+id/qm" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:maxLines="2" android:lineSpacingExtra="@dimen/ul"/>
+            <TextView android:textSize="@dimen/nk" android:textColor="@color/s0" android:layout_gravity="left" android:id="@+id/a8w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/le"/>
+            <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l5" layout="@layout/h9"/>
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@+id/a8z" android:layout_width="46dp" android:layout_height="46dp" android:src="@drawable/if" android:scaleType="centerCrop"/>
+    </LinearLayout>
+</LinearLayout>

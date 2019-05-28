@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="bottom|center_vertical|center_horizontal|center" android:orientation="horizontal" android:id="@+id/c2" android:background="@color/a69" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="108dp" android:text="@string/e2b" style="@style/la"/>
+        <FrameLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50dp">
+            <ImageView android:id="@+id/dce" android:layout_width="@dimen/a7l" android:layout_height="@dimen/a7l"/>
+            <ImageView android:layout_gravity="center" android:id="@+id/qk" android:layout_width="@dimen/dp" android:layout_height="@dimen/dp" android:src="@c1318a/default_avatar"/>
+        </FrameLayout>
+        <TextView android:ellipsize="end" android:layout_gravity="center_horizontal" android:id="@+id/a76" android:layout_marginTop="-44dp" android:text="{nick}" style="@style/l9"/>
+        <TextView android:layout_gravity="center_horizontal" android:id="@+id/dcf" android:layout_marginTop="@dimen/gg" android:text="{user}" style="@style/la"/>
+        <ImageView android:layout_gravity="center_horizontal" android:id="@+id/dcg" android:padding="@dimen/g7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@c1318a/arrow_down"/>
+    </LinearLayout>
+</LinearLayout>

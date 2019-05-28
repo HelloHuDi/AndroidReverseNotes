@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.tencent.mm.plugin.gif.MMAnimateView android:layout_gravity="center_horizontal" android:id="@+id/bmk" android:layout_width="173dp" android:layout_height="253dp" android:layout_marginTop="100dp" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="17dp" android:textColor="@color/og" android:layout_gravity="center_horizontal" android:id="@+id/bml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25dp" android:text="@string/blg" android:layout_centerHorizontal="true"/>
+    <TextView android:textSize="15dp" android:textColor="@color/oj" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@+id/bmm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="@string/blh"/>
+    <Button android:textSize="18dp" android:layout_gravity="center_horizontal" android:id="@+id/bmn" android:layout_width="match_parent" android:layout_height="52dp" android:layout_marginLeft="27dp" android:layout_marginTop="53dp" android:layout_marginRight="27dp" android:text="@string/bjv" android:layout_centerHorizontal="true" style="@style/ni"/>
+</merge>

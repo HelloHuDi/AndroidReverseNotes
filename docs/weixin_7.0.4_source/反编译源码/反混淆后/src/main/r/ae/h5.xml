@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <View android:id="@+id/a7y" android:background="@color/jy" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/ug" android:layout_marginRight="@dimen/ug"/>
+    <LinearLayout android:orientation="horizontal" android:id="@+id/a7z" android:paddingTop="@dimen/uh" android:paddingBottom="@dimen/l5" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ug" android:layout_marginRight="@dimen/ug" android:baselineAligned="false">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0dp" android:layout_height="wrap_content" android:minHeight="@dimen/ui" android:layout_weight="1">
+            <com.tencent.p177mm.p612ui.widget.MMNeat7extView android:textSize="@dimen/m5" android:textColor="@color/h4" android:ellipsize="end" android:id="@+id/a80" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/fy" android:maxLines="2" android:lineSpacingExtra="2dp"/>
+            <TextView android:textSize="@dimen/nk" android:textColor="@color/ra" android:id="@+id/a81" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ru"/>
+            <include android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp" layout="@layout/h9"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/wi" android:layout_width="@dimen/ui" android:layout_height="@dimen/ui" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="2dp" android:layout_marginBottom="2dp">
+            <ImageView android:id="@+id/a82" android:background="@color/t0" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="centerCrop"/>
+            <ImageView android:id="@+id/a83" android:visibility="gone" android:layout_width="32dp" android:layout_height="32dp" android:src="@c1318a/chatting_item_biz_music_play_icon" android:scaleType="centerCrop" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

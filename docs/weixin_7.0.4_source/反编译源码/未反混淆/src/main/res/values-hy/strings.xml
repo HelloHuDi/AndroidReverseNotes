@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="a">Զանազան</string>
+    <string name="c">Ուղղվել վերև</string>
+    <string name="abc_action_menu_overflow_description">Այլ ընտրանքներ</string>
+    <string name="d">Պատրաստ է</string>
+    <string name="e">Տեսնել բոլորը</string>
+    <string name="f">Ընտրել ծրագիր</string>
+    <string name="g">ԱՆՋԱՏՎԱԾ</string>
+    <string name="h">ՄԻԱՑՎԱԾ</string>
+    <string name="i">Որոնում...</string>
+    <string name="j">Մաքրել հարցումը</string>
+    <string name="l">Որոնել</string>
+    <string name="m">Ուղարկել հարցումը</string>
+    <string name="n">Ձայնային որոնում</string>
+    <string name="q">Թաքցնել</string>
+    <string name="common_google_play_services_enable_button">Միացնել</string>
+    <string name="common_google_play_services_enable_text">%1$s հավելվածը չի աշխատի մինչև չմիացնեք Google Play ծառայությունները:</string>
+    <string name="common_google_play_services_enable_title">Միացնել Google Play ծառայությունները</string>
+    <string name="common_google_play_services_install_button">Տեղադրել</string>
+    <string name="common_google_play_services_install_text">%1$s հավելվածը չի աշխատի առանց Google Play ծառայությունների, որոնք չկան ձեր սարքում:</string>
+    <string name="common_google_play_services_install_title">Տեղադրել Google Play ծառայությունները</string>
+    <string name="common_google_play_services_notification_channel_name">Google Play ծառայությունների հասանելիություն</string>
+    <string name="common_google_play_services_notification_ticker">Google Play ծառայությունների սխալ կա</string>
+    <string name="common_google_play_services_unknown_issue">%1$s հավելվածը Google Play ծառայությունների հետ կապված խնդիր ունի: Փորձեք նորից:</string>
+    <string name="common_google_play_services_unsupported_text">%1$s հավելվածը չի աշխատի առանց Google Play ծառայությունների, որոնք ձեր սարքում չեն աջակցվում:</string>
+    <string name="common_google_play_services_update_button">Թարմացնել</string>
+    <string name="common_google_play_services_update_text">%1$s հավելվածը չի աշխատի մինչև չթարմացնեք Google Play ծառայությունները:</string>
+    <string name="common_google_play_services_update_title">Թարմացնել Google Play ծառայությունները</string>
+    <string name="common_google_play_services_updating_text">%1$s հավելվածը չի աշխատի առանց Google Play ծառայությունների, որոնք այս պահին թարմացվում են:</string>
+    <string name="common_google_play_services_wear_update_text">Անհրաժեշտ է Google Play ծառայությունների նոր տարբերակը: Այն շուտով կթարմացվի ավտոմատ կերպով:</string>
+    <string name="common_open_on_phone">Բացել հեռախոսով</string>
+    <string name="common_signin_button_text">Մուտք գործել</string>
+    <string name="common_signin_button_text_long">Մուտք գործել Google-ով</string>
+    <string name="r">Զանազան</string>
+    <string name="b">Ուղղվել տուն</string>
+    <string name="k">Որոնման հարցում</string>
+    <string name="o">Կիսվել</string>
+    <string name="p">Ուղարկել %s-ին</string>
+    <string name="s">Որոնել</string>
+    <string name="t">999+</string>
+</resources>

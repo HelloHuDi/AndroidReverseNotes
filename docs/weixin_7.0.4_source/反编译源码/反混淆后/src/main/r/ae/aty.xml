@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/l_" android:background="@color/a3p" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <FrameLayout android:layout_gravity="center_vertical" android:id="@+id/ef5" android:layout_width="match_parent" android:layout_height="50dp">
+        <Button android:textSize="18sp" android:layout_gravity="center_vertical" android:id="@+id/at4" android:layout_width="match_parent" android:layout_height="match_parent" android:text="download" style="@style/z1"/>
+        <com.tencent.p177mm.plugin.sns.p520ui.widget.SnsTextProgressBar android:layout_gravity="center_vertical" android:id="@+id/ef6" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:max="100" android:progress="50" app:textSize="18dp" style="@style/z2"/>
+    </FrameLayout>
+</RelativeLayout>

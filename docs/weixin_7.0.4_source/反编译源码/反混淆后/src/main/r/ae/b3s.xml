@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <TextView android:gravity="left" android:id="@+id/f55" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/l8" android:layout_marginRight="@dimen/l5" android:layout_marginBottom="@dimen/l5" android:text="@string/fmk" style="@style/vr"/>
+    <com.tencent.p177mm.wallet_core.p650ui.formview.WalletFormView android:id="@+id/f90" android:imeOptions="actionNext" app:titleText="@string/fbl" app:contentHint="@string/fbi" style="@style/vo"/>
+    <TextView android:id="@+id/f99" android:visibility="visible" android:text="@string/fbk" style="@style/vk"/>
+    <Button android:id="@+id/f9s" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/dy" android:layout_marginRight="@dimen/l5" android:text="@string/fmu" style="@style/ni"/>
+    <include layout="@layout/kt"/>
+</LinearLayout>

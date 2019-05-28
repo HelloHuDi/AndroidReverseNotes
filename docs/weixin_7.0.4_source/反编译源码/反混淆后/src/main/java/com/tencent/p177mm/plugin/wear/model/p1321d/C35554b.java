@@ -1,0 +1,60 @@
+package com.tencent.p177mm.plugin.wear.model.p1321d;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import com.tencent.p177mm.model.C1829bf;
+import com.tencent.p177mm.network.C1902e;
+import com.tencent.p177mm.network.C1918k;
+import com.tencent.p177mm.network.C1929q;
+import com.tencent.p177mm.p183ai.C1202f;
+import com.tencent.p177mm.p183ai.C1207m;
+import com.tencent.p177mm.p183ai.C7472b;
+import com.tencent.p177mm.p183ai.C7472b.C1196a;
+import com.tencent.p177mm.protocal.protobuf.cut;
+import com.tencent.p177mm.protocal.protobuf.cuu;
+import com.tencent.p177mm.sdk.platformtools.C4990ab;
+
+/* renamed from: com.tencent.mm.plugin.wear.model.d.b */
+public final class C35554b extends C1207m implements C1918k {
+    private C1202f ehi;
+    private C7472b fAT;
+
+    public C35554b(String str) {
+        AppMethodBeat.m2504i(26375);
+        C1196a c1196a = new C1196a();
+        c1196a.uri = "/cgi-bin/micromsg-bin/sendyo";
+        c1196a.fsJ = new cut();
+        c1196a.fsK = new cuu();
+        c1196a.fsL = 0;
+        c1196a.fsM = 0;
+        this.fAT = c1196a.acD();
+        cut cut = (cut) this.fAT.fsG.fsP;
+        cut.ndF = str;
+        cut.wFW = cut.pcX;
+        cut.pcX = (int) C1829bf.m3756oC(str);
+        cut.jCt = 63;
+        cut.xqR = 1;
+        cut.jBv = 1;
+        AppMethodBeat.m2505o(26375);
+    }
+
+    /* renamed from: a */
+    public final void mo4498a(int i, int i2, int i3, String str, C1929q c1929q, byte[] bArr) {
+        AppMethodBeat.m2504i(26376);
+        C4990ab.m7416i("MicroMsg.Wear.NetSceneSendYo", "onGYNetEnd netId = " + i + " errType = " + i2 + " errCode = " + i3 + str);
+        this.ehi.onSceneEnd(i2, i3, str, this);
+        AppMethodBeat.m2505o(26376);
+    }
+
+    public final int getType() {
+        return 976;
+    }
+
+    /* renamed from: a */
+    public final int mo4456a(C1902e c1902e, C1202f c1202f) {
+        AppMethodBeat.m2504i(26377);
+        this.ehi = c1202f;
+        int a = mo4457a(c1902e, this.fAT, this);
+        AppMethodBeat.m2505o(26377);
+        return a;
+    }
+}

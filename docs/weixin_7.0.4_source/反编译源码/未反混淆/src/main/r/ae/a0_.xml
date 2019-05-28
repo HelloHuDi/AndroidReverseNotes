@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="@dimen/fi" android:textColor="@color/ll" android:id="@+id/bv3" android:padding="@dimen/g7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:text="@string/bw_" android:singleLine="true" style="@style/l9"/>
+    <RelativeLayout android:orientation="horizontal" android:id="@+id/bv4" android:background="@drawable/r_" android:paddingLeft="@dimen/g2" android:paddingTop="@dimen/g2" android:paddingRight="@dimen/gg" android:paddingBottom="@dimen/g2" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/bv5" android:background="@a/find_more_friend_mobile_icon" android:layout_width="@dimen/m2" android:layout_height="@dimen/m2" android:layout_marginRight="@dimen/m4" android:layout_centerVertical="true"/>
+        <TextView android:id="@+id/bv6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/nc" android:text="@string/bti" android:singleLine="true" android:layout_toRightOf="@+id/bv5" android:layout_centerVertical="true" style="@style/l9"/>
+        <ImageView android:background="@a/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/m4" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+</LinearLayout>

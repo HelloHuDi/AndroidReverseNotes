@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:background="#f0eff4" android:paddingTop="@dimen/l5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="horizontal" android:paddingTop="@dimen/m4" android:paddingBottom="@dimen/m4" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/lp">
+        <EditText android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/b15" android:layout_width="match_parent" android:layout_height="match_parent" android:hint="@string/gb8" android:singleLine="true" android:layout_weight="1"/>
+        <Button android:textColor="@color/a73" android:id="@+id/b16" android:background="@drawable/fu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/nh" android:minWidth="@dimen/n9" android:minHeight="@dimen/ll" android:text="@string/gb7" style="@style/np"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/nc">
+        <Button android:id="@+id/b17" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb6" android:layout_weight="1" style="@style/np"/>
+        <Button android:id="@+id/b18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gbe" android:layout_weight="1" style="@style/np"/>
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="5">
+        <Button android:id="@+id/b19" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gb9" android:layout_weight="1" style="@style/yw"/>
+        <Button android:id="@+id/b1_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gbc" android:layout_weight="1" style="@style/yw"/>
+        <Button android:id="@+id/b1a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gbb" android:layout_weight="1" style="@style/yw"/>
+        <Button android:id="@+id/b1b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gbd" android:layout_weight="1" style="@style/yw"/>
+        <Button android:id="@+id/b1c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gba" android:layout_weight="1" style="@style/yw"/>
+    </LinearLayout>
+    <com.tencent.mm.plugin.appbrand.widget.recyclerview.MRecyclerView android:id="@+id/b1d" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</LinearLayout>

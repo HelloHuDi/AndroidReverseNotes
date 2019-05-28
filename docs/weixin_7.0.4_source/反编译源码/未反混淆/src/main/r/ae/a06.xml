@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:id="@+id/bug" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:paddingLeft="@dimen/fy" android:paddingRight="@dimen/dm" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/e2" style="@style/mg"/>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/zj" android:paddingLeft="@dimen/fy" android:paddingRight="@dimen/dm" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <com.tencent.mm.ui.base.MaskLayout android:layout_gravity="center_vertical" android:id="@+id/bui" android:layout_width="@dimen/f2" android:layout_height="@dimen/f2">
+            <ImageView android:id="@+id/m5" android:layout_width="@dimen/f1" android:layout_height="@dimen/f1" android:src="@a/default_avatar" android:layout_centerVertical="true"/>
+        </com.tencent.mm.ui.base.MaskLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/buh" android:background="@drawable/a_q" android:layout_width="match_parent" android:layout_height="@dimen/f4" android:layout_marginLeft="@dimen/m4">
+            <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="match_parent">
+                <TextView android:id="@+id/bun" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="{nick}" android:singleLine="true" style="@style/lf"/>
+                <TextView android:id="@+id/buo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/nh" android:text="{lastmsg}" android:singleLine="true" style="@style/le"/>
+            </LinearLayout>
+            <View android:layout_width="0dp" android:layout_height="0dp" android:layout_weight="1"/>
+            <TextView android:id="@+id/buj" android:visibility="visible" android:layout_marginRight="@dimen/nc" style="@style/ux"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

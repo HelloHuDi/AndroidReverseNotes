@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<view xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:layout_gravity="center" android:id="@+id/j8" android:layout_width="wrap_content" android:layout_height="match_parent" class="android.support.v7.widget.ActivityChooserView$InnerLayout" style="?attr/ew">
+    <FrameLayout android:layout_gravity="center" android:id="@+id/j9" android:background="?attr/dz" android:paddingLeft="12dp" android:paddingTop="2dp" android:paddingRight="12dp" android:paddingBottom="2dp" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@+id/bl" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+    </FrameLayout>
+    <FrameLayout android:layout_gravity="center" android:id="@+id/j_" android:background="?attr/dz" android:paddingLeft="12dp" android:paddingTop="2dp" android:paddingRight="12dp" android:paddingBottom="2dp" android:focusable="true" android:addStatesFromChildren="true" android:layout_width="wrap_content" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="center" android:id="@+id/bl" android:layout_width="32dp" android:layout_height="32dp" android:scaleType="fitCenter" android:adjustViewBounds="true"/>
+    </FrameLayout>
+</view>

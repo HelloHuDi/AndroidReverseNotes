@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="vertical" android:paddingLeft="@dimen/nc" android:paddingRight="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/h6"/>
+    <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/gy"/>
+    <LinearLayout android:id="@+id/a7l" android:background="@drawable/in" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/h5"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/a7m" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <FrameLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@+id/a7n" android:background="@color/k8" android:layout_width="match_parent" android:layout_height="@dimen/wx" android:scaleType="centerCrop"/>
+            <ImageView android:id="@+id/a7o" android:background="@drawable/en" android:layout_width="match_parent" android:layout_height="@dimen/wx"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

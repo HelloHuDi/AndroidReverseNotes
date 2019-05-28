@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:orientation="horizontal" android:id="@+id/djy" android:background="@color/a0" android:padding="@dimen/a6t" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/djz" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageButton android:layout_gravity="center" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7e"/>
+            <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/g1l"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@+id/dk0" android:background="@null" android:paddingTop="20dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <ImageButton android:layout_gravity="center" android:id="@+id/dk1" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a79"/>
+            <TextView android:layout_gravity="center" android:id="@+id/dk2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/g1e"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dk3" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageButton android:layout_gravity="center" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7b"/>
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/g1h"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dk4" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageButton android:layout_gravity="center" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7c"/>
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/g1j"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@+id/dk5" android:background="@null" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1">
+        <ImageButton android:layout_gravity="center" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/a7d"/>
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:text="@string/g1k"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.p177mm.plugin.fav.p410ui.widget.FavDetailScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/bsd" android:background="@color/oo" android:scrollbars="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" style="@style/ib">
+        <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@+id/bse" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        <include android:layout_width="match_parent" android:layout_height="wrap_content" layout="@layout/y3"/>
+    </LinearLayout>
+</com.tencent.p177mm.plugin.fav.p410ui.widget.FavDetailScrollView>

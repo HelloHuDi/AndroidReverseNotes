@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" style="@style/pt">
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/w4" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/cpn" android:background="@drawable/a_r" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" android:minHeight="@dimen/nb" android:hint="@string/br4" android:drawableLeft="@drawable/adz" android:drawablePadding="@dimen/nc"/>
+    <TextView android:textSize="@dimen/kr" android:textColor="@color/a61" android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/cpo" android:paddingTop="@dimen/nc" android:paddingBottom="@dimen/nc" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginRight="@dimen/l5" android:minHeight="@dimen/nb" android:hint="@string/boc" android:drawableLeft="@c1318a/tags_icon" android:drawablePadding="@dimen/nc"/>
+    <LinearLayout android:gravity="top" android:orientation="horizontal" android:id="@+id/cpp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/l5" android:layout_marginTop="@dimen/l5" android:layout_marginRight="@dimen/l5">
+        <ImageView android:layout_width="22dp" android:layout_height="22dp" android:src="@drawable/b7w"/>
+        <TextView android:textSize="@dimen/dt" android:textColor="@color/w4" android:id="@+id/cpq" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/do" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

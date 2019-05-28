@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tencent.mm.blink.FirstScreenFrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:id="@+id/d26" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <com.tencent.mm.ui.base.CustomViewPager android:id="@+id/bns" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    </FrameLayout>
+    <com.tencent.mm.ui.tools.TestTimeForChatting android:orientation="vertical" android:id="@+id/a9f" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+</com.tencent.mm.blink.FirstScreenFrameLayout>

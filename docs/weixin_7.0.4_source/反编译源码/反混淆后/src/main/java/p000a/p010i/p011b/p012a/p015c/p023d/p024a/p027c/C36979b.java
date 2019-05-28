@@ -1,0 +1,91 @@
+package p000a.p010i.p011b.p012a.p015c.p023d.p024a.p027c;
+
+import com.tencent.matrix.trace.core.AppMethodBeat;
+import p000a.p005f.p007b.C25052j;
+import p000a.p010i.p011b.p012a.p015c.p016a.C31625i;
+import p000a.p010i.p011b.p012a.p015c.p018b.C17157ap;
+import p000a.p010i.p011b.p012a.p015c.p018b.C25093y;
+import p000a.p010i.p011b.p012a.p015c.p021c.p022a.C8086b;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.C0045a;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.C44891k;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.C8127j;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.p025a.C25094j;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.p025a.C31645f;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.p025a.C36968g;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.p025a.C8091k;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.p030f.C17216l;
+import p000a.p010i.p011b.p012a.p015c.p023d.p024a.p1517d.C36982b;
+import p000a.p010i.p011b.p012a.p015c.p023d.p031b.C0073e;
+import p000a.p010i.p011b.p012a.p015c.p023d.p031b.C25129m;
+import p000a.p010i.p011b.p012a.p015c.p023d.p031b.C36996s;
+import p000a.p010i.p011b.p012a.p015c.p041j.p042a.C31759m;
+import p000a.p010i.p011b.p012a.p015c.p044k.C25212i;
+
+/* renamed from: a.i.b.a.c.d.a.c.b */
+public final class C36979b {
+    public final C25212i Baf;
+    public final C25093y BcH;
+    public final C17157ap Bhr;
+    public final C8127j BmR;
+    public final C25129m BmS;
+    public final C0073e BmT;
+    public final C8091k BmU;
+    public final C31759m BmV;
+    private final C36968g BmW;
+    public final C31645f BmX;
+    public final C25094j BmY;
+    public final C36982b BmZ;
+    public final C31667j Bna;
+    public final C36996s Bnb;
+    public final C8086b Bnc;
+    public final C31625i Bnd;
+    public final C0045a Bne;
+    public final C17216l Bnf;
+    public final C44891k Bng;
+    public final C44884c Bnh;
+
+    public C36979b(C25212i c25212i, C8127j c8127j, C25129m c25129m, C0073e c0073e, C8091k c8091k, C31759m c31759m, C36968g c36968g, C31645f c31645f, C25094j c25094j, C36982b c36982b, C31667j c31667j, C36996s c36996s, C17157ap c17157ap, C8086b c8086b, C25093y c25093y, C31625i c31625i, C0045a c0045a, C17216l c17216l, C44891k c44891k, C44884c c44884c) {
+        C25052j.m39376p(c25212i, "storageManager");
+        C25052j.m39376p(c8127j, "finder");
+        C25052j.m39376p(c25129m, "kotlinClassFinder");
+        C25052j.m39376p(c0073e, "deserializedDescriptorResolver");
+        C25052j.m39376p(c8091k, "signaturePropagator");
+        C25052j.m39376p(c31759m, "errorReporter");
+        C25052j.m39376p(c36968g, "javaResolverCache");
+        C25052j.m39376p(c31645f, "javaPropertyInitializerEvaluator");
+        C25052j.m39376p(c25094j, "samConversionResolver");
+        C25052j.m39376p(c36982b, "sourceElementFactory");
+        C25052j.m39376p(c31667j, "moduleClassResolver");
+        C25052j.m39376p(c36996s, "packagePartProvider");
+        C25052j.m39376p(c17157ap, "supertypeLoopChecker");
+        C25052j.m39376p(c8086b, "lookupTracker");
+        C25052j.m39376p(c25093y, "module");
+        C25052j.m39376p(c31625i, "reflectionTypes");
+        C25052j.m39376p(c0045a, "annotationTypeQualifierResolver");
+        C25052j.m39376p(c17216l, "signatureEnhancement");
+        C25052j.m39376p(c44891k, "javaClassesTracker");
+        C25052j.m39376p(c44884c, "settings");
+        AppMethodBeat.m2504i(119823);
+        this.Baf = c25212i;
+        this.BmR = c8127j;
+        this.BmS = c25129m;
+        this.BmT = c0073e;
+        this.BmU = c8091k;
+        this.BmV = c31759m;
+        this.BmW = c36968g;
+        this.BmX = c31645f;
+        this.BmY = c25094j;
+        this.BmZ = c36982b;
+        this.Bna = c31667j;
+        this.Bnb = c36996s;
+        this.Bhr = c17157ap;
+        this.Bnc = c8086b;
+        this.BcH = c25093y;
+        this.Bnd = c31625i;
+        this.Bne = c0045a;
+        this.Bnf = c17216l;
+        this.Bng = c44891k;
+        this.Bnh = c44884c;
+        AppMethodBeat.m2505o(119823);
+    }
+}

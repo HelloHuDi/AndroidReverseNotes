@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" android:gravity="center_vertical" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:minHeight="@dimen/nb">
+    <LinearLayout android:gravity="left|center_vertical|center_horizontal|center" android:id="@+id/m5" android:background="@drawable/pz" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4" android:minHeight="@dimen/nb" android:layout_weight="1">
+        <TextView android:textColor="@color/s0" android:id="@android:id/title" android:paddingLeft="@dimen/lo" android:layout_width="0dp" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1" style="@style/l9"/>
+        <TextView android:textSize="@dimen/kr" android:textColor="@color/a3u" android:id="@android:id/summary" android:paddingTop="@dimen/nc" android:paddingRight="@dimen/lo" android:paddingBottom="@dimen/nc" android:maxEms="12" android:singleLine="true" style="@style/lb"/>
+    </LinearLayout>
+    <View android:background="@drawable/a4d" android:layout_width="match_parent" android:layout_height="1px" android:layout_marginLeft="@dimen/m4" android:layout_marginRight="@dimen/m4"/>
+</LinearLayout>
