@@ -8,6 +8,8 @@
 
 [3.神奇的Xposed](3.神奇的Xposed.md)
 
+[4.Xposed基础演练1](projects/XposedTest)
+
 **记录一些神奇的地址**
 
 [破解工具包](https://down.52pojie.cn/Tools/Android_Tools/)
