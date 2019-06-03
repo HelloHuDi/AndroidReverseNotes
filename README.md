@@ -8,7 +8,9 @@
 
 [3.神奇的Xposed](3.神奇的Xposed.md)
 
-[4.Xposed基础演练1](projects/XposedTest)
+[4.Xposed基础演练——hook入门](projects/XposedTest)
+
+[5.Xposed基础演练——进击微信](projects/XposedHookWeiXin1)
 
 **记录一些神奇的地址**
 
