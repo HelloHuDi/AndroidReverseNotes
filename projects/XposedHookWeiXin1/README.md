@@ -1,12 +1,8 @@
 **本工程目标——获取某个微信联系人信息**
 
-<<<<<<< HEAD
-<!--<img src="image/contact.png" width="280px" height="300px"/>-->
+<img src="image/contact.png" width="280px" height="300px"/>
 
 **本工程侧重逆向思路分析，基于[微信7.0.4版本源码](./docs/weixin_7.0.4_source)**
-=======
-**本工程侧重逆向思路分析，基于[微信7.0.4版本源码](../../docs/weixin_7.0.4_source)**
->>>>>>> 8af92783a2246b98b915f704149e7854009d0fa3
 
 **思路分析**
 
