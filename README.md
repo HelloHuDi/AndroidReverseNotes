@@ -10,7 +10,13 @@
 
 [4.Xposed基础演练——hook入门](projects/XposedTest)
 
-[5.Xposed基础演练——进击微信](projects/XposedHookWeiXin1)
+[5.Xposed基础演练——进击微信之逆向思路](projects/XposedHookWeiXin1)
+
+[6.Xposed基础演练——进击微信之获取附近的人(初级操作)](projects/XposedHookWeiXin2)
+
+[6.Xposed基础演练——进击微信之获取附近的人(进阶操作)](projects/XposedHookWeiXin3)
+
+[7.Xposed基础演练——进击微信之自动发朋友圈](projects/XposedHookWeiXin4)
 
 **记录一些神奇的地址**
 
