@@ -1,6 +1,6 @@
 **本工程目标——通过本工程 click 事件来打开微信并获取微信附近的人信息**
 
-<!--<img src="image/nearby.png" width="280px" height="500px"/>-->
+<img src="image/nearby.png" width="280px" height="500px"/>
 
 **本工程基于[微信7.0.4版本源码](./docs/weixin_7.0.4_source)**
 
