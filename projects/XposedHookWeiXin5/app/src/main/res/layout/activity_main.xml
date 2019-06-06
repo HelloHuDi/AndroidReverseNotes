@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:tag="0"
+        android:layout_marginTop="10dp"
+        android:text="发送纯文本"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:tag="1"
+        android:layout_marginTop="10dp"
+        android:text="发送文本+图片"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:tag="2"
+        android:layout_marginTop="10dp"
+        android:text="发送文本+视频"/>
+
+</LinearLayout>
