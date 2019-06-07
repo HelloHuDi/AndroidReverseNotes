@@ -20,7 +20,7 @@
 
 [Xposed基础演练——进击微信之自动发朋友圈](projects/XposedHookWeiXin5)
 
-[Xposed基础演练——进击微信之模拟定位并嗅探附件的人](projects/XposedHookWeiXin6)
+[Xposed基础演练——进击微信之模拟定位](projects/XposedHookWeiXin6)
 
 **骚操作**
 
