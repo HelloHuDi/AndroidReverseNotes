@@ -22,11 +22,31 @@
 
 [Xposed基础演练——进击微信之模拟定位](projects/XposedHookWeiXin6)
 
-**骚操作**
+**UiAutomator**
 
 [UiAutomator之初探微信](projects/uiAutoMator1)
 
-[UiAutomator之狂野操作](projects/uiAutoMator2)
+[UiAutomator之骚操作](projects/uiAutoMator2)
+
+**其他Xposed项目**
+
+[Hardwarecode -- 基于xposed 修改硬件信息](https://github.com/1998lixin/Hardwarecode)
+
+[XposedWechatHelper -- 微信辅助模块](https://github.com/wuxiaosu/XposedWechatHelper)
+
+[XposedHook -- 免重启Xposed模块改进](https://github.com/shuihuadx/XposedHook)
+
+[WechatEnhancement -- 微信Xposed插件](https://github.com/firesunCN/WechatEnhancement)
+
+[WeChatMomentExport -- 导出微信朋友圈数据](https://github.com/Chion82/WeChatMomentExport)
+
+[WechatBotXposed -- 微信回复机器人](https://github.com/Blankeer/WechatBotXposed)
+
+[CPWechatXposed -- 使用Xposed Hook微信等APP](https://github.com/coder-pig/CPWechatXposed)
+
+[WechatMagician -- 关于微信的一些操作](https://github.com/Gh0u1L5/WechatMagician)
+
+[WechatSpellbook --开源微信插件框架](https://github.com/Gh0u1L5/WechatSpellbook)
 
 **记录一些神奇的地址**
 
