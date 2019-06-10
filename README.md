@@ -22,7 +22,11 @@
 
 [Xposed基础演练——进击微信之模拟定位](projects/XposedHookWeiXin6)
 
-[Xposed基础演练——进击微信之自动秒抢微信红包](projects/XposedHookWeiXin7)
+[Xposed基础演练——进击微信之自动秒抢红包](projects/XposedHookWeiXin7)
+
+[Xposed基础演练——进击微信之修改运动步数](projects/XposedHookWeiXin8)
+
+[Xposed基础演练——进击微信之消息防撤回](projects/XposedHookWeiXin9)
 
 **UiAutomator**
 
