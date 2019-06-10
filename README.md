@@ -1,10 +1,12 @@
-#### Android逆向笔记
+#### Android逆向笔记--从入门到入土
 
-**从入门到入土**
+**预备知识**
 
 [梦幻三板斧—apktool、dex2jar、jd-gui](1.梦幻三板斧—apktool、dex2jar、jd-gui.md)
 
 [进击的gui](2.进击的gui.md)
+
+**Xposed入门**
 
 [神奇的Xposed](3.神奇的Xposed.md)
 
@@ -28,12 +30,6 @@
 
 [Xposed基础演练——进击微信之消息防撤回](projects/XposedHookWeiXin9)
 
-**UiAutomator**
-
-[UiAutomator之初探微信](projects/uiAutoMator1)
-
-[UiAutomator之骚操作](projects/uiAutoMator2)
-
 **其他Xposed项目**
 
 [Hardwarecode -- 基于xposed 修改硬件信息](https://github.com/1998lixin/Hardwarecode)
@@ -53,6 +49,16 @@
 [WechatMagician -- 关于微信的一些操作](https://github.com/Gh0u1L5/WechatMagician)
 
 [WechatSpellbook --开源微信插件框架](https://github.com/Gh0u1L5/WechatSpellbook)
+
+**UiAutomator**
+
+[UiAutomator之初探微信](projects/uiAutoMator1)
+
+[UiAutomator之骚操作](projects/uiAutoMator2)
+
+**Smali**
+
+**代码注入**
 
 **记录一些神奇的地址**
 
