@@ -72,10 +72,18 @@
 
 [看雪论坛](https://bbs.pediy.com/)
 
+[看雪学院和看雪论坛](http://www.pediy.com/)
+
 [吾爱破解](https://www.52pojie.cn/forum.php)
 
 [学逆向](https://www.xuenixiang.com/)
 
 [吾爱漏洞](http://www.52bug.cn/)
+
+[黑客与极客](http://www.freebuf.com/wenku)
+
+[奇虎360技术博客](http://blogs.360.cn/)
+
+[尼古拉斯·赵四博客](http://www.wjdiankong.cn/)
 
 [Xposed框架中文站](https://xposed.appkg.com/)
