@@ -3,7 +3,9 @@
 #### 下载单个项目/文本方法
 
 ```
-下载多项目中子项目，比如  https://github.com/HelloHuDi/Siheal/tree/master/SihealDeviceTest  ，修改 tree/master 为 trunk ，再用 git 或者 svn 下载即可，或者使用 [gitzip](http://kinolien.github.io/gitzip/)
+下载多项目中子项目，比如  https://github.com/HelloHuDi/Siheal/tree/master/SihealDeviceTest  ，
+修改 tree/master 为 trunk ，再用 git 或者 svn 下载即可，
+或者使用 gitzip --- http://kinolien.github.io/gitzip/)
 ```
 
 **预备知识**
