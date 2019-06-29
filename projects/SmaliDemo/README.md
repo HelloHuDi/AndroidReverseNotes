@@ -2,13 +2,13 @@
 
 **效果图**
 
-<img width="250px" height="500px" src="screenshot/1.png"/><img width="250px" height="500px" src="screenshot/2.png"/>
+<img width="250px" height="500px" src="screenshot/1.png"/>  <img width="250px" height="500px" src="screenshot/2.png"/>
 
 [apk反编译后MainActivity.smali文件](reverse_code/smali/com/hd/smalidemo/MainActivity.smali)
 
 [unicode与中文互转](http://tool.chinaz.com/tools/unicode.aspx)
 
-[smali语法](./smali.md)
+[smali语法](././smali.md)
 
 **反编译apk**
 

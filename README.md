@@ -68,7 +68,9 @@
 
 [smali基本语法](smali.md)
 
-**代码注入**
+[smali demo](projects/SmaliDemo)
+
+**AccessibilityService**
 
 **记录一些神奇的地址**
 
