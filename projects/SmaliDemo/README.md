@@ -8,7 +8,7 @@
 
 [unicode与中文互转](http://tool.chinaz.com/tools/unicode.aspx)
 
-[smali语法](././smali.md)
+[smali语法](../../smali.md)
 
 **反编译apk**
 

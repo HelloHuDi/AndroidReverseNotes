@@ -2,7 +2,7 @@
 
 <img src="image/nearby.png" width="280px" height="500px"/>
 
-**本工程基于[微信7.0.4版本源码](./docs/weixin_7.0.4_source)**
+**本工程基于[微信7.0.4版本源码](../../docs/weixin_7.0.4_source)**
 
 **思路分析:**
 
