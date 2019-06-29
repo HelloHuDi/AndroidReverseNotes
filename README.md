@@ -72,6 +72,14 @@
 
 **AccessibilityService**
 
+[AccessibilityService基础简介](accessibilityService.md)
+
+[AccessibilityService实战 - WeChatLuckyMoney](https://github.com/geeeeeeeeek/WeChatLuckyMoney)
+
+[AccessibilityService实战 - DingDingHelper](https://github.com/Justson/DingDingHelper)
+
+[AccessibilityService实战 - luckymoney](https://github.com/chenjishi/luckymoney)
+
 **记录一些神奇的地址**
 
 [破解工具包](https://down.52pojie.cn/Tools/Android_Tools/)
