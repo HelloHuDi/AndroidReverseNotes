@@ -78,11 +78,14 @@
 
 [smali纯英语手册pdf版](docs/smali_dalvik_opcodes.pdf)
 
+https://github.com/jsonhui/fl-android-re-tut/blob/master/1.md
+
 http://blog.csdn.net/lostinai/article/details/48975661
 
 http://blog.csdn.net/sjim_/article/details/50443860
 
 https://blog.csdn.net/jimmy5z/article/details/12119739
+
 
 
 

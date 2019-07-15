@@ -1,5 +1,7 @@
 #### Android逆向笔记--从入门到入土
 
+#### 以下内容请不要用于商业用途，否则一切后果与本人无关...善用技术!!!
+
 #### 下载单个项目/文本方法
 
 ```
@@ -42,6 +44,8 @@
 
 [Hardwarecode -- 基于xposed 修改硬件信息](https://github.com/1998lixin/Hardwarecode)
 
+[Hardwarecode -- 随意更改微信地区](https://github.com/MartinHan01/weixin_change_city)
+
 [XposedWechatHelper -- 微信辅助模块](https://github.com/wuxiaosu/XposedWechatHelper)
 
 [XposedHook -- 免重启Xposed模块改进](https://github.com/shuihuadx/XposedHook)
@@ -80,6 +84,30 @@
 
 [AccessibilityService实战 - luckymoney](https://github.com/chenjishi/luckymoney)
 
+**脱壳**
+
+[dumpDex](https://github.com/WrBug/dumpDex)
+
+[drizzleDumper](https://github.com/DrizzleRisk/drizzleDumper) [drizzleDumper demo示例](https://blog.csdn.net/fengyenom1/article/details/78652641)
+
+[ZjDroid - 1](https://github.com/KB5201314/ZjDroid)  [ZjDroid - 2](https://github.com/halfkiss/ZjDroid)
+
+[FUPK3](https://github.com/F8LEFT/FUPK3) [FUPK3 思路](https://bbs.pediy.com/thread-246117.htm)
+
+[Android脱壳圣战之---脱掉360加固壳](https://blog.csdn.net/fengyenom1/article/details/78652641)
+
+**抓包**
+
+[安卓抓包工具开发](https://www.jianshu.com/p/ae4d433597ce)
+
+[fiddler 下载](https://www.telerik.com/download/fiddler)
+
+[AndroidHttpCapture](https://github.com/JZ-Darkal/AndroidHttpCapture)
+
+[NetWorkPacketCapture -- 豌豆荚搜索：抓包精灵](https://github.com/huolizhuminh/NetWorkPacketCapture)
+
+加密
+
 **记录一些神奇的地址**
 
 [破解工具包](https://down.52pojie.cn/Tools/Android_Tools/)
@@ -97,6 +125,8 @@
 [学逆向](https://www.xuenixiang.com/)
 
 [吾爱漏洞](http://www.52bug.cn/)
+
+[先知社区](https://xz.aliyun.com/)
 
 [黑客与极客](http://www.freebuf.com/wenku)
 
