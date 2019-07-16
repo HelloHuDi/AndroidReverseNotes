@@ -96,17 +96,27 @@
 
 [Android脱壳圣战之---脱掉360加固壳](https://blog.csdn.net/fengyenom1/article/details/78652641)
 
+[破解专用虚拟机](https://www.52pojie.cn/thread-661779-1-1.html)
+
 **抓包**
 
 [安卓抓包工具开发](https://www.jianshu.com/p/ae4d433597ce)
 
-[fiddler 下载](https://www.telerik.com/download/fiddler)
+[Fiddler](https://www.telerik.com/download/fiddler)
 
-[AndroidHttpCapture](https://github.com/JZ-Darkal/AndroidHttpCapture)
+[Charles](https://www.charlesproxy.com/latest-release/) [Charles mac 破解教程](https://mp.weixin.qq.com/s/a062lldj_2aVO4qGiDI6Zg)
 
-[NetWorkPacketCapture -- 豌豆荚搜索：抓包精灵](https://github.com/huolizhuminh/NetWorkPacketCapture)
+[手机工具 - AndroidHttpCapture](https://github.com/JZ-Darkal/AndroidHttpCapture)
 
-加密
+[手机工具 - NetWorkPacketCapture -- 豌豆荚搜索：抓包精灵](https://github.com/huolizhuminh/NetWorkPacketCapture)
+
+**加密**
+
+[Android逆向实战篇(加密数据包破解)](https://blog.csdn.net/shayuchaor/article/details/83746457)
+
+**elf**
+
+[readelf命令使用说明](https://blog.csdn.net/yfldyxl/article/details/81566279)
 
 **记录一些神奇的地址**
 
